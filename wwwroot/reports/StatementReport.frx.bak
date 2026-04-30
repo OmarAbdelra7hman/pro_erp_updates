@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report ReportInfo.Created="03/24/2026 12:30:00" ReportInfo.Modified="03/24/2026 12:30:00" ReportInfo.CreatorVersion="2026.1.8.0">
+  <Dictionary>
+    <BusinessObjectDataSource Name="Items" ReferenceName="Items" DataType="null" Enabled="true">
+      <Column Name="Date" DataType="System.DateTime"/>
+      <Column Name="OperationName" DataType="System.String"/>
+      <Column Name="Reference" DataType="System.String"/>
+      <Column Name="Description" DataType="System.String"/>
+      <Column Name="Debit" DataType="System.Decimal"/>
+      <Column Name="Credit" DataType="System.Decimal"/>
+      <Column Name="Balance" DataType="System.Decimal"/>
+    </BusinessObjectDataSource>
+    <Parameter Name="CompanyName" DataType="System.String"/>
+    <Parameter Name="TaxNumber" DataType="System.String"/>
+    <Parameter Name="ReportTitle" DataType="System.String"/>
+    <Parameter Name="ContactInfo" DataType="System.String"/>
+  </Dictionary>
+  <Page Name="Page1" Watermark.Font="Arial, 60pt" RightToLeft="true">
+    <ReportTitleBand Name="ReportTitle1" Width="718.2" Height="141.75">
+      <TextObject Name="txtReportTitle" Left="189" Top="94.5" Width="340.2" Height="28.35" Text="[ReportTitle]" HorzAlign="Center" VertAlign="Center" Font="Arial, 16pt, style=Bold"/>
+      <TextObject Name="txtCompanyName" Left="425.25" Top="9.45" Width="283.5" Height="18.9" Text="[CompanyName]" HorzAlign="Right" Font="Arial, 12pt, style=Bold"/>
+      <TextObject Name="txtTax" Left="425.25" Top="28.35" Width="283.5" Height="18.9" Text="الرقم الضريبي: [TaxNumber]" HorzAlign="Right" Font="Arial, 10pt"/>
+      <TextObject Name="txtContact" Left="425.25" Top="47.25" Width="283.5" Height="37.8" Text="[ContactInfo]" HorzAlign="Right" Font="Arial, 9pt"/>
+      <PictureObject Name="Logo" Left="9.45" Top="9.45" Width="94.5" Height="94.5" SizeMode="Zoom"/>
+      <LineObject Name="Line1" Left="0" Top="132.3" Width="718.2" Border.Width="1.5"/>
+    </ReportTitleBand>
+    <PageHeaderBand Name="PageHeader1" Top="145.75" Width="718.2" Height="28.35" Fill.Color="LightGray">
+      <TextObject Name="Text1" Width="75.6" Height="28.35" Border.Lines="All" Text="التاريخ" HorzAlign="Center" VertAlign="Center" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text2" Left="75.6" Width="94.5" Height="28.35" Border.Lines="All" Text="نوع الحركة" HorzAlign="Center" VertAlign="Center" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text3" Left="170.1" Width="66.15" Height="28.35" Border.Lines="All" Text="المرجع" HorzAlign="Center" VertAlign="Center" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text4" Left="236.25" Width="226.8" Height="28.35" Border.Lines="All" Text="البيان" HorzAlign="Center" VertAlign="Center" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text5" Left="463.05" Width="85.05" Height="28.35" Border.Lines="All" Text="مدين" HorzAlign="Center" VertAlign="Center" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text6" Left="548.1" Width="85.05" Height="28.35" Border.Lines="All" Text="دائن" HorzAlign="Center" VertAlign="Center" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text7" Left="633.15" Width="85.05" Height="28.35" Border.Lines="All" Text="الرصيد" HorzAlign="Center" VertAlign="Center" Font="Arial, 10pt, style=Bold"/>
+    </PageHeaderBand>
+    <DataBand Name="Data1" Top="178.1" Width="718.2" Height="18.9" DataSource="Items">
+      <TextObject Name="Text8" Width="75.6" Height="18.9" Border.Lines="All" Text="[Items.Date]" Format="Date" Format.Format="yyyy-MM-dd" HorzAlign="Center" VertAlign="Center" Font="Arial, 9pt"/>
+      <TextObject Name="Text9" Left="75.6" Width="94.5" Height="18.9" Border.Lines="All" Text="[Items.OperationName]" HorzAlign="Center" VertAlign="Center" Font="Arial, 9pt"/>
+      <TextObject Name="Text10" Left="170.1" Width="66.15" Height="18.9" Border.Lines="All" Text="[Items.Reference]" HorzAlign="Center" VertAlign="Center" Font="Arial, 9pt"/>
+      <TextObject Name="Text11" Left="236.25" Width="226.8" Height="18.9" Border.Lines="All" Text="[Items.Description]" VertAlign="Center" Font="Arial, 9pt"/>
+      <TextObject Name="Text12" Left="463.05" Width="85.05" Height="18.9" Border.Lines="All" Text="[Items.Debit]" Format="Number" Format.UseLocale="true" HorzAlign="Right" VertAlign="Center" Font="Arial, 9pt"/>
+      <TextObject Name="Text13" Left="548.1" Width="85.05" Height="18.9" Border.Lines="All" Text="[Items.Credit]" Format="Number" Format.UseLocale="true" HorzAlign="Right" VertAlign="Center" Font="Arial, 9pt"/>
+      <TextObject Name="Text14" Left="633.15" Width="85.05" Height="18.9" Border.Lines="All" Text="[Items.Balance]" Format="Number" Format.UseLocale="true" HorzAlign="Right" VertAlign="Center" Font="Arial, 9pt"/>
+    </DataBand>
+    <PageFooterBand Name="PageFooter1" Top="201" Width="718.2" Height="18.9">
+      <TextObject Name="Text15" Left="529.2" Width="189" Height="18.9" Text="الصفحة [Page]" HorzAlign="Right" Font="Arial, 8pt"/>
+      <TextObject Name="Text16" Width="189" Height="18.9" Text="تاريخ الطباعة: [Date]" HorzAlign="Left" Font="Arial, 8pt"/>
+    </PageFooterBand>
+  </Page>
+</Report>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report ReportInfo.Created="03/24/2026 12:30:00" ReportInfo.Modified="03/24/2026 19:20:00" ReportInfo.CreatorVersion="2026.1.8.0">
+  <Dictionary>
+    <BusinessObjectDataSource Name="Voucher" ReferenceName="Voucher" DataType="null" Enabled="true">
+      <Column Name="Id" DataType="System.Int32"/>
+      <Column Name="OperationDate" DataType="System.DateTime"/>
+      <Column Name="Amount" DataType="System.Decimal"/>
+      <Column Name="FromAccountName" DataType="System.String"/>
+      <Column Name="ToAccountName" DataType="System.String"/>
+      <Column Name="Notes" DataType="System.String"/>
+      <Column Name="OperationTypeName" DataType="System.String"/>
+      <Column Name="CreatedBy" DataType="System.String"/>
+      <Column Name="CreatedAt" DataType="System.DateTime"/>
+    </BusinessObjectDataSource>
+    <Parameter Name="CompanyName" DataType="System.String"/>
+    <Parameter Name="TaxNumber" DataType="System.String"/>
+    <Parameter Name="ReportTitle" DataType="System.String"/>
+    <Parameter Name="ContactInfo" DataType="System.String"/>
+    <Parameter Name="VoucherType" DataType="System.String"/>
+    <Parameter Name="Currency" DataType="System.String"/>
+    <Parameter Name="PrintedBy" DataType="System.String"/>
+  </Dictionary>
+  <ReportPage Name="Page1" Watermark.Font="Arial, 60pt" PaperWidth="210" PaperHeight="297" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10">
+
+    <!-- ═══════════════════ REPORT TITLE BAND ═══════════════════ -->
+    <ReportTitleBand Name="ReportTitle1" Width="718.2" Height="380">
+      <!-- Logo on the LEFT -->
+      <PictureObject Name="Logo" Left="623.7" Top="9.45" Width="85" Height="85" SizeMode="Zoom"/>
+      <!-- Company Name on the RIGHT -->
+      <TextObject Name="txtCompanyName" Left="9.45" Top="9.45" Width="330.75" Height="28.35" Text="[CompanyName]" HorzAlign="Left" VertAlign="Center" Font="Arial, 14pt, style=Bold" TextColor="DarkBlue"/>
+      <!-- Tax Number -->
+      <TextObject Name="txtTax" Left="9.45" Top="37.8" Width="330.75" Height="18.9" Text="الرقم الضريبي: [TaxNumber]" HorzAlign="Left" VertAlign="Center" Font="Arial, 9pt" TextColor="Gray"/>
+      <!-- Contact Info -->
+      <TextObject Name="txtContact" Left="9.45" Top="56.7" Width="330.75" Height="28.35" Text="[ContactInfo]" HorzAlign="Left" VertAlign="Center" Font="Arial, 8pt" TextColor="Gray"/>
+      <!-- Separator -->
+      <LineObject Name="Line1" Left="0" Top="95" Width="718.2" Border.Color="DarkBlue" Border.Width="2"/>
+      <!-- Report Title -->
+      <TextObject Name="txtReportTitle" Left="189" Top="100" Width="340.2" Height="28.35" Text="[ReportTitle]" HorzAlign="Center" VertAlign="Center" Font="Arial, 18pt, style=Bold" TextColor="DarkBlue" />
+
+      <!-- Voucher Information -->
+      <TextObject Name="lblVoucherNumber" Left="600" Top="150" Width="100" Height="20" Text="رقم السند:" HorzAlign="Right" Font="Arial, 12pt, style=Bold"/>
+      <TextObject Name="valVoucherNumber" Left="300" Top="150" Width="290" Height="20" Text="[Voucher.Id]" HorzAlign="Right" Font="Arial, 12pt"/>
+
+      <TextObject Name="lblVoucherDate" Left="600" Top="180" Width="100" Height="20" Text="التاريخ:" HorzAlign="Right" Font="Arial, 11pt, style=Bold"/>
+      <TextObject Name="valVoucherDate" Left="300" Top="180" Width="290" Height="20" Text="[Voucher.OperationDate]" Format="Date" Format.Format="yyyy/MM/dd" HorzAlign="Right" Font="Arial, 11pt"/>
+
+      <TextObject Name="lblAmount" Left="600" Top="210" Width="100" Height="20" Text="المبلغ:" HorzAlign="Right" Font="Arial, 12pt, style=Bold"/>
+      <TextObject Name="valAmount" Left="200" Top="210" Width="390" Height="20" Text="[Voucher.Amount]" Format="Number" Format.UseLocale="false" Format.DecimalDigits="2" Format.DecimalSeparator="." Format.GroupSeparator="," HorzAlign="Right" Font="Arial, 14pt, style=Bold" TextColor="DarkBlue"/>
+      <TextObject Name="lblCurrency" Left="50" Top="210" Width="140" Height="20" Text="[Currency]" HorzAlign="Right" Font="Arial, 10pt"/>
+
+      <TextObject Name="lblFrom" Left="550" Top="250" Width="150" Height="20" Text="من حساب:" HorzAlign="Right" Font="Arial, 11pt, style=Bold"/>
+      <TextObject Name="valFrom" Left="100" Top="250" Width="440" Height="20" Text="[Voucher.FromAccountName]" HorzAlign="Right" Font="Arial, 11pt"/>
+
+      <TextObject Name="lblTo" Left="550" Top="280" Width="150" Height="20" Text="إلى حساب:" HorzAlign="Right" Font="Arial, 11pt, style=Bold"/>
+      <TextObject Name="valTo" Left="100" Top="280" Width="440" Height="20" Text="[Voucher.ToAccountName]" HorzAlign="Right" Font="Arial, 11pt"/>
+
+      <TextObject Name="lblNotes" Left="550" Top="320" Width="150" Height="20" Text="البيان:" HorzAlign="Right" Font="Arial, 11pt, style=Bold"/>
+      <TextObject Name="valNotes" Left="100" Top="320" Width="440" Height="40" Text="[Voucher.Notes]" HorzAlign="Right" VertAlign="Top" Font="Arial, 11pt"/>
+    </ReportTitleBand>
+
+    <!-- ═══════════════════ DATA BAND (Empty since we put it in title) ═══════════════════ -->
+    <DataBand Name="Data1" Top="385" Width="718.2" Height="0" DataSource="Voucher">
+    </DataBand>
+
+    <!-- ═══════════════════ REPORT SUMMARY ═══════════════════ -->
+    <ReportSummaryBand Name="ReportSummary1" Top="390" Width="718.2" Height="100">
+      <LineObject Name="Line3" Left="0" Top="2" Width="718.2" Border.Color="LightGray" Border.Width="1"/>
+      
+      <TextObject Name="txtSignLabel1" Left="500" Top="30" Width="200" Height="20" Text="توقيع المستلم:" HorzAlign="Center" Font="Arial, 11pt, style=Bold"/>
+      <TextObject Name="txtSignLine1" Left="500" Top="60" Width="200" Height="20" Text="____________________" HorzAlign="Center" Font="Arial, 11pt"/>
+
+      <TextObject Name="txtSignLabel2" Left="50" Top="30" Width="200" Height="20" Text="توقيع المحاسب:" HorzAlign="Center" Font="Arial, 11pt, style=Bold"/>
+      <TextObject Name="txtSignLine2" Left="50" Top="60" Width="200" Height="20" Text="____________________" HorzAlign="Center" Font="Arial, 11pt"/>
+    </ReportSummaryBand>
+
+    <!-- ═══════════════════ PAGE FOOTER ═══════════════════ -->
+    <PageFooterBand Name="PageFooter1" Top="500" Width="718.2" Height="22">
+      <LineObject Name="LineFooter" Left="0" Top="0" Width="718.2" Border.Color="LightGray" Border.Width="0.5"/>
+      <TextObject Name="txtPoweredBy" Left="250"   Width="218.2" Height="20" Top="2" Text="ProERP System" HorzAlign="Center" Font="Arial, 7pt" TextColor="LightGray"/>
+      <TextObject Name="txtPrintDate" Left="529.2" Width="189"   Height="20" Top="2" Text="تاريخ الطباعة: [Date]" HorzAlign="Right" Font="Arial, 7pt" TextColor="Gray"/>
+      <TextObject Name="txtPrintedBy" Left="0"     Width="200"   Height="20" Top="2" Text="طُبع بواسطة [PrintedBy]" HorzAlign="Left" Font="Arial, 7pt" TextColor="Gray"/>
+    </PageFooterBand>
+    
+  </ReportPage>
+</Report>

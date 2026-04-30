@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="03/24/2026 12:30:00" ReportInfo.Modified="04/20/2026 21:00:00" ReportInfo.CreatorVersion="2026.1.8.0">
+  <Dictionary>
+    <BusinessObjectDataSource Name="Voucher" ReferenceName="Voucher" DataType="null" Enabled="true">
+      <Column Name="Id" DataType="System.Int32"/>
+      <Column Name="OperationDate" DataType="System.DateTime"/>
+      <Column Name="Amount" DataType="System.Decimal"/>
+      <Column Name="FromAccountName" DataType="System.String"/>
+      <Column Name="ToAccountName" DataType="System.String"/>
+      <Column Name="Notes" DataType="System.String"/>
+      <Column Name="OperationTypeName" DataType="System.String"/>
+      <Column Name="CreatedBy" DataType="System.String"/>
+      <Column Name="CreatedAt" DataType="System.DateTime"/>
+    </BusinessObjectDataSource>
+    <Parameter Name="CompanyName" DataType="System.String"/>
+    <Parameter Name="TaxNumber" DataType="System.String"/>
+    <Parameter Name="ReportTitle" DataType="System.String"/>
+    <Parameter Name="ContactInfo" DataType="System.String"/>
+    <Parameter Name="VoucherType" DataType="System.String"/>
+    <Parameter Name="Currency" DataType="System.String"/>
+    <Parameter Name="PrintedBy" DataType="System.String"/>
+  </Dictionary>
+  <ReportPage Name="Page1" PaperWidth="72" PaperHeight="200" LeftMargin="3" TopMargin="3" RightMargin="3" BottomMargin="3">
+    <ReportTitleBand Name="ReportTitle1" Width="249.48" Height="470">
+
+      <!-- ===== HEADER ===== -->
+      <TextObject Name="txtCompanyName" Left="0" Top="5" Width="249.48" Height="22" Text="[CompanyName]" HorzAlign="Center" VertAlign="Center" Font="Arial, 12pt, style=Bold"/>
+      <TextObject Name="txtTax" Left="0" Top="27" Width="249.48" Height="15" Text="[TaxNumber]" HorzAlign="Center" Font="Arial, 8pt" TextColor="Gray"/>
+
+      <!-- ===== SEPARATOR ===== -->
+      <TextObject Name="sep1" Left="0" Top="45" Width="249.48" Height="10" Text="================================" HorzAlign="Center" Font="Arial, 8pt"/>
+
+      <!-- ===== TITLE ===== -->
+      <TextObject Name="txtTitle" Left="0" Top="58" Width="249.48" Height="28" Text="[ReportTitle]" HorzAlign="Center" VertAlign="Center" Font="Arial, 16pt, style=Bold"/>
+
+      <!-- ===== SEPARATOR ===== -->
+      <TextObject Name="sep2" Left="0" Top="88" Width="249.48" Height="10" Text="================================" HorzAlign="Center" Font="Arial, 8pt"/>
+
+      <!-- ===== VOUCHER INFO ===== -->
+      <TextObject Name="row1" Left="0" Top="102" Width="249.48" Height="18" Text="رقم السند:  [Voucher.Id]" HorzAlign="Center" Font="Arial, 11pt, style=Bold"/>
+      <TextObject Name="row2" Left="0" Top="124" Width="249.48" Height="18" Text="التاريخ:  [Voucher.OperationDate]" Format="Date" Format.Format="yyyy/MM/dd" HorzAlign="Center" Font="Arial, 11pt"/>
+
+      <!-- ===== SEPARATOR ===== -->
+      <TextObject Name="sep3" Left="0" Top="148" Width="249.48" Height="10" Text="--------------------------------" HorzAlign="Center" Font="Arial, 8pt"/>
+
+      <!-- ===== AMOUNT (BIG) ===== -->
+      <TextObject Name="lblAmount" Left="0" Top="162" Width="249.48" Height="18" Text="المبلغ" HorzAlign="Center" Font="Arial, 12pt, style=Bold"/>
+      <TextObject Name="valAmount" Left="0" Top="182" Width="249.48" Height="35" Text="[Voucher.Amount]" Format="Number" Format.UseLocale="false" Format.DecimalDigits="2" Format.DecimalSeparator="." Format.GroupSeparator="," HorzAlign="Center" VertAlign="Center" Font="Arial, 22pt, style=Bold"/>
+      <TextObject Name="valCurrency" Left="0" Top="218" Width="249.48" Height="18" Text="[Currency]" HorzAlign="Center" Font="Arial, 11pt"/>
+
+      <!-- ===== SEPARATOR ===== -->
+      <TextObject Name="sep4" Left="0" Top="242" Width="249.48" Height="10" Text="--------------------------------" HorzAlign="Center" Font="Arial, 8pt"/>
+
+      <!-- ===== FROM ===== -->
+      <TextObject Name="lblFrom" Left="0" Top="258" Width="249.48" Height="18" Text="من حساب:" HorzAlign="Center" Font="Arial, 11pt, style=Bold"/>
+      <TextObject Name="valFrom" Left="0" Top="278" Width="249.48" Height="18" Text="[Voucher.FromAccountName]" HorzAlign="Center" Font="Arial, 11pt"/>
+
+      <!-- ===== TO ===== -->
+      <TextObject Name="lblTo" Left="0" Top="302" Width="249.48" Height="18" Text="إلى حساب:" HorzAlign="Center" Font="Arial, 11pt, style=Bold"/>
+      <TextObject Name="valTo" Left="0" Top="322" Width="249.48" Height="18" Text="[Voucher.ToAccountName]" HorzAlign="Center" Font="Arial, 11pt"/>
+
+      <!-- ===== SEPARATOR ===== -->
+      <TextObject Name="sep5" Left="0" Top="346" Width="249.48" Height="10" Text="--------------------------------" HorzAlign="Center" Font="Arial, 8pt"/>
+
+      <!-- ===== NOTES ===== -->
+      <TextObject Name="lblNotes" Left="0" Top="360" Width="249.48" Height="18" Text="البيان:" HorzAlign="Center" Font="Arial, 11pt, style=Bold"/>
+      <TextObject Name="valNotes" Left="0" Top="380" Width="249.48" Height="30" Text="[Voucher.Notes]" HorzAlign="Center" Font="Arial, 10pt"/>
+
+      <!-- ===== SEPARATOR ===== -->
+      <TextObject Name="sep6" Left="0" Top="415" Width="249.48" Height="10" Text="================================" HorzAlign="Center" Font="Arial, 8pt"/>
+
+      <!-- ===== SIGNATURES ===== -->
+      <TextObject Name="sign1" Left="125" Top="430" Width="124.48" Height="18" Text="المستلم: ............" HorzAlign="Center" Font="Arial, 9pt"/>
+      <TextObject Name="sign2" Left="0" Top="430" Width="124.48" Height="18" Text="المحاسب: ............" HorzAlign="Center" Font="Arial, 9pt"/>
+
+      <!-- ===== FOOTER ===== -->
+      <TextObject Name="txtPrintedBy" Left="0" Top="452" Width="249.48" Height="14" Text="[PrintedBy]" HorzAlign="Center" Font="Arial, 7pt" TextColor="Gray"/>
+
+    </ReportTitleBand>
+  </ReportPage>
+</Report>

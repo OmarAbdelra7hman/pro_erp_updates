@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report ReportInfo.Created="03/24/2026 12:30:00" ReportInfo.Modified="03/24/2026 19:20:00" ReportInfo.CreatorVersion="2026.1.8.0">
+  <Dictionary>
+    <BusinessObjectDataSource Name="Items" ReferenceName="Items" DataType="null" Enabled="true">
+      <Column Name="Date" DataType="System.DateTime"/>
+      <Column Name="InvoiceNumber" DataType="System.String"/>
+      <Column Name="OperationTypeName" DataType="System.String"/>
+      <Column Name="CustomerName" DataType="System.String"/>
+      <Column Name="GrossTotal" DataType="System.Decimal"/>
+      <Column Name="DiscountValue" DataType="System.Decimal"/>
+      <Column Name="NetRevenue" DataType="System.Decimal"/>
+      <Column Name="TotalCogs" DataType="System.Decimal"/>
+      <Column Name="NetProfit" DataType="System.Decimal"/>
+    </BusinessObjectDataSource>
+    <Parameter Name="CompanyName" DataType="System.String"/>
+    <Parameter Name="TaxNumber" DataType="System.String"/>
+    <Parameter Name="ReportTitle" DataType="System.String"/>
+    <Parameter Name="ContactInfo" DataType="System.String"/>
+    <Parameter Name="DateFrom" DataType="System.String"/>
+    <Parameter Name="DateTo" DataType="System.String"/>
+    <Parameter Name="FiltersApplied" DataType="System.String"/>
+    <Parameter Name="PrintedBy" DataType="System.String"/>
+    <Parameter Name="SumGross" DataType="System.String"/>
+    <Parameter Name="SumDiscount" DataType="System.String"/>
+    <Parameter Name="SumRevenue" DataType="System.String"/>
+    <Parameter Name="SumCogs" DataType="System.String"/>
+    <Parameter Name="SumProfit" DataType="System.String"/>
+  </Dictionary>
+  <ReportPage Name="Page1" Watermark.Font="Arial, 60pt" PaperWidth="210" PaperHeight="297" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10">
+
+    <ReportTitleBand Name="ReportTitle1" Width="718.2" Height="140">
+      <PictureObject Name="Logo" Left="0" Top="0" Width="100" Height="80" SizeMode="StretchImage"/>
+      
+      <TextObject Name="txtCompanyName" Left="453.2" Top="0" Width="265" Height="25" Text="[CompanyName]" Font="Arial, 16pt, style=Bold" HorzAlign="Right" VertAlign="Center"/>
+      <TextObject Name="txtTaxNumber"   Left="453.2" Top="25" Width="265" Height="15" Text="الرقم الضريبي: [TaxNumber]" Font="Arial, 10pt" HorzAlign="Right"/>
+      <TextObject Name="txtContact"     Left="453.2" Top="40" Width="265" Height="40" Text="[ContactInfo]" Font="Arial, 9pt" HorzAlign="Right" TextColor="DimGray"/>
+
+      <TextObject Name="txtReportTitle" Left="0" Top="85" Width="718.2" Height="30" Text="[ReportTitle]" Font="Arial, 18pt, style=Bold" HorzAlign="Center" VertAlign="Center" TextColor="27, 42, 78"/>
+      
+      <TextObject Name="txtFilters" Left="0" Top="120" Width="718.2" Height="20" Text="[FiltersApplied]" Font="Arial, 9pt, style=Bold" HorzAlign="Center" VertAlign="Center" TextColor="Red"/>
+    </ReportTitleBand>
+
+    <PageHeaderBand Name="PageHeader1" Top="144" Width="718.2" Height="25" Fill.Color="27, 42, 78">
+      <TextObject Name="hDate"       Left="633.2" Width="85"  Height="25" Text="التاريخ" HorzAlign="Center" VertAlign="Center" Font="Arial, 10pt, style=Bold" TextColor="White" Border.Lines="All" Border.Color="LightGray"/>
+      <TextObject Name="hInvoice"    Left="553.2" Width="80"  Height="25" Text="رقم الفاتورة" HorzAlign="Center" VertAlign="Center" Font="Arial, 10pt, style=Bold" TextColor="White" Border.Lines="All" Border.Color="LightGray"/>
+      <TextObject Name="hOpType"     Left="473.2" Width="80"  Height="25" Text="نوع العملية" HorzAlign="Center" VertAlign="Center" Font="Arial, 10pt, style=Bold" TextColor="White" Border.Lines="All" Border.Color="LightGray"/>
+      <TextObject Name="hCustomer"   Left="260.2" Width="213" Height="25" Text="العميل" HorzAlign="Center" VertAlign="Center" Font="Arial, 10pt, style=Bold" TextColor="White" Border.Lines="All" Border.Color="LightGray"/>
+      <TextObject Name="hNetRev"     Left="175.2" Width="85"  Height="25" Text="الإيرادات" HorzAlign="Center" VertAlign="Center" Font="Arial, 10pt, style=Bold" TextColor="White" Border.Lines="All" Border.Color="LightGray"/>
+      <TextObject Name="hCogs"       Left="90.2"  Width="85"  Height="25" Text="التكلفة" HorzAlign="Center" VertAlign="Center" Font="Arial, 10pt, style=Bold" TextColor="White" Border.Lines="All" Border.Color="LightGray"/>
+      <TextObject Name="hNetProfit"  Left="0"     Width="90"  Height="25" Text="صافي الربح" HorzAlign="Center" VertAlign="Center" Font="Arial, 10pt, style=Bold" TextColor="White" Border.Lines="All" Border.Color="LightGray"/>
+    </PageHeaderBand>
+
+    <DataBand Name="Data1" Top="173" Width="718.2" Height="20" DataSource="Items">
+      <TextObject Name="ValDate"    Left="633.2" Width="85"  Height="20" Border.Lines="All" Border.Color="LightGray" Text="[Items.Date]"          Format="Date" Format.Format="yyyy-MM-dd" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/>
+      <TextObject Name="ValInvoice" Left="553.2" Width="80"  Height="20" Border.Lines="All" Border.Color="LightGray" Text="[Items.InvoiceNumber]" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/>
+      <TextObject Name="ValOpType"  Left="473.2" Width="80"  Height="20" Border.Lines="All" Border.Color="LightGray" Text="[Items.OperationTypeName]" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/>
+      <TextObject Name="ValCust"    Left="260.2" Width="213" Height="20" Border.Lines="All" Border.Color="LightGray" Text="[Items.CustomerName]"    HorzAlign="Right" VertAlign="Center" Font="Arial, 8pt"/>
+      <TextObject Name="ValNetRev"  Left="175.2" Width="85"  Height="20" Border.Lines="All" Border.Color="LightGray" Text="[Items.NetRevenue]" Format="Number" Format.UseLocale="false" Format.DecimalDigits="2" Format.DecimalSeparator="." Format.GroupSeparator="," Format.NegativePattern="1" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt, style=Bold" TextColor="Blue"/>
+      <TextObject Name="ValCogs"    Left="90.2"  Width="85"  Height="20" Border.Lines="All" Border.Color="LightGray" Text="[Items.TotalCogs]"  Format="Number" Format.UseLocale="false" Format.DecimalDigits="2" Format.DecimalSeparator="." Format.GroupSeparator="," Format.NegativePattern="1" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt" TextColor="Red"/>
+      <TextObject Name="ValNetProf" Left="0"     Width="90"  Height="20" Border.Lines="All" Border.Color="LightGray" Text="[Items.NetProfit]"  Format="Number" Format.UseLocale="false" Format.DecimalDigits="2" Format.DecimalSeparator="." Format.GroupSeparator="," Format.NegativePattern="1" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt, style=Bold" TextColor="Green"/>
+    </DataBand>
+
+    <ReportSummaryBand Name="ReportSummary1" Top="197" Width="718.2" Height="80">
+      <LineObject Name="Line3" Left="0" Top="2" Width="718.2" Border.Color="DarkBlue" Border.Width="1.5"/>
+      <TextObject Name="txtTotalsLabel" Left="260.2" Width="458" Height="22" Top="5" Text="الإجمالي" HorzAlign="Center" VertAlign="Center" Font="Arial, 10pt, style=Bold" TextColor="DarkBlue"/>
+      
+      <TextObject Name="txtSumRev"     Left="175.2" Width="85"  Height="22" Top="5" Text="[SumRevenue]"  HorzAlign="Center" VertAlign="Center" Font="Arial, 10pt, style=Bold" TextColor="Blue" Fill.Color="238, 238, 255"/>
+      <TextObject Name="txtSumCogs"    Left="90.2"  Width="85"  Height="22" Top="5" Text="[SumCogs]" HorzAlign="Center" VertAlign="Center" Font="Arial, 10pt, style=Bold" TextColor="Red" Fill.Color="255, 235, 238"/>
+      <TextObject Name="txtSumProf"    Left="0"     Width="90"  Height="22" Top="5" Text="[SumProfit]" HorzAlign="Center" VertAlign="Center" Font="Arial, 10pt, style=Bold" TextColor="Green" Fill.Color="232, 245, 233"/>
+
+      <TextObject Name="txtPrintedBy" Left="453.2" Top="60" Width="265" Height="18.9" Text="طُبع بواسطة: [PrintedBy]" HorzAlign="Right" VertAlign="Bottom" Font="Arial, 8pt" TextColor="Gray"/>
+    </ReportSummaryBand>
+
+    <PageFooterBand Name="PageFooter1" Top="281" Width="718.2" Height="18.9">
+      <TextObject Name="TextPageNo" Left="0" Top="0" Width="718.2" Height="18.9" Text="صفحة [Page] من [TotalPages]" HorzAlign="Center" Font="Arial, 8pt"/>
+    </PageFooterBand>
+  </ReportPage>
+</Report>

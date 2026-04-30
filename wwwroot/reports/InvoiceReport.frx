@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="04/28/2026" ReportInfo.Modified="04/28/2026" ReportInfo.CreatorVersion="2026.1.8.0">
+  <Dictionary>
+    <BusinessObjectDataSource Name="Invoice" ReferenceName="Invoice" DataType="System.Collections.Generic.List`1[[System.Object]]" Enabled="true">
+      <Column Name="OperationId" DataType="System.Int32"/>
+      <Column Name="InvoiceNumber" DataType="System.String"/>
+      <Column Name="Date" DataType="System.DateTime"/>
+      <Column Name="OperationTypeId" DataType="System.Int32"/>
+      <Column Name="OperationTypeName" DataType="System.String"/>
+      <Column Name="SupplierId" DataType="System.Int32"/>
+      <Column Name="SupplierName" DataType="System.String"/>
+      <Column Name="CustomerId" DataType="System.Int32"/>
+      <Column Name="CustomerName" DataType="System.String"/>
+      <Column Name="StoreId" DataType="System.Int32"/>
+      <Column Name="StoreName" DataType="System.String"/>
+      <Column Name="BranchId" DataType="System.Int32"/>
+      <Column Name="BranchName" DataType="System.String"/>
+      <Column Name="SubTotal" DataType="System.Decimal"/>
+      <Column Name="TaxTotal" DataType="System.Decimal"/>
+      <Column Name="DiscountTotal" DataType="System.Decimal"/>
+      <Column Name="GrandTotal" DataType="System.Decimal"/>
+      <Column Name="DiscountPercentage" DataType="System.Decimal"/>
+      <Column Name="DiscountValue" DataType="System.Decimal"/>
+      <Column Name="AdditionPercentage" DataType="System.Decimal"/>
+      <Column Name="AdditionValue" DataType="System.Decimal"/>
+      <Column Name="PaymentAmount" DataType="System.Decimal"/>
+      <Column Name="PaymentAccountName" DataType="System.String"/>
+      <Column Name="Notes" DataType="System.String"/>
+      <BusinessObjectDataSource Name="Lines" ReferenceName="Invoice.Lines" DataType="System.Collections.Generic.List`1[[System.Object]]" Enabled="true">
+        <Column Name="Id" DataType="System.Int32"/>
+        <Column Name="ItemId" DataType="System.Int32"/>
+        <Column Name="ItemCode" DataType="System.String"/>
+        <Column Name="ItemName" DataType="System.String"/>
+        <Column Name="UnitId" DataType="System.Int32"/>
+        <Column Name="UnitName" DataType="System.String"/>
+        <Column Name="Quantity" DataType="System.Decimal"/>
+        <Column Name="UnitPrice" DataType="System.Decimal"/>
+        <Column Name="DiscountPercent" DataType="System.Decimal"/>
+        <Column Name="TaxPercent" DataType="System.Decimal"/>
+        <Column Name="LineTotal" DataType="System.Decimal"/>
+        <Column Name="Notes" DataType="System.String"/>
+      </BusinessObjectDataSource>
+    </BusinessObjectDataSource>
+    <Parameter Name="CompanyName" DataType="System.String"/>
+    <Parameter Name="TaxNumber" DataType="System.String"/>
+    <Parameter Name="ContactInfo" DataType="System.String"/>
+    <Parameter Name="ReportTitle" DataType="System.String"/>
+    <Parameter Name="InvoiceType" DataType="System.String"/>
+    <Parameter Name="Currency" DataType="System.String"/>
+    <Parameter Name="PrintedBy" DataType="System.String"/>
+    <Parameter Name="SalesInvoiceText" DataType="System.String"/>
+  </Dictionary>
+
+  <ReportPage Name="Page1" Watermark.Font="Arial, 60pt" PaperWidth="210" PaperHeight="297" LeftMargin="10" RightMargin="10" TopMargin="8" BottomMargin="8">
+
+    <!-- ═══════════════ PAGE HEADER ═══════════════ -->
+    <PageHeaderBand Name="PageHeader1" Width="718.2" Height="88">
+      <!-- Logo top-left -->
+      <PictureObject Name="Logo" Left="2" Top="4" Width="98" Height="55" SizeMode="Zoom"/>
+      <!-- Company info right-aligned -->
+      <TextObject Name="txtCompanyName" Left="104" Top="4"  Width="614" Height="22" Text="[CompanyName]" HorzAlign="Right" VertAlign="Center" Font="Arial, 14pt, style=Bold" TextColor="30,64,130"/>
+      <TextObject Name="txtTaxNumber"   Left="104" Top="26" Width="614" Height="14" Text="الرقم الضريبي: [TaxNumber]" HorzAlign="Right" VertAlign="Center" Font="Arial, 8pt" TextColor="110,110,110"/>
+      <TextObject Name="txtContactInfo" Left="104" Top="40" Width="614" Height="16" Text="[ContactInfo]" HorzAlign="Right" VertAlign="Center" Font="Arial, 7.5pt" TextColor="110,110,110"/>
+      <!-- Accent line -->
+      <LineObject Name="HeaderLine" Left="0" Top="62" Width="718.2" Border.Color="30,64,130" Border.Width="2"/>
+      <!-- Report title centered -->
+      <TextObject Name="txtReportTitle" Left="160" Top="66" Width="398" Height="20" Text="[ReportTitle]" HorzAlign="Center" VertAlign="Center" Font="Arial, 13pt, style=Bold" TextColor="30,64,130"/>
+    </PageHeaderBand>
+
+    <!-- ═══════════════ INVOICE METADATA ═══════════════ -->
+    <DataBand Name="DataInvoice" Top="92" Width="718.2" Height="68">
+      <!-- Card background -->
+      <ShapeObject Name="MetaBg" Left="0" Top="0" Width="718.2" Height="62" Fill.Color="248,249,252" Border.Color="225,228,232" Border.Width="0.5" Shape="RoundRectangle"/>
+
+      <!-- RIGHT half: Invoice number / Date / Store -->
+      <TextObject Name="valInvNum"   Left="418" Top="5"  Width="160" Height="16" Text="[Invoice.InvoiceNumber]" HorzAlign="Left"  VertAlign="Center" Font="Arial, 10pt, style=Bold" TextColor="30,64,130"/>
+      <TextObject Name="lblInvNum"   Left="583" Top="5"  Width="128" Height="16" Text="رقم الفاتورة"            HorzAlign="Right" VertAlign="Center" Font="Arial, 9pt, style=Bold" TextColor="70,70,70" RightToLeft="true"/>
+
+      <TextObject Name="valDate"     Left="418" Top="23" Width="160" Height="16" Text="[Invoice.Date]" Format="Date" Format.Format="yyyy/MM/dd" HorzAlign="Left" VertAlign="Center" Font="Arial, 9pt" TextColor="50,50,50"/>
+      <TextObject Name="lblDate"     Left="583" Top="23" Width="128" Height="16" Text="التاريخ"                  HorzAlign="Right" VertAlign="Center" Font="Arial, 9pt, style=Bold" TextColor="70,70,70" RightToLeft="true"/>
+
+      <TextObject Name="valStore"    Left="418" Top="41" Width="160" Height="16" Text="[Invoice.StoreName]"     HorzAlign="Left"  VertAlign="Center" Font="Arial, 9pt" TextColor="50,50,50" RightToLeft="true"/>
+      <TextObject Name="lblStore"    Left="583" Top="41" Width="128" Height="16" Text="المخزن"                   HorzAlign="Right" VertAlign="Center" Font="Arial, 9pt, style=Bold" TextColor="70,70,70" RightToLeft="true"/>
+
+      <!-- Vertical divider -->
+      <LineObject Name="MetaDiv" Left="400" Top="6" Width="0" Height="50" Border.Color="215,215,215" Border.Width="0.5"/>
+
+      <!-- LEFT half: Customer / Branch -->
+      <TextObject Name="valCustomer" Left="8"   Top="5"  Width="180" Height="16" Text="[IIf([Invoice.CustomerName]!=&quot;&quot;,[Invoice.CustomerName],[Invoice.SupplierName])]" HorzAlign="Left" VertAlign="Center" Font="Arial, 10pt, style=Bold" TextColor="30,64,130" RightToLeft="true"/>
+      <TextObject Name="lblCustomer" Left="195" Top="5"  Width="195" Height="16" Text="العميل / المورد"         HorzAlign="Right" VertAlign="Center" Font="Arial, 9pt, style=Bold" TextColor="70,70,70" RightToLeft="true"/>
+
+      <TextObject Name="valBranch"   Left="8"   Top="23" Width="180" Height="16" Text="[Invoice.BranchName]"    HorzAlign="Left"  VertAlign="Center" Font="Arial, 9pt" TextColor="50,50,50" RightToLeft="true"/>
+      <TextObject Name="lblBranch"   Left="195" Top="23" Width="195" Height="16" Text="الفرع"                    HorzAlign="Right" VertAlign="Center" Font="Arial, 9pt, style=Bold" TextColor="70,70,70" RightToLeft="true"/>
+    </DataBand>
+
+    <!-- ═══════════════ TABLE HEADER (RTL: first col on RIGHT) ═══════════════ -->
+    <GroupHeaderBand Name="GroupHeader1" Top="164" Width="718.2" Height="24" Condition="[Invoice.InvoiceNumber]">
+      <TextObject Name="thNum"    Left="678" Top="0" Width="40"   Height="24" Text="م"          HorzAlign="Center" VertAlign="Center" Font="Arial, 9pt, style=Bold" TextColor="White" Fill.Color="30,64,130" Border.Lines="All" Border.Color="25,55,120"/>
+      <TextObject Name="thCode"   Left="603" Top="0" Width="75"   Height="24" Text="الكود"      HorzAlign="Center" VertAlign="Center" Font="Arial, 9pt, style=Bold" TextColor="White" Fill.Color="30,64,130" Border.Lines="All" Border.Color="25,55,120"/>
+      <TextObject Name="thName"   Left="408" Top="0" Width="195"  Height="24" Text="اسم الصنف"  HorzAlign="Center" VertAlign="Center" Font="Arial, 9pt, style=Bold" TextColor="White" Fill.Color="30,64,130" Border.Lines="All" Border.Color="25,55,120"/>
+      <TextObject Name="thUnit"   Left="343" Top="0" Width="65"   Height="24" Text="الوحدة"     HorzAlign="Center" VertAlign="Center" Font="Arial, 9pt, style=Bold" TextColor="White" Fill.Color="30,64,130" Border.Lines="All" Border.Color="25,55,120"/>
+      <TextObject Name="thQty"    Left="283" Top="0" Width="60"   Height="24" Text="الكمية"     HorzAlign="Center" VertAlign="Center" Font="Arial, 9pt, style=Bold" TextColor="White" Fill.Color="30,64,130" Border.Lines="All" Border.Color="25,55,120"/>
+      <TextObject Name="thPrice"  Left="208" Top="0" Width="75"   Height="24" Text="السعر"      HorzAlign="Center" VertAlign="Center" Font="Arial, 9pt, style=Bold" TextColor="White" Fill.Color="30,64,130" Border.Lines="All" Border.Color="25,55,120"/>
+      <TextObject Name="thDisc"   Left="153" Top="0" Width="55"   Height="24" Text="خصم%"       HorzAlign="Center" VertAlign="Center" Font="Arial, 9pt, style=Bold" TextColor="White" Fill.Color="30,64,130" Border.Lines="All" Border.Color="25,55,120"/>
+      <TextObject Name="thTax"    Left="98"  Top="0" Width="55"   Height="24" Text="ضريبة%"     HorzAlign="Center" VertAlign="Center" Font="Arial, 9pt, style=Bold" TextColor="White" Fill.Color="30,64,130" Border.Lines="All" Border.Color="25,55,120"/>
+      <TextObject Name="thTotal"  Left="0"   Top="0" Width="98"   Height="24" Text="الإجمالي"   HorzAlign="Center" VertAlign="Center" Font="Arial, 9pt, style=Bold" TextColor="White" Fill.Color="30,64,130" Border.Lines="All" Border.Color="25,55,120"/>
+
+      <!-- ═══════════════ DATA ROWS ═══════════════ -->
+      <DataBand Name="DataLines" Top="190" Width="718.2" Height="22" DataSource="Lines" EvenFill.Color="245,247,252">
+        <TextObject Name="tdNum"    Left="678" Top="0" Width="40"   Height="22" Text="[Row#]"                         HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"            Border.Lines="All" Border.Color="220,222,225"/>
+        <TextObject Name="tdCode"   Left="603" Top="0" Width="75"   Height="22" Text="[Invoice.Lines.ItemCode]"       HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"            Border.Lines="All" Border.Color="220,222,225" AutoShrink="FontSize" AutoShrinkMinSize="6"/>
+        <TextObject Name="tdName"   Left="408" Top="0" Width="195"  Height="22" Text="[Invoice.Lines.ItemName]"       HorzAlign="Right"  VertAlign="Center" Font="Arial, 8pt"            Border.Lines="All" Border.Color="220,222,225" WordWrap="true" AutoShrink="FontSize" AutoShrinkMinSize="6"/>
+        <TextObject Name="tdUnit"   Left="343" Top="0" Width="65"   Height="22" Text="[Invoice.Lines.UnitName]"       HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"            Border.Lines="All" Border.Color="220,222,225"/>
+        <TextObject Name="tdQty"    Left="283" Top="0" Width="60"   Height="22" Text="[Invoice.Lines.Quantity]"       Format="Number" Format.UseLocale="false" Format.DecimalDigits="2" Format.DecimalSeparator="." Format.GroupSeparator="," HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt" Border.Lines="All" Border.Color="220,222,225"/>
+        <TextObject Name="tdPrice"  Left="208" Top="0" Width="75"   Height="22" Text="[Invoice.Lines.UnitPrice]"      Format="Number" Format.UseLocale="false" Format.DecimalDigits="2" Format.DecimalSeparator="." Format.GroupSeparator="," HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt" Border.Lines="All" Border.Color="220,222,225"/>
+        <TextObject Name="tdDisc"   Left="153" Top="0" Width="55"   Height="22" Text="[Invoice.Lines.DiscountPercent]%" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"          Border.Lines="All" Border.Color="220,222,225"/>
+        <TextObject Name="tdTax"    Left="98"  Top="0" Width="55"   Height="22" Text="[Invoice.Lines.TaxPercent]%"    HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"            Border.Lines="All" Border.Color="220,222,225"/>
+        <TextObject Name="tdTotal"  Left="0"   Top="0" Width="98"   Height="22" Text="[Invoice.Lines.LineTotal]"      Format="Number" Format.UseLocale="false" Format.DecimalDigits="2" Format.DecimalSeparator="." Format.GroupSeparator="," HorzAlign="Center" VertAlign="Center" Font="Arial, 9pt, style=Bold" Border.Lines="All" Border.Color="220,222,225"/>
+      </DataBand>
+
+      <!-- ═══════════════ TOTALS FOOTER ═══════════════ -->
+      <GroupFooterBand Name="GroupFooter1" Top="216" Width="718.2" Height="260">
+
+        <!-- ─── RIGHT: Totals summary (pushed down 15px for spacing) ─── -->
+        <TextObject Name="lblSubtotal" Left="618" Top="18" Width="100" Height="20" Text="الإجمالي"  HorzAlign="Right" VertAlign="Center" Font="Arial, 10pt, style=Bold" TextColor="60,60,60" RightToLeft="true"/>
+        <TextObject Name="valSubtotal" Left="518" Top="18" Width="96"  Height="20" Text="[Invoice.SubTotal]" Format="Number" Format.UseLocale="false" Format.DecimalDigits="2" Format.DecimalSeparator="." Format.GroupSeparator="," HorzAlign="Center" VertAlign="Center" Font="Arial, 10pt" TextColor="50,50,50" Fill.Color="248,249,252" Border.Lines="Bottom" Border.Color="215,218,222"/>
+
+        <TextObject Name="lblDiscount" Left="618" Top="40" Width="100" Height="20" Text="الخصم"     HorzAlign="Right" VertAlign="Center" Font="Arial, 10pt, style=Bold" TextColor="60,60,60" RightToLeft="true"/>
+        <TextObject Name="valDiscount" Left="518" Top="40" Width="96"  Height="20" Text="[Invoice.DiscountValue]" Format="Number" Format.UseLocale="false" Format.DecimalDigits="2" Format.DecimalSeparator="." Format.GroupSeparator="," HorzAlign="Center" VertAlign="Center" Font="Arial, 10pt" TextColor="200,50,50" Fill.Color="248,249,252" Border.Lines="Bottom" Border.Color="215,218,222"/>
+
+        <TextObject Name="lblAddition" Left="618" Top="62" Width="100" Height="20" Text="الإضافة"   HorzAlign="Right" VertAlign="Center" Font="Arial, 10pt, style=Bold" TextColor="60,60,60" RightToLeft="true"/>
+        <TextObject Name="valAddition" Left="518" Top="62" Width="96"  Height="20" Text="[Invoice.AdditionValue]" Format="Number" Format.UseLocale="false" Format.DecimalDigits="2" Format.DecimalSeparator="." Format.GroupSeparator="," HorzAlign="Center" VertAlign="Center" Font="Arial, 10pt" TextColor="40,140,70" Fill.Color="248,249,252" Border.Lines="Bottom" Border.Color="215,218,222"/>
+
+        <TextObject Name="lblTax"      Left="618" Top="84" Width="100" Height="20" Text="الضريبة"   HorzAlign="Right" VertAlign="Center" Font="Arial, 10pt, style=Bold" TextColor="60,60,60" RightToLeft="true"/>
+        <TextObject Name="valTax"      Left="518" Top="84" Width="96"  Height="20" Text="[Invoice.TaxTotal]" Format="Number" Format.UseLocale="false" Format.DecimalDigits="2" Format.DecimalSeparator="." Format.GroupSeparator="," HorzAlign="Center" VertAlign="Center" Font="Arial, 10pt" TextColor="50,50,50" Fill.Color="248,249,252" Border.Lines="Bottom" Border.Color="215,218,222"/>
+
+        <!-- Grand Total Box + Currency symbol (with spacing above) -->
+        <ShapeObject Name="TotalBox"     Left="458" Top="116" Width="260" Height="36" Fill.Color="30,64,130" Shape="RoundRectangle" Border.Color="30,64,130"/>
+        <TextObject Name="lblGrandTotal" Left="618" Top="118" Width="96"  Height="32" Text="الصافي"  HorzAlign="Center" VertAlign="Center" Font="Arial, 12pt, style=Bold" TextColor="White"/>
+        <TextObject Name="valGrandTotal" Left="498" Top="118" Width="118" Height="32" Text="[Invoice.GrandTotal]" Format="Number" Format.UseLocale="false" Format.DecimalDigits="2" Format.DecimalSeparator="." Format.GroupSeparator="," HorzAlign="Center" VertAlign="Center" Font="Arial, 14pt, style=Bold" TextColor="White"/>
+        <TextObject Name="lblCurrency"   Left="458" Top="118" Width="40"  Height="32" Text="[Currency]" HorzAlign="Center" VertAlign="Center" Font="Arial, 10pt, style=Bold" TextColor="210,220,240"/>
+
+        <!-- ─── LEFT: Payment card (pushed down 15px) ─── -->
+        <ShapeObject Name="PayBg"     Left="0"  Top="12" Width="245" Height="55" Fill.Color="248,249,252" Border.Color="225,228,232" Border.Width="0.5" Shape="RoundRectangle"/>
+        <TextObject Name="lblPaid"    Left="125" Top="17" Width="115" Height="18" Text="المبلغ المسدد"  HorzAlign="Right" VertAlign="Center" Font="Arial, 9pt, style=Bold" TextColor="70,70,70" RightToLeft="true"/>
+        <TextObject Name="valPaid"    Left="5"   Top="17" Width="115" Height="18" Text="[Invoice.PaymentAmount]" Format="Number" Format.UseLocale="false" Format.DecimalDigits="2" Format.DecimalSeparator="." Format.GroupSeparator="," HorzAlign="Center" VertAlign="Center" Font="Arial, 10pt, style=Bold" TextColor="30,64,130"/>
+        <TextObject Name="lblPayAcc"  Left="125" Top="40" Width="115" Height="18" Text="طريقة الدفع"   HorzAlign="Right" VertAlign="Center" Font="Arial, 9pt, style=Bold" TextColor="70,70,70" RightToLeft="true"/>
+        <TextObject Name="valPayAcc"  Left="5"   Top="40" Width="115" Height="18" Text="[Invoice.PaymentAccountName]" HorzAlign="Center" VertAlign="Center" Font="Arial, 9pt" TextColor="50,50,50" RightToLeft="true"/>
+
+        <!-- Notes below الصافي -->
+        <TextObject Name="valNotes" Left="0" Top="170" Width="718.2" Height="16" Text="ملاحظات: [Invoice.Notes]" HorzAlign="Right" VertAlign="Center" Font="Arial, 9pt" TextColor="70,70,70" AutoShrink="FontSize" AutoShrinkMinSize="6"/>
+
+        <!-- Sales text -->
+        <TextObject Name="txtSalesText" Left="0" Top="190" Width="718.2" Height="22" Text="[SalesInvoiceText]" HorzAlign="Right" VertAlign="Center" Font="Arial, 8pt, style=Bold" TextColor="70,70,70" WordWrap="true"/>
+
+        <!-- ─── Signatures: own row at bottom ─── -->
+        <LineObject Name="SigSep" Left="0" Top="220" Width="718.2" Border.Color="220,222,225" Border.Width="0.5"/>
+
+        <TextObject Name="lblSigReceiver"   Left="468" Top="230" Width="150" Height="16" Text="توقيع المستلم" HorzAlign="Center" Font="Arial, 9pt, style=Bold" TextColor="80,80,80"/>
+        <LineObject Name="lineSig1"         Left="483" Top="250" Width="120" Border.Color="180,180,180" Border.Width="0.5"/>
+
+        <TextObject Name="lblSigAccountant" Left="100" Top="230" Width="150" Height="16" Text="المحاسب" HorzAlign="Center" Font="Arial, 9pt, style=Bold" TextColor="80,80,80"/>
+        <LineObject Name="lineSig2"         Left="115" Top="250" Width="120" Border.Color="180,180,180" Border.Width="0.5"/>
+      </GroupFooterBand>
+    </GroupHeaderBand>
+
+    <!-- ═══════════════ PAGE FOOTER ═══════════════ -->
+    <PageFooterBand Name="PageFooter1" Top="382" Width="718.2" Height="22">
+      <LineObject Name="FooterLine" Left="0" Top="0" Width="718.2" Border.Color="30,64,130" Border.Width="0.75"/>
+      <TextObject Name="txtPrintDate" Left="518" Top="3" Width="200" Height="16" Text="تاريخ الطباعة: [Date]" HorzAlign="Right" Font="Arial, 7pt" TextColor="140,140,140"/>
+      <TextObject Name="txtPageNo"    Left="260" Top="3" Width="198" Height="16" Text="صفحة [Page] من [TotalPages]" HorzAlign="Center" Font="Arial, 7pt" TextColor="140,140,140"/>
+      <TextObject Name="txtPrintedBy" Left="0"   Top="3" Width="200" Height="16" Text="طُبع بواسطة: [PrintedBy]" HorzAlign="Left" Font="Arial, 7pt" TextColor="140,140,140"/>
+    </PageFooterBand>
+
+  </ReportPage>
+</Report>

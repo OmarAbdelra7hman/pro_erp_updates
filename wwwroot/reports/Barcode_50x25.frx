@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="04/22/2026" ReportInfo.Modified="04/22/2026" ReportInfo.CreatorVersion="2026.1.8.0">
+  <Dictionary>
+    <BusinessObjectDataSource Name="Barcodes" ReferenceName="Barcodes" DataType="null" Enabled="true">
+      <Column Name="Code" DataType="System.String"/>
+      <Column Name="NameAr" DataType="System.String"/>
+      <Column Name="Price" DataType="System.Decimal"/>
+    </BusinessObjectDataSource>
+    <Parameter Name="CompanyName" DataType="System.String"/>
+  </Dictionary>
+  <ReportPage Name="Page1" PaperWidth="50" PaperHeight="25" LeftMargin="1" TopMargin="1" RightMargin="1" BottomMargin="1">
+    <DataBand Name="Data1" Width="181.44" Height="86.94" DataSource="Barcodes">
+      <TextObject Name="Text3" Left="3.78" Top="0" Width="173.88" Height="15.12" Text="[CompanyName]" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt, style=Bold"/>
+      <TextObject Name="Text1" Left="3.78" Top="15.12" Width="173.88" Height="18.9" Text="[Barcodes.NameAr]" HorzAlign="Center" VertAlign="Center" Font="Arial, 10pt, style=Bold"/>
+      <BarcodeObject Name="Barcode1" Left="3.78" Top="34.02" Width="173.88" Height="34.02" AutoSize="false" DataColumn="Barcodes.Code" Text="" Barcode="Code128" Barcode.CalcCheckSum="false"/>
+      <TextObject Name="Text2" Left="3.78" Top="68.04" Width="173.88" Height="18.9" Text="السعر: [Barcodes.Price] ج" HorzAlign="Center" VertAlign="Center" Font="Arial, 9pt, style=Bold"/>
+    </DataBand>
+  </ReportPage>
+</Report>
