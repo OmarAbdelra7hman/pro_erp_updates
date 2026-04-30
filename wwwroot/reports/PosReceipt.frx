@@ -26,6 +26,7 @@
     <Parameter Name="ContactInfo" DataType="System.String"/>
     <Parameter Name="ReportTitle" DataType="System.String"/>
     <Parameter Name="PrintedBy" DataType="System.String"/>
+    <Parameter Name="BarcodeText" DataType="System.String"/>
   </Dictionary>
   <ReportPage Name="Page1" PaperWidth="78" PaperHeight="297" LeftMargin="2" TopMargin="2" RightMargin="2" BottomMargin="2" UnlimitedHeight="true" UnlimitedWidth="false">
     <ReportTitleBand Name="ReportTitle1" Width="279.68" Height="140">
@@ -73,7 +74,7 @@
         <TextObject Name="lblThanks" Left="0" Top="110" Width="279.68" Height="15" Text="*** شكراً لزيارتكم ***" Font="Arial, 10pt, style=Bold" HorzAlign="Center" RightToLeft="true"/>
         
         <!-- Barcode for return scanner -->
-        <BarcodeObject Name="BarcodeReturn" Left="14.84" Top="135" Width="250" Height="45" AutoSize="false" Text="[FormatDateTime([Invoice.Date], &quot;yyyyMMdd&quot;)]-[Invoice.InvoiceNumber]" ShowText="true" Barcode="Code128" HorzAlign="Center"/>
+        <BarcodeObject Name="BarcodeReturn" Left="14.84" Top="135" Width="250" Height="45" AutoSize="false" Text="[BarcodeText]" ShowText="true" Barcode="Code128" HorzAlign="Center"/>
       </GroupFooterBand>
     </GroupHeaderBand>
   </ReportPage>

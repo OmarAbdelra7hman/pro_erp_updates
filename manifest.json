@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "publishedAt": "2026-04-30T14:56:03.754217Z",
+  "publishedAt": "2026-04-30T15:09:03.541522Z",
   "files": [
     {
       "path": "ExcelNumberFormat.dll",
@@ -96,7 +96,7 @@
       "path": "ProERP.Web",
       "hash": "383e313be0dd2fe9bf7efa57a362a761026a9ac2e2659187f16448f35310e4b5",
       "size": 101760,
-      "lastModified": "2026-04-30T14:55:19.8220597Z"
+      "lastModified": "2026-04-30T15:08:48.5661952Z"
     },
     {
       "path": "FastReport.OpenSource.Export.PdfSimple.dll",
@@ -160,9 +160,9 @@
     },
     {
       "path": "ProERP.Web.dll",
-      "hash": "146f1d22d95d4ad8e192bd49b14fb904f1c8ed74339f83ada3395b0fe04842f3",
+      "hash": "b9ef22454f877f8d5790f9100d7bccd37bcb12ccf48cfa8a1705dfd45fad0eaa",
       "size": 2008064,
-      "lastModified": "2026-04-30T14:55:19.6234092Z"
+      "lastModified": "2026-04-30T15:08:48.1353667Z"
     },
     {
       "path": "Microsoft.Extensions.Primitives.dll",
@@ -328,9 +328,9 @@
     },
     {
       "path": "ProERP.Web.staticwebassets.endpoints.json",
-      "hash": "65f8635ea56d943d4eab4d709134fdcc849a79ee5ab5c037451079a0f4ce2136",
+      "hash": "8ee8f9a211818549cf68e4042446405d164496442560cf018da67aeaa35c9607",
       "size": 4773031,
-      "lastModified": "2026-04-30T14:56:02.3638284Z"
+      "lastModified": "2026-04-30T15:09:02.1240457Z"
     },
     {
       "path": "SixLabors.Fonts.dll",
@@ -408,7 +408,7 @@
       "path": "wwwroot/service-worker-assets.js",
       "hash": "dab5d2056f6006be8de96e0e249b8b93e5a8a192550a03c158a4fb5ea58149fb",
       "size": 20711,
-      "lastModified": "2026-04-30T14:55:57.8786383Z"
+      "lastModified": "2026-04-30T15:08:58.9612444Z"
     },
     {
       "path": "wwwroot/index.html",
@@ -420,7 +420,7 @@
       "path": "wwwroot/service-worker-assets.js.br",
       "hash": "5f553b4e52786ad2b85e035497ab76b5dd61d11772f872eef386f34e123d333d",
       "size": 6726,
-      "lastModified": "2026-04-30T14:55:58.120222Z"
+      "lastModified": "2026-04-30T15:08:59.1994539Z"
     },
     {
       "path": "wwwroot/index.html.br",
@@ -462,13 +462,13 @@
       "path": "wwwroot/service-worker-assets.js.gz",
       "hash": "2bbe333531a6b3c93287ab9440d759bbd7a97bb7b4e8e367fa6ea6c051c0c5d1",
       "size": 7113,
-      "lastModified": "2026-04-30T14:55:57.9227926Z"
+      "lastModified": "2026-04-30T15:08:59.0057211Z"
     },
     {
       "path": "wwwroot/service-worker.js",
       "hash": "7901f7cb154f5c3b9dee4b171e78f83fdac07a7a38759822b17cc550077f6992",
       "size": 2892,
-      "lastModified": "2026-04-30T14:55:57.879983Z"
+      "lastModified": "2026-04-30T15:08:58.9624521Z"
     },
     {
       "path": "wwwroot/index.html.gz",
@@ -1020,7 +1020,7 @@
       "path": "wwwroot/_framework/blazor.boot.json",
       "hash": "9b03f17f88254d8e98d242181d692c14a0f91f8b94b5264d2391d74c6197421e",
       "size": 18864,
-      "lastModified": "2026-04-30T14:55:57.8513051Z"
+      "lastModified": "2026-04-30T15:08:58.9380046Z"
     },
     {
       "path": "wwwroot/_framework/System.Runtime.InteropServices.RuntimeInformation.tbzy0fkhs7.wasm.gz",
@@ -1344,7 +1344,7 @@
       "path": "wwwroot/_framework/blazor.boot.json.br",
       "hash": "e833f7804f5e69e078439bc196fdffa70871fecf23135941c769b77af916cbab",
       "size": 5711,
-      "lastModified": "2026-04-30T14:55:58.1200921Z"
+      "lastModified": "2026-04-30T15:08:59.1994947Z"
     },
     {
       "path": "wwwroot/_framework/System.Security.Claims.4kenip7qfw.wasm",
@@ -2220,7 +2220,7 @@
       "path": "wwwroot/_framework/blazor.boot.json.gz",
       "hash": "97d84fad67456930de3fa05dc9edbec73869a5212fa99cb7aeaa3348fd062d91",
       "size": 6307,
-      "lastModified": "2026-04-30T14:55:57.9228735Z"
+      "lastModified": "2026-04-30T15:08:59.0054322Z"
     },
     {
       "path": "wwwroot/_framework/ProERP.Application.ktimtr3sf6.wasm.br",
@@ -2998,9 +2998,9 @@
     },
     {
       "path": "wwwroot/reports/PosReceipt.frx",
-      "hash": "1bbc58fcfe0793c9cc51d77d9ad605023a4734d468a2780e18a889f4d7656dfc",
-      "size": 7775,
-      "lastModified": "2026-04-29T11:20:27.7206623Z"
+      "hash": "b48be613595933f0f619c28907a0fab4bcd4c55c0caacd270483652e87d4f752",
+      "size": 7771,
+      "lastModified": "2026-04-30T15:06:10.9957234Z"
     },
     {
       "path": "wwwroot/reports/generate_cheque.py",
