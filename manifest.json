@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "publishedAt": "2026-05-02T08:06:10.852845Z",
+  "publishedAt": "2026-05-02T09:59:19.535675Z",
   "files": [
     {
       "path": "ExcelNumberFormat.dll",
@@ -64,9 +64,9 @@
     },
     {
       "path": "ProERP.Infrastructure.dll",
-      "hash": "b28d736c8f741a377610999ab978519b4e72f7da0e27721b585133a1f3c21312",
+      "hash": "ff49f45b00fce946f631eb82b12da0c6b20db8fbc8e99b93313fb07dd5dddde9",
       "size": 1874944,
-      "lastModified": "2026-05-02T08:05:11.4029093Z"
+      "lastModified": "2026-05-02T09:59:02.2923099Z"
     },
     {
       "path": "ProERP.Licensing.dll",
@@ -328,9 +328,9 @@
     },
     {
       "path": "ProERP.Web.staticwebassets.endpoints.json",
-      "hash": "c700b2d0c1c482b65675ecd3d32b03c1fb15ff46cb2d011e5f9927c1831fa1bc",
+      "hash": "4d4286b6e0ccae4fed94db77ffdd42160f66b5517b6b6e1c5f831dbddf611253",
       "size": 4774465,
-      "lastModified": "2026-05-02T08:06:10.0538022Z"
+      "lastModified": "2026-05-02T09:59:17.9919188Z"
     },
     {
       "path": "SixLabors.Fonts.dll",
@@ -408,7 +408,7 @@
       "path": "wwwroot/service-worker-assets.js",
       "hash": "5ff5e7cd64a85fad4b0e05f57c5d27d8dbe04d8dbe705badbd06e832b7dfaba4",
       "size": 20711,
-      "lastModified": "2026-05-02T08:06:06.2753866Z"
+      "lastModified": "2026-05-02T09:59:14.5982159Z"
     },
     {
       "path": "wwwroot/index.html",
@@ -420,7 +420,7 @@
       "path": "wwwroot/service-worker-assets.js.br",
       "hash": "acbc5ad8b9a6703762e84840c94b73681adb4d314ba6f202b4622c5fc3f5ef87",
       "size": 6729,
-      "lastModified": "2026-05-02T08:06:06.5068838Z"
+      "lastModified": "2026-05-02T09:59:14.841977Z"
     },
     {
       "path": "wwwroot/index.html.br",
@@ -462,13 +462,13 @@
       "path": "wwwroot/service-worker-assets.js.gz",
       "hash": "9fe9798b261f510d1be7903e1b798216ee052f5f97ccc7adc135fb8f05945664",
       "size": 7114,
-      "lastModified": "2026-05-02T08:06:06.320007Z"
+      "lastModified": "2026-05-02T09:59:14.650396Z"
     },
     {
       "path": "wwwroot/service-worker.js",
       "hash": "1ca5bee3ba33558aa19d63c9ada3e4a04ccc350447165477dcfb889d360b0e43",
       "size": 2892,
-      "lastModified": "2026-05-02T08:06:06.2766276Z"
+      "lastModified": "2026-05-02T09:59:14.6012058Z"
     },
     {
       "path": "wwwroot/index.html.gz",
@@ -1038,7 +1038,7 @@
       "path": "wwwroot/_framework/blazor.boot.json",
       "hash": "8e5e433fa85d6a36c587a064674a95ea9ecd3079d3c16ac5c2d5bb8e12d166e0",
       "size": 18864,
-      "lastModified": "2026-05-02T08:06:06.2494836Z"
+      "lastModified": "2026-05-02T09:59:14.5553812Z"
     },
     {
       "path": "wwwroot/_framework/System.Runtime.InteropServices.RuntimeInformation.tbzy0fkhs7.wasm.gz",
@@ -1368,7 +1368,7 @@
       "path": "wwwroot/_framework/blazor.boot.json.br",
       "hash": "6c33772ababaf58642dee877f97f36f03602f431d02088da102f6829b433a4d9",
       "size": 5715,
-      "lastModified": "2026-05-02T08:06:06.5073181Z"
+      "lastModified": "2026-05-02T09:59:14.8419764Z"
     },
     {
       "path": "wwwroot/_framework/System.Security.Claims.4kenip7qfw.wasm",
@@ -2286,7 +2286,7 @@
       "path": "wwwroot/_framework/blazor.boot.json.gz",
       "hash": "1708d6393a819031241620b89285e1a7d78505b11f5af31433d182e71920402c",
       "size": 6303,
-      "lastModified": "2026-05-02T08:06:06.3202938Z"
+      "lastModified": "2026-05-02T09:59:14.6487465Z"
     },
     {
       "path": "wwwroot/_framework/ProERP.Application.ktimtr3sf6.wasm.br",
