@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "publishedAt": "2026-05-06T21:12:59.173669Z",
+  "publishedAt": "2026-05-07T17:32:09.957044Z",
   "files": [
     {
       "path": "Google.Api.Gax.dll",
@@ -94,9 +94,9 @@
     },
     {
       "path": "ProERP.Infrastructure.dll",
-      "hash": "c5621beb672bdb8112704004c2eb20c6ba2452f342fcdd983a6fada89cbdf84e",
-      "size": 2180608,
-      "lastModified": "2026-05-06T21:06:44.9161686Z"
+      "hash": "2e10e10632f4568d7f8554738f418141911a190154e5c4434e528d935fd2ea10",
+      "size": 2181120,
+      "lastModified": "2026-05-07T17:31:41.8806923Z"
     },
     {
       "path": "ProERP.Licensing.dll",
@@ -126,7 +126,7 @@
       "path": "ProERP.Web",
       "hash": "383e313be0dd2fe9bf7efa57a362a761026a9ac2e2659187f16448f35310e4b5",
       "size": 101760,
-      "lastModified": "2026-05-06T21:07:01.2380417Z"
+      "lastModified": "2026-05-07T17:31:56.2377284Z"
     },
     {
       "path": "FastReport.OpenSource.Export.PdfSimple.dll",
@@ -202,9 +202,9 @@
     },
     {
       "path": "ProERP.Web.dll",
-      "hash": "3d25f86933dbca8f476c91670274a1f1f7f3dedd573311b5ef8f771b56a9b6ab",
+      "hash": "60a52cfa17acbbeff89c8091efddcfb5a7a4e084d07638aa49c76a10d0a39625",
       "size": 2365440,
-      "lastModified": "2026-05-06T21:07:00.6488603Z"
+      "lastModified": "2026-05-07T17:31:56.0664525Z"
     },
     {
       "path": "Microsoft.IdentityModel.Protocols.dll",
@@ -424,9 +424,9 @@
     },
     {
       "path": "ProERP.Web.staticwebassets.endpoints.json",
-      "hash": "7d91f8534f4c2c65d2ea02b81f27ee55f0f926924b79a19d7add96e4d647bcc5",
+      "hash": "d2ff817bcfd3340a182747b996f14627af791368bfec857f8be7b9ccf4922451",
       "size": 4777443,
-      "lastModified": "2026-05-06T21:12:56.8554086Z"
+      "lastModified": "2026-05-07T17:32:08.0300997Z"
     },
     {
       "path": "System.CodeDom.dll",
@@ -436,9 +436,9 @@
     },
     {
       "path": "appsettings.Production.json",
-      "hash": "d98a4883297fb21f23189d52bde7b5643decabc8fc10da9b2edf484e0f2e3d90",
-      "size": 478,
-      "lastModified": "2026-05-05T11:21:38.4820444Z"
+      "hash": "9b5236b047f17d280fd0188ce59fc35a4820444fe5495ed3141d577d19e6137f",
+      "size": 251,
+      "lastModified": "2026-05-07T17:20:52.5825518Z"
     },
     {
       "path": "SixLabors.Fonts.dll",
@@ -522,7 +522,7 @@
       "path": "wwwroot/service-worker-assets.js",
       "hash": "09e4658c5bc37451047d3ffcfc35d47a941c033a1c48866b948bdaf2e23b37a3",
       "size": 20711,
-      "lastModified": "2026-05-06T21:12:53.6443056Z"
+      "lastModified": "2026-05-07T17:32:04.6233468Z"
     },
     {
       "path": "wwwroot/index.html",
@@ -534,7 +534,7 @@
       "path": "wwwroot/service-worker-assets.js.br",
       "hash": "5ce3d28528b0d924dfcea40157e40286e1f4e98edf8d0b2b08cd205220a0c639",
       "size": 6729,
-      "lastModified": "2026-05-06T21:12:53.8743419Z"
+      "lastModified": "2026-05-07T17:32:04.8862943Z"
     },
     {
       "path": "wwwroot/index.html.br",
@@ -576,13 +576,13 @@
       "path": "wwwroot/service-worker-assets.js.gz",
       "hash": "74d9aa40302712c47fa46ea57419f167504e5d8caa9c00bec2551db0d88d25b4",
       "size": 7118,
-      "lastModified": "2026-05-06T21:12:53.6753761Z"
+      "lastModified": "2026-05-07T17:32:04.6588415Z"
     },
     {
       "path": "wwwroot/service-worker.js",
       "hash": "563d1084322938b331880a1ddbaa98c7328cd62493a5083852cb14ba0d36b774",
       "size": 2892,
-      "lastModified": "2026-05-06T21:12:53.6451968Z"
+      "lastModified": "2026-05-07T17:32:04.6249007Z"
     },
     {
       "path": "wwwroot/index.html.gz",
@@ -1158,7 +1158,7 @@
       "path": "wwwroot/_framework/blazor.boot.json",
       "hash": "790819319426a9320ad38942bfd06861be10f5e77a36a06b2114846debde9963",
       "size": 18864,
-      "lastModified": "2026-05-06T21:12:53.6168027Z"
+      "lastModified": "2026-05-07T17:32:04.590917Z"
     },
     {
       "path": "wwwroot/_framework/System.Runtime.InteropServices.RuntimeInformation.tbzy0fkhs7.wasm.gz",
@@ -1452,7 +1452,7 @@
       "path": "wwwroot/_framework/blazor.boot.json.br",
       "hash": "6241ae33550d7009b3e474130a85339bb9fb2bb6a7eb606682387b1549bfd634",
       "size": 5743,
-      "lastModified": "2026-05-06T21:12:53.8744746Z"
+      "lastModified": "2026-05-07T17:32:04.886314Z"
     },
     {
       "path": "wwwroot/_framework/System.Security.Claims.4kenip7qfw.wasm",
@@ -2268,7 +2268,7 @@
       "path": "wwwroot/_framework/blazor.boot.json.gz",
       "hash": "7659cb505151c8c7d8a8ace10a4742967b8a70a82217a8d30cd67004bc5e3162",
       "size": 6308,
-      "lastModified": "2026-05-06T21:12:53.67537Z"
+      "lastModified": "2026-05-07T17:32:04.6590141Z"
     },
     {
       "path": "wwwroot/_framework/System.Reflection.Emit.o5wbkymigz.wasm",
