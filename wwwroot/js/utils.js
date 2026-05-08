@@ -223,3 +223,17 @@ window.registerF5Intercept = function (dotNetRef) {
         }
     }, true);
 })();
+
+// ── Dynamic Sub-dropdown Max-Height ──────────────────────────────────────────
+// Adjusts the max-height of sub-dropdowns so they never overflow the bottom of the screen.
+document.addEventListener('mouseover', function (e) {
+    var item = e.target.closest('.premium-dropdown-item.has-sub');
+    if (item) {
+        var subDropdown = item.querySelector('.premium-sub-dropdown');
+        if (subDropdown) {
+            var rect = item.getBoundingClientRect();
+            var availableSpace = window.innerHeight - rect.top - 15; // 15px bottom padding
+            subDropdown.style.maxHeight = Math.max(availableSpace, 100) + 'px';
+        }
+    }
+});

@@ -43,8 +43,8 @@
     --radius-xs: 6px;
 
     /* Glass */
-    --glass-bg: rgba(14, 18, 32, 0.95);
-    --glass-blur: none;
+    --glass-bg: rgba(14, 18, 32, 0.75);
+    --glass-blur: blur(20px);
 
     /* Transitions */
     --tr: all 0.22s cubic-bezier(0.4, 0, 0.2, 1);
@@ -74,7 +74,7 @@
     --shadow-card: 0 4px 20px rgba(91, 108, 249, 0.08), 0 1px 6px rgba(0, 0, 0, 0.06);
     --shadow-heavy: 0 12px 40px rgba(0, 0, 0, 0.12);
 
-    --glass-bg: rgba(255, 255, 255, 0.97);
+    --glass-bg: rgba(255, 255, 255, 0.85);
 }
 
 [data-theme="light"] body {
@@ -234,7 +234,12 @@ body {
 }
 
 body {
-    background: var(--clr-bg);
+    background:
+        radial-gradient(ellipse 60% 50% at 10% 10%, rgba(91, 108, 249, 0.12) 0%, transparent 70%),
+        radial-gradient(ellipse 50% 40% at 90% 80%, rgba(0, 210, 200, 0.08) 0%, transparent 70%),
+        radial-gradient(ellipse 40% 50% at 50% 50%, rgba(245, 88, 164, 0.05) 0%, transparent 70%),
+        var(--clr-bg);
+    background-attachment: fixed;
 }
 
 a {
@@ -266,6 +271,7 @@ a {
     z-index: 200;
     padding: 0 20px;
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(12px);
 }
 
 /* ── Brand ─────────────── */
@@ -334,7 +340,7 @@ a {
     font-size: 0.95rem;
     font-weight: 700;
     cursor: pointer;
-    transition: color 0.2s ease, background 0.2s ease;
+    transition: all 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
     white-space: nowrap;
 }
 
@@ -351,7 +357,7 @@ a {
 .premium-nav-btn iconify-icon {
     font-size: 20px;
     color: var(--clr-dim);
-    transition: color 0.2s ease;
+    transition: all 0.3s ease;
 }
 
 .premium-nav-btn:hover iconify-icon,
@@ -411,7 +417,7 @@ a {
     font-family: 'Tajawal', sans-serif;
     font-size: 0.9rem;
     font-weight: 600;
-    transition: background 0.15s ease, color 0.15s ease;
+    transition: all 0.25s ease;
     cursor: pointer;
     text-align: right;
     margin-bottom: 2px;
@@ -431,7 +437,7 @@ a {
     justify-content: center;
     color: var(--clr-primary);
     font-size: 20px;
-    transition: background 0.15s ease, transform 0.15s ease;
+    transition: all 0.25s ease;
 }
 
 .premium-dropdown-item:hover {
@@ -457,7 +463,7 @@ a {
     color: var(--clr-dim);
     opacity: 0;
     transform: translateX(10px);
-    transition: opacity 0.15s ease, transform 0.15s ease;
+    transition: all 0.25s ease;
 }
 
 .premium-dropdown-item:hover .pd-chevron {
@@ -472,6 +478,10 @@ a {
     top: 0;
     right: 100%;
     min-width: 240px;
+    max-height: 350px;
+    overflow-y: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
     background: var(--glass-bg);
     border: 1px solid var(--clr-border);
     border-radius: 16px;
@@ -491,7 +501,6 @@ a {
 
 .premium-dropdown-item.has-sub {
     position: relative;
-    /* For absolutely positioned sub-dropdown */
 }
 
 /* Let the desktop sub-dropdown open on hover */
@@ -507,7 +516,7 @@ a {
     font-size: 18px;
     color: var(--clr-dim);
     margin-right: auto;
-    transition: background 0.15s ease, color 0.15s ease;
+    transition: all 0.25s ease;
 }
 
 .premium-dropdown-item:hover .pd-sub-trigger-chevron {
@@ -623,7 +632,7 @@ a {
     font-size: 0.95rem;
     font-weight: 700;
     cursor: pointer;
-    transition: background 0.2s ease, color 0.2s ease;
+    transition: all 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
     text-align: right;
 }
 
@@ -641,7 +650,7 @@ a {
 .premium-mobile-btn iconify-icon:first-child {
     font-size: 22px;
     color: var(--clr-dim);
-    transition: color 0.2s ease;
+    transition: all 0.3s ease;
     flex-shrink: 0;
 }
 
@@ -2953,3 +2962,8 @@ textarea:disabled {
     background: #ffffff;
 }
 
+
+
+.premium-sub-dropdown::-webkit-scrollbar {
+    display: none;
+}
