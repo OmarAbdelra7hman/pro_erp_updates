@@ -224,6 +224,119 @@ window.registerF5Intercept = function (dotNetRef) {
     }, true);
 })();
 
+// ── Sidebar Interactions (JS Driven) ──────────────────────────────────────────
+document.addEventListener('click', function(e) {
+    let toggleBtn = e.target.closest('.js-dropdown-toggle');
+    if (toggleBtn) {
+        let container = toggleBtn.closest('.js-dropdown-container');
+        if (!container) return;
+        
+        let wasOpen = container.classList.contains('open');
+        
+        // Close siblings
+        let siblings = container.parentElement.children;
+        for (let i = 0; i < siblings.length; i++) {
+            if (siblings[i].classList && siblings[i] !== container) {
+                siblings[i].classList.remove('open');
+                let content = siblings[i].querySelector('.js-dropdown-content');
+                if (content) content.classList.remove('open');
+                let arrow = siblings[i].querySelector('.js-dropdown-arrow');
+                if (arrow) arrow.classList.remove('open');
+                let tBtn = siblings[i].querySelector('.js-dropdown-toggle');
+                if (tBtn) tBtn.classList.remove('active');
+            }
+        }
+        
+        if (!wasOpen) {
+            container.classList.add('open');
+            toggleBtn.classList.add('active');
+            let content = container.querySelector('.js-dropdown-content');
+            if (content) content.classList.add('open');
+            let arrow = container.querySelector('.js-dropdown-arrow');
+            if (arrow) arrow.classList.add('open');
+        } else {
+            container.classList.remove('open');
+            toggleBtn.classList.remove('active');
+            let content = container.querySelector('.js-dropdown-content');
+            if (content) content.classList.remove('open');
+            let arrow = container.querySelector('.js-dropdown-arrow');
+            if (arrow) arrow.classList.remove('open');
+        }
+    }
+});
+
+// ── Server Signal Ping ────────────────────────────────────────────────────────
+setInterval(async () => {
+    const signalIcon = document.getElementById('server-signal-icon');
+    if (!signalIcon) return;
+    
+    try {
+        let start = performance.now();
+        let res = await fetch('/icon-192.png', { method: 'HEAD', cache: 'no-store' });
+        let latency = performance.now() - start;
+        
+        if (!res.ok) throw new Error('Offline');
+        
+        if (latency < 150) {
+            signalIcon.setAttribute('icon', 'material-symbols:signal-cellular-4-bar-rounded');
+            signalIcon.style.color = '#10b981'; // Green
+        } else if (latency < 350) {
+            signalIcon.setAttribute('icon', 'material-symbols:signal-cellular-3-bar-rounded');
+            signalIcon.style.color = '#f59e0b'; // Yellow/Orange
+        } else if (latency < 800) {
+            signalIcon.setAttribute('icon', 'material-symbols:signal-cellular-2-bar-rounded');
+            signalIcon.style.color = '#f97316'; // Orange
+        } else {
+            signalIcon.setAttribute('icon', 'material-symbols:signal-cellular-1-bar-rounded');
+            signalIcon.style.color = '#ef4444'; // Red
+        }
+    } catch (e) {
+        signalIcon.setAttribute('icon', 'material-symbols:signal-cellular-connected-no-internet-0-bar-rounded');
+        signalIcon.style.color = '#ef4444';
+    }
+}, 5000);
+
+// ── Mobile Menu Toggle ──────────────────────────────────────────
+document.addEventListener('click', function(e) {
+    let toggleBtn = e.target.closest('.js-mobile-menu-toggle');
+    let overlay = document.querySelector('.js-mobile-overlay');
+    let drawer = document.querySelector('.js-mobile-drawer');
+    let icon = document.querySelector('.js-mobile-menu-icon');
+    
+    if (toggleBtn) {
+        let isOpen = drawer && drawer.classList.contains('open');
+        if (isOpen) {
+            if (drawer) drawer.classList.remove('open');
+            if (overlay) overlay.classList.remove('open');
+            if (icon) icon.setAttribute('icon', 'material-symbols:menu-rounded');
+        } else {
+            if (drawer) drawer.classList.add('open');
+            if (overlay) overlay.classList.add('open');
+            if (icon) icon.setAttribute('icon', 'material-symbols:close-rounded');
+        }
+    } else if (e.target.closest('.js-mobile-overlay')) {
+        if (drawer) drawer.classList.remove('open');
+        if (overlay) overlay.classList.remove('open');
+        if (icon) icon.setAttribute('icon', 'material-symbols:menu-rounded');
+    }
+});
+
+window.proErpCloseMobileMenu = function() {
+    let overlay = document.querySelector('.js-mobile-overlay');
+    let drawer = document.querySelector('.js-mobile-drawer');
+    let icon = document.querySelector('.js-mobile-menu-icon');
+    if (drawer) drawer.classList.remove('open');
+    if (overlay) overlay.classList.remove('open');
+    if (icon) icon.setAttribute('icon', 'material-symbols:menu-rounded');
+};
+
+window.proErpCloseAllDropdowns = function() {
+    document.querySelectorAll('.js-dropdown-container.open').forEach(function(el) { el.classList.remove('open'); });
+    document.querySelectorAll('.js-dropdown-content.open').forEach(function(el) { el.classList.remove('open'); });
+    document.querySelectorAll('.js-dropdown-arrow.open').forEach(function(el) { el.classList.remove('open'); });
+    document.querySelectorAll('.js-dropdown-toggle.active').forEach(function(el) { el.classList.remove('active'); });
+};
+
 // ── Dynamic Sub-dropdown Max-Height ──────────────────────────────────────────
 // Adjusts the max-height of sub-dropdowns so they never overflow the bottom of the screen.
 document.addEventListener('mouseover', function (e) {
@@ -237,3 +350,5 @@ document.addEventListener('mouseover', function (e) {
         }
     }
 });
+
+// ── Context Menu Safari Fix Removed ────────────────────────────────────────────────

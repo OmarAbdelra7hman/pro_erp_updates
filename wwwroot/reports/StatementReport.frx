@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Report ReportInfo.Created="03/24/2026 12:30:00" ReportInfo.Modified="03/24/2026 19:20:00" ReportInfo.CreatorVersion="2026.1.8.0">
+<Report ReportInfo.Created="03/24/2026 12:30:00" ReportInfo.Modified="05/12/2026 19:00:00" ReportInfo.CreatorVersion="2026.1.8.0">
   <Dictionary>
     <BusinessObjectDataSource Name="Items" ReferenceName="Items" DataType="null" Enabled="true">
       <Column Name="Date" DataType="System.DateTime"/>
@@ -25,78 +25,150 @@
     <Parameter Name="Currency" DataType="System.String"/>
     <Parameter Name="PrintedBy" DataType="System.String"/>
   </Dictionary>
-  <ReportPage Name="Page1" Watermark.Font="Arial, 60pt" PaperWidth="210" PaperHeight="297" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10">
+  <ReportPage Name="Page1" Watermark.Font="Arial, 60pt" PaperWidth="210" PaperHeight="297" LeftMargin="12" RightMargin="12" TopMargin="12" BottomMargin="12">
 
     <!-- ═══════════════════ REPORT TITLE BAND ═══════════════════ -->
-    <ReportTitleBand Name="ReportTitle1" Width="718.2" Height="200">
-      <!-- Logo on the LEFT -->
-      <PictureObject Name="Logo" Left="623.7" Top="9.45" Width="85" Height="85" SizeMode="Zoom"/>
-      <!-- Company Name on the RIGHT -->
-      <TextObject Name="txtCompanyName" Left="9.45" Top="9.45" Width="330.75" Height="28.35" Text="[CompanyName]" HorzAlign="Left" VertAlign="Center" Font="Arial, 14pt, style=Bold" TextColor="DarkBlue"/>
+    <ReportTitleBand Name="ReportTitle1" Width="703.08" Height="210">
+      <!-- Accent Top Bar -->
+      <ShapeObject Name="AccentBar" Width="703.08" Height="5" Fill.Color="30,64,130"/>
+
+      <!-- Logo -->
+      <PictureObject Name="Logo" Left="608" Top="14" Width="85" Height="85" SizeMode="Zoom"/>
+
+      <!-- Company Name -->
+      <TextObject Name="txtCompanyName" Left="9.45" Top="14" Width="400" Height="30"
+                  Text="[CompanyName]" HorzAlign="Left" VertAlign="Center"
+                  Font="Arial, 16pt, style=Bold" TextColor="30,64,130"/>
+
       <!-- Tax Number -->
-      <TextObject Name="txtTax" Left="9.45" Top="37.8" Width="330.75" Height="18.9" Text="الرقم الضريبي: [TaxNumber]" HorzAlign="Left" VertAlign="Center" Font="Arial, 9pt" TextColor="Gray"/>
+      <TextObject Name="txtTax" Left="9.45" Top="44" Width="400" Height="18"
+                  Text="الرقم الضريبي: [TaxNumber]" HorzAlign="Left" VertAlign="Center"
+                  Font="Arial, 8pt" TextColor="130,130,130"/>
+
       <!-- Contact Info -->
-      <TextObject Name="txtContact" Left="9.45" Top="56.7" Width="330.75" Height="28.35" Text="[ContactInfo]" HorzAlign="Left" VertAlign="Center" Font="Arial, 8pt" TextColor="Gray"/>
+      <TextObject Name="txtContact" Left="9.45" Top="60" Width="400" Height="22"
+                  Text="[ContactInfo]" HorzAlign="Left" VertAlign="Center"
+                  Font="Arial, 8pt" TextColor="130,130,130"/>
+
       <!-- Separator -->
-      <LineObject Name="Line1" Left="0" Top="95" Width="718.2" Border.Color="DarkBlue" Border.Width="2"/>
+      <LineObject Name="Line1" Left="0" Top="100" Width="703.08" Border.Color="220,220,220" Border.Width="0.75"/>
+
       <!-- Report Title -->
-      <TextObject Name="txtReportTitle" Left="189" Top="100" Width="340.2" Height="28.35" Text="[ReportTitle]" HorzAlign="Center" VertAlign="Center" Font="Arial, 14pt, style=Bold" TextColor="DarkBlue"/>
-      <!-- Account Info -->
-      <TextObject Name="txtAccountLabel" Left="9.45" Top="132" Width="220" Height="18.9" Text="الحساب: [AccountName]" HorzAlign="Left" VertAlign="Center" Font="Arial, 10pt, style=Bold"/>
-      <TextObject Name="txtAccountCode" Left="240" Top="132" Width="180" Height="18.9" Text="كود الحساب: [AccountCode]" HorzAlign="Left" VertAlign="Center" Font="Arial, 9pt" TextColor="Gray"/>
-      <TextObject Name="txtCurrency" Left="558.2" Top="132" Width="160" Height="18.9" Text="العملة: [Currency]" HorzAlign="Right" VertAlign="Center" Font="Arial, 9pt" TextColor="Gray"/>
-      <!-- Date Range -->
-      <TextObject Name="txtDateFrom" Left="9.45" Top="155" Width="350" Height="18.9" Text="الفترة من: [DateFrom]   إلى: [DateTo]" HorzAlign="Left" VertAlign="Center" Font="Arial, 9pt"/>
-      <!-- Opening Balance -->
-      <TextObject Name="txtOpeningBal" Left="434.7" Top="155" Width="283.5" Height="18.9" Text="الرصيد الافتتاحي: [OpeningBalance]" HorzAlign="Right" VertAlign="Center" Font="Arial, 9pt, style=Bold" TextColor="DarkBlue"/>
-      <!-- Thin line -->
-      <LineObject Name="Line2" Left="0" Top="180" Width="718.2" Border.Color="LightGray" Border.Width="0.5"/>
+      <TextObject Name="txtReportTitle" Left="170" Top="106" Width="363.08" Height="28"
+                  Text="[ReportTitle]" HorzAlign="Center" VertAlign="Center"
+                  Font="Arial, 14pt, style=Bold" TextColor="30,64,130"/>
+
+      <!-- Info Cards Row -->
+      <!-- Account Card -->
+      <ShapeObject Name="CardAccount" Left="420" Top="140" Width="283.08" Height="60" Border.Color="230,230,230" Border.Width="0.5" Fill.Color="248,249,252" Shape="RoundRectangle" Curve="4"/>
+      <TextObject Name="lblAccount" Left="430" Top="144" Width="265" Height="16"
+                  Text="الحساب" HorzAlign="Right" VertAlign="Center"
+                  Font="Arial, 7pt" TextColor="130,130,130"/>
+      <TextObject Name="txtAccountName" Left="430" Top="160" Width="265" Height="18"
+                  Text="[AccountName]" HorzAlign="Right" VertAlign="Center"
+                  Font="Arial, 10pt, style=Bold" TextColor="40,40,40"/>
+      <TextObject Name="txtAccountCode" Left="430" Top="178" Width="265" Height="14"
+                  Text="كود: [AccountCode]  |  العملة: [Currency]" HorzAlign="Right" VertAlign="Center"
+                  Font="Arial, 7pt" TextColor="130,130,130"/>
+
+      <!-- Period Card -->
+      <ShapeObject Name="CardPeriod" Left="210" Top="140" Width="200" Height="60" Border.Color="230,230,230" Border.Width="0.5" Fill.Color="248,249,252" Shape="RoundRectangle" Curve="4"/>
+      <TextObject Name="lblPeriod" Left="220" Top="144" Width="180" Height="16"
+                  Text="الفترة" HorzAlign="Right" VertAlign="Center"
+                  Font="Arial, 7pt" TextColor="130,130,130"/>
+      <TextObject Name="txtPeriod" Left="220" Top="162" Width="180" Height="16"
+                  Text="من: [DateFrom]" HorzAlign="Right" VertAlign="Center"
+                  Font="Arial, 9pt" TextColor="40,40,40"/>
+      <TextObject Name="txtPeriodTo" Left="220" Top="178" Width="180" Height="16"
+                  Text="إلى: [DateTo]" HorzAlign="Right" VertAlign="Center"
+                  Font="Arial, 9pt" TextColor="40,40,40"/>
+
+      <!-- Opening Balance Card -->
+      <ShapeObject Name="CardOpening" Left="0" Top="140" Width="200" Height="60" Border.Color="230,230,230" Border.Width="0.5" Fill.Color="248,249,252" Shape="RoundRectangle" Curve="4"/>
+      <TextObject Name="lblOpening" Left="10" Top="144" Width="180" Height="16"
+                  Text="الرصيد الافتتاحي" HorzAlign="Right" VertAlign="Center"
+                  Font="Arial, 7pt" TextColor="130,130,130"/>
+      <TextObject Name="txtOpeningBal" Left="10" Top="163" Width="180" Height="22"
+                  Text="[OpeningBalance]" HorzAlign="Right" VertAlign="Center"
+                  Font="Arial, 12pt, style=Bold" TextColor="30,64,130"/>
     </ReportTitleBand>
 
-    <!-- ═══════════════════ PAGE HEADER (Column Titles) RTL ═══════════════════ -->
-    <!-- Order R-to-L: المرجع | البيان | نوع الحركة | الرصيد | دائن | مدين | التاريخ -->
-    <PageHeaderBand Name="PageHeader1" Top="204" Width="718.2" Height="28.35" Fill.Color="27, 42, 78">
-      <TextObject Name="ColRef"     Left="0"     Width="65"    Height="28.35" Border.Lines="All" Border.Color="White" Text="المرجع"        HorzAlign="Center" VertAlign="Center" Font="Arial, 9pt, style=Bold" TextColor="White"/>
-      <TextObject Name="ColDesc"    Left="65"    Width="198.2" Height="28.35" Border.Lines="All" Border.Color="White" Text="البيان"        HorzAlign="Center" VertAlign="Center" Font="Arial, 9pt, style=Bold" TextColor="White"/>
-      <TextObject Name="ColType"    Left="263.2" Width="100"   Height="28.35" Border.Lines="All" Border.Color="White" Text="نوع الحركة"   HorzAlign="Center" VertAlign="Center" Font="Arial, 9pt, style=Bold" TextColor="White"/>
-      <TextObject Name="ColBalance" Left="363.2" Width="90"    Height="28.35" Border.Lines="All" Border.Color="White" Text="الرصيد"       HorzAlign="Center" VertAlign="Center" Font="Arial, 9pt, style=Bold" TextColor="White"/>
-      <TextObject Name="ColCredit"  Left="453.2" Width="90"    Height="28.35" Border.Lines="All" Border.Color="White" Text="دائن"         HorzAlign="Center" VertAlign="Center" Font="Arial, 9pt, style=Bold" TextColor="White"/>
-      <TextObject Name="ColDebit"   Left="543.2" Width="90"    Height="28.35" Border.Lines="All" Border.Color="White" Text="مدين"         HorzAlign="Center" VertAlign="Center" Font="Arial, 9pt, style=Bold" TextColor="White"/>
-      <TextObject Name="ColDate"    Left="633.2" Width="85"    Height="28.35" Border.Lines="All" Border.Color="White" Text="التاريخ"      HorzAlign="Center" VertAlign="Center" Font="Arial, 9pt, style=Bold" TextColor="White"/>
+    <!-- ═══════════════════ PAGE HEADER (Column Titles) ═══════════════════ -->
+    <PageHeaderBand Name="PageHeader1" Top="214" Width="703.08" Height="30" Fill.Color="30,64,130">
+      <TextObject Name="ColRef"     Left="0"     Width="70"     Height="30" Text="المرجع"      HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt, style=Bold" TextColor="White"/>
+      <TextObject Name="ColDesc"    Left="70"    Width="183.08" Height="30" Text="البيان"      HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt, style=Bold" TextColor="White"/>
+      <TextObject Name="ColType"    Left="253.08" Width="100"   Height="30" Text="نوع الحركة" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt, style=Bold" TextColor="White"/>
+      <TextObject Name="ColBalance" Left="353.08" Width="95"    Height="30" Text="الرصيد"     HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt, style=Bold" TextColor="White"/>
+      <TextObject Name="ColCredit"  Left="448.08" Width="85"    Height="30" Text="دائن"       HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt, style=Bold" TextColor="White"/>
+      <TextObject Name="ColDebit"   Left="533.08" Width="85"    Height="30" Text="مدين"       HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt, style=Bold" TextColor="White"/>
+      <TextObject Name="ColDate"    Left="618.08" Width="85"    Height="30" Text="التاريخ"    HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt, style=Bold" TextColor="White"/>
     </PageHeaderBand>
 
-    <!-- ═══════════════════ DATA BAND (Rows) RTL ═══════════════════ -->
-    <DataBand Name="Data1" Top="236.35" Width="718.2" Height="20" DataSource="Items">
-      <TextObject Name="ValRef"     Left="0"     Width="65"    Height="20" Border.Lines="All" Border.Color="LightGray" Text="[Items.Reference]"     HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/>
-      <TextObject Name="ValDesc"    Left="65"    Width="198.2" Height="20" Border.Lines="All" Border.Color="LightGray" Text="[Items.Description]"   HorzAlign="Right" VertAlign="Center" Font="Arial, 8pt" TextColor="DimGray"/>
-      <TextObject Name="ValType"    Left="263.2" Width="100"   Height="20" Border.Lines="All" Border.Color="LightGray" Text="[Items.OperationName]" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/>
-      <TextObject Name="ValBalance" Left="363.2" Width="90"    Height="20" Border.Lines="All" Border.Color="LightGray" Text="[Items.Balance]"       Format="Number" Format.UseLocale="false" Format.DecimalDigits="2" Format.DecimalSeparator="." Format.GroupSeparator="," Format.NegativePattern="1" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt, style=Bold"/>
-      <TextObject Name="ValCredit"  Left="453.2" Width="90"    Height="20" Border.Lines="All" Border.Color="LightGray" Text="[Items.Credit]"        Format="Number" Format.UseLocale="false" Format.DecimalDigits="2" Format.DecimalSeparator="." Format.GroupSeparator="," Format.NegativePattern="1" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt" TextColor="Red"/>
-      <TextObject Name="ValDebit"   Left="543.2" Width="90"    Height="20" Border.Lines="All" Border.Color="LightGray" Text="[Items.Debit]"         Format="Number" Format.UseLocale="false" Format.DecimalDigits="2" Format.DecimalSeparator="." Format.GroupSeparator="," Format.NegativePattern="1" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt" TextColor="Green"/>
-      <TextObject Name="ValDate"    Left="633.2" Width="85"    Height="20" Border.Lines="All" Border.Color="LightGray" Text="[Items.Date]"          Format="Date" Format.Format="yyyy-MM-dd" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt"/>
+    <!-- ═══════════════════ DATA BAND ═══════════════════ -->
+    <DataBand Name="Data1" Top="248" Width="703.08" Height="22" DataSource="Items" EvenStyle="EvenRow">
+      <TextObject Name="ValRef"     Left="0"     Width="70"     Height="22" Border.Lines="Bottom" Border.Color="240,240,240" Text="[Items.Reference]"     HorzAlign="Center" VertAlign="Center" Font="Arial, 7.5pt" TextColor="80,80,80"/>
+      <TextObject Name="ValDesc"    Left="70"    Width="183.08" Height="22" Border.Lines="Bottom" Border.Color="240,240,240" Text="[Items.Description]"   HorzAlign="Right"  VertAlign="Center" Font="Arial, 7.5pt" TextColor="80,80,80" Padding="0, 0, 6, 0"/>
+      <TextObject Name="ValType"    Left="253.08" Width="100"   Height="22" Border.Lines="Bottom" Border.Color="240,240,240" Text="[Items.OperationName]" HorzAlign="Center" VertAlign="Center" Font="Arial, 7.5pt" TextColor="60,60,60"/>
+      <TextObject Name="ValBalance" Left="353.08" Width="95"    Height="22" Border.Lines="Bottom" Border.Color="240,240,240" Text="[Items.Balance]"       Format="Number" Format.UseLocale="false" Format.DecimalDigits="2" Format.DecimalSeparator="." Format.GroupSeparator="," Format.NegativePattern="1" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt, style=Bold" TextColor="30,64,130"/>
+      <TextObject Name="ValCredit"  Left="448.08" Width="85"    Height="22" Border.Lines="Bottom" Border.Color="240,240,240" Text="[Items.Credit]"        Format="Number" Format.UseLocale="false" Format.DecimalDigits="2" Format.DecimalSeparator="." Format.GroupSeparator="," Format.NegativePattern="1" HorzAlign="Center" VertAlign="Center" Font="Arial, 7.5pt" TextColor="198,40,40"/>
+      <TextObject Name="ValDebit"   Left="533.08" Width="85"    Height="22" Border.Lines="Bottom" Border.Color="240,240,240" Text="[Items.Debit]"         Format="Number" Format.UseLocale="false" Format.DecimalDigits="2" Format.DecimalSeparator="." Format.GroupSeparator="," Format.NegativePattern="1" HorzAlign="Center" VertAlign="Center" Font="Arial, 7.5pt" TextColor="46,125,50"/>
+      <TextObject Name="ValDate"    Left="618.08" Width="85"    Height="22" Border.Lines="Bottom" Border.Color="240,240,240" Text="[Items.Date]"          Format="Date" Format.Format="yyyy-MM-dd" HorzAlign="Center" VertAlign="Center" Font="Arial, 7.5pt" TextColor="80,80,80"/>
     </DataBand>
 
-    <!-- ═══════════════════ REPORT SUMMARY (Totals) RTL ═══════════════════ -->
-    <ReportSummaryBand Name="ReportSummary1" Top="260.35" Width="718.2" Height="80">
-      <LineObject Name="Line3" Left="0" Top="2" Width="718.2" Border.Color="DarkBlue" Border.Width="1.5"/>
-      <TextObject Name="txtTotalsLabel" Left="633.2" Width="85"  Height="22" Top="5" Text="الإجمالي" HorzAlign="Center" VertAlign="Center" Font="Arial, 10pt, style=Bold" TextColor="DarkBlue"/>
-      <TextObject Name="txtTotalDebit"  Left="543.2" Width="90"  Height="22" Top="5" Text="[TotalDebit]"  HorzAlign="Center" VertAlign="Center" Font="Arial, 10pt, style=Bold" TextColor="Green" Fill.Color="232, 245, 233"/>
-      <TextObject Name="txtTotalCredit" Left="453.2" Width="90"  Height="22" Top="5" Text="[TotalCredit]" HorzAlign="Center" VertAlign="Center" Font="Arial, 10pt, style=Bold" TextColor="Red" Fill.Color="255, 235, 238"/>
+    <!-- ═══════════════════ REPORT SUMMARY ═══════════════════ -->
+    <ReportSummaryBand Name="ReportSummary1" Top="274" Width="703.08" Height="110">
+      <!-- Top Separator -->
+      <LineObject Name="Line3" Left="0" Top="4" Width="703.08" Border.Color="30,64,130" Border.Width="1.5"/>
 
-      <TextObject Name="txtClosingLabel"   Left="453.2" Width="180" Height="22" Top="32" Text="الرصيد الختامي" HorzAlign="Center" VertAlign="Center" Font="Arial, 10pt, style=Bold" TextColor="White" Fill.Color="27, 42, 78"/>
-      <TextObject Name="txtClosingBalance" Left="363.2" Width="90"  Height="22" Top="32" Text="[ClosingBalance]" HorzAlign="Center" VertAlign="Center" Font="Arial, 10pt, style=Bold" Fill.Color="27, 42, 78" TextColor="White"/>
+      <!-- Totals Row -->
+      <TextObject Name="txtTotalsLabel" Left="618.08" Width="85" Height="24" Top="10"
+                  Text="الإجمالي" HorzAlign="Center" VertAlign="Center"
+                  Font="Arial, 9pt, style=Bold" TextColor="30,64,130"/>
+      <ShapeObject Name="DebitTotalBg" Left="533.08" Width="85" Height="24" Top="10" Fill.Color="232,245,233" Shape="RoundRectangle" Curve="2"/>
+      <TextObject Name="txtTotalDebit" Left="533.08" Width="85" Height="24" Top="10"
+                  Text="[TotalDebit]" HorzAlign="Center" VertAlign="Center"
+                  Font="Arial, 9pt, style=Bold" TextColor="46,125,50"/>
+      <ShapeObject Name="CreditTotalBg" Left="448.08" Width="85" Height="24" Top="10" Fill.Color="255,235,238" Shape="RoundRectangle" Curve="2"/>
+      <TextObject Name="txtTotalCredit" Left="448.08" Width="85" Height="24" Top="10"
+                  Text="[TotalCredit]" HorzAlign="Center" VertAlign="Center"
+                  Font="Arial, 9pt, style=Bold" TextColor="198,40,40"/>
 
-      <TextObject Name="txtPrintedBy" Left="453.2" Top="60" Width="265" Height="18.9" Text="طُبع بواسطة: [PrintedBy]" HorzAlign="Right" VertAlign="Bottom" Font="Arial, 8pt" TextColor="Gray"/>
-      <TextObject Name="txtSignLabel" Left="0" Top="60" Width="263.2" Height="18.9" Text="توقيع المسؤول: ________________" HorzAlign="Left" VertAlign="Bottom" Font="Arial, 8pt" TextColor="Gray"/>
+      <!-- Closing Balance Card -->
+      <ShapeObject Name="ClosingBg" Left="353.08" Width="350" Height="36" Top="44" Fill.Color="30,64,130" Shape="RoundRectangle" Curve="4"/>
+      <TextObject Name="txtClosingLabel" Left="508.08" Width="190" Height="36" Top="44"
+                  Text="الرصيد الختامي" HorzAlign="Center" VertAlign="Center"
+                  Font="Arial, 11pt, style=Bold" TextColor="White"/>
+      <TextObject Name="txtClosingBalance" Left="358.08" Width="150" Height="36" Top="44"
+                  Text="[ClosingBalance]" HorzAlign="Center" VertAlign="Center"
+                  Font="Arial, 12pt, style=Bold" TextColor="White"/>
+
+      <!-- Footer Row -->
+      <TextObject Name="txtPrintedBy" Left="448.08" Top="90" Width="255" Height="18"
+                  Text="طُبع بواسطة: [PrintedBy]" HorzAlign="Right" VertAlign="Bottom"
+                  Font="Arial, 7pt" TextColor="160,160,160"/>
+      <TextObject Name="txtSignLabel" Left="0" Top="90" Width="280" Height="18"
+                  Text="توقيع المسؤول: ______________________" HorzAlign="Left" VertAlign="Bottom"
+                  Font="Arial, 7pt" TextColor="160,160,160"/>
     </ReportSummaryBand>
 
     <!-- ═══════════════════ PAGE FOOTER ═══════════════════ -->
-    <PageFooterBand Name="PageFooter1" Top="344.35" Width="718.2" Height="22">
-      <LineObject Name="LineFooter" Left="0" Top="0" Width="718.2" Border.Color="LightGray" Border.Width="0.5"/>
-      <TextObject Name="txtPageNum"   Left="0"     Width="189"   Height="20" Top="2" Text="صفحة [Page] من [TotalPages]" HorzAlign="Left" Font="Arial, 7pt" TextColor="Gray"/>
-      <TextObject Name="txtPoweredBy" Left="250"   Width="218.2" Height="20" Top="2" Text="ProERP System" HorzAlign="Center" Font="Arial, 7pt" TextColor="LightGray"/>
-      <TextObject Name="txtPrintDate" Left="529.2" Width="189"   Height="20" Top="2" Text="تاريخ الطباعة: [Date]" HorzAlign="Right" Font="Arial, 7pt" TextColor="Gray"/>
+    <PageFooterBand Name="PageFooter1" Top="388" Width="703.08" Height="22">
+      <LineObject Name="LineFooter" Left="0" Top="0" Width="703.08" Border.Color="230,230,230" Border.Width="0.5"/>
+      <TextObject Name="txtPageNum"   Left="0"     Width="189"    Height="20" Top="2"
+                  Text="صفحة [Page] من [TotalPages]" HorzAlign="Left"
+                  Font="Arial, 7pt" TextColor="160,160,160"/>
+      <TextObject Name="txtPoweredBy" Left="250"   Width="203.08" Height="20" Top="2"
+                  Text="ProERP System" HorzAlign="Center"
+                  Font="Arial, 7pt" TextColor="210,210,210"/>
+      <TextObject Name="txtPrintDate" Left="514.08" Width="189"   Height="20" Top="2"
+                  Text="تاريخ الطباعة: [Date]" HorzAlign="Right"
+                  Font="Arial, 7pt" TextColor="160,160,160"/>
     </PageFooterBand>
     
   </ReportPage>
+
+  <!-- Even Row Style -->
+  <Styles>
+    <Style Name="EvenRow" Fill.Color="248,249,252"/>
+  </Styles>
 </Report>
