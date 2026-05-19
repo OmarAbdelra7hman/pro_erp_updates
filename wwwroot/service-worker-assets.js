@@ -1,5 +1,5 @@
 self.assetsManifest = {
-  "version": "vKavV8Yc",
+  "version": "WV2Bcn+o",
   "assets": [
     {
       "hash": "sha256-iybf90y3kfW5bciTdjo7Kd4sQAffs/Ofr5q6N3ZEGmM=",
@@ -230,16 +230,16 @@ self.assetsManifest = {
       "url": "_framework/Microsoft.JSInterop.uu8izyvyxp.wasm"
     },
     {
-      "hash": "sha256-zFu7snw1KjR622cWe8wxKctN1ddGiXa5a+zy9HRnrBA=",
-      "url": "_framework/ProERP.Application.co29qzysvm.wasm"
+      "hash": "sha256-02RSae9dR2+kf+N87BSa2nvgm9EZkPAPNiKiZy+YByA=",
+      "url": "_framework/ProERP.Application.dgqle1vfgp.wasm"
     },
     {
-      "hash": "sha256-ZUTNwGpax84lmvVX1xRAL1e1k6e4JvRLZhfvwgSGTtE=",
-      "url": "_framework/ProERP.Client.pvneobb87q.wasm"
+      "hash": "sha256-s2vcRo+gvqPHlFPXWYgl+tDX1jC7ashNdap9r09mKWI=",
+      "url": "_framework/ProERP.Client.d04knzqfi1.wasm"
     },
     {
-      "hash": "sha256-byEpG5FmxOGvIPWYUut3unPOr0Ux4KwcCZZtrWlbYQQ=",
-      "url": "_framework/ProERP.Domain.5jmikquep0.wasm"
+      "hash": "sha256-NQ/W1lIM6apHsPU1KNnl6n3UGLT1bR0UgTZ13xwMk+4=",
+      "url": "_framework/ProERP.Domain.te6nvozu92.wasm"
     },
     {
       "hash": "sha256-cHsLmPL/ZYfNtaqW793aQui9cR4N7JXjHm+xggcoz7w=",
@@ -506,7 +506,7 @@ self.assetsManifest = {
       "url": "_framework/System.ke1disal2r.wasm"
     },
     {
-      "hash": "sha256-y+X80JLQxBbA1KhVjLwlVU4GOvvJoYVYz9V5YpQEP+U=",
+      "hash": "sha256-ik15+aLwqeyDrfJnBuxeqtuphQcIz/yfPhjm1It2DrI=",
       "url": "_framework/blazor.boot.json"
     },
     {

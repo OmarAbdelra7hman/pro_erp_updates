@@ -1085,7 +1085,6 @@ a {
 }
 
 .glass-card:hover {
-    transform: translateY(-2px);
     box-shadow: var(--shadow-card), var(--glow-primary);
     border-color: rgba(91, 108, 249, 0.3);
 }

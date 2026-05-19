@@ -352,3 +352,34 @@ document.addEventListener('mouseover', function (e) {
 });
 
 // ── Context Menu Safari Fix Removed ────────────────────────────────────────────────
+
+window.proErpPositionDropdown = function(wrapperId, panelId) {
+    const wrapper = document.getElementById(wrapperId);
+    const panel = document.getElementById(panelId);
+    if (wrapper && panel) {
+        const rect = wrapper.getBoundingClientRect();
+        panel.style.position = 'fixed';
+        panel.style.left = rect.left + 'px';
+        panel.style.right = 'auto'; // Prevent RTL stretching
+        
+        // Ensure a minimum width so it doesn't look squished in small grid columns
+        panel.style.width = Math.max(rect.width, 240) + 'px';
+        panel.style.zIndex = '999999';
+
+        // Smart Dropup/Dropdown logic
+        const panelHeight = panel.offsetHeight || 250;
+        const spaceBelow = window.innerHeight - rect.bottom;
+        
+        if (spaceBelow < panelHeight && rect.top > panelHeight) {
+            // Drop UP
+            panel.style.top = 'auto';
+            panel.style.bottom = (window.innerHeight - rect.top + 4) + 'px';
+            panel.classList.add('dropup');
+        } else {
+            // Drop DOWN
+            panel.style.top = (rect.bottom + 4) + 'px';
+            panel.style.bottom = 'auto';
+            panel.classList.remove('dropup');
+        }
+    }
+};
