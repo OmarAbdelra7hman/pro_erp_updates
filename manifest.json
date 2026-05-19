@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "publishedAt": "2026-05-19T14:34:45.769149Z",
+  "publishedAt": "2026-05-19T14:40:37.740498Z",
   "files": [
     {
       "path": "Google.Api.Gax.dll",
@@ -94,9 +94,9 @@
     },
     {
       "path": "ProERP.Infrastructure.dll",
-      "hash": "b97a27b43f1bdd06393ed1691f4dcb13fbbdf56c526c1aa1ecee34f357ab2063",
+      "hash": "80a052f78333a4c9512e49c0c66a8053fb8af9ae49eb11ab0867133d16154204",
       "size": 3106816,
-      "lastModified": "2026-05-19T14:34:29.5739905Z"
+      "lastModified": "2026-05-19T14:40:21.6478899Z"
     },
     {
       "path": "ProERP.Licensing.dll",
@@ -424,9 +424,9 @@
     },
     {
       "path": "ProERP.Web.staticwebassets.endpoints.json",
-      "hash": "9b4f949a251b03d111f1b3d29afaa19dda082a9ded7c67933fe4652b359ffa0b",
+      "hash": "3addc95bdc0e38ba17c3f5ffb371dde15dfcc09be203611c4b478a432daa29a3",
       "size": 2227280,
-      "lastModified": "2026-05-19T14:34:45.4387387Z"
+      "lastModified": "2026-05-19T14:40:37.3873033Z"
     },
     {
       "path": "System.CodeDom.dll",
@@ -522,7 +522,7 @@
       "path": "wwwroot/service-worker-assets.js",
       "hash": "1e6f72705f8c044ec0b6fb19d0e809a34af3f41f51400af63da85bfcbfd8a21d",
       "size": 20711,
-      "lastModified": "2026-05-19T14:34:43.7473125Z"
+      "lastModified": "2026-05-19T14:40:34.8344391Z"
     },
     {
       "path": "wwwroot/index.html",
@@ -534,7 +534,7 @@
       "path": "wwwroot/service-worker-assets.js.br",
       "hash": "f1b7c8faf827deb39aae200b0df1c67bd55a551e870dadb0dc761afa083c2520",
       "size": 6734,
-      "lastModified": "2026-05-19T14:34:43.9784233Z"
+      "lastModified": "2026-05-19T14:40:35.1890362Z"
     },
     {
       "path": "wwwroot/index.html.br",
@@ -588,13 +588,13 @@
       "path": "wwwroot/service-worker-assets.js.gz",
       "hash": "eddc3c9b3590beebb60b4b0a8402c3c20eb29e6cee4a493c80041d6de135296d",
       "size": 7111,
-      "lastModified": "2026-05-19T14:34:43.7780071Z"
+      "lastModified": "2026-05-19T14:40:34.8844136Z"
     },
     {
       "path": "wwwroot/service-worker.js",
       "hash": "b6b379d7fefc5f442c52de8ab8c55b8d9fab9e7d201dc8f4dc306344ecc6766e",
       "size": 2892,
-      "lastModified": "2026-05-19T14:34:43.7488908Z"
+      "lastModified": "2026-05-19T14:40:34.8567357Z"
     },
     {
       "path": "wwwroot/index.html.gz",
@@ -1254,7 +1254,7 @@
       "path": "wwwroot/_framework/blazor.boot.json",
       "hash": "da9d04bd275136393fd9ab13e93b25cd18137e24a1c37cf48fcf189c1757f657",
       "size": 18864,
-      "lastModified": "2026-05-19T14:34:43.7184025Z"
+      "lastModified": "2026-05-19T14:40:34.8063143Z"
     },
     {
       "path": "wwwroot/_framework/System.Runtime.InteropServices.RuntimeInformation.tbzy0fkhs7.wasm.gz",
@@ -1626,7 +1626,7 @@
       "path": "wwwroot/_framework/blazor.boot.json.br",
       "hash": "240eb75035d10f7affe53453630779a1717f426c3d9e154097b23c7f6059f68a",
       "size": 5745,
-      "lastModified": "2026-05-19T14:34:43.9786907Z"
+      "lastModified": "2026-05-19T14:40:35.1890443Z"
     },
     {
       "path": "wwwroot/_framework/System.Security.Claims.4kenip7qfw.wasm",
@@ -2646,7 +2646,7 @@
       "path": "wwwroot/_framework/blazor.boot.json.gz",
       "hash": "5bff502a0f27a1dc6035bf86dc4771fac068105b1431c6fc1600ddb9d2dc87a2",
       "size": 6304,
-      "lastModified": "2026-05-19T14:34:43.7784115Z"
+      "lastModified": "2026-05-19T14:40:34.884451Z"
     },
     {
       "path": "wwwroot/_framework/Microsoft.AspNetCore.Components.ebt04gmke9.wasm.br",
