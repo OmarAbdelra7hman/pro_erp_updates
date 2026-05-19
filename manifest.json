@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "publishedAt": "2026-05-19T15:09:46.688407Z",
+  "publishedAt": "2026-05-19T16:26:03.86124Z",
   "files": [
     {
       "path": "Google.Api.Gax.dll",
@@ -76,9 +76,9 @@
     },
     {
       "path": "ProERP.Application.dll",
-      "hash": "c57c8db8e484ac30592d5236fd652218ccabc57c4c420b793e4f1129f88ea97c",
+      "hash": "8f6e511060a42fab4e8dd654bad0d02b56bfc5f7dcc397118c96df957d0ccb99",
       "size": 489472,
-      "lastModified": "2026-05-19T15:04:37.6102933Z"
+      "lastModified": "2026-05-19T16:25:10.6647348Z"
     },
     {
       "path": "Npgsql.EntityFrameworkCore.PostgreSQL.dll",
@@ -94,9 +94,9 @@
     },
     {
       "path": "ProERP.Infrastructure.dll",
-      "hash": "5036923983a88dad789cc11dc72ec7081a9f04cc291682e851474b46f9ed2728",
+      "hash": "e5a211011a8a50573dd18fe7b8173033daac309c91c708b59db4172dfe42b494",
       "size": 3159552,
-      "lastModified": "2026-05-19T15:09:24.5351526Z"
+      "lastModified": "2026-05-19T16:25:14.1046874Z"
     },
     {
       "path": "ProERP.Licensing.dll",
@@ -126,7 +126,7 @@
       "path": "ProERP.Web",
       "hash": "383e313be0dd2fe9bf7efa57a362a761026a9ac2e2659187f16448f35310e4b5",
       "size": 101760,
-      "lastModified": "2026-05-19T15:09:35.1018528Z"
+      "lastModified": "2026-05-19T16:25:24.8614476Z"
     },
     {
       "path": "FastReport.OpenSource.Export.PdfSimple.dll",
@@ -202,9 +202,9 @@
     },
     {
       "path": "ProERP.Web.dll",
-      "hash": "a14e8a0c16de5f00efef57d15d12f328245346ddc72c29cac2debc3ceb52f566",
-      "size": 2902016,
-      "lastModified": "2026-05-19T15:09:34.8806516Z"
+      "hash": "f8bb8d86502e63843524e5fc9f83afcf1bed7f89582a89f20cf4c151f427fe92",
+      "size": 2907136,
+      "lastModified": "2026-05-19T16:25:24.5301975Z"
     },
     {
       "path": "Microsoft.IdentityModel.Protocols.dll",
@@ -292,9 +292,9 @@
     },
     {
       "path": "ProERP.Client.dll",
-      "hash": "f4fbf4b30195fac8295aa1410cc11e5556d777572f8ceae463bc72c291825915",
+      "hash": "ca03fb7e6eacdc71ca8b0d2ee0c3597a7240cb6997ab9e49be407b775fffc446",
       "size": 202240,
-      "lastModified": "2026-05-19T15:04:40.4151426Z"
+      "lastModified": "2026-05-19T16:25:12.9260272Z"
     },
     {
       "path": "Microsoft.AspNetCore.Authentication.JwtBearer.dll",
@@ -424,9 +424,9 @@
     },
     {
       "path": "ProERP.Web.staticwebassets.endpoints.json",
-      "hash": "62300714db522a92338c0641baaebf51376893ea46fad1f313cdb2147f946522",
+      "hash": "c13f64379139fe9097fff63bfbeb844aa8f01a800f4858556d46309e140f5d20",
       "size": 2227280,
-      "lastModified": "2026-05-19T15:09:46.2477244Z"
+      "lastModified": "2026-05-19T16:26:02.9658785Z"
     },
     {
       "path": "System.CodeDom.dll",
@@ -520,9 +520,9 @@
     },
     {
       "path": "wwwroot/service-worker-assets.js",
-      "hash": "d7b0b0e69ccd5d4e7d29c32c3fa7344eb10831c0957d9fc49a95af8abbf4ac32",
+      "hash": "533f3200a5fa926d8a86369cb91f8b65b70c1a988316283d320900f6629c779a",
       "size": 20711,
-      "lastModified": "2026-05-19T15:09:44.1640784Z"
+      "lastModified": "2026-05-19T16:25:59.1036614Z"
     },
     {
       "path": "wwwroot/index.html",
@@ -532,9 +532,9 @@
     },
     {
       "path": "wwwroot/service-worker-assets.js.br",
-      "hash": "be8e7d14ffaa949c71bdfe1e6062e01b343756528059360e16524eb2e74b7a5d",
+      "hash": "09c34a703b5de3debe3be376e0bfa50be326f9c9739abc17217ad898e8462381",
       "size": 6733,
-      "lastModified": "2026-05-19T15:09:44.4186178Z"
+      "lastModified": "2026-05-19T16:25:59.3400198Z"
     },
     {
       "path": "wwwroot/index.html.br",
@@ -552,7 +552,7 @@
       "path": "wwwroot/service-worker.js.gz",
       "hash": "4cfcbe465da9c4874bac8a7c6dc9997db8b8901964336448493126d9d0534035",
       "size": 1142,
-      "lastModified": "2026-05-19T15:05:26.0959542Z"
+      "lastModified": "2026-05-19T16:25:59.1450659Z"
     },
     {
       "path": "wwwroot/PrivacyPolicy.html",
@@ -586,15 +586,15 @@
     },
     {
       "path": "wwwroot/service-worker-assets.js.gz",
-      "hash": "78f2e5d41158c3882da2f57dae2a1c690d09c8eedb991969cb9556ae4c443313",
-      "size": 7109,
-      "lastModified": "2026-05-19T15:09:44.2078696Z"
+      "hash": "20acc81b9663ce973ce7b8457e6b92baab68a5f51bbcc53e8ec3ba2ebe71c0d2",
+      "size": 7112,
+      "lastModified": "2026-05-19T16:25:59.1433857Z"
     },
     {
       "path": "wwwroot/service-worker.js",
-      "hash": "37349ccf8a6845d0e2e409c6db3b3b6c0700a6332b64dcade172b45b9a16115b",
+      "hash": "4535e9ead210e03f7ce09cb68ad8ab9c94ecbdb06b9a9ed31d4f38d684b46b18",
       "size": 2892,
-      "lastModified": "2026-05-19T15:09:44.1659088Z"
+      "lastModified": "2026-05-19T16:25:59.104914Z"
     },
     {
       "path": "wwwroot/index.html.gz",
@@ -618,7 +618,7 @@
       "path": "wwwroot/service-worker.js.br",
       "hash": "a4c9dd0b2f31e3ee7b059853358e3428fcda2929a061a13ecb35ddca4bada0b6",
       "size": 948,
-      "lastModified": "2026-05-19T15:05:26.3172652Z"
+      "lastModified": "2026-05-19T16:25:59.3157093Z"
     },
     {
       "path": "wwwroot/qz-cert.pem",
@@ -1252,9 +1252,9 @@
     },
     {
       "path": "wwwroot/_framework/blazor.boot.json",
-      "hash": "976d95dc7812136faa615ef2b3ce05512703b236a650a530119ade47b5de22fc",
+      "hash": "b22ed7d3a99b5c8003047552a37f14926e5d110187254dd983d82ebd5421bfcb",
       "size": 18864,
-      "lastModified": "2026-05-19T15:09:44.1065877Z"
+      "lastModified": "2026-05-19T16:25:59.0806416Z"
     },
     {
       "path": "wwwroot/_framework/System.Runtime.InteropServices.RuntimeInformation.tbzy0fkhs7.wasm.gz",
@@ -1630,9 +1630,9 @@
     },
     {
       "path": "wwwroot/_framework/blazor.boot.json.br",
-      "hash": "99065d66651f67a62a396b5f216345499cae6190137e12278c1e3b761f204a58",
-      "size": 5713,
-      "lastModified": "2026-05-19T15:09:44.4186322Z"
+      "hash": "e9e651e98b06bc06a17ee732b45b0ab8a17c2e8c4f8533149764f4346cb71141",
+      "size": 5714,
+      "lastModified": "2026-05-19T16:25:59.3400043Z"
     },
     {
       "path": "wwwroot/_framework/System.Security.Claims.4kenip7qfw.wasm",
@@ -1725,6 +1725,12 @@
       "lastModified": "2026-04-16T21:16:32.5328058Z"
     },
     {
+      "path": "wwwroot/_framework/ProERP.Application.rwp0whzljj.wasm",
+      "hash": "2bf7427b327b73ab7fa27ab9fd0d36a67032e7a8a4b33f2764bb518b50088bc8",
+      "size": 489237,
+      "lastModified": "2026-05-19T16:25:56.492844Z"
+    },
+    {
       "path": "wwwroot/_framework/System.Runtime.Extensions.nitmfwfld5.wasm.br",
       "hash": "9dbd59a6d6e596fd2785458e764444dc2ad60b9722d697234598339d80adca89",
       "size": 1687,
@@ -1765,6 +1771,12 @@
       "hash": "2019d8364bed7f8e87aadef6d75dbc8958f45a7ef59c75e1828abcd5990d28b4",
       "size": 2588,
       "lastModified": "2026-04-16T21:16:32.5240969Z"
+    },
+    {
+      "path": "wwwroot/_framework/ProERP.Application.rwp0whzljj.wasm.br",
+      "hash": "ba80d05743856f2a9706cf3f92b5078e4fae4b277753a27a93d84fd3aa4a0046",
+      "size": 107091,
+      "lastModified": "2026-05-19T16:26:01.1382268Z"
     },
     {
       "path": "wwwroot/_framework/System.Text.Json.8h3mtlbadg.wasm",
@@ -2289,6 +2301,12 @@
       "lastModified": "2026-04-16T21:16:32.1946493Z"
     },
     {
+      "path": "wwwroot/_framework/ProERP.Client.sypweeeznl.wasm",
+      "hash": "8c4e0c17600f5b0fa34fe4e26dadbc1b82d01b5ab8e8341149cd75ea1dfcf410",
+      "size": 202005,
+      "lastModified": "2026-05-19T16:25:56.6088078Z"
+    },
+    {
       "path": "wwwroot/_framework/dotnet.native.ckbbv53axp.wasm.gz",
       "hash": "261131e89ee488b338b765d9bfa45002ce2895c5ce2ee66f290872a3faa442c1",
       "size": 1160531,
@@ -2341,6 +2359,12 @@
       "hash": "af4fe621251bd650efd88ee1396fc19e13d8a9b305205cacdc6951b5aef6d7d2",
       "size": 11826,
       "lastModified": "2026-04-16T21:16:33.0477059Z"
+    },
+    {
+      "path": "wwwroot/_framework/ProERP.Client.sypweeeznl.wasm.br",
+      "hash": "b67786bcd943893eabacf7220a1a5f00bd741616c14af343609afbb323d8c8fd",
+      "size": 49613,
+      "lastModified": "2026-05-19T16:25:59.7599878Z"
     },
     {
       "path": "wwwroot/_framework/System.Buffers.rm42zux0uf.wasm.gz",
@@ -2680,9 +2704,9 @@
     },
     {
       "path": "wwwroot/_framework/blazor.boot.json.gz",
-      "hash": "16446ef3e6932f3fa881e491fea8a389cb433539525bb20e762d532915cc91bf",
+      "hash": "001b58886209d7a31ec507d2999dce9a3003b537a4cea4f47f6c2a9d0123f5f0",
       "size": 6304,
-      "lastModified": "2026-05-19T15:09:44.2079288Z"
+      "lastModified": "2026-05-19T16:25:59.1435224Z"
     },
     {
       "path": "wwwroot/_framework/Microsoft.AspNetCore.Components.ebt04gmke9.wasm.br",
@@ -3075,6 +3099,12 @@
       "lastModified": "2026-04-16T21:16:31.4233373Z"
     },
     {
+      "path": "wwwroot/_framework/ProERP.Application.rwp0whzljj.wasm.gz",
+      "hash": "422ba7c9eb0157847eff8488dea12c7ba4c35ab1bebfb94e960ba1fc20830908",
+      "size": 161214,
+      "lastModified": "2026-05-19T16:25:59.1558593Z"
+    },
+    {
       "path": "wwwroot/_framework/System.Private.Uri.pkbxmmthev.wasm",
       "hash": "d9b6161ce71eb0135cc20119239c63d43fdb30d8167efd94080e38d05f22472a",
       "size": 72469,
@@ -3295,6 +3325,12 @@
       "hash": "1ef8a8f03810b1b17a2a132483a860e6afc0a97f84ced9f68e9a9562cd02b92f",
       "size": 9588,
       "lastModified": "2026-04-16T21:16:32.9345444Z"
+    },
+    {
+      "path": "wwwroot/_framework/ProERP.Client.sypweeeznl.wasm.gz",
+      "hash": "2a69b7e4e414b0c7b99adb92481aba755b26fe9d2ede891d65c4946004326144",
+      "size": 62006,
+      "lastModified": "2026-05-19T16:25:59.1476142Z"
     },
     {
       "path": "wwwroot/_framework/System.ComponentModel.Annotations.dax6n4mogv.wasm.gz",
