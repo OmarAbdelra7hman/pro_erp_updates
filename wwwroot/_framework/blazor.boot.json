@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "ProERP.Client",
   "resources": {
-    "hash": "sha256-d1XD+jEt3M0Pm5+1FgFCqnx1ZRW81aHqhZrCXVkGqEU=",
+    "hash": "sha256-WsmqRuspNj9WRRIhqrygJUn6f5Tyf5JYsgyPht1F5+o=",
     "fingerprinting": {
       "ClosedXML.Parser.kcd8ka7nog.wasm": "ClosedXML.Parser.wasm",
       "ClosedXML.6d8ybop3kc.wasm": "ClosedXML.wasm",
@@ -26,9 +26,9 @@
       "Microsoft.JSInterop.uu8izyvyxp.wasm": "Microsoft.JSInterop.wasm",
       "Microsoft.JSInterop.WebAssembly.heoad7mujs.wasm": "Microsoft.JSInterop.WebAssembly.wasm",
       "netstandard.k29exdlk1f.wasm": "netstandard.wasm",
-      "ProERP.Application.dgqle1vfgp.wasm": "ProERP.Application.wasm",
-      "ProERP.Client.d04knzqfi1.wasm": "ProERP.Client.wasm",
-      "ProERP.Domain.te6nvozu92.wasm": "ProERP.Domain.wasm",
+      "ProERP.Application.wlb62edxdp.wasm": "ProERP.Application.wasm",
+      "ProERP.Client.2wdae8y2dk.wasm": "ProERP.Client.wasm",
+      "ProERP.Domain.6vkuhhmehv.wasm": "ProERP.Domain.wasm",
       "Radzen.Blazor.b690vsoizk.wasm": "Radzen.Blazor.wasm",
       "RBush.048ali807d.wasm": "RBush.wasm",
       "SixLabors.Fonts.1ntl3xbxha.wasm": "SixLabors.Fonts.wasm",
@@ -68,7 +68,7 @@
       "System.Net.Primitives.k323r7qafu.wasm": "System.Net.Primitives.wasm",
       "System.Numerics.Vectors.afhfie4792.wasm": "System.Numerics.Vectors.wasm",
       "System.ObjectModel.9z01uy0x5f.wasm": "System.ObjectModel.wasm",
-      "System.Private.CoreLib.zh6plhqrd4.wasm": "System.Private.CoreLib.wasm",
+      "System.Private.CoreLib.qihkat7krp.wasm": "System.Private.CoreLib.wasm",
       "System.Private.Uri.pkbxmmthev.wasm": "System.Private.Uri.wasm",
       "System.Private.Xml.Linq.sx5uma3qlc.wasm": "System.Private.Xml.Linq.wasm",
       "System.Private.Xml.8mwvk8tkrx.wasm": "System.Private.Xml.wasm",
@@ -84,7 +84,7 @@
       "System.Runtime.InteropServices.5ku4t74rnz.wasm": "System.Runtime.InteropServices.wasm",
       "System.Runtime.Numerics.cila6e39og.wasm": "System.Runtime.Numerics.wasm",
       "System.Runtime.Serialization.Formatters.g800dt4x0g.wasm": "System.Runtime.Serialization.Formatters.wasm",
-      "System.Runtime.z8qklbduaj.wasm": "System.Runtime.wasm",
+      "System.Runtime.qdy23zej7c.wasm": "System.Runtime.wasm",
       "System.Security.Claims.4kenip7qfw.wasm": "System.Security.Claims.wasm",
       "System.Security.Cryptography.2bcm37eez2.wasm": "System.Security.Cryptography.wasm",
       "System.Text.Encodings.Web.0aea8x6oak.wasm": "System.Text.Encodings.Web.wasm",
@@ -118,7 +118,7 @@
       "icudt_no_CJK.lfu7j35m59.dat": "sha256-L7sV7NEYP37/Qr2FPCePo5cJqRgTXRwGHuwF5Q+0Nfs="
     },
     "coreAssembly": {
-      "System.Private.CoreLib.zh6plhqrd4.wasm": "sha256-2Zm5aUud+pPqsajDORDzOFdWF5Vw5LAQBvUGG4cBqGc=",
+      "System.Private.CoreLib.qihkat7krp.wasm": "sha256-suPofbLufCBy3B330QqOo7KjxTRuMAU4Vl805DXlXoM=",
       "System.Runtime.InteropServices.JavaScript.i2ix6lwh25.wasm": "sha256-RqyU7ieeXqDs2Zt/JfAKBOfIOJnSgjHcQtfKtUDnc7w="
     },
     "assembly": {
@@ -145,9 +145,9 @@
       "Microsoft.JSInterop.uu8izyvyxp.wasm": "sha256-qsd7mmvxSN+titwo7yemRryk0nqW7vfS1mopEm2vjoc=",
       "Microsoft.JSInterop.WebAssembly.heoad7mujs.wasm": "sha256-99wG3VH14sWkwPaF5rX6YAcJvtAhDuqonwihvj2m5HA=",
       "netstandard.k29exdlk1f.wasm": "sha256-lHWH0t/wThLe3ZZ5fo8I5+tAWOd+PJCflzgEfib1rZQ=",
-      "ProERP.Application.dgqle1vfgp.wasm": "sha256-02RSae9dR2+kf+N87BSa2nvgm9EZkPAPNiKiZy+YByA=",
-      "ProERP.Client.d04knzqfi1.wasm": "sha256-s2vcRo+gvqPHlFPXWYgl+tDX1jC7ashNdap9r09mKWI=",
-      "ProERP.Domain.te6nvozu92.wasm": "sha256-NQ/W1lIM6apHsPU1KNnl6n3UGLT1bR0UgTZ13xwMk+4=",
+      "ProERP.Application.wlb62edxdp.wasm": "sha256-vDWoyjucXDqFuMVnPyrCuloJ1oMlMjXEkmHyyGGKbWc=",
+      "ProERP.Client.2wdae8y2dk.wasm": "sha256-0vJs+NsL4xl3sN05finmbaaWXOWxjaRUCVLyBsoz8MY=",
+      "ProERP.Domain.6vkuhhmehv.wasm": "sha256-IjqOHSMMN1VgBv3KjVp65udvM0xD6ytMvESGMsPXoqg=",
       "Radzen.Blazor.b690vsoizk.wasm": "sha256-c51Rm/epWpUkOdSo+vG0D21x/ELxcU0y/Rf91hcn6qE=",
       "RBush.048ali807d.wasm": "sha256-cHsLmPL/ZYfNtaqW793aQui9cR4N7JXjHm+xggcoz7w=",
       "SixLabors.Fonts.1ntl3xbxha.wasm": "sha256-TYAwAMga8iYHgcD5+CMUwDAmCjtNUbzJJP6/e+Xtl5w=",
@@ -201,7 +201,7 @@
       "System.Runtime.InteropServices.5ku4t74rnz.wasm": "sha256-tSwlANol9QAIfkw6yyuEz+PaOeA5jLc2eE5nOqWyHek=",
       "System.Runtime.Numerics.cila6e39og.wasm": "sha256-ZLmrGSCjLJ8qrPcDt1vyUA5yc7+R/AgD7fxocenQMJQ=",
       "System.Runtime.Serialization.Formatters.g800dt4x0g.wasm": "sha256-MEJEDATNxjhbvT5ngWLfvm4c5hoKiDrPoREZqGiLOM4=",
-      "System.Runtime.z8qklbduaj.wasm": "sha256-41LzAlHg8+YUdl4zmYyJmZtM7cHfccCn+TpkbGYxpa4=",
+      "System.Runtime.qdy23zej7c.wasm": "sha256-jgkcfI2zWSQunWsxtvhlPKh/Fw5ymaV7Ow1uexpzPHk=",
       "System.Security.Claims.4kenip7qfw.wasm": "sha256-dO8y2i40OEs3MTbAZLxxvQaenRSOwIOkexPbm5rt+vA=",
       "System.Security.Cryptography.2bcm37eez2.wasm": "sha256-zqbcZD8mQaMWGtKkUHagfYh23hyieZowJ+kyJAxI0mI=",
       "System.Text.Encodings.Web.0aea8x6oak.wasm": "sha256-OA0C52yrEvS7NIw2rw7utI/ergDyg631JBZxecEwZpI=",

@@ -1,5 +1,5 @@
 self.assetsManifest = {
-  "version": "WV2Bcn+o",
+  "version": "+9gDJpol",
   "assets": [
     {
       "hash": "sha256-iybf90y3kfW5bciTdjo7Kd4sQAffs/Ofr5q6N3ZEGmM=",
@@ -230,16 +230,16 @@ self.assetsManifest = {
       "url": "_framework/Microsoft.JSInterop.uu8izyvyxp.wasm"
     },
     {
-      "hash": "sha256-02RSae9dR2+kf+N87BSa2nvgm9EZkPAPNiKiZy+YByA=",
-      "url": "_framework/ProERP.Application.dgqle1vfgp.wasm"
+      "hash": "sha256-vDWoyjucXDqFuMVnPyrCuloJ1oMlMjXEkmHyyGGKbWc=",
+      "url": "_framework/ProERP.Application.wlb62edxdp.wasm"
     },
     {
-      "hash": "sha256-s2vcRo+gvqPHlFPXWYgl+tDX1jC7ashNdap9r09mKWI=",
-      "url": "_framework/ProERP.Client.d04knzqfi1.wasm"
+      "hash": "sha256-0vJs+NsL4xl3sN05finmbaaWXOWxjaRUCVLyBsoz8MY=",
+      "url": "_framework/ProERP.Client.2wdae8y2dk.wasm"
     },
     {
-      "hash": "sha256-NQ/W1lIM6apHsPU1KNnl6n3UGLT1bR0UgTZ13xwMk+4=",
-      "url": "_framework/ProERP.Domain.te6nvozu92.wasm"
+      "hash": "sha256-IjqOHSMMN1VgBv3KjVp65udvM0xD6ytMvESGMsPXoqg=",
+      "url": "_framework/ProERP.Domain.6vkuhhmehv.wasm"
     },
     {
       "hash": "sha256-cHsLmPL/ZYfNtaqW793aQui9cR4N7JXjHm+xggcoz7w=",
@@ -398,8 +398,8 @@ self.assetsManifest = {
       "url": "_framework/System.ObjectModel.9z01uy0x5f.wasm"
     },
     {
-      "hash": "sha256-2Zm5aUud+pPqsajDORDzOFdWF5Vw5LAQBvUGG4cBqGc=",
-      "url": "_framework/System.Private.CoreLib.zh6plhqrd4.wasm"
+      "hash": "sha256-suPofbLufCBy3B330QqOo7KjxTRuMAU4Vl805DXlXoM=",
+      "url": "_framework/System.Private.CoreLib.qihkat7krp.wasm"
     },
     {
       "hash": "sha256-2bYWHOcesBNcwgEZI5xj1D/bMNgWfv2UCA440F8iRyo=",
@@ -462,8 +462,8 @@ self.assetsManifest = {
       "url": "_framework/System.Runtime.Serialization.Formatters.g800dt4x0g.wasm"
     },
     {
-      "hash": "sha256-41LzAlHg8+YUdl4zmYyJmZtM7cHfccCn+TpkbGYxpa4=",
-      "url": "_framework/System.Runtime.z8qklbduaj.wasm"
+      "hash": "sha256-jgkcfI2zWSQunWsxtvhlPKh/Fw5ymaV7Ow1uexpzPHk=",
+      "url": "_framework/System.Runtime.qdy23zej7c.wasm"
     },
     {
       "hash": "sha256-dO8y2i40OEs3MTbAZLxxvQaenRSOwIOkexPbm5rt+vA=",
@@ -506,7 +506,7 @@ self.assetsManifest = {
       "url": "_framework/System.ke1disal2r.wasm"
     },
     {
-      "hash": "sha256-ik15+aLwqeyDrfJnBuxeqtuphQcIz/yfPhjm1It2DrI=",
+      "hash": "sha256-6lMjygzkLNfJ7C7/36vhM+j2GZfDCDd6w5NVOc8NxbY=",
       "url": "_framework/blazor.boot.json"
     },
     {
