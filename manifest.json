@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "publishedAt": "2026-05-21T09:36:26.898864Z",
+  "publishedAt": "2026-05-21T10:00:41.114968Z",
   "files": [
     {
       "path": "Google.Api.Gax.dll",
@@ -94,9 +94,9 @@
     },
     {
       "path": "ProERP.Infrastructure.dll",
-      "hash": "465b5dbf7d9f33d7ea07bdf67389af128170df3df9e1d6152972c4ae74e3f857",
-      "size": 3255296,
-      "lastModified": "2026-05-21T09:35:34.2518457Z"
+      "hash": "cc7c84ff4ab47d3a210e2c27b5328090c89d0d8d66fa8aef67ad1323079e3f55",
+      "size": 3248640,
+      "lastModified": "2026-05-21T10:00:12.7480678Z"
     },
     {
       "path": "ProERP.Licensing.dll",
@@ -126,7 +126,7 @@
       "path": "ProERP.Web",
       "hash": "383e313be0dd2fe9bf7efa57a362a761026a9ac2e2659187f16448f35310e4b5",
       "size": 101760,
-      "lastModified": "2026-05-21T09:35:52.0309507Z"
+      "lastModified": "2026-05-21T10:00:30.0096305Z"
     },
     {
       "path": "FastReport.OpenSource.Export.PdfSimple.dll",
@@ -202,9 +202,9 @@
     },
     {
       "path": "ProERP.Web.dll",
-      "hash": "f7e56a9473e8bb871f3ba16f940f2e63cc73a8124814d1d85594d4dd6a1677c6",
+      "hash": "62465e4f33b223195bf33d269250903ffe8861d62e176c2a5b7eceb3bee05276",
       "size": 2933248,
-      "lastModified": "2026-05-21T09:35:51.9278525Z"
+      "lastModified": "2026-05-21T10:00:29.8996689Z"
     },
     {
       "path": "Microsoft.IdentityModel.Protocols.dll",
@@ -424,9 +424,9 @@
     },
     {
       "path": "ProERP.Web.staticwebassets.endpoints.json",
-      "hash": "19bce4568255a8ee14f626e633dcac94f1117b5ea3fc77334d68fbc00be575a9",
+      "hash": "e2f4ae96438e2fde988218c29613e4dfda119ba6b6a04d973d25013be9c894cc",
       "size": 2227280,
-      "lastModified": "2026-05-21T09:36:26.3877877Z"
+      "lastModified": "2026-05-21T10:00:40.7099357Z"
     },
     {
       "path": "System.CodeDom.dll",
@@ -522,7 +522,7 @@
       "path": "wwwroot/service-worker-assets.js",
       "hash": "314e18a98d4a52ba59158f9f93a85ae9d5a2b88861538cef61cb42a9708b6119",
       "size": 20711,
-      "lastModified": "2026-05-21T09:36:18.6313546Z"
+      "lastModified": "2026-05-21T10:00:38.8282247Z"
     },
     {
       "path": "wwwroot/index.html",
@@ -534,7 +534,7 @@
       "path": "wwwroot/service-worker-assets.js.br",
       "hash": "ee491c1c028da5aee15025c64d8338f15558d244d365fb9b3d911bbab54c6112",
       "size": 6732,
-      "lastModified": "2026-05-21T09:36:18.8755714Z"
+      "lastModified": "2026-05-21T10:00:39.0599131Z"
     },
     {
       "path": "wwwroot/index.html.br",
@@ -588,13 +588,13 @@
       "path": "wwwroot/service-worker-assets.js.gz",
       "hash": "36531691ea7899b51ce907cb3e6adbbdf49e3c88f5404a5eb8b1c9254d7b235d",
       "size": 7112,
-      "lastModified": "2026-05-21T09:36:18.6676393Z"
+      "lastModified": "2026-05-21T10:00:38.8764602Z"
     },
     {
       "path": "wwwroot/service-worker.js",
       "hash": "ebc37d68894ef62c3d49cc7899ed375ffce4a790126e21059b2741a3995b2c4b",
       "size": 2892,
-      "lastModified": "2026-05-21T09:36:18.6329117Z"
+      "lastModified": "2026-05-21T10:00:38.8298246Z"
     },
     {
       "path": "wwwroot/index.html.gz",
@@ -1230,7 +1230,7 @@
       "path": "wwwroot/_framework/blazor.boot.json",
       "hash": "8457bbf918d674a5c2ccd5d9b8dbbdaed270e6c9d4e9e998884ae0c543dd7e55",
       "size": 18864,
-      "lastModified": "2026-05-21T09:36:18.5959393Z"
+      "lastModified": "2026-05-21T10:00:38.7949644Z"
     },
     {
       "path": "wwwroot/_framework/System.Runtime.InteropServices.RuntimeInformation.tbzy0fkhs7.wasm.gz",
@@ -1548,7 +1548,7 @@
       "path": "wwwroot/_framework/blazor.boot.json.br",
       "hash": "d792253bc4e5b69e309947576fbf4ab29ab732dc1499882e678bd36031b21a52",
       "size": 5715,
-      "lastModified": "2026-05-21T09:36:18.8766206Z"
+      "lastModified": "2026-05-21T10:00:39.0607448Z"
     },
     {
       "path": "wwwroot/_framework/System.Security.Claims.4kenip7qfw.wasm",
@@ -2328,7 +2328,7 @@
       "path": "wwwroot/_framework/blazor.boot.json.gz",
       "hash": "6325afe377e21ebdb4dc6c7dbfdcc42975b7e0517fec4b7b8c159124df6ad5f1",
       "size": 6305,
-      "lastModified": "2026-05-21T09:36:18.6677424Z"
+      "lastModified": "2026-05-21T10:00:38.8760272Z"
     },
     {
       "path": "wwwroot/_framework/Microsoft.AspNetCore.Components.ebt04gmke9.wasm.br",
