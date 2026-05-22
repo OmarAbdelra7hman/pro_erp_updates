@@ -2976,3 +2976,9 @@ textarea:disabled {
 
 /* Fix Radzen Context Menu z-index */
 .rz-context-menu { z-index: 99999 !important; }
+
+/* Dark mode override for Skeleton Shimmer */
+[data-theme="dark"] .skeleton-shimmer {
+    background: #1e1e1e;
+    background-image: linear-gradient(to right, #1e1e1e 0%, #2d2d2d 20%, #1e1e1e 40%, #1e1e1e 100%);
+}
