@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "ProERP.Client",
   "resources": {
-    "hash": "sha256-1ibPtt8B4VIibqJiVjW+gcIYMzay4W+/RPEyW9zSD6k=",
+    "hash": "sha256-fWMQQLzsSB+p8xwxj1buOCvEekDac+Z0YVSsvnS79Zc=",
     "fingerprinting": {
       "ClosedXML.Parser.kcd8ka7nog.wasm": "ClosedXML.Parser.wasm",
       "ClosedXML.6d8ybop3kc.wasm": "ClosedXML.wasm",
@@ -26,8 +26,8 @@
       "Microsoft.JSInterop.uu8izyvyxp.wasm": "Microsoft.JSInterop.wasm",
       "Microsoft.JSInterop.WebAssembly.heoad7mujs.wasm": "Microsoft.JSInterop.WebAssembly.wasm",
       "netstandard.k29exdlk1f.wasm": "netstandard.wasm",
-      "ProERP.Application.85jp0nimoa.wasm": "ProERP.Application.wasm",
-      "ProERP.Client.g8f7rocaak.wasm": "ProERP.Client.wasm",
+      "ProERP.Application.4zury4wnpw.wasm": "ProERP.Application.wasm",
+      "ProERP.Client.lwq5p7hwzv.wasm": "ProERP.Client.wasm",
       "ProERP.Domain.518cfdz4x7.wasm": "ProERP.Domain.wasm",
       "Radzen.Blazor.b690vsoizk.wasm": "Radzen.Blazor.wasm",
       "RBush.048ali807d.wasm": "RBush.wasm",
@@ -145,8 +145,8 @@
       "Microsoft.JSInterop.uu8izyvyxp.wasm": "sha256-qsd7mmvxSN+titwo7yemRryk0nqW7vfS1mopEm2vjoc=",
       "Microsoft.JSInterop.WebAssembly.heoad7mujs.wasm": "sha256-99wG3VH14sWkwPaF5rX6YAcJvtAhDuqonwihvj2m5HA=",
       "netstandard.k29exdlk1f.wasm": "sha256-lHWH0t/wThLe3ZZ5fo8I5+tAWOd+PJCflzgEfib1rZQ=",
-      "ProERP.Application.85jp0nimoa.wasm": "sha256-LImPAi76MFor1j2a1hpmpnWtzIh/vdSUOIBlby3n/dk=",
-      "ProERP.Client.g8f7rocaak.wasm": "sha256-IByqiZMP6a2U84FourkcQHLMAC8WE9U5HuSmU6mLL74=",
+      "ProERP.Application.4zury4wnpw.wasm": "sha256-cHhXw3yWr0rf4VhcTFDImMsqTZtkYHAQ/NQeez6muNU=",
+      "ProERP.Client.lwq5p7hwzv.wasm": "sha256-i6O5TzSgUo/qXrEmU45Y0i5H9Hmplu6jU0nM65xk67s=",
       "ProERP.Domain.518cfdz4x7.wasm": "sha256-qaZYaCcW/1FikVN0GnTa6+0mZUrvOHf5guvpOfDhMeA=",
       "Radzen.Blazor.b690vsoizk.wasm": "sha256-c51Rm/epWpUkOdSo+vG0D21x/ELxcU0y/Rf91hcn6qE=",
       "RBush.048ali807d.wasm": "sha256-cHsLmPL/ZYfNtaqW793aQui9cR4N7JXjHm+xggcoz7w=",
