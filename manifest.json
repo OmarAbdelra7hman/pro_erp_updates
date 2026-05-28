@@ -197,11 +197,6 @@
       "size": 188176
     },
     {
-      "path": "ProERP.Client.staticwebassets.endpoints.json",
-      "hash": "0309715603b0704a6cb69489d8b7945322174c7b023766989c63cc6a59b03d3c",
-      "size": 1108236
-    },
-    {
       "path": "FirebaseAdmin.dll",
       "hash": "827684c193e65094c117cf79923cc271f7baef5b715c28ee24b894bf785f3127",
       "size": 299520
@@ -437,11 +432,6 @@
       "size": 1739776
     },
     {
-      "path": "ProERP.Client.staticwebassets.runtime.json",
-      "hash": "d7a6743b115140458af6440b6e5df8c8f5d1308d2bbeb429b643e53123db5949",
-      "size": 81173
-    },
-    {
       "path": "Microsoft.IdentityModel.Tokens.dll",
       "hash": "b2dacc5120971efceb60f6febfe9685fe5a509ddb803c45956a63fc36e67631b",
       "size": 329248
@@ -462,11 +452,6 @@
       "size": 16144
     },
     {
-      "path": "ProERP.Web.staticwebassets.runtime.json",
-      "hash": "adca4a3b9976bd5a9a937d14e7f05dff4af858a1d6d4c9712bc5c32d1a78b7a0",
-      "size": 169427
-    },
-    {
       "path": "System.Composition.AttributedModel.dll",
       "hash": "6c4d617570f09b1aa0917e87f611a23ed0654b24ac3bc610ce0f079ccabab5fb",
       "size": 20096
@@ -475,11 +460,6 @@
       "path": "Microsoft.AspNetCore.Authorization.dll",
       "hash": "cbd55fa42e1b96a3964444017a0444816308e8ded4883287f898fc2faeac7b76",
       "size": 51488
-    },
-    {
-      "path": "ProERP.Web.staticwebassets.endpoints.json",
-      "hash": "c3f8212b3eeaf1dc4c0cc68330944c8e9dea1e443c8ec786c2fa6474c093cce5",
-      "size": 2367541
     },
     {
       "path": "Microsoft.CodeAnalysis.Workspaces.dll",
@@ -12380,101 +12360,6 @@
       "path": "ru/Microsoft.CodeAnalysis.VisualBasic.resources.dll",
       "hash": "9157e67a1e5616574ff6e9fd6c63e5b440aecd9c1fe1277b90568c41cd235513",
       "size": 403048
-    },
-    {
-      "path": "standalone_publish_dir/ProERP.Client.staticwebassets.endpoints.json",
-      "hash": "4928053261ebb1f67708ba07c61af97feebe039f94412b66ae1f0e255edeea49",
-      "size": 928435
-    },
-    {
-      "path": "standalone_publish_dir/web.config",
-      "hash": "8401eccfc586e8f28ce510ded083a3012cebdf38a33a4cbb2877237f5427c872",
-      "size": 1782
-    },
-    {
-      "path": "standalone_publish_dir/wwwroot/_framework/blazor.boot.json",
-      "hash": "89a31efb827b0143f2074d9dffe916cbd148c7b63d16bd34d7068adc7a1caf14",
-      "size": 19087
-    },
-    {
-      "path": "standalone_publish_dir/standalone_publish_dir/ProERP.Client.staticwebassets.endpoints.json",
-      "hash": "638e98920b1b80f747d2c416a68b66f0e890f871764075a5c9198aa0711eb85c",
-      "size": 928435
-    },
-    {
-      "path": "standalone_publish_dir/standalone_publish_dir/wwwroot/_framework/blazor.boot.json",
-      "hash": "096983e1b5f70ba1e4ceeab944553ad631b8fe68cfaf5f63a478e0fa795c422b",
-      "size": 19087
-    },
-    {
-      "path": "standalone_publish_dir/standalone_publish_dir/standalone_publish_dir/ProERP.Client.staticwebassets.endpoints.json",
-      "hash": "638e98920b1b80f747d2c416a68b66f0e890f871764075a5c9198aa0711eb85c",
-      "size": 928435
-    },
-    {
-      "path": "standalone_publish_dir/standalone_publish_dir/standalone_publish_dir/wwwroot/_framework/blazor.boot.json",
-      "hash": "31a17063ac5ec0e4167ca58446d08d93eaec2faf96868b098785f2f2ca181cbf",
-      "size": 19087
-    },
-    {
-      "path": "standalone_publish_dir/standalone_publish_dir/standalone_publish_dir/standalone_publish_dir/ProERP.Client.staticwebassets.endpoints.json",
-      "hash": "b47b5723f118b4ca7963eb3f85823b75574d88909f65cd4e2d43f8ff6e5f5632",
-      "size": 928435
-    },
-    {
-      "path": "standalone_publish_dir/standalone_publish_dir/standalone_publish_dir/standalone_publish_dir/wwwroot/_framework/blazor.boot.json",
-      "hash": "31a17063ac5ec0e4167ca58446d08d93eaec2faf96868b098785f2f2ca181cbf",
-      "size": 19087
-    },
-    {
-      "path": "standalone_publish_dir/standalone_publish_dir/standalone_publish_dir/standalone_publish_dir/standalone_publish_dir/ProERP.Client.staticwebassets.endpoints.json",
-      "hash": "b47b5723f118b4ca7963eb3f85823b75574d88909f65cd4e2d43f8ff6e5f5632",
-      "size": 928435
-    },
-    {
-      "path": "standalone_publish_dir/standalone_publish_dir/standalone_publish_dir/standalone_publish_dir/standalone_publish_dir/wwwroot/_framework/blazor.boot.json",
-      "hash": "31a17063ac5ec0e4167ca58446d08d93eaec2faf96868b098785f2f2ca181cbf",
-      "size": 19087
-    },
-    {
-      "path": "standalone_publish_dir/standalone_publish_dir/standalone_publish_dir/standalone_publish_dir/standalone_publish_dir/standalone_publish_dir/ProERP.Client.staticwebassets.endpoints.json",
-      "hash": "f1f937ea4dd273ec959050f8b931ea3cc4bac8aae151a19b1d8050f60985e5a5",
-      "size": 928435
-    },
-    {
-      "path": "standalone_publish_dir/standalone_publish_dir/standalone_publish_dir/standalone_publish_dir/standalone_publish_dir/standalone_publish_dir/wwwroot/_framework/blazor.boot.json",
-      "hash": "0e914d23e875d3cbdcb6a5e29ec16a5f11a417981f1d30de8616635a6a4979bc",
-      "size": 19087
-    },
-    {
-      "path": "standalone_publish_dir/standalone_publish_dir/standalone_publish_dir/standalone_publish_dir/standalone_publish_dir/standalone_publish_dir/standalone_publish_dir/ProERP.Client.staticwebassets.endpoints.json",
-      "hash": "f1f937ea4dd273ec959050f8b931ea3cc4bac8aae151a19b1d8050f60985e5a5",
-      "size": 928435
-    },
-    {
-      "path": "standalone_publish_dir/standalone_publish_dir/standalone_publish_dir/standalone_publish_dir/standalone_publish_dir/standalone_publish_dir/standalone_publish_dir/wwwroot/_framework/blazor.boot.json",
-      "hash": "0e914d23e875d3cbdcb6a5e29ec16a5f11a417981f1d30de8616635a6a4979bc",
-      "size": 19087
-    },
-    {
-      "path": "standalone_publish_dir/standalone_publish_dir/standalone_publish_dir/standalone_publish_dir/standalone_publish_dir/standalone_publish_dir/standalone_publish_dir/standalone_publish_dir/ProERP.Client.staticwebassets.endpoints.json",
-      "hash": "9fcea8de788d40950867d0bbdb4efa6c4d646424552f82717f1c49e65f284cda",
-      "size": 928435
-    },
-    {
-      "path": "standalone_publish_dir/standalone_publish_dir/standalone_publish_dir/standalone_publish_dir/standalone_publish_dir/standalone_publish_dir/standalone_publish_dir/standalone_publish_dir/wwwroot/_framework/blazor.boot.json",
-      "hash": "ef997d0c6e42f5f9100bfed3770ed7ab2b84534e7fa1279481010d3f4d89f039",
-      "size": 19087
-    },
-    {
-      "path": "standalone_publish_dir/standalone_publish_dir/standalone_publish_dir/standalone_publish_dir/standalone_publish_dir/standalone_publish_dir/standalone_publish_dir/standalone_publish_dir/standalone_publish_dir/ProERP.Client.staticwebassets.endpoints.json",
-      "hash": "9fcea8de788d40950867d0bbdb4efa6c4d646424552f82717f1c49e65f284cda",
-      "size": 928435
-    },
-    {
-      "path": "standalone_publish_dir/standalone_publish_dir/standalone_publish_dir/standalone_publish_dir/standalone_publish_dir/standalone_publish_dir/standalone_publish_dir/standalone_publish_dir/standalone_publish_dir/wwwroot/_framework/blazor.boot.json",
-      "hash": "ef997d0c6e42f5f9100bfed3770ed7ab2b84534e7fa1279481010d3f4d89f039",
-      "size": 19087
     },
     {
       "path": "pt-BR/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll",
