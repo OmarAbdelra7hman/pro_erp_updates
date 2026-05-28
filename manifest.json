@@ -12,6 +12,11 @@
       "size": 30720
     },
     {
+      "path": "Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll",
+      "hash": "2482ac06d3b92ad3247d795f23476c8f97b5da45d3418d90ff57f11fdbb2ac47",
+      "size": 86688
+    },
+    {
       "path": "FastReport.Compat.dll",
       "hash": "a81afb5d3f402eabc464907d8cd0364de437d6f590c899652d56c378437432d9",
       "size": 91136
@@ -52,6 +57,11 @@
       "size": 32040
     },
     {
+      "path": "Mono.TextTemplating.dll",
+      "hash": "e9f742d672c8f567471974fcb7163f955d1e1f01060bb15d067ac220361d23cb",
+      "size": 177664
+    },
+    {
       "path": "System.Management.dll",
       "hash": "36056b240f488b7da63720585d84f93183cf7bd05da68d5340151ebdd85e4d88",
       "size": 74352
@@ -63,8 +73,8 @@
     },
     {
       "path": "ProERP.Application.dll",
-      "hash": "7bd6804487137df1f96135dabc901994b13d2dfab88221276ac1a500ac84f26c",
-      "size": 514560
+      "hash": "e510f2f019a049c55643e3c56a50dea1de7b1804dc6d84ca311c449dae789fbb",
+      "size": 515072
     },
     {
       "path": "Npgsql.EntityFrameworkCore.PostgreSQL.dll",
@@ -72,14 +82,24 @@
       "size": 660480
     },
     {
+      "path": "ProERP.Web.pdb",
+      "hash": "ea3e6304fff7caabad560ea5bca89f102f254edd7a296aadbbd2c0a0ddf42c96",
+      "size": 1441164
+    },
+    {
       "path": "Microsoft.EntityFrameworkCore.dll",
       "hash": "8756f108f3d48465705c08e1cde5360b0e3cbfbb6bce3e8299abc12a60c356a7",
       "size": 2687032
     },
     {
+      "path": "Microsoft.CodeAnalysis.CSharp.Workspaces.dll",
+      "hash": "8e221ef5e006098b90c9a7195c1b2f4cc1b059f3c0d49e1ba700837f11fbf43b",
+      "size": 883472
+    },
+    {
       "path": "ProERP.Infrastructure.dll",
-      "hash": "3ccc2f41e23acc0795601de39998b8031b1c9364dde6a76861a6082099cecbae",
-      "size": 3573760
+      "hash": "ad8a5660066771fe581284606f04ad12002a516ec2a0db7be1adc1de303d8541",
+      "size": 3622400
     },
     {
       "path": "ProERP.Licensing.dll",
@@ -122,6 +142,16 @@
       "size": 28672
     },
     {
+      "path": "System.Composition.Runtime.dll",
+      "hash": "0f3aa3ea1030d1e4b97f0a2109ea241ea426ef12a431abd0a12bb20902fce447",
+      "size": 26240
+    },
+    {
+      "path": "ProERP.Domain.pdb",
+      "hash": "c23ffde53a8cd22d7721e2b46d3fdbb76dc20ae2f538de6987480cc133cd3ddb",
+      "size": 54696
+    },
+    {
       "path": "Microsoft.Extensions.Caching.Abstractions.dll",
       "hash": "61d91f1610aa7711bb41a10b9fa7fdcce0d89a0cf5eccf4f237110ae46837940",
       "size": 36648
@@ -130,6 +160,11 @@
       "path": "Microsoft.EntityFrameworkCore.Abstractions.dll",
       "hash": "9824f0f9bec43f532d7c741c5abd5ec21980f5faf82164731debc11b10b7c5e7",
       "size": 34872
+    },
+    {
+      "path": "Microsoft.Build.Locator.dll",
+      "hash": "43005b7e4b274968c856bb2926b083484565dff7f7abb573a3eab853ec4c0546",
+      "size": 44576
     },
     {
       "path": "Microsoft.Extensions.Logging.Abstractions.dll",
@@ -162,6 +197,11 @@
       "size": 188176
     },
     {
+      "path": "ProERP.Client.staticwebassets.endpoints.json",
+      "hash": "0309715603b0704a6cb69489d8b7945322174c7b023766989c63cc6a59b03d3c",
+      "size": 1108236
+    },
+    {
       "path": "FirebaseAdmin.dll",
       "hash": "827684c193e65094c117cf79923cc271f7baef5b715c28ee24b894bf785f3127",
       "size": 299520
@@ -173,8 +213,8 @@
     },
     {
       "path": "ProERP.Web.deps.json",
-      "hash": "7aa5392273199c1341d5ac691a9f58986c1adc5622c1d750a29c3fabf46effde",
-      "size": 91710
+      "hash": "81a3e1bc1ce5419cc69afc13fdde1f208c190c9c8d8083784c3849524919c3a3",
+      "size": 111058
     },
     {
       "path": "ProERP.Web.dll",
@@ -182,9 +222,24 @@
       "size": 3151872
     },
     {
+      "path": "ProERP.Application.pdb",
+      "hash": "7abceea4b37500e88a16c84555b8b15f99dd17f28d0956d1ce6032a3038fe07a",
+      "size": 126256
+    },
+    {
+      "path": "ProERP.Infrastructure.pdb",
+      "hash": "22b3961eb02eb7a59f3088597299919cf3cb4322961d56bc45b2a9ee5a1fc302",
+      "size": 572104
+    },
+    {
       "path": "Microsoft.IdentityModel.Protocols.dll",
       "hash": "7c8702a7f6c019d962faf4b8af2da751dc32af9b6be998688e774394fb5f8730",
       "size": 40880
+    },
+    {
+      "path": "Microsoft.Extensions.DependencyModel.dll",
+      "hash": "9cf51c95b00db007ec3e739f0d23a333133e3717d708f40abbde1df14440b59f",
+      "size": 85296
     },
     {
       "path": "Microsoft.Extensions.Primitives.dll",
@@ -200,6 +255,11 @@
       "path": "Npgsql.dll",
       "hash": "c88d89665b0b490a3b6c70e5cc2440a656604f06d0b30ead95bf8166aa47fdda",
       "size": 1429504
+    },
+    {
+      "path": "appsettings.json",
+      "hash": "56783900e959bd3e344c7043d87fa8c4744c04cd1bdb17ada93d6296b9a296c5",
+      "size": 828
     },
     {
       "path": "Google.Api.Gax.Rest.dll",
@@ -227,6 +287,16 @@
       "size": 19752
     },
     {
+      "path": "ProERP.Licensing.pdb",
+      "hash": "45319f23bf467cc0af5e7459c5bd23fd72d3840f77cda8ea71e98fa910002fee",
+      "size": 14956
+    },
+    {
+      "path": "Humanizer.dll",
+      "hash": "d6853075547d7e303efd60354d911a2ff18edba582cda2fa59d91a2e5dcf9e98",
+      "size": 355944
+    },
+    {
       "path": "Microsoft.AspNetCore.Components.WebAssembly.Server.dll",
       "hash": "e7559a83c2fb56ef69cb92e11540b5172dd46c22f759f1fcdcccf42cc4f2cd36",
       "size": 84272
@@ -243,8 +313,8 @@
     },
     {
       "path": "ProERP.Domain.dll",
-      "hash": "4d80af98a43e98fae76046171128325cefca70ab10b5c4d58a8c9f2362cc1daf",
-      "size": 109056
+      "hash": "1feef38969db2905c4124b44e69c1a56a8b022d917fa70a829aa5dea36955cc0",
+      "size": 109568
     },
     {
       "path": "Microsoft.AspNetCore.Components.dll",
@@ -262,8 +332,13 @@
       "size": 35096
     },
     {
+      "path": "Microsoft.CodeAnalysis.Workspaces.MSBuild.dll",
+      "hash": "43c636a77e0007c472213e55b82e5ebd7dd8c93ccd51ace78c8ab0b8cda60e96",
+      "size": 72864
+    },
+    {
       "path": "ProERP.Client.dll",
-      "hash": "6ff5c36bda9c266b6dbf1937254368fb19e15128c3efbb6ef2b4ef4948c24f1b",
+      "hash": "d7dd5250d24185e43f6e8f5f9b7c3fc5a0c5165d5ca91c8c2db72a61752db563",
       "size": 202240
     },
     {
@@ -285,6 +360,16 @@
       "path": "Microsoft.CodeAnalysis.dll",
       "hash": "57994f7fa7abcc571a31c4e98b02c3eb573dae8f581f0c264cdec97f38cf1560",
       "size": 2895520
+    },
+    {
+      "path": "System.Composition.Convention.dll",
+      "hash": "c1b92e811bb8de8584411715acbd7864b93ebc0b979618b7ae49c70cfbc4f9d0",
+      "size": 53880
+    },
+    {
+      "path": "System.Composition.Hosting.dll",
+      "hash": "aec9d434500a7b6ff2991b0e248160eae4654d6821373e30c3893bf932ab3618",
+      "size": 55440
     },
     {
       "path": "Microsoft.IdentityModel.JsonWebTokens.dll",
@@ -352,6 +437,11 @@
       "size": 1739776
     },
     {
+      "path": "ProERP.Client.staticwebassets.runtime.json",
+      "hash": "d7a6743b115140458af6440b6e5df8c8f5d1308d2bbeb429b643e53123db5949",
+      "size": 81173
+    },
+    {
       "path": "Microsoft.IdentityModel.Tokens.dll",
       "hash": "b2dacc5120971efceb60f6febfe9685fe5a509ddb803c45956a63fc36e67631b",
       "size": 329248
@@ -362,9 +452,24 @@
       "size": 65848
     },
     {
+      "path": "System.Composition.TypedParts.dll",
+      "hash": "c3293950c1190ef7bb1826ee7da520a4ec74a455f9c3fd6fc695c56e1c383167",
+      "size": 65168
+    },
+    {
       "path": "Microsoft.AspNetCore.Metadata.dll",
       "hash": "87d709e9b7d6966b20404674c30ac15d103febc7822e85c4201fcd05108f9379",
       "size": 16144
+    },
+    {
+      "path": "ProERP.Web.staticwebassets.runtime.json",
+      "hash": "adca4a3b9976bd5a9a937d14e7f05dff4af858a1d6d4c9712bc5c32d1a78b7a0",
+      "size": 169427
+    },
+    {
+      "path": "System.Composition.AttributedModel.dll",
+      "hash": "6c4d617570f09b1aa0917e87f611a23ed0654b24ac3bc610ce0f079ccabab5fb",
+      "size": 20096
     },
     {
       "path": "Microsoft.AspNetCore.Authorization.dll",
@@ -373,8 +478,18 @@
     },
     {
       "path": "ProERP.Web.staticwebassets.endpoints.json",
-      "hash": "f5675968408193301650a36598b0260ff38d046c83773ca4477ea68a755467f6",
-      "size": 2227280
+      "hash": "c3f8212b3eeaf1dc4c0cc68330944c8e9dea1e443c8ec786c2fa6474c093cce5",
+      "size": 2367541
+    },
+    {
+      "path": "Microsoft.CodeAnalysis.Workspaces.dll",
+      "hash": "a2a0353c3c052d0eddbbd359dd5e0f9edd0d5a7791c57efd20a520ab2ce307ad",
+      "size": 3852448
+    },
+    {
+      "path": "ProERP.Client.pdb",
+      "hash": "f7c4a262180615181e45a01f87cb2b285525cd42b2d8085e8b64af70e55712ae",
+      "size": 74220
     },
     {
       "path": "System.CodeDom.dll",
@@ -383,8 +498,18 @@
     },
     {
       "path": "appsettings.Production.json",
-      "hash": "9b5236b047f17d280fd0188ce59fc35a4820444fe5495ed3141d577d19e6137f",
-      "size": 251
+      "hash": "2f27d1eb3bcc41cf49925616cc0784834f25cd1f234869dcdaa352f8b7307009",
+      "size": 652
+    },
+    {
+      "path": "libgdiplus.dylib",
+      "hash": "3643afceabed602e99e388195f976cfb00cff2a3c980371e6c2eefdacad59c0d",
+      "size": 479264
+    },
+    {
+      "path": "Microsoft.EntityFrameworkCore.Design.dll",
+      "hash": "2816b81f6663dfeb73ff5f4d0ab62ba1ddf26e51dd9dd2c405711c4e267ebb36",
+      "size": 623160
     },
     {
       "path": "SixLabors.Fonts.dll",
@@ -402,9 +527,19 @@
       "size": 19072
     },
     {
+      "path": "zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll",
+      "hash": "51ea78a3fc80f3aa6538ef16259b75e3a62b9e99b18b228cd59426af29c0a510",
+      "size": 17568
+    },
+    {
       "path": "zh-Hans/Microsoft.CodeAnalysis.resources.dll",
       "hash": "02dc48c584e708960ccbf1ad5b410ab4abb5a7b5177dfb1cccb4049488219abb",
       "size": 43680
+    },
+    {
+      "path": "zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+      "hash": "b27b8682121895e4d2150658260e9e5b9788678a2e52d51e592f8e2b6c49e6cf",
+      "size": 18080
     },
     {
       "path": "zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll",
@@ -412,9 +547,19 @@
       "size": 382128
     },
     {
+      "path": "zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+      "hash": "c05976af0c9d5769a75332cedcf8aca36748bbc4ae28b6145a4dc4ea385277e7",
+      "size": 46240
+    },
+    {
       "path": "zh-Hans/Microsoft.CodeAnalysis.VisualBasic.resources.dll",
       "hash": "5e213a3ebe7ebdb9a9eff7a4672c24e31c9ef1fbd8db1145960b63acb4bd7f0d",
       "size": 272496
+    },
+    {
+      "path": "zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll",
+      "hash": "7770c3deba43bf61d6885676acb6b4fe28aa1f7a32ec21b8437dddd394c31716",
+      "size": 17568
     },
     {
       "path": "zh-Hant/Microsoft.CodeAnalysis.resources.dll",
@@ -422,9 +567,19 @@
       "size": 44192
     },
     {
+      "path": "zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+      "hash": "c6cdbb40c2d244fa42710ca53e8cc87ed63107adb4ab4c81d29ff8b3be109402",
+      "size": 18192
+    },
+    {
       "path": "zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll",
       "hash": "d6ee70b950e9f1cc6992a8ba4bfefcc85bf58f038adbdbae6d16f61e914091cb",
       "size": 381600
+    },
+    {
+      "path": "zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+      "hash": "a5a8d1287d37676ed0c97277c285348be9a376c3d3de1e328fd904a66e2a7714",
+      "size": 46256
     },
     {
       "path": "zh-Hant/Microsoft.CodeAnalysis.VisualBasic.resources.dll",
@@ -432,14 +587,29 @@
       "size": 271984
     },
     {
+      "path": "pl/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll",
+      "hash": "0ecd266d9c32ee13a1fa48a1df93e228888dd183875dc4133ea37e46e4937814",
+      "size": 17568
+    },
+    {
       "path": "pl/Microsoft.CodeAnalysis.resources.dll",
       "hash": "45a14e0a2102c5fb1dda3c5b80403f564957f2196b7f6ed5978f99e916e7ec7e",
       "size": 48816
     },
     {
+      "path": "pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+      "hash": "618f42f857a03d2893cfce849de8843e076cedbab078881d655710e315d88968",
+      "size": 18208
+    },
+    {
       "path": "pl/Microsoft.CodeAnalysis.CSharp.resources.dll",
       "hash": "4f12c4849e939b613f393c5ec265e3f6d95338d34692a17c7c69d534c270c61e",
       "size": 453280
+    },
+    {
+      "path": "pl/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+      "hash": "64630645261919508aede59dfe21147d5dbc1d06148882f4ccf04872de00cbb5",
+      "size": 49840
     },
     {
       "path": "pl/Microsoft.CodeAnalysis.VisualBasic.resources.dll",
@@ -11982,9 +12152,19 @@
       "size": 7833
     },
     {
+      "path": "ja/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll",
+      "hash": "39b270be4a295cb9cd4fcae76d18efb1666519448f634601c7a5f8aa8c47328e",
+      "size": 17584
+    },
+    {
       "path": "ja/Microsoft.CodeAnalysis.resources.dll",
       "hash": "1c232f43d411b5f257659986706976a37bc1839f730a0dfb29d45e45f64b5265",
       "size": 51872
+    },
+    {
+      "path": "ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+      "hash": "0fba03ba04651ca2d838443301c8f86b2e71d8d4899d0746fb4893e9ac80a43c",
+      "size": 18096
     },
     {
       "path": "ja/Microsoft.CodeAnalysis.CSharp.resources.dll",
@@ -11992,9 +12172,19 @@
       "size": 492704
     },
     {
+      "path": "ja/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+      "hash": "dfaf9b879dfb8e013b2b6d57e0531258e8eb5066776ede6ea26640326404838a",
+      "size": 53408
+    },
+    {
       "path": "ja/Microsoft.CodeAnalysis.VisualBasic.resources.dll",
       "hash": "e50b03d26005fdda5c161fa482284e4cb3664c5e82c805ac1ba90d6bf09001e7",
       "size": 347248
+    },
+    {
+      "path": "it/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll",
+      "hash": "820ac123cbd2bb51790c2fbc2a37a700e9dc263c19cead4fb6bbef9f95bdb3bf",
+      "size": 17584
     },
     {
       "path": "it/Microsoft.CodeAnalysis.resources.dll",
@@ -12002,9 +12192,19 @@
       "size": 48800
     },
     {
+      "path": "it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+      "hash": "400164567e77be247b4b71f219c08be0ea954a2c67c0d10b10a353a61e099cab",
+      "size": 18096
+    },
+    {
       "path": "it/Microsoft.CodeAnalysis.CSharp.resources.dll",
       "hash": "64327d26e4348725f23e6a2e6ebd22b13a75a94b9f7eabadcb3fa213d93b6c77",
       "size": 447240
+    },
+    {
+      "path": "it/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+      "hash": "a0cf282ca88a4966ad326ffde985157eaf2c368fd7a6ade90564b3e77076bc12",
+      "size": 50336
     },
     {
       "path": "it/Microsoft.CodeAnalysis.VisualBasic.resources.dll",
@@ -12012,14 +12212,29 @@
       "size": 312424
     },
     {
+      "path": "cs/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll",
+      "hash": "fe37bba7eb5a07d86392277fd9966c2b75a5e71c3cf7da5470d290c7622f0ee8",
+      "size": 17568
+    },
+    {
       "path": "cs/Microsoft.CodeAnalysis.resources.dll",
       "hash": "59308867b4942c948a4d6eb6c515977c1a8f3f8f2aba5e5bcb19d45996aa5875",
       "size": 46752
     },
     {
+      "path": "cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+      "hash": "068981d1924c79ed7bb69a5556cb863d17ee37680f7ab7ecbbd618204e59e333",
+      "size": 18080
+    },
+    {
       "path": "cs/Microsoft.CodeAnalysis.CSharp.resources.dll",
       "hash": "4c9c5616503ea41ffda06a3f716132421f691209c607cf4b6135354bab54c0cb",
       "size": 421552
+    },
+    {
+      "path": "cs/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+      "hash": "df0f120fb122dc60e03554e314174c6cc5e002ad82dc6c0eccf1f8857af7e045",
+      "size": 48304
     },
     {
       "path": "cs/Microsoft.CodeAnalysis.VisualBasic.resources.dll",
@@ -12072,6 +12287,11 @@
       "size": 295600
     },
     {
+      "path": "runtimes/win/lib/net9.0/System.ServiceProcess.ServiceController.dll",
+      "hash": "5ba8439789392ed0806da50cd94ff4935eb1b876c9bd234bc5ad35f0e9c9a753",
+      "size": 91400
+    },
+    {
       "path": "runtimes/win-x86/native/libHarfBuzzSharp.dll",
       "hash": "1a9ef1f0ee6c524ef1a928ff22032f6a4e7c1b3b6ebbb355dc09a0b928207367",
       "size": 1363504
@@ -12102,6 +12322,11 @@
       "size": 9414216
     },
     {
+      "path": "runtimes/unix/lib/net6.0/libgdiplus.dylib",
+      "hash": "3643afceabed602e99e388195f976cfb00cff2a3c980371e6c2eefdacad59c0d",
+      "size": 479264
+    },
+    {
       "path": "runtimes/unix/lib/net6.0/System.Drawing.Common.dll",
       "hash": "89ea595ccb1fd1384480c1e30bd487c92af5d06d3b06f295323eff601acd9019",
       "size": 427112
@@ -12127,14 +12352,29 @@
       "size": 7948344
     },
     {
+      "path": "ru/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll",
+      "hash": "7f5724eaf3ceec12a0958e140c8565b38388ce0fd55e7bbb151e2df1440ac8a0",
+      "size": 17568
+    },
+    {
       "path": "ru/Microsoft.CodeAnalysis.resources.dll",
       "hash": "92ba00449b55ad25d1ef20dc9d07247110008101240db545da7c7e46363cc3a7",
       "size": 58528
     },
     {
+      "path": "ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+      "hash": "ef903d7d24d0bc5e55634e1d680a17c75577e0fe3b8b993b644c1078c19b43e0",
+      "size": 18704
+    },
+    {
       "path": "ru/Microsoft.CodeAnalysis.CSharp.resources.dll",
       "hash": "28e9a28b36c076e785be38b3366264849dae4d11941a1a5c9f84d72663d79a4e",
       "size": 595104
+    },
+    {
+      "path": "ru/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+      "hash": "ee19488ca27e85ff7661a6aebc6e8358b64059d6a26c940640f759fc4ac22e75",
+      "size": 57504
     },
     {
       "path": "ru/Microsoft.CodeAnalysis.VisualBasic.resources.dll",
@@ -12145,6 +12385,11 @@
       "path": "standalone_publish_dir/ProERP.Client.staticwebassets.endpoints.json",
       "hash": "4928053261ebb1f67708ba07c61af97feebe039f94412b66ae1f0e255edeea49",
       "size": 928435
+    },
+    {
+      "path": "standalone_publish_dir/web.config",
+      "hash": "8401eccfc586e8f28ce510ded083a3012cebdf38a33a4cbb2877237f5427c872",
+      "size": 1782
     },
     {
       "path": "standalone_publish_dir/wwwroot/_framework/blazor.boot.json",
@@ -12232,9 +12477,19 @@
       "size": 19087
     },
     {
+      "path": "pt-BR/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll",
+      "hash": "a8647775513407c100d1d7551ec2a0c0632603022afcd82295a94e766f8646ee",
+      "size": 17568
+    },
+    {
       "path": "pt-BR/Microsoft.CodeAnalysis.resources.dll",
       "hash": "321dd5345d40f598cfc1d7f2c91639d1cc394c52308a081fec1342ab617388c7",
       "size": 47264
+    },
+    {
+      "path": "pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+      "hash": "35ee269273f3882c8a8dbd135dd1ea5fb6d72910bf28e83a789859c66b755c69",
+      "size": 18096
     },
     {
       "path": "pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll",
@@ -12242,9 +12497,19 @@
       "size": 432800
     },
     {
+      "path": "pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+      "hash": "d2a2b86368e9e9c828b76de7303eed56e23277a613ed64936beeed6b9464ba61",
+      "size": 49312
+    },
+    {
       "path": "pt-BR/Microsoft.CodeAnalysis.VisualBasic.resources.dll",
       "hash": "918031a1ef26a1e2122d11a61bb38985809a904e8becd2e8460bcaae095c6744",
       "size": 302192
+    },
+    {
+      "path": "de/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll",
+      "hash": "82428b7b0561b7aed3dcecffe145ff8c4e3e5261bf72c483a5b0b7c2ec7d880b",
+      "size": 17568
     },
     {
       "path": "de/Microsoft.CodeAnalysis.resources.dll",
@@ -12252,9 +12517,19 @@
       "size": 48304
     },
     {
+      "path": "de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+      "hash": "72576b6e5da0679d4a1592f75ec880882124aa787227a2dbc3d8b2a656d7eb05",
+      "size": 18080
+    },
+    {
       "path": "de/Microsoft.CodeAnalysis.CSharp.resources.dll",
       "hash": "44f41ce3cb43799563927f23f2ddf4d3a1d379e6ff4b7dae21d7393a4a814ae2",
       "size": 450208
+    },
+    {
+      "path": "de/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+      "hash": "36b9a1b80e84dc39b7385e6f0f689629fb479e70a6f7b00b01111ba643f680a4",
+      "size": 49824
     },
     {
       "path": "de/Microsoft.CodeAnalysis.VisualBasic.resources.dll",
@@ -12262,9 +12537,19 @@
       "size": 312944
     },
     {
+      "path": "ko/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll",
+      "hash": "33019fd8c5f809343101710ec3d2d82dda9d44abc848fe24f4a824788b1c3255",
+      "size": 17568
+    },
+    {
       "path": "ko/Microsoft.CodeAnalysis.resources.dll",
       "hash": "c36de56be5c47d61c73435b64ef92323b7e4c189ce915cfbab1f3520568e6a41",
       "size": 48800
+    },
+    {
+      "path": "ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+      "hash": "38d453f555cf615226493c7b39541a109605e34d2d5c3cf98067e96ca22024c6",
+      "size": 18192
     },
     {
       "path": "ko/Microsoft.CodeAnalysis.CSharp.resources.dll",
@@ -12272,9 +12557,19 @@
       "size": 452272
     },
     {
+      "path": "ko/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+      "hash": "2677c67b609529c262c1960674d7b9f4fcb5906b629b181a19a7038a7b6f90f1",
+      "size": 50336
+    },
+    {
       "path": "ko/Microsoft.CodeAnalysis.VisualBasic.resources.dll",
       "hash": "04fc03443704734f7ff955511c4ad9c38b3e5a1cce5eb9bb5d9a63e9d668ddb5",
       "size": 317544
+    },
+    {
+      "path": "fr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll",
+      "hash": "e0e1823a59b8eb5eccdb0a5b3016caaac6853d43bde9dba7f2d896e03d9e4b4a",
+      "size": 17680
     },
     {
       "path": "fr/Microsoft.CodeAnalysis.resources.dll",
@@ -12282,9 +12577,19 @@
       "size": 48800
     },
     {
+      "path": "fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+      "hash": "6ef42291bcd165c8508bc931b61ad7b107f5efc1a03c24e9177471d36736f6a7",
+      "size": 18192
+    },
+    {
       "path": "fr/Microsoft.CodeAnalysis.CSharp.resources.dll",
       "hash": "5f3be60933ef10261b157775494a08ecdbf27c777acaddd9bdbf488681160685",
       "size": 451232
+    },
+    {
+      "path": "fr/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+      "hash": "57e9cbe922fb9c917f1dc7729715dc538d1d03b6af9fdabed2ebb07701e5ca20",
+      "size": 50848
     },
     {
       "path": "fr/Microsoft.CodeAnalysis.VisualBasic.resources.dll",
@@ -12292,14 +12597,29 @@
       "size": 314984
     },
     {
+      "path": "es/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll",
+      "hash": "79b5ad4402a3a2bc6d674fc447be308c5727d8abf3db1ea540bfebe2e4ea3fc0",
+      "size": 17584
+    },
+    {
       "path": "es/Microsoft.CodeAnalysis.resources.dll",
       "hash": "d8fd7c37648793e145dff8b577e7fee581af4ba2bf9f30fee829401aefd5bf42",
       "size": 48304
     },
     {
+      "path": "es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+      "hash": "d803baed385f68d772820166e29473ad0d0c1fe7469c8303a9eb575e25cf5260",
+      "size": 18080
+    },
+    {
       "path": "es/Microsoft.CodeAnalysis.CSharp.resources.dll",
       "hash": "ed02a1f3a68249bb8db6fad57268e6306ce78f34744951b56b0a1d64397161bf",
       "size": 440480
+    },
+    {
+      "path": "es/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+      "hash": "162c46cbb7646f5d3040dbb5b3a14321bfc300b0057758d1ec1ebe699947046e",
+      "size": 49824
     },
     {
       "path": "es/Microsoft.CodeAnalysis.VisualBasic.resources.dll",
@@ -12362,14 +12682,29 @@
       "size": 523
     },
     {
+      "path": "tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll",
+      "hash": "428d5b52f0feaf4f45fe2ae774354f9424f02e4a5b09187ec096c8ded12ee697",
+      "size": 17584
+    },
+    {
       "path": "tr/Microsoft.CodeAnalysis.resources.dll",
       "hash": "63905c331bf7c9d2c90db11e8a5472b37582c9606cdeef879602bc74f2317132",
       "size": 46752
     },
     {
+      "path": "tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+      "hash": "c44ac03163a43858811c683a3fb735cf632eb23dfe2b81dc112362691186e291",
+      "size": 18192
+    },
+    {
       "path": "tr/Microsoft.CodeAnalysis.CSharp.resources.dll",
       "hash": "6800e0cc807f07a9204579d11ed7882d0b39d7b056e60c06af033e26aad4f6b3",
       "size": 429216
+    },
+    {
+      "path": "tr/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+      "hash": "accfc9a27d878afd3790f80cdf9663724e1adc84e9e471933fb6bdc4d99fe718",
+      "size": 48288
     },
     {
       "path": "tr/Microsoft.CodeAnalysis.VisualBasic.resources.dll",
