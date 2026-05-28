@@ -2213,9 +2213,9 @@ a {
 .rz-calendar .rz-inputtext:disabled {
     opacity: 1 !important;
     cursor: default !important;
-    background-color: transparent !important;
+    background-color: var(--clr-bg) !important;
     color: var(--clr-text) !important;
-    border-color: transparent !important;
+    border-color: var(--clr-border) !important;
     box-shadow: none !important;
     pointer-events: none;
 }
@@ -2225,8 +2225,8 @@ a {
 .rz-calendar.rz-state-disabled {
     opacity: 1 !important;
     cursor: default !important;
-    background-color: transparent !important;
-    border-color: transparent !important;
+    background-color: var(--clr-bg) !important;
+    border-color: var(--clr-border) !important;
     pointer-events: none;
 }
 
@@ -2244,8 +2244,8 @@ a {
 
 /* Custom selectors (CustomerSelector, SupplierSelector, AccountSelector) */
 .account-selector-wrapper[style*="pointer-events:none"] .custom-account-input {
-    background-color: transparent !important;
-    border-color: transparent !important;
+    background-color: var(--clr-bg) !important;
+    border-color: var(--clr-border) !important;
     cursor: default !important;
 }
 
@@ -2265,9 +2265,9 @@ input:disabled,
 textarea:disabled {
     opacity: 1 !important;
     cursor: default !important;
-    background-color: transparent !important;
+    background-color: var(--clr-bg) !important;
     color: var(--clr-text) !important;
-    border-color: transparent !important;
+    border-color: var(--clr-border) !important;
 }
 
 /* Light theme overrides for disabled */
@@ -2275,16 +2275,16 @@ textarea:disabled {
 [data-theme="light"] .rz-textbox:disabled,
 [data-theme="light"] .rz-numeric input:disabled,
 [data-theme="light"] .rz-textarea:disabled {
-    background-color: transparent !important;
+    background-color: #f8fafc !important;
     color: #1e293b !important;
-    border-color: transparent !important;
+    border-color: #e2e8f0 !important;
 }
 
 [data-theme="light"] .rz-dropdown.rz-state-disabled,
 [data-theme="light"] .rz-datepicker.rz-state-disabled,
 [data-theme="light"] .rz-calendar.rz-state-disabled {
-    background-color: transparent !important;
-    border-color: transparent !important;
+    background-color: #f8fafc !important;
+    border-color: #e2e8f0 !important;
 }
 
 [data-theme="light"] .rz-dropdown.rz-state-disabled .rz-inputtext,
@@ -2293,8 +2293,8 @@ textarea:disabled {
 }
 
 [data-theme="light"] .account-selector-wrapper[style*="pointer-events:none"] .custom-account-input {
-    background-color: transparent !important;
-    border-color: transparent !important;
+    background-color: #f8fafc !important;
+    border-color: #e2e8f0 !important;
 }
 
 [data-theme="light"] .account-selector-wrapper[style*="pointer-events:none"] .custom-account-input .selected-text {
@@ -2303,9 +2303,9 @@ textarea:disabled {
 
 [data-theme="light"] input:disabled,
 [data-theme="light"] textarea:disabled {
-    background-color: transparent !important;
+    background-color: #f8fafc !important;
     color: #1e293b !important;
-    border-color: transparent !important;
+    border-color: #e2e8f0 !important;
 }
 
 /* ════════════════════════════════════════════════════════════════
@@ -2402,18 +2402,24 @@ textarea:disabled {
 }
 .doc-meta-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     align-items: start;
+}
+
+@media (max-width: 900px) {
+    .doc-meta-grid {
+        grid-template-columns: 1fr;
+    }
 }
 .doc-meta-field {
     position: relative;
 }
 .doc-meta-field label {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     font-weight: 700;
     color: var(--clr-muted);
-    margin-bottom: 6px;
+    margin-bottom: 2px;
     display: block;
     text-transform: uppercase;
     letter-spacing: 0.5px;

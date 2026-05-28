@@ -87,6 +87,11 @@
       "size": 14336
     },
     {
+      "path": "Microsoft.Extensions.Hosting.WindowsServices.dll",
+      "hash": "aea4a03efc228cf7371af194f6028e8a702d53c4a5a664561199ed65d4676c6c",
+      "size": 29984
+    },
+    {
       "path": "Microsoft.AspNetCore.Components.WebAssembly.dll",
       "hash": "1aec612ed4f9fa9e075e713fc9d6905a11004d7aa35f9d7f662be967a5c503c6",
       "size": 162616
@@ -250,6 +255,11 @@
       "path": "readme.md",
       "hash": "2a7946af23b7c7dfa85a56e75f46c6c1fc3783776d6d9e938aa51474054b8a43",
       "size": 5
+    },
+    {
+      "path": "System.ServiceProcess.ServiceController.dll",
+      "hash": "d3cd5bb642ea9850100f08187b35c440776003e4082fd007c3a8f72c4acdfb9f",
+      "size": 35096
     },
     {
       "path": "ProERP.Client.dll",
