@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="01/01/2024" ReportInfo.Modified="06/05/2026" ReportInfo.CreatorVersion="2024.1.0.0">
+  <Dictionary>
+    <BusinessObjectDataSource Name="Invoice" ReferenceName="Invoice" DataType="System.Collections.Generic.List`1[[System.Object]]" Enabled="true">
+      <Column Name="InvoiceNumber" DataType="System.String"/>
+      <Column Name="Date" DataType="System.DateTime"/>
+      <Column Name="OperationTypeName" DataType="System.String"/>
+      <Column Name="CustomerName" DataType="System.String"/>
+      <Column Name="StoreName" DataType="System.String"/>
+      <Column Name="SubTotal" DataType="System.Decimal"/>
+      <Column Name="DiscountValue" DataType="System.Decimal"/>
+      <Column Name="TaxTotal" DataType="System.Decimal"/>
+      <Column Name="GrandTotal" DataType="System.Decimal"/>
+      <Column Name="PaymentAmount" DataType="System.Decimal"/>
+      <Column Name="Notes" DataType="System.String"/>
+      <BusinessObjectDataSource Name="Lines" ReferenceName="Invoice.Lines" DataType="System.Collections.Generic.List`1[[System.Object]]" Enabled="true">
+        <Column Name="ItemName" DataType="System.String"/>
+        <Column Name="UnitName" DataType="System.String"/>
+        <Column Name="Quantity" DataType="System.Decimal"/>
+        <Column Name="UnitPrice" DataType="System.Decimal"/>
+        <Column Name="LineTotal" DataType="System.Decimal"/>
+      </BusinessObjectDataSource>
+    </BusinessObjectDataSource>
+    <Parameter Name="CompanyName" DataType="System.String"/>
+    <Parameter Name="TaxNumber" DataType="System.String"/>
+    <Parameter Name="ContactInfo" DataType="System.String"/>
+    <Parameter Name="ReportTitle" DataType="System.String"/>
+    <Parameter Name="PrintedBy" DataType="System.String"/>
+    <Parameter Name="BarcodeText" DataType="System.String"/>
+    <Parameter Name="PosReceiptText" DataType="System.String"/>
+    <Parameter Name="PaymentInfo" DataType="System.String"/>
+  </Dictionary>
+  <ReportPage Name="Page1" PaperWidth="78" PaperHeight="297" LeftMargin="1" TopMargin="1" RightMargin="1" BottomMargin="1" UnlimitedHeight="true" UnlimitedWidth="false">
+    <ReportTitleBand Name="ReportTitle1" Width="286.4" Height="75">
+      <TextObject Name="lblComp" Left="0" Top="2" Width="286.4" Height="16" Text="[CompanyName]" HorzAlign="Center" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="lblTax" Left="0" Top="18" Width="286.4" Height="12" Text="ض: [TaxNumber]" HorzAlign="Center" Font="Arial, 7pt" RightToLeft="true" TextColor="Gray"/>
+      <TextObject Name="lblTitle" Left="0" Top="32" Width="286.4" Height="14" Text="[ReportTitle]" HorzAlign="Center" Font="Arial, 9pt, style=Bold"/>
+      <TextObject Name="lblSep0" Left="0" Top="48" Width="286.4" Height="8" Text="- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -" HorzAlign="Center" Font="Arial, 6pt" TextColor="Silver"/>
+      <TextObject Name="lblInfo" Left="0" Top="58" Width="286.4" Height="14" Text="[Invoice.InvoiceNumber] | [Invoice.Date] | [Invoice.CustomerName]" Format="Custom" Format.Format="dd/MM/yyyy HH:mm" Font="Arial, 7pt" HorzAlign="Center"/>
+    </ReportTitleBand>
+    <GroupHeaderBand Name="GroupHeader1" Top="78" Width="286.4" Height="8" Condition="[Invoice.InvoiceNumber]">
+      
+      <DataBand Name="DataLines" Top="88" Width="286.4" Height="22" DataSource="Lines">
+        <TextObject Name="d1" Left="0" Top="0" Width="286.4" Height="11" Text="[Invoice.Lines.ItemName]" Font="Arial, 7pt, style=Bold" HorzAlign="Right" RightToLeft="true" WordWrap="false" Trimming="EllipsisCharacter"/>
+        <TextObject Name="d2" Left="191" Top="11" Width="95.4" Height="11" Text="[Invoice.Lines.Quantity]" Format="Number" Format.UseLocale="true" Font="Arial, 7pt" HorzAlign="Center" TextColor="DimGray"/>
+        <TextObject Name="d2b" Left="95.5" Top="11" Width="95.5" Height="11" Text="[Invoice.Lines.UnitPrice]" Format="Number" Format.UseLocale="true" Font="Arial, 7pt" HorzAlign="Center" TextColor="DimGray"/>
+        <TextObject Name="d3" Left="0" Top="11" Width="95.5" Height="11" Text="[Invoice.Lines.LineTotal]" Format="Number" Format.UseLocale="true" Font="Arial, 7pt, style=Bold" HorzAlign="Center"/>
+      </DataBand>
+      
+      <GroupFooterBand Name="GroupFooter1" Top="112" Width="286.4" Height="200">
+        <TextObject Name="lblSep3" Left="0" Top="2" Width="286.4" Height="8" Text="- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -" HorzAlign="Center" Font="Arial, 6pt" TextColor="Silver"/>
+        
+        <TextObject Name="f1" Left="100" Top="14" Width="186.4" Height="14" Text="المجموع:" Font="Arial, 8pt" HorzAlign="Right" RightToLeft="true"/>
+        <TextObject Name="v1" Left="0" Top="14" Width="100" Height="14" Text="[Invoice.SubTotal]" Format="Number" Format.UseLocale="true" Font="Arial, 8pt" HorzAlign="Left"/>
+        
+        <TextObject Name="f2" Left="100" Top="28" Width="186.4" Height="14" Text="خصم:" Font="Arial, 8pt" HorzAlign="Right" RightToLeft="true"/>
+        <TextObject Name="v2" Left="0" Top="28" Width="100" Height="14" Text="[Invoice.DiscountValue]" Format="Number" Format.UseLocale="true" Font="Arial, 8pt" HorzAlign="Left"/>
+        
+        <TextObject Name="f3" Left="100" Top="44" Width="186.4" Height="18" Text="الصافي:" Font="Arial, 10pt, style=Bold" HorzAlign="Right" RightToLeft="true"/>
+        <TextObject Name="v3" Left="0" Top="44" Width="100" Height="18" Text="[Invoice.GrandTotal]" Format="Number" Format.UseLocale="true" Font="Arial, 12pt, style=Bold" HorzAlign="Left"/>
+        
+        <TextObject Name="lblPaymentInfo" Left="0" Top="66" Width="286.4" Height="14" Text="[PaymentInfo]" Font="Arial, 7pt, style=Bold" HorzAlign="Center" RightToLeft="true" VisibleExpression="[PaymentInfo] != &quot;&quot;"/>
+        
+        <TextObject Name="lblSep4" Left="0" Top="82" Width="286.4" Height="8" Text="- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -" HorzAlign="Center" Font="Arial, 6pt" TextColor="Silver"/>
+        <TextObject Name="lblPrintedBy" Left="0" Top="92" Width="286.4" Height="12" Text="[PrintedBy]" Font="Arial, 7pt" HorzAlign="Center" TextColor="Gray"/>
+        
+        <TextObject Name="lblPosReceiptText" Left="0" Top="106" Width="286.4" Height="14" Text="[PosReceiptText]" Font="Arial, 7pt" HorzAlign="Center" RightToLeft="true" VisibleExpression="[PosReceiptText] != &quot;&quot;"/>
+        
+        <TextObject Name="lblThanks" Left="0" Top="122" Width="286.4" Height="12" Text="شكراً" Font="Arial, 8pt, style=Bold" HorzAlign="Center"/>
+        
+        <BarcodeObject Name="BarcodeReturn" Left="18" Top="140" Width="250" Height="40" AutoSize="false" Text="[BarcodeText]" ShowText="true" Barcode="Code128" HorzAlign="Center"/>
+      </GroupFooterBand>
+    </GroupHeaderBand>
+  </ReportPage>
+</Report>

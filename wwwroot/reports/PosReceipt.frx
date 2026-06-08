@@ -27,6 +27,8 @@
     <Parameter Name="ReportTitle" DataType="System.String"/>
     <Parameter Name="PrintedBy" DataType="System.String"/>
     <Parameter Name="BarcodeText" DataType="System.String"/>
+    <Parameter Name="PosReceiptText" DataType="System.String"/>
+    <Parameter Name="PaymentInfo" DataType="System.String"/>
   </Dictionary>
   <ReportPage Name="Page1" PaperWidth="78" PaperHeight="297" LeftMargin="2" TopMargin="2" RightMargin="2" BottomMargin="2" UnlimitedHeight="true" UnlimitedWidth="false">
     <ReportTitleBand Name="ReportTitle1" Width="279.68" Height="140">
@@ -54,7 +56,7 @@
         <TextObject Name="d3" Left="0" Top="0" Width="80" Height="24" Text="[Invoice.Lines.LineTotal]" Format="Number" Format.UseLocale="true" Font="Arial, 9pt, style=Bold" HorzAlign="Center" VertAlign="Center" Border.Lines="All"/>
       </DataBand>
       
-      <GroupFooterBand Name="GroupFooter1" Top="252" Width="279.68" Height="190">
+      <GroupFooterBand Name="GroupFooter1" Top="252" Width="279.68" Height="280">
         <!-- Spacer between table and totals -->
         <LineObject Name="Line3" Left="0" Top="5" Width="279.68" Height="0" Border.Width="1" Border.Style="Dash"/>
         
@@ -69,12 +71,19 @@
         <TextObject Name="f3" Left="110" Top="60" Width="169.68" Height="22" Text="الصافي المطلوب:" Font="Arial, 12pt, style=Bold" HorzAlign="Right" RightToLeft="true"/>
         <TextObject Name="v3" Left="0" Top="60" Width="110" Height="22" Text="[Invoice.GrandTotal]" Format="Number" Format.UseLocale="true" Font="Arial, 14pt, style=Bold" HorzAlign="Left"/>
         
-        <LineObject Name="Line5" Left="0" Top="88" Width="279.68" Height="0" Border.Width="1" Border.Style="Dash"/>
-        <TextObject Name="lblPrintedBy" Left="0" Top="93" Width="279.68" Height="15" Text="الكاشير: [PrintedBy]" Font="Arial, 8pt" HorzAlign="Center" RightToLeft="true"/>
-        <TextObject Name="lblThanks" Left="0" Top="110" Width="279.68" Height="15" Text="*** شكراً لزيارتكم ***" Font="Arial, 10pt, style=Bold" HorzAlign="Center" RightToLeft="true"/>
+        <!-- Payment Info -->
+        <TextObject Name="lblPaymentInfo" Left="0" Top="86" Width="279.68" Height="18" Text="[PaymentInfo]" Font="Arial, 9pt, style=Bold" HorzAlign="Center" RightToLeft="true" VisibleExpression="[PaymentInfo] != &quot;&quot;"/>
+        
+        <LineObject Name="Line5" Left="0" Top="108" Width="279.68" Height="0" Border.Width="1" Border.Style="Dash"/>
+        <TextObject Name="lblPrintedBy" Left="0" Top="113" Width="279.68" Height="15" Text="الكاشير: [PrintedBy]" Font="Arial, 8pt" HorzAlign="Center" RightToLeft="true"/>
+        
+        <!-- POS Receipt Text -->
+        <TextObject Name="lblPosReceiptText" Left="0" Top="132" Width="279.68" Height="18" Text="[PosReceiptText]" Font="Arial, 9pt" HorzAlign="Center" RightToLeft="true" VisibleExpression="[PosReceiptText] != &quot;&quot;"/>
+        
+        <TextObject Name="lblThanks" Left="0" Top="154" Width="279.68" Height="15" Text="*** شكراً لزيارتكم ***" Font="Arial, 10pt, style=Bold" HorzAlign="Center" RightToLeft="true"/>
         
         <!-- Barcode for return scanner -->
-        <BarcodeObject Name="BarcodeReturn" Left="14.84" Top="135" Width="250" Height="45" AutoSize="false" Text="[BarcodeText]" ShowText="true" Barcode="Code128" HorzAlign="Center"/>
+        <BarcodeObject Name="BarcodeReturn" Left="14.84" Top="178" Width="250" Height="45" AutoSize="false" Text="[BarcodeText]" ShowText="true" Barcode="Code128" HorzAlign="Center"/>
       </GroupFooterBand>
     </GroupHeaderBand>
   </ReportPage>

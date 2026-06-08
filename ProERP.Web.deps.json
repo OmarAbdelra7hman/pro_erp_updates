@@ -79,6 +79,17 @@
           }
         }
       },
+      "Dropbox.Api/7.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dropbox.Api.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.0.0"
+          }
+        }
+      },
       "ExcelNumberFormat/1.1.0": {
         "runtime": {
           "lib/netstandard2.0/ExcelNumberFormat.dll": {
@@ -125,7 +136,7 @@
       "FirebaseAdmin/3.5.0": {
         "dependencies": {
           "Google.Api.Gax.Rest": "4.13.1",
-          "Google.Apis.Auth": "1.73.0",
+          "Google.Apis.Auth": "1.74.0",
           "System.Collections.Immutable": "8.0.0"
         },
         "runtime": {
@@ -151,7 +162,7 @@
       "Google.Api.Gax.Rest/4.13.1": {
         "dependencies": {
           "Google.Api.Gax": "4.13.1",
-          "Google.Apis.Auth": "1.73.0",
+          "Google.Apis.Auth": "1.74.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.2"
         },
         "runtime": {
@@ -161,38 +172,50 @@
           }
         }
       },
-      "Google.Apis/1.73.0": {
+      "Google.Apis/1.74.0": {
         "dependencies": {
-          "Google.Apis.Core": "1.73.0"
+          "Google.Apis.Core": "1.74.0"
         },
         "runtime": {
           "lib/net6.0/Google.Apis.dll": {
-            "assemblyVersion": "1.73.0.0",
-            "fileVersion": "1.73.0.0"
+            "assemblyVersion": "1.74.0.0",
+            "fileVersion": "1.74.0.0"
           }
         }
       },
-      "Google.Apis.Auth/1.73.0": {
+      "Google.Apis.Auth/1.74.0": {
         "dependencies": {
-          "Google.Apis": "1.73.0",
-          "Google.Apis.Core": "1.73.0",
+          "Google.Apis": "1.74.0",
+          "Google.Apis.Core": "1.74.0",
           "System.Management": "7.0.2"
         },
         "runtime": {
           "lib/net6.0/Google.Apis.Auth.dll": {
-            "assemblyVersion": "1.73.0.0",
-            "fileVersion": "1.73.0.0"
+            "assemblyVersion": "1.74.0.0",
+            "fileVersion": "1.74.0.0"
           }
         }
       },
-      "Google.Apis.Core/1.73.0": {
+      "Google.Apis.Core/1.74.0": {
         "dependencies": {
           "Newtonsoft.Json": "13.0.4"
         },
         "runtime": {
           "lib/net6.0/Google.Apis.Core.dll": {
-            "assemblyVersion": "1.73.0.0",
-            "fileVersion": "1.73.0.0"
+            "assemblyVersion": "1.74.0.0",
+            "fileVersion": "1.74.0.0"
+          }
+        }
+      },
+      "Google.Apis.Drive.v3/1.74.0.4135": {
+        "dependencies": {
+          "Google.Apis": "1.74.0",
+          "Google.Apis.Auth": "1.74.0"
+        },
+        "runtime": {
+          "lib/net6.0/Google.Apis.Drive.v3.dll": {
+            "assemblyVersion": "1.74.0.4135",
+            "fileVersion": "1.74.0.4135"
           }
         }
       },
@@ -263,14 +286,7 @@
           }
         }
       },
-      "Humanizer.Core/2.14.1": {
-        "runtime": {
-          "lib/net6.0/Humanizer.dll": {
-            "assemblyVersion": "2.14.0.0",
-            "fileVersion": "2.14.1.48190"
-          }
-        }
-      },
+      "Humanizer.Core/2.14.1": {},
       "Microsoft.AspNetCore.Authentication/2.3.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Authentication.Core": "2.3.0",
@@ -466,14 +482,7 @@
         }
       },
       "Microsoft.Build.Framework/17.8.3": {},
-      "Microsoft.Build.Locator/1.7.8": {
-        "runtime": {
-          "lib/net6.0/Microsoft.Build.Locator.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.7.8.28074"
-          }
-        }
-      },
+      "Microsoft.Build.Locator/1.7.8": {},
       "Microsoft.CodeAnalysis.Analyzers/3.3.4": {},
       "Microsoft.CodeAnalysis.Common/4.8.0": {
         "dependencies": {
@@ -588,53 +597,6 @@
           "Microsoft.CodeAnalysis.CSharp": "4.8.0",
           "Microsoft.CodeAnalysis.Common": "4.8.0",
           "Microsoft.CodeAnalysis.Workspaces.Common": "4.8.0"
-        },
-        "runtime": {
-          "lib/net7.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll": {
-            "assemblyVersion": "4.8.0.0",
-            "fileVersion": "4.800.23.55801"
-          }
-        },
-        "resources": {
-          "lib/net7.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll": {
-            "locale": "cs"
-          },
-          "lib/net7.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll": {
-            "locale": "de"
-          },
-          "lib/net7.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll": {
-            "locale": "es"
-          },
-          "lib/net7.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll": {
-            "locale": "fr"
-          },
-          "lib/net7.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll": {
-            "locale": "it"
-          },
-          "lib/net7.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll": {
-            "locale": "ja"
-          },
-          "lib/net7.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll": {
-            "locale": "ko"
-          },
-          "lib/net7.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll": {
-            "locale": "pl"
-          },
-          "lib/net7.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll": {
-            "locale": "pt-BR"
-          },
-          "lib/net7.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll": {
-            "locale": "ru"
-          },
-          "lib/net7.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll": {
-            "locale": "tr"
-          },
-          "lib/net7.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll": {
-            "locale": "zh-Hans"
-          },
-          "lib/net7.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll": {
-            "locale": "zh-Hant"
-          }
         }
       },
       "Microsoft.CodeAnalysis.VisualBasic/4.0.1": {
@@ -697,53 +659,6 @@
           "System.Composition": "7.0.0",
           "System.IO.Pipelines": "7.0.0",
           "System.Threading.Channels": "7.0.0"
-        },
-        "runtime": {
-          "lib/net7.0/Microsoft.CodeAnalysis.Workspaces.dll": {
-            "assemblyVersion": "4.8.0.0",
-            "fileVersion": "4.800.23.55801"
-          }
-        },
-        "resources": {
-          "lib/net7.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll": {
-            "locale": "cs"
-          },
-          "lib/net7.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll": {
-            "locale": "de"
-          },
-          "lib/net7.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll": {
-            "locale": "es"
-          },
-          "lib/net7.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll": {
-            "locale": "fr"
-          },
-          "lib/net7.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll": {
-            "locale": "it"
-          },
-          "lib/net7.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll": {
-            "locale": "ja"
-          },
-          "lib/net7.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll": {
-            "locale": "ko"
-          },
-          "lib/net7.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll": {
-            "locale": "pl"
-          },
-          "lib/net7.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll": {
-            "locale": "pt-BR"
-          },
-          "lib/net7.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll": {
-            "locale": "ru"
-          },
-          "lib/net7.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll": {
-            "locale": "tr"
-          },
-          "lib/net7.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll": {
-            "locale": "zh-Hans"
-          },
-          "lib/net7.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll": {
-            "locale": "zh-Hant"
-          }
         }
       },
       "Microsoft.CodeAnalysis.Workspaces.MSBuild/4.8.0": {
@@ -752,57 +667,6 @@
           "Microsoft.CodeAnalysis.Common": "4.8.0",
           "Microsoft.CodeAnalysis.Workspaces.Common": "4.8.0",
           "System.Text.Json": "9.0.1"
-        },
-        "runtime": {
-          "lib/net7.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll": {
-            "assemblyVersion": "4.8.0.0",
-            "fileVersion": "4.800.23.55801"
-          },
-          "lib/net7.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.dll": {
-            "assemblyVersion": "4.8.0.0",
-            "fileVersion": "4.800.23.55801"
-          }
-        },
-        "resources": {
-          "lib/net7.0/cs/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll": {
-            "locale": "cs"
-          },
-          "lib/net7.0/de/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll": {
-            "locale": "de"
-          },
-          "lib/net7.0/es/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll": {
-            "locale": "es"
-          },
-          "lib/net7.0/fr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll": {
-            "locale": "fr"
-          },
-          "lib/net7.0/it/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll": {
-            "locale": "it"
-          },
-          "lib/net7.0/ja/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll": {
-            "locale": "ja"
-          },
-          "lib/net7.0/ko/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll": {
-            "locale": "ko"
-          },
-          "lib/net7.0/pl/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll": {
-            "locale": "pl"
-          },
-          "lib/net7.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll": {
-            "locale": "pt-BR"
-          },
-          "lib/net7.0/ru/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll": {
-            "locale": "ru"
-          },
-          "lib/net7.0/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll": {
-            "locale": "tr"
-          },
-          "lib/net7.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll": {
-            "locale": "zh-Hans"
-          },
-          "lib/net7.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll": {
-            "locale": "zh-Hant"
-          }
         }
       },
       "Microsoft.EntityFrameworkCore/9.0.1": {
@@ -843,12 +707,6 @@
           "Microsoft.Extensions.Logging": "9.0.1",
           "Mono.TextTemplating": "3.0.0",
           "System.Text.Json": "9.0.1"
-        },
-        "runtime": {
-          "lib/net8.0/Microsoft.EntityFrameworkCore.Design.dll": {
-            "assemblyVersion": "9.0.1.0",
-            "fileVersion": "9.0.124.61002"
-          }
         }
       },
       "Microsoft.EntityFrameworkCore.Relational/9.0.1": {
@@ -969,14 +827,7 @@
           }
         }
       },
-      "Microsoft.Extensions.DependencyModel/9.0.1": {
-        "runtime": {
-          "lib/net9.0/Microsoft.Extensions.DependencyModel.dll": {
-            "assemblyVersion": "9.0.0.1",
-            "fileVersion": "9.0.124.61010"
-          }
-        }
-      },
+      "Microsoft.Extensions.DependencyModel/9.0.1": {},
       "Microsoft.Extensions.Diagnostics/9.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Configuration": "9.0.0",
@@ -1294,12 +1145,6 @@
       "Mono.TextTemplating/3.0.0": {
         "dependencies": {
           "System.CodeDom": "7.0.0"
-        },
-        "runtime": {
-          "lib/net6.0/Mono.TextTemplating.dll": {
-            "assemblyVersion": "3.0.0.0",
-            "fileVersion": "3.0.0.1"
-          }
         }
       },
       "MudBlazor/9.4.0": {
@@ -1463,55 +1308,23 @@
           "System.Composition.TypedParts": "7.0.0"
         }
       },
-      "System.Composition.AttributedModel/7.0.0": {
-        "runtime": {
-          "lib/net7.0/System.Composition.AttributedModel.dll": {
-            "assemblyVersion": "7.0.0.0",
-            "fileVersion": "7.0.22.51805"
-          }
-        }
-      },
+      "System.Composition.AttributedModel/7.0.0": {},
       "System.Composition.Convention/7.0.0": {
         "dependencies": {
           "System.Composition.AttributedModel": "7.0.0"
-        },
-        "runtime": {
-          "lib/net7.0/System.Composition.Convention.dll": {
-            "assemblyVersion": "7.0.0.0",
-            "fileVersion": "7.0.22.51805"
-          }
         }
       },
       "System.Composition.Hosting/7.0.0": {
         "dependencies": {
           "System.Composition.Runtime": "7.0.0"
-        },
-        "runtime": {
-          "lib/net7.0/System.Composition.Hosting.dll": {
-            "assemblyVersion": "7.0.0.0",
-            "fileVersion": "7.0.22.51805"
-          }
         }
       },
-      "System.Composition.Runtime/7.0.0": {
-        "runtime": {
-          "lib/net7.0/System.Composition.Runtime.dll": {
-            "assemblyVersion": "7.0.0.0",
-            "fileVersion": "7.0.22.51805"
-          }
-        }
-      },
+      "System.Composition.Runtime/7.0.0": {},
       "System.Composition.TypedParts/7.0.0": {
         "dependencies": {
           "System.Composition.AttributedModel": "7.0.0",
           "System.Composition.Hosting": "7.0.0",
           "System.Composition.Runtime": "7.0.0"
-        },
-        "runtime": {
-          "lib/net7.0/System.Composition.TypedParts.dll": {
-            "assemblyVersion": "7.0.0.0",
-            "fileVersion": "7.0.22.51805"
-          }
         }
       },
       "System.Diagnostics.DiagnosticSource/6.0.2": {},
@@ -1630,6 +1443,18 @@
       "System.Text.Encodings.Web/8.0.0": {},
       "System.Text.Json/9.0.1": {},
       "System.Threading.Channels/7.0.0": {},
+      "Telegram.Bot/22.10.0.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "9.0.0",
+          "System.Text.Json": "9.0.1"
+        },
+        "runtime": {
+          "lib/net6.0/Telegram.Bot.dll": {
+            "assemblyVersion": "22.10.0.1",
+            "fileVersion": "22.10.0.1"
+          }
+        }
+      },
       "ProERP.Application/1.0.0": {
         "dependencies": {
           "ClosedXML": "0.105.0",
@@ -1668,8 +1493,10 @@
         "dependencies": {
           "BCrypt.Net-Next": "4.0.3",
           "ClosedXML": "0.105.0",
+          "Dropbox.Api": "7.0.0",
           "FastReport.OpenSource": "2026.1.8",
           "FastReport.OpenSource.Export.PdfSimple": "2026.1.8",
+          "Google.Apis.Drive.v3": "1.74.0.4135",
           "HarfBuzzSharp.NativeAssets.Linux": "7.3.0.2",
           "HarfBuzzSharp.NativeAssets.macOS": "7.3.0.2",
           "Microsoft.EntityFrameworkCore": "9.0.1",
@@ -1679,7 +1506,8 @@
           "ProERP.Domain": "1.0.0",
           "SkiaSharp.NativeAssets.Linux": "2.88.9",
           "SkiaSharp.NativeAssets.macOS": "2.88.9",
-          "System.Drawing.Common": "6.0.0"
+          "System.Drawing.Common": "6.0.0",
+          "Telegram.Bot": "22.10.0.1"
         },
         "runtime": {
           "ProERP.Infrastructure.dll": {
@@ -1746,6 +1574,13 @@
       "path": "documentformat.openxml.framework/3.1.1",
       "hashPath": "documentformat.openxml.framework.3.1.1.nupkg.sha512"
     },
+    "Dropbox.Api/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ie48rFTFL7rC8YGZ2KMRckhN8QbF56VzCns9+PymrjwcVfnGfKEc2EtHLUau2hrlwvaUtDf6wvTQJXHWAwhhug==",
+      "path": "dropbox.api/7.0.0",
+      "hashPath": "dropbox.api.7.0.0.nupkg.sha512"
+    },
     "ExcelNumberFormat/1.1.0": {
       "type": "package",
       "serviceable": true,
@@ -1795,26 +1630,33 @@
       "path": "google.api.gax.rest/4.13.1",
       "hashPath": "google.api.gax.rest.4.13.1.nupkg.sha512"
     },
-    "Google.Apis/1.73.0": {
+    "Google.Apis/1.74.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-TnCjEyV2aCLQ6Zl40OCbEJULDuEkEWc6C/g81KYw5l1PqGo+G7pFZrV+YH8XgUL0JRUanz+IrUp8SsKF4dzkqg==",
-      "path": "google.apis/1.73.0",
-      "hashPath": "google.apis.1.73.0.nupkg.sha512"
+      "sha512": "sha512-Z6hSkmRD6V8/raSBqn/EsPpNop6suaLaGE9DbSY3yRE5G47l4zYqrJgapcLARk2Z3TsQUDmWz+w/tob3wuVt3g==",
+      "path": "google.apis/1.74.0",
+      "hashPath": "google.apis.1.74.0.nupkg.sha512"
     },
-    "Google.Apis.Auth/1.73.0": {
+    "Google.Apis.Auth/1.74.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-wEu12uhnRv3zrPBSqv4E2vPH6lYLtc1RPAnU9MJRCMFlBVwZ7Lnq3NfbYXi6VG7EurkYInTaMpeBZkbM/HrAog==",
-      "path": "google.apis.auth/1.73.0",
-      "hashPath": "google.apis.auth.1.73.0.nupkg.sha512"
+      "sha512": "sha512-43H4foh3zfWgboK8QnJjIfPQuBiS794TxqQLDfeE3erQSluKmEN0qeDuwxLTpSr9Mtwj76S4LWxPneuSbC6fNg==",
+      "path": "google.apis.auth/1.74.0",
+      "hashPath": "google.apis.auth.1.74.0.nupkg.sha512"
     },
-    "Google.Apis.Core/1.73.0": {
+    "Google.Apis.Core/1.74.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-vSc7CY4KCP7HE4QTElDx/ExnGLbg9kXb89MS6cdvI+0D4sxvTYb16vGtXmF2jSDMV3iDmykSXdIUPTz8TDS6gg==",
-      "path": "google.apis.core/1.73.0",
-      "hashPath": "google.apis.core.1.73.0.nupkg.sha512"
+      "sha512": "sha512-gWOIiks6yo2TRliIyy10V18BJOO2BfUSPJFiTW6Tfap4tm3hFj7nvYU3XIfwzAxwoIy6nsBoqVDt9iBDSXrvYQ==",
+      "path": "google.apis.core/1.74.0",
+      "hashPath": "google.apis.core.1.74.0.nupkg.sha512"
+    },
+    "Google.Apis.Drive.v3/1.74.0.4135": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RmWmfrfASvaoOnSV0pMKvuYAk3SnONvSdcMk3RuL/e2o/aVWy8+V4LGjiZfMNZKpdIvhwpVh4scrhft/xpO92A==",
+      "path": "google.apis.drive.v3/1.74.0.4135",
+      "hashPath": "google.apis.drive.v3.1.74.0.4135.nupkg.sha512"
     },
     "HarfBuzzSharp/7.3.0.2": {
       "type": "package",
@@ -2718,6 +2560,13 @@
       "sha512": "sha512-qmeeYNROMsONF6ndEZcIQ+VxR4Q/TX/7uIVLJqtwIWL7dDWeh0l1UIqgo4wYyjG//5lUNhwkLDSFl+pAWO6oiA==",
       "path": "system.threading.channels/7.0.0",
       "hashPath": "system.threading.channels.7.0.0.nupkg.sha512"
+    },
+    "Telegram.Bot/22.10.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/1Wn3WOkf1U0/dH+DOLcD/ZtFKtgIR5pO5N1TiSf132U3dTxfJlJMr2J+L60ooDfT8tu0deQNH/0WnHfkyUKyg==",
+      "path": "telegram.bot/22.10.0.1",
+      "hashPath": "telegram.bot.22.10.0.1.nupkg.sha512"
     },
     "ProERP.Application/1.0.0": {
       "type": "project",
