@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "publishedAt": "2026-06-08T10:18:39.316931Z",
+  "publishedAt": "2026-06-08T11:17:08.983243Z",
   "files": [
     {
       "path": "Google.Api.Gax.dll",
@@ -132,7 +132,7 @@
       "path": "ProERP.Web",
       "hash": "383e313be0dd2fe9bf7efa57a362a761026a9ac2e2659187f16448f35310e4b5",
       "size": 101760,
-      "lastModified": "2026-06-06T23:06:59.9408387Z"
+      "lastModified": "2026-06-08T11:16:56.1529567Z"
     },
     {
       "path": "FastReport.OpenSource.Export.PdfSimple.dll",
@@ -208,9 +208,9 @@
     },
     {
       "path": "ProERP.Web.dll",
-      "hash": "1fae6194043d7492b7c8c64cdfcf9d92c01a30fbbf2528d8d41afe57916c48fd",
+      "hash": "055d221c3772900252c3e8e587362dea13171676e21a67032d2b2341d26fd6cc",
       "size": 3481088,
-      "lastModified": "2026-06-06T23:06:59.8724369Z"
+      "lastModified": "2026-06-08T11:16:56.0449202Z"
     },
     {
       "path": "Microsoft.IdentityModel.Protocols.dll",
@@ -448,9 +448,9 @@
     },
     {
       "path": "ProERP.Web.staticwebassets.endpoints.json",
-      "hash": "f996493f64360e46a6e5084471f6b5d1d87ffad8afe6d26a9d6f2006f216b507",
+      "hash": "7d55692f7330b43a007fa1f62725f71a8f71a454ca45b527330240f634635e77",
       "size": 2227293,
-      "lastModified": "2026-06-08T10:18:38.9401366Z"
+      "lastModified": "2026-06-08T11:17:08.1534232Z"
     },
     {
       "path": "Google.Apis.Drive.v3.dll",
@@ -1278,7 +1278,7 @@
       "path": "wwwroot/_framework/blazor.boot.json",
       "hash": "2bcd93f7abc0cda50f7222de815b1dd3cdd20f71183580dd1b33e135a62dcf43",
       "size": 18864,
-      "lastModified": "2026-06-08T10:18:37.0460431Z"
+      "lastModified": "2026-06-08T11:17:05.6993629Z"
     },
     {
       "path": "wwwroot/_framework/Microsoft.JSInterop.uu8izyvyxp.wasm",
@@ -1638,7 +1638,7 @@
       "path": "wwwroot/_framework/blazor.boot.json.br",
       "hash": "0072fc174d3e62b08f88de205ed2bab181eb95068f2fb2a8ccc2b783c119c5f8",
       "size": 5710,
-      "lastModified": "2026-06-08T10:18:37.2951549Z"
+      "lastModified": "2026-06-08T11:17:06.0235164Z"
     },
     {
       "path": "wwwroot/_framework/Microsoft.JSInterop.WebAssembly.heoad7mujs.wasm",
@@ -2466,7 +2466,7 @@
       "path": "wwwroot/_framework/blazor.boot.json.gz",
       "hash": "b6269160f00267b9d45efc9b648870c06c2e92cfe47ed73dc9773fbcd879a92e",
       "size": 6296,
-      "lastModified": "2026-06-08T10:18:37.1065313Z"
+      "lastModified": "2026-06-08T11:17:05.8395291Z"
     },
     {
       "path": "wwwroot/_framework/System.Runtime.InteropServices.RuntimeInformation.p6o2imnys4.wasm.gz",
