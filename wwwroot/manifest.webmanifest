@@ -1,22 +1,30 @@
 {
-  "name": "mktoop",
+  "name": "mktoop - نظام إدارة الأعمال",
   "short_name": "mktoop",
-  "id": "./",
-  "start_url": "./",
+  "description": "نظام ERP متكامل لإدارة المبيعات والمخزون والحسابات",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
   "display": "standalone",
-  "background_color": "#ffffff",
+  "orientation": "any",
+  "background_color": "#0a0e1a",
   "theme_color": "#03173d",
+  "dir": "rtl",
+  "lang": "ar",
   "prefer_related_applications": false,
+  "categories": ["business", "finance", "productivity"],
   "icons": [
-    {
-      "src": "icon-512.png",
-      "type": "image/png",
-      "sizes": "512x512"
-    },
     {
       "src": "icon-192.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
     }
   ]
 }

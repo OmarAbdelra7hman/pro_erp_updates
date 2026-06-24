@@ -41,8 +41,11 @@ window.proErpConsoleLog = function (message) {
     try { console.log(message); } catch (e) { }
 };
 window.proErpRenderDashboardChart = function (categories, salesData, purchasesData) {
-    if (typeof window.renderDynamicDashboardChart === 'function')
+    if (typeof window.renderDynamicDashboardChart === 'function') {
         window.renderDynamicDashboardChart(categories, salesData, purchasesData);
+    } else {
+        setTimeout(function() { window.proErpRenderDashboardChart(categories, salesData, purchasesData); }, 200);
+    }
 };
 
 // Focus an element by id, or the first focusable child inside it
@@ -297,37 +300,54 @@ setInterval(async () => {
 }, 5000);
 
 // ── Mobile Menu Toggle ──────────────────────────────────────────
+function setMobileMenuState(isOpen) {
+    const overlay = document.querySelector('.js-mobile-overlay');
+    const drawer = document.querySelector('.js-mobile-drawer');
+    const toggle = document.querySelector('.js-mobile-menu-toggle');
+    const icon = document.querySelector('.js-mobile-menu-icon');
+
+    if (drawer) {
+        drawer.classList.toggle('open', isOpen);
+        drawer.setAttribute('aria-hidden', String(!isOpen));
+    }
+    if (overlay) {
+        overlay.classList.toggle('open', isOpen);
+        overlay.setAttribute('aria-hidden', String(!isOpen));
+    }
+    if (toggle) {
+        toggle.setAttribute('aria-expanded', String(isOpen));
+        toggle.setAttribute('aria-label', isOpen ? 'إغلاق القائمة' : 'فتح القائمة');
+    }
+    if (icon) {
+        icon.setAttribute('icon', isOpen ? 'material-symbols:close-rounded' : 'material-symbols:menu-rounded');
+    }
+
+    document.documentElement.classList.toggle('mobile-menu-open', isOpen);
+}
+
 document.addEventListener('click', function(e) {
-    let toggleBtn = e.target.closest('.js-mobile-menu-toggle');
-    let overlay = document.querySelector('.js-mobile-overlay');
-    let drawer = document.querySelector('.js-mobile-drawer');
-    let icon = document.querySelector('.js-mobile-menu-icon');
-    
+    const toggleBtn = e.target.closest('.js-mobile-menu-toggle');
+    const closeBtn = e.target.closest('.js-mobile-menu-close');
+    const overlay = e.target.closest('.js-mobile-overlay');
+
     if (toggleBtn) {
-        let isOpen = drawer && drawer.classList.contains('open');
-        if (isOpen) {
-            if (drawer) drawer.classList.remove('open');
-            if (overlay) overlay.classList.remove('open');
-            if (icon) icon.setAttribute('icon', 'material-symbols:menu-rounded');
-        } else {
-            if (drawer) drawer.classList.add('open');
-            if (overlay) overlay.classList.add('open');
-            if (icon) icon.setAttribute('icon', 'material-symbols:close-rounded');
-        }
-    } else if (e.target.closest('.js-mobile-overlay')) {
-        if (drawer) drawer.classList.remove('open');
-        if (overlay) overlay.classList.remove('open');
-        if (icon) icon.setAttribute('icon', 'material-symbols:menu-rounded');
+        const drawer = document.querySelector('.js-mobile-drawer');
+        setMobileMenuState(!(drawer && drawer.classList.contains('open')));
+    } else if (closeBtn || overlay) {
+        setMobileMenuState(false);
     }
 });
 
+document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') setMobileMenuState(false);
+});
+
+window.addEventListener('resize', function() {
+    if (window.innerWidth > 1200) setMobileMenuState(false);
+});
+
 window.proErpCloseMobileMenu = function() {
-    let overlay = document.querySelector('.js-mobile-overlay');
-    let drawer = document.querySelector('.js-mobile-drawer');
-    let icon = document.querySelector('.js-mobile-menu-icon');
-    if (drawer) drawer.classList.remove('open');
-    if (overlay) overlay.classList.remove('open');
-    if (icon) icon.setAttribute('icon', 'material-symbols:menu-rounded');
+    setMobileMenuState(false);
 };
 
 window.proErpCloseAllDropdowns = function() {

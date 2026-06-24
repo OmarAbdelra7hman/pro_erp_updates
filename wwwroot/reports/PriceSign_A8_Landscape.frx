@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="01/01/2026 12:00:00" ReportInfo.Modified="01/01/2026 12:00:00" ReportInfo.CreatorVersion="2023.2.0.0">
+  <Dictionary>
+    <BusinessObjectDataSource Name="PriceSigns" ReferenceName="PriceSigns" DataType="null" Enabled="true">
+      <Column Name="Code" DataType="System.String"/>
+      <Column Name="NameAr" DataType="System.String"/>
+      <Column Name="DefaultPrice" DataType="System.Decimal"/>
+      <Column Name="PromoPrice" DataType="System.Decimal"/>
+      <Column Name="DiscountValue" DataType="System.Decimal"/>
+      <Column Name="DiscountPercent" DataType="System.Decimal"/>
+    </BusinessObjectDataSource>
+    <Parameter Name="CompanyName" DataType="System.String"/>
+  </Dictionary>
+  <ReportPage Name="Page1" PaperWidth="74" PaperHeight="52" Landscape="true">
+    <ReportTitleBand Name="ReportTitle1" Width="241.9" Height="20">
+       <TextObject Name="TextTitle" Left="0" Top="0" Width="241.9" Height="20" Text="[CompanyName]" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt, style=Bold"/>
+    </ReportTitleBand>
+    <DataBand Name="Data1" Top="24" Width="241.9" Height="100" DataSource="PriceSigns">
+       <TextObject Name="TextName" Left="2" Top="2" Width="237.9" Height="20" Text="[PriceSigns.NameAr]" Font="Arial, 10pt, style=Bold" HorzAlign="Center"/>
+       <TextObject Name="TextOldPrice" Left="2" Top="25" Width="237.9" Height="15" Text="[PriceSigns.DefaultPrice]" Font="Arial, 8pt, style=Strikeout" HorzAlign="Center" TextFill.Color="Gray"/>
+       <TextObject Name="TextPrice" Left="2" Top="42" Width="237.9" Height="25" Text="[PriceSigns.PromoPrice]" Font="Arial, 14pt, style=Bold" HorzAlign="Center" TextFill.Color="Red"/>
+       <TextObject Name="TextDiscount" Left="2" Top="70" Width="237.9" Height="15" Text="خصم [PriceSigns.DiscountPercent]%" Font="Arial, 8pt, style=Bold" HorzAlign="Center" TextFill.Color="Green"/>
+       <TextObject Name="TextCode" Left="2" Top="85" Width="237.9" Height="12" Text="[PriceSigns.Code]" Font="Arial, 6pt" HorzAlign="Center"/>
+    </DataBand>
+  </ReportPage>
+</Report>

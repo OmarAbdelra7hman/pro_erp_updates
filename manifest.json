@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "publishedAt": "2026-06-08T11:17:08.983243Z",
+  "publishedAt": "2026-06-24T16:20:15.869419Z",
   "files": [
     {
       "path": "Google.Api.Gax.dll",
@@ -76,9 +76,9 @@
     },
     {
       "path": "ProERP.Application.dll",
-      "hash": "1696ffda28b5f8937e8713e7e51d0fafa38ed5bfc33ce6807022ab84c6c3c740",
-      "size": 522240,
-      "lastModified": "2026-06-06T23:06:32.2618619Z"
+      "hash": "d1118d563d6d718af42047c68a85cad10ae93d734c57bd8dc19d776fec2c9d6c",
+      "size": 540160,
+      "lastModified": "2026-06-24T16:19:12.7074909Z"
     },
     {
       "path": "Npgsql.EntityFrameworkCore.PostgreSQL.dll",
@@ -94,9 +94,9 @@
     },
     {
       "path": "ProERP.Infrastructure.dll",
-      "hash": "6ad21cfbea0acff90f45cac07a9b24b8da643114f4f43a8be02714c88eee4a18",
-      "size": 4128256,
-      "lastModified": "2026-06-06T23:06:41.8705034Z"
+      "hash": "ad65af34955d61927ed514c0bf2c5a81e4f23323758fb3cc9687ad286b8eb49d",
+      "size": 4252160,
+      "lastModified": "2026-06-24T16:19:22.2143118Z"
     },
     {
       "path": "ProERP.Licensing.dll",
@@ -132,7 +132,7 @@
       "path": "ProERP.Web",
       "hash": "383e313be0dd2fe9bf7efa57a362a761026a9ac2e2659187f16448f35310e4b5",
       "size": 101760,
-      "lastModified": "2026-06-08T11:16:56.1529567Z"
+      "lastModified": "2026-06-24T16:19:38.5216156Z"
     },
     {
       "path": "FastReport.OpenSource.Export.PdfSimple.dll",
@@ -168,7 +168,7 @@
       "path": "ProERP.Web.runtimeconfig.json",
       "hash": "8f05a7683ba3ab137cea80e6bb123b02d14f0def24bd862fde95609f7cbb67c0",
       "size": 537,
-      "lastModified": "2026-06-03T15:41:58.6866213Z"
+      "lastModified": "2026-06-24T16:19:40.341101Z"
     },
     {
       "path": "Microsoft.CodeAnalysis.CSharp.dll",
@@ -202,15 +202,15 @@
     },
     {
       "path": "ProERP.Web.deps.json",
-      "hash": "61ef796a71ef5bf4f27d98a25c030a8b2fa9728d991f065d1d5d472a1f7a5940",
-      "size": 105366,
-      "lastModified": "2026-06-03T15:41:59.4468903Z"
+      "hash": "d96ff73c7559b414bd2683e7dee79196ca989abcd389abd8d55f91590d1b5062",
+      "size": 105994,
+      "lastModified": "2026-06-24T16:19:40.979087Z"
     },
     {
       "path": "ProERP.Web.dll",
-      "hash": "055d221c3772900252c3e8e587362dea13171676e21a67032d2b2341d26fd6cc",
-      "size": 3481088,
-      "lastModified": "2026-06-08T11:16:56.0449202Z"
+      "hash": "2586db9315c1201a0e8b2e2a44b690ad9e32a69545a51241ab236464acc96074",
+      "size": 3684352,
+      "lastModified": "2026-06-24T16:19:38.4561456Z"
     },
     {
       "path": "Microsoft.IdentityModel.Protocols.dll",
@@ -241,6 +241,12 @@
       "hash": "7d3564784c98568f9d784ce4aa0430b69a27e43cd3b6b99906d030ce259436b0",
       "size": 27136,
       "lastModified": "2026-03-03T18:16:16Z"
+    },
+    {
+      "path": "FastReport.OpenSource.Web.dll",
+      "hash": "abdda5b035f3a893f5cf3591b7f964343875a265b1b8133f10486b5bc6878f4f",
+      "size": 453120,
+      "lastModified": "2026-03-19T17:25:06Z"
     },
     {
       "path": "Microsoft.Extensions.DependencyInjection.dll",
@@ -286,9 +292,9 @@
     },
     {
       "path": "ProERP.Domain.dll",
-      "hash": "90cc30a57e460e38c08334c9d629eae3f72d20ba1f74bf6d39835d0fe517d7e7",
-      "size": 112640,
-      "lastModified": "2026-06-06T23:06:31.3836165Z"
+      "hash": "0e9cf6e7ba20db8e47df51286dd222942bedb34d0ebf2544a3191fa65512708f",
+      "size": 117760,
+      "lastModified": "2026-06-24T16:19:11.2221683Z"
     },
     {
       "path": "Microsoft.AspNetCore.Components.dll",
@@ -304,9 +310,9 @@
     },
     {
       "path": "ProERP.Client.dll",
-      "hash": "2740ccc660e9334700f6ad2e2e843d80f6a0e68156a75c9dfaba8ae3c2973d09",
+      "hash": "00a49b982ab1ee6668ef6bc62e5feefe331ce3e0946b075f2c98de928b41614e",
       "size": 202240,
-      "lastModified": "2026-06-06T23:06:40.3631404Z"
+      "lastModified": "2026-06-24T16:19:20.5780488Z"
     },
     {
       "path": "Microsoft.AspNetCore.Authentication.JwtBearer.dll",
@@ -364,9 +370,9 @@
     },
     {
       "path": "appsettings.backup.json",
-      "hash": "1f15dab1e476703d90da3a2a7f66df56be02a0edfc4bf81b9efa8653b1cc4c15",
-      "size": 128,
-      "lastModified": "2026-06-06T22:40:19.8691058Z"
+      "hash": "fe2765120fe711e2bcdea4032158310d939644ec4dd0ce2ba70f3d30e3138fb7",
+      "size": 129,
+      "lastModified": "2026-06-17T23:49:57.168705Z"
     },
     {
       "path": "Microsoft.JSInterop.dll",
@@ -448,9 +454,9 @@
     },
     {
       "path": "ProERP.Web.staticwebassets.endpoints.json",
-      "hash": "7d55692f7330b43a007fa1f62725f71a8f71a454ca45b527330240f634635e77",
-      "size": 2227293,
-      "lastModified": "2026-06-08T11:17:08.1534232Z"
+      "hash": "427b79cdc1dd0edcd501a60f47850fd769629bbb65f5bf8ebc4890697512bff7",
+      "size": 2811413,
+      "lastModified": "2026-06-24T16:20:15.326606Z"
     },
     {
       "path": "Google.Apis.Drive.v3.dll",
@@ -550,15 +556,15 @@
     },
     {
       "path": "wwwroot/manifest.webmanifest.gz",
-      "hash": "020af8d53c06e60a8a224b903008341a36600516b657729285cd223e05759187",
-      "size": 230,
-      "lastModified": "2026-05-27T22:34:28.8560756Z"
+      "hash": "a7d860aafe3608770c8ecbb9f1c82297f3073fada8b1f6d189724005cee1fc2e",
+      "size": 414,
+      "lastModified": "2026-06-24T16:19:21.472985Z"
     },
     {
       "path": "wwwroot/service-worker-assets.js",
-      "hash": "429d2917cb18a0d57d8d59abcde187969bb67998d2b4b0bb869f4e7cef8dd177",
+      "hash": "82b9ff462b5c0dbe044f5d657a445fae2c5e08fbeeef85730c42b82239944b1c",
       "size": 20711,
-      "lastModified": "2026-06-06T23:07:41.9363573Z"
+      "lastModified": "2026-06-24T16:19:59.8401335Z"
     },
     {
       "path": "wwwroot/index.html",
@@ -568,9 +574,21 @@
     },
     {
       "path": "wwwroot/service-worker-assets.js.br",
-      "hash": "4a9de5ec575849a23398fdad512f9e37f04072d7ba887e36117b52e33827c45b",
-      "size": 6737,
-      "lastModified": "2026-06-06T23:07:42.2571094Z"
+      "hash": "1a67e3479eca1489d2fe8f1cf2cc8b90a6cdea855eb3a4c6e808f050268ec5c4",
+      "size": 6738,
+      "lastModified": "2026-06-24T16:20:00.0838993Z"
+    },
+    {
+      "path": "wwwroot/firebase-messaging-sw.js.gz",
+      "hash": "263f4e842f1ca0323d21208eaca812849bb816fe1634dd24fd1644721ef32f3d",
+      "size": 1026,
+      "lastModified": "2026-06-24T16:19:39.1040769Z"
+    },
+    {
+      "path": "wwwroot/firebase-messaging-sw.js",
+      "hash": "bfb0c0a155e8bed27a1e1c052a2f64b8128de1a78ad315228328e27549de3a9f",
+      "size": 2517,
+      "lastModified": "2026-06-10T14:15:56.3810934Z"
     },
     {
       "path": "wwwroot/index.html.br",
@@ -588,7 +606,7 @@
       "path": "wwwroot/service-worker.js.gz",
       "hash": "4cfcbe465da9c4874bac8a7c6dc9997db8b8901964336448493126d9d0534035",
       "size": 1142,
-      "lastModified": "2026-06-06T23:07:41.9910485Z"
+      "lastModified": "2026-06-24T16:19:59.8946557Z"
     },
     {
       "path": "wwwroot/PrivacyPolicy.html",
@@ -598,9 +616,9 @@
     },
     {
       "path": "wwwroot/manifest.webmanifest.br",
-      "hash": "ae0e6d0f3f57859207ed1b83a3130e0b17d8e56117cb2580484ef7027791562c",
-      "size": 177,
-      "lastModified": "2026-06-03T15:42:35.8570095Z"
+      "hash": "862df4d8e90cddd36a8992b67e10566aa8ac603e1e7bf460dac915d744adea3e",
+      "size": 323,
+      "lastModified": "2026-06-24T16:20:00.0582843Z"
     },
     {
       "path": "wwwroot/favicon.png",
@@ -621,16 +639,22 @@
       "lastModified": "2026-04-19T11:03:19.6893693Z"
     },
     {
+      "path": "wwwroot/firebase-messaging-sw.js.br",
+      "hash": "d38f6e885710628421cc1f3cb5348648463b904e2e6be3ee2db2d44b837f4683",
+      "size": 858,
+      "lastModified": "2026-06-24T16:20:03.1644819Z"
+    },
+    {
       "path": "wwwroot/service-worker-assets.js.gz",
-      "hash": "11f49a86fd2ee526a2a401e15a2a5ad937ab0176dd6eef477c9e8340fde99dc1",
-      "size": 7121,
-      "lastModified": "2026-06-06T23:07:41.9917381Z"
+      "hash": "c2590e592c5d0ac4091f4449b4285ec1b85a6474c0ba2745e28c8941599a8480",
+      "size": 7125,
+      "lastModified": "2026-06-24T16:19:59.8953174Z"
     },
     {
       "path": "wwwroot/service-worker.js",
-      "hash": "63839b05dfa69de63cb5c917319fc1ecd3852496df78fc34a4b638ac68065dae",
+      "hash": "028798b89c77143220d66b39a1419cc02d213e546d3c8eea32f6a2bf3d3779b5",
       "size": 2892,
-      "lastModified": "2026-06-06T23:07:41.9392935Z"
+      "lastModified": "2026-06-24T16:19:59.8429534Z"
     },
     {
       "path": "wwwroot/index.html.gz",
@@ -640,9 +664,9 @@
     },
     {
       "path": "wwwroot/manifest.webmanifest",
-      "hash": "76117861cf888977994c5be161b13e14bc77c8b22e9ad873f15fd1a645c6e4ac",
-      "size": 439,
-      "lastModified": "2026-04-19T11:07:03.3989219Z"
+      "hash": "d4d1dcb48c4decc02bf44f3f24ea915f874a08d11ee72994104c7e1761c0d3f3",
+      "size": 759,
+      "lastModified": "2026-06-10T14:20:15.4481043Z"
     },
     {
       "path": "wwwroot/qz-key.pem",
@@ -654,7 +678,7 @@
       "path": "wwwroot/service-worker.js.br",
       "hash": "a4c9dd0b2f31e3ee7b059853358e3428fcda2929a061a13ecb35ddca4bada0b6",
       "size": 948,
-      "lastModified": "2026-06-06T23:07:42.232333Z"
+      "lastModified": "2026-06-24T16:20:00.0593896Z"
     },
     {
       "path": "wwwroot/qz-cert.pem",
@@ -921,28 +945,1216 @@
       "lastModified": "2021-11-09T03:20:12Z"
     },
     {
+      "path": "wwwroot/WebReportDesigner/6bbe43c6.392.js",
+      "hash": "c92ea68c63e842f2ad74e67a92eff505ce1fdd17d6840e4ff694b56bb24c72e1",
+      "size": 11845,
+      "lastModified": "2026-06-11T09:39:46.7637072Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/931.f0185e9b654a92a92b32.css.br",
+      "hash": "8a7670a4c6c24dc9daf64c68da047234b6f1225486d04d34b4b72c12bce8db3f",
+      "size": 305,
+      "lastModified": "2026-06-24T16:20:03.1376486Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/913.763e0d9be1521b517e5b.css.br",
+      "hash": "04cee3873b7f9c985d79f0a4d475efd4554974cc514c2fabf148f1b44fd0b451",
+      "size": 402,
+      "lastModified": "2026-06-24T16:20:03.136469Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/33.2c49602b77cab3c0c462.css",
+      "hash": "8696cafb86ba2cf956d1385f31bb56f8da6b6bea68468449bcc981379f46ad78",
+      "size": 6389,
+      "lastModified": "2026-06-11T09:44:32.1161068Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/main.9f5bc28db45399d9950b.css.gz",
+      "hash": "e5e1621fe5a5e9767d03e12ff7feca3a7175003ab138e8a75cdde7f4ecfc716c",
+      "size": 25758,
+      "lastModified": "2026-06-24T16:19:39.1117727Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/e36613fc.539.js.br",
+      "hash": "b5a78a86d90f6351cb2aa1a568a8de152add92e0b506e7c24d6d377096709525",
+      "size": 4402,
+      "lastModified": "2026-06-24T16:20:03.2004815Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/913.763e0d9be1521b517e5b.css",
+      "hash": "83de15b503fccd82d65f9d5d40db5467be175f31eaa6f52e333db68bcf213896",
+      "size": 1338,
+      "lastModified": "2026-06-11T09:44:41.9748101Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/712.f89469df7ecc777190a7.css.gz",
+      "hash": "addb6a87546ff78c8630864397c431d4aeefde9f58c848efbb33a3caec3eb9a6",
+      "size": 171,
+      "lastModified": "2026-06-24T16:19:39.1077131Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/793da87f.11.js.br",
+      "hash": "9b2c9472ce23073ffd6275b3966f31ff9bcced1b7908205f99488f280e12f9a3",
+      "size": 5254,
+      "lastModified": "2026-06-24T16:20:03.1910407Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/b1d8f5aa.932.js",
+      "hash": "b5ee7bfce30c794f7fe22839c4ab1999d0324dffdb1f86543e426a29e065480a",
+      "size": 3442,
+      "lastModified": "2026-06-11T09:39:56.4308616Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/756.dcd0c1b56f2fd0eb5098.css.br",
+      "hash": "9e8bc830fbb4fa1854b4efe5c9bdd36c615281cd9be2145fe849f9c05ca6f028",
+      "size": 307,
+      "lastModified": "2026-06-24T16:20:03.1383735Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/6247560b.33.js",
+      "hash": "70d4c3bc475b03c841717ceddfaf1369421f4aab1ad7decb8547d81eef235120",
+      "size": 23410,
+      "lastModified": "2026-06-11T09:39:40.1645227Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/611.28081d885e1779c6b044.css.gz",
+      "hash": "4c2001266411bc351a2bc87074fdd743f6a2dd2a09ffa732903e25d669ba1767",
+      "size": 388,
+      "lastModified": "2026-06-24T16:19:39.101562Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/303.6436473375a5360f1c6f.css",
+      "hash": "36eecb5cb64f30632ba663c1487029472690392229962e0a16240b523ac8c938",
+      "size": 171,
+      "lastModified": "2026-06-11T09:44:33.4476471Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/931.f0185e9b654a92a92b32.css",
+      "hash": "931b845bd0d392f6b34c46e6f2fda82cc58f2bbda2d9efb842a575d9209da411",
+      "size": 1077,
+      "lastModified": "2026-06-11T09:26:27.9009081Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/4128a13f.840.js.br",
+      "hash": "91d150dc7a18af48242621e192f1c0bb0cc6b3ab194d056d0c23df1b3544a60e",
+      "size": 1939,
+      "lastModified": "2026-06-24T16:20:03.1535257Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/cce66907.main2.js.br",
+      "hash": "44725318b08bb192f909d7a5aa971701b653f8ca72841c6f9f5e4bb951e57bbc",
+      "size": 574361,
+      "lastModified": "2026-06-24T16:20:14.6406872Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/386.ed27a58b438c3eca5642.css.gz",
+      "hash": "7244c291e8852bc5dc0a44dd235490911c081096fb1a4fc36924f82cf652f19d",
+      "size": 249,
+      "lastModified": "2026-06-24T16:19:39.1018866Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/48312d5f.413.js.gz",
+      "hash": "c37d1b55a36a6b62b5df709447f03ed360dfc23f76ebe7b267ba023447014844",
+      "size": 4223,
+      "lastModified": "2026-06-24T16:19:39.1049747Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/315.b2c41a961dea51fe8666.css.gz",
+      "hash": "85e69337481d4ce73fe53a884ec45e0b0dfd749e418f01ef94b6c094bfa831f3",
+      "size": 479,
+      "lastModified": "2026-06-24T16:19:39.102005Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/2cb8bdf3.750.js.br",
+      "hash": "c0895bfa6eb71764fb607172f18be02e7405a7388dabb4a268f830d9e69add7c",
+      "size": 2939,
+      "lastModified": "2026-06-24T16:20:03.1775999Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/ef53cdbe.459.js.gz",
+      "hash": "ae3f386ee988074a8edebd8488410bca8b8b474c3f47667b3abccb7bb4eaf11d",
+      "size": 2230,
+      "lastModified": "2026-06-24T16:19:39.1028975Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/541.f09918539ad1287e73a7.css.br",
+      "hash": "0c473d8b5a17f49794b14d56ef82e1e39fc4d36e7082da8a13f42ee2e6d5d22f",
+      "size": 527,
+      "lastModified": "2026-06-24T16:20:03.1389195Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/b1d8f5aa.932.js.br",
+      "hash": "a4d6affeae86126741455a25e5fe273ebbedf586bcc4f6ad75a35101f3efbeb9",
+      "size": 1182,
+      "lastModified": "2026-06-24T16:20:03.1516341Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/459.928c46e49c7750b7f76a.css.br",
+      "hash": "486f6d2047b38425d66848430a12331b3a3596da5d8f855bb665c4490f88d7cb",
+      "size": 701,
+      "lastModified": "2026-06-24T16:20:03.1380276Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/100.d7a0ac33f6d5ba1298e9.css.gz",
+      "hash": "54eed26d3f3fa2abbfafc92f96618dfb37b0fcdbe27f547613acdfb8052614f6",
+      "size": 748,
+      "lastModified": "2026-06-24T16:19:39.1052419Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/539.e7a8308f2f2c6da4dc23.css.gz",
+      "hash": "5fa78d3f1a63af04ca4ce2ee2136c71d8c7da35e603bb8a4008a36e4a06d0d0e",
+      "size": 815,
+      "lastModified": "2026-06-24T16:19:39.1088273Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/dcd2e52a.518.js.br",
+      "hash": "7c12084c59d2b3fd8da3d1fcfb959bc54989072e6fbe238074a1b0ac3fd8ddd0",
+      "size": 705,
+      "lastModified": "2026-06-24T16:20:03.1592689Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/c7160701.308.js.br",
+      "hash": "0ada8a1c80675574cfc0251d31db89688e7e157019f158b36d05fdbbb72dc097",
+      "size": 799,
+      "lastModified": "2026-06-24T16:20:03.1491207Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/716.20105f20562f2b6069aa.css",
+      "hash": "36740a4cee1f32f7fbcd018e163f1ab073769ef457a9ea9ecc0ffa08abe9ce1f",
+      "size": 4758,
+      "lastModified": "2026-06-11T09:44:39.9195043Z"
+    },
+    {
       "path": "wwwroot/WebReportDesigner/index.html",
-      "hash": "5a1f649ce18b57869b5fb8aa3d8a74e092bccfafca6fb0cd69d015968f9f81ab",
-      "size": 1790,
-      "lastModified": "2026-04-14T21:53:21.3076139Z"
+      "hash": "2ed2eeb4dcbe042cf6224987b534824d34f34d0bf54579c3ed46b5cc5c9489ee",
+      "size": 1148,
+      "lastModified": "2026-06-11T10:37:11.2729395Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/644.5e2f58a0d4185882b5fa.css.br",
+      "hash": "032ce849bb941f060b0ae421835a65756f108897435cafaed7972c1ade3b64ac",
+      "size": 273,
+      "lastModified": "2026-06-24T16:20:03.1440195Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/48312d5f.413.js",
+      "hash": "09b5aa1176e1b624f8c76edf20d70faff24c54bc353a02d8cfc3d28202b70dc5",
+      "size": 11311,
+      "lastModified": "2026-06-11T09:39:47.2131883Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/308.542c8a46ca34e74c0467.css.gz",
+      "hash": "d94d4e88ff8e0a0537dfc1ec3f91fd635872c8022ddd2df8e8b536097c89632f",
+      "size": 353,
+      "lastModified": "2026-06-24T16:19:39.1044492Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/386.ed27a58b438c3eca5642.css",
+      "hash": "9d7a69739c4ebca4c54b3951e73459d0128aec84022bc0acee82847299e16254",
+      "size": 492,
+      "lastModified": "2026-06-11T09:44:35.3390335Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/6bbe43c6.392.js.gz",
+      "hash": "605394a96129f7df45596c447f4538508136920793d0ef52c8b7a92e02074f92",
+      "size": 4315,
+      "lastModified": "2026-06-24T16:19:39.1041608Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/a2b56449.386.js.br",
+      "hash": "2b74249b98524438b628d360abc54b0c7e360396e4a2c834e09612d49ffb1bbe",
+      "size": 1218,
+      "lastModified": "2026-06-24T16:20:03.1403488Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/e8c1c8d3.913.js.br",
+      "hash": "56874c6eda0bb84c86a8de20018d30a29ef0058f645166aa1239d95f633cac18",
+      "size": 4921,
+      "lastModified": "2026-06-24T16:20:03.2457868Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/712.f89469df7ecc777190a7.css",
+      "hash": "18b9effc62a39652144b69de87a0496ed368992902daa9ee2303284b7d65d5a7",
+      "size": 309,
+      "lastModified": "2026-06-11T09:44:39.498237Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/64de0e50.315.js.br",
+      "hash": "1416e635615f7b857bc7d1e1860cee8d6849857310e241a7cc2dd312760aad19",
+      "size": 3181,
+      "lastModified": "2026-06-24T16:20:03.169473Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/840.3c6e9a6ebf4c155fe111.css",
+      "hash": "a15b6384f2117e4fd6daa5ff780e929b104d29237bf1b6343ca616cad88c2981",
+      "size": 1704,
+      "lastModified": "2026-06-11T09:44:41.1631192Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/413.47c2dae28658e47be5f8.css",
+      "hash": "ce7f1ea9c18aa02ea0fc02f739244f4df973db190ed340a46d41b5aed8ece07e",
+      "size": 4879,
+      "lastModified": "2026-06-11T09:44:35.7453019Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/921b6ee5.303.js.br",
+      "hash": "c39209b7da4a603da7c32b8d90aabda93a7a569a953000305030ffb5147834f9",
+      "size": 1498,
+      "lastModified": "2026-06-24T16:20:03.1521962Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/d4290457.990.js.gz",
+      "hash": "e7bb783f7ee3490cda549792c5c8d71e6ca4ad81e9dd746ea9f4990525145840",
+      "size": 1043,
+      "lastModified": "2026-06-24T16:19:39.1589458Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/c9f67ac6.72.js.br",
+      "hash": "c005863f6632b853e6d896948d3499b55f4f5bb4666d45cbc6dbfbd8dfc0d0bc",
+      "size": 596,
+      "lastModified": "2026-06-24T16:20:03.154485Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/f36bd1f1.712.js.br",
+      "hash": "4f317a62d9844f88cb4bef31ca5b12a00cf4b9a788c0006d6f68718dd127c90b",
+      "size": 2063,
+      "lastModified": "2026-06-24T16:20:03.1931057Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/76469246.611.js.br",
+      "hash": "ae313a8c801ed8c91bd580bb3f5cf303db42121f2be3af64d94dcedef70c33c2",
+      "size": 2141,
+      "lastModified": "2026-06-24T16:20:03.1517249Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/990.318a8822fe1b8d1ab6f5.css.br",
+      "hash": "3ea994e398f9c523b41876ce19fc43c3c2832c0039173dd08d12d2ad6326cf0a",
+      "size": 191,
+      "lastModified": "2026-06-24T16:20:03.1403059Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/518.da0bdd2b8a79960227f1.css.br",
+      "hash": "940c75ac9b359c86a8e9e1e5fd782dcaaa72e20f5f71a3791dea03228d8ec849",
+      "size": 160,
+      "lastModified": "2026-06-24T16:20:03.1325688Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/8111919a.322.js.br",
+      "hash": "34298d9c9d4f7cac694885363b82bbaab31fb116349441b67bdcca11dc93b70c",
+      "size": 114417,
+      "lastModified": "2026-06-24T16:20:04.270402Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/308.542c8a46ca34e74c0467.css",
+      "hash": "8f9434f1dc900d13a64ede126361adaadab0763b3ada94b214818d77514715f7",
+      "size": 889,
+      "lastModified": "2026-06-11T09:44:33.8600886Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/37ad64b5.450.js.gz",
+      "hash": "0176822d7993e1691fc8125ec817e2935acaf1d21fed28990f5dccf795189932",
+      "size": 9418,
+      "lastModified": "2026-06-24T16:19:39.1094393Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/f8ac0c8d.922.js.gz",
+      "hash": "2bd8e1618d4aca0830bd6e9771065e7a7e797cfca0d3ea57fdf1c53910cca502",
+      "size": 1111,
+      "lastModified": "2026-06-24T16:19:39.1086102Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/459.928c46e49c7750b7f76a.css",
+      "hash": "6f4ca8e3c32eaa382e21ccb05bfc4091ef593135b2e14b2f117ca56cc3f2bce5",
+      "size": 3126,
+      "lastModified": "2026-06-11T09:44:36.6000632Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/644.5e2f58a0d4185882b5fa.css",
+      "hash": "7c18225509cb9d4ffffd3af278cf7a3f14ba3ce92038e5789f9c03f07a43264b",
+      "size": 750,
+      "lastModified": "2026-06-11T09:44:39.0883739Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/f36bd1f1.712.js",
+      "hash": "96106374f06c27ec5cd3ddd4f79ba08b7e52ab87472c3c08ae7f52a134ec66f7",
+      "size": 6658,
+      "lastModified": "2026-06-11T09:39:52.5253497Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/624.67144b26d56fadc792fd.css.gz",
+      "hash": "47b3b0835e4d72a4704807e475643b2dcf4e20c89790ddc13c4a19c3a7b6bc5b",
+      "size": 497,
+      "lastModified": "2026-06-24T16:19:39.1028966Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/922.6d9326600fb2ab597e0b.css.br",
+      "hash": "13dbc4986f8b0ff758835824fa05a704423a280b9ff9b38d1c4d2a2ac24e06b6",
+      "size": 245,
+      "lastModified": "2026-06-24T16:20:03.132758Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/index.html.br",
-      "hash": "bdf9915429a12bdce796d2e912d1fa9a9c91ef5a8219776723dfb5c796f4183e",
-      "size": 684,
-      "lastModified": "2026-06-03T15:42:55.8282513Z"
+      "hash": "9600aa383ef8c11c1bdb56c47876c2564aedf07c5149197f9b546d34c8662176",
+      "size": 350,
+      "lastModified": "2026-06-24T16:20:03.1687068Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/56e0d016.624.js.gz",
+      "hash": "65bd86b45cf682963425d258f64c886b63f850ce419ad444a3f467d13d0826d2",
+      "size": 4543,
+      "lastModified": "2026-06-24T16:19:39.1043043Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/7ebab1a6.931.js.br",
+      "hash": "b82b6b2ee1bd4baa871631d61cea85916c1454f05c0a8e58dabb7632eee7c70e",
+      "size": 3853,
+      "lastModified": "2026-06-24T16:20:03.1792529Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/33.2c49602b77cab3c0c462.css.br",
+      "hash": "160f81ccdb2640ccff8e66e9ddad32ff3bddffad61b7accfe1a64bf05046eec9",
+      "size": 1021,
+      "lastModified": "2026-06-24T16:20:03.1501984Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/58055259.644.js.br",
+      "hash": "1d775af462b21f30bf4b93c1a8bd5caf60a7ea3a6da2c9d3054e93d2b66d3c02",
+      "size": 2648,
+      "lastModified": "2026-06-24T16:20:03.1597717Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/716.20105f20562f2b6069aa.css.gz",
+      "hash": "3680222422cbe2906a5fbe737eb4bb1b2cf6cbc95df08ac57e7e770b8801065f",
+      "size": 1216,
+      "lastModified": "2026-06-24T16:19:39.1054612Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/9.e5b0d19ececf4b8e1c83.css.br",
+      "hash": "8a7d6f9ebe2885bcf4d84d5e15cd8bd1a54060f183a032dcad9953fda12484e6",
+      "size": 155,
+      "lastModified": "2026-06-24T16:20:03.1526696Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/main.9f5bc28db45399d9950b.css",
+      "hash": "ea2c878081842be1c68981653ec7a86827ce4564bc2f0c31d68df30795eed584",
+      "size": 146139,
+      "lastModified": "2026-06-11T08:15:15.1326447Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/5f39c443.844.js.br",
+      "hash": "9428e90bfcbaa6f019b271a8b94b91135c5570369b3fe00f53dee0e30982ac0a",
+      "size": 302,
+      "lastModified": "2026-06-24T16:20:03.1524658Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/322.5626107575f1ab0f1a62.css.gz",
+      "hash": "3c0217a84ff9f98ed1dba144d7be314f12620ff150db9f7dbc42ceaf7cdd43c5",
+      "size": 7687,
+      "lastModified": "2026-06-24T16:19:39.1045401Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/a78800e7.716.js",
+      "hash": "04a673801b33c3710d2a1f66cebadd71195930fe60ab05da699f8cec46602064",
+      "size": 4978,
+      "lastModified": "2026-06-11T09:39:52.9739746Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/413.47c2dae28658e47be5f8.css.br",
+      "hash": "8d5e6b486d232c7c41d2f9d9d4d56d8f2c0895b5265ab3f317168e019f1e88cc",
+      "size": 1073,
+      "lastModified": "2026-06-24T16:20:03.1449407Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/a78800e7.716.js.br",
+      "hash": "f31ab905213c6385a12788ebffb702a2ffb0f61129ab6b4c3c621b1204ed0fc7",
+      "size": 1726,
+      "lastModified": "2026-06-24T16:20:03.1531571Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/7d99ef01.config-data.js.br",
+      "hash": "a3152a15dbcff1cd9fcbe3d7fdef4a2cec9ac283fb46aa72261b6980440d4da2",
+      "size": 1831,
+      "lastModified": "2026-06-24T16:20:03.1476273Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/4128a13f.840.js",
+      "hash": "5d48e1e52e5421fe5f598956ce41527ce3de2d1636c6f3371397f4018fdfd9b0",
+      "size": 6833,
+      "lastModified": "2026-06-11T09:39:54.2191519Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/72.a475e59a23ff5f743038.css.br",
+      "hash": "53f03b50761d0124be6efed845d1585437ec267bbfe06219bf63b6a77d0d98ed",
+      "size": 550,
+      "lastModified": "2026-06-24T16:20:03.1375759Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/88b71b7f.9.js.gz",
+      "hash": "fc39dc9a7d05266964f93e55303e865526a71b7e2c4f5cfe0251b7ff9f7afc31",
+      "size": 1927,
+      "lastModified": "2026-06-24T16:19:39.1088653Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/450.4adc55a53aca5f0525de.css",
+      "hash": "b7cf6955a033aeb9f6cc2d615b8c974b6b1d7013cc0976307aaba4ca3e74a8bc",
+      "size": 8411,
+      "lastModified": "2026-06-11T09:44:36.1848972Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/cce66907.main.js.br",
+      "hash": "44725318b08bb192f909d7a5aa971701b653f8ca72841c6f9f5e4bb951e57bbc",
+      "size": 574361,
+      "lastModified": "2026-06-24T16:20:08.9552713Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/c7160701.308.js",
+      "hash": "47537075b59162979f5b5343d4b26a64e2998c97f7098670bf735bba2a78d36c",
+      "size": 2136,
+      "lastModified": "2026-06-11T09:39:42.6279383Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/539.e7a8308f2f2c6da4dc23.css",
+      "hash": "e8b7784b55c1abd8d3e17ad44fe1817cde48d8d76ed4a8bb7db4c5933f06d00a",
+      "size": 4598,
+      "lastModified": "2026-06-11T09:44:37.4310741Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/db814abf.100.js",
+      "hash": "a2d5b663bdaedb714bf93914768b236b121e43d137fd5db75123d612912396d7",
+      "size": 15488,
+      "lastModified": "2026-06-11T09:39:41.2247274Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/db814abf.100.js.gz",
+      "hash": "689d6afa753f46fc33f9577839e9260b2d189d22ad8cc4d4004db041faa77a8e",
+      "size": 5261,
+      "lastModified": "2026-06-24T16:19:39.1595419Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/2f703457.vendors.js.br",
+      "hash": "4eb6c7d694c9b398cabe32baac7512f0c220bf2d1c9812ab0d3a72966b2b5808",
+      "size": 31889,
+      "lastModified": "2026-06-24T16:20:03.3823091Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/11.bf7b78d8a59e59592bf9.css.gz",
+      "hash": "56e00135944cc1cd0596bb899cfe6e3026bc316bb1a6f202bdb0d3eaee4e515b",
+      "size": 725,
+      "lastModified": "2026-06-24T16:19:39.1044626Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/951.a475e59a23ff5f743038.css.br",
+      "hash": "53f03b50761d0124be6efed845d1585437ec267bbfe06219bf63b6a77d0d98ed",
+      "size": 550,
+      "lastModified": "2026-06-24T16:20:03.1365364Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/541.f09918539ad1287e73a7.css",
+      "hash": "27cfea9b560a63425f23eec31015040d20894c341a73752d60598e64a954e8cf",
+      "size": 2561,
+      "lastModified": "2026-06-11T09:44:37.8476812Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/6247560b.33.js.gz",
+      "hash": "6a8eb7b8e2efefb6c0ea56510ab4d1bef85a95e4242f52846c9f34fc473d8e09",
+      "size": 4881,
+      "lastModified": "2026-06-24T16:19:39.1055034Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/73d38cba.951.js.br",
+      "hash": "e6ea9278850d2be0cd25dc12c1ca279148a8547759c3ba9fef599a559128ed7e",
+      "size": 483,
+      "lastModified": "2026-06-24T16:20:03.1431404Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/58055259.644.js",
+      "hash": "b6c2a486273615fc8b8e6509c44208071e525d4b00ac685f05fd5e2e854fb80c",
+      "size": 10237,
+      "lastModified": "2026-06-11T09:39:52.06317Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/840.3c6e9a6ebf4c155fe111.css.br",
+      "hash": "6b366ae0b69ad174845ce38022bed501145531ee193786af4081ffa80b5070ba",
+      "size": 502,
+      "lastModified": "2026-06-24T16:20:03.1538739Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/11.bf7b78d8a59e59592bf9.css",
+      "hash": "aea6d1743168b8198a9c084436f66673552b80171612ad393c0aac5f221726a9",
+      "size": 2011,
+      "lastModified": "2026-06-11T09:44:31.6986928Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/9.e5b0d19ececf4b8e1c83.css",
+      "hash": "24d4643674d6ff58121f663a1eec394f2b98fe7217bb4e06edcb03bee1a99178",
+      "size": 359,
+      "lastModified": "2026-06-11T09:44:31.2987813Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/750.0ea429e4f2345cfd3f7a.css.gz",
+      "hash": "f7949d23f05c06b79f672fde96aca090dcfbad32e21f946260ea971fe8aa7ab6",
+      "size": 556,
+      "lastModified": "2026-06-24T16:19:39.1071218Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/450.4adc55a53aca5f0525de.css.br",
+      "hash": "62856ec137a981aa2eb9bee9672d337beee85242728f92be6e673a4cd96d7933",
+      "size": 1375,
+      "lastModified": "2026-06-24T16:20:03.1702888Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/e163ba8c.623.js.gz",
+      "hash": "62c522ff53ea01ddf3ab129313555252790f06c25e8338a4d3008dfaefada4ce",
+      "size": 3791,
+      "lastModified": "2026-06-24T16:19:39.1068118Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/be7d8eca.287.js.br",
+      "hash": "646c8b4e655ad68882e187907d5b94959e9fdf3d0b57dd46805b992ef91dc560",
+      "size": 7425,
+      "lastModified": "2026-06-24T16:20:03.2213185Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/303.6436473375a5360f1c6f.css.gz",
+      "hash": "f88082867116e4740a9b7f33b718faa662d787ccfbd7c83a1d942275c89f3bf7",
+      "size": 142,
+      "lastModified": "2026-06-24T16:19:39.1083743Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/750.0ea429e4f2345cfd3f7a.css",
+      "hash": "cb10aceb77be983d3ff137751d3cc0c792ac0c830f4f2450c400ac7cd75c4ea2",
+      "size": 1431,
+      "lastModified": "2026-06-11T09:44:40.3348557Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/cce66907.main2.js.gz",
+      "hash": "c5206b411ef4226d7e3deb70b7f2555d664a8ae6fbeb6a8c06b4c9e96284439e",
+      "size": 756818,
+      "lastModified": "2026-06-24T16:19:39.1584064Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/56e0d016.624.js",
+      "hash": "3dacbd2b9b8a103f848c891ec64b0c3970e6d3e58340db53189bb25ad2321437",
+      "size": 17607,
+      "lastModified": "2026-06-11T09:39:51.606639Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/cce66907.main.js",
+      "hash": "f37b5924366f2d01ac7b2ecd4437f5f0d7ab9a6df794c1a979c30967ef72452f",
+      "size": 2757558,
+      "lastModified": "2026-06-11T10:29:08.6251348Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/386.ed27a58b438c3eca5642.css.br",
+      "hash": "6f16513897fe30f19864b38ae7eda6754ad231cc4b5de39431a21cd49e26758b",
+      "size": 162,
+      "lastModified": "2026-06-24T16:20:03.1325526Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/4128a13f.840.js.gz",
+      "hash": "dcaceecfd7a32d1f2907d47a41078083ea7a968661bae16fa5d989f5f4ccb3ba",
+      "size": 2174,
+      "lastModified": "2026-06-24T16:19:39.1047168Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/100.d7a0ac33f6d5ba1298e9.css",
+      "hash": "0f8db1c557c1f65293ec62bd0f55264430294f06a96fa53d9ff1cc63812e270f",
+      "size": 2836,
+      "lastModified": "2026-06-11T09:44:33.0383701Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/921b6ee5.303.js",
+      "hash": "2507f37b1067c296e30b11b220a7078fd539d90fc7b1518ce1afc4d295fc90c0",
+      "size": 4332,
+      "lastModified": "2026-06-11T09:39:42.1998549Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/cce66907.main2.js",
+      "hash": "f37b5924366f2d01ac7b2ecd4437f5f0d7ab9a6df794c1a979c30967ef72452f",
+      "size": 2757558,
+      "lastModified": "2026-06-11T10:37:11.0560749Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/ef53cdbe.459.js.br",
+      "hash": "d287daa4a553570ac7c4973f65484ad593bb607d8a21b1c03c76e993bf182b59",
+      "size": 1952,
+      "lastModified": "2026-06-24T16:20:03.1734543Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/2cb8bdf3.750.js.gz",
+      "hash": "5b0e9f06372cf7d14a07521f2317de7466f78f386f1cd29095a648c7962445de",
+      "size": 3330,
+      "lastModified": "2026-06-24T16:19:39.1014775Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/48312d5f.413.js.br",
+      "hash": "79ed8edeec4797728b253b39f14eafcb9c710b93a2d869aef93a7053ca768ade",
+      "size": 3694,
+      "lastModified": "2026-06-24T16:20:03.1727649Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/315.b2c41a961dea51fe8666.css.br",
+      "hash": "ae1e18726766147242daecdafbbf73a81bc89b5e06e3532926bcc8f6efa0e4b8",
+      "size": 370,
+      "lastModified": "2026-06-24T16:20:03.1362735Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/c9f67ac6.72.js",
+      "hash": "9f69981b10fc48574834cb202a45bf2ed4a08980a8b8e259eb7ea86d0919ea60",
+      "size": 1198,
+      "lastModified": "2026-06-11T09:39:40.6808495Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/main.9f5bc28db45399d9950b.css.br",
+      "hash": "a228532605e47e5bb169f6153ba4086deca3afd4e1a86413d6202e7d8dc26f34",
+      "size": 21190,
+      "lastModified": "2026-06-24T16:20:03.4344229Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/e36613fc.539.js.gz",
+      "hash": "5a39e7dae06b598c3c5764ccc52df2030ed20fb86c9536ca7220b41c0b4a36aa",
+      "size": 5031,
+      "lastModified": "2026-06-24T16:19:39.1087211Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/be7d8eca.287.js",
+      "hash": "630d5eaf5549c0d295788f33bad2a26e41ae8329940e468a41af308c28c6f62a",
+      "size": 27683,
+      "lastModified": "2026-06-11T09:39:41.7610245Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/913.763e0d9be1521b517e5b.css.gz",
+      "hash": "a6d50f69d3b2ce49ac46140e154ae6ce2bc6a86a4c7a8d9d88f1edd6756138fb",
+      "size": 526,
+      "lastModified": "2026-06-24T16:19:39.1026762Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/931.f0185e9b654a92a92b32.css.gz",
+      "hash": "a35995baec1a1bbff5b8e50753e58c8c1b9c2c102a8b5b6f82b48685cd780af6",
+      "size": 430,
+      "lastModified": "2026-06-24T16:19:39.1069102Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/611.28081d885e1779c6b044.css.br",
+      "hash": "8d906d31ba92f75a50487d7b583ac26d722c9f34baf51f50a1001e59fb392894",
+      "size": 296,
+      "lastModified": "2026-06-24T16:20:03.1354985Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/37ad64b5.450.js",
+      "hash": "ee4cc85a177c7b08beca585b3872cb9d5344436390e497f39e8f0a8b13308250",
+      "size": 62489,
+      "lastModified": "2026-06-11T09:39:48.0247007Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/f8ac0c8d.922.js",
+      "hash": "0fb2d274be37f30cdde51be683d4dcc2e494decdeba919aca7464836c89a34ea",
+      "size": 2658,
+      "lastModified": "2026-06-11T09:39:55.9857975Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/756.dcd0c1b56f2fd0eb5098.css.gz",
+      "hash": "581f6c024182afb8feb9c50195270ff4958883509430a71daad67c8e41b97e46",
+      "size": 424,
+      "lastModified": "2026-06-24T16:19:39.106022Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/793da87f.11.js.gz",
+      "hash": "47e4c71c3ef8cf633899b742002a609b4c18142f9e892b0712dcb200532fe7c6",
+      "size": 5999,
+      "lastModified": "2026-06-24T16:19:39.1038712Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/712.f89469df7ecc777190a7.css.br",
+      "hash": "7fd9b9a02e59ea9d49dba8075a05e49fb483925cdcf7aaeaed98ec4d9150da28",
+      "size": 115,
+      "lastModified": "2026-06-24T16:20:03.1327898Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/990.318a8822fe1b8d1ab6f5.css.gz",
+      "hash": "12829bb07e66d59b32eed846e8406a5a512849791a31c53395a3f423c03c2f81",
+      "size": 287,
+      "lastModified": "2026-06-24T16:19:39.1036553Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/c9f67ac6.72.js.gz",
+      "hash": "b4b05018516ff33b358d393938340da7fc41951fdd06d33f9c3ef9ff9d1cffa1",
+      "size": 716,
+      "lastModified": "2026-06-24T16:19:39.1069273Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/922.6d9326600fb2ab597e0b.css",
+      "hash": "98a2d58917a30220e4e6fdf9aaa94b5298800a36c37436900839e647bf3e5afd",
+      "size": 799,
+      "lastModified": "2026-06-11T09:44:42.3929737Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/f36bd1f1.712.js.gz",
+      "hash": "fb070e483305bf6c895530dbd262ef47f1810e24209592d7105ff7295153911b",
+      "size": 2381,
+      "lastModified": "2026-06-24T16:19:39.1064238Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/76469246.611.js.gz",
+      "hash": "576839f394bd7000fed5093b2de8e4cc7bf03f1e1ddac98b79553c043776457a",
+      "size": 2404,
+      "lastModified": "2026-06-24T16:19:39.1017166Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/64de0e50.315.js.gz",
+      "hash": "66063673216929cc8740cbb6fede1b5ea719b412116b8d14a7dee212d3ca7fc7",
+      "size": 3600,
+      "lastModified": "2026-06-24T16:19:39.1022931Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/921b6ee5.303.js.gz",
+      "hash": "02139a10f1ee9601053077de49798458694e10ffaa826af1f22acb98505b854c",
+      "size": 1675,
+      "lastModified": "2026-06-24T16:19:39.1051601Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/d4290457.990.js.br",
+      "hash": "163ef9735c0fa060d960fa7cc3829b67bafc47055149b45096736d7e1e099e6e",
+      "size": 898,
+      "lastModified": "2026-06-24T16:20:03.1602909Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/7ebab1a6.931.js",
+      "hash": "4421b86b63b054c48dafdde911599caae35cf74c1842ea488700469bd59941a3",
+      "size": 11827,
+      "lastModified": "2026-06-11T09:26:28.4163226Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/624.67144b26d56fadc792fd.css.br",
+      "hash": "88a0f8545e974592b4d6d7e916b5cafbc376377055e3beed4e9150a8f6d15de5",
+      "size": 361,
+      "lastModified": "2026-06-24T16:20:03.1398572Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/7d99ef01.config-data.js",
+      "hash": "be5a87f4c0a54678da2bc876484adf966d835ddfb2adb908b3a8961b118500cf",
+      "size": 5231,
+      "lastModified": "2026-06-11T10:11:00.597238Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/2f703457.vendors.js",
+      "hash": "94d35a652e4671141c304beb8abc0de519844f585dbb05d4c6a4df9cd7c7458c",
+      "size": 106115,
+      "lastModified": "2026-06-11T08:15:14.2793455Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/37ad64b5.450.js.br",
+      "hash": "fa0bf99a4c1675ecc52e64e710bc44b91f5c805a92518ca9a689cb79ea9da8f1",
+      "size": 8159,
+      "lastModified": "2026-06-24T16:20:03.2890047Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/8111919a.322.js",
+      "hash": "10ee28cae14a5737bdcc644ff037ad13db6d257d4d58a1329eb9009bc6dccd1b",
+      "size": 535074,
+      "lastModified": "2026-06-11T09:39:45.8893733Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/f8ac0c8d.922.js.br",
+      "hash": "605ddbfb7408d909ed3fbab0812f47b9dd7c5a40f7e07feb4eef5cecfd7be4de",
+      "size": 979,
+      "lastModified": "2026-06-24T16:20:03.1640088Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/793da87f.11.js",
+      "hash": "00d476595cba430a2d3536ec7120fbf200ed4f21552e79cb037cabb97dccd420",
+      "size": 17577,
+      "lastModified": "2026-06-11T09:39:39.5807625Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/e8c1c8d3.913.js",
+      "hash": "b69c65f831c0ff1ef33c56e24fed506ff9332d5b5f231edcc919dc78f4bb42c0",
+      "size": 22183,
+      "lastModified": "2026-06-11T09:39:55.5385118Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/76469246.611.js",
+      "hash": "c4c74ac2bdb393f7bba718b3404a779811d456745625eab1e36c09f13029f082",
+      "size": 6833,
+      "lastModified": "2026-06-11T09:39:50.5241351Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/518.da0bdd2b8a79960227f1.css.gz",
+      "hash": "583049aa3c92f2ff2edfc5388834ab671d8bcedc00ba97e551a414a032dcd4ab",
+      "size": 244,
+      "lastModified": "2026-06-24T16:19:39.1076396Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/8111919a.322.js.gz",
+      "hash": "82eb867002d34f2505eea90be8e82767f9045cc7a9213bc9fdb1a450e13472e8",
+      "size": 141200,
+      "lastModified": "2026-06-24T16:19:39.1146656Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/644.5e2f58a0d4185882b5fa.css.gz",
+      "hash": "14818bbd91fd688dce0b4d949c5850c63454501b955bdb2cb10aad955136b0ec",
+      "size": 372,
+      "lastModified": "2026-06-24T16:19:39.1052756Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/2cb8bdf3.750.js",
+      "hash": "1a680bbccf530b42dd6186639a082fb944d469127613669e2f98caccca8913e5",
+      "size": 14621,
+      "lastModified": "2026-06-11T09:39:53.3758058Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/315.b2c41a961dea51fe8666.css",
+      "hash": "97abdcf5213495a4b7dd1fff17678b1959c441a991ff1f59c4af9b2d320eb459",
+      "size": 1444,
+      "lastModified": "2026-06-11T09:44:34.2776705Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/c7160701.308.js.gz",
+      "hash": "bd0e061d80cad7fbee101350b254107c5028c0bef44723f0c009316b9b4c01e5",
+      "size": 912,
+      "lastModified": "2026-06-24T16:19:39.1085264Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/d4290457.990.js",
+      "hash": "2ab041f5ef41757540ebcb258eb7d4890e05750708941f8ce3ea8e19988b31f9",
+      "size": 2406,
+      "lastModified": "2026-06-11T09:39:57.2819349Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/459.928c46e49c7750b7f76a.css.gz",
+      "hash": "e51528db6347702d6e44e13d576f0a43eabdb7661a046c398cbd8bedcc50cf7c",
+      "size": 901,
+      "lastModified": "2026-06-24T16:19:39.1021405Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/100.d7a0ac33f6d5ba1298e9.css.br",
+      "hash": "b98eb28fcac50a4266a79b46126f39d88da9e7734bf2696b6fe2664464174723",
+      "size": 563,
+      "lastModified": "2026-06-24T16:20:03.1405863Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/539.e7a8308f2f2c6da4dc23.css.br",
+      "hash": "eb56ec064664f70e72173f07face23ffb5661f808459cfca751eaefead9ef721",
+      "size": 640,
+      "lastModified": "2026-06-24T16:20:03.14899Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/dcd2e52a.518.js.gz",
+      "hash": "278c0c1bbabb206a3cef2875a8f871e95364f8913927b55025c3ea88b7ee2aff",
+      "size": 815,
+      "lastModified": "2026-06-24T16:19:39.1020377Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/541.f09918539ad1287e73a7.css.gz",
+      "hash": "51d743318f24b5da01e98e8f4896c9631fb29482e55ea1c2eb78acf49132d35e",
+      "size": 698,
+      "lastModified": "2026-06-24T16:19:39.1024009Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/b1d8f5aa.932.js.gz",
+      "hash": "dd8e8b4176b5d1d76e4d42b0431178adb2f8bf798f2b0a2c18019b2d09b3be10",
+      "size": 1336,
+      "lastModified": "2026-06-24T16:19:39.1027872Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/e8c1c8d3.913.js.gz",
+      "hash": "c2a641605a56659cc91f2c845e69b38bcd55b872cf6c96a8e336a9736fe40051",
+      "size": 5620,
+      "lastModified": "2026-06-24T16:19:39.1088768Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/6bbe43c6.392.js.br",
+      "hash": "d3bd813e91b157ba17858b3d86e8c2e58a3b87541febd9c493477874fc3c7424",
+      "size": 3795,
+      "lastModified": "2026-06-24T16:20:03.1763688Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/a2b56449.386.js.gz",
+      "hash": "96f9f30542c2448098a52ba30733a73ddac95d0a5df0b6618440a319ebdfa727",
+      "size": 1366,
+      "lastModified": "2026-06-24T16:19:39.1054171Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/308.542c8a46ca34e74c0467.css.br",
+      "hash": "5ca0277f8406f9ea9e35c50512e5e836e4239930e99886b0740ddaaf83e94163",
+      "size": 260,
+      "lastModified": "2026-06-24T16:20:03.1372623Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/e163ba8c.623.js",
+      "hash": "cb07aea46338a1a6372ab8483c79d4d98de7022b9638bed2c704e6e73888c185",
+      "size": 19856,
+      "lastModified": "2026-06-11T09:39:51.0588241Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/322.5626107575f1ab0f1a62.css.br",
+      "hash": "3ff6e2ce8b835757fb3070af9ac56c842fe629cecaa3580497485a2e66aab4a5",
+      "size": 6708,
+      "lastModified": "2026-06-24T16:20:03.2419317Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/5f39c443.844.js.gz",
+      "hash": "62c906322f7813cf2387c9f47f1dbc2ca6c31f38fb105087d18369f9dd225538",
+      "size": 323,
+      "lastModified": "2026-06-24T16:19:39.1062207Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/518.da0bdd2b8a79960227f1.css",
+      "hash": "ebb361ce8e6ca3f62178fe65edb7d1cc66855a1705e0d203fd019659c2221faa",
+      "size": 510,
+      "lastModified": "2026-06-11T09:44:37.0090977Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/64de0e50.315.js",
+      "hash": "577bb9c9062556ac3a43767b0e63bb81a9b089a1a5071dcee727d49b9116d1d0",
+      "size": 12857,
+      "lastModified": "2026-06-11T09:39:43.099425Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/72.a475e59a23ff5f743038.css.gz",
+      "hash": "ba060f7fe53b985de8e1043eea8338ecfba2fc8ca7dcfb50afc521482ad40d57",
+      "size": 699,
+      "lastModified": "2026-06-24T16:19:39.1020174Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/88b71b7f.9.js.br",
+      "hash": "fa538e322d2a40b174e01a3c2b4ca2823a901aef3b65ca17065a00f8fd718c28",
+      "size": 1708,
+      "lastModified": "2026-06-24T16:20:03.1650169Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/a78800e7.716.js.gz",
+      "hash": "2bcdb7d8bc52512d36cf1cadac2f644b039875d8def537b2b9216dd433d1e38b",
+      "size": 1941,
+      "lastModified": "2026-06-24T16:19:39.1071019Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/7d99ef01.config-data.js.gz",
+      "hash": "38790e163db2b777f655de541bea4385fe9583076306a38aef800179b07379d3",
+      "size": 2055,
+      "lastModified": "2026-06-24T16:19:39.1069628Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/88b71b7f.9.js",
+      "hash": "0b61b58aff886a577779233d04166f3925427a6535896741833fdbc77f7c85dd",
+      "size": 9484,
+      "lastModified": "2026-06-11T09:39:39.0740722Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/756.dcd0c1b56f2fd0eb5098.css",
+      "hash": "45f26f200931f95b07a43816e57bde977c88e3040531a84142cce2defc0d9eb2",
+      "size": 1152,
+      "lastModified": "2026-06-11T09:44:40.7454664Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/322.5626107575f1ab0f1a62.css",
+      "hash": "2f3dd362d36ab00410c140f4bff30caae04732596c546cc6ee5ff3b2eeab671f",
+      "size": 42709,
+      "lastModified": "2026-06-11T09:44:34.914821Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/611.28081d885e1779c6b044.css",
+      "hash": "12931e7a534a408f6e3ee6d1724ca8177eccfcad822fcd1772c7e6af4f22a2d4",
+      "size": 948,
+      "lastModified": "2026-06-11T09:44:38.2646582Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/a2b56449.386.js",
+      "hash": "2cf1d3368d0a3c266cb23fea412d78b993e3a5ae58b5712e0d4b2b81116b5239",
+      "size": 3684,
+      "lastModified": "2026-06-11T09:39:46.3191313Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/413.47c2dae28658e47be5f8.css.gz",
+      "hash": "b1eb22dae3e57822146eca87ee98b2c80d2827b7e64f46a513364bd1b219df0f",
+      "size": 1283,
+      "lastModified": "2026-06-24T16:19:39.1079911Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/56e0d016.624.js.br",
+      "hash": "3d1a496a1de2471ce735b8b90449d426d2464eb80343f5714b9fff5389065114",
+      "size": 3915,
+      "lastModified": "2026-06-24T16:20:03.1917023Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/e36613fc.539.js",
+      "hash": "29ebad964de09ccb10c636f938534a1eebc150e66fd6c42cb0cc49ae7b9f8a5d",
+      "size": 17364,
+      "lastModified": "2026-06-11T09:39:49.6760666Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/index.html.gz",
-      "hash": "4e91400f6a7fcf3cd86498016827e3b5b121ac51a40f1762a625547a587c4b36",
-      "size": 985,
-      "lastModified": "2026-05-27T22:34:42.8465009Z"
+      "hash": "13e46febd57c9922841d308f201b7165b3753bf691cd9b0c204fe47bb1115258",
+      "size": 556,
+      "lastModified": "2026-06-24T16:19:39.1082445Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/73d38cba.951.js",
+      "hash": "fcd73b8f70731f4524e5ac634e734b1393dbdeef57ebec1beeff79a8058cf3d4",
+      "size": 835,
+      "lastModified": "2026-06-11T09:39:56.8552794Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/922.6d9326600fb2ab597e0b.css.gz",
+      "hash": "f0b8d235edebf83d696443a2b68cc33ef8eb9f12de61535168a710474486ab3a",
+      "size": 363,
+      "lastModified": "2026-06-24T16:19:39.1078362Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/9.e5b0d19ececf4b8e1c83.css.gz",
+      "hash": "ffdb04f35ff2f0457d772b30f25109f47481b60b6f298f4dd8eba034877bd753",
+      "size": 222,
+      "lastModified": "2026-06-24T16:19:39.1092964Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/716.20105f20562f2b6069aa.css.br",
+      "hash": "f9028b889557b273a5295e0f17d2b01115ff034fb83f5aedbec1d4c29854b5ad",
+      "size": 1015,
+      "lastModified": "2026-06-24T16:20:03.1491379Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/58055259.644.js.gz",
+      "hash": "7d6a11202ef600a1a4c3af639d0d5667f8bb8697d7157d4ab1596126ca0ca926",
+      "size": 3001,
+      "lastModified": "2026-06-24T16:19:39.107019Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/951.a475e59a23ff5f743038.css",
+      "hash": "c96d550cd2576343db03323848d3196aa8da3e73bd90912ef1b1ed72e6855f09",
+      "size": 1980,
+      "lastModified": "2026-06-11T09:44:42.7949601Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/5f39c443.844.js",
+      "hash": "154ca81e3ee21e713d73d5da461f61ce3bc5d1dc61c0dbaf17e23aff8bb0dc26",
+      "size": 441,
+      "lastModified": "2026-06-11T09:39:54.6426475Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/33.2c49602b77cab3c0c462.css.gz",
+      "hash": "0aedc496d0eabed013459dbb83a6f56a96812b374e9b4e0d27419f7dc047245c",
+      "size": 1235,
+      "lastModified": "2026-06-24T16:19:39.1080903Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/7ebab1a6.931.js.gz",
+      "hash": "bf1ae3441a80b385181a56d1e50d8a1a6b76d8ff838c423558067c2d2c52140e",
+      "size": 4428,
+      "lastModified": "2026-06-24T16:19:39.1073531Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/73d38cba.951.js.gz",
+      "hash": "babf015dd16d6cf8ca342f3dae8c98b9613e106d5826ab57dc4129203d15ae62",
+      "size": 546,
+      "lastModified": "2026-06-24T16:19:39.1041192Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/6247560b.33.js.br",
+      "hash": "95752ac68ef689864306157c2c11caa8329577aaa3e4dd14ccf36048b631731e",
+      "size": 4312,
+      "lastModified": "2026-06-24T16:20:03.2026585Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/ef53cdbe.459.js",
+      "hash": "a008c8550645d47e6d5437970055eb3f10d125193f5d9260d9a442278b7cf649",
+      "size": 6795,
+      "lastModified": "2026-06-11T09:39:48.4549654Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/be7d8eca.287.js.gz",
+      "hash": "50c51504dc388965d71409c5af514b8966c26a3c752cc04b46e1db8765243e5d",
+      "size": 8336,
+      "lastModified": "2026-06-24T16:19:39.1071142Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/303.6436473375a5360f1c6f.css.br",
+      "hash": "f3dc4a748f99153f1f7027554c521233d9f05736aac8ba13550a6b07b478b4dd",
+      "size": 94,
+      "lastModified": "2026-06-24T16:20:03.1326963Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/e163ba8c.623.js.br",
+      "hash": "68fc67d462cb72f05cfd52196101079176de17511c8204bc6cf5c62b550eebd6",
+      "size": 3321,
+      "lastModified": "2026-06-24T16:20:03.2100758Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/450.4adc55a53aca5f0525de.css.gz",
+      "hash": "fce243601fd17ba9ad42eebc867a4957aa6fcad5a43346342f0ea1823331a164",
+      "size": 1625,
+      "lastModified": "2026-06-24T16:19:39.1044729Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/840.3c6e9a6ebf4c155fe111.css.gz",
+      "hash": "9edffe8418955bd9611c1cd7805e6bee02649acada7c8aa4654f8b2a8956b6f9",
+      "size": 626,
+      "lastModified": "2026-06-24T16:19:39.1080762Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/750.0ea429e4f2345cfd3f7a.css.br",
+      "hash": "068576a208d3d4f5489e8fc7cdf411ff35ffdb50473abcedab47c9f2e8ff248e",
+      "size": 401,
+      "lastModified": "2026-06-24T16:20:03.1338645Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/990.318a8822fe1b8d1ab6f5.css",
+      "hash": "69204c140ea6dec88ecbef677dbfa3a891a4fd9b37dc387b527ee6f66223e086",
+      "size": 734,
+      "lastModified": "2026-06-11T09:44:43.2113718Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/cce66907.main.js.gz",
+      "hash": "c5206b411ef4226d7e3deb70b7f2555d664a8ae6fbeb6a8c06b4c9e96284439e",
+      "size": 756818,
+      "lastModified": "2026-06-24T16:19:39.1550287Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/624.67144b26d56fadc792fd.css",
+      "hash": "a668a676199b49c10cc7ef608bec5a6837211f85a09632cb742314eb75ceadb7",
+      "size": 1143,
+      "lastModified": "2026-06-11T09:44:38.6812624Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/dcd2e52a.518.js",
+      "hash": "1849f43779ab7105ec7d9179a9de26425589443dce407fccc97b9189f5c433a9",
+      "size": 1865,
+      "lastModified": "2026-06-11T09:39:48.8549457Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/11.bf7b78d8a59e59592bf9.css.br",
+      "hash": "41b58537e1296acf0bbb67059f75bca8af98cd18ef9ae6d244bb3c8e65e6a884",
+      "size": 572,
+      "lastModified": "2026-06-24T16:20:03.1478437Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/951.a475e59a23ff5f743038.css.gz",
+      "hash": "ba060f7fe53b985de8e1043eea8338ecfba2fc8ca7dcfb50afc521482ad40d57",
+      "size": 699,
+      "lastModified": "2026-06-24T16:19:39.1017078Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/72.a475e59a23ff5f743038.css",
+      "hash": "c96d550cd2576343db03323848d3196aa8da3e73bd90912ef1b1ed72e6855f09",
+      "size": 1980,
+      "lastModified": "2026-06-11T09:44:32.5380172Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/db814abf.100.js.br",
+      "hash": "6d3f4019f7643cbdccabbd54a9587c770aa2d9a34bade226ef774d77d3a9d54a",
+      "size": 4709,
+      "lastModified": "2026-06-24T16:20:03.2042832Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/2f703457.vendors.js.gz",
+      "hash": "be716baa605b23bd7d263d9f7988c0e846e14bdc06bd16f9fc443a11011cb63d",
+      "size": 36809,
+      "lastModified": "2026-06-24T16:19:39.1075074Z"
     },
     {
       "path": "wwwroot/css/app.css.gz",
-      "hash": "94f718c0ae79d159b281fd62a7b33eb07c32babaee7e35bd392fcf8b51084ab2",
-      "size": 11892,
-      "lastModified": "2026-05-27T22:34:42.9166328Z"
+      "hash": "45219db8afe35c539811a18cda5c0318bd622c52ef64db9dc0ff1643f8f12a67",
+      "size": 12284,
+      "lastModified": "2026-06-24T16:19:39.1056258Z"
     },
     {
       "path": "wwwroot/css/fonts.css.br",
@@ -952,9 +2164,9 @@
     },
     {
       "path": "wwwroot/css/app.css",
-      "hash": "df2bdba3ca1f3bfa79df39728df6ab7ed0b1534dd98ca98953b216bcc890bc64",
-      "size": 78341,
-      "lastModified": "2026-05-25T17:39:04.2440591Z"
+      "hash": "54a19649f155e49b7934619877f84634728a0a60bc57549ecf657b48713d0946",
+      "size": 80506,
+      "lastModified": "2026-06-15T18:03:42.2576921Z"
     },
     {
       "path": "wwwroot/css/app.css.bak",
@@ -970,9 +2182,9 @@
     },
     {
       "path": "wwwroot/css/app.css.br",
-      "hash": "e169521408ded94a5ae17617cc8d13baa248de06827b56a48b612befde837d77",
-      "size": 9996,
-      "lastModified": "2026-06-03T15:42:55.6417202Z"
+      "hash": "69842197b2fdbb5687782ce142d23fcd8e4e04598a5cb3c43e9912f570be0526",
+      "size": 10322,
+      "lastModified": "2026-06-24T16:20:03.3086696Z"
     },
     {
       "path": "wwwroot/css/fonts.css",
@@ -982,9 +2194,15 @@
     },
     {
       "path": "wwwroot/js/utils.js.gz",
-      "hash": "b69a396298e51f774f401a3dc10f61c8d5a5f87764cf5a5af7abea863f7def48",
-      "size": 4431,
-      "lastModified": "2026-05-27T22:34:42.8905545Z"
+      "hash": "2d4165c540a22fa195ff17efe73c3fa59ae20ae8c87de3e2afcf7ed8514e07f1",
+      "size": 4631,
+      "lastModified": "2026-06-24T16:19:39.1031188Z"
+    },
+    {
+      "path": "wwwroot/js/firebase-push.js.br",
+      "hash": "53b9fd962ad2e1cdc6c83ca5030c952c1ec7ac2f4e60fd0819b81ef91c128eac",
+      "size": 1622,
+      "lastModified": "2026-06-24T16:20:03.1530121Z"
     },
     {
       "path": "wwwroot/js/iconBundle.js.br",
@@ -997,6 +2215,12 @@
       "hash": "15fee024c3381a7e5614bfc6f2bc53a122e004837861b3727a881e71d0fdbfeb",
       "size": 460,
       "lastModified": "2026-05-27T22:34:42.8461269Z"
+    },
+    {
+      "path": "wwwroot/js/monaco-frx.js",
+      "hash": "eb92bf8f443375d41ac3948fb08cd139d0a8d1e473dae6a2b4902ea14c9cc751",
+      "size": 3120,
+      "lastModified": "2026-06-11T07:18:59.6505347Z"
     },
     {
       "path": "wwwroot/js/iconPrefetch.js.br",
@@ -1012,9 +2236,9 @@
     },
     {
       "path": "wwwroot/js/dashboard.js.br",
-      "hash": "e54ccd7e9af7eb30f2a6bbd594e2593f2ac108e3d9f96fbf75bfe3f65cf02efe",
-      "size": 693,
-      "lastModified": "2026-06-03T15:42:55.4977549Z"
+      "hash": "122a100c348df5332fec3716d82c9cbe0ba641d9c950f71d4cf3f491b1c5ae91",
+      "size": 798,
+      "lastModified": "2026-06-24T16:20:03.1707998Z"
     },
     {
       "path": "wwwroot/js/iconify-icon.min.js.gz",
@@ -1023,10 +2247,22 @@
       "lastModified": "2026-05-27T22:34:42.9144075Z"
     },
     {
+      "path": "wwwroot/js/monaco-frx.js.br",
+      "hash": "f6c8633ee74be0cd17d70b024f5e0d6c833160aeece99f2a5d4060fc0e384340",
+      "size": 849,
+      "lastModified": "2026-06-24T16:20:03.1654326Z"
+    },
+    {
       "path": "wwwroot/js/indexedDb.js.br",
       "hash": "d6f0d28902ed2baba7aeaef5eaeda81499f657bad9c484018be39467b07035d3",
       "size": 525,
       "lastModified": "2026-06-03T15:42:35.8524776Z"
+    },
+    {
+      "path": "wwwroot/js/apexcharts.min.js.br",
+      "hash": "a60d4ffadb297a898e782314a65f415feb0fb56ea62d517cde405a60052e970a",
+      "size": 131830,
+      "lastModified": "2026-06-24T16:20:04.3911131Z"
     },
     {
       "path": "wwwroot/js/qzInterop.js",
@@ -1039,6 +2275,12 @@
       "hash": "62d5070c8b000f005e50271776088ad1ea5f599f979474d0e67ecaac3d5bd360",
       "size": 1277,
       "lastModified": "2026-04-04T18:10:50.7686985Z"
+    },
+    {
+      "path": "wwwroot/js/firebase-push.js",
+      "hash": "b7eb941902eee0e8878136e2c7a944bcea75d0bc38d9146e0543f0d97e17fd14",
+      "size": 7649,
+      "lastModified": "2026-06-10T14:24:44.0846503Z"
     },
     {
       "path": "wwwroot/js/iconify-icon.min.js",
@@ -1065,16 +2307,28 @@
       "lastModified": "2026-05-10T14:43:22.8078181Z"
     },
     {
+      "path": "wwwroot/js/firebase-push.js.gz",
+      "hash": "1fd9c4eb0e468f48cdac328b9e2d641d893388616f3e187783ab88663e233d8d",
+      "size": 1893,
+      "lastModified": "2026-06-24T16:19:39.1066226Z"
+    },
+    {
       "path": "wwwroot/js/utils.js.br",
-      "hash": "607edff543f60cd6c73c26c1fc9bbc9a2726fb6c9b7afbd27fd8bae0471f12d9",
-      "size": 3700,
-      "lastModified": "2026-06-03T15:42:56.031429Z"
+      "hash": "dea1cc3e30efc047dddc1504bacdc1d4dcdc9121caa34a1bd599f74066554a82",
+      "size": 3853,
+      "lastModified": "2026-06-24T16:20:03.1834204Z"
     },
     {
       "path": "wwwroot/js/iconBundle.js.gz",
       "hash": "4acb69fe0f46d84820624a06ab78f48d71ee3c4a55e052f013b5b00890f70538",
       "size": 24517,
       "lastModified": "2026-05-27T22:34:42.9189747Z"
+    },
+    {
+      "path": "wwwroot/js/apexcharts.min.js",
+      "hash": "f24995506dede44666ef4e910424a3656c8ba30f8c2d10acea3d0ac1644f5972",
+      "size": 600535,
+      "lastModified": "2026-06-12T09:08:40.2710862Z"
     },
     {
       "path": "wwwroot/js/iconify-icon.min.js.br",
@@ -1084,9 +2338,9 @@
     },
     {
       "path": "wwwroot/js/dashboard.js.gz",
-      "hash": "a8718f7291d34cad7344e3353ce992b621a4f9e90cc0d733e400684b47a79057",
-      "size": 826,
-      "lastModified": "2026-05-27T22:34:42.8460783Z"
+      "hash": "6c75cb71f064fb5d55d48fab2d0acc7b8dbb0904924d50cd898098b990d963a7",
+      "size": 1004,
+      "lastModified": "2026-06-24T16:19:39.1029426Z"
     },
     {
       "path": "wwwroot/js/iconPrefetch.js",
@@ -1101,6 +2355,12 @@
       "lastModified": "2026-05-27T22:34:28.8597418Z"
     },
     {
+      "path": "wwwroot/js/monaco-frx.js.gz",
+      "hash": "e271fd1ebc014ecf19f830a76e4de4e786c9151f372751e05033b71cb81b0470",
+      "size": 1061,
+      "lastModified": "2026-06-24T16:19:39.1085057Z"
+    },
+    {
       "path": "wwwroot/js/qzInterop.js.gz",
       "hash": "8aebf8549d276b43e6d858c516ff202234a80645e828fb2fafc97936749d7de8",
       "size": 854,
@@ -1108,15 +2368,21 @@
     },
     {
       "path": "wwwroot/js/utils.js",
-      "hash": "b5426924fcf561615decc65a4925a63ecc7c8874816bb876ff4d98368ccc8471",
-      "size": 16849,
-      "lastModified": "2026-05-19T08:59:33.2272154Z"
+      "hash": "2b499e45a999e9d622601947ad40839ba22082e4e1cd5e2d0b7c9ca2bea8f152",
+      "size": 17437,
+      "lastModified": "2026-06-15T17:51:36.8148168Z"
     },
     {
       "path": "wwwroot/js/dashboard.js",
-      "hash": "9672f5345d818e725bd3940902ae0f812097a2c10992fbd1802bf136c1933026",
-      "size": 2182,
-      "lastModified": "2026-04-04T18:10:50.7653434Z"
+      "hash": "b4357779f9c07a3525c44bf5980d8a64cc5711283eff784ec676b986771bbcd6",
+      "size": 2706,
+      "lastModified": "2026-06-12T09:10:58.3461708Z"
+    },
+    {
+      "path": "wwwroot/js/apexcharts.min.js.gz",
+      "hash": "00eca514f468292e1667f6612aea62b00ecb17dce0b0c18c3128d3495bc6209b",
+      "size": 164222,
+      "lastModified": "2026-06-24T16:19:39.1170638Z"
     },
     {
       "path": "wwwroot/js/iconBundle.js",
@@ -1251,6 +2517,12 @@
       "lastModified": "2026-06-03T15:42:39.1551513Z"
     },
     {
+      "path": "wwwroot/_framework/ProERP.Client.zmanbsxmq2.wasm",
+      "hash": "9b0071e524e48e75504fca4ed9c191be924955dca7b5bdeebe0f026aa663abb4",
+      "size": 202005,
+      "lastModified": "2026-06-24T16:19:59.3027083Z"
+    },
+    {
       "path": "wwwroot/_framework/Radzen.Blazor.b690vsoizk.wasm",
       "hash": "739d519bf7a95a952439d4a8faf1b40f6d71fc42f1714d32fd17fdd61727eaa1",
       "size": 1739541,
@@ -1276,9 +2548,9 @@
     },
     {
       "path": "wwwroot/_framework/blazor.boot.json",
-      "hash": "2bcd93f7abc0cda50f7222de815b1dd3cdd20f71183580dd1b33e135a62dcf43",
+      "hash": "b81db455f7b3d27511b1fd6fb49e585d7eb067bfea1e449c910c94c30672afc9",
       "size": 18864,
-      "lastModified": "2026-06-08T11:17:05.6993629Z"
+      "lastModified": "2026-06-24T16:19:59.790825Z"
     },
     {
       "path": "wwwroot/_framework/Microsoft.JSInterop.uu8izyvyxp.wasm",
@@ -1327,6 +2599,12 @@
       "hash": "a8fcd127bbe9657ce07e7ff344de2c1350c290830e86fd2e86921effa50c623e",
       "size": 248840,
       "lastModified": "2026-06-03T15:42:42.1628251Z"
+    },
+    {
+      "path": "wwwroot/_framework/ProERP.Application.el6krqjwdk.wasm.gz",
+      "hash": "376736a5dea4264c19d51b9b84de350297a4f09ae2f57eaa6d07ddf858900b68",
+      "size": 177603,
+      "lastModified": "2026-06-24T16:19:59.9060927Z"
     },
     {
       "path": "wwwroot/_framework/System.Runtime.InteropServices.f1awgqivxx.wasm.br",
@@ -1587,6 +2865,12 @@
       "lastModified": "2026-06-03T15:42:35.5323449Z"
     },
     {
+      "path": "wwwroot/_framework/ProERP.Domain.hxcu7s2gvh.wasm.br",
+      "hash": "1a90abc0e5c8e4425f62d789633c6c3a512c5142347d9c204c9d1db283edfa3e",
+      "size": 28158,
+      "lastModified": "2026-06-24T16:20:00.3083234Z"
+    },
+    {
       "path": "wwwroot/_framework/System.Private.Xml.4nnplzjmww.wasm.br",
       "hash": "893db227666f2e06de2eed13fcce69c6b4ba5ea6755e092e62ece97fa2938825",
       "size": 362823,
@@ -1636,9 +2920,9 @@
     },
     {
       "path": "wwwroot/_framework/blazor.boot.json.br",
-      "hash": "0072fc174d3e62b08f88de205ed2bab181eb95068f2fb2a8ccc2b783c119c5f8",
-      "size": 5710,
-      "lastModified": "2026-06-08T11:17:06.0235164Z"
+      "hash": "6eda53ab8968854017cae0ae38dcb463cf260954d89009e313975a9a10e9ba26",
+      "size": 5727,
+      "lastModified": "2026-06-24T16:20:00.0837863Z"
     },
     {
       "path": "wwwroot/_framework/Microsoft.JSInterop.WebAssembly.heoad7mujs.wasm",
@@ -2085,6 +3369,12 @@
       "lastModified": "2026-06-03T15:42:36.6594641Z"
     },
     {
+      "path": "wwwroot/_framework/ProERP.Client.zmanbsxmq2.wasm.br",
+      "hash": "aecae795e394e7484b6042ed071f626f2738bc702cd9f23c0df9f1e09c84c050",
+      "size": 49687,
+      "lastModified": "2026-06-24T16:20:00.5034304Z"
+    },
+    {
       "path": "wwwroot/_framework/Microsoft.Extensions.Configuration.ell6o7ap7i.wasm.gz",
       "hash": "5e4b909b36d781b581009f4cec3e0c162c81cdc1d3741bdc4b039c35ef4f8e00",
       "size": 4357,
@@ -2131,6 +3421,12 @@
       "hash": "a71a6e24666d1f12f9308a709d4914f1024a316ab08a342b3365ce13db94a336",
       "size": 4885,
       "lastModified": "2026-06-03T15:42:33.0039686Z"
+    },
+    {
+      "path": "wwwroot/_framework/ProERP.Domain.hxcu7s2gvh.wasm",
+      "hash": "f513c840dcaf9e613f7a690048aab222910267d46d93a73f94df2003feaf825b",
+      "size": 117525,
+      "lastModified": "2026-06-24T16:19:59.3069328Z"
     },
     {
       "path": "wwwroot/_framework/System.Resources.ResourceManager.dbeknebgal.wasm",
@@ -2361,6 +3657,12 @@
       "lastModified": "2026-06-03T15:42:31.1833016Z"
     },
     {
+      "path": "wwwroot/_framework/ProERP.Application.el6krqjwdk.wasm.br",
+      "hash": "f6735d92a74e0ea107a6e5eda7026fc5937c6142f910c4edfd5b9bb91f108638",
+      "size": 118540,
+      "lastModified": "2026-06-24T16:20:01.905377Z"
+    },
+    {
       "path": "wwwroot/_framework/icudt_CJK.tjcz0u77k5.dat.gz",
       "hash": "b01af3034ff74e3d7d3b22e2c2ad11e95c2d3f25dc841e0748436fa4555f7523",
       "size": 359724,
@@ -2464,15 +3766,21 @@
     },
     {
       "path": "wwwroot/_framework/blazor.boot.json.gz",
-      "hash": "b6269160f00267b9d45efc9b648870c06c2e92cfe47ed73dc9773fbcd879a92e",
-      "size": 6296,
-      "lastModified": "2026-06-08T11:17:05.8395291Z"
+      "hash": "8425f5d677252c6df1aa2152fdd8e59fd0e7fba9f4ecf2702096e0f422d0ba33",
+      "size": 6294,
+      "lastModified": "2026-06-24T16:19:59.8947564Z"
     },
     {
       "path": "wwwroot/_framework/System.Runtime.InteropServices.RuntimeInformation.p6o2imnys4.wasm.gz",
       "hash": "789e307594bef88961aa09f5c95a4868ef2030003cc08207e9f22832ee5bb6b8",
       "size": 1809,
       "lastModified": "2026-06-03T15:42:35.5203377Z"
+    },
+    {
+      "path": "wwwroot/_framework/ProERP.Domain.hxcu7s2gvh.wasm.gz",
+      "hash": "52f5f25348920cecf37dcacea419f60d9e54edb6c6d9db994d6168b0a6b9fb52",
+      "size": 43690,
+      "lastModified": "2026-06-24T16:19:59.8970351Z"
     },
     {
       "path": "wwwroot/_framework/Microsoft.AspNetCore.Components.ebt04gmke9.wasm.br",
@@ -2949,6 +4257,12 @@
       "lastModified": "2026-06-03T15:42:36.1153818Z"
     },
     {
+      "path": "wwwroot/_framework/ProERP.Application.el6krqjwdk.wasm",
+      "hash": "9eced5335ae24bf0a5c3c9c1f9245291f4b73f9cd8533349d4c4d3e71bfd86dc",
+      "size": 539925,
+      "lastModified": "2026-06-24T16:19:59.2938671Z"
+    },
+    {
       "path": "wwwroot/_framework/dotnet.native.xsn1d6x2kd.js.br",
       "hash": "7936cf15f547ccb87e6855d4b6e7c8dabc93ad5e3d12c284890a243989ce1c84",
       "size": 30519,
@@ -2959,6 +4273,12 @@
       "hash": "f20fcb77bb4c0631f62cdba754b3da2f4e6bbf9efd9269c3982ec2c9b1522d1a",
       "size": 13768,
       "lastModified": "2026-06-03T15:42:35.5190466Z"
+    },
+    {
+      "path": "wwwroot/_framework/ProERP.Client.zmanbsxmq2.wasm.gz",
+      "hash": "0991743647bc4fd9235d8aa8304e50a0daea37167ce7efdd907636a4329b2a62",
+      "size": 61976,
+      "lastModified": "2026-06-24T16:19:59.8983409Z"
     },
     {
       "path": "wwwroot/_framework/System.Runtime.CompilerServices.Unsafe.t2lmfdeob1.wasm.gz",
@@ -3165,6 +4485,18 @@
       "lastModified": "2026-05-12T10:48:52.1025972Z"
     },
     {
+      "path": "wwwroot/reports/PriceSign_A8_Landscape.frx",
+      "hash": "a4cf7969b58ac1e886ced87d2aaa71b0aeb25b212fb9a8f62dad1569d3985486",
+      "size": 2131,
+      "lastModified": "2026-06-12T14:09:24.2004682Z"
+    },
+    {
+      "path": "wwwroot/reports/PriceSign_A4_Grid_A8.frx",
+      "hash": "d3be3706af09d83aa0f74f95bf6bc8d6a497d7512b4b80252fe3df401d60f539",
+      "size": 2245,
+      "lastModified": "2026-06-12T13:30:14.9926459Z"
+    },
+    {
       "path": "wwwroot/reports/SalesReport.frx",
       "hash": "a04df97b4282c57e5b183b85bca13d29f88160d46bbe7a8ced81f4344b339ef8",
       "size": 8315,
@@ -3177,6 +4509,24 @@
       "lastModified": "2026-04-20T15:51:27.6245083Z"
     },
     {
+      "path": "wwwroot/reports/PosReceiptModern.frx.bak",
+      "hash": "6626691deae44e2882063aea736e2df963f93d5e8aa34f42d7d1ae38507b5362",
+      "size": 14964,
+      "lastModified": "2026-06-11T12:37:28.9568064Z"
+    },
+    {
+      "path": "wwwroot/reports/PriceSign_A8.frx",
+      "hash": "b3e3e96639e2bb4ff7b579136557f9bf5ca2a420dd5a9c7742bd0f2edc3984a9",
+      "size": 2114,
+      "lastModified": "2026-06-12T13:26:57.3919379Z"
+    },
+    {
+      "path": "wwwroot/reports/PosReceipt.frx.bak",
+      "hash": "1542c4992c879a04d5e0781e736cbd0d6e809365ca405f5f66f0029ed6052a87",
+      "size": 11108,
+      "lastModified": "2026-06-11T10:52:12.5896293Z"
+    },
+    {
       "path": "wwwroot/reports/InvoiceReport_A5.frx",
       "hash": "5499d7f8eca5d40e1e6d65340cd5fbcdebb6e4dadc2c389dc66d2389b05773a1",
       "size": 19423,
@@ -3186,7 +4536,13 @@
       "path": "wwwroot/reports/InvoiceReport.frx",
       "hash": "49bd2630540a33fd4606765e022dbf067ae494ea30fa270acd1e58cd7e8b53a5",
       "size": 20230,
-      "lastModified": "2026-04-28T16:04:18.2531485Z"
+      "lastModified": "2026-06-11T10:40:33.3970737Z"
+    },
+    {
+      "path": "wwwroot/reports/PriceSign_A5_Landscape.frx",
+      "hash": "40d8b89687af6d8fce091f280a7e7c4c224e23269809182d2d57d0b09703e739",
+      "size": 2178,
+      "lastModified": "2026-06-12T14:09:18.9603769Z"
     },
     {
       "path": "wwwroot/reports/Barcode_38x25.frx",
@@ -3213,6 +4569,24 @@
       "lastModified": "2026-06-05T14:13:18.4324568Z"
     },
     {
+      "path": "wwwroot/reports/PriceSign_A6_Landscape.frx",
+      "hash": "89c917709788111aedc612375adac58d8fb47e5dff1253a65fd85bbd37c41f62",
+      "size": 2194,
+      "lastModified": "2026-06-12T14:09:23.9603722Z"
+    },
+    {
+      "path": "wwwroot/reports/InvoiceReport.frx.bak",
+      "hash": "24c678bcedf9b00db1b37381d12da175d5c1ce338ce8b9fa65643bf442f0f0c9",
+      "size": 10489,
+      "lastModified": "2026-06-11T10:37:38.4969673Z"
+    },
+    {
+      "path": "wwwroot/reports/PriceSign_A7_Landscape.frx",
+      "hash": "7ddd03924b09f4a2c7ff71a022124a5314bff897e9fb39ca1482a0004f180fea",
+      "size": 2158,
+      "lastModified": "2026-06-12T14:09:23.9933636Z"
+    },
+    {
       "path": "wwwroot/reports/StatementReport.frx",
       "hash": "66850fda21158cff456c5b375ca03a1f9d587a4f6747a306387bb673d284a1c2",
       "size": 13688,
@@ -3226,9 +4600,9 @@
     },
     {
       "path": "wwwroot/reports/PosReceipt.frx",
-      "hash": "6479d922448714b04a7af939abcf950a7a915f1cd9b988347a92090e21305dbc",
-      "size": 8443,
-      "lastModified": "2026-06-05T13:34:52.1514085Z"
+      "hash": "1e1dae6b0f40e067e2c4f9a6e41e76e6796183074b459b6643c61736e2e84eb8",
+      "size": 13824,
+      "lastModified": "2026-06-11T12:50:03.3879114Z"
     },
     {
       "path": "wwwroot/reports/CashierShiftThermalReport.frx",
@@ -3237,16 +4611,40 @@
       "lastModified": "2026-05-19T11:50:35.9482022Z"
     },
     {
+      "path": "wwwroot/reports/PriceSign_A4_Grid_A8_Landscape.frx",
+      "hash": "47619c42f104ba5c24e44b4818d99251bd7e0d27997bdfa16df06e6ff79a3c00",
+      "size": 2248,
+      "lastModified": "2026-06-12T14:08:57.0793299Z"
+    },
+    {
       "path": "wwwroot/reports/PosBookingReceipt.frx",
       "hash": "7a6141f0619eebf6fa1766c5fd4ad0a4b20013eae57ea1f60bf818d2bcea8238",
       "size": 8527,
       "lastModified": "2026-05-26T10:03:54.0345566Z"
     },
     {
+      "path": "wwwroot/reports/PriceSign_A6.frx",
+      "hash": "165906cf8f1a3bfb5d6ae121e2545908cd002ee12c9f69cd347a5d9d28e9392c",
+      "size": 2177,
+      "lastModified": "2026-06-12T13:26:57.2204216Z"
+    },
+    {
+      "path": "wwwroot/reports/PriceSign_A7.frx",
+      "hash": "ba1adc29596394e2846c0503e52f62e8ff0c87ca1f41ea2b02fe9da9b418145e",
+      "size": 2141,
+      "lastModified": "2026-06-12T13:26:57.2389442Z"
+    },
+    {
+      "path": "wwwroot/reports/PriceSign_A5.frx",
+      "hash": "5d50ff25ca3165b54fca28d89f7233bc11573e3e4c39787d0162dbe08030e12d",
+      "size": 2199,
+      "lastModified": "2026-06-12T13:26:35.0972985Z"
+    },
+    {
       "path": "wwwroot/reports/PosReceiptModern.frx",
-      "hash": "730cfe92b6cf7f37e6a35e70f38caa3fbc6966bdd3e3750dad377cdc99ba8ce4",
-      "size": 8964,
-      "lastModified": "2026-06-05T14:12:59.5510179Z"
+      "hash": "6c0c2b8511226fbf5b09b64a79b73ee644c3b0a6991bd9644e4f4c8236bde1ce",
+      "size": 14927,
+      "lastModified": "2026-06-11T12:40:06.8811172Z"
     },
     {
       "path": "wwwroot/reports/generate_cheque.py",
@@ -3379,6 +4777,102 @@
       "hash": "0f227c9a7e991e33924921c310e0b8ef45e44f5599126c0d8cdb64441034f03b",
       "size": 125785,
       "lastModified": "2026-04-19T11:10:24.2364153Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/svg/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg.br",
+      "hash": "c2df316d94b864d726fbf995ab04b5096e33669f8d48ebc345db50023f4e5b75",
+      "size": 110967,
+      "lastModified": "2026-06-24T16:20:04.4388143Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/svg/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+      "hash": "ad6157926c1622ba4e1d03d478f1541368524bfc46f51e42fe0d945f7ef323e4",
+      "size": 444379,
+      "lastModified": "2026-06-11T08:25:58.201035Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/svg/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg.gz",
+      "hash": "db1fa1dffe3f3607eeba606005a37f3d2b5ac0808f9e1533b8983b807d4299c7",
+      "size": 136159,
+      "lastModified": "2026-06-24T16:19:39.1228392Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/locales/ar.json.gz",
+      "hash": "07aa0e9d2a79381dff7a67e7a13a491fb7d4db77cac37ed0a4309dc19dc4aef6",
+      "size": 15942,
+      "lastModified": "2026-06-24T16:19:39.1061961Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/locales/en.json",
+      "hash": "a329bcd9235d19a5751ad3a4118486815a29e95beee99608801293ce03c0e3b5",
+      "size": 54090,
+      "lastModified": "2026-06-11T09:26:29.4510368Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/locales/en.json.br",
+      "hash": "5420ef7a62368a06e655c6531d600d0243a5e4d2a2501cac6ed03e57aab8da8c",
+      "size": 11773,
+      "lastModified": "2026-06-24T16:20:03.3649268Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/locales/ar.json.br",
+      "hash": "35a1dc742926a3f88d5e91ff948f42f71b59fb74b6de85dce05d84fa0de77283",
+      "size": 13299,
+      "lastModified": "2026-06-24T16:20:03.2774057Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/locales/ar.json",
+      "hash": "0fb1daebd8fc87fdf0a690eff482b1c635f03853af9357a1c8cb2e92e6b1b1e6",
+      "size": 58407,
+      "lastModified": "2026-06-11T09:26:30.5683203Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/locales/en.json.gz",
+      "hash": "c7e505931a8d4e75305fa69beebed9540f6e587c3f4b67d51440d6058828b602",
+      "size": 13902,
+      "lastModified": "2026-06-24T16:19:39.1090501Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/images/i1.5d3156fd7a86d66699e6.png",
+      "hash": "a3d53d20d94b7d3f60965693a61c7854c33231ffaf13297cb55a5c19eb3989ed",
+      "size": 115,
+      "lastModified": "2026-06-11T08:51:36.2220868Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/images/icons-vs-2019.a09f3c94d4d8683ee2ec.png",
+      "hash": "03553dd5bc40aa045cb154fe804f82812d57db53de0a3cb3406a26f83921aa85",
+      "size": 80381,
+      "lastModified": "2026-06-11T08:51:35.7963255Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/images/code-128.7dc26ffc31b9119b502b.png",
+      "hash": "c47b45a12098f6f47b58570d327e661b440ac10fc55eea5d8b365e1ece65fa0c",
+      "size": 2529,
+      "lastModified": "2026-06-11T09:26:31.0987092Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/fonts/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+      "hash": "2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe",
+      "size": 77160,
+      "lastModified": "2026-06-11T08:24:05.2492611Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/fonts/fontawesome-webfont.8b43027f47b20503057d.eot",
+      "hash": "7bfcab6db99d5cfbf1705ca0536ddc78585432cc5fa41bbd7ad0f009033b2979",
+      "size": 165742,
+      "lastModified": "2026-06-11T08:24:04.5240996Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/fonts/fontawesome-webfont.f691f37e57f04c152e23.woff",
+      "hash": "ba0c59deb5450f5cb41b3f93609ee2d0d995415877ddfa223e8a8a7533474f07",
+      "size": 98024,
+      "lastModified": "2026-06-11T08:24:06.0096567Z"
+    },
+    {
+      "path": "wwwroot/WebReportDesigner/fonts/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+      "hash": "aa58f33f239a0fb02f5c7a6c45c043d7a9ac9a093335806694ecd6d4edc0d6a8",
+      "size": 165548,
+      "lastModified": "2026-06-11T08:24:07.1064072Z"
     },
     {
       "path": "wwwroot/uploads/attachments/15b23d6f-3e1b-402c-9419-bd7e28bb30da.png",

@@ -1,89 +1,107 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Report ScriptLanguage="CSharp" ReportInfo.Created="01/01/2024" ReportInfo.Modified="03/30/2026" ReportInfo.CreatorVersion="2024.1.0.0">
+<?xml version="1.0" encoding="utf-16"?>
+<Report CodeRestricted="true" ReportInfo.Created="1781182180000.00" ReportInfo.Modified="1781182180000.00" ReportInfo.CreatorVersion="2026.1.8.0" Name="Report" ScriptLanguage="CSharp">
   <Dictionary>
-    <BusinessObjectDataSource Name="Invoice" ReferenceName="Invoice" DataType="System.Collections.Generic.List`1[[System.Object]]" Enabled="true">
-      <Column Name="InvoiceNumber" DataType="System.String"/>
-      <Column Name="Date" DataType="System.DateTime"/>
-      <Column Name="OperationTypeName" DataType="System.String"/>
-      <Column Name="CustomerName" DataType="System.String"/>
-      <Column Name="StoreName" DataType="System.String"/>
-      <Column Name="SubTotal" DataType="System.Decimal"/>
-      <Column Name="DiscountValue" DataType="System.Decimal"/>
-      <Column Name="TaxTotal" DataType="System.Decimal"/>
-      <Column Name="GrandTotal" DataType="System.Decimal"/>
-      <Column Name="PaymentAmount" DataType="System.Decimal"/>
-      <Column Name="Notes" DataType="System.String"/>
-      <BusinessObjectDataSource Name="Lines" ReferenceName="Invoice.Lines" DataType="System.Collections.Generic.List`1[[System.Object]]" Enabled="true">
-        <Column Name="ItemName" DataType="System.String"/>
-        <Column Name="UnitName" DataType="System.String"/>
-        <Column Name="Quantity" DataType="System.Decimal"/>
-        <Column Name="UnitPrice" DataType="System.Decimal"/>
-        <Column Name="LineTotal" DataType="System.Decimal"/>
+    <BusinessObjectDataSource ReferenceName="Invoice" Enabled="true" Name="Invoice">
+      <Column Name="InvoiceNumber" Expression="" DataType="System.String" />
+      <Column Name="Date" Expression="" DataType="System.DateTime" />
+      <Column Name="OperationTypeName" Expression="" DataType="System.String" />
+      <Column Name="CustomerName" Expression="" DataType="System.String" />
+      <Column Name="StoreName" Expression="" DataType="System.String" />
+      <Column Name="SubTotal" Expression="" DataType="System.Decimal" />
+      <Column Name="DiscountValue" Expression="" DataType="System.Decimal" />
+      <Column Name="TaxTotal" Expression="" DataType="System.Decimal" />
+      <Column Name="GrandTotal" Expression="" DataType="System.Decimal" />
+      <Column Name="PaymentAmount" Expression="" DataType="System.Decimal" />
+      <Column Name="Notes" Expression="" DataType="System.String" />
+      <Column Name="OperationId" Expression="" DataType="System.Int32" />
+      <Column Name="OperationTypeId" Expression="" DataType="System.Int32" />
+      <Column Name="SupplierId" Expression="" />
+      <Column Name="SupplierName" Expression="" DataType="System.String" />
+      <Column Name="CustomerId" Expression="" />
+      <Column Name="StoreId" Expression="" />
+      <Column Name="StoreToId" Expression="" />
+      <Column Name="StoreToName" Expression="" DataType="System.String" />
+      <Column Name="BranchId" Expression="" />
+      <Column Name="BranchName" Expression="" DataType="System.String" />
+      <Column Name="DiscountTotal" Expression="" DataType="System.Decimal" />
+      <Column Name="DiscountPercentage" Expression="" DataType="System.Decimal" />
+      <Column Name="AdditionPercentage" Expression="" DataType="System.Decimal" />
+      <Column Name="AdditionValue" Expression="" DataType="System.Decimal" />
+      <Column Name="PaymentAccountId" Expression="" />
+      <Column Name="PaymentAccountName" Expression="" DataType="System.String" />
+      <Column BindableControl="CheckBox" Name="IsActive" Expression="" DataType="System.Boolean" />
+      <Column Name="PosShiftId" Expression="" />
+      <Column Name="ShiftInvoiceNumber" Expression="" />
+      <Column Name="ManualDocumentNumber" Expression="" DataType="System.String" />
+      <Column Name="CostCenterId" Expression="" />
+      <Column Name="CostCenterName" Expression="" DataType="System.String" />
+      <BusinessObjectDataSource Enabled="true" Name="Lines">
+        <Column Name="ItemName" Expression="" DataType="System.String" />
+        <Column Name="UnitName" Expression="" DataType="System.String" />
+        <Column Name="Quantity" Expression="" DataType="System.Decimal" />
+        <Column Name="UnitPrice" Expression="" DataType="System.Decimal" />
+        <Column Name="LineTotal" Expression="" DataType="System.Decimal" />
+        <Column Name="Id" Expression="" DataType="System.Int32" />
+        <Column Name="ItemId" Expression="" DataType="System.Int32" />
+        <Column Name="ItemCode" Expression="" DataType="System.String" />
+        <Column Name="UnitId" Expression="" DataType="System.Int32" />
+        <Column Name="DiscountPercent" Expression="" DataType="System.Decimal" />
+        <Column Name="TaxPercent" Expression="" DataType="System.Decimal" />
+        <Column Name="Notes" Expression="" DataType="System.String" />
       </BusinessObjectDataSource>
+      <BusinessObjectDataSource Alias="Expenses" Enabled="false" PropName="Expenses" Name="BusinessObjectDataSource1" />
     </BusinessObjectDataSource>
-    <Parameter Name="CompanyName" DataType="System.String"/>
-    <Parameter Name="TaxNumber" DataType="System.String"/>
-    <Parameter Name="ContactInfo" DataType="System.String"/>
-    <Parameter Name="ReportTitle" DataType="System.String"/>
-    <Parameter Name="PrintedBy" DataType="System.String"/>
-    <Parameter Name="BarcodeText" DataType="System.String"/>
-    <Parameter Name="PosReceiptText" DataType="System.String"/>
-    <Parameter Name="PaymentInfo" DataType="System.String"/>
+    <Parameter AsString="ProERP لتقنية المعلومات" Name="CompanyName" DataType="System.String" />
+    <Parameter AsString="1234567890" Name="TaxNumber" DataType="System.String" />
+    <Parameter AsString="الهاتف: 0123456789 - البريد الإلكتروني: info@proerp.com" Name="ContactInfo" DataType="System.String" />
+    <Parameter AsString="معاينة تجريبية" Name="ReportTitle" DataType="System.String" />
+    <Parameter AsString="مدير النظام" Name="PrintedBy" DataType="System.String" />
+    <Parameter AsString="INV-2025-0001" Name="BarcodeText" DataType="System.String" />
+    <Parameter AsString="شكراً لزيارتكم - نتمنى رؤيتكم قريباً" Name="PosReceiptText" DataType="System.String" />
+    <Parameter AsString="" Name="PaymentInfo" DataType="System.String" />
+    <Parameter AsString="ر.س" Name="Currency" DataType="System.String" />
+    <Parameter AsString="البضاعة المباعة لا ترد ولا تستبدل إلا خلال 3 أيام" Name="SalesInvoiceText" DataType="System.String" />
+    <Parameter AsString="فاتورة مبيعات" Name="InvoiceType" DataType="System.String" />
   </Dictionary>
-  <ReportPage Name="Page1" PaperWidth="78" PaperHeight="297" LeftMargin="2" TopMargin="2" RightMargin="2" BottomMargin="2" UnlimitedHeight="true" UnlimitedWidth="false">
+  <ReportPage PaperWidth="78" LeftMargin="2" TopMargin="2" RightMargin="2" BottomMargin="2" UnlimitedHeight="true" Name="Page1">
     <ReportTitleBand Name="ReportTitle1" Width="279.68" Height="140">
-      <PictureObject Name="Logo" Left="84.84" Top="5" Width="110" Height="50" SizeMode="Zoom"/>
-      <TextObject Name="lblComp" Left="0" Top="60" Width="279.68" Height="20" Text="[CompanyName]" HorzAlign="Center" Font="Arial, 14pt, style=Bold"/>
-      <TextObject Name="lblTax" Left="0" Top="82" Width="279.68" Height="15" Text="الرقم الضريبي: [TaxNumber]" HorzAlign="Center" Font="Arial, 9pt" RightToLeft="true"/>
-      <TextObject Name="lblContact" Left="0" Top="99" Width="279.68" Height="15" Text="[ContactInfo]" HorzAlign="Center" Font="Arial, 9pt" RightToLeft="true"/>
-      <TextObject Name="lblTitle" Left="0" Top="116" Width="279.68" Height="20" Text="-- [ReportTitle] --" HorzAlign="Center" VertAlign="Center" Font="Arial, 12pt, style=Bold"/>
+      <PictureObject Padding.Bottom="0" Padding.Right="0" Padding.Top="0" Padding.Left="0" Image="" Left="84.84" Top="5" Name="Logo" Width="110" Height="50" />
+      <TextObject Left="0" Top="60" Text="[CompanyName]" HorzAlign="Center" Name="lblComp" Width="279.68" Height="20" Padding="2, 0, 2, 0" Font="Arial, 14pt, style=Bold" Format.DecimalSeparator="," Format.DecimalDigits="2" Format.GroupSeparator=" " />
+      <TextObject Left="0" Top="82" Text="الرقم الضريبي: [TaxNumber]" HorzAlign="Center" RightToLeft="true" Name="lblTax" Width="279.68" Height="15" Padding="2, 0, 2, 0" Font="Arial, 9pt" Format.DecimalSeparator="," Format.DecimalDigits="2" Format.GroupSeparator=" " />
+      <TextObject Left="0" Top="99" Text="[ContactInfo]" HorzAlign="Center" RightToLeft="true" Name="lblContact" Width="279.68" Height="15" Padding="2, 0, 2, 0" Font="Arial, 9pt" Format.DecimalSeparator="," Format.DecimalDigits="2" Format.GroupSeparator=" " />
+      <TextObject Left="0" Top="116" Text="-- [ReportTitle] --" HorzAlign="Center" VertAlign="Center" Name="lblTitle" Width="279.68" Height="20" Padding="2, 0, 2, 0" Font="Arial, 12pt, style=Bold" Format.DecimalSeparator="," Format.DecimalDigits="2" Format.GroupSeparator=" " />
     </ReportTitleBand>
-    <DataBand Name="DataInvoice" Top="142" Width="279.68" Height="60">
-      <TextObject Name="lblInv" Left="130" Top="5" Width="149.68" Height="15" Text="رقم الفاتورة: [Invoice.InvoiceNumber]" Font="Arial, 9pt, style=Bold" HorzAlign="Right" RightToLeft="true"/>
-      <TextObject Name="lblDate" Left="0" Top="5" Width="130" Height="15" Text="[Invoice.Date]" Format="Custom" Format.Format="dd/MM/yyyy HH:mm" Font="Arial, 9pt" HorzAlign="Left"/>
-      <TextObject Name="lblCust" Left="0" Top="22" Width="279.68" Height="15" Text="العميل: [Invoice.CustomerName]" Font="Arial, 9pt" HorzAlign="Right" RightToLeft="true"/>
-      <TextObject Name="lblBranch" Left="0" Top="39" Width="279.68" Height="15" Text="الفرع/المخزن: [Invoice.StoreName]" Font="Arial, 9pt" HorzAlign="Right" RightToLeft="true"/>
-      <LineObject Name="Line1" Left="0" Top="58" Width="279.68" Height="0" Border.Width="1" Border.Style="Dash"/>
+    <DataBand Name="DataInvoice" Width="279.68" Height="60">
+      <TextObject Left="130" Top="5" Text="رقم الفاتورة: [Invoice.InvoiceNumber]" HorzAlign="Right" RightToLeft="true" Name="lblInv" Width="149.68" Height="15" Padding="2, 0, 2, 0" Font="Arial, 9pt, style=Bold" Format.DecimalSeparator="," Format.DecimalDigits="2" Format.GroupSeparator=" " />
+      <TextObject Left="0" Top="5" Text="[Invoice.Date]" Format="Custom" Format.Format="dd/MM/yyyy HH:mm" Name="lblDate" Width="130" Height="15" Padding="2, 0, 2, 0" Font="Arial, 9pt" Format.DecimalSeparator="," Format.DecimalDigits="2" Format.GroupSeparator=" " />
+      <TextObject Left="0" Top="22" Text="العميل: [Invoice.CustomerName]" HorzAlign="Right" RightToLeft="true" Name="lblCust" Width="279.68" Height="15" Padding="2, 0, 2, 0" Font="Arial, 9pt" Format.DecimalSeparator="," Format.DecimalDigits="2" Format.GroupSeparator=" " />
+      <TextObject Left="0" Top="39" Text="الفرع/المخزن: [Invoice.StoreName]" HorzAlign="Right" RightToLeft="true" Name="lblBranch" Width="279.68" Height="15" Padding="2, 0, 2, 0" Font="Arial, 9pt" Format.DecimalSeparator="," Format.DecimalDigits="2" Format.GroupSeparator=" " />
+      <LineObject Left="0" Top="58" Name="Line1" Width="279.68" Height="0" Border.Color="#000000" Border.Width="1" Border.Style="Dash" />
     </DataBand>
-    <GroupHeaderBand Name="GroupHeader1" Top="204" Width="279.68" Height="20" Condition="[Invoice.InvoiceNumber]">
-      <TextObject Name="h1" Left="160" Top="0" Width="119.68" Height="20" Text="الصنف" Font="Arial, 9pt, style=Bold" HorzAlign="Center" VertAlign="Center" RightToLeft="true" Border.Lines="All"/>
-      <TextObject Name="h2" Left="80" Top="0" Width="80" Height="20" Text="المقدار" Font="Arial, 9pt, style=Bold" HorzAlign="Center" VertAlign="Center" RightToLeft="true" Border.Lines="All"/>
-      <TextObject Name="h3" Left="0" Top="0" Width="80" Height="20" Text="الإجمالي" Font="Arial, 9pt, style=Bold" HorzAlign="Center" VertAlign="Center" RightToLeft="true" Border.Lines="All"/>
-      
-      <DataBand Name="DataLines" Top="226" Width="279.68" Height="24" DataSource="Lines">
-        <TextObject Name="d1" Left="160" Top="0" Width="119.68" Height="24" Text="[Invoice.Lines.ItemName]" Font="Arial, 8pt, style=Bold" HorzAlign="Center" VertAlign="Center" RightToLeft="true" WordWrap="false" Trimming="EllipsisCharacter" Border.Lines="All"/>
-        <TextObject Name="d2" Left="80" Top="0" Width="80" Height="24" Text="[Invoice.Lines.Quantity]x[Invoice.Lines.UnitPrice]" Format="Number" Format.UseLocale="true" Font="Arial, 8pt" HorzAlign="Center" VertAlign="Center" Border.Lines="All" AutoShrink="FontSize"/>
-        <TextObject Name="d3" Left="0" Top="0" Width="80" Height="24" Text="[Invoice.Lines.LineTotal]" Format="Number" Format.UseLocale="true" Font="Arial, 9pt, style=Bold" HorzAlign="Center" VertAlign="Center" Border.Lines="All"/>
+    <GroupHeaderBand Condition="[Invoice.InvoiceNumber]" Name="GroupHeader1" Width="279.68" Height="20">
+      <TextObject Top="0" Left="160.00" Border.Lines="All" Text="الصنف" HorzAlign="Center" VertAlign="Bottom" RightToLeft="true" Name="h1" Width="119.68" Height="20" Padding="2, 0, 2, 0" Font="Arial, 9pt, style=Bold" Format.DecimalSeparator="," Format.DecimalDigits="2" Format.GroupSeparator=" " />
+      <TextObject Top="0" Left="80" Border.Lines="All" Text="المقدار" HorzAlign="Center" VertAlign="Center" RightToLeft="true" Name="h2" Width="80" Height="20" Padding="2, 0, 2, 0" Font="Arial, 9pt, style=Bold" Format.DecimalSeparator="," Format.DecimalDigits="2" Format.GroupSeparator=" " />
+      <TextObject Top="0" Left="0" Border.Lines="All" Text="الإجمالي" HorzAlign="Center" VertAlign="Center" RightToLeft="true" Name="h3" Width="80" Height="20" Padding="2, 0, 2, 0" Font="Arial, 9pt, style=Bold" Format.DecimalSeparator="," Format.DecimalDigits="2" Format.GroupSeparator=" " />
+      <DataBand DataSource="Lines" Name="DataLines" Width="279.68" Height="24">
+        <TextObject Top="0" Left="160" Border.Lines="All" Text="[Invoice.Lines.ItemName]" VertAlign="Center" RightToLeft="true" WordWrap="false" Trimming="EllipsisCharacter" Name="d1" Width="119.68" Height="24" Padding="2, 0, 2, 0" Font="Arial, 8pt, style=Bold" Format.DecimalSeparator="," Format.DecimalDigits="2" Format.GroupSeparator=" " />
+        <TextObject Top="0" Left="80" Border.Lines="All" Text="[Invoice.Lines.Quantity]x[Invoice.Lines.UnitPrice]" Format="Number" Format.UseLocale="true" Format.DecimalDigits="3" AutoShrink="FontSize" HorzAlign="Center" VertAlign="Center" Name="d2" Width="80" Height="24" Padding="2, 0, 2, 0" Font="Arial, 8pt" Format.DecimalSeparator="," Format.GroupSeparator=" " Format.NegativePattern="1" />
+        <TextObject Top="0" Left="0" Border.Lines="All" Text="[Invoice.Lines.LineTotal]" Format="Number" Format.UseLocale="true" Format.DecimalDigits="3" HorzAlign="Center" VertAlign="Center" Name="d3" Width="80" Height="24" Padding="2, 0, 2, 0" Font="Arial, 9pt, style=Bold" Format.DecimalSeparator="," Format.GroupSeparator=" " Format.NegativePattern="1" />
       </DataBand>
-      
-      <GroupFooterBand Name="GroupFooter1" Top="252" Width="279.68" Height="280">
-        <!-- Spacer between table and totals -->
-        <LineObject Name="Line3" Left="0" Top="5" Width="279.68" Height="0" Border.Width="1" Border.Style="Dash"/>
-        
-        <TextObject Name="f1" Left="110" Top="15" Width="169.68" Height="18" Text="المجموع الإجمالي:" Font="Arial, 10pt, style=Bold" HorzAlign="Right" RightToLeft="true"/>
-        <TextObject Name="v1" Left="0" Top="15" Width="110" Height="18" Text="[Invoice.SubTotal]" Format="Number" Format.UseLocale="true" Font="Arial, 10pt, style=Bold" HorzAlign="Left"/>
-        
-        <TextObject Name="f2" Left="110" Top="35" Width="169.68" Height="18" Text="الخصم:" Font="Arial, 10pt, style=Bold" HorzAlign="Right" RightToLeft="true"/>
-        <TextObject Name="v2" Left="0" Top="35" Width="110" Height="18" Text="[Invoice.DiscountValue]" Format="Number" Format.UseLocale="true" Font="Arial, 10pt, style=Bold" HorzAlign="Left"/>
-        
-        <LineObject Name="Line4" Left="20" Top="55" Width="239.68" Height="0" Border.Width="1"/>
-        
-        <TextObject Name="f3" Left="110" Top="60" Width="169.68" Height="22" Text="الصافي المطلوب:" Font="Arial, 12pt, style=Bold" HorzAlign="Right" RightToLeft="true"/>
-        <TextObject Name="v3" Left="0" Top="60" Width="110" Height="22" Text="[Invoice.GrandTotal]" Format="Number" Format.UseLocale="true" Font="Arial, 14pt, style=Bold" HorzAlign="Left"/>
-        
-        <!-- Payment Info -->
-        <TextObject Name="lblPaymentInfo" Left="0" Top="86" Width="279.68" Height="18" Text="[PaymentInfo]" Font="Arial, 9pt, style=Bold" HorzAlign="Center" RightToLeft="true" VisibleExpression="[PaymentInfo] != &quot;&quot;"/>
-        
-        <LineObject Name="Line5" Left="0" Top="108" Width="279.68" Height="0" Border.Width="1" Border.Style="Dash"/>
-        <TextObject Name="lblPrintedBy" Left="0" Top="113" Width="279.68" Height="15" Text="الكاشير: [PrintedBy]" Font="Arial, 8pt" HorzAlign="Center" RightToLeft="true"/>
-        
-        <!-- POS Receipt Text -->
-        <TextObject Name="lblPosReceiptText" Left="0" Top="132" Width="279.68" Height="18" Text="[PosReceiptText]" Font="Arial, 9pt" HorzAlign="Center" RightToLeft="true" VisibleExpression="[PosReceiptText] != &quot;&quot;"/>
-        
-        <TextObject Name="lblThanks" Left="0" Top="154" Width="279.68" Height="15" Text="*** شكراً لزيارتكم ***" Font="Arial, 10pt, style=Bold" HorzAlign="Center" RightToLeft="true"/>
-        
-        <!-- Barcode for return scanner -->
-        <BarcodeObject Name="BarcodeReturn" Left="14.84" Top="178" Width="250" Height="45" AutoSize="false" Text="[BarcodeText]" ShowText="true" Barcode="Code128" HorzAlign="Center"/>
+      <GroupFooterBand Name="GroupFooter1" Width="279.68" Height="280">
+        <LineObject Left="0" Top="5" Name="Line3" Width="279.68" Height="0" Border.Color="#000000" Border.Width="1" Border.Style="Dash" />
+        <TextObject Left="110" Top="15" Text="المجموع الإجمالي:" HorzAlign="Right" RightToLeft="true" Name="f1" Width="169.68" Height="18" Padding="2, 0, 2, 0" Font="Arial, 10pt, style=Bold" Format.DecimalSeparator="," Format.DecimalDigits="2" Format.GroupSeparator=" " />
+        <TextObject Left="0" Top="15" Text="[Invoice.SubTotal]" Format="Number" Format.UseLocale="true" Format.DecimalDigits="3" Name="v1" Width="110" Height="18" Padding="2, 0, 2, 0" Font="Arial, 10pt, style=Bold" Format.DecimalSeparator="," Format.GroupSeparator=" " Format.NegativePattern="1" />
+        <TextObject Left="110" Top="35" Text="الخصم:" HorzAlign="Right" RightToLeft="true" Name="f2" Width="169.68" Height="18" Padding="2, 0, 2, 0" Font="Arial, 10pt, style=Bold" Format.DecimalSeparator="," Format.DecimalDigits="2" Format.GroupSeparator=" " />
+        <TextObject Left="0" Top="35" Text="[Invoice.DiscountValue]" Format="Number" Format.UseLocale="true" Format.DecimalDigits="3" Name="v2" Width="110" Height="18" Padding="2, 0, 2, 0" Font="Arial, 10pt, style=Bold" Format.DecimalSeparator="," Format.GroupSeparator=" " Format.NegativePattern="1" />
+        <LineObject Left="20" Top="55" Name="Line4" Width="239.68" Height="0" Border.Color="#000000" Border.Width="1" Border.Style="Solid" />
+        <TextObject Left="110" Top="60" Text="الصافي المطلوب:" HorzAlign="Right" RightToLeft="true" Name="f3" Width="169.68" Height="22" Padding="2, 0, 2, 0" Font="Arial, 12pt, style=Bold" Format.DecimalSeparator="," Format.DecimalDigits="2" Format.GroupSeparator=" " />
+        <TextObject Left="0" Top="60" Text="[Invoice.GrandTotal]" Format="Number" Format.UseLocale="true" Format.DecimalDigits="3" Name="v3" Width="110" Height="22" Padding="2, 0, 2, 0" Font="Arial, 14pt, style=Bold" Format.DecimalSeparator="," Format.GroupSeparator=" " Format.NegativePattern="1" />
+        <TextObject Left="0" Top="86" VisibleExpression="[PaymentInfo] != &quot;&quot;" Text="[PaymentInfo]" HorzAlign="Center" RightToLeft="true" Name="lblPaymentInfo" Width="279.68" Height="18" Padding="2, 0, 2, 0" Font="Arial, 9pt, style=Bold" Format.DecimalSeparator="," Format.DecimalDigits="2" Format.GroupSeparator=" " />
+        <LineObject Left="0" Top="108" Name="Line5" Width="279.68" Height="0" Border.Color="#000000" Border.Width="1" Border.Style="Dash" />
+        <TextObject Left="0" Top="113" Text="الكاشير: [PrintedBy]" HorzAlign="Center" RightToLeft="true" Name="lblPrintedBy" Width="279.68" Height="15" Padding="2, 0, 2, 0" Font="Arial, 8pt" Format.DecimalSeparator="," Format.DecimalDigits="2" Format.GroupSeparator=" " />
+        <TextObject Left="0" Top="132" VisibleExpression="[PosReceiptText] != &quot;&quot;" Text="[PosReceiptText]" HorzAlign="Center" RightToLeft="true" Name="lblPosReceiptText" Width="279.68" Height="18" Padding="2, 0, 2, 0" Font="Arial, 9pt" Format.DecimalSeparator="," Format.DecimalDigits="2" Format.GroupSeparator=" " />
+        <TextObject Left="0" Top="154" Text="*** شكراً لزيارتكم ***" HorzAlign="Center" RightToLeft="true" Name="lblThanks" Width="279.68" Height="15" Padding="2, 0, 2, 0" Font="Arial, 10pt, style=Bold" Format.DecimalSeparator="," Format.DecimalDigits="2" Format.GroupSeparator=" " />
+        <BarcodeObject Padding.Bottom="0" Padding.Right="0" Padding.Top="0" Padding.Left="0" Left="14.84" Top="178" AutoSize="false" Text="[BarcodeText]" HorzAlign="Center" Barcode.AutoEncode="true" Name="BarcodeReturn" Barcode="Code128" AsBitmap="false" Width="250" Height="45" />
       </GroupFooterBand>
     </GroupHeaderBand>
   </ReportPage>

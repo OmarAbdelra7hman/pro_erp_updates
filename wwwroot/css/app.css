@@ -561,7 +561,10 @@ a {
 .mobile-overlay {
     display: none;
     position: fixed;
-    inset: 0;
+    top: var(--navbar-h);
+    right: 0;
+    bottom: 0;
+    left: 0;
     background: rgba(0, 0, 0, 0.55);
     z-index: 400;
     backdrop-filter: blur(4px);
@@ -580,25 +583,32 @@ a {
 .mobile-drawer {
     display: none;
     position: fixed;
-    top: 0;
-    right: -320px;
-    width: 300px;
-    height: 100dvh;
+    top: var(--navbar-h);
+    right: 0;
+    width: min(80vw, 320px);
+    height: calc(100dvh - var(--navbar-h));
+    height: calc(100svh - var(--navbar-h));
     background: var(--clr-surface);
     border-left: 1px solid var(--clr-border);
     z-index: 500;
-    padding-top: var(--navbar-h);
-    overflow-y: auto;
+    display: none;
+    flex-direction: column;
+    padding: 0 0 env(safe-area-inset-bottom, 0px);
+    overflow-y: hidden;
     overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
-    transition: right 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    overscroll-behavior: contain;
+    transform: translateX(105%);
+    visibility: hidden;
+    transition: transform 0.28s cubic-bezier(0.4, 0, 0.2, 1), visibility 0.28s;
     box-shadow: -8px 0 40px rgba(0, 0, 0, 0.5);
     scrollbar-width: thin;
     scrollbar-color: rgba(91, 108, 249, 0.2) transparent;
 }
 
 .mobile-drawer.open {
-    right: 0;
+    transform: translateX(0);
+    visibility: visible;
 }
 
 [data-theme="light"] .mobile-drawer {
@@ -611,11 +621,50 @@ a {
 .mobile-user {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
     gap: 12px;
-    padding: 16px;
+    padding: 14px 16px 12px;
     border-bottom: 1px solid var(--clr-border);
     background: linear-gradient(135deg, rgba(91, 108, 249, 0.08), rgba(0, 210, 200, 0.04));
+}
+
+.mobile-drawer-actions {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 8px;
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--clr-border);
+}
+
+.mobile-drawer-action {
+    min-width: 0;
+    min-height: 44px;
+    border: 1px solid var(--clr-border);
+    border-radius: 10px;
+    background: rgba(91, 108, 249, 0.07);
+    color: var(--clr-muted);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 0.74rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.mobile-drawer-action iconify-icon {
+    color: var(--clr-primary2);
+    font-size: 18px;
+}
+
+.mobile-drawer-action--support iconify-icon {
+    color: var(--clr-amber);
+}
+
+.mobile-drawer-action--logout,
+.mobile-drawer-action--logout iconify-icon {
+    color: #ef4444;
 }
 
 .mobile-divider {
@@ -628,10 +677,16 @@ a {
    PREMIUM MOBILE NAV (3-Level Accordion)
 ════════════════════════════════════════════════ */
 .premium-mobile-nav {
-    padding: 8px 10px 24px;
+    flex: 1;
+    min-height: 0;
+    padding: 8px 10px calc(24px + env(safe-area-inset-bottom, 0px));
     display: flex;
     flex-direction: column;
     gap: 2px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
 }
 
 /* ── Level 1: Main Category Buttons ─────────── */
@@ -644,11 +699,12 @@ a {
     align-items: center;
     gap: 10px;
     width: 100%;
+    min-height: 48px;
     padding: 10px 12px;
     border-radius: 10px;
     background: transparent;
     border: none;
-    color: var(--clr-muted);
+    color: var(--clr-text);
     font-family: 'Tajawal', sans-serif;
     font-size: 0.92rem;
     font-weight: 700;
@@ -660,6 +716,10 @@ a {
 .premium-mobile-btn:hover {
     background: rgba(91, 108, 249, 0.06);
     color: var(--clr-text);
+}
+
+.premium-mobile-btn:not(.active) {
+    opacity: 0.76;
 }
 
 .premium-mobile-btn.active {
@@ -730,13 +790,18 @@ a {
     border-radius: 8px;
     background: transparent;
     border: none;
-    color: var(--clr-muted);
+    min-height: 46px;
+    color: var(--clr-text);
     font-family: 'Tajawal', sans-serif;
     font-size: 0.88rem;
     font-weight: 600;
     transition: all 0.2s ease;
     cursor: pointer;
     text-align: right;
+}
+
+.premium-mobile-subitem:not(.active) {
+    opacity: 0.72;
 }
 
 .pm-sub-icon {
@@ -792,7 +857,7 @@ a {
 
 /* ── Level 3: Grandchild items ─────────── */
 .premium-mobile-level3 {
-    padding: 2px 0 2px 18px;
+    padding: 2px 18px 2px 0;
     overflow: hidden;
     max-height: 0;
     transition: max-height 0.35s cubic-bezier(0.2, 0.8, 0.2, 1), opacity 0.3s ease;
@@ -814,7 +879,8 @@ a {
     border-radius: 7px;
     background: transparent;
     border: none;
-    color: var(--clr-muted);
+    min-height: 44px;
+    color: var(--clr-text);
     font-family: 'Tajawal', sans-serif;
     font-size: 0.85rem;
     font-weight: 600;
@@ -1627,7 +1693,7 @@ a {
     }
 
     .mobile-drawer {
-        display: block;
+        display: flex;
     }
 
     .premium-nav-menu {
@@ -1689,6 +1755,7 @@ a {
 @media (max-width: 600px) {
     .erp-topnav {
         padding: 0 10px;
+        z-index: 600;
     }
 
     .topnav-logo {
@@ -1704,6 +1771,20 @@ a {
         font-size: 1rem;
     }
 
+    .topnav-secondary-action {
+        display: none !important;
+    }
+
+    .topnav-right {
+        gap: 6px;
+        padding-right: 0;
+        border-right: 0;
+    }
+
+    .mobile-drawer {
+        width: min(80vw, 320px);
+    }
+
     .erp-main {
         padding-top: calc(var(--navbar-h) + 14px);
         padding-right: 12px;
@@ -1712,8 +1793,8 @@ a {
 
     /* Brand border on mobile */
     .topnav-brand {
-        padding-left: 10px;
-        margin-left: 8px;
+        padding-left: 8px;
+        margin-left: 6px;
     }
 
     .page-title {
@@ -1733,6 +1814,27 @@ a {
     .dsc-value {
         font-size: 1.5rem;
     }
+}
+
+@media (max-width: 380px) {
+    .topnav-title {
+        display: none;
+    }
+
+    .topnav-brand {
+        padding-left: 0;
+        margin-left: 0;
+        border-left: 0;
+    }
+
+    .mobile-drawer {
+        width: min(84vw, 300px);
+    }
+}
+
+html.mobile-menu-open,
+html.mobile-menu-open body {
+    overflow: hidden;
 }
 
 /* ==========================================================================

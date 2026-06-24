@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="01/01/2026 12:00:00" ReportInfo.Modified="01/01/2026 12:00:00" ReportInfo.CreatorVersion="2023.2.0.0">
+  <Dictionary>
+    <BusinessObjectDataSource Name="PriceSigns" ReferenceName="PriceSigns" DataType="null" Enabled="true">
+      <Column Name="Code" DataType="System.String"/>
+      <Column Name="NameAr" DataType="System.String"/>
+      <Column Name="DefaultPrice" DataType="System.Decimal"/>
+      <Column Name="PromoPrice" DataType="System.Decimal"/>
+      <Column Name="DiscountValue" DataType="System.Decimal"/>
+      <Column Name="DiscountPercent" DataType="System.Decimal"/>
+    </BusinessObjectDataSource>
+    <Parameter Name="CompanyName" DataType="System.String"/>
+  </Dictionary>
+  <ReportPage Name="Page1" PaperWidth="297" PaperHeight="210" LeftMargin="0" TopMargin="0" RightMargin="0" BottomMargin="0" Columns.Count="4" Columns.Width="74.25" Columns.Positions="0,74.25,148.5,222.75">
+    <DataBand Name="Data1" Width="280.6" Height="198.4" DataSource="PriceSigns">
+       <ShapeObject Name="Border" Left="2" Top="2" Width="276" Height="194" Shape="Rectangle"/>
+       <TextObject Name="TextTitle" Left="2" Top="5" Width="276" Height="20" Text="[CompanyName]" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt, style=Bold"/>
+       <TextObject Name="TextName" Left="2" Top="25" Width="276" Height="30" Text="[PriceSigns.NameAr]" Font="Arial, 10pt, style=Bold" HorzAlign="Center"/>
+       <TextObject Name="TextOldPrice" Left="2" Top="55" Width="276" Height="20" Text="[PriceSigns.DefaultPrice]" Font="Arial, 8pt, style=Strikeout" HorzAlign="Center" TextFill.Color="Gray"/>
+       <TextObject Name="TextPrice" Left="2" Top="75" Width="276" Height="40" Text="[PriceSigns.PromoPrice]" Font="Arial, 14pt, style=Bold" HorzAlign="Center" TextFill.Color="Red"/>
+       <TextObject Name="TextDiscount" Left="2" Top="115" Width="276" Height="20" Text="خصم [PriceSigns.DiscountPercent]%" Font="Arial, 8pt, style=Bold" HorzAlign="Center" TextFill.Color="Green"/>
+       <TextObject Name="TextCode" Left="2" Top="145" Width="276" Height="20" Text="[PriceSigns.Code]" Font="Arial, 6pt" HorzAlign="Center"/>
+    </DataBand>
+  </ReportPage>
+</Report>
