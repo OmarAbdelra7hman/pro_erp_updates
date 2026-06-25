@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "publishedAt": "2026-06-25T15:30:10.184275Z",
+  "publishedAt": "2026-06-25T15:32:53.435159Z",
   "files": [
     {
       "path": "Google.Api.Gax.dll",
@@ -22,9 +22,9 @@
     },
     {
       "path": "Microsoft.Win32.SystemEvents.dll",
-      "hash": "ca495bf6c86b7f092d624928101985a941532d149dcd8acfea170f8a53be8850",
-      "size": 26224,
-      "lastModified": "2021-10-22T23:40:24Z"
+      "hash": "142cce4ed8ac9da22d69c38a6f22738abfb22090dc9313e8b58e6f91978e89af",
+      "size": 53352,
+      "lastModified": "2021-10-22T23:40:18Z"
     },
     {
       "path": "Google.Apis.dll",
@@ -57,6 +57,12 @@
       "lastModified": "2024-10-15T19:18:56Z"
     },
     {
+      "path": "System.Diagnostics.EventLog.Messages.dll",
+      "hash": "aa8cb35d10093fe4bda643acd30efb70ab539b7d079249414340f03aa8d641e3",
+      "size": 801064,
+      "lastModified": "2024-10-29T02:39:04Z"
+    },
+    {
       "path": "Microsoft.Extensions.Localization.dll",
       "hash": "480dd199edc1a68d1987f753d0a53c25a845ae81b11473ee4ea493fa1182f99a",
       "size": 32040,
@@ -64,9 +70,9 @@
     },
     {
       "path": "System.Management.dll",
-      "hash": "36056b240f488b7da63720585d84f93183cf7bd05da68d5340151ebdd85e4d88",
-      "size": 74352,
-      "lastModified": "2023-05-24T14:46:16Z"
+      "hash": "979fee559e30cc0fc4af6f34548a225b6f08cae0a6c61d24a3e389b3f22dc9d1",
+      "size": 295600,
+      "lastModified": "2023-05-24T14:40:18Z"
     },
     {
       "path": "BCrypt.Net-Next.dll",
@@ -129,10 +135,10 @@
       "lastModified": "2025-04-03T23:11:52Z"
     },
     {
-      "path": "ProERP.Web",
-      "hash": "383e313be0dd2fe9bf7efa57a362a761026a9ac2e2659187f16448f35310e4b5",
-      "size": 101760,
-      "lastModified": "2026-06-25T15:29:59.1026554Z"
+      "path": "ProERP.Web.exe",
+      "hash": "a9e2a5a7a851ad91f1dcaadd66d884965fff87f92fff7c287acb39230ee6e820",
+      "size": 156160,
+      "lastModified": "2026-06-25T15:32:39.0778641Z"
     },
     {
       "path": "FastReport.OpenSource.Export.PdfSimple.dll",
@@ -168,7 +174,7 @@
       "path": "ProERP.Web.runtimeconfig.json",
       "hash": "8f05a7683ba3ab137cea80e6bb123b02d14f0def24bd862fde95609f7cbb67c0",
       "size": 537,
-      "lastModified": "2026-06-25T15:30:00.9742385Z"
+      "lastModified": "2026-06-25T15:32:41.1739155Z"
     },
     {
       "path": "Microsoft.CodeAnalysis.CSharp.dll",
@@ -202,15 +208,21 @@
     },
     {
       "path": "ProERP.Web.deps.json",
-      "hash": "d96ff73c7559b414bd2683e7dee79196ca989abcd389abd8d55f91590d1b5062",
-      "size": 105994,
-      "lastModified": "2026-06-25T15:30:01.6557855Z"
+      "hash": "c55d0ee8dc731e0e8b72a12344746e804878a29c46056c46025dd6b7d0660463",
+      "size": 102022,
+      "lastModified": "2026-06-25T15:32:41.7240056Z"
+    },
+    {
+      "path": "libHarfBuzzSharp.dll",
+      "hash": "ef5923ef4cdc8612c1825b294174b5b8cc8a056ed0f06b58db56aabc56aaae12",
+      "size": 1607216,
+      "lastModified": "2024-04-09T17:25:14Z"
     },
     {
       "path": "ProERP.Web.dll",
-      "hash": "2586db9315c1201a0e8b2e2a44b690ad9e32a69545a51241ab236464acc96074",
-      "size": 3684352,
-      "lastModified": "2026-06-25T15:29:58.9997924Z"
+      "hash": "f589082b75fcc0049b1ac3d90ffb0bddbf5df50c866327ae932fd7128304f387",
+      "size": 3683840,
+      "lastModified": "2026-06-25T15:32:38.7642547Z"
     },
     {
       "path": "Microsoft.IdentityModel.Protocols.dll",
@@ -304,9 +316,9 @@
     },
     {
       "path": "System.ServiceProcess.ServiceController.dll",
-      "hash": "d3cd5bb642ea9850100f08187b35c440776003e4082fd007c3a8f72c4acdfb9f",
-      "size": 35096,
-      "lastModified": "2024-10-29T02:38:36Z"
+      "hash": "5ba8439789392ed0806da50cd94ff4935eb1b876c9bd234bc5ad35f0e9c9a753",
+      "size": 91400,
+      "lastModified": "2024-10-29T02:39:20Z"
     },
     {
       "path": "ProERP.Client.dll",
@@ -417,6 +429,12 @@
       "lastModified": "2026-04-30T19:25:56Z"
     },
     {
+      "path": "libSkiaSharp.dll",
+      "hash": "9a0d95e8caaa852c70d085af6a40a744242172ad9ea3fd6bc7599875a8a1dbcd",
+      "size": 9414216,
+      "lastModified": "2024-11-07T13:55:34Z"
+    },
+    {
       "path": "System.Linq.Dynamic.Core.dll",
       "hash": "efb22262740c2c59b2f243bf2326e4216811736247465a6a173feaa95e2be8f9",
       "size": 238080,
@@ -454,9 +472,9 @@
     },
     {
       "path": "ProERP.Web.staticwebassets.endpoints.json",
-      "hash": "6c5323c0814a0d34515f3f9952bf2a8e9985d4dbb4a86035aeef2029388b72bc",
+      "hash": "61f170ea70d186a022d5f29153127adcfdaf6ea32555f8b239ce09a82c02fc30",
       "size": 2816335,
-      "lastModified": "2026-06-25T15:30:09.7275758Z"
+      "lastModified": "2026-06-25T15:32:52.4852737Z"
     },
     {
       "path": "Google.Apis.Drive.v3.dll",
@@ -484,9 +502,9 @@
     },
     {
       "path": "System.Drawing.Common.dll",
-      "hash": "98d07e6b1e7d3641a8608a360b3dc273fe8a0f78926b6e1e5f679a7a074d491f",
-      "size": 175216,
-      "lastModified": "2021-10-22T23:49:12Z"
+      "hash": "4d3001697df50cca54f32ed2dbbd1f3f415b48d5d756b1bf9500a43ae9b68da0",
+      "size": 454248,
+      "lastModified": "2021-10-22T23:48:10Z"
     },
     {
       "path": "Microsoft.Bcl.AsyncInterfaces.dll",
@@ -552,7 +570,7 @@
       "path": "wwwroot/PrivacyPolicy.html.br",
       "hash": "f8d3845d9c405f3e77147ddaec1193b8e3ca1579a992f496f5a9480e02de3478",
       "size": 1048,
-      "lastModified": "2026-06-03T15:42:55.9980347Z"
+      "lastModified": "2026-06-25T15:27:58.6373695Z"
     },
     {
       "path": "wwwroot/manifest.webmanifest.gz",
@@ -564,7 +582,7 @@
       "path": "wwwroot/service-worker-assets.js",
       "hash": "e317f05e41a65ec289cbe2fddca55cec8932f651fc5cd612c132f71834ceeecf",
       "size": 20711,
-      "lastModified": "2026-06-25T15:30:07.7457831Z"
+      "lastModified": "2026-06-25T15:32:49.910381Z"
     },
     {
       "path": "wwwroot/index.html",
@@ -576,13 +594,13 @@
       "path": "wwwroot/service-worker-assets.js.br",
       "hash": "9bd9b71c234058e091ee4cbfab450606fa83e749dc7acf16dd41551f3f7c5efc",
       "size": 6732,
-      "lastModified": "2026-06-25T15:30:07.9729861Z"
+      "lastModified": "2026-06-25T15:32:50.1861588Z"
     },
     {
       "path": "wwwroot/firebase-messaging-sw.js.gz",
       "hash": "263f4e842f1ca0323d21208eaca812849bb816fe1634dd24fd1644721ef32f3d",
       "size": 1026,
-      "lastModified": "2026-06-24T16:19:39.1040769Z"
+      "lastModified": "2026-06-25T15:27:43.5698641Z"
     },
     {
       "path": "wwwroot/firebase-messaging-sw.js",
@@ -630,7 +648,7 @@
       "path": "wwwroot/PrivacyPolicy.html.gz",
       "hash": "46f5d3295e29e44272b8285bb22571acfec194e01b764b9df01fd87c80b2ba9c",
       "size": 1400,
-      "lastModified": "2026-05-27T22:34:42.8722267Z"
+      "lastModified": "2026-06-25T15:27:43.7142522Z"
     },
     {
       "path": "wwwroot/logo.png",
@@ -642,19 +660,19 @@
       "path": "wwwroot/firebase-messaging-sw.js.br",
       "hash": "d38f6e885710628421cc1f3cb5348648463b904e2e6be3ee2db2d44b837f4683",
       "size": 858,
-      "lastModified": "2026-06-24T16:20:03.1644819Z"
+      "lastModified": "2026-06-25T15:27:58.5596946Z"
     },
     {
       "path": "wwwroot/service-worker-assets.js.gz",
       "hash": "1c3b0d610a38e66e411743ab8f8093f7d6322db70250fc981a156ff254bea17c",
       "size": 7113,
-      "lastModified": "2026-06-25T15:30:07.790119Z"
+      "lastModified": "2026-06-25T15:32:49.9519007Z"
     },
     {
       "path": "wwwroot/service-worker.js",
       "hash": "d9f948f7e05b88607fe910b5b2774838bfa96a607007bbca3622d245b1ee327e",
       "size": 2892,
-      "lastModified": "2026-06-25T15:30:07.7473992Z"
+      "lastModified": "2026-06-25T15:32:49.9119649Z"
     },
     {
       "path": "wwwroot/index.html.gz",
@@ -954,13 +972,13 @@
       "path": "wwwroot/WebReportDesigner/931.f0185e9b654a92a92b32.css.br",
       "hash": "8a7670a4c6c24dc9daf64c68da047234b6f1225486d04d34b4b72c12bce8db3f",
       "size": 305,
-      "lastModified": "2026-06-24T16:20:03.1376486Z"
+      "lastModified": "2026-06-25T15:27:58.5779754Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/913.763e0d9be1521b517e5b.css.br",
       "hash": "04cee3873b7f9c985d79f0a4d475efd4554974cc514c2fabf148f1b44fd0b451",
       "size": 402,
-      "lastModified": "2026-06-24T16:20:03.136469Z"
+      "lastModified": "2026-06-25T15:27:58.5556138Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/33.2c49602b77cab3c0c462.css",
@@ -972,13 +990,13 @@
       "path": "wwwroot/WebReportDesigner/main.9f5bc28db45399d9950b.css.gz",
       "hash": "e5e1621fe5a5e9767d03e12ff7feca3a7175003ab138e8a75cdde7f4ecfc716c",
       "size": 25758,
-      "lastModified": "2026-06-24T16:19:39.1117727Z"
+      "lastModified": "2026-06-25T15:27:43.7192464Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/e36613fc.539.js.br",
       "hash": "b5a78a86d90f6351cb2aa1a568a8de152add92e0b506e7c24d6d377096709525",
       "size": 4402,
-      "lastModified": "2026-06-24T16:20:03.2004815Z"
+      "lastModified": "2026-06-25T15:27:58.67159Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/913.763e0d9be1521b517e5b.css",
@@ -990,13 +1008,13 @@
       "path": "wwwroot/WebReportDesigner/712.f89469df7ecc777190a7.css.gz",
       "hash": "addb6a87546ff78c8630864397c431d4aeefde9f58c848efbb33a3caec3eb9a6",
       "size": 171,
-      "lastModified": "2026-06-24T16:19:39.1077131Z"
+      "lastModified": "2026-06-25T15:27:43.5752385Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/793da87f.11.js.br",
       "hash": "9b2c9472ce23073ffd6275b3966f31ff9bcced1b7908205f99488f280e12f9a3",
       "size": 5254,
-      "lastModified": "2026-06-24T16:20:03.1910407Z"
+      "lastModified": "2026-06-25T15:27:58.6272696Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/b1d8f5aa.932.js",
@@ -1008,7 +1026,7 @@
       "path": "wwwroot/WebReportDesigner/756.dcd0c1b56f2fd0eb5098.css.br",
       "hash": "9e8bc830fbb4fa1854b4efe5c9bdd36c615281cd9be2145fe849f9c05ca6f028",
       "size": 307,
-      "lastModified": "2026-06-24T16:20:03.1383735Z"
+      "lastModified": "2026-06-25T15:27:58.5733239Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/6247560b.33.js",
@@ -1020,7 +1038,7 @@
       "path": "wwwroot/WebReportDesigner/611.28081d885e1779c6b044.css.gz",
       "hash": "4c2001266411bc351a2bc87074fdd743f6a2dd2a09ffa732903e25d669ba1767",
       "size": 388,
-      "lastModified": "2026-06-24T16:19:39.101562Z"
+      "lastModified": "2026-06-25T15:27:43.5694527Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/303.6436473375a5360f1c6f.css",
@@ -1038,85 +1056,85 @@
       "path": "wwwroot/WebReportDesigner/4128a13f.840.js.br",
       "hash": "91d150dc7a18af48242621e192f1c0bb0cc6b3ab194d056d0c23df1b3544a60e",
       "size": 1939,
-      "lastModified": "2026-06-24T16:20:03.1535257Z"
+      "lastModified": "2026-06-25T15:27:58.5751125Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/cce66907.main2.js.br",
       "hash": "44725318b08bb192f909d7a5aa971701b653f8ca72841c6f9f5e4bb951e57bbc",
       "size": 574361,
-      "lastModified": "2026-06-24T16:20:14.6406872Z"
+      "lastModified": "2026-06-25T15:28:05.3053098Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/386.ed27a58b438c3eca5642.css.gz",
       "hash": "7244c291e8852bc5dc0a44dd235490911c081096fb1a4fc36924f82cf652f19d",
       "size": 249,
-      "lastModified": "2026-06-24T16:19:39.1018866Z"
+      "lastModified": "2026-06-25T15:27:43.5691941Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/48312d5f.413.js.gz",
       "hash": "c37d1b55a36a6b62b5df709447f03ed360dfc23f76ebe7b267ba023447014844",
       "size": 4223,
-      "lastModified": "2026-06-24T16:19:39.1049747Z"
+      "lastModified": "2026-06-25T15:27:43.5739972Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/315.b2c41a961dea51fe8666.css.gz",
       "hash": "85e69337481d4ce73fe53a884ec45e0b0dfd749e418f01ef94b6c094bfa831f3",
       "size": 479,
-      "lastModified": "2026-06-24T16:19:39.102005Z"
+      "lastModified": "2026-06-25T15:27:43.5694124Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/2cb8bdf3.750.js.br",
       "hash": "c0895bfa6eb71764fb607172f18be02e7405a7388dabb4a268f830d9e69add7c",
       "size": 2939,
-      "lastModified": "2026-06-24T16:20:03.1775999Z"
+      "lastModified": "2026-06-25T15:27:58.5997846Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/ef53cdbe.459.js.gz",
       "hash": "ae3f386ee988074a8edebd8488410bca8b8b474c3f47667b3abccb7bb4eaf11d",
       "size": 2230,
-      "lastModified": "2026-06-24T16:19:39.1028975Z"
+      "lastModified": "2026-06-25T15:27:43.5716493Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/541.f09918539ad1287e73a7.css.br",
       "hash": "0c473d8b5a17f49794b14d56ef82e1e39fc4d36e7082da8a13f42ee2e6d5d22f",
       "size": 527,
-      "lastModified": "2026-06-24T16:20:03.1389195Z"
+      "lastModified": "2026-06-25T15:27:58.5604603Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/b1d8f5aa.932.js.br",
       "hash": "a4d6affeae86126741455a25e5fe273ebbedf586bcc4f6ad75a35101f3efbeb9",
       "size": 1182,
-      "lastModified": "2026-06-24T16:20:03.1516341Z"
+      "lastModified": "2026-06-25T15:27:58.5616607Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/459.928c46e49c7750b7f76a.css.br",
       "hash": "486f6d2047b38425d66848430a12331b3a3596da5d8f855bb665c4490f88d7cb",
       "size": 701,
-      "lastModified": "2026-06-24T16:20:03.1380276Z"
+      "lastModified": "2026-06-25T15:27:58.5633709Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/100.d7a0ac33f6d5ba1298e9.css.gz",
       "hash": "54eed26d3f3fa2abbfafc92f96618dfb37b0fcdbe27f547613acdfb8052614f6",
       "size": 748,
-      "lastModified": "2026-06-24T16:19:39.1052419Z"
+      "lastModified": "2026-06-25T15:27:43.7174295Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/539.e7a8308f2f2c6da4dc23.css.gz",
       "hash": "5fa78d3f1a63af04ca4ce2ee2136c71d8c7da35e603bb8a4008a36e4a06d0d0e",
       "size": 815,
-      "lastModified": "2026-06-24T16:19:39.1088273Z"
+      "lastModified": "2026-06-25T15:27:43.714289Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/dcd2e52a.518.js.br",
       "hash": "7c12084c59d2b3fd8da3d1fcfb959bc54989072e6fbe238074a1b0ac3fd8ddd0",
       "size": 705,
-      "lastModified": "2026-06-24T16:20:03.1592689Z"
+      "lastModified": "2026-06-25T15:27:58.5576562Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/c7160701.308.js.br",
       "hash": "0ada8a1c80675574cfc0251d31db89688e7e157019f158b36d05fdbbb72dc097",
       "size": 799,
-      "lastModified": "2026-06-24T16:20:03.1491207Z"
+      "lastModified": "2026-06-25T15:27:58.6526767Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/716.20105f20562f2b6069aa.css",
@@ -1134,7 +1152,7 @@
       "path": "wwwroot/WebReportDesigner/644.5e2f58a0d4185882b5fa.css.br",
       "hash": "032ce849bb941f060b0ae421835a65756f108897435cafaed7972c1ade3b64ac",
       "size": 273,
-      "lastModified": "2026-06-24T16:20:03.1440195Z"
+      "lastModified": "2026-06-25T15:27:58.6234248Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/48312d5f.413.js",
@@ -1146,7 +1164,7 @@
       "path": "wwwroot/WebReportDesigner/308.542c8a46ca34e74c0467.css.gz",
       "hash": "d94d4e88ff8e0a0537dfc1ec3f91fd635872c8022ddd2df8e8b536097c89632f",
       "size": 353,
-      "lastModified": "2026-06-24T16:19:39.1044492Z"
+      "lastModified": "2026-06-25T15:27:43.7165277Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/386.ed27a58b438c3eca5642.css",
@@ -1158,19 +1176,19 @@
       "path": "wwwroot/WebReportDesigner/6bbe43c6.392.js.gz",
       "hash": "605394a96129f7df45596c447f4538508136920793d0ef52c8b7a92e02074f92",
       "size": 4315,
-      "lastModified": "2026-06-24T16:19:39.1041608Z"
+      "lastModified": "2026-06-25T15:27:43.5717943Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/a2b56449.386.js.br",
       "hash": "2b74249b98524438b628d360abc54b0c7e360396e4a2c834e09612d49ffb1bbe",
       "size": 1218,
-      "lastModified": "2026-06-24T16:20:03.1403488Z"
+      "lastModified": "2026-06-25T15:27:58.5721338Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/e8c1c8d3.913.js.br",
       "hash": "56874c6eda0bb84c86a8de20018d30a29ef0058f645166aa1239d95f633cac18",
       "size": 4921,
-      "lastModified": "2026-06-24T16:20:03.2457868Z"
+      "lastModified": "2026-06-25T15:27:58.6621943Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/712.f89469df7ecc777190a7.css",
@@ -1182,7 +1200,7 @@
       "path": "wwwroot/WebReportDesigner/64de0e50.315.js.br",
       "hash": "1416e635615f7b857bc7d1e1860cee8d6849857310e241a7cc2dd312760aad19",
       "size": 3181,
-      "lastModified": "2026-06-24T16:20:03.169473Z"
+      "lastModified": "2026-06-25T15:27:58.5906721Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/840.3c6e9a6ebf4c155fe111.css",
@@ -1200,49 +1218,49 @@
       "path": "wwwroot/WebReportDesigner/921b6ee5.303.js.br",
       "hash": "c39209b7da4a603da7c32b8d90aabda93a7a569a953000305030ffb5147834f9",
       "size": 1498,
-      "lastModified": "2026-06-24T16:20:03.1521962Z"
+      "lastModified": "2026-06-25T15:27:58.5693383Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/d4290457.990.js.gz",
       "hash": "e7bb783f7ee3490cda549792c5c8d71e6ca4ad81e9dd746ea9f4990525145840",
       "size": 1043,
-      "lastModified": "2026-06-24T16:19:39.1589458Z"
+      "lastModified": "2026-06-25T15:27:43.717074Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/c9f67ac6.72.js.br",
       "hash": "c005863f6632b853e6d896948d3499b55f4f5bb4666d45cbc6dbfbd8dfc0d0bc",
       "size": 596,
-      "lastModified": "2026-06-24T16:20:03.154485Z"
+      "lastModified": "2026-06-25T15:27:58.5836814Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/f36bd1f1.712.js.br",
       "hash": "4f317a62d9844f88cb4bef31ca5b12a00cf4b9a788c0006d6f68718dd127c90b",
       "size": 2063,
-      "lastModified": "2026-06-24T16:20:03.1931057Z"
+      "lastModified": "2026-06-25T15:27:58.5936091Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/76469246.611.js.br",
       "hash": "ae313a8c801ed8c91bd580bb3f5cf303db42121f2be3af64d94dcedef70c33c2",
       "size": 2141,
-      "lastModified": "2026-06-24T16:20:03.1517249Z"
+      "lastModified": "2026-06-25T15:27:58.5740676Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/990.318a8822fe1b8d1ab6f5.css.br",
       "hash": "3ea994e398f9c523b41876ce19fc43c3c2832c0039173dd08d12d2ad6326cf0a",
       "size": 191,
-      "lastModified": "2026-06-24T16:20:03.1403059Z"
+      "lastModified": "2026-06-25T15:27:58.5601612Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/518.da0bdd2b8a79960227f1.css.br",
       "hash": "940c75ac9b359c86a8e9e1e5fd782dcaaa72e20f5f71a3791dea03228d8ec849",
       "size": 160,
-      "lastModified": "2026-06-24T16:20:03.1325688Z"
+      "lastModified": "2026-06-25T15:27:58.6047278Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/8111919a.322.js.br",
       "hash": "34298d9c9d4f7cac694885363b82bbaab31fb116349441b67bdcca11dc93b70c",
       "size": 114417,
-      "lastModified": "2026-06-24T16:20:04.270402Z"
+      "lastModified": "2026-06-25T15:28:00.218628Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/308.542c8a46ca34e74c0467.css",
@@ -1254,13 +1272,13 @@
       "path": "wwwroot/WebReportDesigner/37ad64b5.450.js.gz",
       "hash": "0176822d7993e1691fc8125ec817e2935acaf1d21fed28990f5dccf795189932",
       "size": 9418,
-      "lastModified": "2026-06-24T16:19:39.1094393Z"
+      "lastModified": "2026-06-25T15:27:43.5791955Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/f8ac0c8d.922.js.gz",
       "hash": "2bd8e1618d4aca0830bd6e9771065e7a7e797cfca0d3ea57fdf1c53910cca502",
       "size": 1111,
-      "lastModified": "2026-06-24T16:19:39.1086102Z"
+      "lastModified": "2026-06-25T15:27:43.714213Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/459.928c46e49c7750b7f76a.css",
@@ -1284,55 +1302,55 @@
       "path": "wwwroot/WebReportDesigner/624.67144b26d56fadc792fd.css.gz",
       "hash": "47b3b0835e4d72a4704807e475643b2dcf4e20c89790ddc13c4a19c3a7b6bc5b",
       "size": 497,
-      "lastModified": "2026-06-24T16:19:39.1028966Z"
+      "lastModified": "2026-06-25T15:27:43.5714126Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/922.6d9326600fb2ab597e0b.css.br",
       "hash": "13dbc4986f8b0ff758835824fa05a704423a280b9ff9b38d1c4d2a2ac24e06b6",
       "size": 245,
-      "lastModified": "2026-06-24T16:20:03.132758Z"
+      "lastModified": "2026-06-25T15:27:58.5735832Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/index.html.br",
       "hash": "9600aa383ef8c11c1bdb56c47876c2564aedf07c5149197f9b546d34c8662176",
       "size": 350,
-      "lastModified": "2026-06-24T16:20:03.1687068Z"
+      "lastModified": "2026-06-25T15:27:58.6145401Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/56e0d016.624.js.gz",
       "hash": "65bd86b45cf682963425d258f64c886b63f850ce419ad444a3f467d13d0826d2",
       "size": 4543,
-      "lastModified": "2026-06-24T16:19:39.1043043Z"
+      "lastModified": "2026-06-25T15:27:43.5727011Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/7ebab1a6.931.js.br",
       "hash": "b82b6b2ee1bd4baa871631d61cea85916c1454f05c0a8e58dabb7632eee7c70e",
       "size": 3853,
-      "lastModified": "2026-06-24T16:20:03.1792529Z"
+      "lastModified": "2026-06-25T15:27:58.6847877Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/33.2c49602b77cab3c0c462.css.br",
       "hash": "160f81ccdb2640ccff8e66e9ddad32ff3bddffad61b7accfe1a64bf05046eec9",
       "size": 1021,
-      "lastModified": "2026-06-24T16:20:03.1501984Z"
+      "lastModified": "2026-06-25T15:27:58.7127251Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/58055259.644.js.br",
       "hash": "1d775af462b21f30bf4b93c1a8bd5caf60a7ea3a6da2c9d3054e93d2b66d3c02",
       "size": 2648,
-      "lastModified": "2026-06-24T16:20:03.1597717Z"
+      "lastModified": "2026-06-25T15:27:58.649351Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/716.20105f20562f2b6069aa.css.gz",
       "hash": "3680222422cbe2906a5fbe737eb4bb1b2cf6cbc95df08ac57e7e770b8801065f",
       "size": 1216,
-      "lastModified": "2026-06-24T16:19:39.1054612Z"
+      "lastModified": "2026-06-25T15:27:43.7142712Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/9.e5b0d19ececf4b8e1c83.css.br",
       "hash": "8a7d6f9ebe2885bcf4d84d5e15cd8bd1a54060f183a032dcad9953fda12484e6",
       "size": 155,
-      "lastModified": "2026-06-24T16:20:03.1526696Z"
+      "lastModified": "2026-06-25T15:27:58.619631Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/main.9f5bc28db45399d9950b.css",
@@ -1344,13 +1362,13 @@
       "path": "wwwroot/WebReportDesigner/5f39c443.844.js.br",
       "hash": "9428e90bfcbaa6f019b271a8b94b91135c5570369b3fe00f53dee0e30982ac0a",
       "size": 302,
-      "lastModified": "2026-06-24T16:20:03.1524658Z"
+      "lastModified": "2026-06-25T15:27:58.6262483Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/322.5626107575f1ab0f1a62.css.gz",
       "hash": "3c0217a84ff9f98ed1dba144d7be314f12620ff150db9f7dbc42ceaf7cdd43c5",
       "size": 7687,
-      "lastModified": "2026-06-24T16:19:39.1045401Z"
+      "lastModified": "2026-06-25T15:27:43.5722157Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/a78800e7.716.js",
@@ -1362,19 +1380,19 @@
       "path": "wwwroot/WebReportDesigner/413.47c2dae28658e47be5f8.css.br",
       "hash": "8d5e6b486d232c7c41d2f9d9d4d56d8f2c0895b5265ab3f317168e019f1e88cc",
       "size": 1073,
-      "lastModified": "2026-06-24T16:20:03.1449407Z"
+      "lastModified": "2026-06-25T15:27:58.5926478Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/a78800e7.716.js.br",
       "hash": "f31ab905213c6385a12788ebffb702a2ffb0f61129ab6b4c3c621b1204ed0fc7",
       "size": 1726,
-      "lastModified": "2026-06-24T16:20:03.1531571Z"
+      "lastModified": "2026-06-25T15:27:58.5882891Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/7d99ef01.config-data.js.br",
       "hash": "a3152a15dbcff1cd9fcbe3d7fdef4a2cec9ac283fb46aa72261b6980440d4da2",
       "size": 1831,
-      "lastModified": "2026-06-24T16:20:03.1476273Z"
+      "lastModified": "2026-06-25T15:27:58.6445927Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/4128a13f.840.js",
@@ -1386,13 +1404,13 @@
       "path": "wwwroot/WebReportDesigner/72.a475e59a23ff5f743038.css.br",
       "hash": "53f03b50761d0124be6efed845d1585437ec267bbfe06219bf63b6a77d0d98ed",
       "size": 550,
-      "lastModified": "2026-06-24T16:20:03.1375759Z"
+      "lastModified": "2026-06-25T15:27:58.5589212Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/88b71b7f.9.js.gz",
       "hash": "fc39dc9a7d05266964f93e55303e865526a71b7e2c4f5cfe0251b7ff9f7afc31",
       "size": 1927,
-      "lastModified": "2026-06-24T16:19:39.1088653Z"
+      "lastModified": "2026-06-25T15:27:43.7168865Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/450.4adc55a53aca5f0525de.css",
@@ -1404,7 +1422,7 @@
       "path": "wwwroot/WebReportDesigner/cce66907.main.js.br",
       "hash": "44725318b08bb192f909d7a5aa971701b653f8ca72841c6f9f5e4bb951e57bbc",
       "size": 574361,
-      "lastModified": "2026-06-24T16:20:08.9552713Z"
+      "lastModified": "2026-06-25T15:28:05.2729041Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/c7160701.308.js",
@@ -1428,25 +1446,25 @@
       "path": "wwwroot/WebReportDesigner/db814abf.100.js.gz",
       "hash": "689d6afa753f46fc33f9577839e9260b2d189d22ad8cc4d4004db041faa77a8e",
       "size": 5261,
-      "lastModified": "2026-06-24T16:19:39.1595419Z"
+      "lastModified": "2026-06-25T15:27:43.7180838Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/2f703457.vendors.js.br",
       "hash": "4eb6c7d694c9b398cabe32baac7512f0c220bf2d1c9812ab0d3a72966b2b5808",
       "size": 31889,
-      "lastModified": "2026-06-24T16:20:03.3823091Z"
+      "lastModified": "2026-06-25T15:27:58.9572401Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/11.bf7b78d8a59e59592bf9.css.gz",
       "hash": "56e00135944cc1cd0596bb899cfe6e3026bc316bb1a6f202bdb0d3eaee4e515b",
       "size": 725,
-      "lastModified": "2026-06-24T16:19:39.1044626Z"
+      "lastModified": "2026-06-25T15:27:43.717954Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/951.a475e59a23ff5f743038.css.br",
       "hash": "53f03b50761d0124be6efed845d1585437ec267bbfe06219bf63b6a77d0d98ed",
       "size": 550,
-      "lastModified": "2026-06-24T16:20:03.1365364Z"
+      "lastModified": "2026-06-25T15:27:58.5569952Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/541.f09918539ad1287e73a7.css",
@@ -1458,13 +1476,13 @@
       "path": "wwwroot/WebReportDesigner/6247560b.33.js.gz",
       "hash": "6a8eb7b8e2efefb6c0ea56510ab4d1bef85a95e4242f52846c9f34fc473d8e09",
       "size": 4881,
-      "lastModified": "2026-06-24T16:19:39.1055034Z"
+      "lastModified": "2026-06-25T15:27:43.5756316Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/73d38cba.951.js.br",
       "hash": "e6ea9278850d2be0cd25dc12c1ca279148a8547759c3ba9fef599a559128ed7e",
       "size": 483,
-      "lastModified": "2026-06-24T16:20:03.1431404Z"
+      "lastModified": "2026-06-25T15:27:58.5636484Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/58055259.644.js",
@@ -1476,7 +1494,7 @@
       "path": "wwwroot/WebReportDesigner/840.3c6e9a6ebf4c155fe111.css.br",
       "hash": "6b366ae0b69ad174845ce38022bed501145531ee193786af4081ffa80b5070ba",
       "size": 502,
-      "lastModified": "2026-06-24T16:20:03.1538739Z"
+      "lastModified": "2026-06-25T15:27:58.5801658Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/11.bf7b78d8a59e59592bf9.css",
@@ -1494,31 +1512,31 @@
       "path": "wwwroot/WebReportDesigner/750.0ea429e4f2345cfd3f7a.css.gz",
       "hash": "f7949d23f05c06b79f672fde96aca090dcfbad32e21f946260ea971fe8aa7ab6",
       "size": 556,
-      "lastModified": "2026-06-24T16:19:39.1071218Z"
+      "lastModified": "2026-06-25T15:27:43.5749475Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/450.4adc55a53aca5f0525de.css.br",
       "hash": "62856ec137a981aa2eb9bee9672d337beee85242728f92be6e673a4cd96d7933",
       "size": 1375,
-      "lastModified": "2026-06-24T16:20:03.1702888Z"
+      "lastModified": "2026-06-25T15:27:58.6186019Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/e163ba8c.623.js.gz",
       "hash": "62c522ff53ea01ddf3ab129313555252790f06c25e8338a4d3008dfaefada4ce",
       "size": 3791,
-      "lastModified": "2026-06-24T16:19:39.1068118Z"
+      "lastModified": "2026-06-25T15:27:43.5750798Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/be7d8eca.287.js.br",
       "hash": "646c8b4e655ad68882e187907d5b94959e9fdf3d0b57dd46805b992ef91dc560",
       "size": 7425,
-      "lastModified": "2026-06-24T16:20:03.2213185Z"
+      "lastModified": "2026-06-25T15:27:58.6445916Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/303.6436473375a5360f1c6f.css.gz",
       "hash": "f88082867116e4740a9b7f33b718faa662d787ccfbd7c83a1d942275c89f3bf7",
       "size": 142,
-      "lastModified": "2026-06-24T16:19:39.1083743Z"
+      "lastModified": "2026-06-25T15:27:43.7172586Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/750.0ea429e4f2345cfd3f7a.css",
@@ -1530,7 +1548,7 @@
       "path": "wwwroot/WebReportDesigner/cce66907.main2.js.gz",
       "hash": "c5206b411ef4226d7e3deb70b7f2555d664a8ae6fbeb6a8c06b4c9e96284439e",
       "size": 756818,
-      "lastModified": "2026-06-24T16:19:39.1584064Z"
+      "lastModified": "2026-06-25T15:27:43.6267744Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/56e0d016.624.js",
@@ -1548,13 +1566,13 @@
       "path": "wwwroot/WebReportDesigner/386.ed27a58b438c3eca5642.css.br",
       "hash": "6f16513897fe30f19864b38ae7eda6754ad231cc4b5de39431a21cd49e26758b",
       "size": 162,
-      "lastModified": "2026-06-24T16:20:03.1325526Z"
+      "lastModified": "2026-06-25T15:27:58.5532968Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/4128a13f.840.js.gz",
       "hash": "dcaceecfd7a32d1f2907d47a41078083ea7a968661bae16fa5d989f5f4ccb3ba",
       "size": 2174,
-      "lastModified": "2026-06-24T16:19:39.1047168Z"
+      "lastModified": "2026-06-25T15:27:43.5701497Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/100.d7a0ac33f6d5ba1298e9.css",
@@ -1578,25 +1596,25 @@
       "path": "wwwroot/WebReportDesigner/ef53cdbe.459.js.br",
       "hash": "d287daa4a553570ac7c4973f65484ad593bb607d8a21b1c03c76e993bf182b59",
       "size": 1952,
-      "lastModified": "2026-06-24T16:20:03.1734543Z"
+      "lastModified": "2026-06-25T15:27:58.5728111Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/2cb8bdf3.750.js.gz",
       "hash": "5b0e9f06372cf7d14a07521f2317de7466f78f386f1cd29095a648c7962445de",
       "size": 3330,
-      "lastModified": "2026-06-24T16:19:39.1014775Z"
+      "lastModified": "2026-06-25T15:27:43.5699272Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/48312d5f.413.js.br",
       "hash": "79ed8edeec4797728b253b39f14eafcb9c710b93a2d869aef93a7053ca768ade",
       "size": 3694,
-      "lastModified": "2026-06-24T16:20:03.1727649Z"
+      "lastModified": "2026-06-25T15:27:58.6019279Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/315.b2c41a961dea51fe8666.css.br",
       "hash": "ae1e18726766147242daecdafbbf73a81bc89b5e06e3532926bcc8f6efa0e4b8",
       "size": 370,
-      "lastModified": "2026-06-24T16:20:03.1362735Z"
+      "lastModified": "2026-06-25T15:27:58.5564458Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/c9f67ac6.72.js",
@@ -1608,13 +1626,13 @@
       "path": "wwwroot/WebReportDesigner/main.9f5bc28db45399d9950b.css.br",
       "hash": "a228532605e47e5bb169f6153ba4086deca3afd4e1a86413d6202e7d8dc26f34",
       "size": 21190,
-      "lastModified": "2026-06-24T16:20:03.4344229Z"
+      "lastModified": "2026-06-25T15:27:59.3238436Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/e36613fc.539.js.gz",
       "hash": "5a39e7dae06b598c3c5764ccc52df2030ed20fb86c9536ca7220b41c0b4a36aa",
       "size": 5031,
-      "lastModified": "2026-06-24T16:19:39.1087211Z"
+      "lastModified": "2026-06-25T15:27:43.5778919Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/be7d8eca.287.js",
@@ -1626,19 +1644,19 @@
       "path": "wwwroot/WebReportDesigner/913.763e0d9be1521b517e5b.css.gz",
       "hash": "a6d50f69d3b2ce49ac46140e154ae6ce2bc6a86a4c7a8d9d88f1edd6756138fb",
       "size": 526,
-      "lastModified": "2026-06-24T16:19:39.1026762Z"
+      "lastModified": "2026-06-25T15:27:43.5695483Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/931.f0185e9b654a92a92b32.css.gz",
       "hash": "a35995baec1a1bbff5b8e50753e58c8c1b9c2c102a8b5b6f82b48685cd780af6",
       "size": 430,
-      "lastModified": "2026-06-24T16:19:39.1069102Z"
+      "lastModified": "2026-06-25T15:27:43.5756314Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/611.28081d885e1779c6b044.css.br",
       "hash": "8d906d31ba92f75a50487d7b583ac26d722c9f34baf51f50a1001e59fb392894",
       "size": 296,
-      "lastModified": "2026-06-24T16:20:03.1354985Z"
+      "lastModified": "2026-06-25T15:27:58.5552681Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/37ad64b5.450.js",
@@ -1656,31 +1674,31 @@
       "path": "wwwroot/WebReportDesigner/756.dcd0c1b56f2fd0eb5098.css.gz",
       "hash": "581f6c024182afb8feb9c50195270ff4958883509430a71daad67c8e41b97e46",
       "size": 424,
-      "lastModified": "2026-06-24T16:19:39.106022Z"
+      "lastModified": "2026-06-25T15:27:43.5766582Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/793da87f.11.js.gz",
       "hash": "47e4c71c3ef8cf633899b742002a609b4c18142f9e892b0712dcb200532fe7c6",
       "size": 5999,
-      "lastModified": "2026-06-24T16:19:39.1038712Z"
+      "lastModified": "2026-06-25T15:27:43.5707214Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/712.f89469df7ecc777190a7.css.br",
       "hash": "7fd9b9a02e59ea9d49dba8075a05e49fb483925cdcf7aaeaed98ec4d9150da28",
       "size": 115,
-      "lastModified": "2026-06-24T16:20:03.1327898Z"
+      "lastModified": "2026-06-25T15:27:58.6272613Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/990.318a8822fe1b8d1ab6f5.css.gz",
       "hash": "12829bb07e66d59b32eed846e8406a5a512849791a31c53395a3f423c03c2f81",
       "size": 287,
-      "lastModified": "2026-06-24T16:19:39.1036553Z"
+      "lastModified": "2026-06-25T15:27:43.5712917Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/c9f67ac6.72.js.gz",
       "hash": "b4b05018516ff33b358d393938340da7fc41951fdd06d33f9c3ef9ff9d1cffa1",
       "size": 716,
-      "lastModified": "2026-06-24T16:19:39.1069273Z"
+      "lastModified": "2026-06-25T15:27:43.7142925Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/922.6d9326600fb2ab597e0b.css",
@@ -1692,31 +1710,31 @@
       "path": "wwwroot/WebReportDesigner/f36bd1f1.712.js.gz",
       "hash": "fb070e483305bf6c895530dbd262ef47f1810e24209592d7105ff7295153911b",
       "size": 2381,
-      "lastModified": "2026-06-24T16:19:39.1064238Z"
+      "lastModified": "2026-06-25T15:27:43.5754596Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/76469246.611.js.gz",
       "hash": "576839f394bd7000fed5093b2de8e4cc7bf03f1e1ddac98b79553c043776457a",
       "size": 2404,
-      "lastModified": "2026-06-24T16:19:39.1017166Z"
+      "lastModified": "2026-06-25T15:27:43.5693946Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/64de0e50.315.js.gz",
       "hash": "66063673216929cc8740cbb6fede1b5ea719b412116b8d14a7dee212d3ca7fc7",
       "size": 3600,
-      "lastModified": "2026-06-24T16:19:39.1022931Z"
+      "lastModified": "2026-06-25T15:27:43.5693812Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/921b6ee5.303.js.gz",
       "hash": "02139a10f1ee9601053077de49798458694e10ffaa826af1f22acb98505b854c",
       "size": 1675,
-      "lastModified": "2026-06-24T16:19:39.1051601Z"
+      "lastModified": "2026-06-25T15:27:43.5711331Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/d4290457.990.js.br",
       "hash": "163ef9735c0fa060d960fa7cc3829b67bafc47055149b45096736d7e1e099e6e",
       "size": 898,
-      "lastModified": "2026-06-24T16:20:03.1602909Z"
+      "lastModified": "2026-06-25T15:28:05.3135948Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/7ebab1a6.931.js",
@@ -1728,7 +1746,7 @@
       "path": "wwwroot/WebReportDesigner/624.67144b26d56fadc792fd.css.br",
       "hash": "88a0f8545e974592b4d6d7e916b5cafbc376377055e3beed4e9150a8f6d15de5",
       "size": 361,
-      "lastModified": "2026-06-24T16:20:03.1398572Z"
+      "lastModified": "2026-06-25T15:27:58.5622764Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/7d99ef01.config-data.js",
@@ -1746,7 +1764,7 @@
       "path": "wwwroot/WebReportDesigner/37ad64b5.450.js.br",
       "hash": "fa0bf99a4c1675ecc52e64e710bc44b91f5c805a92518ca9a689cb79ea9da8f1",
       "size": 8159,
-      "lastModified": "2026-06-24T16:20:03.2890047Z"
+      "lastModified": "2026-06-25T15:27:58.880788Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/8111919a.322.js",
@@ -1758,7 +1776,7 @@
       "path": "wwwroot/WebReportDesigner/f8ac0c8d.922.js.br",
       "hash": "605ddbfb7408d909ed3fbab0812f47b9dd7c5a40f7e07feb4eef5cecfd7be4de",
       "size": 979,
-      "lastModified": "2026-06-24T16:20:03.1640088Z"
+      "lastModified": "2026-06-25T15:27:58.6045537Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/793da87f.11.js",
@@ -1782,19 +1800,19 @@
       "path": "wwwroot/WebReportDesigner/518.da0bdd2b8a79960227f1.css.gz",
       "hash": "583049aa3c92f2ff2edfc5388834ab671d8bcedc00ba97e551a414a032dcd4ab",
       "size": 244,
-      "lastModified": "2026-06-24T16:19:39.1076396Z"
+      "lastModified": "2026-06-25T15:27:43.5771957Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/8111919a.322.js.gz",
       "hash": "82eb867002d34f2505eea90be8e82767f9045cc7a9213bc9fdb1a450e13472e8",
       "size": 141200,
-      "lastModified": "2026-06-24T16:19:39.1146656Z"
+      "lastModified": "2026-06-25T15:27:43.582862Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/644.5e2f58a0d4185882b5fa.css.gz",
       "hash": "14818bbd91fd688dce0b4d949c5850c63454501b955bdb2cb10aad955136b0ec",
       "size": 372,
-      "lastModified": "2026-06-24T16:19:39.1052756Z"
+      "lastModified": "2026-06-25T15:27:43.7142399Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/2cb8bdf3.750.js",
@@ -1812,7 +1830,7 @@
       "path": "wwwroot/WebReportDesigner/c7160701.308.js.gz",
       "hash": "bd0e061d80cad7fbee101350b254107c5028c0bef44723f0c009316b9b4c01e5",
       "size": 912,
-      "lastModified": "2026-06-24T16:19:39.1085264Z"
+      "lastModified": "2026-06-25T15:27:43.7166968Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/d4290457.990.js",
@@ -1824,61 +1842,61 @@
       "path": "wwwroot/WebReportDesigner/459.928c46e49c7750b7f76a.css.gz",
       "hash": "e51528db6347702d6e44e13d576f0a43eabdb7661a046c398cbd8bedcc50cf7c",
       "size": 901,
-      "lastModified": "2026-06-24T16:19:39.1021405Z"
+      "lastModified": "2026-06-25T15:27:43.5700925Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/100.d7a0ac33f6d5ba1298e9.css.br",
       "hash": "b98eb28fcac50a4266a79b46126f39d88da9e7734bf2696b6fe2664464174723",
       "size": 563,
-      "lastModified": "2026-06-24T16:20:03.1405863Z"
+      "lastModified": "2026-06-25T15:27:58.6549714Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/539.e7a8308f2f2c6da4dc23.css.br",
       "hash": "eb56ec064664f70e72173f07face23ffb5661f808459cfca751eaefead9ef721",
       "size": 640,
-      "lastModified": "2026-06-24T16:20:03.14899Z"
+      "lastModified": "2026-06-25T15:27:58.6200958Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/dcd2e52a.518.js.gz",
       "hash": "278c0c1bbabb206a3cef2875a8f871e95364f8913927b55025c3ea88b7ee2aff",
       "size": 815,
-      "lastModified": "2026-06-24T16:19:39.1020377Z"
+      "lastModified": "2026-06-25T15:27:43.5715274Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/541.f09918539ad1287e73a7.css.gz",
       "hash": "51d743318f24b5da01e98e8f4896c9631fb29482e55ea1c2eb78acf49132d35e",
       "size": 698,
-      "lastModified": "2026-06-24T16:19:39.1024009Z"
+      "lastModified": "2026-06-25T15:27:43.5697913Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/b1d8f5aa.932.js.gz",
       "hash": "dd8e8b4176b5d1d76e4d42b0431178adb2f8bf798f2b0a2c18019b2d09b3be10",
       "size": 1336,
-      "lastModified": "2026-06-24T16:19:39.1027872Z"
+      "lastModified": "2026-06-25T15:27:43.5698973Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/e8c1c8d3.913.js.gz",
       "hash": "c2a641605a56659cc91f2c845e69b38bcd55b872cf6c96a8e336a9736fe40051",
       "size": 5620,
-      "lastModified": "2026-06-24T16:19:39.1088768Z"
+      "lastModified": "2026-06-25T15:27:43.5789718Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/6bbe43c6.392.js.br",
       "hash": "d3bd813e91b157ba17858b3d86e8c2e58a3b87541febd9c493477874fc3c7424",
       "size": 3795,
-      "lastModified": "2026-06-24T16:20:03.1763688Z"
+      "lastModified": "2026-06-25T15:27:58.6247442Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/a2b56449.386.js.gz",
       "hash": "96f9f30542c2448098a52ba30733a73ddac95d0a5df0b6618440a319ebdfa727",
       "size": 1366,
-      "lastModified": "2026-06-24T16:19:39.1054171Z"
+      "lastModified": "2026-06-25T15:27:43.5746639Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/308.542c8a46ca34e74c0467.css.br",
       "hash": "5ca0277f8406f9ea9e35c50512e5e836e4239930e99886b0740ddaaf83e94163",
       "size": 260,
-      "lastModified": "2026-06-24T16:20:03.1372623Z"
+      "lastModified": "2026-06-25T15:27:58.6674503Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/e163ba8c.623.js",
@@ -1890,13 +1908,13 @@
       "path": "wwwroot/WebReportDesigner/322.5626107575f1ab0f1a62.css.br",
       "hash": "3ff6e2ce8b835757fb3070af9ac56c842fe629cecaa3580497485a2e66aab4a5",
       "size": 6708,
-      "lastModified": "2026-06-24T16:20:03.2419317Z"
+      "lastModified": "2026-06-25T15:27:58.6924356Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/5f39c443.844.js.gz",
       "hash": "62c906322f7813cf2387c9f47f1dbc2ca6c31f38fb105087d18369f9dd225538",
       "size": 323,
-      "lastModified": "2026-06-24T16:19:39.1062207Z"
+      "lastModified": "2026-06-25T15:27:43.7141897Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/518.da0bdd2b8a79960227f1.css",
@@ -1914,25 +1932,25 @@
       "path": "wwwroot/WebReportDesigner/72.a475e59a23ff5f743038.css.gz",
       "hash": "ba060f7fe53b985de8e1043eea8338ecfba2fc8ca7dcfb50afc521482ad40d57",
       "size": 699,
-      "lastModified": "2026-06-24T16:19:39.1020174Z"
+      "lastModified": "2026-06-25T15:27:43.569425Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/88b71b7f.9.js.br",
       "hash": "fa538e322d2a40b174e01a3c2b4ca2823a901aef3b65ca17065a00f8fd718c28",
       "size": 1708,
-      "lastModified": "2026-06-24T16:20:03.1650169Z"
+      "lastModified": "2026-06-25T15:27:58.6158758Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/a78800e7.716.js.gz",
       "hash": "2bcdb7d8bc52512d36cf1cadac2f644b039875d8def537b2b9216dd433d1e38b",
       "size": 1941,
-      "lastModified": "2026-06-24T16:19:39.1071019Z"
+      "lastModified": "2026-06-25T15:27:43.576103Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/7d99ef01.config-data.js.gz",
       "hash": "38790e163db2b777f655de541bea4385fe9583076306a38aef800179b07379d3",
       "size": 2055,
-      "lastModified": "2026-06-24T16:19:39.1069628Z"
+      "lastModified": "2026-06-25T15:27:43.5748772Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/88b71b7f.9.js",
@@ -1968,13 +1986,13 @@
       "path": "wwwroot/WebReportDesigner/413.47c2dae28658e47be5f8.css.gz",
       "hash": "b1eb22dae3e57822146eca87ee98b2c80d2827b7e64f46a513364bd1b219df0f",
       "size": 1283,
-      "lastModified": "2026-06-24T16:19:39.1079911Z"
+      "lastModified": "2026-06-25T15:27:43.5739729Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/56e0d016.624.js.br",
       "hash": "3d1a496a1de2471ce735b8b90449d426d2464eb80343f5714b9fff5389065114",
       "size": 3915,
-      "lastModified": "2026-06-24T16:20:03.1917023Z"
+      "lastModified": "2026-06-25T15:27:58.6157718Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/e36613fc.539.js",
@@ -1986,7 +2004,7 @@
       "path": "wwwroot/WebReportDesigner/index.html.gz",
       "hash": "13e46febd57c9922841d308f201b7165b3753bf691cd9b0c204fe47bb1115258",
       "size": 556,
-      "lastModified": "2026-06-24T16:19:39.1082445Z"
+      "lastModified": "2026-06-25T15:27:43.7142614Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/73d38cba.951.js",
@@ -1998,25 +2016,25 @@
       "path": "wwwroot/WebReportDesigner/922.6d9326600fb2ab597e0b.css.gz",
       "hash": "f0b8d235edebf83d696443a2b68cc33ef8eb9f12de61535168a710474486ab3a",
       "size": 363,
-      "lastModified": "2026-06-24T16:19:39.1078362Z"
+      "lastModified": "2026-06-25T15:27:43.5743824Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/9.e5b0d19ececf4b8e1c83.css.gz",
       "hash": "ffdb04f35ff2f0457d772b30f25109f47481b60b6f298f4dd8eba034877bd753",
       "size": 222,
-      "lastModified": "2026-06-24T16:19:39.1092964Z"
+      "lastModified": "2026-06-25T15:27:43.7177144Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/716.20105f20562f2b6069aa.css.br",
       "hash": "f9028b889557b273a5295e0f17d2b01115ff034fb83f5aedbec1d4c29854b5ad",
       "size": 1015,
-      "lastModified": "2026-06-24T16:20:03.1491379Z"
+      "lastModified": "2026-06-25T15:27:58.6384346Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/58055259.644.js.gz",
       "hash": "7d6a11202ef600a1a4c3af639d0d5667f8bb8697d7157d4ab1596126ca0ca926",
       "size": 3001,
-      "lastModified": "2026-06-24T16:19:39.107019Z"
+      "lastModified": "2026-06-25T15:27:43.5751302Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/951.a475e59a23ff5f743038.css",
@@ -2034,25 +2052,25 @@
       "path": "wwwroot/WebReportDesigner/33.2c49602b77cab3c0c462.css.gz",
       "hash": "0aedc496d0eabed013459dbb83a6f56a96812b374e9b4e0d27419f7dc047245c",
       "size": 1235,
-      "lastModified": "2026-06-24T16:19:39.1080903Z"
+      "lastModified": "2026-06-25T15:27:43.575602Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/7ebab1a6.931.js.gz",
       "hash": "bf1ae3441a80b385181a56d1e50d8a1a6b76d8ff838c423558067c2d2c52140e",
       "size": 4428,
-      "lastModified": "2026-06-24T16:19:39.1073531Z"
+      "lastModified": "2026-06-25T15:27:43.5768238Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/73d38cba.951.js.gz",
       "hash": "babf015dd16d6cf8ca342f3dae8c98b9613e106d5826ab57dc4129203d15ae62",
       "size": 546,
-      "lastModified": "2026-06-24T16:19:39.1041192Z"
+      "lastModified": "2026-06-25T15:27:43.5705852Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/6247560b.33.js.br",
       "hash": "95752ac68ef689864306157c2c11caa8329577aaa3e4dd14ccf36048b631731e",
       "size": 4312,
-      "lastModified": "2026-06-24T16:20:03.2026585Z"
+      "lastModified": "2026-06-25T15:27:58.6453679Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/ef53cdbe.459.js",
@@ -2064,37 +2082,37 @@
       "path": "wwwroot/WebReportDesigner/be7d8eca.287.js.gz",
       "hash": "50c51504dc388965d71409c5af514b8966c26a3c752cc04b46e1db8765243e5d",
       "size": 8336,
-      "lastModified": "2026-06-24T16:19:39.1071142Z"
+      "lastModified": "2026-06-25T15:27:43.5734104Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/303.6436473375a5360f1c6f.css.br",
       "hash": "f3dc4a748f99153f1f7027554c521233d9f05736aac8ba13550a6b07b478b4dd",
       "size": 94,
-      "lastModified": "2026-06-24T16:20:03.1326963Z"
+      "lastModified": "2026-06-25T15:27:58.9595149Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/e163ba8c.623.js.br",
       "hash": "68fc67d462cb72f05cfd52196101079176de17511c8204bc6cf5c62b550eebd6",
       "size": 3321,
-      "lastModified": "2026-06-24T16:20:03.2100758Z"
+      "lastModified": "2026-06-25T15:27:58.6147816Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/450.4adc55a53aca5f0525de.css.gz",
       "hash": "fce243601fd17ba9ad42eebc867a4957aa6fcad5a43346342f0ea1823331a164",
       "size": 1625,
-      "lastModified": "2026-06-24T16:19:39.1044729Z"
+      "lastModified": "2026-06-25T15:27:43.5773092Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/840.3c6e9a6ebf4c155fe111.css.gz",
       "hash": "9edffe8418955bd9611c1cd7805e6bee02649acada7c8aa4654f8b2a8956b6f9",
       "size": 626,
-      "lastModified": "2026-06-24T16:19:39.1080762Z"
+      "lastModified": "2026-06-25T15:27:43.7142003Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/750.0ea429e4f2345cfd3f7a.css.br",
       "hash": "068576a208d3d4f5489e8fc7cdf411ff35ffdb50473abcedab47c9f2e8ff248e",
       "size": 401,
-      "lastModified": "2026-06-24T16:20:03.1338645Z"
+      "lastModified": "2026-06-25T15:27:58.5687787Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/990.318a8822fe1b8d1ab6f5.css",
@@ -2106,7 +2124,7 @@
       "path": "wwwroot/WebReportDesigner/cce66907.main.js.gz",
       "hash": "c5206b411ef4226d7e3deb70b7f2555d664a8ae6fbeb6a8c06b4c9e96284439e",
       "size": 756818,
-      "lastModified": "2026-06-24T16:19:39.1550287Z"
+      "lastModified": "2026-06-25T15:27:43.6246627Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/624.67144b26d56fadc792fd.css",
@@ -2124,13 +2142,13 @@
       "path": "wwwroot/WebReportDesigner/11.bf7b78d8a59e59592bf9.css.br",
       "hash": "41b58537e1296acf0bbb67059f75bca8af98cd18ef9ae6d244bb3c8e65e6a884",
       "size": 572,
-      "lastModified": "2026-06-24T16:20:03.1478437Z"
+      "lastModified": "2026-06-25T15:27:58.6615127Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/951.a475e59a23ff5f743038.css.gz",
       "hash": "ba060f7fe53b985de8e1043eea8338ecfba2fc8ca7dcfb50afc521482ad40d57",
       "size": 699,
-      "lastModified": "2026-06-24T16:19:39.1017078Z"
+      "lastModified": "2026-06-25T15:27:43.5696927Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/72.a475e59a23ff5f743038.css",
@@ -2142,25 +2160,25 @@
       "path": "wwwroot/WebReportDesigner/db814abf.100.js.br",
       "hash": "6d3f4019f7643cbdccabbd54a9587c770aa2d9a34bade226ef774d77d3a9d54a",
       "size": 4709,
-      "lastModified": "2026-06-24T16:20:03.2042832Z"
+      "lastModified": "2026-06-25T15:28:05.3366482Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/2f703457.vendors.js.gz",
       "hash": "be716baa605b23bd7d263d9f7988c0e846e14bdc06bd16f9fc443a11011cb63d",
       "size": 36809,
-      "lastModified": "2026-06-24T16:19:39.1075074Z"
+      "lastModified": "2026-06-25T15:27:43.5783459Z"
     },
     {
       "path": "wwwroot/css/app.css.gz",
       "hash": "45219db8afe35c539811a18cda5c0318bd622c52ef64db9dc0ff1643f8f12a67",
       "size": 12284,
-      "lastModified": "2026-06-24T16:19:39.1056258Z"
+      "lastModified": "2026-06-25T15:27:43.9676811Z"
     },
     {
       "path": "wwwroot/css/fonts.css.br",
       "hash": "5cc17e377b977c32b661aa4e3fe164e22170da4c2817b3903b0da61352640487",
       "size": 330,
-      "lastModified": "2026-06-03T15:42:55.4958948Z"
+      "lastModified": "2026-06-25T15:27:59.6089555Z"
     },
     {
       "path": "wwwroot/css/app.css",
@@ -2178,13 +2196,13 @@
       "path": "wwwroot/css/fonts.css.gz",
       "hash": "4b56564419a65ed82dcb4f653cc36c80b417bbcdc7a677606c1927148dd0d95c",
       "size": 405,
-      "lastModified": "2026-05-27T22:34:42.890515Z"
+      "lastModified": "2026-06-25T15:27:43.7168085Z"
     },
     {
       "path": "wwwroot/css/app.css.br",
       "hash": "69842197b2fdbb5687782ce142d23fcd8e4e04598a5cb3c43e9912f570be0526",
       "size": 10322,
-      "lastModified": "2026-06-24T16:20:03.3086696Z"
+      "lastModified": "2026-06-25T15:27:59.6014842Z"
     },
     {
       "path": "wwwroot/css/fonts.css",
@@ -2196,25 +2214,25 @@
       "path": "wwwroot/js/utils.js.gz",
       "hash": "2d4165c540a22fa195ff17efe73c3fa59ae20ae8c87de3e2afcf7ed8514e07f1",
       "size": 4631,
-      "lastModified": "2026-06-24T16:19:39.1031188Z"
+      "lastModified": "2026-06-25T15:27:43.5763334Z"
     },
     {
       "path": "wwwroot/js/firebase-push.js.br",
       "hash": "53b9fd962ad2e1cdc6c83ca5030c952c1ec7ac2f4e60fd0819b81ef91c128eac",
       "size": 1622,
-      "lastModified": "2026-06-24T16:20:03.1530121Z"
+      "lastModified": "2026-06-25T15:27:58.7097867Z"
     },
     {
       "path": "wwwroot/js/iconBundle.js.br",
       "hash": "be93a78ce71d86e60805e957f9ed2ae50fffca0458d8ed00acc61dfccfa28367",
       "size": 20715,
-      "lastModified": "2026-06-03T15:42:55.7274072Z"
+      "lastModified": "2026-06-25T15:27:58.8328178Z"
     },
     {
       "path": "wwwroot/js/theme.js.gz",
       "hash": "15fee024c3381a7e5614bfc6f2bc53a122e004837861b3727a881e71d0fdbfeb",
       "size": 460,
-      "lastModified": "2026-05-27T22:34:42.8461269Z"
+      "lastModified": "2026-06-25T15:27:43.5743154Z"
     },
     {
       "path": "wwwroot/js/monaco-frx.js",
@@ -2226,31 +2244,31 @@
       "path": "wwwroot/js/iconPrefetch.js.br",
       "hash": "cf4f9992c95c1ee623688456214b8c191222c87b2c5a9f787d1fe0e1f9262d3a",
       "size": 1204,
-      "lastModified": "2026-06-03T15:42:55.5020225Z"
+      "lastModified": "2026-06-25T15:27:58.7843742Z"
     },
     {
       "path": "wwwroot/js/qzInterop.js.br",
       "hash": "1759927d417f5b8316ebe2c8f418c0fc97b9b8de812e23c1e616ad90efde169d",
       "size": 729,
-      "lastModified": "2026-06-03T15:42:55.8894542Z"
+      "lastModified": "2026-06-25T15:27:58.5628457Z"
     },
     {
       "path": "wwwroot/js/dashboard.js.br",
       "hash": "122a100c348df5332fec3716d82c9cbe0ba641d9c950f71d4cf3f491b1c5ae91",
       "size": 798,
-      "lastModified": "2026-06-24T16:20:03.1707998Z"
+      "lastModified": "2026-06-25T15:28:00.4038171Z"
     },
     {
       "path": "wwwroot/js/iconify-icon.min.js.gz",
       "hash": "e8ca6b25a42f120d9f348107c0b2d5998211ae86753ef3c00041d1c8a8b18bdc",
       "size": 8269,
-      "lastModified": "2026-05-27T22:34:42.9144075Z"
+      "lastModified": "2026-06-25T15:27:43.5773758Z"
     },
     {
       "path": "wwwroot/js/monaco-frx.js.br",
       "hash": "f6c8633ee74be0cd17d70b024f5e0d6c833160aeece99f2a5d4060fc0e384340",
       "size": 849,
-      "lastModified": "2026-06-24T16:20:03.1654326Z"
+      "lastModified": "2026-06-25T15:27:58.7967028Z"
     },
     {
       "path": "wwwroot/js/indexedDb.js.br",
@@ -2262,7 +2280,7 @@
       "path": "wwwroot/js/apexcharts.min.js.br",
       "hash": "a60d4ffadb297a898e782314a65f415feb0fb56ea62d517cde405a60052e970a",
       "size": 131830,
-      "lastModified": "2026-06-24T16:20:04.3911131Z"
+      "lastModified": "2026-06-25T15:28:00.39237Z"
     },
     {
       "path": "wwwroot/js/qzInterop.js",
@@ -2292,13 +2310,13 @@
       "path": "wwwroot/js/theme.js.br",
       "hash": "97471d08bf83c2d0ba46bbc6450f6031303eebd712016947bad0afa9f46d81c2",
       "size": 362,
-      "lastModified": "2026-06-03T15:42:55.6109756Z"
+      "lastModified": "2026-06-25T15:27:58.5699062Z"
     },
     {
       "path": "wwwroot/js/iconPrefetch.js.gz",
       "hash": "1cd616af43a39fd61442980cbe9214b011627d31989754ffa27b0aec2614bfc3",
       "size": 1440,
-      "lastModified": "2026-05-27T22:34:42.8901046Z"
+      "lastModified": "2026-06-25T15:27:43.7157671Z"
     },
     {
       "path": "wwwroot/js/indexedDb.js",
@@ -2310,19 +2328,19 @@
       "path": "wwwroot/js/firebase-push.js.gz",
       "hash": "1fd9c4eb0e468f48cdac328b9e2d641d893388616f3e187783ab88663e233d8d",
       "size": 1893,
-      "lastModified": "2026-06-24T16:19:39.1066226Z"
+      "lastModified": "2026-06-25T15:27:43.717222Z"
     },
     {
       "path": "wwwroot/js/utils.js.br",
       "hash": "dea1cc3e30efc047dddc1504bacdc1d4dcdc9121caa34a1bd599f74066554a82",
       "size": 3853,
-      "lastModified": "2026-06-24T16:20:03.1834204Z"
+      "lastModified": "2026-06-25T15:27:58.6241625Z"
     },
     {
       "path": "wwwroot/js/iconBundle.js.gz",
       "hash": "4acb69fe0f46d84820624a06ab78f48d71ee3c4a55e052f013b5b00890f70538",
       "size": 24517,
-      "lastModified": "2026-05-27T22:34:42.9189747Z"
+      "lastModified": "2026-06-25T15:27:43.5733397Z"
     },
     {
       "path": "wwwroot/js/apexcharts.min.js",
@@ -2334,13 +2352,13 @@
       "path": "wwwroot/js/iconify-icon.min.js.br",
       "hash": "bd23cc549d154c651d20d901731fa69acac25866fcea7ec742601076ec7a3163",
       "size": 7464,
-      "lastModified": "2026-06-03T15:42:55.5458034Z"
+      "lastModified": "2026-06-25T15:27:58.7696353Z"
     },
     {
       "path": "wwwroot/js/dashboard.js.gz",
       "hash": "6c75cb71f064fb5d55d48fab2d0acc7b8dbb0904924d50cd898098b990d963a7",
       "size": 1004,
-      "lastModified": "2026-06-24T16:19:39.1029426Z"
+      "lastModified": "2026-06-25T15:27:43.7172454Z"
     },
     {
       "path": "wwwroot/js/iconPrefetch.js",
@@ -2358,13 +2376,13 @@
       "path": "wwwroot/js/monaco-frx.js.gz",
       "hash": "e271fd1ebc014ecf19f830a76e4de4e786c9151f372751e05033b71cb81b0470",
       "size": 1061,
-      "lastModified": "2026-06-24T16:19:39.1085057Z"
+      "lastModified": "2026-06-25T15:27:43.7175372Z"
     },
     {
       "path": "wwwroot/js/qzInterop.js.gz",
       "hash": "8aebf8549d276b43e6d858c516ff202234a80645e828fb2fafc97936749d7de8",
       "size": 854,
-      "lastModified": "2026-05-27T22:34:42.8905999Z"
+      "lastModified": "2026-06-25T15:27:43.5703564Z"
     },
     {
       "path": "wwwroot/js/utils.js",
@@ -2382,7 +2400,7 @@
       "path": "wwwroot/js/apexcharts.min.js.gz",
       "hash": "00eca514f468292e1667f6612aea62b00ecb17dce0b0c18c3128d3495bc6209b",
       "size": 164222,
-      "lastModified": "2026-06-24T16:19:39.1170638Z"
+      "lastModified": "2026-06-25T15:27:43.5862415Z"
     },
     {
       "path": "wwwroot/js/iconBundle.js",
@@ -2499,46 +2517,16 @@
       "lastModified": "2026-06-24T20:43:33.0303615Z"
     },
     {
-      "path": "wwwroot/_framework/System.Collections.Immutable.8fqxanabor.wasm.gz",
-      "hash": "9cff93685087b6f01736d479689583f7e76d8df1f85cb5b9482aeb4a0c985af2",
-      "size": 25549,
-      "lastModified": "2026-06-03T15:42:35.5106132Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Collections.Specialized.29dfcft948.wasm.br",
-      "hash": "f17f53859642ebcd42a6705675f9683617e2b586e096c7b6fa9e0d79fede1df5",
-      "size": 6303,
-      "lastModified": "2026-06-03T15:42:35.8751775Z"
-    },
-    {
       "path": "wwwroot/_framework/blazor.webassembly.js.gz",
       "hash": "53b2bd9f10f19540449dec10c71900223adda92386960ade3a7164c6a5933a38",
       "size": 18113,
       "lastModified": "2026-05-27T22:34:28.8601502Z"
     },
     {
-      "path": "wwwroot/_framework/System.Private.Uri.l9khwew8cd.wasm.br",
-      "hash": "0bfb8ca2d9698f4993c9bbb40ef8990e9139629e8ea38f14e32c21d1b07b6162",
-      "size": 29338,
-      "lastModified": "2026-06-03T15:42:36.6525174Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Linq.Expressions.lsn8238f1m.wasm.br",
-      "hash": "3a9bc6d40c95c35a04c96b53bd65ff621c5e7dcd7ad28fb6d27c1fe83922e9da",
-      "size": 139374,
-      "lastModified": "2026-06-03T15:42:39.1551513Z"
-    },
-    {
       "path": "wwwroot/_framework/dotnet.runtime.opaiwunc3t.js.gz",
       "hash": "2a9cc19692f2cedff64ce952878faa79766c0db1eac3372df667e0af4a7ced84",
       "size": 56233,
       "lastModified": "2026-06-24T20:42:39.5050526Z"
-    },
-    {
-      "path": "wwwroot/_framework/ProERP.Client.zmanbsxmq2.wasm",
-      "hash": "9b0071e524e48e75504fca4ed9c191be924955dca7b5bdeebe0f026aa663abb4",
-      "size": 202005,
-      "lastModified": "2026-06-24T16:19:59.3027083Z"
     },
     {
       "path": "wwwroot/_framework/Radzen.Blazor.b690vsoizk.wasm",
@@ -2571,12 +2559,6 @@
       "lastModified": "2026-06-24T20:43:33.0231249Z"
     },
     {
-      "path": "wwwroot/_framework/System.IO.Compression.Brotli.106v47ja0k.wasm",
-      "hash": "df1f7c0e2b4def839f747458e9cdc00c1c5014163d3867757b4d9f9fd1482b94",
-      "size": 6421,
-      "lastModified": "2026-06-03T15:42:32.5940909Z"
-    },
-    {
       "path": "wwwroot/_framework/System.Collections.Specialized.h33ekc04dj.wasm.br",
       "hash": "128395c03b241e5694860d76f5f02a364e25e855b8600fa1cefadedb961bc099",
       "size": 6340,
@@ -2589,16 +2571,10 @@
       "lastModified": "2026-06-24T20:43:33.2901067Z"
     },
     {
-      "path": "wwwroot/_framework/ProERP.Application.wh1o26pgpp.wasm.gz",
-      "hash": "cb31e915989237888569540fb787f6ca3d1e71f643e1f3f0257b5fcc45db785b",
-      "size": 171210,
-      "lastModified": "2026-06-04T23:22:21.5759516Z"
-    },
-    {
       "path": "wwwroot/_framework/blazor.boot.json",
       "hash": "05c59a00ec5c7915dca62de96ce08ac534a4dc00ab478e207c77eccfb87ce338",
       "size": 18864,
-      "lastModified": "2026-06-25T15:30:07.7153447Z"
+      "lastModified": "2026-06-25T15:32:49.8407284Z"
     },
     {
       "path": "wwwroot/_framework/System.ObjectModel.mn27weeue8.wasm.gz",
@@ -2625,30 +2601,6 @@
       "lastModified": "2026-06-03T15:42:37.2504398Z"
     },
     {
-      "path": "wwwroot/_framework/System.Net.Primitives.hekyz79b0n.wasm",
-      "hash": "37957bac1c00d016a3313d058dfc11aa098bf46899d54963c5319d29e65cfa07",
-      "size": 7445,
-      "lastModified": "2026-06-03T15:42:33.0033369Z"
-    },
-    {
-      "path": "wwwroot/_framework/ProERP.Client.ak9ihgz9t1.wasm.br",
-      "hash": "e8bbb12fbbb6abd8cbe50afc32d97c878cf159cb92a9e7b1e4792e6e406155fe",
-      "size": 49730,
-      "lastModified": "2026-06-04T23:22:22.2691518Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Security.Claims.7cen9mj8g3.wasm.gz",
-      "hash": "5d0f65cbfeb36167b5cfd450f0de3961412727047e08c72a2ea70da9b39ec296",
-      "size": 2790,
-      "lastModified": "2026-06-03T15:42:35.5095802Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Diagnostics.TraceSource.smrxkg31k7.wasm",
-      "hash": "dcb1a1fe365ecd11f30634e18fefd3f78ecc577738a2749733c605a2750881c7",
-      "size": 22293,
-      "lastModified": "2026-06-03T15:42:32.4848026Z"
-    },
-    {
       "path": "wwwroot/_framework/System.Linq.Expressions.xlc84eb8wy.wasm",
       "hash": "d51dc14b996be27a312a60c1206dd746f3ace88ab352ecde3b7fb9f50185b129",
       "size": 443157,
@@ -2659,12 +2611,6 @@
       "hash": "93451ad184546cfd179189df5a9ba098b083187e42ad54ed47e22f9e5cef153f",
       "size": 99605,
       "lastModified": "2026-06-24T20:43:32.4062145Z"
-    },
-    {
-      "path": "wwwroot/_framework/ProERP.Application.854fw9eam3.wasm.gz",
-      "hash": "6cb5eddcefb6a023918225a0b26df2cdbde873616a33f26b466b8b1546eff7b1",
-      "size": 171306,
-      "lastModified": "2026-06-06T23:07:42.0014344Z"
     },
     {
       "path": "wwwroot/_framework/System.Memory.crik8b60o7.wasm",
@@ -2685,28 +2631,10 @@
       "lastModified": "2026-06-24T16:19:59.9060927Z"
     },
     {
-      "path": "wwwroot/_framework/System.Runtime.InteropServices.f1awgqivxx.wasm.br",
-      "hash": "0b732bbf327f969e8371b732b2de7ccb5eedab259fd79edfa96271085182b9ff",
-      "size": 2977,
-      "lastModified": "2026-06-03T15:42:35.8695463Z"
-    },
-    {
       "path": "wwwroot/_framework/Microsoft.AspNetCore.Components.Forms.o9iakyungi.wasm.br",
       "hash": "f2b1a3bc9c4f6f9d4b563fa6815c9fb962a8b27d96f3e745f42f544f45fb4731",
       "size": 10648,
       "lastModified": "2026-06-03T15:42:35.9123557Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Xml.Linq.5pth2pwj0z.wasm.br",
-      "hash": "2011825831a4e22407dade3f9734a21601b30304c6b13e337f5d3f355df012c0",
-      "size": 1414,
-      "lastModified": "2026-06-03T15:42:36.3625554Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.ComponentModel.TypeConverter.83xclysgk8.wasm.gz",
-      "hash": "ade71ea8e47080de606124534e880af1dd80789fb8d2c044ec19e305d4cfe9ef",
-      "size": 53236,
-      "lastModified": "2026-06-03T15:42:35.5154042Z"
     },
     {
       "path": "wwwroot/_framework/ExcelNumberFormat.zkc9yronjy.wasm.gz",
@@ -2721,22 +2649,10 @@
       "lastModified": "2026-06-24T20:43:30.0592436Z"
     },
     {
-      "path": "wwwroot/_framework/System.IO.Compression.w6ti3rd6d7.wasm",
-      "hash": "48e3db33c813644832c8a558a10ba96d42223f12031e64137ae5364e722055c8",
-      "size": 76565,
-      "lastModified": "2026-06-03T15:42:32.5949818Z"
-    },
-    {
       "path": "wwwroot/_framework/System.Linq.Dynamic.Core.c0pyo63s64.wasm.gz",
       "hash": "a684545b08512e7378747ece2bc88110981a472a2d4d465d18ad8c3828e17f11",
       "size": 89608,
       "lastModified": "2026-06-03T15:42:35.5279275Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Text.RegularExpressions.5bg4v447s4.wasm.br",
-      "hash": "840febd3df193de01d0e721e07208aa957a2c6a3d6b5bf154ecd895b3fd3d3ad",
-      "size": 99586,
-      "lastModified": "2026-06-03T15:42:39.442926Z"
     },
     {
       "path": "wwwroot/_framework/Microsoft.Extensions.Logging.5g1hnmwyc5.wasm.gz",
@@ -2757,18 +2673,6 @@
       "lastModified": "2026-06-24T20:43:30.0556217Z"
     },
     {
-      "path": "wwwroot/_framework/System.Core.owfhok68bb.wasm",
-      "hash": "384db479a9831547ba7d54934c1591646252f322bfdc8c5efbf20a82edf2f0ac",
-      "size": 4373,
-      "lastModified": "2026-06-03T15:42:32.1477755Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Core.owfhok68bb.wasm.br",
-      "hash": "65b7095400df8ad8b1904e34893b6aeb77f9d6b28c4e006fe285d1bd4a2c6c3d",
-      "size": 1457,
-      "lastModified": "2026-06-03T15:42:36.3177828Z"
-    },
-    {
       "path": "wwwroot/_framework/System.Reflection.Metadata.r1qsharyoy.wasm.gz",
       "hash": "91284fe619a1ae2e027304c3e405bc9f58bf4e20900c26d94bd69c5293833c7e",
       "size": 31943,
@@ -2785,12 +2689,6 @@
       "hash": "08d35f7cbeb5d6fe883957dd3080062d1a4851368780e628e5e7608d05fd3ac5",
       "size": 637529,
       "lastModified": "2026-06-03T15:42:35.5999578Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.IO.Compression.Brotli.106v47ja0k.wasm.gz",
-      "hash": "1b76ec455a8a7a2a8ef609f14b9a0d3b8888e29bf3711dfc52ca238e21654010",
-      "size": 2590,
-      "lastModified": "2026-06-03T15:42:35.5064136Z"
     },
     {
       "path": "wwwroot/_framework/System.Buffers.y1myjli26e.wasm.br",
@@ -2817,12 +2715,6 @@
       "lastModified": "2026-06-24T20:43:32.7413665Z"
     },
     {
-      "path": "wwwroot/_framework/System.Diagnostics.Debug.6zy9y3livg.wasm.br",
-      "hash": "875a851a2cd9d6a502afc29f270c816251615269b8b3648dd6b6f3b6d03ddc06",
-      "size": 1623,
-      "lastModified": "2026-06-03T15:42:36.2472446Z"
-    },
-    {
       "path": "wwwroot/_framework/Microsoft.Extensions.DependencyInjection.Abstractions.ea8ydkpa40.wasm.gz",
       "hash": "8cf7705e52c9aee77405eb9b31e0725dd4d5f9dba99c534eb3efce3825533678",
       "size": 11583,
@@ -2833,12 +2725,6 @@
       "hash": "666e84096d44a25a4cc47f3123b9a8dd978e3df561fbd2bbc13d42468e728fac",
       "size": 3507,
       "lastModified": "2026-06-24T20:43:33.0272298Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Runtime.0v3t1mdg3y.wasm.gz",
-      "hash": "b9138a8a70bef1404b493a9c4d84212da131a209c527f8984a834a5fb4c1ad18",
-      "size": 4342,
-      "lastModified": "2026-06-03T15:42:35.5044853Z"
     },
     {
       "path": "wwwroot/_framework/System.IO.Compression.Brotli.y5a9pr7hbk.wasm.gz",
@@ -2865,52 +2751,16 @@
       "lastModified": "2026-06-24T20:43:33.4729418Z"
     },
     {
-      "path": "wwwroot/_framework/System.Drawing.qhohfrl19f.wasm.gz",
-      "hash": "016e82433c6017c52245b06da61387015487fbe1412d56c4ecde333e2d7c122f",
-      "size": 1857,
-      "lastModified": "2026-06-03T15:42:35.5200416Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Resources.ResourceManager.dbeknebgal.wasm.gz",
-      "hash": "78426a8d1facf1b9cfe76afbfba5455d0d64a8908e1f5c0a72aaa6b315e1958e",
-      "size": 1813,
-      "lastModified": "2026-06-03T15:42:35.5103093Z"
-    },
-    {
       "path": "wwwroot/_framework/Microsoft.Extensions.Logging.Abstractions.i3yjxswrol.wasm",
       "hash": "a25baba7f0c53113f6d2dd1d8c47f2f3a1f9d24464a819efee6ed125143d5865",
       "size": 27413,
       "lastModified": "2026-06-03T15:42:30.7399041Z"
     },
     {
-      "path": "wwwroot/_framework/System.Runtime.InteropServices.JavaScript.pkvqfb5bgf.wasm.br",
-      "hash": "742d73fceca1a18c62cfe44d35464167710a8181a76cf01046a1008c633ad4d9",
-      "size": 16693,
-      "lastModified": "2026-06-03T15:42:36.0328916Z"
-    },
-    {
-      "path": "wwwroot/_framework/dotnet.runtime.dstopyvqzi.js.gz",
-      "hash": "e0fbbbc1021144f9d87e2af4a455672d0697a350ba3f94f55d906fe633adddb1",
-      "size": 56235,
-      "lastModified": "2026-05-27T22:34:29.0121044Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Reflection.Metadata.vuv8pc2bvj.wasm.br",
-      "hash": "079d17d77f8224704df15576cb238ae34b774e9a32b65eae6474a5531d8c2a2c",
-      "size": 25708,
-      "lastModified": "2026-06-03T15:42:36.2033488Z"
-    },
-    {
       "path": "wwwroot/_framework/System.Linq.Parallel.9ww5r9sm96.wasm.br",
       "hash": "21c35c72059cf0d66bd40f2ec29b319a74d528597e79f3b0fff71cfd57b21c4b",
       "size": 2811,
       "lastModified": "2026-06-24T20:43:33.2752336Z"
-    },
-    {
-      "path": "wwwroot/_framework/ProERP.Domain.yfxtlbot5m.wasm",
-      "hash": "8e4f288eecd203fd48a8205bcdc447ce175fd415b41024e984ac416246ba8096",
-      "size": 112405,
-      "lastModified": "2026-06-06T23:07:41.2831415Z"
     },
     {
       "path": "wwwroot/_framework/System.ObjectModel.mn27weeue8.wasm",
@@ -2949,18 +2799,6 @@
       "lastModified": "2026-06-03T15:42:30.409153Z"
     },
     {
-      "path": "wwwroot/_framework/System.Runtime.Extensions.12k8ctrwrc.wasm",
-      "hash": "7718a8290ab003e49eb44d7d19c17a37584094b81f97694df4e0fb29d83d47fa",
-      "size": 4885,
-      "lastModified": "2026-06-03T15:42:33.5123774Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.ComponentModel.wkjno0gsg1.wasm.br",
-      "hash": "174cf6da9a16210b76b98fcc975fb5c4f6da2319a8ad387ec5d09c11f5335359",
-      "size": 1777,
-      "lastModified": "2026-06-03T15:42:36.2479325Z"
-    },
-    {
       "path": "wwwroot/_framework/System.Reflection.Metadata.r1qsharyoy.wasm",
       "hash": "dfbb2d8b64da59f61932f9dcc609ca0ce2bce2ba270720f16c63c750d57e6401",
       "size": 72469,
@@ -2971,18 +2809,6 @@
       "hash": "a7c9475c60c452a2526ab5ea7ab33aa9ac94b0a15c778fd41eda05f0667e7419",
       "size": 4580,
       "lastModified": "2026-06-24T20:43:33.0209307Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Diagnostics.TraceSource.smrxkg31k7.wasm.br",
-      "hash": "9541ac7db5037288c18f2ad525786f912f90ec2a4610a0cdccfb14d18d93c333",
-      "size": 9600,
-      "lastModified": "2026-06-03T15:42:35.9032228Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Memory.80ffu6x6p6.wasm.gz",
-      "hash": "6eab986d0d08477a28523d8e205f09195aa31bfe8829819facbf094d898722ee",
-      "size": 7372,
-      "lastModified": "2026-06-03T15:42:35.5272137Z"
     },
     {
       "path": "wwwroot/_framework/System.Runtime.Numerics.7b8q1myfek.wasm.br",
@@ -2997,28 +2823,10 @@
       "lastModified": "2026-06-24T20:43:33.3698238Z"
     },
     {
-      "path": "wwwroot/_framework/System.Net.Http.Json.wwvz3kqrwz.wasm",
-      "hash": "509faf9c48a62ca30d73cf1a114d93b2126a0bebd3c0f386c91496cf6cebc1f7",
-      "size": 22805,
-      "lastModified": "2026-06-03T15:42:32.9434078Z"
-    },
-    {
-      "path": "wwwroot/_framework/ProERP.Application.wh1o26pgpp.wasm",
-      "hash": "6c38f292b27fec1aad63eb263862a215ded036848a0d93098445bdbb1e066b64",
-      "size": 521493,
-      "lastModified": "2026-06-04T23:22:20.2994762Z"
-    },
-    {
       "path": "wwwroot/_framework/Microsoft.Extensions.Caching.Abstractions.1xi2sz6wl6.wasm.gz",
       "hash": "8edfb7165a6508ee982ec3ce9358eb1be5aa2e5e9b74ec612d32d8a32c5b9d9e",
       "size": 2609,
       "lastModified": "2026-06-03T15:42:35.5247825Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Security.Cryptography.r3myw5lva2.wasm.gz",
-      "hash": "79963867cdf5842740feb7665133aab86cb81c3d872ed84515f5403fb24b2fb5",
-      "size": 10699,
-      "lastModified": "2026-06-03T15:42:35.5187332Z"
     },
     {
       "path": "wwwroot/_framework/System.Numerics.Vectors.rf0p4vbr5s.wasm.br",
@@ -3039,28 +2847,10 @@
       "lastModified": "2026-06-24T20:43:34.7338589Z"
     },
     {
-      "path": "wwwroot/_framework/netstandard.uv0msijq2u.wasm.gz",
-      "hash": "bd8bde599e97337434ccb95fe0060a61208da41bc2156ed71cc15b46645d141e",
-      "size": 4585,
-      "lastModified": "2026-06-03T15:42:35.5107369Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Xml.Linq.5pth2pwj0z.wasm",
-      "hash": "99b6063f42c63dce6fbc0701b094b25b99776c2066bee65c3ed24cfe90acc2b0",
-      "size": 4373,
-      "lastModified": "2026-06-03T15:42:34.6455473Z"
-    },
-    {
       "path": "wwwroot/_framework/ClosedXML.Parser.kcd8ka7nog.wasm.gz",
       "hash": "5613305f58721a4eda11cb65e9622971eb65f223589531f9ed7da66d4448cfc7",
       "size": 45166,
       "lastModified": "2026-06-03T15:42:35.515423Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Xml.XDocument.je4g8kh7uc.wasm",
-      "hash": "b5dd80411b2b4d74813b5766e8089349d2b3a66dfdd946e6cdfbd27809521f61",
-      "size": 4885,
-      "lastModified": "2026-06-03T15:42:34.7457619Z"
     },
     {
       "path": "wwwroot/_framework/DocumentFormat.OpenXml.Framework.kkptvh3mad.wasm.br",
@@ -3075,12 +2865,6 @@
       "lastModified": "2026-06-03T15:42:30.6286518Z"
     },
     {
-      "path": "wwwroot/_framework/System.Collections.NonGeneric.qehs4bje9t.wasm.gz",
-      "hash": "691b2adf7597bc4d331a6e2584f84d04c8369cf24f2d26fd970003e15bf65500",
-      "size": 6869,
-      "lastModified": "2026-06-03T15:42:35.5168597Z"
-    },
-    {
       "path": "wwwroot/_framework/Microsoft.AspNetCore.Components.ebt04gmke9.wasm.gz",
       "hash": "666350794b79693ec3a9e3a7d844c5180f1dfb8bf2f98fbce8fbeacfbe810437",
       "size": 104023,
@@ -3093,12 +2877,6 @@
       "lastModified": "2026-06-24T16:20:00.3083234Z"
     },
     {
-      "path": "wwwroot/_framework/System.Private.Xml.4nnplzjmww.wasm.br",
-      "hash": "893db227666f2e06de2eed13fcce69c6b4ba5ea6755e092e62ece97fa2938825",
-      "size": 362823,
-      "lastModified": "2026-06-03T15:42:41.1669202Z"
-    },
-    {
       "path": "wwwroot/_framework/System.Runtime.InteropServices.JavaScript.oi1p6xyhwl.wasm.br",
       "hash": "d61f50feb768c6f2c543a33018a7afac6bb264128dbd5a8cc15741ed3e36b8b8",
       "size": 16718,
@@ -3109,42 +2887,6 @@
       "hash": "b07068f72cd4eee5a5aee809b9013e1d80e6a07d4ff46983268057f99484f33d",
       "size": 33616,
       "lastModified": "2026-06-24T20:43:33.0292716Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Runtime.InteropServices.RuntimeInformation.p6o2imnys4.wasm.br",
-      "hash": "7d21554defa3488f097c4fd87bdc8f9fefa25ffdb54eb23b664e7942284e4bfd",
-      "size": 1612,
-      "lastModified": "2026-06-03T15:42:35.8356645Z"
-    },
-    {
-      "path": "wwwroot/_framework/ProERP.Domain.rvo23schu5.wasm",
-      "hash": "89425e159bdc2c9aac8ea42a21307ade31e8e71a33a0120ee6ebdc557ecf1d68",
-      "size": 111893,
-      "lastModified": "2026-06-03T15:42:31.2937395Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Threading.pudfqb04a9.wasm",
-      "hash": "1fa60ed5f886a4f0d78a216fedf7cae541ac9614a375d7b90430603381f4e66e",
-      "size": 12053,
-      "lastModified": "2026-06-03T15:42:34.4937479Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Diagnostics.DiagnosticSource.965iu6x567.wasm.br",
-      "hash": "3f0e0737c3ebc91afba654523e02eb7176498009810c81d4f6bf53dc102cc370",
-      "size": 9727,
-      "lastModified": "2026-06-03T15:42:36.3367337Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.IO.MemoryMappedFiles.if61q6v1h6.wasm",
-      "hash": "32c7fada08d81e80de388d1ce0846a54ddf14c012d0d774dd10f75c9feb6f85c",
-      "size": 24341,
-      "lastModified": "2026-06-03T15:42:32.5965432Z"
-    },
-    {
-      "path": "wwwroot/_framework/ProERP.Domain.yfxtlbot5m.wasm.gz",
-      "hash": "6d4f04e4a2daec9506f0073869d42a7bf99051afffeaffdc84d9ae9977314fab",
-      "size": 41556,
-      "lastModified": "2026-06-06T23:07:41.9936214Z"
     },
     {
       "path": "wwwroot/_framework/System.Text.Encodings.Web.dy2f9ldo82.wasm.br",
@@ -3162,7 +2904,7 @@
       "path": "wwwroot/_framework/blazor.boot.json.br",
       "hash": "ec91d31d3f5dfc5a2768b99a0b4095ad5e89d27ccfa474d36e841da6b6f70b4d",
       "size": 5701,
-      "lastModified": "2026-06-25T15:30:07.9732352Z"
+      "lastModified": "2026-06-25T15:32:50.1864281Z"
     },
     {
       "path": "wwwroot/_framework/Microsoft.JSInterop.WebAssembly.heoad7mujs.wasm",
@@ -3177,24 +2919,6 @@
       "lastModified": "2026-06-24T20:43:33.0251871Z"
     },
     {
-      "path": "wwwroot/_framework/System.Reflection.Emit.bl5vxb4hfz.wasm.br",
-      "hash": "c757192d1e0b7736a808625c70cb878a6c3a15a1f2a45731c309a046d0217979",
-      "size": 4755,
-      "lastModified": "2026-06-03T15:42:35.8910078Z"
-    },
-    {
-      "path": "wwwroot/_framework/ProERP.Client.goe4susu69.wasm.gz",
-      "hash": "e59c17c44ca51fc00955c794f7f8457f4db295b650a1b5cf72ed312d27a05804",
-      "size": 61973,
-      "lastModified": "2026-06-06T23:07:41.9949475Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Security.Claims.7cen9mj8g3.wasm",
-      "hash": "a966120f59f74d30bd1311587c2367e0f88d7ff87811bda728ce04ef48ead00d",
-      "size": 6933,
-      "lastModified": "2026-06-03T15:42:33.6271848Z"
-    },
-    {
       "path": "wwwroot/_framework/SixLabors.Fonts.1ntl3xbxha.wasm.br",
       "hash": "0866c7dd09d39020bafc7904a5e618ab17dc5569f91c416701e68c43c07fdb48",
       "size": 211132,
@@ -3207,28 +2931,10 @@
       "lastModified": "2026-06-03T15:42:35.5284244Z"
     },
     {
-      "path": "wwwroot/_framework/System.Xml.XDocument.je4g8kh7uc.wasm.br",
-      "hash": "edd9e39e4f9488217feb27d2c436c2bad69373e587bdf26475360232f1034151",
-      "size": 1660,
-      "lastModified": "2026-06-03T15:42:36.389464Z"
-    },
-    {
       "path": "wwwroot/_framework/System.IO.Compression.6igz8skjmx.wasm.br",
       "hash": "1df3af73029aadb42e7594b7fa5b4fc30a3d35dd5032bc2c71749d85219d30c4",
       "size": 29656,
       "lastModified": "2026-06-24T20:43:33.5628281Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Linq.Queryable.2yhpbqwryx.wasm.br",
-      "hash": "c23cb7f2563aa2fd0f24b0f0c7dcc1ae17e4bee67dd01e22c84148c6c048b6ae",
-      "size": 14965,
-      "lastModified": "2026-06-03T15:42:36.013304Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Private.CoreLib.b317a771ws.wasm.br",
-      "hash": "9eb22b2eb8ec874115c58dae2d8637b065fbd0e6cbca6df58d7d2655084aa9e8",
-      "size": 664694,
-      "lastModified": "2026-06-03T15:42:44.4727195Z"
     },
     {
       "path": "wwwroot/_framework/RBush.048ali807d.wasm",
@@ -3237,40 +2943,10 @@
       "lastModified": "2026-06-03T15:42:31.5727461Z"
     },
     {
-      "path": "wwwroot/_framework/System.Runtime.0v3t1mdg3y.wasm",
-      "hash": "cc412b462f5474c15d91f7110cb073522d7836985f2b87c52808900a008175be",
-      "size": 12565,
-      "lastModified": "2026-06-03T15:42:33.5709223Z"
-    },
-    {
       "path": "wwwroot/_framework/System.Linq.8cqhqxqzke.wasm.gz",
       "hash": "dc428d71fc3b2b193fdda54f791a1fc93ff8471ca4757c818f4d4d2a4b611af6",
       "size": 51353,
       "lastModified": "2026-06-24T20:43:33.0298143Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Diagnostics.DiagnosticSource.965iu6x567.wasm",
-      "hash": "b1f017858981df985880db3c22ee340fb53f7b4dab221cca65a54f893537dc49",
-      "size": 22805,
-      "lastModified": "2026-06-03T15:42:32.3747385Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Reflection.Emit.ILGeneration.ti6nzzrakr.wasm.br",
-      "hash": "581bb634f0d9ac33da134f5b1a688ccccf1075a4bb8edccd58d1dfc998563bee",
-      "size": 1720,
-      "lastModified": "2026-06-03T15:42:35.8382177Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Console.2zca6o6q5z.wasm",
-      "hash": "2e665ea5763130ba6df009ef89a9fd2c68bb1718bf0151d7b154b84f3b183401",
-      "size": 15125,
-      "lastModified": "2026-06-03T15:42:32.0946639Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Drawing.Primitives.zxgt270can.wasm.gz",
-      "hash": "01ab44b80d53c460cf0f34ef1c25fc428352cc41f32242339a123fd7f29c22b9",
-      "size": 16981,
-      "lastModified": "2026-06-03T15:42:35.5135549Z"
     },
     {
       "path": "wwwroot/_framework/System.Diagnostics.TraceSource.ptjahwk49m.wasm.gz",
@@ -3285,22 +2961,10 @@
       "lastModified": "2026-06-24T20:43:33.4751136Z"
     },
     {
-      "path": "wwwroot/_framework/System.Text.Json.wwr5i1hu18.wasm",
-      "hash": "90a288b9fbe669295f3f7d43bbc1e0480162085058341bd56a0427b9ab50af7f",
-      "size": 382741,
-      "lastModified": "2026-06-03T15:42:34.3901439Z"
-    },
-    {
       "path": "wwwroot/_framework/dotnet.native.ivlp5x6993.wasm",
       "hash": "fe2381169e0f9d5362ffb35d1691392789c488ed202342f4b7c973881f51f3ba",
       "size": 2884724,
       "lastModified": "2026-06-24T20:43:28.7451025Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Net.Primitives.hekyz79b0n.wasm.gz",
-      "hash": "055a19057d84cace7cb9673351a143b2f1f104a0ca07e24a788a0b887033e789",
-      "size": 3441,
-      "lastModified": "2026-06-03T15:42:35.5209834Z"
     },
     {
       "path": "wwwroot/_framework/System.Private.Xml.Linq.jpjq6yjvoj.wasm.gz",
@@ -3319,12 +2983,6 @@
       "hash": "0d6ad625ff8d19b8e3d768aaa4ef947e5e184b46e45b5cb3e89c23a1c535e706",
       "size": 30485,
       "lastModified": "2026-06-03T15:42:30.2405083Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.IO.Compression.w6ti3rd6d7.wasm.br",
-      "hash": "ca9b74f08782c43a02360b0ec5f75d331150e9e78e9c7d9e4b8fe53a601f5bf7",
-      "size": 29871,
-      "lastModified": "2026-06-03T15:42:36.1457297Z"
     },
     {
       "path": "wwwroot/_framework/dotnet.native.ivlp5x6993.wasm.gz",
@@ -3369,12 +3027,6 @@
       "lastModified": "2026-06-24T20:43:33.0272304Z"
     },
     {
-      "path": "wwwroot/_framework/System.Linq.Parallel.jtl6dem411.wasm.gz",
-      "hash": "9fbd66be0d279ee724607ac15a9ee0dff55bfb5fa91da58c8b0ab9e5b6b7f7db",
-      "size": 3213,
-      "lastModified": "2026-06-03T15:42:35.5510425Z"
-    },
-    {
       "path": "wwwroot/_framework/Microsoft.Extensions.Logging.5g1hnmwyc5.wasm",
       "hash": "6bcf35893fe49aadcb9ebc899259d0cec303f77fd6e9d334c7fdf1484dfc7ba2",
       "size": 18197,
@@ -3385,12 +3037,6 @@
       "hash": "d9960a48c812b53e0484c465260ed3fb970e6896fd06075509d6f0a069f18648",
       "size": 4885,
       "lastModified": "2026-06-24T20:43:30.337362Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Diagnostics.Tools.wdc07qyasy.wasm.br",
-      "hash": "5886f2c70d1d728a62aaaef4daa2fa4e31a5626ee8abba109c5cd350378a4e2d",
-      "size": 1636,
-      "lastModified": "2026-06-03T15:42:36.3548063Z"
     },
     {
       "path": "wwwroot/_framework/System.Drawing.fxo7s4zkft.wasm",
@@ -3411,28 +3057,10 @@
       "lastModified": "2026-06-24T20:43:33.3092511Z"
     },
     {
-      "path": "wwwroot/_framework/System.ObjectModel.mmyreq3vwf.wasm.br",
-      "hash": "037a54b2f1a3599c0ecbf665d012fd3a8a5a4551faa958b2659505e4298b5b56",
-      "size": 5393,
-      "lastModified": "2026-06-03T15:42:36.3505463Z"
-    },
-    {
       "path": "wwwroot/_framework/System.Runtime.CompilerServices.Unsafe.h5a08jgsw7.wasm",
       "hash": "9b98ecaa505e7cdcf4a6c1d071ec11047c4c2ace08ed892935a7d5fc08a0c42b",
       "size": 4373,
       "lastModified": "2026-06-24T20:43:32.0973684Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Net.Http.2g6ap1mifw.wasm.gz",
-      "hash": "92ad7da05bdec4c09f3e0963e0fb7d768dd15d9523fc84396257edb52b3b604a",
-      "size": 67021,
-      "lastModified": "2026-06-03T15:42:35.5156155Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.ComponentModel.wkjno0gsg1.wasm",
-      "hash": "2025b49c77ecbf4ade5b5b9eb32ade7be82dbac2ec907e4208b8be488f2e1a23",
-      "size": 4885,
-      "lastModified": "2026-06-03T15:42:32.0399733Z"
     },
     {
       "path": "wwwroot/_framework/System.Runtime.CompilerServices.Unsafe.h5a08jgsw7.wasm.br",
@@ -3445,36 +3073,6 @@
       "hash": "0141c091ba6f997c49195ae9824221886107eca31cf0ee889459fd25763b0072",
       "size": 10769,
       "lastModified": "2026-06-03T15:42:36.2378148Z"
-    },
-    {
-      "path": "wwwroot/_framework/Microsoft.CSharp.10n8vcbbx9.wasm.br",
-      "hash": "0d149cd8c96b12ad703cd434067746839533463f94702d36826f6db4e731f802",
-      "size": 94671,
-      "lastModified": "2026-06-03T15:42:37.1717736Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Threading.pudfqb04a9.wasm.gz",
-      "hash": "e10c173750374f96ecc7ea068e7e19e3d5300cf79b2e23dfa3d967b8d367845c",
-      "size": 4429,
-      "lastModified": "2026-06-03T15:42:35.5255118Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.t250xnkyfs.wasm.gz",
-      "hash": "e761884e3f44a5904f8f52a07309e74c0a805418403078425093bb3b12a5d647",
-      "size": 1681,
-      "lastModified": "2026-06-03T15:42:35.5285297Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Reflection.Primitives.h57hc4htkk.wasm.br",
-      "hash": "599927997125569eead5480972fc5acf4936fd50387b2b98fa2c6f9846011aed",
-      "size": 1659,
-      "lastModified": "2026-06-03T15:42:36.2253212Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Diagnostics.Tools.wdc07qyasy.wasm",
-      "hash": "b4ed8ac10954d8ee0c0f69e1142b00a073b290cb545b419b67313ed5b4669f8d",
-      "size": 4885,
-      "lastModified": "2026-06-03T15:42:32.4290832Z"
     },
     {
       "path": "wwwroot/_framework/System.Resources.ResourceManager.ez79lhklaj.wasm.gz",
@@ -3501,40 +3099,10 @@
       "lastModified": "2026-06-03T15:42:30.521088Z"
     },
     {
-      "path": "wwwroot/_framework/System.ComponentModel.Primitives.6gu0bmdx6f.wasm.gz",
-      "hash": "d7f4492bce5ea5f908d7ad39382f6b8336c4107beca9ba5b5203f1029badf381",
-      "size": 6073,
-      "lastModified": "2026-06-03T15:42:35.503378Z"
-    },
-    {
-      "path": "wwwroot/_framework/ProERP.Client.88r9jcz1x6.wasm.gz",
-      "hash": "d534bb42e959f47683f75d5afc0c776a57996067bc5894baa841f1e0147aa8f8",
-      "size": 61976,
-      "lastModified": "2026-06-03T15:42:35.5192744Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.IO.FileSystem.7vwvqn9v2y.wasm",
-      "hash": "231e6105056592c12e68578bbe2f91f743051bc1080bc0f68275b4f85b903741",
-      "size": 4373,
-      "lastModified": "2026-06-03T15:42:32.5957746Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Collections.327hst7iol.wasm.gz",
-      "hash": "218169c73492811a383a12daa52fd3fecb52d1e4d0cc5fb5666499aa91b58512",
-      "size": 20455,
-      "lastModified": "2026-06-03T15:42:35.5097092Z"
-    },
-    {
       "path": "wwwroot/_framework/System.Text.Json.424xenjgbp.wasm",
       "hash": "cc4c447b71541bd331f2816271946ad95448f1ab7949ad83e77536071e88edcd",
       "size": 382741,
       "lastModified": "2026-06-24T20:43:32.7446019Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.IO.Pipelines.e2rj3jlxa9.wasm",
-      "hash": "c6aee5b4bbd8df0a40805ba839672ba68c9493e75636eb11a5ccb51a27f02b70",
-      "size": 6421,
-      "lastModified": "2026-06-03T15:42:32.6560034Z"
     },
     {
       "path": "wwwroot/_framework/System.IO.FileSystem.sduza9bkip.wasm",
@@ -3555,22 +3123,10 @@
       "lastModified": "2026-06-24T20:43:33.3717584Z"
     },
     {
-      "path": "wwwroot/_framework/System.Private.Xml.Linq.9d2mh98s49.wasm.gz",
-      "hash": "c804b59b7d7ad9088e1727d03bd75580224f853058aa3511541561d35d20356d",
-      "size": 19496,
-      "lastModified": "2026-06-03T15:42:35.5269936Z"
-    },
-    {
       "path": "wwwroot/_framework/System.Collections.Immutable.7fjtdrpozw.wasm",
       "hash": "6defccbde2c425d08cdca13bad928b34cdb76e496ae08b223ad11b148283a9f0",
       "size": 58645,
       "lastModified": "2026-06-24T20:43:29.9985389Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Web.HttpUtility.citajtolop.wasm.gz",
-      "hash": "3d7b6a55d8d1383cb2f5dd4de8e15800e8990c9b0228e3aa97cdc9629b812709",
-      "size": 5654,
-      "lastModified": "2026-06-03T15:42:35.5318262Z"
     },
     {
       "path": "wwwroot/_framework/icudt_EFIGS.tptq2av103.dat.gz",
@@ -3583,12 +3139,6 @@
       "hash": "8e3bc9edb3df9805595b43924d657c80ff7d301852d01717640077856cf42880",
       "size": 12565,
       "lastModified": "2026-06-24T20:43:29.9379081Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Private.CoreLib.b317a771ws.wasm",
-      "hash": "b988d857613c8133bb4dca090476c68f226925b3cbc132ce7ad89f33d7683967",
-      "size": 2242329,
-      "lastModified": "2026-06-03T15:42:33.0089056Z"
     },
     {
       "path": "wwwroot/_framework/System.Security.Claims.g7z3gsnqat.wasm.gz",
@@ -3607,24 +3157,6 @@
       "hash": "50647bab2e9cebd28e16d603f57a1c4e140cb038817ea02e22003919f77784a4",
       "size": 29733,
       "lastModified": "2026-06-24T20:43:33.7099626Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Console.2zca6o6q5z.wasm.gz",
-      "hash": "a0bfaa3e5d00a73e56feaccad302c526f48fb046b0dbe9c0ffd0a9f8b0c95263",
-      "size": 7459,
-      "lastModified": "2026-06-03T15:42:35.5044553Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Collections.Concurrent.y9ec69r3e0.wasm",
-      "hash": "ba324e24764d749fefcf1c0a4b60955dae33c1474e46f46b3343d5a56c6a058e",
-      "size": 24853,
-      "lastModified": "2026-06-03T15:42:31.8056081Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Runtime.Serialization.Formatters.7z5vd5n7qy.wasm.br",
-      "hash": "70472e8c72e36c0f45830e4c08223d404fc13a4c6a010a3748eaa1243d9cd18a",
-      "size": 2438,
-      "lastModified": "2026-06-03T15:42:36.0594935Z"
     },
     {
       "path": "wwwroot/_framework/Microsoft.JSInterop.uu8izyvyxp.wasm.gz",
@@ -3669,12 +3201,6 @@
       "lastModified": "2026-06-03T15:42:43.9027836Z"
     },
     {
-      "path": "wwwroot/_framework/System.Reflection.Emit.bl5vxb4hfz.wasm",
-      "hash": "0f7b129d5ba3eccd565b920183dd86972e7cf80b3498db6a4c14cbb2b3b718c0",
-      "size": 14613,
-      "lastModified": "2026-06-03T15:42:33.4552333Z"
-    },
-    {
       "path": "wwwroot/_framework/System.Text.RegularExpressions.cj110qilkx.wasm",
       "hash": "08c6e73c928c45f576da72847a35e224cdb35d8c595794aeaad21b771c66dcc3",
       "size": 254229,
@@ -3687,28 +3213,10 @@
       "lastModified": "2026-06-24T20:43:30.7745644Z"
     },
     {
-      "path": "wwwroot/_framework/System.IO.Pipelines.e2rj3jlxa9.wasm.gz",
-      "hash": "7ea93c3e249796f907baa49600af081cdb35cee0271a0c4581e97377e8d65164",
-      "size": 3033,
-      "lastModified": "2026-06-03T15:42:35.5247719Z"
-    },
-    {
       "path": "wwwroot/_framework/Microsoft.Extensions.Options.ovqxr3g4pi.wasm.br",
       "hash": "be73feb78c47d1154ca11c1acc421cbf4cbc938a8c27bf5d1a0794ed0a32ed43",
       "size": 7728,
       "lastModified": "2026-06-03T15:42:35.9539884Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.IO.MemoryMappedFiles.if61q6v1h6.wasm.gz",
-      "hash": "4fcd9e307fe9e01327dc62ab8eea3262e01243f1152580d15db8efae4a1c4f3a",
-      "size": 11778,
-      "lastModified": "2026-06-03T15:42:35.5044719Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Collections.Concurrent.y9ec69r3e0.wasm.br",
-      "hash": "0eb877a46bf239c10b2d91ea7e5c8b3976e53d4dfffb4f0d1f5216f0c9608475",
-      "size": 10123,
-      "lastModified": "2026-06-03T15:42:35.9341371Z"
     },
     {
       "path": "wwwroot/_framework/System.ComponentModel.Primitives.38vkhl53eb.wasm",
@@ -3721,12 +3229,6 @@
       "hash": "ee6402e43476563643ad1e8e3ae2cdcd641906afa965f0fcf2342fee131e4d88",
       "size": 25547,
       "lastModified": "2026-06-24T20:43:33.0240147Z"
-    },
-    {
-      "path": "wwwroot/_framework/Microsoft.CSharp.10n8vcbbx9.wasm",
-      "hash": "71c587a6516cde3c23f5d4c61995421a09ef3ed1e07b1863665233f76884aa00",
-      "size": 252181,
-      "lastModified": "2026-06-03T15:42:30.4657005Z"
     },
     {
       "path": "wwwroot/_framework/icudt_CJK.tjcz0u77k5.dat",
@@ -3753,22 +3255,10 @@
       "lastModified": "2026-06-24T20:43:33.4745855Z"
     },
     {
-      "path": "wwwroot/_framework/System.Buffers.eawxfy4p74.wasm.gz",
-      "hash": "49afc2bc95e7d1400226fd4665965f2df5dd87438dcd5b558c30429390779a69",
-      "size": 1775,
-      "lastModified": "2026-06-03T15:42:35.5723097Z"
-    },
-    {
       "path": "wwwroot/_framework/System.Core.il2iyagmfh.wasm.br",
       "hash": "fefc1423d1ebd043626a2ccaba3999fd362a38b2e9530a4106514385c974c727",
       "size": 1458,
       "lastModified": "2026-06-24T20:43:33.2706762Z"
-    },
-    {
-      "path": "wwwroot/_framework/ProERP.Application.0n8vosp4wr.wasm.br",
-      "hash": "ae7e9b5ed3b9fa398652d3225e1b28ed54a9b17ff5bdcb7b266a2e1f1f7670bc",
-      "size": 114802,
-      "lastModified": "2026-06-03T15:42:39.1537042Z"
     },
     {
       "path": "wwwroot/_framework/Microsoft.Extensions.DependencyInjection.Abstractions.ea8ydkpa40.wasm",
@@ -3783,46 +3273,16 @@
       "lastModified": "2026-06-24T20:43:32.1505563Z"
     },
     {
-      "path": "wwwroot/_framework/ProERP.Domain.rvo23schu5.wasm.br",
-      "hash": "3da025bfff79e26cde2dab6e939372aca185884aef4651f1e18aeffd08279f09",
-      "size": 27705,
-      "lastModified": "2026-06-03T15:42:36.3247654Z"
-    },
-    {
-      "path": "wwwroot/_framework/dotnet.native.vz0adxojrz.wasm.gz",
-      "hash": "dd8607a05980cd1c751e95ea5cbcc8a7c52d8cc8f1560d3befc208793ded3f4a",
-      "size": 1200075,
-      "lastModified": "2026-05-27T22:34:28.9960475Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Runtime.InteropServices.RuntimeInformation.p6o2imnys4.wasm",
-      "hash": "f140d41d9e16f8cb2765583cf0f851cf4abc0ef212f89d0d66440e35b2c929f6",
-      "size": 4885,
-      "lastModified": "2026-06-03T15:42:33.5137018Z"
-    },
-    {
       "path": "wwwroot/_framework/System.IO.MemoryMappedFiles.yncwlb6s7n.wasm.br",
       "hash": "40d3b6f60410074328f1984806cf9e2a8fecfb78094d7748fd7e2cf5392fff12",
       "size": 10074,
       "lastModified": "2026-06-24T20:43:33.3639753Z"
     },
     {
-      "path": "wwwroot/_framework/System.Runtime.Numerics.v50pwfovc3.wasm.br",
-      "hash": "753153dafb1848ced3a6d8655a3a1e48140856c94d53947c85756d696aa124f4",
-      "size": 34259,
-      "lastModified": "2026-06-03T15:42:36.3039829Z"
-    },
-    {
       "path": "wwwroot/_framework/System.Private.CoreLib.l35tov0vm7.wasm.gz",
       "hash": "2ea36b7cef17a514c64c29e1e8ba86ce01d42e375ffb3a3d5fae90ea4e7bd8f2",
       "size": 837708,
       "lastModified": "2026-06-24T20:43:33.0803187Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Numerics.Vectors.tbjaxl7fyj.wasm.br",
-      "hash": "a4a4f6c843af689f3526af2f8d1ebfcfcbd418d1ce405d566ab8dd88b68525d1",
-      "size": 1679,
-      "lastModified": "2026-06-03T15:42:36.3064281Z"
     },
     {
       "path": "wwwroot/_framework/System.Threading.xdv64c631g.wasm",
@@ -3843,30 +3303,6 @@
       "lastModified": "2026-06-24T20:43:31.7894749Z"
     },
     {
-      "path": "wwwroot/_framework/System.IO.FileSystem.7vwvqn9v2y.wasm.gz",
-      "hash": "9744f7cc225acf8865265b05dc5e6577ad688b413291c1657654c98d083676ec",
-      "size": 1789,
-      "lastModified": "2026-06-03T15:42:35.5249116Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Text.Json.wwr5i1hu18.wasm.br",
-      "hash": "ed76fed31850cdef34984a90a6ea503b46092d9871738458dca2bf5d6bb2ca3b",
-      "size": 127496,
-      "lastModified": "2026-06-03T15:42:38.2190112Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Runtime.Extensions.12k8ctrwrc.wasm.br",
-      "hash": "bd7f13742e344956f8df00319ffd93710425a567aeca9497f81713cf134ccb70",
-      "size": 1716,
-      "lastModified": "2026-06-03T15:42:35.8741676Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Net.Http.Json.wwvz3kqrwz.wasm.br",
-      "hash": "b5f5205263ff37dabab6becc78cc9eb42d54b03c7032b2c2d2354cd385152ad3",
-      "size": 9449,
-      "lastModified": "2026-06-03T15:42:36.2618582Z"
-    },
-    {
       "path": "wwwroot/_framework/Microsoft.Extensions.Primitives.4dxofymb0o.wasm.gz",
       "hash": "9a05d1a8f53dd5ae96be881d5f6bb967b536b7dc190ae414b7101ef1e9bf394c",
       "size": 5428,
@@ -3879,12 +3315,6 @@
       "lastModified": "2026-06-24T20:43:33.0326096Z"
     },
     {
-      "path": "wwwroot/_framework/System.Text.Encodings.Web.ee5xnkwwte.wasm.gz",
-      "hash": "928e3f97f7ab1b26634aa6308359a3a9e8bb0fcc9af042e66ddd5b0a87101be7",
-      "size": 12701,
-      "lastModified": "2026-06-03T15:42:35.5118829Z"
-    },
-    {
       "path": "wwwroot/_framework/System.Diagnostics.Debug.tvee87hbgf.wasm.br",
       "hash": "72d7b3882327324baa2937106ba57095eba5f9a29731b97cd7b5639f75275747",
       "size": 1592,
@@ -3895,12 +3325,6 @@
       "hash": "961f1b6370c83604e2a862ff73039e55a24675f1367b1d68f0ccf009b9a56591",
       "size": 57249,
       "lastModified": "2024-10-29T13:25:32Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Diagnostics.Debug.6zy9y3livg.wasm",
-      "hash": "52372a788af3f2386c57655952e58bbc3651ca825f433191ae663b51031c6800",
-      "size": 4885,
-      "lastModified": "2026-06-03T15:42:32.3170133Z"
     },
     {
       "path": "wwwroot/_framework/System.Text.Json.424xenjgbp.wasm.gz",
@@ -3927,18 +3351,6 @@
       "lastModified": "2026-06-24T20:43:33.2831635Z"
     },
     {
-      "path": "wwwroot/_framework/System.Linq.5gkwffbhje.wasm.br",
-      "hash": "5923c4db89a045dcb8632c7a41500cc81af70f43da0ecca008467ffc166a89dc",
-      "size": 40798,
-      "lastModified": "2026-06-03T15:42:36.6594641Z"
-    },
-    {
-      "path": "wwwroot/_framework/ProERP.Client.zmanbsxmq2.wasm.br",
-      "hash": "aecae795e394e7484b6042ed071f626f2738bc702cd9f23c0df9f1e09c84c050",
-      "size": 49687,
-      "lastModified": "2026-06-24T16:20:00.5034304Z"
-    },
-    {
       "path": "wwwroot/_framework/System.Net.Http.Json.4ztho7ouz4.wasm.br",
       "hash": "7fb17077f7cad7f4600e8fabb88a0be7ff837ad25ce6e0780918d70479407e8b",
       "size": 9524,
@@ -3949,18 +3361,6 @@
       "hash": "5e4b909b36d781b581009f4cec3e0c162c81cdc1d3741bdc4b039c35ef4f8e00",
       "size": 4357,
       "lastModified": "2026-06-03T15:42:35.5168232Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Runtime.CompilerServices.Unsafe.t2lmfdeob1.wasm.br",
-      "hash": "6f464c2bf26327032c8ab21a6ac303da3117b5a6bd3ed50cdd56ed019c6d79e9",
-      "size": 1591,
-      "lastModified": "2026-06-03T15:42:35.8547747Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Data.Common.vbesml12x0.wasm.br",
-      "hash": "4305a8f7ec16bc812ab0f75837c3636ef9baf98e80c2f137eebb3b89a5f83a72",
-      "size": 160583,
-      "lastModified": "2026-06-03T15:42:38.2875066Z"
     },
     {
       "path": "wwwroot/_framework/DocumentFormat.OpenXml.cjfzuiwx0c.wasm.br",
@@ -3975,34 +3375,10 @@
       "lastModified": "2026-06-24T20:43:33.8399314Z"
     },
     {
-      "path": "wwwroot/_framework/System.Runtime.InteropServices.f1awgqivxx.wasm",
-      "hash": "d392633d5d8b852a575eaea7861dcf38009901e6456ada263a87b2fa2dd08e8f",
-      "size": 9493,
-      "lastModified": "2026-06-03T15:42:33.5144301Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.ComponentModel.Annotations.m5pjphzucl.wasm.br",
-      "hash": "985f8bdea42c8490b8d84ad80ee4972dc71ccbe3469ced4ac06ea3c1f9182939",
-      "size": 11836,
-      "lastModified": "2026-06-03T15:42:36.1719772Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Net.Http.2g6ap1mifw.wasm",
-      "hash": "227c9d4c0f0f8acf3a5a12fe4674f7115868bb3eb24adede73d9d47ac0c64a9c",
-      "size": 149781,
-      "lastModified": "2026-06-03T15:42:33.0024284Z"
-    },
-    {
       "path": "wwwroot/_framework/System.Xml.Linq.2igp66i6bh.wasm.br",
       "hash": "755fdf0f02db840e2c359adf32661094487fc9a7042a82a317f0144c318c660c",
       "size": 1423,
       "lastModified": "2026-06-24T20:43:33.3659005Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Numerics.Vectors.tbjaxl7fyj.wasm",
-      "hash": "a71a6e24666d1f12f9308a709d4914f1024a316ab08a342b3365ce13db94a336",
-      "size": 4885,
-      "lastModified": "2026-06-03T15:42:33.0039686Z"
     },
     {
       "path": "wwwroot/_framework/ProERP.Domain.hxcu7s2gvh.wasm",
@@ -4011,34 +3387,16 @@
       "lastModified": "2026-06-24T16:19:59.3069328Z"
     },
     {
-      "path": "wwwroot/_framework/System.Resources.ResourceManager.dbeknebgal.wasm",
-      "hash": "79a45828867bb2cb12da4c9033de83c2f685517ed57fd61fbfe6c7c4169368ca",
-      "size": 4885,
-      "lastModified": "2026-06-03T15:42:33.5110577Z"
-    },
-    {
       "path": "wwwroot/_framework/System.Net.Primitives.75lp42aqqu.wasm.gz",
       "hash": "0ebac7db11f07431513436b02b25de22b845f48fc731d29b710f964d50138b98",
       "size": 3436,
       "lastModified": "2026-06-24T20:43:33.032879Z"
     },
     {
-      "path": "wwwroot/_framework/dotnet.native.xsn1d6x2kd.js.gz",
-      "hash": "0ff4159c48e5e9ef5f3253460b0ad0c3d5bf40a3e5085cda022c40ea1a10f02e",
-      "size": 35024,
-      "lastModified": "2026-05-27T22:34:29.0464568Z"
-    },
-    {
       "path": "wwwroot/_framework/ClosedXML.6d8ybop3kc.wasm.br",
       "hash": "719e003ccfc6bea80ece9745b0ee6c982a1976b71de7dbab11a50bfe85b0a799",
       "size": 497058,
       "lastModified": "2026-06-03T15:42:43.2049536Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.IO.Compression.Brotli.106v47ja0k.wasm.br",
-      "hash": "32f4f1bcc3b97de64b28da228301f8e398402063a1c33522b300d289df647a32",
-      "size": 2262,
-      "lastModified": "2026-06-03T15:42:36.0937464Z"
     },
     {
       "path": "wwwroot/_framework/System.Buffers.y1myjli26e.wasm.gz",
@@ -4065,18 +3423,6 @@
       "lastModified": "2026-06-24T20:43:33.5870944Z"
     },
     {
-      "path": "wwwroot/_framework/System.Core.owfhok68bb.wasm.gz",
-      "hash": "3ed17424a4938434ddefe821b568635a06ac31c8e10bef9705b6ccf580f3278b",
-      "size": 1667,
-      "lastModified": "2026-06-03T15:42:35.5107889Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.ObjectModel.mmyreq3vwf.wasm",
-      "hash": "f2b1fd4d4640dc70d550f0e5ab992aaa09859d30defe172582c9dec1bf5fdd74",
-      "size": 13077,
-      "lastModified": "2026-06-03T15:42:33.0045773Z"
-    },
-    {
       "path": "wwwroot/_framework/System.IO.Pipelines.wlvi24au61.wasm",
       "hash": "7c9d48541076b816c8958a627b456817f123dabe6868d9a7ccb8f6859632bd67",
       "size": 6421,
@@ -4101,12 +3447,6 @@
       "lastModified": "2026-06-03T15:42:37.1717138Z"
     },
     {
-      "path": "wwwroot/_framework/System.Text.RegularExpressions.5bg4v447s4.wasm.gz",
-      "hash": "734d6dcc91b7436e4823c2a8d2a58d13696df332d30132ff010f1d5ade7543f1",
-      "size": 120252,
-      "lastModified": "2026-06-03T15:42:35.5617579Z"
-    },
-    {
       "path": "wwwroot/_framework/Microsoft.Extensions.Logging.5g1hnmwyc5.wasm.br",
       "hash": "48afb45dba0e09c2a13a6c2968abe224be6f6617fa3740f9a816a82ab831b43b",
       "size": 7766,
@@ -4125,28 +3465,10 @@
       "lastModified": "2026-06-03T15:42:35.5321521Z"
     },
     {
-      "path": "wwwroot/_framework/System.Drawing.Primitives.zxgt270can.wasm",
-      "hash": "f9466c1d5d17a34ee02ca2cf5b1fc1024c70f989743b88bdc8d881a7f7f6063a",
-      "size": 37141,
-      "lastModified": "2026-06-03T15:42:32.59254Z"
-    },
-    {
       "path": "wwwroot/_framework/ExcelNumberFormat.zkc9yronjy.wasm.br",
       "hash": "31c87489fd7b5546281aefd0d6a53c7a2840e9d769c8e198323c695b80133726",
       "size": 12302,
       "lastModified": "2026-06-03T15:42:53.9030893Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.ComponentModel.TypeConverter.83xclysgk8.wasm.br",
-      "hash": "3f1b3ec437a3906b40cb83bc31ae424b172977e087d541cbbc52b2905c833d96",
-      "size": 44939,
-      "lastModified": "2026-06-03T15:42:36.3782872Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Xml.Linq.5pth2pwj0z.wasm.gz",
-      "hash": "a8769eea7013183325eea3ad04b227a85f2068bf8c93e220d73ac1cd9acee423",
-      "size": 1622,
-      "lastModified": "2026-06-03T15:42:35.5247416Z"
     },
     {
       "path": "wwwroot/_framework/System.Drawing.Primitives.0g62xangdb.wasm",
@@ -4155,22 +3477,10 @@
       "lastModified": "2026-06-24T20:43:30.6112817Z"
     },
     {
-      "path": "wwwroot/_framework/System.Drawing.qhohfrl19f.wasm.br",
-      "hash": "2ca82d3f979ada26e7dba4a704a4eab9a8c3dce30f8869e7848852da199a0d81",
-      "size": 1616,
-      "lastModified": "2026-06-03T15:42:36.0711162Z"
-    },
-    {
       "path": "wwwroot/_framework/System.Linq.Queryable.rqrcnhf7ju.wasm.gz",
       "hash": "f6cf2afb944c5b83c17d7fdec4c85137d179606e37e177e1de39adadb60e15bb",
       "size": 18429,
       "lastModified": "2026-06-24T20:43:33.0234626Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Resources.ResourceManager.dbeknebgal.wasm.br",
-      "hash": "0df5fdce9c15a29a38373b26393bcb949348bbc406c39547e23af313fc51e4db",
-      "size": 1611,
-      "lastModified": "2026-06-03T15:42:35.8371928Z"
     },
     {
       "path": "wwwroot/_framework/System.IO.Compression.Brotli.y5a9pr7hbk.wasm.br",
@@ -4179,46 +3489,16 @@
       "lastModified": "2026-06-24T20:43:33.2781375Z"
     },
     {
-      "path": "wwwroot/_framework/System.Runtime.0v3t1mdg3y.wasm.br",
-      "hash": "eb15ec73677664a7f52b741d76352c2fa80dea20746f805fbbd86a5ef9359849",
-      "size": 3689,
-      "lastModified": "2026-06-03T15:42:36.1008107Z"
-    },
-    {
       "path": "wwwroot/_framework/System.Runtime.InteropServices.pjtt0fpk1s.wasm.br",
       "hash": "83c72902ff275467f554b3994b4e168a786d67263f1b6ecc6439230b4954a243",
       "size": 2973,
       "lastModified": "2026-06-24T20:43:33.2856402Z"
     },
     {
-      "path": "wwwroot/_framework/ProERP.Application.854fw9eam3.wasm",
-      "hash": "44f90dd3f7e2e0f4e3ec269eef9be63cd1abce5f64a275072b14a45e6e240a84",
-      "size": 522005,
-      "lastModified": "2026-06-06T23:07:41.2668243Z"
-    },
-    {
       "path": "wwwroot/_framework/System.Diagnostics.Tools.m7ya07j9hm.wasm.gz",
       "hash": "e00f3e77bd50637d2b86617d2a3c9a1dc0e0050e72f7638899a4d69dc24c3cb0",
       "size": 1822,
       "lastModified": "2026-06-24T20:43:33.0300096Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Collections.Immutable.8fqxanabor.wasm",
-      "hash": "046a74a13498e59c0449ec19e01b0bc3de66a5ec1eae9704576809d929061f00",
-      "size": 58645,
-      "lastModified": "2026-06-03T15:42:31.8659665Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Diagnostics.Debug.6zy9y3livg.wasm.gz",
-      "hash": "be3875afc2f78a5c9bd4305115efe33efddda4a97d4519942e5b063bea4c0063",
-      "size": 1829,
-      "lastModified": "2026-06-03T15:42:35.5051852Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Buffers.eawxfy4p74.wasm",
-      "hash": "b6d84934d5349a994a3f8214ac07ced3a2d2d3bfb47019aa178af1dd08b70048",
-      "size": 4373,
-      "lastModified": "2026-06-03T15:42:31.690533Z"
     },
     {
       "path": "wwwroot/_framework/Microsoft.Extensions.DependencyInjection.Abstractions.ea8ydkpa40.wasm.br",
@@ -4231,12 +3511,6 @@
       "hash": "8bfffb15dd6211d1de6bf7a54f9d46295b1665aa682eaa64cf8b35a06b58c706",
       "size": 32934,
       "lastModified": "2026-06-03T15:42:35.5187451Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.ComponentModel.Primitives.6gu0bmdx6f.wasm",
-      "hash": "da524f74a1b38471d091ec11413c115177804cab8cbc9952f9a848843276d5fa",
-      "size": 14101,
-      "lastModified": "2026-06-03T15:42:31.9832633Z"
     },
     {
       "path": "wwwroot/_framework/System.Xml.XDocument.gwkd2r7au3.wasm",
@@ -4275,12 +3549,6 @@
       "lastModified": "2026-06-24T20:43:31.8977664Z"
     },
     {
-      "path": "wwwroot/_framework/ProERP.Application.wh1o26pgpp.wasm.br",
-      "hash": "d6629a5f49e1ad97d138b6c5f9a0418c7f2bc75fc80fb76927454063da71b9dd",
-      "size": 114802,
-      "lastModified": "2026-06-04T23:22:23.6322451Z"
-    },
-    {
       "path": "wwwroot/_framework/Microsoft.AspNetCore.Components.Forms.o9iakyungi.wasm",
       "hash": "fc76851dde904167321ece734c1a8afc898da1936858561f4aab4f44c762f62b",
       "size": 25877,
@@ -4311,34 +3579,10 @@
       "lastModified": "2026-06-24T20:43:33.3389711Z"
     },
     {
-      "path": "wwwroot/_framework/System.Linq.Expressions.lsn8238f1m.wasm.gz",
-      "hash": "f649100305f9f42df5ae951ed6cc10db9997267f636e60bfdeb7a9643c35b099",
-      "size": 171826,
-      "lastModified": "2026-06-03T15:42:35.5460398Z"
-    },
-    {
       "path": "wwwroot/_framework/dotnet.runtime.opaiwunc3t.js.br",
       "hash": "df16c19764920f18448f17512eba651212d4ed9a53c51e3a3943a2d2e0061b74",
       "size": 47040,
       "lastModified": "2026-06-24T20:43:33.9106512Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Text.RegularExpressions.5bg4v447s4.wasm",
-      "hash": "6fc54b3ecb45f46e801a0b90ad1d16ea654789eefe98ef2859e02bb89e5f7693",
-      "size": 254229,
-      "lastModified": "2026-06-03T15:42:34.4413194Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Collections.Immutable.8fqxanabor.wasm.br",
-      "hash": "5fdcaf4518a2b69acccafea50b3b6ad4d89af0e834893712463984fb52ef8481",
-      "size": 21701,
-      "lastModified": "2026-06-03T15:42:36.1681381Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Collections.Specialized.29dfcft948.wasm.gz",
-      "hash": "2061a4fe4b7d112d0532d2aaa7b570ec19ba8e8253f941674a672bd7d016c98b",
-      "size": 7180,
-      "lastModified": "2026-06-03T15:42:35.5041273Z"
     },
     {
       "path": "wwwroot/_framework/System.ComponentModel.hsgya0nwrv.wasm.br",
@@ -4347,22 +3591,10 @@
       "lastModified": "2026-06-24T20:43:33.2763354Z"
     },
     {
-      "path": "wwwroot/_framework/System.Private.Uri.l9khwew8cd.wasm.gz",
-      "hash": "8f3ddb712276ea424d6305dd8e704cb48f5d7dc222db9dc475356a0640f18af2",
-      "size": 33614,
-      "lastModified": "2026-06-03T15:42:35.5131056Z"
-    },
-    {
       "path": "wwwroot/_framework/blazor.webassembly.js.br",
       "hash": "40354575490c0cbd3851836322f4353b730cca97360dc78ef4964caf2fc5b929",
       "size": 16029,
       "lastModified": "2026-06-03T15:42:38.614864Z"
-    },
-    {
-      "path": "wwwroot/_framework/ProERP.Application.0n8vosp4wr.wasm",
-      "hash": "842afbe8f19595f0ad3d942c13f1ccc4b59cfed64a37fc03fb35676eb14609ec",
-      "size": 521493,
-      "lastModified": "2026-06-03T15:42:31.1833016Z"
     },
     {
       "path": "wwwroot/_framework/System.Runtime.InteropServices.pjtt0fpk1s.wasm",
@@ -4383,64 +3615,10 @@
       "lastModified": "2026-06-03T15:42:35.5693232Z"
     },
     {
-      "path": "wwwroot/_framework/System.Runtime.InteropServices.f1awgqivxx.wasm.gz",
-      "hash": "17a082485177e2ec1001e36d1e0784f38f81f987423c4b2015a21865cca2921b",
-      "size": 3509,
-      "lastModified": "2026-06-03T15:42:35.5047132Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Reflection.Emit.ILGeneration.ti6nzzrakr.wasm",
-      "hash": "c51fdbd7a78eb1fb22ada9174ac34531914409cacdd2fbd351ee58c7abca3f05",
-      "size": 4885,
-      "lastModified": "2026-06-03T15:42:33.4004354Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Collections.NonGeneric.qehs4bje9t.wasm",
-      "hash": "2287e266e1d7429d72d7175b1d4a9bade913215a88fc379f7ae7e396e603bc72",
-      "size": 15637,
-      "lastModified": "2026-06-03T15:42:31.8669829Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Linq.Expressions.lsn8238f1m.wasm",
-      "hash": "7598c049b2cfca4876b7ba1b416ce5dfcac5a6b32a04da23e8de2db198ad3b02",
-      "size": 443157,
-      "lastModified": "2026-06-03T15:42:32.771016Z"
-    },
-    {
-      "path": "wwwroot/_framework/ProERP.Application.854fw9eam3.wasm.br",
-      "hash": "400046f9027d7b06b799b690062d91ade4c066156a2c6450d498e36cfb2e8af6",
-      "size": 114558,
-      "lastModified": "2026-06-06T23:07:44.1252018Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Runtime.CompilerServices.Unsafe.t2lmfdeob1.wasm",
-      "hash": "35b7c20c6641293d23d644fac9f9b4c24fe904a2095c5a08ae061994ec3e847e",
-      "size": 4373,
-      "lastModified": "2026-06-03T15:42:33.5116671Z"
-    },
-    {
-      "path": "wwwroot/_framework/ProERP.Client.ak9ihgz9t1.wasm.gz",
-      "hash": "337bafb042b2ec6816e391a0c2a01aa6aec3b2b395aed7ea453715d6fbc42c12",
-      "size": 61976,
-      "lastModified": "2026-06-04T23:22:21.5683777Z"
-    },
-    {
       "path": "wwwroot/_framework/Microsoft.Extensions.Primitives.4dxofymb0o.wasm",
       "hash": "18eafb8dcfde0a2799ad06285d19fbf5e2d2b1eb087c5079e704192154d23486",
       "size": 12053,
       "lastModified": "2026-06-03T15:42:30.9055557Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Security.Claims.7cen9mj8g3.wasm.br",
-      "hash": "36916e9abafe2af1fbf20f4a42cfdfd3f5def33c082e2df309c4a56a8be1f94b",
-      "size": 2375,
-      "lastModified": "2026-06-03T15:42:36.1255878Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Reflection.Metadata.vuv8pc2bvj.wasm",
-      "hash": "479c3cc464ec4e0b5901fae929c0b63b4efd71c1848329a9c8c96a673425aeef",
-      "size": 72469,
-      "lastModified": "2026-06-03T15:42:33.5096071Z"
     },
     {
       "path": "wwwroot/_framework/System.IO.MemoryMappedFiles.yncwlb6s7n.wasm",
@@ -4473,12 +3651,6 @@
       "lastModified": "2026-06-24T20:43:33.8900131Z"
     },
     {
-      "path": "wwwroot/_framework/netstandard.uv0msijq2u.wasm",
-      "hash": "fa816741964feda35a9b7de437c3fde2ad11422f6bcc8ad749b5f1af6add0369",
-      "size": 12565,
-      "lastModified": "2026-06-03T15:42:31.0706646Z"
-    },
-    {
       "path": "wwwroot/_framework/System.Threading.xdv64c631g.wasm.br",
       "hash": "17706156cb22d4fcf3bbdb006879b20fbdb59aa17a31db20737332835657bcff",
       "size": 3703,
@@ -4491,22 +3663,10 @@
       "lastModified": "2026-06-24T20:43:32.0997076Z"
     },
     {
-      "path": "wwwroot/_framework/System.Reflection.Emit.bl5vxb4hfz.wasm.gz",
-      "hash": "e12068af260824d102d9bdbb4dcb137216bed5522c110545c00584fc893d0871",
-      "size": 5529,
-      "lastModified": "2026-06-03T15:42:35.5120051Z"
-    },
-    {
       "path": "wwwroot/_framework/ProERP.Client.ehgj8t0ylc.wasm",
       "hash": "32f6c8905fe5923602f21581e48ca0230618b827a340a99d702cb80e36c22689",
       "size": 202005,
       "lastModified": "2026-06-24T20:43:29.9394135Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Diagnostics.DiagnosticSource.965iu6x567.wasm.gz",
-      "hash": "350fdba2a0739b71825a3b4518ee76d5d1ade97161208bea261679d9b7025507",
-      "size": 11191,
-      "lastModified": "2026-06-03T15:42:35.5176106Z"
     },
     {
       "path": "wwwroot/_framework/System.Text.Encodings.Web.dy2f9ldo82.wasm.gz",
@@ -4515,22 +3675,10 @@
       "lastModified": "2026-06-24T20:43:33.0238765Z"
     },
     {
-      "path": "wwwroot/_framework/ProERP.Domain.yfxtlbot5m.wasm.br",
-      "hash": "51a8ae2e400d9c6d1002402ff0a2cf648a865e656ef69da828671ebdeda5ec40",
-      "size": 27157,
-      "lastModified": "2026-06-06T23:07:42.4851537Z"
-    },
-    {
       "path": "wwwroot/_framework/blazor.boot.json.gz",
       "hash": "adeff652c7d95fb194f682dea36447682e0b2871350ffde93747ba60cdec11c3",
       "size": 6303,
-      "lastModified": "2026-06-25T15:30:07.7901292Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Runtime.InteropServices.RuntimeInformation.p6o2imnys4.wasm.gz",
-      "hash": "789e307594bef88961aa09f5c95a4868ef2030003cc08207e9f22832ee5bb6b8",
-      "size": 1809,
-      "lastModified": "2026-06-03T15:42:35.5203377Z"
+      "lastModified": "2026-06-25T15:32:49.9526927Z"
     },
     {
       "path": "wwwroot/_framework/System.Private.Uri.hhrin330oj.wasm.br",
@@ -4563,46 +3711,16 @@
       "lastModified": "2026-06-03T15:42:37.1763606Z"
     },
     {
-      "path": "wwwroot/_framework/System.Private.Xml.4nnplzjmww.wasm.gz",
-      "hash": "00db6faa6ef126297f36094bbe5e226c7c967bf13cb57cd3b14ddd74ca560f11",
-      "size": 446375,
-      "lastModified": "2026-06-03T15:42:35.581315Z"
-    },
-    {
       "path": "wwwroot/_framework/System.Runtime.InteropServices.JavaScript.oi1p6xyhwl.wasm.gz",
       "hash": "249a2f566802c2997ee83e7a680ff3d022c938b9433ecdbb5795aee72c25871a",
       "size": 19594,
       "lastModified": "2026-06-24T20:43:33.0273848Z"
     },
     {
-      "path": "wwwroot/_framework/System.Private.Xml.4nnplzjmww.wasm",
-      "hash": "106b57e3d29fe5d785110fbae8d4f175c14a389d5ea98dff7a969356c467b175",
-      "size": 1309461,
-      "lastModified": "2026-06-03T15:42:33.2896519Z"
-    },
-    {
       "path": "wwwroot/_framework/Microsoft.AspNetCore.Components.ebt04gmke9.wasm",
       "hash": "6ab8cb7fce1c30793801ba0981b83a9f2d09dd218f656e8a153de650528ed07d",
       "size": 243477,
       "lastModified": "2026-06-03T15:42:30.3537742Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Reflection.Emit.ILGeneration.ti6nzzrakr.wasm.gz",
-      "hash": "0813d44f401ab92dde192692fc09a4fd88a4f9741c7e51af0046bfcf3004c30b",
-      "size": 1935,
-      "lastModified": "2026-06-03T15:42:35.5055798Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Private.CoreLib.b317a771ws.wasm.gz",
-      "hash": "47fd73c745bbe2539adbd4487a1388d5a3a476522ad854355f4cfdef0196a13c",
-      "size": 837786,
-      "lastModified": "2026-06-03T15:42:35.6082566Z"
-    },
-    {
-      "path": "wwwroot/_framework/dotnet.native.xsn1d6x2kd.js",
-      "hash": "c1c3d30b7983a44713db85e325ee74b69e6764fc1a7b6041bed415b11b3814de",
-      "size": 145424,
-      "lastModified": "2026-04-29T23:38:28Z"
     },
     {
       "path": "wwwroot/_framework/System.Linq.8cqhqxqzke.wasm.br",
@@ -4629,30 +3747,6 @@
       "lastModified": "2026-06-24T20:43:33.0268936Z"
     },
     {
-      "path": "wwwroot/_framework/System.Xml.XDocument.je4g8kh7uc.wasm.gz",
-      "hash": "202a9345909207d44d6833ca3d175c825773d06b9e1b0231bbef0bb23a7da946",
-      "size": 1870,
-      "lastModified": "2026-06-03T15:42:35.526486Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Linq.Queryable.2yhpbqwryx.wasm.gz",
-      "hash": "7518959f451660c9597e7ba7ad29fac91e15b7ba4c025d56e5612c08009c2128",
-      "size": 18432,
-      "lastModified": "2026-06-03T15:42:35.5080599Z"
-    },
-    {
-      "path": "wwwroot/_framework/ProERP.Client.goe4susu69.wasm.br",
-      "hash": "8d0c4605a2bb5553150ae75eb7c150433643f11751e03ef0a94da8572568ca8c",
-      "size": 49613,
-      "lastModified": "2026-06-06T23:07:42.7030643Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Drawing.qhohfrl19f.wasm",
-      "hash": "c21e84225b98b53fca40c200aee33d01655c25052603bd42c9ad1339269dd815",
-      "size": 4885,
-      "lastModified": "2026-06-03T15:42:32.5933941Z"
-    },
-    {
       "path": "wwwroot/_framework/SixLabors.Fonts.1ntl3xbxha.wasm.gz",
       "hash": "6fc40d4c36a9e206015485b9bbd4853f90ab5de5ebd9f8210c934670b39cc144",
       "size": 270187,
@@ -4663,12 +3757,6 @@
       "hash": "4cc6f6e8a4b27a21d947e7b5b148de7ab32f9732994bc361080ebb269ff652a6",
       "size": 367893,
       "lastModified": "2026-06-03T15:42:29.7394058Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Reflection.Primitives.h57hc4htkk.wasm",
-      "hash": "75aa4b824f674e1c6bc5c133f678337d125608ac308212a3fe31e46be9153c34",
-      "size": 4885,
-      "lastModified": "2026-06-03T15:42:33.5104024Z"
     },
     {
       "path": "wwwroot/_framework/System.Linq.Parallel.9ww5r9sm96.wasm",
@@ -4701,12 +3789,6 @@
       "lastModified": "2026-06-24T20:43:31.4386961Z"
     },
     {
-      "path": "wwwroot/_framework/System.ComponentModel.wkjno0gsg1.wasm.gz",
-      "hash": "5dc812c03595ab42c97b62b805b043ebf033e6f3a686abbc558d257113fcde0f",
-      "size": 2036,
-      "lastModified": "2026-06-03T15:42:35.5204859Z"
-    },
-    {
       "path": "wwwroot/_framework/System.sal18ehrzx.wasm.gz",
       "hash": "d997315a5fbfcb28fbf4f53dd08c09cdb66e59fc8ce7417a743ae9833594483d",
       "size": 1678,
@@ -4725,52 +3807,10 @@
       "lastModified": "2026-06-24T20:43:33.0396639Z"
     },
     {
-      "path": "wwwroot/_framework/System.ComponentModel.Annotations.m5pjphzucl.wasm",
-      "hash": "1a53ee664fc081a16877100ac832e476160d1ce8bcc51710e4742cf5f64f4db2",
-      "size": 30997,
-      "lastModified": "2026-06-03T15:42:31.9818065Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Runtime.InteropServices.JavaScript.pkvqfb5bgf.wasm.gz",
-      "hash": "1c1a91851aef995f7caa62fceb062cc0e4a39b1ec1a7b57f79b9ff33543390c6",
-      "size": 19589,
-      "lastModified": "2026-06-03T15:42:35.5181463Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Private.Xml.Linq.9d2mh98s49.wasm",
-      "hash": "7daad2065ec7f90c1bd939810d8a0e3c0c922fff46848fd95e9858121859e58e",
-      "size": 42773,
-      "lastModified": "2026-06-03T15:42:33.233419Z"
-    },
-    {
-      "path": "wwwroot/_framework/dotnet.runtime.dstopyvqzi.js.br",
-      "hash": "6831bf7fd7a9010531a24a3228cd068c6d291c8a34d01c4a491f32c39346874f",
-      "size": 47027,
-      "lastModified": "2026-06-03T15:42:37.039272Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Reflection.Metadata.vuv8pc2bvj.wasm.gz",
-      "hash": "46224f52e9a75e1665f747bd34bca7510cc89c12f2a97acf1f1c49ea2d8f34b3",
-      "size": 31943,
-      "lastModified": "2026-06-03T15:42:35.5283129Z"
-    },
-    {
       "path": "wwwroot/_framework/DocumentFormat.OpenXml.Framework.kkptvh3mad.wasm.gz",
       "hash": "3fce723decec372d3e2a98acca9a398bcd0ec3ffee694c57cdb420ec217216e7",
       "size": 135429,
       "lastModified": "2026-06-03T15:42:35.6120527Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Collections.NonGeneric.qehs4bje9t.wasm.br",
-      "hash": "ee8dbd92c21b1244deb0d631cf936d6a1d0e230fe763b13986a37731ed5237fb",
-      "size": 6106,
-      "lastModified": "2026-06-03T15:42:36.2319917Z"
-    },
-    {
-      "path": "wwwroot/_framework/netstandard.uv0msijq2u.wasm.br",
-      "hash": "e0ef286e7129c2be7ce127f3aa849c964ebfdc8f310c23cd80a1a07f7a10c50c",
-      "size": 3834,
-      "lastModified": "2026-06-03T15:42:35.8914277Z"
     },
     {
       "path": "wwwroot/_framework/System.Linq.Expressions.xlc84eb8wy.wasm.gz",
@@ -4815,40 +3855,10 @@
       "lastModified": "2026-06-24T20:43:31.7868707Z"
     },
     {
-      "path": "wwwroot/_framework/System.Runtime.InteropServices.JavaScript.pkvqfb5bgf.wasm",
-      "hash": "a752c3d1fa6016c4dc90872c507fb190feaa3ee1dbbb686ded073d0e13b3b666",
-      "size": 42773,
-      "lastModified": "2026-06-03T15:42:33.5130543Z"
-    },
-    {
       "path": "wwwroot/_framework/System.Numerics.Vectors.rf0p4vbr5s.wasm.gz",
       "hash": "00b3029bdd32f066dfee9a3fdae9739074359243b677f72322d816f3c6542a1a",
       "size": 1887,
       "lastModified": "2026-06-24T20:43:33.0214097Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Security.Cryptography.r3myw5lva2.wasm.br",
-      "hash": "ab7f664d794fa54ed1f8a9fac827f39a13c202debe9cad527e9cc0b1b231cd0f",
-      "size": 9074,
-      "lastModified": "2026-06-03T15:42:36.2250853Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Diagnostics.TraceSource.smrxkg31k7.wasm.gz",
-      "hash": "46daa65f50d65894e13a751b257cdcfe1df96b3a0a4b7cdaf59faef12fc5c2e8",
-      "size": 11083,
-      "lastModified": "2026-06-03T15:42:35.5087953Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Runtime.Numerics.v50pwfovc3.wasm",
-      "hash": "ed362f3a511cbba5a0d1e3f157ed099c277b98e880de0b5207a0630c34a49b1e",
-      "size": 99605,
-      "lastModified": "2026-06-03T15:42:33.5152024Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Memory.80ffu6x6p6.wasm.br",
-      "hash": "d37e790ab0db52f6031ebbeb39ad5255d6b59528fddd1abf9788820011d80deb",
-      "size": 6517,
-      "lastModified": "2026-06-03T15:42:36.7152306Z"
     },
     {
       "path": "wwwroot/_framework/System.Web.HttpUtility.b1ndfqyxkt.wasm",
@@ -4861,18 +3871,6 @@
       "hash": "d490c2b04d1ad4b3d434f581a58797da5568e3fcce319e38a32b9df4a0108127",
       "size": 40220,
       "lastModified": "2026-06-24T20:43:33.0313919Z"
-    },
-    {
-      "path": "wwwroot/_framework/ProERP.Client.88r9jcz1x6.wasm.br",
-      "hash": "94b311e3ec278e68749dd6d84f12018cd56b1cde6865214839b7b7ca0414f421",
-      "size": 49611,
-      "lastModified": "2026-06-03T15:42:37.1183442Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.ComponentModel.Primitives.6gu0bmdx6f.wasm.br",
-      "hash": "64d1fde96a5071ce49f103e497852fe10025ecf75b1660eb9ef91f3c79fb368c",
-      "size": 5236,
-      "lastModified": "2026-06-03T15:42:36.2251046Z"
     },
     {
       "path": "wwwroot/_framework/System.Resources.ResourceManager.ez79lhklaj.wasm.br",
@@ -4905,24 +3903,6 @@
       "lastModified": "2026-06-24T20:43:31.2728019Z"
     },
     {
-      "path": "wwwroot/_framework/ProERP.Client.goe4susu69.wasm",
-      "hash": "50378b9b84b1081e418f32ed609cea636c1e723a249fe4766244e92cdb6e7f20",
-      "size": 202005,
-      "lastModified": "2026-06-06T23:07:41.2770122Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Linq.Queryable.2yhpbqwryx.wasm",
-      "hash": "1a7a39cd45e324cc04d560c31d107da28f64648fdc425559cacf5f6d056deaf5",
-      "size": 53013,
-      "lastModified": "2026-06-03T15:42:32.8847345Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Web.HttpUtility.citajtolop.wasm",
-      "hash": "e4fa933f2e416c4427e9eb2bee87c13ba3e4bdb0a633776e73e41b48c69c5dfb",
-      "size": 11029,
-      "lastModified": "2026-06-03T15:42:34.5956936Z"
-    },
-    {
       "path": "wwwroot/_framework/ClosedXML.Parser.kcd8ka7nog.wasm",
       "hash": "6cdeb5f7390dc15caa193dad167e4d3173c3228dce51569160c1bfb5746d9fe0",
       "size": 191765,
@@ -4939,18 +3919,6 @@
       "hash": "7e32826711cabc6270bed8665f2ce6cfc8a506b10d3f4e75730861715e09c431",
       "size": 2377,
       "lastModified": "2026-06-24T20:43:33.2767034Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Private.Xml.Linq.9d2mh98s49.wasm.br",
-      "hash": "b0b1dadcb582b6491b1476eba674ec4e6c601249ef282fb7c07fc9412b523a5e",
-      "size": 16600,
-      "lastModified": "2026-06-03T15:42:36.8100795Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Web.HttpUtility.citajtolop.wasm.br",
-      "hash": "69208b409dbf87c1e627eaae0750411626e25a97f5e132d35d8e163e352748bd",
-      "size": 5025,
-      "lastModified": "2026-06-03T15:42:36.3464624Z"
     },
     {
       "path": "wwwroot/_framework/icudt_EFIGS.tptq2av103.dat.br",
@@ -4971,28 +3939,10 @@
       "lastModified": "2026-06-24T20:43:33.0272156Z"
     },
     {
-      "path": "wwwroot/_framework/System.Security.Cryptography.r3myw5lva2.wasm",
-      "hash": "99f7250f7aa99d25db9bb43a3986aae451f5f37af0578a7abe5f1a5ab0eb5ff5",
-      "size": 22293,
-      "lastModified": "2026-06-03T15:42:33.7981047Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Collections.327hst7iol.wasm.br",
-      "hash": "a2e021abb999d1545524ba33338448dc8e216b037c0dd0fac80a50272b7053e7",
-      "size": 17436,
-      "lastModified": "2026-06-03T15:42:36.0533541Z"
-    },
-    {
       "path": "wwwroot/_framework/dotnet.native.ivlp5x6993.wasm.br",
       "hash": "46357e12041f3f0485543100746048af66d7d22a495495131e36e3cc7c049da1",
       "size": 940364,
       "lastModified": "2026-06-24T20:43:42.3027228Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.IO.Compression.w6ti3rd6d7.wasm.gz",
-      "hash": "8ba789c852a73f4af34610578db8e73d2d56f62197e45d876d9bec51a0690cf3",
-      "size": 34824,
-      "lastModified": "2026-06-03T15:42:35.5179579Z"
     },
     {
       "path": "wwwroot/_framework/System.Web.HttpUtility.b1ndfqyxkt.wasm.gz",
@@ -5019,12 +3969,6 @@
       "lastModified": "2026-06-24T20:42:39.4364154Z"
     },
     {
-      "path": "wwwroot/_framework/System.Net.Primitives.hekyz79b0n.wasm.br",
-      "hash": "e0a825b936443246adac504176e1a8b22bdd7b006e33a3d18a80d97525b5aabb",
-      "size": 2882,
-      "lastModified": "2026-06-03T15:42:36.285672Z"
-    },
-    {
       "path": "wwwroot/_framework/System.Xml.XDocument.gwkd2r7au3.wasm.br",
       "hash": "33d50929b0c175e414e2576cd1538d22ac7ba54499167038f1d507f90796133e",
       "size": 1654,
@@ -5043,12 +3987,6 @@
       "lastModified": "2026-06-24T20:43:31.9921728Z"
     },
     {
-      "path": "wwwroot/_framework/System.Drawing.Primitives.zxgt270can.wasm.br",
-      "hash": "87bd286535f797df3647ec62fb70cda42699e18f458b89e0d426332f928a569b",
-      "size": 12809,
-      "lastModified": "2026-06-03T15:42:36.0521064Z"
-    },
-    {
       "path": "wwwroot/_framework/System.Diagnostics.TraceSource.ptjahwk49m.wasm.br",
       "hash": "945489c39945be0b860cf62e537468a13045953426b475e594a8d0eaba2a1245",
       "size": 9562,
@@ -5059,12 +3997,6 @@
       "hash": "81432267aa46b89a63b5938169191f5730dccfce12b33f96301d1550f39427ff",
       "size": 4885,
       "lastModified": "2026-06-24T20:43:30.061067Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Net.Http.2g6ap1mifw.wasm.br",
-      "hash": "2234f8525fdb4ea973d9511d40b8d47ddd3489c4f3a2e77d4209daee06a85638",
-      "size": 56809,
-      "lastModified": "2026-06-03T15:42:36.5769141Z"
     },
     {
       "path": "wwwroot/_framework/Microsoft.Extensions.Logging.Abstractions.i3yjxswrol.wasm.gz",
@@ -5085,58 +4017,10 @@
       "lastModified": "2026-06-24T20:43:33.0293149Z"
     },
     {
-      "path": "wwwroot/_framework/System.Threading.pudfqb04a9.wasm.br",
-      "hash": "787a474154bd8a1d44e9d81ddb600b2b9f1d04407845bba112f48b26b9b05861",
-      "size": 3744,
-      "lastModified": "2026-06-03T15:42:39.4667934Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Runtime.Serialization.Formatters.7z5vd5n7qy.wasm",
-      "hash": "fd3eb7962b0d6ad2d2d24e3709b838e5e2ef9d6f7be866351a73f05088c90175",
-      "size": 6933,
-      "lastModified": "2026-06-03T15:42:33.5161269Z"
-    },
-    {
-      "path": "wwwroot/_framework/Microsoft.CSharp.10n8vcbbx9.wasm.gz",
-      "hash": "608228228fb07ea169e328fe48a013ba6b5475e4a54b7316590e82694f7fd5e2",
-      "size": 115070,
-      "lastModified": "2026-06-03T15:42:35.5328981Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Reflection.Primitives.h57hc4htkk.wasm.gz",
-      "hash": "1cf79e7808a81000fdd43929058386f542802eb2c0b0dc88f8826d8ce94a8705",
-      "size": 1891,
-      "lastModified": "2026-06-03T15:42:35.5066761Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.t250xnkyfs.wasm.br",
-      "hash": "a0be0cb7843b38ef8845d212c89283476f80642a605e840a3066eb453ccef04c",
-      "size": 1483,
-      "lastModified": "2026-06-03T15:42:39.4752373Z"
-    },
-    {
       "path": "wwwroot/_framework/System.Collections.NonGeneric.yx16tv6mq0.wasm.gz",
       "hash": "5f1ce00e7a41954c619dac7c8910ec4a46338b088f8c85c9e5a299f3064713a2",
       "size": 6865,
       "lastModified": "2026-06-24T20:43:33.0276901Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Collections.Specialized.29dfcft948.wasm",
-      "hash": "d628476216110b6018683e7fc55e34fd3a5b895bad2085ed515405fcdcd344ac",
-      "size": 15637,
-      "lastModified": "2026-06-03T15:42:31.8676702Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.ObjectModel.mmyreq3vwf.wasm.gz",
-      "hash": "52a0e87d607d190674e5d223e4a14adbc8b0e4061ea7fc7a6e1be4ffcc53c2a6",
-      "size": 6112,
-      "lastModified": "2026-06-03T15:42:35.5112002Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Diagnostics.Tools.wdc07qyasy.wasm.gz",
-      "hash": "7b2a25a46af42795cf8a8d97e84434d94bc71deb82491c3a1f3e653e1db2abfb",
-      "size": 1821,
-      "lastModified": "2026-06-03T15:42:35.5209891Z"
     },
     {
       "path": "wwwroot/_framework/System.Private.Uri.hhrin330oj.wasm",
@@ -5157,22 +4041,10 @@
       "lastModified": "2026-06-24T20:43:33.3505339Z"
     },
     {
-      "path": "wwwroot/_framework/System.Collections.327hst7iol.wasm",
-      "hash": "05a2fbdd5b78b30da2e174efbac77969d6d34f72916c512e788b605888b15929",
-      "size": 48405,
-      "lastModified": "2026-06-03T15:42:31.9251681Z"
-    },
-    {
       "path": "wwwroot/_framework/System.Memory.crik8b60o7.wasm.br",
       "hash": "96962f5560387ed413b0b8f8166f3ceead0302e1356e6019db70474831cf67db",
       "size": 6499,
       "lastModified": "2026-06-24T20:43:33.3937162Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Linq.Parallel.jtl6dem411.wasm.br",
-      "hash": "94194fd01a2bfe7ecf8f9788f020960260e8be78bd2adb5d4def12a8fd7d2534",
-      "size": 2791,
-      "lastModified": "2026-06-03T15:42:36.174262Z"
     },
     {
       "path": "wwwroot/_framework/System.Core.il2iyagmfh.wasm",
@@ -5181,34 +4053,16 @@
       "lastModified": "2026-06-24T20:43:30.1163945Z"
     },
     {
-      "path": "wwwroot/_framework/ProERP.Client.ak9ihgz9t1.wasm",
-      "hash": "ea615b17f2881ba40780f5a7e3d5f48f05597ba9e8803f647438a51353ea874a",
-      "size": 202005,
-      "lastModified": "2026-06-04T23:22:20.3386009Z"
-    },
-    {
       "path": "wwwroot/_framework/icudt_no_CJK.lfu7j35m59.dat",
       "hash": "2fbb15ecd1183f7eff42bd853c278fa39709a918135d1c061eec05e50fb435fb",
       "size": 1107168,
       "lastModified": "2026-05-11T11:40:58Z"
     },
     {
-      "path": "wwwroot/_framework/System.Linq.5gkwffbhje.wasm",
-      "hash": "7bd575733a5168d3c00154988bb0f5b04b9e544f64865c7dcad9ae12ab10373a",
-      "size": 127765,
-      "lastModified": "2026-06-03T15:42:32.9416722Z"
-    },
-    {
       "path": "wwwroot/_framework/System.Diagnostics.Debug.tvee87hbgf.wasm.gz",
       "hash": "1e6937fb4c4ce0f6622731fab19921ae85de4b2174fe810d093e8f925af50013",
       "size": 1826,
       "lastModified": "2026-06-24T20:43:33.020785Z"
-    },
-    {
-      "path": "wwwroot/_framework/dotnet.runtime.dstopyvqzi.js",
-      "hash": "cd9d0c1a5599174a46f7d3ef358bce754be8c7f0597baa5d76bb305e56682b27",
-      "size": 194767,
-      "lastModified": "2026-04-29T23:37:58Z"
     },
     {
       "path": "wwwroot/_framework/dotnet.runtime.opaiwunc3t.js",
@@ -5229,58 +4083,16 @@
       "lastModified": "2026-06-03T15:42:29.8051771Z"
     },
     {
-      "path": "wwwroot/_framework/System.Runtime.Extensions.12k8ctrwrc.wasm.gz",
-      "hash": "b4f0886c0dda40690d36545e6491a6a6b3f0f46d141d6d627ed7f9b753a8f2f3",
-      "size": 1924,
-      "lastModified": "2026-06-03T15:42:35.5044461Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Text.Json.wwr5i1hu18.wasm.gz",
-      "hash": "4698c3317f7cdc225a45a097be78ee460993e41752d1db487290c15f335e20e1",
-      "size": 154257,
-      "lastModified": "2026-06-03T15:42:35.5444344Z"
-    },
-    {
       "path": "wwwroot/_framework/Microsoft.Extensions.Primitives.4dxofymb0o.wasm.br",
       "hash": "e221d0a63f72b29b76079b798a2c9097a7e25f3883bcae9dcc04039eaf9f9750",
       "size": 4662,
       "lastModified": "2026-06-03T15:42:35.9961229Z"
     },
     {
-      "path": "wwwroot/_framework/System.Data.Common.vbesml12x0.wasm",
-      "hash": "75ee5b04d18d1b9dff3a12fed4419380f8a99a6b97efe613ade7499b370bd7c5",
-      "size": 485141,
-      "lastModified": "2026-06-03T15:42:32.2600514Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Net.Http.Json.wwvz3kqrwz.wasm.gz",
-      "hash": "276fd08a20cf9da529012b9e96e0f0d3885ca02640820b8d626e8955cac359aa",
-      "size": 10968,
-      "lastModified": "2026-06-03T15:42:35.5039016Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Text.Encodings.Web.ee5xnkwwte.wasm.br",
-      "hash": "4308d0ec8da35fcea073311b52c5ad2afdcf96f0da6430b943bfcae832be968c",
-      "size": 10827,
-      "lastModified": "2026-06-03T15:42:36.3325695Z"
-    },
-    {
       "path": "wwwroot/_framework/System.Runtime.Serialization.Formatters.j08v2hec2u.wasm.br",
       "hash": "952bd00a7ec8c2d0c1f17450ddd464c2deb9db155aabf63e389f58e4b02198e9",
       "size": 2432,
       "lastModified": "2026-06-24T20:43:33.2790241Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.t250xnkyfs.wasm",
-      "hash": "b556937a2b9b9f1a1f415e6b3bb81ad9438e448404b4b910af7e9ec1c30efadc",
-      "size": 4373,
-      "lastModified": "2026-06-03T15:42:34.5455161Z"
-    },
-    {
-      "path": "wwwroot/_framework/ProERP.Client.88r9jcz1x6.wasm",
-      "hash": "1805d4ceca9074e114a27c7e2bc514dc8f1f30c6fa4fe60d8bb85101cf97db52",
-      "size": 202005,
-      "lastModified": "2026-06-03T15:42:31.2922191Z"
     },
     {
       "path": "wwwroot/_framework/Microsoft.Extensions.Options.ovqxr3g4pi.wasm",
@@ -5301,22 +4113,10 @@
       "lastModified": "2026-06-24T20:43:33.4334797Z"
     },
     {
-      "path": "wwwroot/_framework/System.Numerics.Vectors.tbjaxl7fyj.wasm.gz",
-      "hash": "83c7e76366f26c4d4855fa47daa8273ad5f5569f770d85e0724af65766309527",
-      "size": 1891,
-      "lastModified": "2026-06-03T15:42:35.50464Z"
-    },
-    {
       "path": "wwwroot/_framework/System.Collections.NonGeneric.yx16tv6mq0.wasm",
       "hash": "aab7bc8244ec0ee7f1fa39e5baed3040bfa866159b62a64718c89526fc3ee15a",
       "size": 15637,
       "lastModified": "2026-06-24T20:43:29.9998845Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.IO.FileSystem.7vwvqn9v2y.wasm.br",
-      "hash": "275ab54f095f34f7f9b91095c586a9adb416dc7b442ab051bef94af4ac5ee15b",
-      "size": 1586,
-      "lastModified": "2026-06-03T15:42:36.1153818Z"
     },
     {
       "path": "wwwroot/_framework/ProERP.Application.el6krqjwdk.wasm",
@@ -5331,22 +4131,10 @@
       "lastModified": "2026-06-24T20:43:33.2836978Z"
     },
     {
-      "path": "wwwroot/_framework/dotnet.native.xsn1d6x2kd.js.br",
-      "hash": "7936cf15f547ccb87e6855d4b6e7c8dabc93ad5e3d12c284890a243989ce1c84",
-      "size": 30519,
-      "lastModified": "2026-06-03T15:42:36.8382776Z"
-    },
-    {
       "path": "wwwroot/_framework/System.Xml.Linq.2igp66i6bh.wasm.gz",
       "hash": "22d1179fb37240dbcdbc45237205487d442b5f0dec10fcf9e480c826910cbeb5",
       "size": 1623,
       "lastModified": "2026-06-24T20:43:33.0286549Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.ComponentModel.Annotations.m5pjphzucl.wasm.gz",
-      "hash": "f20fcb77bb4c0631f62cdba754b3da2f4e6bbf9efd9269c3982ec2c9b1522d1a",
-      "size": 13768,
-      "lastModified": "2026-06-03T15:42:35.5190466Z"
     },
     {
       "path": "wwwroot/_framework/System.Net.Http.Json.4ztho7ouz4.wasm",
@@ -5367,18 +4155,6 @@
       "lastModified": "2026-06-24T20:43:33.0234344Z"
     },
     {
-      "path": "wwwroot/_framework/ProERP.Client.zmanbsxmq2.wasm.gz",
-      "hash": "0991743647bc4fd9235d8aa8304e50a0daea37167ce7efdd907636a4329b2a62",
-      "size": 61976,
-      "lastModified": "2026-06-24T16:19:59.8983409Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Runtime.CompilerServices.Unsafe.t2lmfdeob1.wasm.gz",
-      "hash": "ebd20aec15db9f8dfe552ee74d20d47dd94ea64ebd5223ff61eb50a50cd9a1d1",
-      "size": 1781,
-      "lastModified": "2026-06-03T15:42:35.5200777Z"
-    },
-    {
       "path": "wwwroot/_framework/Microsoft.Extensions.Configuration.ell6o7ap7i.wasm.br",
       "hash": "0d8a45221ccb8b9233201182aa5f351f58fc0af970e6f6c05007015685c26f80",
       "size": 3747,
@@ -5389,12 +4165,6 @@
       "hash": "d22640fab7efaf794b98ae55d7c8342d9094e3573799b4cbf633584686af741d",
       "size": 9493,
       "lastModified": "2026-06-03T15:42:30.6302895Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Data.Common.vbesml12x0.wasm.gz",
-      "hash": "fd9e9c5bcce2145cbb4528ecfd894a58fb07eff7568a3b2c5448f8862d7a65e3",
-      "size": 191960,
-      "lastModified": "2026-06-03T15:42:35.5479717Z"
     },
     {
       "path": "wwwroot/_framework/System.Net.Http.wc22o064go.wasm.gz",
@@ -5421,28 +4191,10 @@
       "lastModified": "2026-06-24T20:43:33.0231126Z"
     },
     {
-      "path": "wwwroot/_framework/System.Linq.5gkwffbhje.wasm.gz",
-      "hash": "d2a8ef948d26ee7a793dce01105bddd325b0f68c18d110c8bf7109aae9619738",
-      "size": 51358,
-      "lastModified": "2026-06-03T15:42:35.5191068Z"
-    },
-    {
       "path": "wwwroot/_framework/System.IO.Pipelines.wlvi24au61.wasm.gz",
       "hash": "1f89b9be33a464c1a136d83e1fac74431501b8f5c724c4b2a55af289d5abc01b",
       "size": 3034,
       "lastModified": "2026-06-24T20:43:33.0241699Z"
-    },
-    {
-      "path": "wwwroot/_framework/dotnet.native.vz0adxojrz.wasm",
-      "hash": "8bb4e2ee842cdfaa65bb63b6aa2af32b5fbd8a57092e65aa02d9436ee646799c",
-      "size": 2978978,
-      "lastModified": "2026-04-29T23:38:28Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.IO.Pipelines.e2rj3jlxa9.wasm.br",
-      "hash": "e4dbf9d7b48926930d14ef6b7d007a82cc4751096a29bf0d9fc111f48a219f0c",
-      "size": 2613,
-      "lastModified": "2026-06-03T15:42:35.8501568Z"
     },
     {
       "path": "wwwroot/_framework/System.Diagnostics.Tools.m7ya07j9hm.wasm",
@@ -5469,22 +4221,10 @@
       "lastModified": "2026-06-24T20:43:33.0220186Z"
     },
     {
-      "path": "wwwroot/_framework/System.Linq.Parallel.jtl6dem411.wasm",
-      "hash": "09c76fbc3d935c68f1d7a2c77e70f14e42412558164d1a5b37b5a11d78475a7c",
-      "size": 6933,
-      "lastModified": "2026-06-03T15:42:32.8270654Z"
-    },
-    {
       "path": "wwwroot/_framework/icudt_no_CJK.lfu7j35m59.dat.gz",
       "hash": "a5e71946463c11a875bb45b309be8c690eae941772b91d97cd25c2f91c9471d9",
       "size": 347023,
       "lastModified": "2026-06-03T15:42:35.6007419Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Text.Encodings.Web.ee5xnkwwte.wasm",
-      "hash": "96e0e88a0b3c48311adbd788bd65746f8c3c19c2f87daa193f872c6e04093c0a",
-      "size": 32533,
-      "lastModified": "2026-06-03T15:42:33.9209743Z"
     },
     {
       "path": "wwwroot/_framework/Microsoft.JSInterop.uu8izyvyxp.wasm.br",
@@ -5511,18 +4251,6 @@
       "lastModified": "2026-06-24T20:43:33.0306115Z"
     },
     {
-      "path": "wwwroot/_framework/System.ComponentModel.TypeConverter.83xclysgk8.wasm",
-      "hash": "7c104503afe2d072cfefd6b3127abbf9528d8b090ea1ba3b5693afea1a16409e",
-      "size": 127765,
-      "lastModified": "2026-06-03T15:42:31.9841038Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Memory.80ffu6x6p6.wasm",
-      "hash": "48c09c28b8fab46782870dbf0ce0f3122b2efaff41a26a47388eedeaeebc38f1",
-      "size": 15125,
-      "lastModified": "2026-06-03T15:42:32.9426879Z"
-    },
-    {
       "path": "wwwroot/_framework/dotnet.native.ua8hb5vc0y.js",
       "hash": "baac2e7f68fae2cec4e2f3c16f00ebf7426629e6f81c282a2cd7f60b03507260",
       "size": 140981,
@@ -5547,58 +4275,16 @@
       "lastModified": "2026-06-24T20:43:29.5877091Z"
     },
     {
-      "path": "wwwroot/_framework/System.Console.2zca6o6q5z.wasm.br",
-      "hash": "ca7c44bf1a38ef7292cc39e7abf96a990e678f0ca5b2d03416e6a1e82cd5bc02",
-      "size": 6325,
-      "lastModified": "2026-06-03T15:42:36.3029138Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Private.Uri.l9khwew8cd.wasm",
-      "hash": "2767a62ed607890ab3e1924eedb3437d6500dcd443e475429890e5594aa6eaa6",
-      "size": 72469,
-      "lastModified": "2026-06-03T15:42:33.2319837Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Runtime.Serialization.Formatters.7z5vd5n7qy.wasm.gz",
-      "hash": "81aea047a0034b4ebdf0338474a0a7b04b5ac16dbf2642e08de035e15e93e45b",
-      "size": 2827,
-      "lastModified": "2026-06-03T15:42:35.5205325Z"
-    },
-    {
-      "path": "wwwroot/_framework/ProERP.Domain.rvo23schu5.wasm.gz",
-      "hash": "86011b9e82d2418476093ab0a5ff1df64dbe99fd3cf88a4522c2ae6dccd44ee9",
-      "size": 41446,
-      "lastModified": "2026-06-03T15:42:35.5323462Z"
-    },
-    {
-      "path": "wwwroot/_framework/ProERP.Application.0n8vosp4wr.wasm.gz",
-      "hash": "b83da6402f4100cc86edef128d0fd2d8d8a2511c5f56d2c2cc0c93b50c313c1b",
-      "size": 171240,
-      "lastModified": "2026-06-03T15:42:35.5516034Z"
-    },
-    {
       "path": "wwwroot/_framework/System.Core.il2iyagmfh.wasm.gz",
       "hash": "40473a0e58d3fe07426fe0b1a79e29aef1ca52a11dbfe372cc8337afca0fc93a",
       "size": 1665,
       "lastModified": "2026-06-24T20:43:33.0215763Z"
     },
     {
-      "path": "wwwroot/_framework/dotnet.native.vz0adxojrz.wasm.br",
-      "hash": "1cad44e34773b3de468dc5e54ea24ea3c59239a09409fd74a0fb2d2d495da1aa",
-      "size": 972219,
-      "lastModified": "2026-06-03T15:42:46.5272116Z"
-    },
-    {
       "path": "wwwroot/_framework/System.IO.MemoryMappedFiles.yncwlb6s7n.wasm.gz",
       "hash": "870e38ccbfd2c307fc08c3e236541da99e03cef2473e581097354c28194ca4d1",
       "size": 11774,
       "lastModified": "2026-06-24T20:43:33.0225303Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Runtime.Numerics.v50pwfovc3.wasm.gz",
-      "hash": "04aef1ef2d45cd5d7c7b4844af57b591b20187c5ae13f997e814a98d91e76ca7",
-      "size": 40222,
-      "lastModified": "2026-06-03T15:42:35.5151136Z"
     },
     {
       "path": "wwwroot/_framework/System.Private.CoreLib.l35tov0vm7.wasm.br",
@@ -5611,12 +4297,6 @@
       "hash": "dec5649492f22126f02fd0160b36b9ff395e8234f1b925f01b05892fd583f378",
       "size": 446371,
       "lastModified": "2026-06-24T20:43:33.0605899Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Buffers.eawxfy4p74.wasm.br",
-      "hash": "0c82c41c3cb3f80cce8590fc7f8f0188ee0d789c2c1d18959bd6792dc872f4b5",
-      "size": 1547,
-      "lastModified": "2026-06-03T15:42:35.8361569Z"
     },
     {
       "path": "wwwroot/_framework/System.ComponentModel.Annotations.u4vzqx0jiq.wasm.gz",
@@ -5641,18 +4321,6 @@
       "hash": "bdd79f641ceb89c638efc399659ab4d9bc93e9d4f206a9f4675eee0bf7d02bbb",
       "size": 8891,
       "lastModified": "2026-06-03T15:42:35.5088049Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.IO.MemoryMappedFiles.if61q6v1h6.wasm.br",
-      "hash": "8bde093160da67ebe4596eeacf7dc6a18e28b979accaf87d870aae3c53bb0658",
-      "size": 10040,
-      "lastModified": "2026-06-03T15:42:36.2091784Z"
-    },
-    {
-      "path": "wwwroot/_framework/System.Collections.Concurrent.y9ec69r3e0.wasm.gz",
-      "hash": "e13ba76e3d5823c53e0303c90a613e10cdf70a0b16ddd63dfb165e80af269e0c",
-      "size": 11384,
-      "lastModified": "2026-06-03T15:42:35.503577Z"
     },
     {
       "path": "wwwroot/fonts/tajawal-900.ttf",
@@ -5880,7 +4548,7 @@
       "path": "wwwroot/sales/pos-offline/ProERP.Client.staticwebassets.endpoints.json.br",
       "hash": "023e72958050eeaf622a39918cb12706aebef3c1fdc40d3f08d1508a1cc1358e",
       "size": 38037,
-      "lastModified": "2026-06-03T15:42:58.9749289Z"
+      "lastModified": "2026-06-25T15:28:01.7069794Z"
     },
     {
       "path": "wwwroot/sales/pos-offline/manifest.webmanifest.gz",
@@ -5946,7 +4614,7 @@
       "path": "wwwroot/sales/pos-offline/ProERP.Client.staticwebassets.endpoints.json.gz",
       "hash": "52643f4db48f6325f1b89acd9bebf1a6945069a8e70dd4ccc6872ee2772f0ba7",
       "size": 44512,
-      "lastModified": "2026-05-27T22:34:42.924317Z"
+      "lastModified": "2026-06-25T15:27:43.5783575Z"
     },
     {
       "path": "wwwroot/sales/pos-offline/service-worker-assets.js.gz",
@@ -5988,7 +4656,7 @@
       "path": "wwwroot/WebReportDesigner/svg/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg.br",
       "hash": "c2df316d94b864d726fbf995ab04b5096e33669f8d48ebc345db50023f4e5b75",
       "size": 110967,
-      "lastModified": "2026-06-24T16:20:04.4388143Z"
+      "lastModified": "2026-06-25T15:28:00.7115522Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/svg/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
@@ -6000,13 +4668,13 @@
       "path": "wwwroot/WebReportDesigner/svg/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg.gz",
       "hash": "db1fa1dffe3f3607eeba606005a37f3d2b5ac0808f9e1533b8983b807d4299c7",
       "size": 136159,
-      "lastModified": "2026-06-24T16:19:39.1228392Z"
+      "lastModified": "2026-06-25T15:27:43.725904Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/locales/ar.json.gz",
       "hash": "07aa0e9d2a79381dff7a67e7a13a491fb7d4db77cac37ed0a4309dc19dc4aef6",
       "size": 15942,
-      "lastModified": "2026-06-24T16:19:39.1061961Z"
+      "lastModified": "2026-06-25T15:27:43.57449Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/locales/en.json",
@@ -6018,13 +4686,13 @@
       "path": "wwwroot/WebReportDesigner/locales/en.json.br",
       "hash": "5420ef7a62368a06e655c6531d600d0243a5e4d2a2501cac6ed03e57aab8da8c",
       "size": 11773,
-      "lastModified": "2026-06-24T16:20:03.3649268Z"
+      "lastModified": "2026-06-25T15:27:58.9409311Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/locales/ar.json.br",
       "hash": "35a1dc742926a3f88d5e91ff948f42f71b59fb74b6de85dce05d84fa0de77283",
       "size": 13299,
-      "lastModified": "2026-06-24T16:20:03.2774057Z"
+      "lastModified": "2026-06-25T15:27:58.7923553Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/locales/ar.json",
@@ -6036,7 +4704,7 @@
       "path": "wwwroot/WebReportDesigner/locales/en.json.gz",
       "hash": "c7e505931a8d4e75305fa69beebed9540f6e587c3f4b67d51440d6058828b602",
       "size": 13902,
-      "lastModified": "2026-06-24T16:19:39.1090501Z"
+      "lastModified": "2026-06-25T15:27:43.5782725Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/images/i1.5d3156fd7a86d66699e6.png",
@@ -6090,7 +4758,7 @@
       "path": "wwwroot/_content/MudBlazor/MudBlazor.min.css.gz",
       "hash": "81b460179e1b5428196a7d3687a157248edb1571aeeff479d10937db3a8c202f",
       "size": 65195,
-      "lastModified": "2026-05-27T22:34:43.3160571Z"
+      "lastModified": "2026-06-25T15:27:43.9909381Z"
     },
     {
       "path": "wwwroot/_content/MudBlazor/MudBlazor.min.js.map",
@@ -6102,13 +4770,13 @@
       "path": "wwwroot/_content/MudBlazor/MudBlazor.min.js.map.gz",
       "hash": "9970d169efcf68b99750501b3ade4a23a314979e1f2e18b5d7d7cd40fb10f2d4",
       "size": 51432,
-      "lastModified": "2026-05-27T22:34:43.1630564Z"
+      "lastModified": "2026-06-25T15:27:43.9661522Z"
     },
     {
       "path": "wwwroot/_content/MudBlazor/MudBlazor.min.js.gz",
       "hash": "c44df6118f4dd5a46c719e0c03332ea56d19dc1ce909e77b56188f78c159abcd",
       "size": 16426,
-      "lastModified": "2026-05-27T22:34:42.918633Z"
+      "lastModified": "2026-06-25T15:27:43.716267Z"
     },
     {
       "path": "wwwroot/_content/MudBlazor/MudBlazor.min.css",
@@ -6120,19 +4788,19 @@
       "path": "wwwroot/_content/MudBlazor/MudBlazor.min.css.br",
       "hash": "8df874e0c3a21a2699867c27f7835af8986a417e1b59cdaac0c76be37348b02e",
       "size": 41380,
-      "lastModified": "2026-06-03T15:42:57.4654041Z"
+      "lastModified": "2026-06-25T15:28:00.6393584Z"
     },
     {
       "path": "wwwroot/_content/MudBlazor/MudBlazor.min.js.map.br",
       "hash": "fefcdc1190bbfee2c7ba6db2c74e9438edd9641ae9364ff468fe9275ab229ece",
       "size": 43448,
-      "lastModified": "2026-06-03T15:42:56.1769216Z"
+      "lastModified": "2026-06-25T15:27:59.3879448Z"
     },
     {
       "path": "wwwroot/_content/MudBlazor/MudBlazor.min.js.br",
       "hash": "461047e14c3da6210f8edfd4694989a265d5d467a3a3152e51dddc7fc8873792",
       "size": 14326,
-      "lastModified": "2026-06-03T15:42:55.595199Z"
+      "lastModified": "2026-06-25T15:27:58.7564906Z"
     },
     {
       "path": "wwwroot/_content/MudBlazor/MudBlazor.min.js",
@@ -6144,7 +4812,7 @@
       "path": "wwwroot/_content/Radzen.Blazor/Radzen.Blazor.js.br",
       "hash": "daf54f3359e2bfe0852566377686c307217267ce250fe219af27fdc470302c7b",
       "size": 14504,
-      "lastModified": "2026-06-03T15:42:55.4050133Z"
+      "lastModified": "2026-06-25T15:27:58.8700624Z"
     },
     {
       "path": "wwwroot/_content/Radzen.Blazor/Radzen.Blazor.js",
@@ -6156,103 +4824,7 @@
       "path": "wwwroot/_content/Radzen.Blazor/Radzen.Blazor.js.gz",
       "hash": "f99538b0e97f185c7965a958803e84ea976a0b473f186e8301bc8ef4b993a2b2",
       "size": 17080,
-      "lastModified": "2026-05-27T22:34:42.9173323Z"
-    },
-    {
-      "path": "runtimes/linux-arm/native/libSkiaSharp.so",
-      "hash": "ec14c8123bd177c4438634a26703080327bdea52cfec1a6c50f05f0b3434359d",
-      "size": 5536764,
-      "lastModified": "2024-11-07T13:03:50Z"
-    },
-    {
-      "path": "runtimes/linux-arm/native/libHarfBuzzSharp.so",
-      "hash": "75b27c1fe42d3b71a2e31bcba0384d83ab48e6c6a10efd071869a16628f74b7b",
-      "size": 1318796,
-      "lastModified": "2024-04-09T16:58:00Z"
-    },
-    {
-      "path": "runtimes/linux-arm64/native/libSkiaSharp.so",
-      "hash": "c87c290b8179f095ea7495630cafc2829ec15f64e51a2dd2c03ef98099ea58b2",
-      "size": 8056736,
-      "lastModified": "2024-11-07T13:03:50Z"
-    },
-    {
-      "path": "runtimes/linux-arm64/native/libHarfBuzzSharp.so",
-      "hash": "0051bc4a4878f63cbe26cc3cd0dba210aac16a48812b94a0cffbeaa806232894",
-      "size": 1909792,
-      "lastModified": "2024-04-09T16:58:00Z"
-    },
-    {
-      "path": "runtimes/osx/native/libHarfBuzzSharp.dylib",
-      "hash": "ca20dd85d0204a7bdaa2b6eb4f6bd17486d8c6e860437052de29a08538de085e",
-      "size": 2683424,
-      "lastModified": "2024-04-09T16:58:00Z"
-    },
-    {
-      "path": "runtimes/osx/native/libSkiaSharp.dylib",
-      "hash": "169e3c792cd1d364e518c9d693d74580659569dff8bafb4719c7576a556bccc3",
-      "size": 15116016,
-      "lastModified": "2024-11-07T05:56:46Z"
-    },
-    {
-      "path": "runtimes/win-x86/native/libHarfBuzzSharp.dll",
-      "hash": "1a9ef1f0ee6c524ef1a928ff22032f6a4e7c1b3b6ebbb355dc09a0b928207367",
-      "size": 1363504,
-      "lastModified": "2024-04-09T17:24:44Z"
-    },
-    {
-      "path": "runtimes/win-x86/native/libSkiaSharp.dll",
-      "hash": "57500c7bb65f8db8d2ee40cc8f9736d950789912f7b1ec33944dad6c472c0d99",
-      "size": 7980600,
-      "lastModified": "2024-11-07T13:56:18Z"
-    },
-    {
-      "path": "runtimes/linux-musl-x64/native/libSkiaSharp.so",
-      "hash": "9e33543bb522862910adbd71d2fd4a1394ceb5c5a9aaea75106a7f16fe826314",
-      "size": 11256416,
-      "lastModified": "2024-11-07T13:03:50Z"
-    },
-    {
-      "path": "runtimes/linux-musl-x64/native/libHarfBuzzSharp.so",
-      "hash": "7bf7f5d9307352cbb504be4c2d371ca0f5ab5ce69a9e0f2c0bcf17cc849be0b7",
-      "size": 1892440,
-      "lastModified": "2024-04-09T16:58:00Z"
-    },
-    {
-      "path": "runtimes/win-x64/native/libHarfBuzzSharp.dll",
-      "hash": "ef5923ef4cdc8612c1825b294174b5b8cc8a056ed0f06b58db56aabc56aaae12",
-      "size": 1607216,
-      "lastModified": "2024-04-09T17:25:14Z"
-    },
-    {
-      "path": "runtimes/win-x64/native/libSkiaSharp.dll",
-      "hash": "9a0d95e8caaa852c70d085af6a40a744242172ad9ea3fd6bc7599875a8a1dbcd",
-      "size": 9414216,
-      "lastModified": "2024-11-07T13:55:34Z"
-    },
-    {
-      "path": "runtimes/linux-x64/native/libSkiaSharp.so",
-      "hash": "a02cd03f1ebcbb972b811bd836caa02245de764a439794c5d5eebaf063baaa65",
-      "size": 9244960,
-      "lastModified": "2024-11-07T13:03:50Z"
-    },
-    {
-      "path": "runtimes/linux-x64/native/libHarfBuzzSharp.so",
-      "hash": "95fad4b704332ff1a9d7e137ab5d1849b8711099be61fd5d264afe0562b306a2",
-      "size": 2119208,
-      "lastModified": "2024-04-09T16:58:00Z"
-    },
-    {
-      "path": "runtimes/win-arm64/native/libHarfBuzzSharp.dll",
-      "hash": "5c24f42d6a0bb021c4f80ac74f393d4cefc2858ab5fd238a9d004d8cab7fdb40",
-      "size": 1747488,
-      "lastModified": "2024-04-09T17:24:16Z"
-    },
-    {
-      "path": "runtimes/win-arm64/native/libSkiaSharp.dll",
-      "hash": "3e6a5a4ceb45d0e1003f070ae66e2b92e8cc6d5b8fd6e7fc890109f121bac46b",
-      "size": 7948344,
-      "lastModified": "2024-11-07T13:54:30Z"
+      "lastModified": "2026-06-25T15:27:43.907426Z"
     },
     {
       "path": "standalone_publish_dir/wwwroot/_framework/blazor.boot.json",
@@ -8130,13 +6702,13 @@
       "path": "wwwroot/_content/Radzen.Blazor/css/humanistic-dark-base.css.gz",
       "hash": "091ff9d81a8be0534d327a8d80762c8f587c9d4c98cd8c4f9dc9662b673a531c",
       "size": 66281,
-      "lastModified": "2026-05-27T22:34:43.3172206Z"
+      "lastModified": "2026-06-25T15:27:43.9866246Z"
     },
     {
       "path": "wwwroot/_content/Radzen.Blazor/css/default-wcag.css.gz",
       "hash": "64d64865ce6e4ff81386cf720059fc40398e40b74bc4594ec2fc4adcb8347318",
       "size": 625,
-      "lastModified": "2026-05-27T22:34:42.839396Z"
+      "lastModified": "2026-06-25T15:27:43.8665877Z"
     },
     {
       "path": "wwwroot/_content/Radzen.Blazor/css/material-dark.css",
@@ -8148,7 +6720,7 @@
       "path": "wwwroot/_content/Radzen.Blazor/css/material.css.gz",
       "hash": "aef6c2b97d952287756f7c7dcba471a9655731b98b8860fd9d5ef719ccb6ed98",
       "size": 67758,
-      "lastModified": "2026-05-27T22:34:43.316079Z"
+      "lastModified": "2026-06-25T15:27:43.7229675Z"
     },
     {
       "path": "wwwroot/_content/Radzen.Blazor/css/humanistic-dark.css",
@@ -8160,19 +6732,19 @@
       "path": "wwwroot/_content/Radzen.Blazor/css/humanistic-dark-wcag.css.gz",
       "hash": "8ab12c611d0d8f1042b7ea364be44614cccd7b9697dc0ff7c2eada315c9d154d",
       "size": 660,
-      "lastModified": "2026-05-27T22:34:42.8393838Z"
+      "lastModified": "2026-06-25T15:27:44.0246232Z"
     },
     {
       "path": "wwwroot/_content/Radzen.Blazor/css/default-base.css.gz",
       "hash": "db6d04c7201f4225ebbd423234d0fb8b4f62d30f6dc7b55758685cf1c0b1e667",
       "size": 66238,
-      "lastModified": "2026-05-27T22:34:42.9190684Z"
+      "lastModified": "2026-06-25T15:27:43.8937867Z"
     },
     {
       "path": "wwwroot/_content/Radzen.Blazor/css/humanistic.css.gz",
       "hash": "baab8dc140234e2d2f5e576fa4b9a5ff1b8503944a6747c76733938f2223e5f8",
       "size": 66433,
-      "lastModified": "2026-05-27T22:34:43.3170357Z"
+      "lastModified": "2026-06-25T15:27:44.0106258Z"
     },
     {
       "path": "wwwroot/_content/Radzen.Blazor/css/material.css",
@@ -8196,25 +6768,25 @@
       "path": "wwwroot/_content/Radzen.Blazor/css/dark-wcag.css.br",
       "hash": "e834bfd154678cdd41da774c80dab08efbcbe6456e942593c72d8f4ab6b69e20",
       "size": 556,
-      "lastModified": "2026-06-03T15:42:55.1666282Z"
+      "lastModified": "2026-06-25T15:28:00.6546232Z"
     },
     {
       "path": "wwwroot/_content/Radzen.Blazor/css/humanistic-base.css.br",
       "hash": "5f585813ad7a3ae34016a5d4e09b563253341391545adc93398e4b399703ef8d",
       "size": 45436,
-      "lastModified": "2026-06-03T15:42:57.2840377Z"
+      "lastModified": "2026-06-25T15:28:02.0158521Z"
     },
     {
       "path": "wwwroot/_content/Radzen.Blazor/css/standard-wcag.css.gz",
       "hash": "42c145bb682965af7ecd35ff0ec48dc4388c81456b61b9e9180837337c53726d",
       "size": 610,
-      "lastModified": "2026-05-27T22:34:42.850974Z"
+      "lastModified": "2026-06-25T15:27:43.8666097Z"
     },
     {
       "path": "wwwroot/_content/Radzen.Blazor/css/material-base.css.gz",
       "hash": "ea13192ab707a5c0bceacec2b227fab7cfb3edb6adf389f89fdd157b520a2285",
       "size": 67560,
-      "lastModified": "2026-05-27T22:34:43.3167782Z"
+      "lastModified": "2026-06-25T15:27:43.9901195Z"
     },
     {
       "path": "wwwroot/_content/Radzen.Blazor/css/dark-base.css",
@@ -8226,55 +6798,55 @@
       "path": "wwwroot/_content/Radzen.Blazor/css/standard-dark-wcag.css.br",
       "hash": "2dc5d176596f6cef96a0cf051d819acd42aafb87ef13c8ba0f2618f34e144b81",
       "size": 535,
-      "lastModified": "2026-06-03T15:42:55.1674822Z"
+      "lastModified": "2026-06-25T15:27:58.5589938Z"
     },
     {
       "path": "wwwroot/_content/Radzen.Blazor/css/software.css.br",
       "hash": "4b93c6531847ddaa93e63de39488d76a84c9727bd44c70adbfb0e9efb4b574db",
       "size": 45462,
-      "lastModified": "2026-06-03T15:42:57.2700039Z"
+      "lastModified": "2026-06-25T15:28:00.5942395Z"
     },
     {
       "path": "wwwroot/_content/Radzen.Blazor/css/dark.css.br",
       "hash": "16e5942a301d36b68cc1beec55144126f17727186a1ed7fbb6aeff3a9d72bc56",
       "size": 45517,
-      "lastModified": "2026-06-03T15:42:57.2726782Z"
+      "lastModified": "2026-06-25T15:28:00.6150252Z"
     },
     {
       "path": "wwwroot/_content/Radzen.Blazor/css/material-wcag.css.gz",
       "hash": "52428e17d83357f8fb8c8064801473a4dafa66e3c7709927b496f6afa8014082",
       "size": 625,
-      "lastModified": "2026-05-27T22:34:42.8417392Z"
+      "lastModified": "2026-06-25T15:27:43.8665653Z"
     },
     {
       "path": "wwwroot/_content/Radzen.Blazor/css/standard-base.css.gz",
       "hash": "c696a28619a064815afc5e46b02228d7a5f965d0be6ea39fd813c49dc409b112",
       "size": 68488,
-      "lastModified": "2026-05-27T22:34:43.1640185Z"
+      "lastModified": "2026-06-25T15:27:43.9915024Z"
     },
     {
       "path": "wwwroot/_content/Radzen.Blazor/css/standard.css.br",
       "hash": "45eb10ca2bf5cf6fffba00bacaf7753b6ab66d75cca8dcbfb10bb8361b2fd8ad",
       "size": 47571,
-      "lastModified": "2026-06-03T15:42:57.2496086Z"
+      "lastModified": "2026-06-25T15:28:00.6275952Z"
     },
     {
       "path": "wwwroot/_content/Radzen.Blazor/css/standard-dark-base.css.br",
       "hash": "05a2a155d72320eb203a903e9f277fbbc362a3bd57d3778d2fe3f1edb1536227",
       "size": 47400,
-      "lastModified": "2026-06-03T15:42:57.2727765Z"
+      "lastModified": "2026-06-25T15:28:03.3738599Z"
     },
     {
       "path": "wwwroot/_content/Radzen.Blazor/css/dark-base.css.br",
       "hash": "d4c93f1bf4873c608bfdcaeac4cc4f11ed9ae5e84f7cd3501b6c41cf454b35ba",
       "size": 45278,
-      "lastModified": "2026-06-03T15:42:57.2632474Z"
+      "lastModified": "2026-06-25T15:28:00.6469015Z"
     },
     {
       "path": "wwwroot/_content/Radzen.Blazor/css/software-dark.css.br",
       "hash": "b1c075d578c280a55de281ee4aac1b061d3f9d5802958b930ce9b6cac55698a5",
       "size": 45440,
-      "lastModified": "2026-06-03T15:42:57.2659989Z"
+      "lastModified": "2026-06-25T15:28:00.6130456Z"
     },
     {
       "path": "wwwroot/_content/Radzen.Blazor/css/material-wcag.css",
@@ -8286,7 +6858,7 @@
       "path": "wwwroot/_content/Radzen.Blazor/css/humanistic-wcag.css.br",
       "hash": "d46b2074dfcdd87c69c285c2d5dfabd92bb620f6f15b8523f1eb9a0d70514ab9",
       "size": 540,
-      "lastModified": "2026-06-03T15:42:55.1715996Z"
+      "lastModified": "2026-06-25T15:28:00.6344184Z"
     },
     {
       "path": "wwwroot/_content/Radzen.Blazor/css/humanistic-wcag.css",
@@ -8304,43 +6876,43 @@
       "path": "wwwroot/_content/Radzen.Blazor/css/software-wcag.css.br",
       "hash": "6ac724561010052b621b8ed7b6a0de57784f1cccb619bd05520c381ca246061d",
       "size": 550,
-      "lastModified": "2026-06-03T15:42:55.1666915Z"
+      "lastModified": "2026-06-25T15:28:00.6499538Z"
     },
     {
       "path": "wwwroot/_content/Radzen.Blazor/css/humanistic-dark.css.br",
       "hash": "1249f0c0634bb0390fca75c382ee02575ad454c969c496b863a365f3a0670e04",
       "size": 45470,
-      "lastModified": "2026-06-03T15:42:57.232929Z"
+      "lastModified": "2026-06-25T15:28:00.6244764Z"
     },
     {
       "path": "wwwroot/_content/Radzen.Blazor/css/material-dark-wcag.css.gz",
       "hash": "a119fbaadb8ddedf66c397720d406800ab88968726c2b315f58ae831a5cc4230",
       "size": 630,
-      "lastModified": "2026-05-27T22:34:42.8416173Z"
+      "lastModified": "2026-06-25T15:27:43.7143083Z"
     },
     {
       "path": "wwwroot/_content/Radzen.Blazor/css/software-dark-base.css.br",
       "hash": "8f68d014da6107f1d231fe3b21e398cfcadc3b9e32e637ea4210518c5209b918",
       "size": 45258,
-      "lastModified": "2026-06-03T15:42:57.2698934Z"
+      "lastModified": "2026-06-25T15:28:00.6369388Z"
     },
     {
       "path": "wwwroot/_content/Radzen.Blazor/css/material-dark.css.gz",
       "hash": "f19529e6dc72c39f003aaa354d3681de67bfc258255065d94a293cead84c2cd2",
       "size": 67709,
-      "lastModified": "2026-05-27T22:34:43.3172284Z"
+      "lastModified": "2026-06-25T15:27:44.1986377Z"
     },
     {
       "path": "wwwroot/_content/Radzen.Blazor/css/software-dark-wcag.css.br",
       "hash": "4650b7c408db5c000ca8f8f89ef616cb7044a2b88ed92abc9d1d83dadfb4a379",
       "size": 556,
-      "lastModified": "2026-06-03T15:42:55.1679526Z"
+      "lastModified": "2026-06-25T15:28:00.6440942Z"
     },
     {
       "path": "wwwroot/_content/Radzen.Blazor/css/standard-dark.css.gz",
       "hash": "80c6cf162ff48aca1c6a909b335b7711030416c5dbc6b39cdbf2c548240f6193",
       "size": 68649,
-      "lastModified": "2026-05-27T22:34:43.3171524Z"
+      "lastModified": "2026-06-25T15:27:44.1994212Z"
     },
     {
       "path": "wwwroot/_content/Radzen.Blazor/css/default-wcag.css",
@@ -8352,13 +6924,13 @@
       "path": "wwwroot/_content/Radzen.Blazor/css/software-base.css.br",
       "hash": "9c2995ca16d62517be9e16554c561358078e095fc95b1cb8606275d431927f48",
       "size": 45193,
-      "lastModified": "2026-06-03T15:42:57.3018023Z"
+      "lastModified": "2026-06-25T15:28:00.6711895Z"
     },
     {
       "path": "wwwroot/_content/Radzen.Blazor/css/default.css.gz",
       "hash": "0889f05fd19580c5c825331ffc1cceacda64ed078e5cb464d5d5a8ba26be78d2",
       "size": 66435,
-      "lastModified": "2026-05-27T22:34:43.3172031Z"
+      "lastModified": "2026-06-25T15:27:44.2021951Z"
     },
     {
       "path": "wwwroot/_content/Radzen.Blazor/css/standard.css",
@@ -8370,7 +6942,7 @@
       "path": "wwwroot/_content/Radzen.Blazor/css/material-dark-base.css.gz",
       "hash": "95efb5820f9bb24c5e1de4c484dbad6219e63550376879596a83784ae1141716",
       "size": 67517,
-      "lastModified": "2026-05-27T22:34:43.3168548Z"
+      "lastModified": "2026-06-25T15:27:44.2576648Z"
     },
     {
       "path": "wwwroot/_content/Radzen.Blazor/css/material-dark-base.css",
@@ -8406,7 +6978,7 @@
       "path": "wwwroot/_content/Radzen.Blazor/css/humanistic-dark-wcag.css.br",
       "hash": "bb3cc56d4342aa9037f0a89dbd12fb2c036ce4bbaa6263727b43b2bfc55bcabe",
       "size": 561,
-      "lastModified": "2026-06-03T15:42:55.1680768Z"
+      "lastModified": "2026-06-25T15:28:00.6278497Z"
     },
     {
       "path": "wwwroot/_content/Radzen.Blazor/css/default.css",
@@ -8418,13 +6990,13 @@
       "path": "wwwroot/_content/Radzen.Blazor/css/default-base.css.br",
       "hash": "f82e3877a6ab80b33beff24fa7e308641762393319b52d362f8898d003f78b74",
       "size": 45359,
-      "lastModified": "2026-06-03T15:42:57.2289976Z"
+      "lastModified": "2026-06-25T15:28:00.6065577Z"
     },
     {
       "path": "wwwroot/_content/Radzen.Blazor/css/humanistic.css.br",
       "hash": "a43a7043588b253044a9d047e66ade8d8c2dcb862118f64e5048b599cd3cec28",
       "size": 45688,
-      "lastModified": "2026-06-03T15:42:57.272378Z"
+      "lastModified": "2026-06-25T15:28:00.6646486Z"
     },
     {
       "path": "wwwroot/_content/Radzen.Blazor/css/humanistic-base.css",
@@ -8442,19 +7014,19 @@
       "path": "wwwroot/_content/Radzen.Blazor/css/material.css.br",
       "hash": "c71a106c757aaf8251a7c21b7744a5653f72680506377f8746588efa4996a3d7",
       "size": 46303,
-      "lastModified": "2026-06-03T15:42:57.3034633Z"
+      "lastModified": "2026-06-25T15:28:00.5961827Z"
     },
     {
       "path": "wwwroot/_content/Radzen.Blazor/css/humanistic-dark-base.css.br",
       "hash": "c8b5a33c2a69c598bf472f3057e8f7655cc041132da147bb4d5abeb79d7cf885",
       "size": 45631,
-      "lastModified": "2026-06-03T15:42:57.2475948Z"
+      "lastModified": "2026-06-25T15:28:00.6200808Z"
     },
     {
       "path": "wwwroot/_content/Radzen.Blazor/css/default-wcag.css.br",
       "hash": "befd6160d4a25fa352c1d792162ace0c0aa330be7e781475a10aeeb02e74de35",
       "size": 528,
-      "lastModified": "2026-06-03T15:42:55.167258Z"
+      "lastModified": "2026-06-25T15:27:58.6350295Z"
     },
     {
       "path": "wwwroot/_content/Radzen.Blazor/css/software.css",
@@ -8478,103 +7050,103 @@
       "path": "wwwroot/_content/Radzen.Blazor/css/dark.css.gz",
       "hash": "918288627c4a7bad854dd77fd864a0e148341fa40641d6614ef453b4a126cc02",
       "size": 66498,
-      "lastModified": "2026-05-27T22:34:42.9189773Z"
+      "lastModified": "2026-06-25T15:27:43.892733Z"
     },
     {
       "path": "wwwroot/_content/Radzen.Blazor/css/software.css.gz",
       "hash": "8a1c24853dd994b9343cce5524974798990ba5760facdbc13f6c17ab19d80fb3",
       "size": 66459,
-      "lastModified": "2026-05-27T22:34:43.3170484Z"
+      "lastModified": "2026-06-25T15:27:44.0098898Z"
     },
     {
       "path": "wwwroot/_content/Radzen.Blazor/css/humanistic-wcag.css.gz",
       "hash": "19438861021dc36fc99651129bd6cddab98f6b881199e07384bd935446c49ce9",
       "size": 627,
-      "lastModified": "2026-05-27T22:34:42.8427484Z"
+      "lastModified": "2026-06-25T15:27:44.1387815Z"
     },
     {
       "path": "wwwroot/_content/Radzen.Blazor/css/dark-base.css.gz",
       "hash": "a8746ddc0b549433abe8dbaf3ad2188b4e1de60cb066674e1ceb23cc7597afe0",
       "size": 66293,
-      "lastModified": "2026-05-27T22:34:43.3169304Z"
+      "lastModified": "2026-06-25T15:27:43.9889393Z"
     },
     {
       "path": "wwwroot/_content/Radzen.Blazor/css/software-dark.css.gz",
       "hash": "f260fa181a3c4ac51a8409ff65b2d7cf286e5b773499e6d77efaf9685234b8f0",
       "size": 66504,
-      "lastModified": "2026-05-27T22:34:43.1641751Z"
+      "lastModified": "2026-06-25T15:27:43.7211816Z"
     },
     {
       "path": "wwwroot/_content/Radzen.Blazor/css/standard.css.gz",
       "hash": "ec45b93465da2e5db6f4689370b1ec6f4270e2a3a2f83fbf4e0e90a92112f8a0",
       "size": 68699,
-      "lastModified": "2026-05-27T22:34:43.3171162Z"
+      "lastModified": "2026-06-25T15:27:43.722177Z"
     },
     {
       "path": "wwwroot/_content/Radzen.Blazor/css/standard-dark-base.css.gz",
       "hash": "8d3d8a545e971f7e3c771c4a68873d2252f7224ec53750e665bbb0d857463c5b",
       "size": 68440,
-      "lastModified": "2026-05-27T22:34:43.3172056Z"
+      "lastModified": "2026-06-25T15:27:43.9874415Z"
     },
     {
       "path": "wwwroot/_content/Radzen.Blazor/css/standard-base.css.br",
       "hash": "d4ee754d16d7dee8625a2f29e29c51d64396f9bf9c8528eb5b7a7de62b586d17",
       "size": 47306,
-      "lastModified": "2026-06-03T15:42:57.2604821Z"
+      "lastModified": "2026-06-25T15:28:00.6736491Z"
     },
     {
       "path": "wwwroot/_content/Radzen.Blazor/css/material-wcag.css.br",
       "hash": "48199683311ccab8c9484d0c41bb2dc0c231cf0d519ca3c77b56f4a7ecc161bd",
       "size": 531,
-      "lastModified": "2026-06-03T15:42:55.1671073Z"
+      "lastModified": "2026-06-25T15:27:58.5732108Z"
     },
     {
       "path": "wwwroot/_content/Radzen.Blazor/css/standard-dark-wcag.css.gz",
       "hash": "95479e2435a6ab3fdbc1b8fa95a42b3d13aadf10379658863968753b2235fa49",
       "size": 621,
-      "lastModified": "2026-05-27T22:34:42.852631Z"
+      "lastModified": "2026-06-25T15:27:43.7144385Z"
     },
     {
       "path": "wwwroot/_content/Radzen.Blazor/css/material-base.css.br",
       "hash": "d86d5f64bea8a1b279642659ad088d15ece90b8988055fd2ae731793495b161b",
       "size": 46107,
-      "lastModified": "2026-06-03T15:42:57.2979062Z"
+      "lastModified": "2026-06-25T15:28:00.6682227Z"
     },
     {
       "path": "wwwroot/_content/Radzen.Blazor/css/standard-wcag.css.br",
       "hash": "c82409015999643365ec7f9ca184791cc7637e882b66ac54f59da2f6ce851c22",
       "size": 514,
-      "lastModified": "2026-06-03T15:42:55.1757504Z"
+      "lastModified": "2026-06-25T15:27:58.5692012Z"
     },
     {
       "path": "wwwroot/_content/Radzen.Blazor/css/humanistic-base.css.gz",
       "hash": "82ae7d7f420160c3a89173dcb517b30a69ea9c78beba2d53cffcab6a02b7b856",
       "size": 66237,
-      "lastModified": "2026-05-27T22:34:43.1639372Z"
+      "lastModified": "2026-06-25T15:27:44.2010132Z"
     },
     {
       "path": "wwwroot/_content/Radzen.Blazor/css/dark-wcag.css.gz",
       "hash": "8c13ac0c86092e2e6e1c5c1973d17573f984ac9716842af1e7f4258a70d3ffc9",
       "size": 653,
-      "lastModified": "2026-05-27T22:34:42.8376351Z"
+      "lastModified": "2026-06-25T15:27:44.0574415Z"
     },
     {
       "path": "wwwroot/_content/Radzen.Blazor/css/material-dark-base.css.br",
       "hash": "910a3e98e55a5a5dca340a6b4c8b48f2205a284a00a4c2c9b5df939ee1485c47",
       "size": 46224,
-      "lastModified": "2026-06-03T15:42:57.3054267Z"
+      "lastModified": "2026-06-25T15:28:03.3783785Z"
     },
     {
       "path": "wwwroot/_content/Radzen.Blazor/css/default.css.br",
       "hash": "891a42ebc8a355671b1378928462448270f34b750314f694088fc188ac5eb077",
       "size": 45858,
-      "lastModified": "2026-06-03T15:42:57.2726329Z"
+      "lastModified": "2026-06-25T15:28:02.009016Z"
     },
     {
       "path": "wwwroot/_content/Radzen.Blazor/css/software-base.css.gz",
       "hash": "0116678fc27bc3dccc367cd4d6e8cafd0c92a974f2d12b77ee9328cf747d98d2",
       "size": 66261,
-      "lastModified": "2026-05-27T22:34:43.3162196Z"
+      "lastModified": "2026-06-25T15:27:44.1999724Z"
     },
     {
       "path": "wwwroot/_content/Radzen.Blazor/css/standard-wcag.css",
@@ -8586,13 +7158,13 @@
       "path": "wwwroot/_content/Radzen.Blazor/css/software-dark-wcag.css.gz",
       "hash": "7ed2df2b7f432ddc825d533926d79b39411626a139ea2edc703be06259f1a026",
       "size": 650,
-      "lastModified": "2026-05-27T22:34:42.8510581Z"
+      "lastModified": "2026-06-25T15:27:44.041949Z"
     },
     {
       "path": "wwwroot/_content/Radzen.Blazor/css/standard-dark.css.br",
       "hash": "eb2d7906dc27daedc77e3e866d4e14854af4807a5b86160680e65216bb4a763a",
       "size": 47489,
-      "lastModified": "2026-06-03T15:42:57.2881439Z"
+      "lastModified": "2026-06-25T15:28:02.0336162Z"
     },
     {
       "path": "wwwroot/_content/Radzen.Blazor/css/software-dark-wcag.css",
@@ -8610,31 +7182,31 @@
       "path": "wwwroot/_content/Radzen.Blazor/css/software-dark-base.css.gz",
       "hash": "158ccf03ef003e4c55a2051b68418b8aa853855bef60c479281f85ac7cf231c7",
       "size": 66303,
-      "lastModified": "2026-05-27T22:34:43.31706Z"
+      "lastModified": "2026-06-25T15:27:43.9880967Z"
     },
     {
       "path": "wwwroot/_content/Radzen.Blazor/css/material-dark.css.br",
       "hash": "9391593d4bd74c848756ddf07fef8985f0c5df7157decdb51ab6f3e461248a66",
       "size": 46509,
-      "lastModified": "2026-06-03T15:42:57.2803586Z"
+      "lastModified": "2026-06-25T15:28:02.0357665Z"
     },
     {
       "path": "wwwroot/_content/Radzen.Blazor/css/material-dark-wcag.css.br",
       "hash": "cb10567bac607eeb168bfb23293368e4bf44482f547bc5ad87f398cc52922ea9",
       "size": 539,
-      "lastModified": "2026-06-03T15:42:55.1734621Z"
+      "lastModified": "2026-06-25T15:27:58.5624904Z"
     },
     {
       "path": "wwwroot/_content/Radzen.Blazor/css/humanistic-dark.css.gz",
       "hash": "d63391b5673b0da425cf3ff3826699ab30d604ee17b6f0ad7b4f191852cc60d4",
       "size": 66485,
-      "lastModified": "2026-05-27T22:34:43.1640415Z"
+      "lastModified": "2026-06-25T15:27:43.8920803Z"
     },
     {
       "path": "wwwroot/_content/Radzen.Blazor/css/software-wcag.css.gz",
       "hash": "144fc432e69029181b9140f0922e204153b9c1ce7cae20dfc5ee1c5fd7483e18",
       "size": 641,
-      "lastModified": "2026-05-27T22:34:42.8511034Z"
+      "lastModified": "2026-06-25T15:27:44.1551041Z"
     },
     {
       "path": "wwwroot/_content/Radzen.Blazor/css/standard-dark-base.css",
@@ -8665,42 +7237,6 @@
       "hash": "5f16566f7a40d39b339ad26be151fa5a1ab1f0c2574c7a2e619765584a1acbd8",
       "size": 170188,
       "lastModified": "2024-08-01T15:22:58Z"
-    },
-    {
-      "path": "runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll",
-      "hash": "142cce4ed8ac9da22d69c38a6f22738abfb22090dc9313e8b58e6f91978e89af",
-      "size": 53352,
-      "lastModified": "2021-10-22T23:40:18Z"
-    },
-    {
-      "path": "runtimes/win/lib/net6.0/System.Drawing.Common.dll",
-      "hash": "4d3001697df50cca54f32ed2dbbd1f3f415b48d5d756b1bf9500a43ae9b68da0",
-      "size": 454248,
-      "lastModified": "2021-10-22T23:48:10Z"
-    },
-    {
-      "path": "runtimes/win/lib/net7.0/System.Management.dll",
-      "hash": "979fee559e30cc0fc4af6f34548a225b6f08cae0a6c61d24a3e389b3f22dc9d1",
-      "size": 295600,
-      "lastModified": "2023-05-24T14:40:18Z"
-    },
-    {
-      "path": "runtimes/win/lib/net9.0/System.Diagnostics.EventLog.Messages.dll",
-      "hash": "aa8cb35d10093fe4bda643acd30efb70ab539b7d079249414340f03aa8d641e3",
-      "size": 801064,
-      "lastModified": "2024-10-29T02:39:04Z"
-    },
-    {
-      "path": "runtimes/win/lib/net9.0/System.ServiceProcess.ServiceController.dll",
-      "hash": "5ba8439789392ed0806da50cd94ff4935eb1b876c9bd234bc5ad35f0e9c9a753",
-      "size": 91400,
-      "lastModified": "2024-10-29T02:39:20Z"
-    },
-    {
-      "path": "runtimes/unix/lib/net6.0/System.Drawing.Common.dll",
-      "hash": "89ea595ccb1fd1384480c1e30bd487c92af5d06d3b06f295323eff601acd9019",
-      "size": 427112,
-      "lastModified": "2021-10-22T23:51:42Z"
     },
     {
       "path": "standalone_publish_dir/standalone_publish_dir/wwwroot/_framework/blazor.boot.json",
