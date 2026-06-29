@@ -1,5 +1,5 @@
 self.assetsManifest = {
-  "version": "JpMmyL8K",
+  "version": "r/d2JF/q",
   "assets": [
     {
       "hash": "sha256-iybf90y3kfW5bciTdjo7Kd4sQAffs/Ofr5q6N3ZEGmM=",
@@ -230,8 +230,8 @@ self.assetsManifest = {
       "url": "_framework/Microsoft.JSInterop.uu8izyvyxp.wasm"
     },
     {
-      "hash": "sha256-ns7VM1riS/Clw8nB+SRSkfS3P5zYUzNJ1MTT5xv9htw=",
-      "url": "_framework/ProERP.Application.el6krqjwdk.wasm"
+      "hash": "sha256-G0frZCt6M3Mc9YmCAevegABtJBPZK+/XeeXlpVikSog=",
+      "url": "_framework/ProERP.Application.rg03e9xqvc.wasm"
     },
     {
       "hash": "sha256-MvbIkF/lkjYC8hWB5IygIwYYuCejQKmdcCy4DjbCJok=",
@@ -506,7 +506,7 @@ self.assetsManifest = {
       "url": "_framework/System.sal18ehrzx.wasm"
     },
     {
-      "hash": "sha256-BcWaAOxceRXcpi3pbOCKxTSk3ACrR44gfHfsz7h84zg=",
+      "hash": "sha256-QpFtmPoesXdB3oW8YJtLl6DYdFVhdXKuDLwEAQMAQVA=",
       "url": "_framework/blazor.boot.json"
     },
     {

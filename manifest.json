@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "publishedAt": "2026-06-25T15:32:53.435159Z",
+  "publishedAt": "2026-06-29T15:30:33.556702Z",
   "files": [
     {
       "path": "Google.Api.Gax.dll",
@@ -22,9 +22,9 @@
     },
     {
       "path": "Microsoft.Win32.SystemEvents.dll",
-      "hash": "142cce4ed8ac9da22d69c38a6f22738abfb22090dc9313e8b58e6f91978e89af",
-      "size": 53352,
-      "lastModified": "2021-10-22T23:40:18Z"
+      "hash": "ca495bf6c86b7f092d624928101985a941532d149dcd8acfea170f8a53be8850",
+      "size": 26224,
+      "lastModified": "2021-10-22T23:40:24Z"
     },
     {
       "path": "Google.Apis.dll",
@@ -70,9 +70,9 @@
     },
     {
       "path": "System.Management.dll",
-      "hash": "979fee559e30cc0fc4af6f34548a225b6f08cae0a6c61d24a3e389b3f22dc9d1",
-      "size": 295600,
-      "lastModified": "2023-05-24T14:40:18Z"
+      "hash": "36056b240f488b7da63720585d84f93183cf7bd05da68d5340151ebdd85e4d88",
+      "size": 74352,
+      "lastModified": "2023-05-24T14:46:16Z"
     },
     {
       "path": "BCrypt.Net-Next.dll",
@@ -82,9 +82,9 @@
     },
     {
       "path": "ProERP.Application.dll",
-      "hash": "d1118d563d6d718af42047c68a85cad10ae93d734c57bd8dc19d776fec2c9d6c",
-      "size": 540160,
-      "lastModified": "2026-06-24T16:19:12.7074909Z"
+      "hash": "f5653fdc17818135c1752b802e147ceeb802a09b08e776c15422a6f0730a2760",
+      "size": 540672,
+      "lastModified": "2026-06-29T15:29:05.9837429Z"
     },
     {
       "path": "Npgsql.EntityFrameworkCore.PostgreSQL.dll",
@@ -100,9 +100,9 @@
     },
     {
       "path": "ProERP.Infrastructure.dll",
-      "hash": "ad65af34955d61927ed514c0bf2c5a81e4f23323758fb3cc9687ad286b8eb49d",
-      "size": 4252160,
-      "lastModified": "2026-06-24T16:19:22.2143118Z"
+      "hash": "568c09363802fcaf120ce4d2ddf1ecc16c30f9e9b71d9405b6cfc735fde6e1c2",
+      "size": 4260352,
+      "lastModified": "2026-06-29T15:29:16.9715834Z"
     },
     {
       "path": "ProERP.Licensing.dll",
@@ -133,6 +133,12 @@
       "hash": "8d36e75b9b238e57ddd4122d0e2f6105acdc873bce2f297277ae0a25ddf610eb",
       "size": 192000,
       "lastModified": "2025-04-03T23:11:52Z"
+    },
+    {
+      "path": "ProERP.Web",
+      "hash": "383e313be0dd2fe9bf7efa57a362a761026a9ac2e2659187f16448f35310e4b5",
+      "size": 101760,
+      "lastModified": "2026-06-29T15:29:43.5882375Z"
     },
     {
       "path": "ProERP.Web.exe",
@@ -174,7 +180,7 @@
       "path": "ProERP.Web.runtimeconfig.json",
       "hash": "8f05a7683ba3ab137cea80e6bb123b02d14f0def24bd862fde95609f7cbb67c0",
       "size": 537,
-      "lastModified": "2026-06-25T15:32:41.1739155Z"
+      "lastModified": "2026-06-29T15:29:46.7033522Z"
     },
     {
       "path": "Microsoft.CodeAnalysis.CSharp.dll",
@@ -208,9 +214,9 @@
     },
     {
       "path": "ProERP.Web.deps.json",
-      "hash": "c55d0ee8dc731e0e8b72a12344746e804878a29c46056c46025dd6b7d0660463",
-      "size": 102022,
-      "lastModified": "2026-06-25T15:32:41.7240056Z"
+      "hash": "d96ff73c7559b414bd2683e7dee79196ca989abcd389abd8d55f91590d1b5062",
+      "size": 105994,
+      "lastModified": "2026-06-29T15:29:47.4498165Z"
     },
     {
       "path": "libHarfBuzzSharp.dll",
@@ -220,9 +226,9 @@
     },
     {
       "path": "ProERP.Web.dll",
-      "hash": "f589082b75fcc0049b1ac3d90ffb0bddbf5df50c866327ae932fd7128304f387",
-      "size": 3683840,
-      "lastModified": "2026-06-25T15:32:38.7642547Z"
+      "hash": "8de10b8dadee6a8e199913f4843fdd22756e64437e487e83b1367355adcd667b",
+      "size": 3694080,
+      "lastModified": "2026-06-29T15:29:40.4554369Z"
     },
     {
       "path": "Microsoft.IdentityModel.Protocols.dll",
@@ -472,9 +478,9 @@
     },
     {
       "path": "ProERP.Web.staticwebassets.endpoints.json",
-      "hash": "61f170ea70d186a022d5f29153127adcfdaf6ea32555f8b239ce09a82c02fc30",
+      "hash": "64eceb6b6cb2a3b567d2569e0fbc9a793b15bb79a2ec66dad5e772d47441cb84",
       "size": 2816335,
-      "lastModified": "2026-06-25T15:32:52.4852737Z"
+      "lastModified": "2026-06-29T15:30:32.2688924Z"
     },
     {
       "path": "Google.Apis.Drive.v3.dll",
@@ -502,9 +508,9 @@
     },
     {
       "path": "System.Drawing.Common.dll",
-      "hash": "4d3001697df50cca54f32ed2dbbd1f3f415b48d5d756b1bf9500a43ae9b68da0",
-      "size": 454248,
-      "lastModified": "2021-10-22T23:48:10Z"
+      "hash": "98d07e6b1e7d3641a8608a360b3dc273fe8a0f78926b6e1e5f679a7a074d491f",
+      "size": 175216,
+      "lastModified": "2021-10-22T23:49:12Z"
     },
     {
       "path": "Microsoft.Bcl.AsyncInterfaces.dll",
@@ -580,9 +586,9 @@
     },
     {
       "path": "wwwroot/service-worker-assets.js",
-      "hash": "e317f05e41a65ec289cbe2fddca55cec8932f651fc5cd612c132f71834ceeecf",
+      "hash": "63b4e82b1de19474323d8cbe80fef9fed4bf0c08153a436c95e2b81cc699c2da",
       "size": 20711,
-      "lastModified": "2026-06-25T15:32:49.910381Z"
+      "lastModified": "2026-06-29T15:30:27.2735881Z"
     },
     {
       "path": "wwwroot/index.html",
@@ -592,9 +598,9 @@
     },
     {
       "path": "wwwroot/service-worker-assets.js.br",
-      "hash": "9bd9b71c234058e091ee4cbfab450606fa83e749dc7acf16dd41551f3f7c5efc",
-      "size": 6732,
-      "lastModified": "2026-06-25T15:32:50.1861588Z"
+      "hash": "f774042228d6a50ac990867749cba1ca3d0329e2d0978cbc64a1d3742ccd1c7e",
+      "size": 6730,
+      "lastModified": "2026-06-29T15:30:27.5113716Z"
     },
     {
       "path": "wwwroot/firebase-messaging-sw.js.gz",
@@ -624,7 +630,7 @@
       "path": "wwwroot/service-worker.js.gz",
       "hash": "4cfcbe465da9c4874bac8a7c6dc9997db8b8901964336448493126d9d0534035",
       "size": 1142,
-      "lastModified": "2026-06-24T20:43:33.0326183Z"
+      "lastModified": "2026-06-29T15:30:27.3080242Z"
     },
     {
       "path": "wwwroot/PrivacyPolicy.html",
@@ -664,15 +670,15 @@
     },
     {
       "path": "wwwroot/service-worker-assets.js.gz",
-      "hash": "1c3b0d610a38e66e411743ab8f8093f7d6322db70250fc981a156ff254bea17c",
+      "hash": "97bebc00a3b5adcbc79665cb6d0a2a87ef8e6c7b57a0368d8a089678240840c1",
       "size": 7113,
-      "lastModified": "2026-06-25T15:32:49.9519007Z"
+      "lastModified": "2026-06-29T15:30:27.307513Z"
     },
     {
       "path": "wwwroot/service-worker.js",
-      "hash": "d9f948f7e05b88607fe910b5b2774838bfa96a607007bbca3622d245b1ee327e",
+      "hash": "edb4ec0cdbc5cf6930e1a006752e76c2420a92adaf14f2ac35c0303418a57d0c",
       "size": 2892,
-      "lastModified": "2026-06-25T15:32:49.9119649Z"
+      "lastModified": "2026-06-29T15:30:27.2751667Z"
     },
     {
       "path": "wwwroot/index.html.gz",
@@ -696,7 +702,7 @@
       "path": "wwwroot/service-worker.js.br",
       "hash": "a4c9dd0b2f31e3ee7b059853358e3428fcda2929a061a13ecb35ddca4bada0b6",
       "size": 948,
-      "lastModified": "2026-06-24T20:43:33.4364559Z"
+      "lastModified": "2026-06-29T15:30:27.4879045Z"
     },
     {
       "path": "wwwroot/qz-cert.pem",
@@ -2572,9 +2578,9 @@
     },
     {
       "path": "wwwroot/_framework/blazor.boot.json",
-      "hash": "05c59a00ec5c7915dca62de96ce08ac534a4dc00ab478e207c77eccfb87ce338",
+      "hash": "42916d98fa1eb17741de85bc609b4b97a0d87455617572ae0cbc040103004150",
       "size": 18864,
-      "lastModified": "2026-06-25T15:32:49.8407284Z"
+      "lastModified": "2026-06-29T15:30:27.2368888Z"
     },
     {
       "path": "wwwroot/_framework/System.ObjectModel.mn27weeue8.wasm.gz",
@@ -2902,9 +2908,15 @@
     },
     {
       "path": "wwwroot/_framework/blazor.boot.json.br",
-      "hash": "ec91d31d3f5dfc5a2768b99a0b4095ad5e89d27ccfa474d36e841da6b6f70b4d",
-      "size": 5701,
-      "lastModified": "2026-06-25T15:32:50.1864281Z"
+      "hash": "ce262757bf0c0d1bc06648ded14b8e7703c7eacbe734b13770aaabcae7c9f93e",
+      "size": 5703,
+      "lastModified": "2026-06-29T15:30:27.5122931Z"
+    },
+    {
+      "path": "wwwroot/_framework/ProERP.Application.rg03e9xqvc.wasm",
+      "hash": "1b47eb642b7a33731cf5898201ebde80006d2413d92befd779e5e5a558a44a88",
+      "size": 540437,
+      "lastModified": "2026-06-29T15:30:26.685091Z"
     },
     {
       "path": "wwwroot/_framework/Microsoft.JSInterop.WebAssembly.heoad7mujs.wasm",
@@ -3061,6 +3073,12 @@
       "hash": "9b98ecaa505e7cdcf4a6c1d071ec11047c4c2ace08ed892935a7d5fc08a0c42b",
       "size": 4373,
       "lastModified": "2026-06-24T20:43:32.0973684Z"
+    },
+    {
+      "path": "wwwroot/_framework/ProERP.Application.rg03e9xqvc.wasm.gz",
+      "hash": "e93e4f689aaea02c0c98c602eb28c8302321d00714ce218a609195b08b97d580",
+      "size": 177631,
+      "lastModified": "2026-06-29T15:30:27.3207876Z"
     },
     {
       "path": "wwwroot/_framework/System.Runtime.CompilerServices.Unsafe.h5a08jgsw7.wasm.br",
@@ -3676,9 +3694,9 @@
     },
     {
       "path": "wwwroot/_framework/blazor.boot.json.gz",
-      "hash": "adeff652c7d95fb194f682dea36447682e0b2871350ffde93747ba60cdec11c3",
-      "size": 6303,
-      "lastModified": "2026-06-25T15:32:49.9526927Z"
+      "hash": "183865125733536caa4792eec994a04796e2d21b62d813170e80baa45c721a58",
+      "size": 6305,
+      "lastModified": "2026-06-29T15:30:27.3075382Z"
     },
     {
       "path": "wwwroot/_framework/System.Private.Uri.hhrin330oj.wasm.br",
@@ -4009,6 +4027,12 @@
       "hash": "ffec1ce99d14b9a5bf6f44abff0b560ae549b18a1b91c9477f9e45b53ebcb8c9",
       "size": 15125,
       "lastModified": "2026-06-24T20:43:30.0621032Z"
+    },
+    {
+      "path": "wwwroot/_framework/ProERP.Application.rg03e9xqvc.wasm.br",
+      "hash": "c7d366c3eae77825f4066bb96f4ecd248400ae9209b5c6574870a2225ef5a49f",
+      "size": 118072,
+      "lastModified": "2026-06-29T15:30:29.4615117Z"
     },
     {
       "path": "wwwroot/_framework/System.Runtime.CompilerServices.Unsafe.h5a08jgsw7.wasm.gz",
@@ -4825,6 +4849,102 @@
       "hash": "f99538b0e97f185c7965a958803e84ea976a0b473f186e8301bc8ef4b993a2b2",
       "size": 17080,
       "lastModified": "2026-06-25T15:27:43.907426Z"
+    },
+    {
+      "path": "runtimes/linux-arm/native/libSkiaSharp.so",
+      "hash": "ec14c8123bd177c4438634a26703080327bdea52cfec1a6c50f05f0b3434359d",
+      "size": 5536764,
+      "lastModified": "2024-11-07T13:03:50Z"
+    },
+    {
+      "path": "runtimes/linux-arm/native/libHarfBuzzSharp.so",
+      "hash": "75b27c1fe42d3b71a2e31bcba0384d83ab48e6c6a10efd071869a16628f74b7b",
+      "size": 1318796,
+      "lastModified": "2024-04-09T16:58:00Z"
+    },
+    {
+      "path": "runtimes/linux-arm64/native/libSkiaSharp.so",
+      "hash": "c87c290b8179f095ea7495630cafc2829ec15f64e51a2dd2c03ef98099ea58b2",
+      "size": 8056736,
+      "lastModified": "2024-11-07T13:03:50Z"
+    },
+    {
+      "path": "runtimes/linux-arm64/native/libHarfBuzzSharp.so",
+      "hash": "0051bc4a4878f63cbe26cc3cd0dba210aac16a48812b94a0cffbeaa806232894",
+      "size": 1909792,
+      "lastModified": "2024-04-09T16:58:00Z"
+    },
+    {
+      "path": "runtimes/osx/native/libHarfBuzzSharp.dylib",
+      "hash": "ca20dd85d0204a7bdaa2b6eb4f6bd17486d8c6e860437052de29a08538de085e",
+      "size": 2683424,
+      "lastModified": "2024-04-09T16:58:00Z"
+    },
+    {
+      "path": "runtimes/osx/native/libSkiaSharp.dylib",
+      "hash": "169e3c792cd1d364e518c9d693d74580659569dff8bafb4719c7576a556bccc3",
+      "size": 15116016,
+      "lastModified": "2024-11-07T05:56:46Z"
+    },
+    {
+      "path": "runtimes/win-x86/native/libHarfBuzzSharp.dll",
+      "hash": "1a9ef1f0ee6c524ef1a928ff22032f6a4e7c1b3b6ebbb355dc09a0b928207367",
+      "size": 1363504,
+      "lastModified": "2024-04-09T17:24:44Z"
+    },
+    {
+      "path": "runtimes/win-x86/native/libSkiaSharp.dll",
+      "hash": "57500c7bb65f8db8d2ee40cc8f9736d950789912f7b1ec33944dad6c472c0d99",
+      "size": 7980600,
+      "lastModified": "2024-11-07T13:56:18Z"
+    },
+    {
+      "path": "runtimes/linux-musl-x64/native/libSkiaSharp.so",
+      "hash": "9e33543bb522862910adbd71d2fd4a1394ceb5c5a9aaea75106a7f16fe826314",
+      "size": 11256416,
+      "lastModified": "2024-11-07T13:03:50Z"
+    },
+    {
+      "path": "runtimes/linux-musl-x64/native/libHarfBuzzSharp.so",
+      "hash": "7bf7f5d9307352cbb504be4c2d371ca0f5ab5ce69a9e0f2c0bcf17cc849be0b7",
+      "size": 1892440,
+      "lastModified": "2024-04-09T16:58:00Z"
+    },
+    {
+      "path": "runtimes/win-x64/native/libHarfBuzzSharp.dll",
+      "hash": "ef5923ef4cdc8612c1825b294174b5b8cc8a056ed0f06b58db56aabc56aaae12",
+      "size": 1607216,
+      "lastModified": "2024-04-09T17:25:14Z"
+    },
+    {
+      "path": "runtimes/win-x64/native/libSkiaSharp.dll",
+      "hash": "9a0d95e8caaa852c70d085af6a40a744242172ad9ea3fd6bc7599875a8a1dbcd",
+      "size": 9414216,
+      "lastModified": "2024-11-07T13:55:34Z"
+    },
+    {
+      "path": "runtimes/linux-x64/native/libSkiaSharp.so",
+      "hash": "a02cd03f1ebcbb972b811bd836caa02245de764a439794c5d5eebaf063baaa65",
+      "size": 9244960,
+      "lastModified": "2024-11-07T13:03:50Z"
+    },
+    {
+      "path": "runtimes/linux-x64/native/libHarfBuzzSharp.so",
+      "hash": "95fad4b704332ff1a9d7e137ab5d1849b8711099be61fd5d264afe0562b306a2",
+      "size": 2119208,
+      "lastModified": "2024-04-09T16:58:00Z"
+    },
+    {
+      "path": "runtimes/win-arm64/native/libHarfBuzzSharp.dll",
+      "hash": "5c24f42d6a0bb021c4f80ac74f393d4cefc2858ab5fd238a9d004d8cab7fdb40",
+      "size": 1747488,
+      "lastModified": "2024-04-09T17:24:16Z"
+    },
+    {
+      "path": "runtimes/win-arm64/native/libSkiaSharp.dll",
+      "hash": "3e6a5a4ceb45d0e1003f070ae66e2b92e8cc6d5b8fd6e7fc890109f121bac46b",
+      "size": 7948344,
+      "lastModified": "2024-11-07T13:54:30Z"
     },
     {
       "path": "standalone_publish_dir/wwwroot/_framework/blazor.boot.json",
@@ -7237,6 +7357,42 @@
       "hash": "5f16566f7a40d39b339ad26be151fa5a1ab1f0c2574c7a2e619765584a1acbd8",
       "size": 170188,
       "lastModified": "2024-08-01T15:22:58Z"
+    },
+    {
+      "path": "runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll",
+      "hash": "142cce4ed8ac9da22d69c38a6f22738abfb22090dc9313e8b58e6f91978e89af",
+      "size": 53352,
+      "lastModified": "2021-10-22T23:40:18Z"
+    },
+    {
+      "path": "runtimes/win/lib/net6.0/System.Drawing.Common.dll",
+      "hash": "4d3001697df50cca54f32ed2dbbd1f3f415b48d5d756b1bf9500a43ae9b68da0",
+      "size": 454248,
+      "lastModified": "2021-10-22T23:48:10Z"
+    },
+    {
+      "path": "runtimes/win/lib/net7.0/System.Management.dll",
+      "hash": "979fee559e30cc0fc4af6f34548a225b6f08cae0a6c61d24a3e389b3f22dc9d1",
+      "size": 295600,
+      "lastModified": "2023-05-24T14:40:18Z"
+    },
+    {
+      "path": "runtimes/win/lib/net9.0/System.Diagnostics.EventLog.Messages.dll",
+      "hash": "aa8cb35d10093fe4bda643acd30efb70ab539b7d079249414340f03aa8d641e3",
+      "size": 801064,
+      "lastModified": "2024-10-29T02:39:04Z"
+    },
+    {
+      "path": "runtimes/win/lib/net9.0/System.ServiceProcess.ServiceController.dll",
+      "hash": "5ba8439789392ed0806da50cd94ff4935eb1b876c9bd234bc5ad35f0e9c9a753",
+      "size": 91400,
+      "lastModified": "2024-10-29T02:39:20Z"
+    },
+    {
+      "path": "runtimes/unix/lib/net6.0/System.Drawing.Common.dll",
+      "hash": "89ea595ccb1fd1384480c1e30bd487c92af5d06d3b06f295323eff601acd9019",
+      "size": 427112,
+      "lastModified": "2021-10-22T23:51:42Z"
     },
     {
       "path": "standalone_publish_dir/standalone_publish_dir/wwwroot/_framework/blazor.boot.json",
