@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "publishedAt": "2026-06-29T15:30:33.556702Z",
+  "publishedAt": "2026-06-30T02:41:37.055559Z",
   "files": [
     {
       "path": "Google.Api.Gax.dll",
@@ -100,9 +100,9 @@
     },
     {
       "path": "ProERP.Infrastructure.dll",
-      "hash": "568c09363802fcaf120ce4d2ddf1ecc16c30f9e9b71d9405b6cfc735fde6e1c2",
-      "size": 4260352,
-      "lastModified": "2026-06-29T15:29:16.9715834Z"
+      "hash": "8e2a437fe16ddb8f69210bffd589bcbe034399db4a25decc16a5bea965584b0b",
+      "size": 4264448,
+      "lastModified": "2026-06-30T02:40:49.5466015Z"
     },
     {
       "path": "ProERP.Licensing.dll",
@@ -138,7 +138,7 @@
       "path": "ProERP.Web",
       "hash": "383e313be0dd2fe9bf7efa57a362a761026a9ac2e2659187f16448f35310e4b5",
       "size": 101760,
-      "lastModified": "2026-06-29T15:29:43.5882375Z"
+      "lastModified": "2026-06-30T02:41:12.8836432Z"
     },
     {
       "path": "ProERP.Web.exe",
@@ -226,9 +226,9 @@
     },
     {
       "path": "ProERP.Web.dll",
-      "hash": "8de10b8dadee6a8e199913f4843fdd22756e64437e487e83b1367355adcd667b",
-      "size": 3694080,
-      "lastModified": "2026-06-29T15:29:40.4554369Z"
+      "hash": "b35ab5d95dea5b82a995cef2d2797eecd8a1b4d12c9f46c61ac80033c607d2f1",
+      "size": 3695616,
+      "lastModified": "2026-06-30T02:41:11.5653836Z"
     },
     {
       "path": "Microsoft.IdentityModel.Protocols.dll",
@@ -478,9 +478,9 @@
     },
     {
       "path": "ProERP.Web.staticwebassets.endpoints.json",
-      "hash": "64eceb6b6cb2a3b567d2569e0fbc9a793b15bb79a2ec66dad5e772d47441cb84",
+      "hash": "6491f0cacb2b5f9c911d508f92effb26e53ea107c01d72218d490550c6d3a520",
       "size": 2816335,
-      "lastModified": "2026-06-29T15:30:32.2688924Z"
+      "lastModified": "2026-06-30T02:41:34.1266577Z"
     },
     {
       "path": "Google.Apis.Drive.v3.dll",
@@ -588,7 +588,7 @@
       "path": "wwwroot/service-worker-assets.js",
       "hash": "63b4e82b1de19474323d8cbe80fef9fed4bf0c08153a436c95e2b81cc699c2da",
       "size": 20711,
-      "lastModified": "2026-06-29T15:30:27.2735881Z"
+      "lastModified": "2026-06-30T02:41:28.7939117Z"
     },
     {
       "path": "wwwroot/index.html",
@@ -600,7 +600,7 @@
       "path": "wwwroot/service-worker-assets.js.br",
       "hash": "f774042228d6a50ac990867749cba1ca3d0329e2d0978cbc64a1d3742ccd1c7e",
       "size": 6730,
-      "lastModified": "2026-06-29T15:30:27.5113716Z"
+      "lastModified": "2026-06-30T02:41:29.1565577Z"
     },
     {
       "path": "wwwroot/firebase-messaging-sw.js.gz",
@@ -672,13 +672,13 @@
       "path": "wwwroot/service-worker-assets.js.gz",
       "hash": "97bebc00a3b5adcbc79665cb6d0a2a87ef8e6c7b57a0368d8a089678240840c1",
       "size": 7113,
-      "lastModified": "2026-06-29T15:30:27.307513Z"
+      "lastModified": "2026-06-30T02:41:28.8408241Z"
     },
     {
       "path": "wwwroot/service-worker.js",
       "hash": "edb4ec0cdbc5cf6930e1a006752e76c2420a92adaf14f2ac35c0303418a57d0c",
       "size": 2892,
-      "lastModified": "2026-06-29T15:30:27.2751667Z"
+      "lastModified": "2026-06-30T02:41:28.8031208Z"
     },
     {
       "path": "wwwroot/index.html.gz",
@@ -2580,7 +2580,7 @@
       "path": "wwwroot/_framework/blazor.boot.json",
       "hash": "42916d98fa1eb17741de85bc609b4b97a0d87455617572ae0cbc040103004150",
       "size": 18864,
-      "lastModified": "2026-06-29T15:30:27.2368888Z"
+      "lastModified": "2026-06-30T02:41:28.7238754Z"
     },
     {
       "path": "wwwroot/_framework/System.ObjectModel.mn27weeue8.wasm.gz",
@@ -2910,7 +2910,7 @@
       "path": "wwwroot/_framework/blazor.boot.json.br",
       "hash": "ce262757bf0c0d1bc06648ded14b8e7703c7eacbe734b13770aaabcae7c9f93e",
       "size": 5703,
-      "lastModified": "2026-06-29T15:30:27.5122931Z"
+      "lastModified": "2026-06-30T02:41:29.1573723Z"
     },
     {
       "path": "wwwroot/_framework/ProERP.Application.rg03e9xqvc.wasm",
@@ -3696,7 +3696,7 @@
       "path": "wwwroot/_framework/blazor.boot.json.gz",
       "hash": "183865125733536caa4792eec994a04796e2d21b62d813170e80baa45c721a58",
       "size": 6305,
-      "lastModified": "2026-06-29T15:30:27.3075382Z"
+      "lastModified": "2026-06-30T02:41:28.8406397Z"
     },
     {
       "path": "wwwroot/_framework/System.Private.Uri.hhrin330oj.wasm.br",
