@@ -1,14 +1,26 @@
-// ProERP Dashboard Chart – ApexCharts via CDN
-window.renderDynamicDashboardChart = function (categories, salesData, purchasesData) {
+// Load the chart engine only on the dashboard. It is the largest startup script
+// and is not needed by attendance, invoices, or most other screens.
+let _apexChartsLoadPromise = null;
+function ensureApexChartsLoaded() {
+    if (typeof window.ApexCharts !== 'undefined') return Promise.resolve();
+    if (_apexChartsLoadPromise) return _apexChartsLoadPromise;
+
+    _apexChartsLoadPromise = new Promise((resolve, reject) => {
+        const script = document.createElement('script');
+        script.src = '/js/apexcharts.min.js?v=20260630.1';
+        script.onload = resolve;
+        script.onerror = () => reject(new Error('ApexCharts failed to load'));
+        document.head.appendChild(script);
+    });
+    return _apexChartsLoadPromise;
+}
+
+window.renderDynamicDashboardChart = async function (categories, salesData, purchasesData) {
     const el = document.getElementById('dash-chart');
     if (!el) return;
-    
-    if (typeof ApexCharts === 'undefined') {
-        el.innerHTML = '<div style="color:red; padding:20px;">خطأ: لم يتم تحميل مكتبة ApexCharts!</div>';
-        return;
-    }
 
     try {
+        await ensureApexChartsLoaded();
         if (window._dashChart) {
             window._dashChart.destroy();
         }
@@ -69,7 +81,7 @@ window.renderDynamicDashboardChart = function (categories, salesData, purchasesD
         };
 
         window._dashChart = new ApexCharts(el, options);
-        window._dashChart.render();
+        await window._dashChart.render();
     } catch (err) {
         el.innerHTML = '<div style="color:red; padding:20px;">حدث خطأ أثناء الرسم: ' + err.message + '</div>';
     }

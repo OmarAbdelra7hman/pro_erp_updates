@@ -19,6 +19,29 @@ const FIREBASE_CONFIG = {
 
 window.firebasePush = {
 
+    getStatus: function () {
+        const installed = window.matchMedia('(display-mode: standalone)').matches ||
+            window.navigator.standalone === true;
+        const isIos = /iphone|ipad|ipod/i.test(navigator.userAgent);
+        const secure = window.isSecureContext;
+        const hasNotificationApi = 'Notification' in window;
+        const hasServiceWorker = 'serviceWorker' in navigator;
+
+        let reason = '';
+        if (!secure) reason = 'insecure';
+        else if (!hasNotificationApi) reason = isIos && !installed ? 'ios-not-installed' : 'notification-unsupported';
+        else if (!hasServiceWorker) reason = 'service-worker-unsupported';
+
+        return {
+            supported: secure && hasNotificationApi && hasServiceWorker,
+            secureContext: secure,
+            installedPwa: installed,
+            isIos: isIos,
+            permission: hasNotificationApi ? Notification.permission : 'unsupported',
+            reason: reason
+        };
+    },
+
     initialize: async function () {
         try {
             console.log('[FirebasePush] Starting initialization...');
@@ -57,10 +80,12 @@ window.firebasePush = {
                 console.log('[FirebasePush] Firebase app initialized');
             }
 
-            // Register the firebase messaging service worker
+            // Use the same root service worker as the PWA. A second worker with
+            // scope "/" would replace the PWA worker and break installation/cache.
             try {
-                swRegistration = await navigator.serviceWorker.register('/firebase-messaging-sw.js', {
-                    scope: '/'
+                swRegistration = await navigator.serviceWorker.register('/service-worker.js', {
+                    scope: '/',
+                    updateViaCache: 'none'
                 });
                 // Wait for the service worker to be ready
                 await navigator.serviceWorker.ready;
@@ -88,7 +113,7 @@ window.firebasePush = {
     },
 
     getPermissionStatus: function () {
-        if (!('Notification' in window)) return 'unsupported';
+        if (!window.isSecureContext || !('Notification' in window)) return 'unsupported';
         return Notification.permission;
     },
 
@@ -99,13 +124,8 @@ window.firebasePush = {
 
     requestPermissionAndGetToken: async function () {
         try {
-            // Initialize if not already done
-            if (!messaging) {
-                const initialized = await this.initialize();
-                if (!initialized) return null;
-            }
-
-            // Request permission
+            // Permission must be the FIRST awaited browser operation. Safari/iOS
+            // drops transient user activation if Firebase/SW initialization runs first.
             console.log('[FirebasePush] Requesting notification permission...');
             const permission = await Notification.requestPermission();
             console.log('[FirebasePush] Permission result:', permission);
@@ -113,6 +133,12 @@ window.firebasePush = {
             if (permission !== 'granted') {
                 console.warn('[FirebasePush] Notification permission denied');
                 return null;
+            }
+
+            // Initialize only after permission has been granted.
+            if (!messaging) {
+                const initialized = await window.firebasePush.initialize();
+                if (!initialized) return null;
             }
 
             // Make sure SW registration is available
@@ -151,6 +177,102 @@ window.firebasePush = {
             console.error('[FirebasePush] Error getting token:', error);
             return null;
         }
+    },
+
+    enableFromUserGesture: async function () {
+        const status = window.firebasePush.getStatus();
+        if (!status.secureContext) {
+            return { success: false, status: 'insecure', message: 'الإشعارات تحتاج HTTPS آمن.' };
+        }
+        if (!status.supported) {
+            return {
+                success: false,
+                status: status.reason || 'unsupported',
+                message: status.reason === 'ios-not-installed'
+                    ? 'ثبّت التطبيق على الشاشة الرئيسية وافتحه من الأيقونة أولاً.'
+                    : 'الإشعارات غير مدعومة على هذا المتصفح.'
+            };
+        }
+        if (status.permission === 'denied') {
+            return { success: false, status: 'denied', message: 'الإشعارات محظورة من إعدادات الجهاز.' };
+        }
+
+        // Keep this call before every other asynchronous setup operation.
+        let permission = status.permission;
+        if (permission === 'default') {
+            permission = await Notification.requestPermission();
+        }
+        if (permission !== 'granted') {
+            return { success: false, status: permission, message: 'لم يتم منح إذن الإشعارات.' };
+        }
+
+        // The web app uses the browser-standard Push API. Flutter/mobile keeps
+        // using FCM through the same server notification service.
+        return await window.firebasePush.subscribeStandardWebPush();
+    },
+
+    subscribeStandardWebPush: async function () {
+        try {
+            let registration = swRegistration || await navigator.serviceWorker.getRegistration('/');
+            if (!registration) {
+                registration = await navigator.serviceWorker.register('/service-worker.js', {
+                    scope: '/', updateViaCache: 'none'
+                });
+            }
+            await navigator.serviceWorker.ready;
+
+            const keyResponse = await fetch('/api/web-push/public-key', {
+                credentials: 'same-origin', cache: 'no-store'
+            });
+            if (!keyResponse.ok) {
+                return { success: false, status: 'web-push-key-failed', message: 'تعذر قراءة مفتاح Web Push من الخادم.' };
+            }
+            const keyData = await keyResponse.json();
+            const applicationServerKey = window.firebasePush.urlBase64ToUint8Array(keyData.publicKey);
+            let subscription = await registration.pushManager.getSubscription();
+            const existingKey = subscription?.options?.applicationServerKey;
+            if (subscription && existingKey && !window.firebasePush.uint8ArraysEqual(
+                new Uint8Array(existingKey), applicationServerKey)) {
+                await subscription.unsubscribe();
+                subscription = null;
+            }
+            if (!subscription) {
+                subscription = await registration.pushManager.subscribe({
+                    userVisibleOnly: true,
+                    applicationServerKey: applicationServerKey
+                });
+            }
+
+            const json = subscription.toJSON();
+            const saveResponse = await fetch('/api/web-push/subscribe', {
+                method: 'POST',
+                credentials: 'same-origin',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    endpoint: subscription.endpoint,
+                    p256dh: json.keys?.p256dh || '',
+                    auth: json.keys?.auth || ''
+                })
+            });
+            if (!saveResponse.ok) {
+                return { success: false, status: 'web-push-save-failed', message: 'تعذر حفظ اشتراك Safari على الخادم.' };
+            }
+            return { success: true, status: 'web-push-granted', message: 'تم تفعيل إشعارات Safari.' };
+        } catch (error) {
+            console.error('[WebPush] Subscription failed:', error);
+            return { success: false, status: 'web-push-failed', message: 'تعذر إنشاء اشتراك Web Push على Safari.' };
+        }
+    },
+
+    urlBase64ToUint8Array: function (base64String) {
+        const padding = '='.repeat((4 - base64String.length % 4) % 4);
+        const base64 = (base64String + padding).replace(/-/g, '+').replace(/_/g, '/');
+        const rawData = atob(base64);
+        return Uint8Array.from([...rawData].map(char => char.charCodeAt(0)));
+    },
+
+    uint8ArraysEqual: function (left, right) {
+        return left.length === right.length && left.every((value, index) => value === right[index]);
     },
 
     setupForegroundHandler: function (dotNetHelper) {

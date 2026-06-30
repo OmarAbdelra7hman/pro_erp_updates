@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "publishedAt": "2026-06-30T02:52:03.668534Z",
+  "publishedAt": "2026-06-30T14:48:22.665338Z",
   "files": [
     {
       "path": "Google.Api.Gax.dll",
@@ -82,9 +82,9 @@
     },
     {
       "path": "ProERP.Application.dll",
-      "hash": "f5653fdc17818135c1752b802e147ceeb802a09b08e776c15422a6f0730a2760",
-      "size": 540672,
-      "lastModified": "2026-06-29T15:29:05.9837429Z"
+      "hash": "df7e0b045db5342f4897f44694d191e617a006d2bcdbc4036833f884219c5db3",
+      "size": 546304,
+      "lastModified": "2026-06-30T14:46:33.369657Z"
     },
     {
       "path": "Npgsql.EntityFrameworkCore.PostgreSQL.dll",
@@ -100,9 +100,9 @@
     },
     {
       "path": "ProERP.Infrastructure.dll",
-      "hash": "8e2a437fe16ddb8f69210bffd589bcbe034399db4a25decc16a5bea965584b0b",
-      "size": 4264448,
-      "lastModified": "2026-06-30T02:40:49.5466015Z"
+      "hash": "55ed7a3e7e5dcb0da5a161200ebeb5451b6a2f5633475ba077c0f1334f8e40b5",
+      "size": 4280832,
+      "lastModified": "2026-06-30T14:46:47.5862916Z"
     },
     {
       "path": "ProERP.Licensing.dll",
@@ -138,7 +138,7 @@
       "path": "ProERP.Web",
       "hash": "383e313be0dd2fe9bf7efa57a362a761026a9ac2e2659187f16448f35310e4b5",
       "size": 101760,
-      "lastModified": "2026-06-30T02:41:12.8836432Z"
+      "lastModified": "2026-06-30T14:47:23.5713099Z"
     },
     {
       "path": "ProERP.Web.exe",
@@ -180,7 +180,7 @@
       "path": "ProERP.Web.runtimeconfig.json",
       "hash": "8f05a7683ba3ab137cea80e6bb123b02d14f0def24bd862fde95609f7cbb67c0",
       "size": 537,
-      "lastModified": "2026-06-29T15:29:46.7033522Z"
+      "lastModified": "2026-06-30T14:47:26.1933694Z"
     },
     {
       "path": "Microsoft.CodeAnalysis.CSharp.dll",
@@ -214,9 +214,9 @@
     },
     {
       "path": "ProERP.Web.deps.json",
-      "hash": "d96ff73c7559b414bd2683e7dee79196ca989abcd389abd8d55f91590d1b5062",
-      "size": 105994,
-      "lastModified": "2026-06-29T15:29:47.4498165Z"
+      "hash": "5c939a57dd7814989c0d51b4ac8e95df50671a0fad0d1137630ec7514d79d671",
+      "size": 107125,
+      "lastModified": "2026-06-30T14:47:27.7674073Z"
     },
     {
       "path": "libHarfBuzzSharp.dll",
@@ -226,9 +226,9 @@
     },
     {
       "path": "ProERP.Web.dll",
-      "hash": "b35ab5d95dea5b82a995cef2d2797eecd8a1b4d12c9f46c61ac80033c607d2f1",
-      "size": 3695616,
-      "lastModified": "2026-06-30T02:41:11.5653836Z"
+      "hash": "274ff28c70dbd3719deb7b8061512a984a91fea834040fef2752da47a1b4fe54",
+      "size": 3770368,
+      "lastModified": "2026-06-30T14:47:23.430684Z"
     },
     {
       "path": "Microsoft.IdentityModel.Protocols.dll",
@@ -310,15 +310,21 @@
     },
     {
       "path": "ProERP.Domain.dll",
-      "hash": "0e9cf6e7ba20db8e47df51286dd222942bedb34d0ebf2544a3191fa65512708f",
-      "size": 117760,
-      "lastModified": "2026-06-24T16:19:11.2221683Z"
+      "hash": "48825049ae5de446f9d45c48f3f5cbc38ea74a49ecd705c7c0185c13b08b53ca",
+      "size": 119296,
+      "lastModified": "2026-06-30T14:46:31.6377623Z"
     },
     {
       "path": "Microsoft.AspNetCore.Components.dll",
       "hash": "7895bfa3cde9c392813a2fc188c11c0c91deb4033b9ac9d0a973d49e60f02d7c",
       "size": 342296,
       "lastModified": "2025-01-17T20:16:24Z"
+    },
+    {
+      "path": "webpush-vapid.json",
+      "hash": "b174ac959a2a4dad3c96352c6c90671a4038f78ec4304f5e2e6da9f92f015e30",
+      "size": 162,
+      "lastModified": "2026-06-30T14:30:53.3969812Z"
     },
     {
       "path": "System.ServiceProcess.ServiceController.dll",
@@ -328,9 +334,9 @@
     },
     {
       "path": "ProERP.Client.dll",
-      "hash": "9e9e10c2533bfcd9ee23280ff064c063323ee9f1919b0646e7fdb228a0fa9d54",
+      "hash": "71af1155d1986ef86794278bcbfb7101883b1460048d8399c7dbb9c184b52b40",
       "size": 202240,
-      "lastModified": "2026-06-24T20:45:30.9346576Z"
+      "lastModified": "2026-06-30T14:46:53.6702665Z"
     },
     {
       "path": "Microsoft.AspNetCore.Authentication.JwtBearer.dll",
@@ -373,6 +379,12 @@
       "hash": "c3b97d1b1c42faa95bb92eabb7511ca61e89075388f122197040fcfdfb492013",
       "size": 19488,
       "lastModified": "2024-07-22T23:38:36Z"
+    },
+    {
+      "path": "WebPush.dll",
+      "hash": "8a25df57ac81807b707fa67babc5243e2f4f2d61cec30841e53a14335345ff3d",
+      "size": 26112,
+      "lastModified": "2026-04-28T11:29:52Z"
     },
     {
       "path": "Newtonsoft.Json.dll",
@@ -453,6 +465,12 @@
       "lastModified": "2025-02-12T16:06:06Z"
     },
     {
+      "path": "BouncyCastle.Crypto.dll",
+      "hash": "f42b8609854d80d7f81f276340504aa5e82bbe4d73d05080fef1fcca2444b4d5",
+      "size": 3318504,
+      "lastModified": "2021-10-19T11:53:34Z"
+    },
+    {
       "path": "Microsoft.IdentityModel.Tokens.dll",
       "hash": "b2dacc5120971efceb60f6febfe9685fe5a509ddb803c45956a63fc36e67631b",
       "size": 329248,
@@ -478,9 +496,9 @@
     },
     {
       "path": "ProERP.Web.staticwebassets.endpoints.json",
-      "hash": "ba45bc99579502477bf3b10df8b8d7d8d13d6e680409543e694430e439c29f3d",
-      "size": 2816335,
-      "lastModified": "2026-06-30T02:52:03.2078325Z"
+      "hash": "cdb93747cb39223a5ba76231bd91d572a7964ade580e37dae7695cc3104f973d",
+      "size": 2837279,
+      "lastModified": "2026-06-30T14:48:17.1984107Z"
     },
     {
       "path": "Google.Apis.Drive.v3.dll",
@@ -573,22 +591,34 @@
       "lastModified": "2021-11-09T03:20:12Z"
     },
     {
+      "path": "wwwroot/offline.html.gz",
+      "hash": "796f056aa0002f600edc3fb7803dbd67f331ba891ce312a6b8ffaec824f40416",
+      "size": 829,
+      "lastModified": "2026-06-30T14:47:24.4390347Z"
+    },
+    {
       "path": "wwwroot/PrivacyPolicy.html.br",
       "hash": "f8d3845d9c405f3e77147ddaec1193b8e3ca1579a992f496f5a9480e02de3478",
       "size": 1048,
       "lastModified": "2026-06-25T15:27:58.6373695Z"
     },
     {
+      "path": "wwwroot/offline.html",
+      "hash": "97b28bc5501469822bfc15fbba8f712cc483ff2c94819acc4c46497ca0a17a60",
+      "size": 1386,
+      "lastModified": "2026-06-30T09:51:53.6256498Z"
+    },
+    {
       "path": "wwwroot/manifest.webmanifest.gz",
-      "hash": "a7d860aafe3608770c8ecbb9f1c82297f3073fada8b1f6d189724005cee1fc2e",
-      "size": 414,
-      "lastModified": "2026-06-24T16:19:21.472985Z"
+      "hash": "5593cb4b62332fad97f74640b837447aab09c6ab4a8fd4e11bf88e0f75fb47ef",
+      "size": 566,
+      "lastModified": "2026-06-30T14:46:59.2917936Z"
     },
     {
       "path": "wwwroot/service-worker-assets.js",
-      "hash": "63b4e82b1de19474323d8cbe80fef9fed4bf0c08153a436c95e2b81cc699c2da",
+      "hash": "71a030bc6d54713bb9f2e382b71bb13278a60e81d048f2bcd2001b3ed698f702",
       "size": 20711,
-      "lastModified": "2026-06-30T02:52:00.9668066Z"
+      "lastModified": "2026-06-30T14:48:10.4509465Z"
     },
     {
       "path": "wwwroot/index.html",
@@ -598,9 +628,9 @@
     },
     {
       "path": "wwwroot/service-worker-assets.js.br",
-      "hash": "f774042228d6a50ac990867749cba1ca3d0329e2d0978cbc64a1d3742ccd1c7e",
-      "size": 6730,
-      "lastModified": "2026-06-30T02:52:01.2073342Z"
+      "hash": "4ec80da694657f16ce75d1417af54ff196a76c35815c0f9a046b9703d5fe1913",
+      "size": 6736,
+      "lastModified": "2026-06-30T14:48:10.6961364Z"
     },
     {
       "path": "wwwroot/firebase-messaging-sw.js.gz",
@@ -630,7 +660,7 @@
       "path": "wwwroot/service-worker.js.gz",
       "hash": "4cfcbe465da9c4874bac8a7c6dc9997db8b8901964336448493126d9d0534035",
       "size": 1142,
-      "lastModified": "2026-06-29T15:30:27.3080242Z"
+      "lastModified": "2026-06-30T14:48:10.4888817Z"
     },
     {
       "path": "wwwroot/PrivacyPolicy.html",
@@ -640,9 +670,9 @@
     },
     {
       "path": "wwwroot/manifest.webmanifest.br",
-      "hash": "862df4d8e90cddd36a8992b67e10566aa8ac603e1e7bf460dac915d744adea3e",
-      "size": 323,
-      "lastModified": "2026-06-24T16:20:00.0582843Z"
+      "hash": "a3b3bfe6f7bb075e237f427c755a1ae7fdcb8bfa69c76331891304ef039f224c",
+      "size": 443,
+      "lastModified": "2026-06-30T14:48:03.5123362Z"
     },
     {
       "path": "wwwroot/favicon.png",
@@ -655,6 +685,12 @@
       "hash": "46f5d3295e29e44272b8285bb22571acfec194e01b764b9df01fd87c80b2ba9c",
       "size": 1400,
       "lastModified": "2026-06-25T15:27:43.7142522Z"
+    },
+    {
+      "path": "wwwroot/offline.html.br",
+      "hash": "f0f68bc78a6b02c01620c70024a3bc6ecc3ffbbf7d0b550255c9cf3b30148546",
+      "size": 569,
+      "lastModified": "2026-06-30T14:48:14.132787Z"
     },
     {
       "path": "wwwroot/logo.png",
@@ -670,15 +706,15 @@
     },
     {
       "path": "wwwroot/service-worker-assets.js.gz",
-      "hash": "97bebc00a3b5adcbc79665cb6d0a2a87ef8e6c7b57a0368d8a089678240840c1",
+      "hash": "f7e6f9cb2f729bb38ddcb4b2d6d43a765f37c54603e19c10e1eef2d0dde90bbb",
       "size": 7113,
-      "lastModified": "2026-06-30T02:52:00.995771Z"
+      "lastModified": "2026-06-30T14:48:10.4883354Z"
     },
     {
       "path": "wwwroot/service-worker.js",
-      "hash": "edb4ec0cdbc5cf6930e1a006752e76c2420a92adaf14f2ac35c0303418a57d0c",
+      "hash": "d9b2bac39a91c0138b4f6fbb92712b4e1137a471f7fa89706956f24949b455f8",
       "size": 2892,
-      "lastModified": "2026-06-30T02:52:00.9683765Z"
+      "lastModified": "2026-06-30T14:48:10.4522969Z"
     },
     {
       "path": "wwwroot/index.html.gz",
@@ -688,9 +724,9 @@
     },
     {
       "path": "wwwroot/manifest.webmanifest",
-      "hash": "d4d1dcb48c4decc02bf44f3f24ea915f874a08d11ee72994104c7e1761c0d3f3",
-      "size": 759,
-      "lastModified": "2026-06-10T14:20:15.4481043Z"
+      "hash": "8448a455ee9d377fcad7fc26c2ea39f1f149289a96504cd899f81a76b582ed01",
+      "size": 1277,
+      "lastModified": "2026-06-30T09:51:53.7125356Z"
     },
     {
       "path": "wwwroot/qz-key.pem",
@@ -702,7 +738,7 @@
       "path": "wwwroot/service-worker.js.br",
       "hash": "a4c9dd0b2f31e3ee7b059853358e3428fcda2929a061a13ecb35ddca4bada0b6",
       "size": 948,
-      "lastModified": "2026-06-29T15:30:27.4879045Z"
+      "lastModified": "2026-06-30T14:48:10.6718449Z"
     },
     {
       "path": "wwwroot/qz-cert.pem",
@@ -2176,9 +2212,9 @@
     },
     {
       "path": "wwwroot/css/app.css.gz",
-      "hash": "45219db8afe35c539811a18cda5c0318bd622c52ef64db9dc0ff1643f8f12a67",
-      "size": 12284,
-      "lastModified": "2026-06-25T15:27:43.9676811Z"
+      "hash": "2a142a95eaf5053d656d59934a766fa744d54aa9f6900447e53146c9a9de4388",
+      "size": 13115,
+      "lastModified": "2026-06-30T14:47:24.4258073Z"
     },
     {
       "path": "wwwroot/css/fonts.css.br",
@@ -2188,9 +2224,9 @@
     },
     {
       "path": "wwwroot/css/app.css",
-      "hash": "54a19649f155e49b7934619877f84634728a0a60bc57549ecf657b48713d0946",
-      "size": 80506,
-      "lastModified": "2026-06-15T18:03:42.2576921Z"
+      "hash": "231d227af69427f8d6f917f19a5138b3b90cf317b82bbea4afffdfbdc7bcc80d",
+      "size": 85115,
+      "lastModified": "2026-06-30T09:06:21.5217922Z"
     },
     {
       "path": "wwwroot/css/app.css.bak",
@@ -2206,9 +2242,9 @@
     },
     {
       "path": "wwwroot/css/app.css.br",
-      "hash": "69842197b2fdbb5687782ce142d23fcd8e4e04598a5cb3c43e9912f570be0526",
-      "size": 10322,
-      "lastModified": "2026-06-25T15:27:59.6014842Z"
+      "hash": "aca2d62dac9b08617dda7ed128f12f9bd371347179b8f95c997f2c9230ff6a4a",
+      "size": 11017,
+      "lastModified": "2026-06-30T14:48:14.2755315Z"
     },
     {
       "path": "wwwroot/css/fonts.css",
@@ -2218,15 +2254,21 @@
     },
     {
       "path": "wwwroot/js/utils.js.gz",
-      "hash": "2d4165c540a22fa195ff17efe73c3fa59ae20ae8c87de3e2afcf7ed8514e07f1",
-      "size": 4631,
-      "lastModified": "2026-06-25T15:27:43.5763334Z"
+      "hash": "03ca880f3f163bbb8e08f99ae9cb0621f5d2752d3058d9934c7269aa7136990c",
+      "size": 4673,
+      "lastModified": "2026-06-30T14:47:24.4257187Z"
     },
     {
       "path": "wwwroot/js/firebase-push.js.br",
-      "hash": "53b9fd962ad2e1cdc6c83ca5030c952c1ec7ac2f4e60fd0819b81ef91c128eac",
-      "size": 1622,
-      "lastModified": "2026-06-25T15:27:58.7097867Z"
+      "hash": "79097ccb1b33ef2a351f038ec5c92587d90a63d855ba78083b392bf0368d762d",
+      "size": 3081,
+      "lastModified": "2026-06-30T14:48:14.1536017Z"
+    },
+    {
+      "path": "wwwroot/js/gps-attendance.js.br",
+      "hash": "4607f45ac577a77ecd2961a78e38ab365bcc80910bfa1ebffbaeef9977eb5b45",
+      "size": 564,
+      "lastModified": "2026-06-30T14:48:14.1338277Z"
     },
     {
       "path": "wwwroot/js/iconBundle.js.br",
@@ -2242,9 +2284,9 @@
     },
     {
       "path": "wwwroot/js/monaco-frx.js",
-      "hash": "eb92bf8f443375d41ac3948fb08cd139d0a8d1e473dae6a2b4902ea14c9cc751",
-      "size": 3120,
-      "lastModified": "2026-06-11T07:18:59.6505347Z"
+      "hash": "d35d9f6b794c6592bec9d7f750825e628ff3434f657130301db7a41c2d70d661",
+      "size": 3881,
+      "lastModified": "2026-06-30T14:35:42.2250113Z"
     },
     {
       "path": "wwwroot/js/iconPrefetch.js.br",
@@ -2254,15 +2296,15 @@
     },
     {
       "path": "wwwroot/js/qzInterop.js.br",
-      "hash": "1759927d417f5b8316ebe2c8f418c0fc97b9b8de812e23c1e616ad90efde169d",
-      "size": 729,
-      "lastModified": "2026-06-25T15:27:58.5628457Z"
+      "hash": "2acfd4c2e88995a509f59384b00346f2f5ae51f04edbdf63566dd66a35ebcf63",
+      "size": 953,
+      "lastModified": "2026-06-30T14:48:14.1374668Z"
     },
     {
       "path": "wwwroot/js/dashboard.js.br",
-      "hash": "122a100c348df5332fec3716d82c9cbe0ba641d9c950f71d4cf3f491b1c5ae91",
-      "size": 798,
-      "lastModified": "2026-06-25T15:28:00.4038171Z"
+      "hash": "df31ee6ec3837a27e1998cc65ced6c5db75b4ef62c7b4d92bd5d7a89a716528f",
+      "size": 970,
+      "lastModified": "2026-06-30T14:48:14.1358377Z"
     },
     {
       "path": "wwwroot/js/iconify-icon.min.js.gz",
@@ -2272,9 +2314,9 @@
     },
     {
       "path": "wwwroot/js/monaco-frx.js.br",
-      "hash": "f6c8633ee74be0cd17d70b024f5e0d6c833160aeece99f2a5d4060fc0e384340",
-      "size": 849,
-      "lastModified": "2026-06-25T15:27:58.7967028Z"
+      "hash": "4fc711798eb776d61675005e1893495861f5b1c292a0f870d2bc5672c6c4ddd3",
+      "size": 1037,
+      "lastModified": "2026-06-30T14:48:14.1383231Z"
     },
     {
       "path": "wwwroot/js/indexedDb.js.br",
@@ -2289,10 +2331,16 @@
       "lastModified": "2026-06-25T15:28:00.39237Z"
     },
     {
+      "path": "wwwroot/js/pwa.js.br",
+      "hash": "855a263a11cb8655c586ab0fa1a49640628f22554e1c5767d022882d70fbcf1a",
+      "size": 364,
+      "lastModified": "2026-06-30T14:48:14.1320475Z"
+    },
+    {
       "path": "wwwroot/js/qzInterop.js",
-      "hash": "360e8c894d741f29b6e357ff994714d290e60b69424771713c8b1a61fd799065",
-      "size": 3213,
-      "lastModified": "2026-04-21T18:58:52.2815069Z"
+      "hash": "a38ab09dbc03c086e718adf5c322dd7f22c97c3331895dff144642b7c897c4f8",
+      "size": 3993,
+      "lastModified": "2026-06-30T14:35:32.0242259Z"
     },
     {
       "path": "wwwroot/js/theme.js",
@@ -2302,9 +2350,9 @@
     },
     {
       "path": "wwwroot/js/firebase-push.js",
-      "hash": "b7eb941902eee0e8878136e2c7a944bcea75d0bc38d9146e0543f0d97e17fd14",
-      "size": 7649,
-      "lastModified": "2026-06-10T14:24:44.0846503Z"
+      "hash": "1ab0ac8bcf641896502f37e75e39f82ac6d342122771a80d2de0d8c5a044a79d",
+      "size": 13650,
+      "lastModified": "2026-06-30T14:36:21.1524981Z"
     },
     {
       "path": "wwwroot/js/iconify-icon.min.js",
@@ -2331,16 +2379,22 @@
       "lastModified": "2026-05-10T14:43:22.8078181Z"
     },
     {
+      "path": "wwwroot/js/gps-attendance.js.gz",
+      "hash": "99df320b708cbde730c18c1892077f7473408adeafba6c7cc127d27c6eefc542",
+      "size": 729,
+      "lastModified": "2026-06-30T14:47:24.4109423Z"
+    },
+    {
       "path": "wwwroot/js/firebase-push.js.gz",
-      "hash": "1fd9c4eb0e468f48cdac328b9e2d641d893388616f3e187783ab88663e233d8d",
-      "size": 1893,
-      "lastModified": "2026-06-25T15:27:43.717222Z"
+      "hash": "7828c13f504ed0746142d1b8d29b2131d49c06229fbb5a65dd05bb980cf036f9",
+      "size": 3642,
+      "lastModified": "2026-06-30T14:47:24.4110193Z"
     },
     {
       "path": "wwwroot/js/utils.js.br",
-      "hash": "dea1cc3e30efc047dddc1504bacdc1d4dcdc9121caa34a1bd599f74066554a82",
-      "size": 3853,
-      "lastModified": "2026-06-25T15:27:58.6241625Z"
+      "hash": "9fa9df243dfa15b4d60956377615e602df2b9713dcadf1f5c03bd48550cfef98",
+      "size": 3897,
+      "lastModified": "2026-06-30T14:48:14.1602159Z"
     },
     {
       "path": "wwwroot/js/iconBundle.js.gz",
@@ -2355,6 +2409,12 @@
       "lastModified": "2026-06-12T09:08:40.2710862Z"
     },
     {
+      "path": "wwwroot/js/gps-attendance.js",
+      "hash": "3a2ebc1c97b0993138b90680d413b30ec1c095628133161ece4d14505636d832",
+      "size": 1868,
+      "lastModified": "2026-06-30T09:50:53.1267924Z"
+    },
+    {
       "path": "wwwroot/js/iconify-icon.min.js.br",
       "hash": "bd23cc549d154c651d20d901731fa69acac25866fcea7ec742601076ec7a3163",
       "size": 7464,
@@ -2362,9 +2422,9 @@
     },
     {
       "path": "wwwroot/js/dashboard.js.gz",
-      "hash": "6c75cb71f064fb5d55d48fab2d0acc7b8dbb0904924d50cd898098b990d963a7",
-      "size": 1004,
-      "lastModified": "2026-06-25T15:27:43.7172454Z"
+      "hash": "581e6652d887b1e293d109267c21b5beb21d2a8fc3f6f8b1ca43b0ab9fb32fd7",
+      "size": 1224,
+      "lastModified": "2026-06-30T14:47:24.4390289Z"
     },
     {
       "path": "wwwroot/js/iconPrefetch.js",
@@ -2380,27 +2440,33 @@
     },
     {
       "path": "wwwroot/js/monaco-frx.js.gz",
-      "hash": "e271fd1ebc014ecf19f830a76e4de4e786c9151f372751e05033b71cb81b0470",
-      "size": 1061,
-      "lastModified": "2026-06-25T15:27:43.7175372Z"
+      "hash": "0225647e9cd712250bb62510b6b435a3d5e1a4270fa1c3b839139e9ebba6cf4e",
+      "size": 1286,
+      "lastModified": "2026-06-30T14:47:24.4260085Z"
     },
     {
       "path": "wwwroot/js/qzInterop.js.gz",
-      "hash": "8aebf8549d276b43e6d858c516ff202234a80645e828fb2fafc97936749d7de8",
-      "size": 854,
-      "lastModified": "2026-06-25T15:27:43.5703564Z"
+      "hash": "dd1ed69cac84fc03e892cb2f99c2e2816a668d1a26c5e105488996e7e7fff3ef",
+      "size": 1122,
+      "lastModified": "2026-06-30T14:47:24.4257071Z"
     },
     {
       "path": "wwwroot/js/utils.js",
-      "hash": "2b499e45a999e9d622601947ad40839ba22082e4e1cd5e2d0b7c9ca2bea8f152",
-      "size": 17437,
-      "lastModified": "2026-06-15T17:51:36.8148168Z"
+      "hash": "613207dd1e36b83c25fdc1f6a56f0bcaef1965e54eda6fdfa8cdb117fe09c036",
+      "size": 17559,
+      "lastModified": "2026-06-30T14:35:18.4709028Z"
+    },
+    {
+      "path": "wwwroot/js/pwa.js.gz",
+      "hash": "e19225095bc3daae6c782389f201cdbd4df7d075c8a9cd708f52e413ba2138e6",
+      "size": 439,
+      "lastModified": "2026-06-30T14:47:24.4109754Z"
     },
     {
       "path": "wwwroot/js/dashboard.js",
-      "hash": "b4357779f9c07a3525c44bf5980d8a64cc5711283eff784ec676b986771bbcd6",
-      "size": 2706,
-      "lastModified": "2026-06-12T09:10:58.3461708Z"
+      "hash": "f8305359439380df062aa1c0ad024045d62cc589247549ebfb33248121b95ea6",
+      "size": 3255,
+      "lastModified": "2026-06-30T14:35:18.4690529Z"
     },
     {
       "path": "wwwroot/js/apexcharts.min.js.gz",
@@ -2413,6 +2479,12 @@
       "hash": "99f8f791e52378a89c7570ea428ac19ce37e07ccb6039a51fda4c7debef37305",
       "size": 81347,
       "lastModified": "2026-05-12T11:51:16.7689899Z"
+    },
+    {
+      "path": "wwwroot/js/pwa.js",
+      "hash": "d7aaf99e858ad5abbd6c999dff4be2f63d243b7d5960858dac47b6bb14a3bda8",
+      "size": 1044,
+      "lastModified": "2026-06-30T09:51:53.6253239Z"
     },
     {
       "path": "wwwroot/uploads/01245bf0-40d6-44ff-b629-8df103c6d4e4_472231056_348877471652319_5610919754124988319_n.jpg",
@@ -2578,9 +2650,9 @@
     },
     {
       "path": "wwwroot/_framework/blazor.boot.json",
-      "hash": "42916d98fa1eb17741de85bc609b4b97a0d87455617572ae0cbc040103004150",
+      "hash": "dfcd5cc0a6123aed3628b940b6cceb4e73e83de954e538fb6238d54c07a62f3b",
       "size": 18864,
-      "lastModified": "2026-06-30T02:52:00.9365756Z"
+      "lastModified": "2026-06-30T14:48:10.4197356Z"
     },
     {
       "path": "wwwroot/_framework/System.ObjectModel.mn27weeue8.wasm.gz",
@@ -2701,6 +2773,12 @@
       "hash": "971683a138716531be07623b7fcc32e810695e15b4154b8f880f694604f52dd3",
       "size": 1562,
       "lastModified": "2026-06-24T20:43:33.4003892Z"
+    },
+    {
+      "path": "wwwroot/_framework/ProERP.Client.21vmg6mhmh.wasm.br",
+      "hash": "c090319cd53fd1a576ee14ededf64961b9fd5675021230ce7fbbf1d23e3b7bab",
+      "size": 49737,
+      "lastModified": "2026-06-30T14:48:11.1392407Z"
     },
     {
       "path": "wwwroot/_framework/System.IO.Packaging.txzn5734k7.wasm.br",
@@ -2853,6 +2931,12 @@
       "lastModified": "2026-06-24T20:43:34.7338589Z"
     },
     {
+      "path": "wwwroot/_framework/ProERP.Client.21vmg6mhmh.wasm",
+      "hash": "6a31bebe15db9291d35c671b838e36c474b7bb6ae13ab3402cfb27e145d55fc3",
+      "size": 202005,
+      "lastModified": "2026-06-30T14:48:09.8875052Z"
+    },
+    {
       "path": "wwwroot/_framework/ClosedXML.Parser.kcd8ka7nog.wasm.gz",
       "hash": "5613305f58721a4eda11cb65e9622971eb65f223589531f9ed7da66d4448cfc7",
       "size": 45166,
@@ -2908,9 +2992,9 @@
     },
     {
       "path": "wwwroot/_framework/blazor.boot.json.br",
-      "hash": "ce262757bf0c0d1bc06648ded14b8e7703c7eacbe734b13770aaabcae7c9f93e",
-      "size": 5703,
-      "lastModified": "2026-06-30T02:52:01.2073013Z"
+      "hash": "7625c27cc2d48e7eeae695fee4b0efe691608d339dec457ef9fa3922be9b7c6e",
+      "size": 5727,
+      "lastModified": "2026-06-30T14:48:10.6962699Z"
     },
     {
       "path": "wwwroot/_framework/ProERP.Application.rg03e9xqvc.wasm",
@@ -2959,6 +3043,12 @@
       "hash": "dc428d71fc3b2b193fdda54f791a1fc93ff8471ca4757c818f4d4d2a4b611af6",
       "size": 51353,
       "lastModified": "2026-06-24T20:43:33.0298143Z"
+    },
+    {
+      "path": "wwwroot/_framework/ProERP.Domain.21konddbaw.wasm.br",
+      "hash": "e2c3b55796ab368015e4fdb4d52ece0315707e2c6052dfdcefc84f2502004da7",
+      "size": 28506,
+      "lastModified": "2026-06-30T14:48:10.9264481Z"
     },
     {
       "path": "wwwroot/_framework/System.Diagnostics.TraceSource.ptjahwk49m.wasm.gz",
@@ -3117,10 +3207,22 @@
       "lastModified": "2026-06-03T15:42:30.521088Z"
     },
     {
+      "path": "wwwroot/_framework/ProERP.Application.7x4p9zl4bm.wasm.gz",
+      "hash": "d34778f337f2d3610347cd10ddf5028a3ec05070a5af7344c6b1efedbfaef813",
+      "size": 179539,
+      "lastModified": "2026-06-30T14:48:10.5010017Z"
+    },
+    {
       "path": "wwwroot/_framework/System.Text.Json.424xenjgbp.wasm",
       "hash": "cc4c447b71541bd331f2816271946ad95448f1ab7949ad83e77536071e88edcd",
       "size": 382741,
       "lastModified": "2026-06-24T20:43:32.7446019Z"
+    },
+    {
+      "path": "wwwroot/_framework/ProERP.Domain.21konddbaw.wasm",
+      "hash": "9a294ce3db9c4b7c9dd4a049a875484e1f615cc03bb08a7d730160c1d47e0bd6",
+      "size": 119061,
+      "lastModified": "2026-06-30T14:48:09.8983891Z"
     },
     {
       "path": "wwwroot/_framework/System.IO.FileSystem.sduza9bkip.wasm",
@@ -3417,6 +3519,12 @@
       "lastModified": "2026-06-03T15:42:43.2049536Z"
     },
     {
+      "path": "wwwroot/_framework/ProERP.Client.21vmg6mhmh.wasm.gz",
+      "hash": "a0144b966172571d72a934a6df06f38149dbd5e7ebf4b74df3d9d434aa606c62",
+      "size": 61975,
+      "lastModified": "2026-06-30T14:48:10.4900417Z"
+    },
+    {
       "path": "wwwroot/_framework/System.Buffers.y1myjli26e.wasm.gz",
       "hash": "1e06d50dafb2c99ad14f6fa68c9b96748ee273d64edf194f0b0f30a35811f249",
       "size": 1772,
@@ -3597,6 +3705,12 @@
       "lastModified": "2026-06-24T20:43:33.3389711Z"
     },
     {
+      "path": "wwwroot/_framework/ProERP.Application.7x4p9zl4bm.wasm",
+      "hash": "d5b5ca0fcbfce8c7fc8ac5a496dbdb072945c3851aaeaa74cf2593fa78c77fea",
+      "size": 546069,
+      "lastModified": "2026-06-30T14:48:09.8778237Z"
+    },
+    {
       "path": "wwwroot/_framework/dotnet.runtime.opaiwunc3t.js.br",
       "hash": "df16c19764920f18448f17512eba651212d4ed9a53c51e3a3943a2d2e0061b74",
       "size": 47040,
@@ -3694,9 +3808,9 @@
     },
     {
       "path": "wwwroot/_framework/blazor.boot.json.gz",
-      "hash": "183865125733536caa4792eec994a04796e2d21b62d813170e80baa45c721a58",
-      "size": 6305,
-      "lastModified": "2026-06-30T02:52:00.9964954Z"
+      "hash": "f545bc0b3a2e0c184c3c6424f57193b07c6adfcb48222a16fea0060a30185c85",
+      "size": 6304,
+      "lastModified": "2026-06-30T14:48:10.4884356Z"
     },
     {
       "path": "wwwroot/_framework/System.Private.Uri.hhrin330oj.wasm.br",
@@ -3957,6 +4071,12 @@
       "lastModified": "2026-06-24T20:43:33.0272156Z"
     },
     {
+      "path": "wwwroot/_framework/ProERP.Application.7x4p9zl4bm.wasm.br",
+      "hash": "7121d027606b7efa24997d07b047df5e76c1d210de00c65e22241617355d72f3",
+      "size": 121072,
+      "lastModified": "2026-06-30T14:48:12.8950275Z"
+    },
+    {
       "path": "wwwroot/_framework/dotnet.native.ivlp5x6993.wasm.br",
       "hash": "46357e12041f3f0485543100746048af66d7d22a495495131e36e3cc7c049da1",
       "size": 940364,
@@ -4003,6 +4123,12 @@
       "hash": "fd1838bbc2255e2997eff81d2b0460d3728e2b614ef12cb7361358ea44166d73",
       "size": 14613,
       "lastModified": "2026-06-24T20:43:31.9921728Z"
+    },
+    {
+      "path": "wwwroot/_framework/ProERP.Domain.21konddbaw.wasm.gz",
+      "hash": "dbc0056c44fd0921cbe3af80e8fad282d2fab5ab9103a06081fd760b635dbc9f",
+      "size": 44223,
+      "lastModified": "2026-06-30T14:48:10.4918132Z"
     },
     {
       "path": "wwwroot/_framework/System.Diagnostics.TraceSource.ptjahwk49m.wasm.br",

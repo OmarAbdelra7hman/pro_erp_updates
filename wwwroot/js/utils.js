@@ -42,9 +42,13 @@ window.proErpConsoleLog = function (message) {
 };
 window.proErpRenderDashboardChart = function (categories, salesData, purchasesData) {
     if (typeof window.renderDynamicDashboardChart === 'function') {
-        window.renderDynamicDashboardChart(categories, salesData, purchasesData);
+        return window.renderDynamicDashboardChart(categories, salesData, purchasesData);
     } else {
-        setTimeout(function() { window.proErpRenderDashboardChart(categories, salesData, purchasesData); }, 200);
+        return new Promise(function(resolve) {
+            setTimeout(function() {
+                Promise.resolve(window.proErpRenderDashboardChart(categories, salesData, purchasesData)).then(resolve);
+            }, 200);
+        });
     }
 };
 

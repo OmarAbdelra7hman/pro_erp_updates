@@ -1,7 +1,27 @@
 // Monaco Editor integration for FastReport FRX designer
 let _monacoEditor = null;
+let _monacoLoaderPromise = null;
 
-window.initMonacoEditor = function (containerId, xmlContent) {
+function ensureMonacoLoader() {
+    if (typeof window.require !== 'undefined') return Promise.resolve();
+    if (_monacoLoaderPromise) return _monacoLoaderPromise;
+    _monacoLoaderPromise = new Promise((resolve, reject) => {
+        const script = document.createElement('script');
+        script.src = 'https://cdn.jsdelivr.net/npm/monaco-editor@0.45.0/min/vs/loader.js';
+        script.onload = resolve;
+        script.onerror = () => reject(new Error('Monaco loader failed to load'));
+        document.head.appendChild(script);
+    });
+    return _monacoLoaderPromise;
+}
+
+window.initMonacoEditor = async function (containerId, xmlContent) {
+    try {
+        await ensureMonacoLoader();
+    } catch (error) {
+        console.error('[Monaco] Loader error:', error);
+        return;
+    }
     let attempts = 0;
 
     function tryInit() {

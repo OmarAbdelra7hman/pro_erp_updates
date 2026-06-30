@@ -1,6 +1,22 @@
+let _qzLoadPromise = null;
+function ensureQzLoaded() {
+    if (window.qz) return Promise.resolve(window.qz);
+    if (_qzLoadPromise) return _qzLoadPromise;
+
+    _qzLoadPromise = new Promise((resolve, reject) => {
+        const script = document.createElement('script');
+        script.src = 'https://cdn.jsdelivr.net/npm/qz-tray@2.2.4/qz-tray.js?v=4';
+        script.onload = () => resolve(window.qz);
+        script.onerror = () => reject(new Error('QZ Tray library failed to load'));
+        document.head.appendChild(script);
+    });
+    return _qzLoadPromise;
+}
+
 window.qzInterop = {
-    connect: function () {
-        return new Promise((resolve, reject) => {
+    connect: async function () {
+        try {
+            const qz = await ensureQzLoaded();
             qz.security.setCertificatePromise((resolve, reject) => {
                 fetch('/api/qz/cert?v=1', {cache: 'no-store'})
                     .then(r => r.text())
@@ -19,16 +35,20 @@ window.qzInterop = {
             });
 
             if (qz.websocket.isActive()) {
-                resolve(true);
+                return true;
             } else {
-                qz.websocket.connect().then(() => resolve(true)).catch((err) => {
+                return await qz.websocket.connect().then(() => true).catch((err) => {
                     console.error("QZ Connect Error:", err);
-                    resolve(false);
+                    return false;
                 });
             }
-        });
+        } catch (err) {
+            console.error("QZ Load Error:", err);
+            return false;
+        }
     },
-    getPrinters: function () {
+    getPrinters: async function () {
+        const qz = await ensureQzLoaded();
         return new Promise((resolve, reject) => {
             qz.printers.find().then((printers) => {
                 resolve(printers);
@@ -38,7 +58,8 @@ window.qzInterop = {
             });
         });
     },
-    printPdf: function (printerName, base64Pdf) {
+    printPdf: async function (printerName, base64Pdf) {
+        const qz = await ensureQzLoaded();
         return new Promise((resolve, reject) => {
              var config = qz.configs.create(printerName);
              var pdffile = [

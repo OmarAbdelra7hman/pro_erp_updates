@@ -20,7 +20,8 @@
           "ProERP.Client": "1.0.0",
           "ProERP.Infrastructure": "1.0.0",
           "ProERP.Licensing": "1.0.0",
-          "Radzen.Blazor": "5.9.9"
+          "Radzen.Blazor": "5.9.9",
+          "WebPush": "1.0.13"
         },
         "runtime": {
           "ProERP.Web.dll": {}
@@ -1201,6 +1202,14 @@
           }
         }
       },
+      "Portable.BouncyCastle/1.9.0": {
+        "runtime": {
+          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {
+            "assemblyVersion": "1.9.0.0",
+            "fileVersion": "1.9.0.1"
+          }
+        }
+      },
       "Radzen.Blazor/5.9.9": {
         "dependencies": {
           "DartSassBuilder": "1.1.0",
@@ -1461,6 +1470,17 @@
           "lib/net6.0/Telegram.Bot.dll": {
             "assemblyVersion": "22.10.0.1",
             "fileVersion": "22.10.0.1"
+          }
+        }
+      },
+      "WebPush/1.0.13": {
+        "dependencies": {
+          "Portable.BouncyCastle": "1.9.0"
+        },
+        "runtime": {
+          "lib/net9.0/WebPush.dll": {
+            "assemblyVersion": "1.0.13.0",
+            "fileVersion": "1.0.13.0"
           }
         }
       },
@@ -2339,6 +2359,13 @@
       "path": "npgsql.entityframeworkcore.postgresql/9.0.3",
       "hashPath": "npgsql.entityframeworkcore.postgresql.9.0.3.nupkg.sha512"
     },
+    "Portable.BouncyCastle/1.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eZZBCABzVOek+id9Xy04HhmgykF0wZg9wpByzrWN7q8qEI0Qen9b7tfd7w8VA3dOeesumMG7C5ZPy0jk7PSRHw==",
+      "path": "portable.bouncycastle/1.9.0",
+      "hashPath": "portable.bouncycastle.1.9.0.nupkg.sha512"
+    },
     "Radzen.Blazor/5.9.9": {
       "type": "package",
       "serviceable": true,
@@ -2583,6 +2610,13 @@
       "sha512": "sha512-/1Wn3WOkf1U0/dH+DOLcD/ZtFKtgIR5pO5N1TiSf132U3dTxfJlJMr2J+L60ooDfT8tu0deQNH/0WnHfkyUKyg==",
       "path": "telegram.bot/22.10.0.1",
       "hashPath": "telegram.bot.22.10.0.1.nupkg.sha512"
+    },
+    "WebPush/1.0.13": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Qyypsk6j+GqncCa/IgbmZLnL7DxqKFGz3jIdquGSLeiD3NtN+HPnIFBMwIJHffDU9ZEztTkaMMYxvW3PJxJL7Q==",
+      "path": "webpush/1.0.13",
+      "hashPath": "webpush.1.0.13.nupkg.sha512"
     },
     "ProERP.Application/1.0.0": {
       "type": "project",
