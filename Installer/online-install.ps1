@@ -1,4 +1,4 @@
-param([ValidateSet('1', '2')][string]$SetupType)
+param([string]$SetupType)
 
 $ErrorActionPreference = 'Stop'
 $ProgressPreference = 'SilentlyContinue'
@@ -11,6 +11,12 @@ Clear-Host
 Write-Host '========================================' -ForegroundColor DarkCyan
 Write-Host '          ProERP Online Setup' -ForegroundColor Cyan
 Write-Host '========================================' -ForegroundColor DarkCyan
+if ($SetupType -and $SetupType -notin @('1', '2')) {
+    Write-Host "Invalid SetupType: $SetupType" -ForegroundColor Red
+    Write-Host 'Use 1 for Desktop client or 2 for Web server.'
+    exit 1
+}
+
 if (-not $SetupType) {
     Write-Host '[1] Desktop client'
     Write-Host '[2] Web server'
