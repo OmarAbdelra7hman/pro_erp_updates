@@ -31,8 +31,51 @@ if (-not $isAdmin) {
 }
 
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+
+function ConvertFrom-Base64Url([string]$value) {
+    $base64 = $value.Replace('-', '+').Replace('_', '/')
+    while (($base64.Length % 4) -ne 0) { $base64 += '=' }
+    return [Convert]::FromBase64String($base64)
+}
+
+function Test-ManifestSignature([object]$value) {
+    try {
+        if ([string]::IsNullOrWhiteSpace([string]$value.signature)) { return $false }
+        $builder = [Text.StringBuilder]::new()
+        [void]$builder.Append("ProERP-Update-Manifest-V1`n")
+        [void]$builder.Append([string]$value.version).Append("`n")
+        $published = ([DateTime]$value.publishedAt).ToUniversalTime().ToString('O', [Globalization.CultureInfo]::InvariantCulture)
+        [void]$builder.Append($published).Append("`n")
+        foreach ($file in $value.files) {
+            $path = [string]$file.path
+            if ($path.IndexOfAny([char[]]"`r`n`t") -ge 0) { return $false }
+            [void]$builder.Append($path).Append("`t")
+            [void]$builder.Append(([string]$file.hash).ToLowerInvariant()).Append("`t")
+            [void]$builder.Append(([long]$file.size).ToString([Globalization.CultureInfo]::InvariantCulture)).Append("`n")
+        }
+
+        $parameters = [Security.Cryptography.RSAParameters]::new()
+        $parameters.Modulus = ConvertFrom-Base64Url 'mjgNM7QuvQ05LPEsqW6_MUBuZjDq33gFFuRsEdHoIPhwar1BPu7yhuNFShnGjhem7y59AegKlV50rWzUDBLqkdSvvkrZ3SAr-Ii6zMC6YfBdYEvo4XYmIoJpgGn0Svp0jJB8P362Eriu0tOq4livrxyciI8cU3ZTJYsH67tRT5DjotfQtPdbTf8D-VfFZSevuXFfnFN-5Z7ykwTjf_QL1Iwj9SYUDGzjqScjZxuXsJDtVrAXclmHfK7GJ71z3G7ZRi1KcEosz9dUKrx5BJOZK7oAc9dxP9ZaMFLMyFNAa-550qLUFRol7UIK3YKX6p34L9OsaXDKg7t1wHlAQghZiiwPTag8c9XqI1Cg_6cTHLN-r9Yw3MNTZvblhztlSd0muwS9ljBTFMYUwB3OUqBS7e5GABAUxuVSk67JrJHjf2ToTOM6MxcNOvn_FRJR87E48mYcWN1oh8eq8VdYXzHosZ3fDe6UZI2yCdZs5EUAyfLHIMnrncM0Ns27Ps9B-qDv'
+        $parameters.Exponent = ConvertFrom-Base64Url 'AQAB'
+        $rsa = [Security.Cryptography.RSA]::Create()
+        $rsa.ImportParameters($parameters)
+        try {
+            return $rsa.VerifyData(
+                [Text.Encoding]::UTF8.GetBytes($builder.ToString()),
+                [Convert]::FromBase64String([string]$value.signature),
+                [Security.Cryptography.HashAlgorithmName]::SHA256,
+                [Security.Cryptography.RSASignaturePadding]::Pkcs1)
+        } finally {
+            $rsa.Dispose()
+        }
+    } catch {
+        return $false
+    }
+}
+
 $manifest = Invoke-RestMethod ($repository + 'manifest.json?t=' + [DateTimeOffset]::UtcNow.ToUnixTimeSeconds()) -UseBasicParsing
 if (-not $manifest.files -or $manifest.files.Count -eq 0) { throw 'The release manifest is empty.' }
+if (-not (Test-ManifestSignature $manifest)) { throw 'The release manifest signature is invalid or missing.' }
 
 function Test-Runtime([string]$pattern) {
     try { return ((& dotnet --list-runtimes 2>$null) -match $pattern).Count -gt 0 } catch { return $false }
