@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "publishedAt": "2026-08-02T23:14:33.8712047Z",
+  "publishedAt": "2026-08-02T23:27:08.9246601Z",
   "files": [
     {
       "path": "appsettings.backup.json",
@@ -406,39 +406,39 @@
     },
     {
       "path": "ProERP.Licensing.dll",
-      "hash": "7312020ef1d97e6cc71c6c4ce00a73bf934c5d66b3db0fdeb472d91107624ff7",
-      "size": 18944,
-      "lastModified": "2026-08-02T22:34:04.1802518Z"
+      "hash": "f8a04ac66e370b0451953c2ee3293a0f72436fd40963b802ecf04e337b406573",
+      "size": 19456,
+      "lastModified": "2026-08-02T23:26:50.1261737Z"
     },
     {
       "path": "ProERP.Web.deps.json",
       "hash": "eacd84953a4d0760376f3e0d89038af5923458f7aadb7f3e711a72f9a201fd46",
       "size": 91413,
-      "lastModified": "2026-08-02T23:14:27.2897824Z"
+      "lastModified": "2026-08-02T23:27:03.1136747Z"
     },
     {
       "path": "ProERP.Web.dll",
-      "hash": "e9fab180d0de42058ed464c48dac46e0fd6dcbe60a4431b552268009ef48473c",
+      "hash": "7d6c2ce5e79520e192efce10ef7018b5594640ef6fb872553fdd4445e59d1d7e",
       "size": 4089856,
-      "lastModified": "2026-08-02T23:14:25.0260042Z"
+      "lastModified": "2026-08-02T23:27:01.303945Z"
     },
     {
       "path": "ProERP.Web.exe",
       "hash": "28e4c9108842e6a11b271ead92d76a1a05d0d924a2b4d1fc208dd3102dd4e3df",
       "size": 156160,
-      "lastModified": "2026-08-02T23:14:25.0835747Z"
+      "lastModified": "2026-08-02T23:27:01.3898423Z"
     },
     {
       "path": "ProERP.Web.runtimeconfig.json",
       "hash": "970743035d76a7ef2c555cfc93260778b13d03ed88608f31e046be7710f6ed0f",
       "size": 557,
-      "lastModified": "2026-08-02T23:14:26.8065341Z"
+      "lastModified": "2026-08-02T23:27:02.6905571Z"
     },
     {
       "path": "ProERP.Web.staticwebassets.endpoints.json",
-      "hash": "405b56fec2c1fd6d9c55c3132ac56a15d29fefb444de9d96fb61072822a7c2ed",
+      "hash": "7acd62dc98090658b84b0602fe54baad363a67159da72431230da586f11c3af2",
       "size": 2832361,
-      "lastModified": "2026-08-02T23:14:30.6928471Z"
+      "lastModified": "2026-08-02T23:27:05.8977815Z"
     },
     {
       "path": "Radzen.Blazor.dll",
@@ -672,7 +672,7 @@
       "path": "Installer/ProERP.Desktop.zip",
       "hash": "07c5b29a0bd5eb94e7b8ccb846bbe17828d9c14703913fa35e19079bb6b0feab",
       "size": 1025364,
-      "lastModified": "2026-08-02T23:14:33.8643639Z"
+      "lastModified": "2026-08-02T23:27:08.918724Z"
     },
     {
       "path": "it/Microsoft.CodeAnalysis.CSharp.resources.dll",
@@ -2796,19 +2796,19 @@
       "path": "wwwroot/_framework/blazor.boot.json",
       "hash": "2119c169f23d2a8e0a611536a4918091b66535f18fc80ff2810679bd61ed5a47",
       "size": 19087,
-      "lastModified": "2026-08-02T23:14:28.7394336Z"
+      "lastModified": "2026-08-02T23:27:04.2462618Z"
     },
     {
       "path": "wwwroot/_framework/blazor.boot.json.br",
       "hash": "54453cfab220684c8524fae394bbc4032d454407845f7b7d0a6b3dca53850581",
       "size": 5712,
-      "lastModified": "2026-08-02T23:14:28.9954417Z"
+      "lastModified": "2026-08-02T23:27:04.4770223Z"
     },
     {
       "path": "wwwroot/_framework/blazor.boot.json.gz",
       "hash": "6f5146e53bed0aa3f148f1f733404ca48d3d3341c4404823271b6f9bd7a5787c",
       "size": 6315,
-      "lastModified": "2026-08-02T23:14:28.8160023Z"
+      "lastModified": "2026-08-02T23:27:04.2900153Z"
     },
     {
       "path": "wwwroot/_framework/blazor.webassembly.js",
