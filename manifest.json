@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "publishedAt": "2026-07-30T16:35:31.2498124Z",
+  "publishedAt": "2026-08-02T22:34:38.5933093Z",
   "files": [
     {
       "path": "appsettings.backup.json",
@@ -406,9 +406,9 @@
     },
     {
       "path": "ProERP.Licensing.dll",
-      "hash": "04c145dea9fd0f782646f26f8f90e7a3506769b363ca2a6500b1dd0f88427d1f",
+      "hash": "7312020ef1d97e6cc71c6c4ce00a73bf934c5d66b3db0fdeb472d91107624ff7",
       "size": 18944,
-      "lastModified": "2026-07-30T16:34:17.8555386Z"
+      "lastModified": "2026-08-02T22:34:04.1802518Z"
     },
     {
       "path": "ProERP.Web.deps.json",
@@ -418,15 +418,15 @@
     },
     {
       "path": "ProERP.Web.dll",
-      "hash": "8a30e9972ce3ddd838cf1c12e779b03fabff8a7c023d60b33f626776061f5bc5",
-      "size": 4059648,
-      "lastModified": "2026-07-30T16:34:55.8939872Z"
+      "hash": "c7339b010f4d770309c4a4bc34e2cd976a10bf6f5d441e062945ba2cd5d86b66",
+      "size": 4089856,
+      "lastModified": "2026-08-02T22:34:28.8281089Z"
     },
     {
       "path": "ProERP.Web.exe",
       "hash": "28e4c9108842e6a11b271ead92d76a1a05d0d924a2b4d1fc208dd3102dd4e3df",
       "size": 156160,
-      "lastModified": "2026-07-30T16:34:55.9552802Z"
+      "lastModified": "2026-08-02T22:34:28.885957Z"
     },
     {
       "path": "ProERP.Web.runtimeconfig.json",
@@ -436,9 +436,9 @@
     },
     {
       "path": "ProERP.Web.staticwebassets.endpoints.json",
-      "hash": "113b3f22b0bf2d8a0282234cf3edf228551b67ce09e5107d07e49a0bece6d725",
+      "hash": "582f531126137589d3c47efa7d4af0f60e73e6428b6ed0e39b5061596a6adf2d",
       "size": 2832361,
-      "lastModified": "2026-07-30T16:35:26.8929718Z"
+      "lastModified": "2026-08-02T22:34:35.0605824Z"
     },
     {
       "path": "Radzen.Blazor.dll",
@@ -672,7 +672,7 @@
       "path": "Installer/ProERP.Desktop.zip",
       "hash": "07c5b29a0bd5eb94e7b8ccb846bbe17828d9c14703913fa35e19079bb6b0feab",
       "size": 1025364,
-      "lastModified": "2026-07-30T16:35:31.2304179Z"
+      "lastModified": "2026-08-02T22:34:38.5875906Z"
     },
     {
       "path": "it/Microsoft.CodeAnalysis.CSharp.resources.dll",
@@ -2796,19 +2796,19 @@
       "path": "wwwroot/_framework/blazor.boot.json",
       "hash": "2119c169f23d2a8e0a611536a4918091b66535f18fc80ff2810679bd61ed5a47",
       "size": 19087,
-      "lastModified": "2026-07-30T16:35:16.8333301Z"
+      "lastModified": "2026-08-02T22:34:32.835147Z"
     },
     {
       "path": "wwwroot/_framework/blazor.boot.json.br",
       "hash": "54453cfab220684c8524fae394bbc4032d454407845f7b7d0a6b3dca53850581",
       "size": 5712,
-      "lastModified": "2026-07-30T16:35:17.2020683Z"
+      "lastModified": "2026-08-02T22:34:33.142639Z"
     },
     {
       "path": "wwwroot/_framework/blazor.boot.json.gz",
       "hash": "6f5146e53bed0aa3f148f1f733404ca48d3d3341c4404823271b6f9bd7a5787c",
       "size": 6315,
-      "lastModified": "2026-07-30T16:35:16.9373131Z"
+      "lastModified": "2026-08-02T22:34:32.9296413Z"
     },
     {
       "path": "wwwroot/_framework/blazor.webassembly.js",
