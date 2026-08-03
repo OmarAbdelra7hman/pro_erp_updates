@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "publishedAt": "2026-08-03T00:58:36.7648097Z",
+  "publishedAt": "2026-08-03T00:59:13.0389343Z",
   "files": [
     {
       "path": "BCrypt.Net-Next.dll",
@@ -192,7 +192,7 @@
       "path": "Installer/ProERP.Desktop.zip",
       "hash": "07c5b29a0bd5eb94e7b8ccb846bbe17828d9c14703913fa35e19079bb6b0feab",
       "size": 1025364,
-      "lastModified": "2026-08-03T00:58:36.7596202Z"
+      "lastModified": "2026-08-03T00:59:13.0316586Z"
     },
     {
       "path": "Installer/online-install.ps1",
@@ -496,9 +496,9 @@
     },
     {
       "path": "ProERP.Web.staticwebassets.endpoints.json",
-      "hash": "4dda1425c56f849c096f6df76ffaf3dd8759df706db914d8f81b3e8b82402a26",
+      "hash": "fc49e36d0779ae431510ec2f5a2feb9504a362dabe08ca961cd0f50bc05260fb",
       "size": 2832361,
-      "lastModified": "2026-08-03T00:58:33.3444258Z"
+      "lastModified": "2026-08-03T00:59:09.9524813Z"
     },
     {
       "path": "RBush.dll",
@@ -4398,19 +4398,19 @@
       "path": "wwwroot/_framework/blazor.boot.json",
       "hash": "2119c169f23d2a8e0a611536a4918091b66535f18fc80ff2810679bd61ed5a47",
       "size": 19087,
-      "lastModified": "2026-08-03T00:58:31.7921234Z"
+      "lastModified": "2026-08-03T00:59:07.7702461Z"
     },
     {
       "path": "wwwroot/_framework/blazor.boot.json.br",
       "hash": "54453cfab220684c8524fae394bbc4032d454407845f7b7d0a6b3dca53850581",
       "size": 5712,
-      "lastModified": "2026-08-03T00:58:32.0058701Z"
+      "lastModified": "2026-08-03T00:59:08.031744Z"
     },
     {
       "path": "wwwroot/_framework/blazor.boot.json.gz",
       "hash": "6f5146e53bed0aa3f148f1f733404ca48d3d3341c4404823271b6f9bd7a5787c",
       "size": 6315,
-      "lastModified": "2026-08-03T00:58:31.8328227Z"
+      "lastModified": "2026-08-03T00:59:07.8452472Z"
     },
     {
       "path": "wwwroot/_framework/blazor.webassembly.js",
@@ -7875,5 +7875,5 @@
       "lastModified": "2023-11-08T17:46:04Z"
     }
   ],
-  "signature": "Eq8TXAWFdNJy1Emi1VRtrLr2KyRO1kYDM+zGshQW9ddJQPkzUq2No7S9EAaV5ScficUiYjbxW1tH5nh7fRSNXKq0QZaRMGffqKdiHj3L7U3TaiNdSphBO2PJLbA709sYFrbW9Xnvf+R8jHzH2yHbj52Bwev5TiOynsR19nx7Ai4Miw1my3HLn1KVK/zdtarH1hTBdZV0oc4/v+8Y2U8fhcrO9CbpKOwIn5Qcn7/BUAXov/9q9Fri3eWqDfy5H2YfwYRqpg95yG+hk0/ANvenI3QTg0D6Ogyve7NgyvJpsNhKZ5Zgc4fxhsfg0QXOAQ29YUIZKTUPSwNmixlq3DRxqarE8yNJbbBi4D340DtvW2rqD7PKCIVBIMCEsUn5AsONsdVf1jNFNUjnFMw5c2zAB9a95A0D/DsE3xKgYeuksZGryZ5iHhYo9pLw4TvFWCnAxBffrsORY2+6Vet0P4VNuKUES/KLOi+SVP553y/HrcPDBoaRVOqlP1maug5M0vrW"
+  "signature": "BS2iKF0FOogPi6zZS2cIZZDvEtb2hX8W9roIBtJDSb7WoPcGBkZYE6BVO9g5l+8qsRNMVhcXT8cQ+huI/FnuSDwFj2GbaMGD8qADPY6OMSeWLYCwIGZlurA2biqKYTD5yh1zK9BzQ+ckDE7y8wqfoKjYj2nchtty1D0XQfdvwFd2vi0RkepXpCW3K+ShcxiD3+xKEfxtv0FwxStkCXFwhVdIPhPqVMzwBeMxWhJOhqhVjODst8d3AAkXXG4DU3jk+tUQpqLcwLJ8nQKylobT9sNEQhSKeSfVQlqijkwtGd4FgqPqGNomCXd6zK8qzGf7UK1vzgRMswUeKo8IST5gOgXQQPbHYQsDAPwraCb63W2qyqJljNqlhNmzU7ugTRpf3wEi5V2cRnxZJnsoEEk6/tZCwCH2rRXVApn3Qn39ZT21owG9z66yHgdaEQCezvaSzU0Qax1NkYO1m100xT6TKfNQ5d2WXPdy5zl8EQhXtVwiYW5Fx8hArd0bkTuoEGQa"
 }
