@@ -27,6 +27,84 @@ window.proErpWindowOpen = function (url, target) {
 window.proErpWindowPrint = function () {
     try { window.print(); } catch (e) { }
 };
+window.proErpPrintHtml = function (html) {
+    try {
+        var frame = document.createElement('iframe');
+        frame.setAttribute('aria-hidden', 'true');
+        frame.style.position = 'fixed';
+        frame.style.width = '1px';
+        frame.style.height = '1px';
+        frame.style.left = '-10000px';
+        frame.style.top = '0';
+        frame.style.border = '0';
+
+        var cleanup = function () {
+            try { frame.remove(); } catch (_) { }
+        };
+
+        frame.onload = function () {
+            setTimeout(function () {
+                try {
+                    frame.contentWindow.addEventListener('afterprint', cleanup, { once: true });
+                    frame.contentWindow.focus();
+                    frame.contentWindow.print();
+                } catch (_) {
+                    cleanup();
+                }
+            }, 100);
+        };
+
+        document.body.appendChild(frame);
+        frame.srcdoc = html;
+        setTimeout(cleanup, 60000);
+        return true;
+    } catch (_) {
+        return false;
+    }
+};
+
+window.proErpPrintPdfBase64 = function (base64Pdf) {
+    try {
+        var binary = atob(base64Pdf);
+        var bytes = new Uint8Array(binary.length);
+        for (var i = 0; i < binary.length; i++) bytes[i] = binary.charCodeAt(i);
+
+        var blobUrl = URL.createObjectURL(new Blob([bytes], { type: 'application/pdf' }));
+        var frame = document.createElement('iframe');
+        frame.setAttribute('aria-hidden', 'true');
+        frame.style.position = 'fixed';
+        frame.style.width = '1px';
+        frame.style.height = '1px';
+        frame.style.left = '-10000px';
+        frame.style.top = '0';
+        frame.style.border = '0';
+
+        var cleanup = function () {
+            try { frame.remove(); } catch (_) { }
+            try { URL.revokeObjectURL(blobUrl); } catch (_) { }
+        };
+
+        frame.onload = function () {
+            setTimeout(function () {
+                try {
+                    frame.contentWindow.addEventListener('afterprint', cleanup, { once: true });
+                    frame.contentWindow.focus();
+                    frame.contentWindow.print();
+                } catch (_) {
+                    window.open(blobUrl, '_blank');
+                    setTimeout(cleanup, 60000);
+                }
+            }, 350);
+        };
+
+        document.body.appendChild(frame);
+        frame.src = blobUrl;
+        setTimeout(cleanup, 120000);
+        return true;
+    } catch (_) {
+        return false;
+    }
+};
 window.proErpClipboardWriteText = function (text) {
     try {
         if (navigator.clipboard && typeof navigator.clipboard.writeText === 'function')
