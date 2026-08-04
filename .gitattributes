@@ -1,0 +1,2 @@
+# Keep exact release bytes so manifest SHA-256 hashes match GitHub raw downloads.
+* -text
