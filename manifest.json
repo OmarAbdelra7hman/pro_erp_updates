@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "publishedAt": "2026-08-04T13:48:26.4154393Z",
+  "publishedAt": "2026-08-04T16:38:33.0600125Z",
   "files": [
     {
       "path": "BCrypt.Net-Next.dll",
@@ -192,7 +192,7 @@
       "path": "Installer/ProERP.Desktop.zip",
       "hash": "07c5b29a0bd5eb94e7b8ccb846bbe17828d9c14703913fa35e19079bb6b0feab",
       "size": 1025364,
-      "lastModified": "2026-08-04T13:48:26.406485Z"
+      "lastModified": "2026-08-04T16:38:33.0529394Z"
     },
     {
       "path": "Installer/online-install.ps1",
@@ -478,15 +478,15 @@
     },
     {
       "path": "ProERP.Web.dll",
-      "hash": "b15605d94fb8aba5cfd920d7caf2222c393c6620574cde06cb32f2ccd5c51f6d",
-      "size": 4096512,
-      "lastModified": "2026-08-04T13:47:58.8660646Z"
+      "hash": "28d8cfc88d45c386b83d9d10c89b540e39964d6512b796e3c6e7980eaf7ae89f",
+      "size": 4098560,
+      "lastModified": "2026-08-04T16:38:23.929251Z"
     },
     {
       "path": "ProERP.Web.exe",
       "hash": "28e4c9108842e6a11b271ead92d76a1a05d0d924a2b4d1fc208dd3102dd4e3df",
       "size": 156160,
-      "lastModified": "2026-08-04T13:47:59.1049987Z"
+      "lastModified": "2026-08-04T16:38:24.2272131Z"
     },
     {
       "path": "ProERP.Web.runtimeconfig.json",
@@ -496,9 +496,9 @@
     },
     {
       "path": "ProERP.Web.staticwebassets.endpoints.json",
-      "hash": "6e5f3696f8b0ae37792b3d3c4c369a03a2039f0ccc39148654a27c853868f6c1",
+      "hash": "ccc79c7d7143df30a662551b72e9c9cab15dc7aba083503502a8bd79c80ef65f",
       "size": 2833646,
-      "lastModified": "2026-08-04T13:48:23.0714611Z"
+      "lastModified": "2026-08-04T16:38:29.6337538Z"
     },
     {
       "path": "RBush.dll",
@@ -4398,19 +4398,19 @@
       "path": "wwwroot/_framework/blazor.boot.json",
       "hash": "df4db1b8ac5ef1b4ec33480f41904aedfbb1c53f9cc4489cfc87c27c904f6dd6",
       "size": 19087,
-      "lastModified": "2026-08-04T13:48:19.4415231Z"
+      "lastModified": "2026-08-04T16:38:28.0326566Z"
     },
     {
       "path": "wwwroot/_framework/blazor.boot.json.br",
       "hash": "b7decbad3367deb2da75ff5a391472ba90c70296629d90771ae92aa71b64de07",
       "size": 5717,
-      "lastModified": "2026-08-04T13:48:19.6841249Z"
+      "lastModified": "2026-08-04T16:38:28.2583206Z"
     },
     {
       "path": "wwwroot/_framework/blazor.boot.json.gz",
       "hash": "5e57bf9d8352678bfe981f6c60d54479e3a240bae76a3de0a41626644496e236",
       "size": 6316,
-      "lastModified": "2026-08-04T13:48:19.4806952Z"
+      "lastModified": "2026-08-04T16:38:28.0709544Z"
     },
     {
       "path": "wwwroot/_framework/blazor.webassembly.js",
@@ -7881,5 +7881,5 @@
       "lastModified": "2023-11-08T17:46:04Z"
     }
   ],
-  "signature": "jPa33LakiGtafNHk3IkclbOrR3vyFQXevog5PTAuSYL00zvbN5LwN4k4Dimu15v4El2bSQ48CjiZGS/7T4DE7PGX8z0RDSHIgH1LPfuxIAywY8ekikMRfTLvcMFFB4wf9DWN5SlXkv1Alms5pxmGlOVhBYHcCKc1fi08T6M3TBG3O5FtGJZAYfNEvVQY7PuFOv9Vgdmrhfsa690wA5o+8VwQkIdmXZetdQAjfA8jDN6by/5GRTYuWrB07vaC/bfsSBU1DnFK2tphl6eXdIxfl4AQmdFjVu+UQlg7QyskRxHf4JXGqzYMagItqCqh8Oc91TUmHKWJ8E5BIyGicnkO2DkOYAU2TDpjqZ8L7Ui3dEl/Pfu1j85VnqVVs3HO1xVd3qcp9C1DxaWS4s+UUfqcJz4OMuxSZo89NUtLzjf9zyNcGmpdp+3WcZXiYXTJR/ua/IDbk3cGQ+oWGyYW5XpBs61nDAhN0JyXk5UtzSxmxx+nXlO5cXeN7UA5uNL54Da9"
+  "signature": "CFnfDgnFbsdJeJzEUAGOmV9iFSuXcVdXBB4LpWqGeQLTcZfVBBhEvkfH4I9dmTQogt0d9ezMPNSzQ4QyskSpabhfE2ud8gasCmRawHRTwxleMNS6ZjJwYB1UFvdkhvj5Ymhon7E/ecePY//H5iq3CEct5V7wbVEE0jCZn+W8zYcVhsFVRvIPG+QxxbrroY9rZAV1Dk7yDoM+/itsRKRthCkGefnzggsSwqT7vXVuU4Sdl2Cw4zLrHKkvBIJo2sf18IjKcM/kjVHHaL7ef+7dqu+f1EnmQtKS7xmo8ykeFlSdhdvwBrnv3oKkjBcZW7wpiELH+invucmyuKPyM21KlhZG4l7BZjOCSSaYc5z1uIiLTA27QORcphMY1uXw6wbVs+FOH7By3kg08f4x1rNfpjc6tYi9j9nsYAFwdcEiHG+HJCVLj1/j0wcINa8BY3CzqSUNeo06zfnGhiV8Jg/56brwDAD5vWtJ8ipHY5jIK6TJIyivJOTvf7QKaP2/E/aw"
 }
