@@ -9,6 +9,8 @@
       <Column Name="StoreName" DataType="System.String"/>
       <Column Name="SubTotal" DataType="System.Decimal"/>
       <Column Name="DiscountValue" DataType="System.Decimal"/>
+      <Column Name="AdditionPercentage" DataType="System.Decimal"/>
+      <Column Name="AdditionValue" DataType="System.Decimal"/>
       <Column Name="TaxTotal" DataType="System.Decimal"/>
       <Column Name="GrandTotal" DataType="System.Decimal"/>
       <Column Name="PaymentAmount" DataType="System.Decimal"/>
@@ -67,22 +69,24 @@
         
         <TextObject Name="f2" Left="100" Top="32" Width="164.6" Height="16" Text="الخصم" Font="Arial, 9pt" HorzAlign="Right" RightToLeft="true" TextColor="DimGray"/>
         <TextObject Name="v2" Left="0" Top="32" Width="100" Height="16" Text="[Invoice.DiscountValue]" Format="Number" Format.UseLocale="true" Font="Arial, 9pt, style=Bold" HorzAlign="Left"/>
+        <TextObject Name="fService" Left="100" Top="50" Width="164.6" Height="16" Text="الخدمة ([Invoice.AdditionPercentage]%)" Font="Arial, 9pt" HorzAlign="Right" RightToLeft="true" TextColor="DimGray" VisibleExpression="[Invoice.AdditionValue] &gt; 0"/>
+        <TextObject Name="vService" Left="0" Top="50" Width="100" Height="16" Text="[Invoice.AdditionValue]" Format="Number" Format.UseLocale="true" Font="Arial, 9pt, style=Bold" HorzAlign="Left" VisibleExpression="[Invoice.AdditionValue] &gt; 0"/>
         
-        <LineObject Name="Line4" Left="20" Top="52" Width="224.6" Height="0" Border.Width="0.5" Border.Color="DimGray"/>
+        <LineObject Name="Line4" Left="20" Top="70" Width="224.6" Height="0" Border.Width="0.5" Border.Color="DimGray"/>
         
-        <TextObject Name="f3" Left="100" Top="58" Width="164.6" Height="22" Text="الصافي المطلوب" Font="Arial, 11pt, style=Bold" HorzAlign="Right" RightToLeft="true"/>
-        <TextObject Name="v3" Left="0" Top="56" Width="100" Height="24" Text="[Invoice.GrandTotal]" Format="Number" Format.UseLocale="true" Font="Arial, 14pt, style=Bold" HorzAlign="Left"/>
+        <TextObject Name="f3" Left="100" Top="76" Width="164.6" Height="22" Text="الصافي المطلوب" Font="Arial, 11pt, style=Bold" HorzAlign="Right" RightToLeft="true"/>
+        <TextObject Name="v3" Left="0" Top="74" Width="100" Height="24" Text="[Invoice.GrandTotal]" Format="Number" Format.UseLocale="true" Font="Arial, 14pt, style=Bold" HorzAlign="Left"/>
         
-        <TextObject Name="lblPaymentInfo" Left="0" Top="84" Width="264.6" Height="16" Text="[PaymentInfo]" Font="Arial, 8pt, style=Bold" HorzAlign="Center" RightToLeft="true" VisibleExpression="[PaymentInfo] != &quot;&quot;"/>
+        <TextObject Name="lblPaymentInfo" Left="0" Top="104" Width="264.6" Height="16" Text="[PaymentInfo]" Font="Arial, 8pt, style=Bold" HorzAlign="Center" RightToLeft="true" VisibleExpression="[PaymentInfo] != &quot;&quot;"/>
         
-        <LineObject Name="Line5" Left="0" Top="106" Width="264.6" Height="0" Border.Width="0.5" Border.Color="Silver"/>
-        <TextObject Name="lblPrintedBy" Left="0" Top="112" Width="264.6" Height="14" Text="الكاشير: [PrintedBy]" Font="Arial, 8pt" HorzAlign="Center" RightToLeft="true" TextColor="Gray"/>
+        <LineObject Name="Line5" Left="0" Top="126" Width="264.6" Height="0" Border.Width="0.5" Border.Color="Silver"/>
+        <TextObject Name="lblPrintedBy" Left="0" Top="132" Width="264.6" Height="14" Text="الكاشير: [PrintedBy]" Font="Arial, 8pt" HorzAlign="Center" RightToLeft="true" TextColor="Gray"/>
         
-        <TextObject Name="lblPosReceiptText" Left="0" Top="130" Width="264.6" Height="16" Text="[PosReceiptText]" Font="Arial, 8pt" HorzAlign="Center" RightToLeft="true" VisibleExpression="[PosReceiptText] != &quot;&quot;"/>
+        <TextObject Name="lblPosReceiptText" Left="0" Top="150" Width="264.6" Height="16" Text="[PosReceiptText]" Font="Arial, 8pt" HorzAlign="Center" RightToLeft="true" VisibleExpression="[PosReceiptText] != &quot;&quot;"/>
         
-        <TextObject Name="lblThanks" Left="0" Top="150" Width="264.6" Height="16" Text="شكراً لزيارتكم" Font="Arial, 10pt, style=Bold" HorzAlign="Center" RightToLeft="true"/>
+        <TextObject Name="lblThanks" Left="0" Top="170" Width="264.6" Height="16" Text="شكراً لزيارتكم" Font="Arial, 10pt, style=Bold" HorzAlign="Center" RightToLeft="true"/>
         
-        <BarcodeObject Name="BarcodeReturn" Left="7" Top="174" Width="250" Height="45" AutoSize="false" Text="[BarcodeText]" ShowText="true" Barcode="Code128" HorzAlign="Center"/>
+        <BarcodeObject Name="BarcodeReturn" Left="7" Top="194" Width="250" Height="45" AutoSize="false" Text="[BarcodeText]" ShowText="true" Barcode="Code128" HorzAlign="Center"/>
       </GroupFooterBand>
     </GroupHeaderBand>
   </ReportPage>
