@@ -1,5 +1,5 @@
 // One lightweight root worker owns the PWA shell and standards-based Web Push.
-const CACHE_NAME = 'proerp-pwa-v7';
+const CACHE_NAME = 'proerp-pwa-v8';
 const OFFLINE_URL = '/offline.html';
 const SHELL_ASSETS = [
     OFFLINE_URL,
@@ -12,11 +12,8 @@ const SHELL_ASSETS = [
     '/js/iconify-icon.min.js',
     '/js/iconBundle.js',
     '/js/theme.js?v=20260630.1',
-    '/js/dashboard.js?v=20260630.1',
     '/js/utils.js?v=20260630.1',
-    '/js/pwa.js?v=1.0',
-    '/js/gps-attendance.js?v=1.0',
-    '/js/firebase-push.js?v=20260630.1'
+    '/js/pwa.js?v=1.0'
 ];
 
 // Install event - cache essential resources

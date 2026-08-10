@@ -1,4 +1,4 @@
-/* Manifest version: +G0XW1+0 */
+/* Manifest version: q9238wnQ */
 // Caution! Be sure you understand the caveats before publishing an application with
 // offline support. See https://aka.ms/blazor-offline-considerations
 
@@ -16,6 +16,12 @@ const offlineAssetsExclude = [ /^service-worker\.js$/ ];
 const base = "/sales/pos-offline/";
 const baseUrl = new URL(base, self.origin);
 const manifestUrlList = self.assetsManifest.assets.map(asset => new URL(asset.url, baseUrl).href);
+const sharedShellAssets = [
+    '/js/iconify-icon.min.js',
+    '/js/iconBundle.js',
+    '/_content/Radzen.Blazor/css/default.css',
+    '/_content/Radzen.Blazor/Radzen.Blazor.js'
+];
 
 async function onInstall(event) {
     console.info('Service worker: Install');
@@ -25,8 +31,12 @@ async function onInstall(event) {
     const assetsRequests = self.assetsManifest.assets
         .filter(asset => offlineAssetsInclude.some(pattern => pattern.test(asset.url)))
         .filter(asset => !offlineAssetsExclude.some(pattern => pattern.test(asset.url)))
+        .filter(asset => !asset.url.includes('_content/Radzen.Blazor/css/') || /\/default\.css(?:\.br|\.gz)?$/.test(asset.url))
         .map(asset => new Request(asset.url, { integrity: asset.hash, cache: 'no-cache' }));
-    await caches.open(cacheName).then(cache => cache.addAll(assetsRequests));
+    await caches.open(cacheName).then(async cache => {
+        await cache.addAll(assetsRequests);
+        await cache.addAll(sharedShellAssets);
+    });
 }
 
 async function onActivate(event) {

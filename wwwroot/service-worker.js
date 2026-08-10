@@ -1,59 +1,117 @@
-/* Manifest version: tfxiZkPv */
-// Caution! Be sure you understand the caveats before publishing an application with
-// offline support. See https://aka.ms/blazor-offline-considerations
+// One lightweight root worker owns the PWA shell and standards-based Web Push.
+const CACHE_NAME = 'proerp-pwa-v8';
+const OFFLINE_URL = '/offline.html';
+const SHELL_ASSETS = [
+    OFFLINE_URL,
+    '/manifest.webmanifest',
+    '/icon-192.png',
+    '/icon-512.png',
+    '/logo.png',
+    '/css/fonts.css?v=20260630.1',
+    '/css/app.css?v=20260630.1',
+    '/js/iconify-icon.min.js',
+    '/js/iconBundle.js',
+    '/js/theme.js?v=20260630.1',
+    '/js/utils.js?v=20260630.1',
+    '/js/pwa.js?v=1.0'
+];
 
-self.importScripts('./service-worker-assets.js');
-self.addEventListener('install', event => event.waitUntil(onInstall(event)));
-self.addEventListener('activate', event => event.waitUntil(onActivate(event)));
-self.addEventListener('fetch', event => event.respondWith(onFetch(event)));
-
-const cacheNamePrefix = 'offline-cache-';
-const cacheName = `${cacheNamePrefix}${self.assetsManifest.version}`;
-const offlineAssetsInclude = [ /\.dll$/, /\.pdb$/, /\.wasm/, /\.html/, /\.js$/, /\.json$/, /\.css$/, /\.woff$/, /\.png$/, /\.jpe?g$/, /\.gif$/, /\.ico$/, /\.blat$/, /\.dat$/, /\.webmanifest$/ ];
-const offlineAssetsExclude = [ /^service-worker\.js$/ ];
-
-// Replace with your base path if you are hosting on a subfolder. Ensure there is a trailing '/'.
-const base = "/sales/pos-offline/";
-const baseUrl = new URL(base, self.origin);
-const manifestUrlList = self.assetsManifest.assets.map(asset => new URL(asset.url, baseUrl).href);
-
-async function onInstall(event) {
-    console.info('Service worker: Install');
+// Install event - cache essential resources
+self.addEventListener('install', (event) => {
+    console.log('[SW] Installing service worker...');
+    event.waitUntil(
+        caches.open(CACHE_NAME).then(async (cache) => {
+            await Promise.allSettled(SHELL_ASSETS.map(asset => cache.add(asset)));
+        })
+    );
     self.skipWaiting();
+});
 
-    // Fetch and cache all matching items from the assets manifest
-    const assetsRequests = self.assetsManifest.assets
-        .filter(asset => offlineAssetsInclude.some(pattern => pattern.test(asset.url)))
-        .filter(asset => !offlineAssetsExclude.some(pattern => pattern.test(asset.url)))
-        .map(asset => new Request(asset.url, { integrity: asset.hash, cache: 'no-cache' }));
-    await caches.open(cacheName).then(cache => cache.addAll(assetsRequests));
-}
+// Activate event - clean old caches
+self.addEventListener('activate', (event) => {
+    console.log('[SW] Activating service worker...');
+    event.waitUntil(
+        Promise.all([
+            'navigationPreload' in self.registration
+                ? self.registration.navigationPreload.enable()
+                : Promise.resolve(),
+            caches.keys().then((cacheNames) => {
+            return Promise.all(
+                cacheNames.filter((name) =>
+                    (name.startsWith('proerp-pwa-') && name !== CACHE_NAME) ||
+                    name.startsWith('offline-cache-'))
+                    .map((name) => caches.delete(name))
+            );
+            })
+        ])
+    );
+    self.clients.claim();
+});
 
-async function onActivate(event) {
-    console.info('Service worker: Activate');
-    event.waitUntil(clients.claim());
+// Fetch event - network first, fallback to cache
+self.addEventListener('fetch', (event) => {
+    // Only handle GET requests
+    if (event.request.method !== 'GET') return;
 
-    // Delete unused caches
-    const cacheKeys = await caches.keys();
-    await Promise.all(cacheKeys
-        .filter(key => key.startsWith(cacheNamePrefix) && key !== cacheName)
-        .map(key => caches.delete(key)));
-}
+    // Skip non-http(s) requests
+    if (!event.request.url.startsWith('http')) return;
 
-async function onFetch(event) {
-    let cachedResponse = null;
-    if (event.request.method === 'GET') {
-        // For all navigation requests, try to serve index.html from cache,
-        // unless that request is for an offline resource.
-        // If you need some URLs to be server-rendered, edit the following check to exclude those URLs
-        const shouldServeIndexHtml = event.request.mode === 'navigate'
-            && !manifestUrlList.some(url => url === event.request.url)
-            && new URL(event.request.url).pathname.startsWith(base);
+    const url = new URL(event.request.url);
+    if (url.origin !== self.location.origin) return;
 
-        const request = shouldServeIndexHtml ? 'index.html' : event.request;
-        const cache = await caches.open(cacheName);
-        cachedResponse = await cache.match(request);
+    // Never cache live data, authentication, SignalR or the offline POS scope.
+    if (url.pathname.includes('/hubs/') || url.pathname.includes('/api/') ||
+        url.pathname.includes('/_blazor') || url.pathname.startsWith('/sales/pos-offline')) return;
+
+    if (event.request.mode === 'navigate') {
+        event.respondWith((async () => {
+            try {
+                return (await event.preloadResponse) || await fetch(event.request);
+            } catch {
+                return await caches.match(OFFLINE_URL);
+            }
+        })());
+        return;
     }
 
-    return cachedResponse || fetch(event.request);
-}
+    const isStaticAsset = /\.(?:css|js|png|jpg|jpeg|svg|woff2?|ico|webmanifest)$/i.test(url.pathname);
+    if (isStaticAsset) {
+        event.respondWith(caches.match(event.request).then(cached => cached || fetch(event.request).then(response => {
+            if (response.ok) caches.open(CACHE_NAME).then(cache => cache.put(event.request, response.clone()));
+            return response;
+        })));
+    }
+});
+
+self.addEventListener('notificationclick', (event) => {
+    event.notification.close();
+    if (event.action === 'dismiss') return;
+    const targetUrl = new URL(event.notification.data?.url || '/', self.location.origin).href;
+    event.waitUntil(clients.matchAll({ type: 'window', includeUncontrolled: true }).then(async windows => {
+        const existing = windows.find(client => client.url.startsWith(self.location.origin));
+        if (existing) {
+            await existing.navigate(targetUrl);
+            return existing.focus();
+        }
+        return clients.openWindow(targetUrl);
+    }));
+});
+
+// Standards-based Web Push fallback (used by Safari, where Firebase Messaging
+// for web may not initialize). Firebase payloads are ignored by this listener.
+self.addEventListener('push', (event) => {
+    if (!event.data) return;
+    let payload;
+    try { payload = event.data.json(); } catch { return; }
+    if (payload?.provider !== 'proerp-webpush') return;
+
+    event.waitUntil(self.registration.showNotification(payload.title || 'mktoop', {
+        body: payload.body || '',
+        icon: payload.icon || '/icon-192.png',
+        badge: '/icon-192.png',
+        dir: 'rtl',
+        lang: 'ar',
+        tag: payload.payloadId || 'mktoop-web-push',
+        data: { url: payload.route || '/', payloadId: payload.payloadId || '' }
+    }));
+});

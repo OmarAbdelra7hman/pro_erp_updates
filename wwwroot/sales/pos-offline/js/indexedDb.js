@@ -2,7 +2,7 @@ window.proErpDb = {
     db: null,
     init: function () {
         return new Promise((resolve, reject) => {
-            let request = indexedDB.open("ProErpOfflineDB", 3);
+            let request = indexedDB.open("ProErpOfflineDB", 4);
             request.onerror = event => reject("DB Error: " + event.target.error);
             request.onsuccess = event => {
                 window.proErpDb.db = event.target.result;
@@ -14,6 +14,7 @@ window.proErpDb = {
                 if (!db.objectStoreNames.contains("customers")) db.createObjectStore("customers", { autoIncrement: true });
                 if (!db.objectStoreNames.contains("invoices_queue")) db.createObjectStore("invoices_queue", { autoIncrement: true });
                 if (!db.objectStoreNames.contains("users")) db.createObjectStore("users", { autoIncrement: true });
+                if (!db.objectStoreNames.contains("settings")) db.createObjectStore("settings", { autoIncrement: true });
             };
         });
     },
