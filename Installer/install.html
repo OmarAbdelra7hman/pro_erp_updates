@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>تثبيت ProERP</title>
+  <style>
+    :root{color-scheme:dark;--bg:#070b18;--panel:#11182c;--line:#263253;--text:#f4f7ff;--muted:#aab4ce;--primary:#6757f5;--accent:#26c6a0;--danger:#ef6375}
+    *{box-sizing:border-box}body{margin:0;min-height:100vh;background:radial-gradient(circle at 85% 0,#24205a 0,transparent 35%),var(--bg);color:var(--text);font-family:"Segoe UI",Tahoma,Arial,sans-serif}
+    .wrap{max-width:1050px;margin:auto;padding:42px 20px 70px}.hero{text-align:center;margin-bottom:34px}.logo{width:68px;height:68px;margin:auto;display:grid;place-items:center;border-radius:20px;background:linear-gradient(135deg,var(--primary),#8d3cf1);font-size:32px;box-shadow:0 16px 45px #6557f544}.hero h1{margin:16px 0 7px;font-size:clamp(27px,4vw,42px)}.hero p{margin:0;color:var(--muted)}
+    .notice{border:1px solid #3d4c76;background:#111a31;padding:14px 17px;border-radius:14px;color:#cbd4eb;margin-bottom:22px}.notice b{color:#fff}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.card{appearance:none;text-align:right;color:inherit;background:linear-gradient(160deg,#151d34,#0e1426);border:1px solid var(--line);border-radius:17px;padding:20px;min-height:145px;cursor:pointer;transition:.18s}.card:hover,.card.active{transform:translateY(-3px);border-color:#776af8;box-shadow:0 13px 32px #0005}.card.active{background:linear-gradient(160deg,#242150,#141631)}.icon{font-size:25px}.card h2{font-size:17px;margin:12px 0 6px}.card p{font-size:13px;line-height:1.65;color:var(--muted);margin:0}
+    .box{margin-top:18px;padding:22px;border:1px solid var(--line);border-radius:17px;background:var(--panel)}.box h3{margin:0 0 8px}.box .desc{color:var(--muted);font-size:14px}.command{direction:ltr;text-align:left;background:#060912;border:1px solid #303a5d;border-radius:12px;padding:15px;margin:16px 0;font:14px Consolas,monospace;white-space:pre-wrap;overflow-wrap:anywhere;color:#9be9d4}.actions{display:flex;gap:10px;flex-wrap:wrap}.btn{border:0;border-radius:10px;padding:12px 19px;font-weight:700;cursor:pointer;color:#fff;background:var(--primary);text-decoration:none}.btn.secondary{background:#26314f}.btn:hover{filter:brightness(1.12)}.status{min-height:24px;color:var(--accent);padding-top:10px;font-weight:700}.steps{margin:24px 0 0;padding:0 20px;color:var(--muted);line-height:2}.steps strong{color:var(--text)}
+    footer{text-align:center;color:#77829f;margin-top:30px;font-size:13px}@media(max-width:760px){.grid{grid-template-columns:1fr}.wrap{padding-top:24px}.card{min-height:auto}}
+  </style>
+</head>
+<body>
+<main class="wrap">
+  <header class="hero"><div class="logo">⚙</div><h1>تثبيت وصيانة ProERP</h1><p>اختر العملية، ثم انسخ الأمر وشغّله في PowerShell كمسؤول.</p></header>
+  <div class="notice"><b>مهم:</b> المتصفح لا يستطيع تثبيت البرامج مباشرة لأسباب أمنية. هذه الصفحة تنشئ لك الأمر الصحيح، بينما السكربت الموقّع يتولى التنزيل والتحقق والتثبيت.</div>
+  <section class="grid" id="choices">
+    <button class="card active" data-action="Menu"><span class="icon">▦</span><h2>القائمة الكاملة</h2><p>افتح مدير التثبيت والصيانة بجميع خياراته.</p></button>
+    <button class="card" data-action="Desktop"><span class="icon">▣</span><h2>نسخة سطح المكتب</h2><p>تثبيت أو تحديث عميل ProERP Desktop.</p></button>
+    <button class="card" data-action="Server"><span class="icon">◈</span><h2>سيرفر الويب</h2><p>تثبيت السيرفر ومتطلباته وإنشاء الخدمة.</p></button>
+    <button class="card" data-action="Update"><span class="icon">↻</span><h2>تحديث ProERP</h2><p>تنزيل الملفات المتغيرة فقط وتخطي الملفات السليمة.</p></button>
+    <button class="card" data-action="Dependencies"><span class="icon">⬇</span><h2>المتطلبات</h2><p>تثبيت كل Dependency منفردة أو تثبيتها جميعًا.</p></button>
+    <button class="card" data-action="Service"><span class="icon">⚡</span><h2>خدمة Windows</h2><p>تثبيت أو حذف أو تشغيل أو إيقاف السيرفيس.</p></button>
+    <button class="card" data-action="Uninstall"><span class="icon">⌫</span><h2>إلغاء التثبيت</h2><p>حذف Desktop أو Web Server مع حماية قاعدة البيانات.</p></button>
+  </section>
+  <section class="box">
+    <h3 id="selectedTitle">القائمة الكاملة</h3><div class="desc" id="selectedDesc">يعرض جميع عمليات التثبيت والتحديث والصيانة.</div>
+    <div class="command" id="command"></div>
+    <div class="actions"><button class="btn" id="copy">نسخ الأمر</button><a class="btn secondary" href="__SCRIPT_URL__" download="proerp-install.ps1">تنزيل السكربت</a></div>
+    <div class="status" id="status" aria-live="polite"></div>
+    <ol class="steps"><li>افتح قائمة Start وابحث عن <strong>PowerShell</strong>.</li><li>اختر <strong>Run as administrator</strong>.</li><li>الصق الأمر واضغط Enter، وستظهر نسبة التنزيل والوقت المتبقي.</li></ol>
+  </section>
+  <footer>ProERP Secure Online Installer</footer>
+</main>
+<script>
+const scriptUrl='__SCRIPT_URL__';
+const info={Menu:['القائمة الكاملة','يعرض جميع عمليات التثبيت والتحديث والصيانة.'],Desktop:['نسخة سطح المكتب','يثبت أو يحدّث برنامج سطح المكتب ويتخطى .NET إذا كان مثبتًا.'],Server:['سيرفر الويب','يثبت المتطلبات الناقصة، ملفات السيرفر، وخدمة Windows.'],Update:['تحديث ProERP','يفحص النسخة المثبتة وينزّل الملفات المتغيرة فقط.'],Dependencies:['المتطلبات','يفتح قائمة مستقلة لكل Dependency مع بيان حالتها.'],Service:['خدمة Windows','يفتح مدير تثبيت وتشغيل وإيقاف وحذف السيرفيس.'],Uninstall:['إلغاء التثبيت','يفتح خيارات الحذف الآمن مع إبقاء قاعدة PostgreSQL.']};
+let selected='Menu';
+function build(){const base=`$s=irm '${scriptUrl}'; & ([scriptblock]::Create($s))`;return selected==='Menu'?`irm '${scriptUrl}' | iex`:`${base} -Action ${selected}`}
+function render(){document.getElementById('selectedTitle').textContent=info[selected][0];document.getElementById('selectedDesc').textContent=info[selected][1];document.getElementById('command').textContent=build();document.querySelectorAll('.card').forEach(x=>x.classList.toggle('active',x.dataset.action===selected))}
+document.getElementById('choices').addEventListener('click',e=>{const card=e.target.closest('.card');if(!card)return;selected=card.dataset.action;render()});
+document.getElementById('copy').addEventListener('click',async()=>{const status=document.getElementById('status');try{await navigator.clipboard.writeText(build());status.textContent='تم نسخ الأمر.'}catch{status.textContent='حدد الأمر وانسخه يدويًا.'}setTimeout(()=>status.textContent='',2500)});render();
+</script>
+</body>
+</html>
