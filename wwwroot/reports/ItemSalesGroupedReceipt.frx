@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.CreatorVersion="2026.1.8.0">
+  <Dictionary>
+    <BusinessObjectDataSource Name="Items" ReferenceName="Items" DataType="System.Collections.Generic.List`1[[System.Object]]" Enabled="true">
+      <Column Name="ItemCode" DataType="System.String"/><Column Name="ItemName" DataType="System.String"/>
+      <Column Name="UnitName" DataType="System.String"/><Column Name="TotalQuantity" DataType="System.Decimal"/>
+      <Column Name="AveragePrice" DataType="System.Decimal"/><Column Name="TotalValue" DataType="System.Decimal"/>
+      <Column Name="TotalCost" DataType="System.Decimal"/><Column Name="TotalProfit" DataType="System.Decimal"/>
+    </BusinessObjectDataSource>
+    <Parameter Name="CompanyName" DataType="System.String"/><Parameter Name="TaxNumber" DataType="System.String"/><Parameter Name="ContactInfo" DataType="System.String"/>
+    <Parameter Name="ReportTitle" DataType="System.String"/><Parameter Name="Period" DataType="System.String"/><Parameter Name="PrintedBy" DataType="System.String"/>
+    <Parameter Name="RowsCount" DataType="System.String"/><Parameter Name="SumQuantity" DataType="System.String"/><Parameter Name="SumValue" DataType="System.String"/>
+    <Parameter Name="SumCost" DataType="System.String"/><Parameter Name="SumProfit" DataType="System.String"/>
+  </Dictionary>
+  <ReportPage Name="Page1" PaperWidth="78" PaperHeight="297" LeftMargin="2" RightMargin="2" TopMargin="2" BottomMargin="2" UnlimitedHeight="true">
+    <ReportTitleBand Name="TitleBand" Width="279.68" Height="118">
+      <PictureObject Name="Logo" Left="104.84" Top="2" Width="70" Height="38" SizeMode="Zoom"/>
+      <TextObject Name="Company" Left="0" Top="42" Width="279.68" Height="20" Text="[CompanyName]" Font="Arial, 13pt, style=Bold" HorzAlign="Center" RightToLeft="true"/>
+      <TextObject Name="Title" Left="0" Top="66" Width="279.68" Height="22" Text="[ReportTitle]" Font="Arial, 11pt, style=Bold" HorzAlign="Center" RightToLeft="true"/>
+      <TextObject Name="Period" Left="0" Top="91" Width="279.68" Height="16" Text="[Period]" Font="Arial, 8pt" HorzAlign="Center" RightToLeft="true"/><LineObject Name="Line1" Left="0" Top="113" Width="279.68"/>
+    </ReportTitleBand>
+    <DataBand Name="Data" Width="279.68" Height="43" DataSource="Items" CanGrow="true">
+      <TextObject Name="Item" Left="65" Top="1" Width="214.68" Height="17" Text="[Items.ItemName] ([Items.UnitName])" Font="Arial, 8pt, style=Bold" HorzAlign="Right" RightToLeft="true" CanGrow="true"/>
+      <TextObject Name="Code" Left="0" Top="1" Width="65" Height="17" Text="[Items.ItemCode]" Font="Arial, 7pt"/>
+      <TextObject Name="Qty" Left="140" Top="21" Width="139.68" Height="18" Text="[Items.TotalQuantity] × [Items.AveragePrice]" Font="Arial, 8pt" HorzAlign="Right"/>
+      <TextObject Name="Value" Left="0" Top="21" Width="140" Height="18" Text="[Items.TotalValue]" Format="Number" Format.UseLocale="true" Format.DecimalDigits="2" Font="Arial, 9pt, style=Bold"/>
+      <DataFooterBand Name="Footer" Width="279.68" Height="104">
+        <LineObject Name="Line2" Left="0" Top="3" Width="279.68"/>
+        <TextObject Name="L1" Left="130" Top="9" Width="149.68" Height="17" Text="إجمالي الكمية" Font="Arial, 9pt, style=Bold" HorzAlign="Right" RightToLeft="true"/><TextObject Name="V1" Left="0" Top="9" Width="130" Height="17" Text="[SumQuantity]" Font="Arial, 9pt, style=Bold"/>
+        <TextObject Name="L2" Left="130" Top="29" Width="149.68" Height="17" Text="إجمالي المبيعات" Font="Arial, 9pt, style=Bold" HorzAlign="Right" RightToLeft="true"/><TextObject Name="V2" Left="0" Top="29" Width="130" Height="17" Text="[SumValue]" Font="Arial, 9pt, style=Bold"/>
+        <TextObject Name="L3" Left="130" Top="49" Width="149.68" Height="17" Text="إجمالي التكلفة" Font="Arial, 9pt" HorzAlign="Right" RightToLeft="true"/><TextObject Name="V3" Left="0" Top="49" Width="130" Height="17" Text="[SumCost]" Font="Arial, 9pt"/>
+        <TextObject Name="L4" Left="130" Top="69" Width="149.68" Height="17" Text="إجمالي الربح" Font="Arial, 10pt, style=Bold" HorzAlign="Right" RightToLeft="true"/><TextObject Name="V4" Left="0" Top="69" Width="130" Height="17" Text="[SumProfit]" Font="Arial, 10pt, style=Bold"/>
+        <TextObject Name="Info" Left="0" Top="89" Width="279.68" Height="14" Text="[RowsCount] صنف | [PrintedBy]" Font="Arial, 7pt" HorzAlign="Center" RightToLeft="true"/>
+      </DataFooterBand>
+    </DataBand>
+  </ReportPage>
+</Report>
