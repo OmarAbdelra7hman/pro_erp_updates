@@ -283,8 +283,11 @@ function Install-ProERPService {
     $exe = Join-Path $serverTarget 'ProERP.Web.exe'
     if (-not (Test-Path $exe)) { throw "Server executable not found: $exe" }
     $binaryPath = '"' + $exe + '"'
-    if (Get-Service $serviceName -ErrorAction SilentlyContinue) { sc.exe config $serviceName binPath= $binaryPath start= auto | Out-Null }
-    else { New-Service -Name $serviceName -BinaryPathName $binaryPath -DisplayName 'ProERP Server' -Description 'ProERP web application service' -StartupType Automatic | Out-Null }
+    if (Get-Service $serviceName -ErrorAction SilentlyContinue) { sc.exe config $serviceName binPath= $binaryPath start= delayed-auto | Out-Null }
+    else {
+        New-Service -Name $serviceName -BinaryPathName $binaryPath -DisplayName 'ProERP Server' -Description 'ProERP web application service' -StartupType Automatic | Out-Null
+        sc.exe config $serviceName start= delayed-auto | Out-Null
+    }
     sc.exe failure $serviceName reset= 86400 actions= restart/5000/restart/10000/restart/30000 | Out-Null
     if (-not (Get-NetFirewallRule -DisplayName $firewallRule -ErrorAction SilentlyContinue)) { New-NetFirewallRule -DisplayName $firewallRule -Direction Inbound -Protocol TCP -LocalPort 5005 -Action Allow | Out-Null }
     Start-Service $serviceName -ErrorAction SilentlyContinue
