@@ -1,0 +1,4 @@
+Initializing WhatsApp Client...
+WhatsApp Gateway running on http://localhost:3000
+WhatsApp Client Authenticated
+WhatsApp Client is READY!

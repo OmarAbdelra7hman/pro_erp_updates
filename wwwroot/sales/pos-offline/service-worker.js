@@ -1,4 +1,4 @@
-/* Manifest version: kT9uu09M */
+/* Manifest version: bw2/DtDZ */
 // Caution! Be sure you understand the caveats before publishing an application with
 // offline support. See https://aka.ms/blazor-offline-considerations
 

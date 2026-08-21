@@ -1753,9 +1753,22 @@ a {
 
 /* ── Mobile: ≤ 600px ── */
 @media (max-width: 600px) {
+    :root {
+        --navbar-h: 58px;
+    }
+
+    html, body {
+        background: var(--clr-bg);
+        overscroll-behavior-y: none;
+    }
+
     .erp-topnav {
         padding: 0 10px;
         z-index: 600;
+        min-height: calc(var(--navbar-h) + env(safe-area-inset-top));
+        padding-top: env(safe-area-inset-top);
+        background: color-mix(in srgb, var(--clr-surface) 92%, transparent);
+        backdrop-filter: blur(18px);
     }
 
     .topnav-logo {
@@ -1786,9 +1799,22 @@ a {
     }
 
     .erp-main {
-        padding-top: calc(var(--navbar-h) + 14px);
-        padding-right: 12px;
-        padding-left: 12px;
+        padding-top: var(--navbar-h) !important;
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+    .erp-page-viewport {
+        padding: 16px 14px 20px !important;
+        -webkit-overflow-scrolling: touch;
+        overscroll-behavior-y: contain;
+    }
+
+    .erp-page-viewport .page-header,
+    .erp-page-viewport .glass-card,
+    .erp-page-viewport .erp-table-card {
+        border-radius: 16px;
     }
 
     /* Brand border on mobile */

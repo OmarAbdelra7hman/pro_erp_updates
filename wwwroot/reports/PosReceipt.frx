@@ -59,7 +59,7 @@
     <Parameter AsString="INV-2025-0001" Name="BarcodeText" DataType="System.String" />
     <Parameter AsString="شكراً لزيارتكم - نتمنى رؤيتكم قريباً" Name="PosReceiptText" DataType="System.String" />
     <Parameter AsString="" Name="PaymentInfo" DataType="System.String" />
-    <Parameter AsString="ر.س" Name="Currency" DataType="System.String" />
+    <Parameter AsString="" Name="Currency" DataType="System.String" />
     <Parameter AsString="البضاعة المباعة لا ترد ولا تستبدل إلا خلال 3 أيام" Name="SalesInvoiceText" DataType="System.String" />
     <Parameter AsString="فاتورة مبيعات" Name="InvoiceType" DataType="System.String" />
   </Dictionary>
