@@ -62,14 +62,14 @@ async function receiptToPngBase64(content) {
 
     const width = 576;
     const padding = 18;
-    const lineHeight = 34;
+    const lineHeight = 38;
     const maxTextWidth = width - (padding * 2);
     const sourceLines = parseEscPosReceipt(content);
     const measured = document.createElement('canvas').getContext('2d');
     const renderedLines = [];
 
     for (const line of sourceLines) {
-        measured.font = `${line.bold ? '700' : '500'} 25px Arial, Tahoma, sans-serif`;
+        measured.font = `${line.bold ? '900' : '700'} 28px Arial, Tahoma, sans-serif`;
         if (!line.text || measured.measureText(line.text).width <= maxTextWidth) {
             renderedLines.push(line);
             continue;
@@ -97,10 +97,11 @@ async function receiptToPngBase64(content) {
     ctx.fillRect(0, 0, canvas.width, canvas.height);
     ctx.fillStyle = '#000';
     ctx.textBaseline = 'middle';
+    ctx.imageSmoothingEnabled = false;
 
     renderedLines.forEach((line, index) => {
         const hasArabic = /[\u0600-\u06FF]/.test(line.text);
-        ctx.font = `${line.bold ? '700' : '500'} 25px Arial, Tahoma, sans-serif`;
+        ctx.font = `${line.bold ? '900' : '700'} 28px Arial, Tahoma, sans-serif`;
         ctx.direction = hasArabic ? 'rtl' : 'ltr';
 
         if (line.align === 'center') {
@@ -195,15 +196,17 @@ window.qzInterop = {
             // correct, then let QZ send a monochrome raster to the printer.
             const imageBase64 = await receiptToPngBase64(content || '');
             const config = qz.configs.create(printerName, {
-                jobName: 'ProERP Thermal Receipt',
-                colorType: 'blackwhite',
-                scaleContent: true
+                jobName: 'ProERP Thermal Receipt'
             });
             const printData = [{
-                type: 'pixel',
+                type: 'raw',
                 format: 'image',
                 flavor: 'base64',
-                data: imageBase64
+                data: imageBase64,
+                options: {
+                    language: 'ESCPOS',
+                    dotDensity: 'double'
+                }
             }, {
                 type: 'raw',
                 format: 'command',
@@ -213,7 +216,7 @@ window.qzInterop = {
             await qz.print(config, printData);
             return true;
         } catch (err) {
-            console.error('QZ thermal raster print error:', err);
+            console.error('QZ ESC/POS raster print error:', err);
             return false;
         }
     },
