@@ -13,6 +13,111 @@ function ensureQzLoaded() {
     return _qzLoadPromise;
 }
 
+function parseEscPosReceipt(content) {
+    const lines = [];
+    let text = '';
+    let align = 'left';
+    let bold = false;
+
+    const flush = () => {
+        lines.push({ text, align, bold });
+        text = '';
+    };
+
+    for (let i = 0; i < (content || '').length; i++) {
+        const code = content.charCodeAt(i);
+        if (code === 0x1B && i + 1 < content.length) {
+            const command = content[i + 1];
+            if (command === '@') {
+                align = 'left';
+                bold = false;
+                i += 1;
+                continue;
+            }
+            if ((command === 'a' || command === 'E') && i + 2 < content.length) {
+                const value = content.charCodeAt(i + 2);
+                if (command === 'a') align = value === 1 ? 'center' : value === 2 ? 'right' : 'left';
+                if (command === 'E') bold = value !== 0;
+                i += 2;
+                continue;
+            }
+        }
+        if (code === 0x1D && content[i + 1] === 'V') {
+            i += Math.min(3, content.length - i - 1);
+            continue;
+        }
+        if (code === 0x0A) {
+            flush();
+            continue;
+        }
+        if (code === 0x0D || code < 0x20) continue;
+        text += content[i];
+    }
+    if (text) flush();
+    return lines;
+}
+
+async function receiptToPngBase64(content) {
+    if (document.fonts && document.fonts.ready) await document.fonts.ready;
+
+    const width = 576;
+    const padding = 18;
+    const lineHeight = 34;
+    const maxTextWidth = width - (padding * 2);
+    const sourceLines = parseEscPosReceipt(content);
+    const measured = document.createElement('canvas').getContext('2d');
+    const renderedLines = [];
+
+    for (const line of sourceLines) {
+        measured.font = `${line.bold ? '700' : '500'} 25px Arial, Tahoma, sans-serif`;
+        if (!line.text || measured.measureText(line.text).width <= maxTextWidth) {
+            renderedLines.push(line);
+            continue;
+        }
+
+        const words = line.text.split(/\s+/);
+        let current = '';
+        for (const word of words) {
+            const candidate = current ? `${current} ${word}` : word;
+            if (current && measured.measureText(candidate).width > maxTextWidth) {
+                renderedLines.push({ ...line, text: current });
+                current = word;
+            } else {
+                current = candidate;
+            }
+        }
+        if (current) renderedLines.push({ ...line, text: current });
+    }
+
+    const canvas = document.createElement('canvas');
+    canvas.width = width;
+    canvas.height = Math.max(80, padding * 2 + renderedLines.length * lineHeight);
+    const ctx = canvas.getContext('2d', { alpha: false });
+    ctx.fillStyle = '#fff';
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+    ctx.fillStyle = '#000';
+    ctx.textBaseline = 'middle';
+
+    renderedLines.forEach((line, index) => {
+        const hasArabic = /[\u0600-\u06FF]/.test(line.text);
+        ctx.font = `${line.bold ? '700' : '500'} 25px Arial, Tahoma, sans-serif`;
+        ctx.direction = hasArabic ? 'rtl' : 'ltr';
+
+        if (line.align === 'center') {
+            ctx.textAlign = 'center';
+            ctx.fillText(line.text, width / 2, padding + index * lineHeight + lineHeight / 2);
+        } else if (line.align === 'right' || hasArabic) {
+            ctx.textAlign = 'right';
+            ctx.fillText(line.text, width - padding, padding + index * lineHeight + lineHeight / 2);
+        } else {
+            ctx.textAlign = 'left';
+            ctx.fillText(line.text, padding, padding + index * lineHeight + lineHeight / 2);
+        }
+    });
+
+    return canvas.toDataURL('image/png').split(',')[1];
+}
+
 window.qzInterop = {
     connect: async function () {
         try {
@@ -85,28 +190,30 @@ window.qzInterop = {
 
         const qz = await ensureQzLoaded();
         try {
-            // TextEncoder preserves Arabic/Unicode where the printer firmware
-            // supports UTF-8, while the ESC/POS bytes remain unchanged.
-            const bytes = new TextEncoder().encode(content || '');
-            let binary = '';
-            for (let offset = 0; offset < bytes.length; offset += 0x8000) {
-                binary += String.fromCharCode.apply(null, bytes.subarray(offset, offset + 0x8000));
-            }
-
+            // Most ESC/POS printers do not understand UTF-8 Arabic. Render the
+            // receipt in the browser first so shaping and mixed RTL/LTR text are
+            // correct, then let QZ send a monochrome raster to the printer.
+            const imageBase64 = await receiptToPngBase64(content || '');
             const config = qz.configs.create(printerName, {
-                encoding: 'UTF-8',
-                jobName: 'ProERP Thermal Receipt'
+                jobName: 'ProERP Thermal Receipt',
+                colorType: 'blackwhite',
+                scaleContent: true
             });
-            const rawData = [{
+            const printData = [{
+                type: 'pixel',
+                format: 'image',
+                flavor: 'base64',
+                data: imageBase64
+            }, {
                 type: 'raw',
                 format: 'command',
                 flavor: 'base64',
-                data: btoa(binary)
+                data: 'HVZCAA==' // GS V B 0: full cut after the raster receipt
             }];
-            await qz.print(config, rawData);
+            await qz.print(config, printData);
             return true;
         } catch (err) {
-            console.error('QZ raw thermal print error:', err);
+            console.error('QZ thermal raster print error:', err);
             return false;
         }
     },
