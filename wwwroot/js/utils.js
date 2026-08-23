@@ -485,3 +485,72 @@ window.proErpPositionDropdown = function(wrapperId, panelId) {
         }
     }
 };
+
+// Sliver-like header used by the shared invoice editor. IntersectionObserver
+// changes CSS only; it does not trigger Blazor renders or server calls.
+window.proErpInvoiceSliver = window.proErpInvoiceSliver || (function () {
+    const observers = new Map();
+    return {
+        observe: function (toolbarId, sentinelId) {
+            const toolbar = document.getElementById(toolbarId);
+            const sentinel = document.getElementById(sentinelId);
+            if (!toolbar || !sentinel) return;
+            const current = observers.get(toolbarId);
+            if (current && current.toolbar === toolbar) return;
+            if (current) {
+                current.root.removeEventListener('scroll', current.onScroll);
+                if (current.observer) current.observer.disconnect();
+            }
+
+            const scrollRoot = toolbar.closest('.erp-page-viewport') || document.scrollingElement || window;
+            let ticking = false;
+            const update = function () {
+                const scrollTop = scrollRoot === window
+                    ? (window.scrollY || document.documentElement.scrollTop || 0)
+                    : scrollRoot.scrollTop;
+                toolbar.classList.toggle('is-collapsed', scrollTop > 110);
+                ticking = false;
+            };
+            const onScroll = function () {
+                if (!ticking) {
+                    ticking = true;
+                    window.requestAnimationFrame(update);
+                }
+            };
+
+            scrollRoot.addEventListener('scroll', onScroll, { passive: true });
+            update();
+            observers.set(toolbarId, { observer: null, toolbar: toolbar, root: scrollRoot, onScroll: onScroll });
+        },
+        dispose: function (toolbarId) {
+            const current = observers.get(toolbarId);
+            if (current) {
+                current.root.removeEventListener('scroll', current.onScroll);
+                if (current.observer) current.observer.disconnect();
+            }
+            observers.delete(toolbarId);
+        }
+    };
+})();
+
+// Fallback for layouts that move scrolling between nested containers. Scroll
+// does not bubble, so listen in capture phase and update every visible invoice
+// toolbar from its actual nearest scrollable ancestor.
+window.proErpUpdateInvoiceSlivers = function () {
+    document.querySelectorAll('.doc-sliver-toolbar').forEach(function (toolbar) {
+        let parent = toolbar.parentElement;
+        let scrollTop = window.scrollY || document.documentElement.scrollTop || 0;
+        while (parent) {
+            const style = window.getComputedStyle(parent);
+            if (/(auto|scroll|overlay)/.test(style.overflowY) && parent.scrollHeight > parent.clientHeight) {
+                scrollTop = Math.max(scrollTop, parent.scrollTop || 0);
+            }
+            parent = parent.parentElement;
+        }
+        toolbar.classList.toggle('is-collapsed', scrollTop > 80);
+    });
+};
+
+document.addEventListener('scroll', function () {
+    window.requestAnimationFrame(window.proErpUpdateInvoiceSlivers);
+}, true);

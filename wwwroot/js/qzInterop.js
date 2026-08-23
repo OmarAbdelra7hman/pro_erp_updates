@@ -60,16 +60,55 @@ function parseEscPosReceipt(content) {
 async function receiptToPngBase64(content) {
     if (document.fonts && document.fonts.ready) await document.fonts.ready;
 
-    const width = 576;
+    const defaults = [
+        { id: 'header', visible: true, fontSize: 29, bold: true, align: 'center' },
+        { id: 'document', visible: true, fontSize: 27, bold: false, align: 'right' },
+        { id: 'items', visible: true, fontSize: 27, bold: false, align: 'right' },
+        { id: 'totals', visible: true, fontSize: 29, bold: true, align: 'right' },
+        { id: 'footer', visible: true, fontSize: 26, bold: false, align: 'center' }
+    ];
+    let template = { paperWidth: 80, blocks: defaults };
+    try {
+        const saved = JSON.parse(localStorage.getItem('proerp_receipt_designer') || 'null');
+        if (saved && Array.isArray(saved.blocks)) template = saved;
+    } catch (_) { }
+
+    const width = Number(template.paperWidth) === 58 ? 384 : 576;
     const padding = 18;
     const lineHeight = 38;
     const maxTextWidth = width - (padding * 2);
-    const sourceLines = parseEscPosReceipt(content);
+    const parsedLines = parseEscPosReceipt(content);
+    const sectionIds = ['header', 'document', 'items', 'totals', 'footer'];
+    const sections = Object.fromEntries(sectionIds.map(id => [id, []]));
+    let sectionIndex = 0;
+    for (const line of parsedLines) {
+        if (/^-{8,}$/.test(line.text.trim())) {
+            sectionIndex = Math.min(sectionIndex + 1, sectionIds.length - 1);
+            continue;
+        }
+        sections[sectionIds[sectionIndex]].push(line);
+    }
+
+    const configuredBlocks = template.blocks
+        .filter(block => block && sectionIds.includes(block.id) && block.visible !== false);
+    const sourceLines = [];
+    configuredBlocks.forEach((block, blockIndex) => {
+        const style = {
+            fontSize: Math.max(18, Math.min(42, Number(block.fontSize) || 27)),
+            bold: block.bold === true,
+            align: ['left', 'center', 'right'].includes(block.align) ? block.align : 'right'
+        };
+        sections[block.id].forEach(line => sourceLines.push({ ...line, designerStyle: style }));
+        if (blockIndex < configuredBlocks.length - 1)
+            sourceLines.push({ text: '------------------------------------------', align: 'center', bold: false, designerStyle: { fontSize: 21, bold: false, align: 'center' } });
+    });
+
     const measured = document.createElement('canvas').getContext('2d');
     const renderedLines = [];
 
     for (const line of sourceLines) {
-        measured.font = `${line.bold ? '900' : '700'} 28px Arial, Tahoma, sans-serif`;
+        const style = line.designerStyle || { fontSize: 28, bold: line.bold, align: line.align };
+        measured.font = `${(line.bold || style.bold) ? '900' : '700'} ${style.fontSize}px Arial, Tahoma, sans-serif`;
         if (!line.text || measured.measureText(line.text).width <= maxTextWidth) {
             renderedLines.push(line);
             continue;
@@ -91,7 +130,11 @@ async function receiptToPngBase64(content) {
 
     const canvas = document.createElement('canvas');
     canvas.width = width;
-    canvas.height = Math.max(80, padding * 2 + renderedLines.length * lineHeight);
+    const receiptHeight = renderedLines.reduce((height, line) => {
+        const fontSize = line.designerStyle?.fontSize || 28;
+        return height + Math.max(lineHeight, fontSize + 10);
+    }, padding * 2);
+    canvas.height = Math.max(80, receiptHeight);
     const ctx = canvas.getContext('2d', { alpha: false });
     ctx.fillStyle = '#fff';
     ctx.fillRect(0, 0, canvas.width, canvas.height);
@@ -99,21 +142,26 @@ async function receiptToPngBase64(content) {
     ctx.textBaseline = 'middle';
     ctx.imageSmoothingEnabled = false;
 
-    renderedLines.forEach((line, index) => {
+    let y = padding;
+    renderedLines.forEach((line) => {
         const hasArabic = /[\u0600-\u06FF]/.test(line.text);
-        ctx.font = `${line.bold ? '900' : '700'} 28px Arial, Tahoma, sans-serif`;
+        const style = line.designerStyle || { fontSize: 28, bold: line.bold, align: line.align };
+        const currentLineHeight = Math.max(lineHeight, style.fontSize + 10);
+        const effectiveAlign = style.align || line.align;
+        ctx.font = `${(line.bold || style.bold) ? '900' : '700'} ${style.fontSize}px Arial, Tahoma, sans-serif`;
         ctx.direction = hasArabic ? 'rtl' : 'ltr';
 
-        if (line.align === 'center') {
+        if (effectiveAlign === 'center') {
             ctx.textAlign = 'center';
-            ctx.fillText(line.text, width / 2, padding + index * lineHeight + lineHeight / 2);
-        } else if (line.align === 'right' || hasArabic) {
+            ctx.fillText(line.text, width / 2, y + currentLineHeight / 2);
+        } else if (effectiveAlign === 'right' || (hasArabic && effectiveAlign !== 'left')) {
             ctx.textAlign = 'right';
-            ctx.fillText(line.text, width - padding, padding + index * lineHeight + lineHeight / 2);
+            ctx.fillText(line.text, width - padding, y + currentLineHeight / 2);
         } else {
             ctx.textAlign = 'left';
-            ctx.fillText(line.text, padding, padding + index * lineHeight + lineHeight / 2);
+            ctx.fillText(line.text, padding, y + currentLineHeight / 2);
         }
+        y += currentLineHeight;
     });
 
     return canvas.toDataURL('image/png').split(',')[1];
@@ -220,6 +268,32 @@ window.qzInterop = {
             return false;
         }
     },
+    printImage: async function (printerName, base64Image) {
+        if (/\b(microsoft\s+print\s+to\s+pdf|microsoft\s+xps\s+document\s+writer|adobe\s+pdf|foxit\s+pdf|pdfcreator|save\s+as\s+pdf)\b/i.test(printerName || '')) {
+            return false;
+        }
+
+        const qz = await ensureQzLoaded();
+        try {
+            const config = qz.configs.create(printerName, { jobName: 'ProERP FastReport Receipt' });
+            await qz.print(config, [{
+                type: 'raw',
+                format: 'image',
+                flavor: 'base64',
+                data: base64Image,
+                options: { language: 'ESCPOS', dotDensity: 'double' }
+            }, {
+                type: 'raw',
+                format: 'command',
+                flavor: 'base64',
+                data: 'HVZCAA=='
+            }]);
+            return true;
+        } catch (err) {
+            console.error('QZ FastReport raster print error:', err);
+            return false;
+        }
+    },
     saveSetting: function (key, value) {
         localStorage.setItem(key, value);
     },
@@ -244,6 +318,10 @@ window.proErpQzPrintPdf = function (printerName, base64Pdf) {
 window.proErpQzPrintRaw = function (printerName, content) {
     if (!window.qzInterop || typeof window.qzInterop.printRaw !== 'function') return Promise.resolve(false);
     return window.qzInterop.printRaw(printerName, content);
+};
+window.proErpQzPrintImage = function (printerName, base64Image) {
+    if (!window.qzInterop || typeof window.qzInterop.printImage !== 'function') return Promise.resolve(false);
+    return window.qzInterop.printImage(printerName, base64Image);
 };
 window.proErpQzSaveSetting = function (key, value) {
     if (window.qzInterop && typeof window.qzInterop.saveSetting === 'function')

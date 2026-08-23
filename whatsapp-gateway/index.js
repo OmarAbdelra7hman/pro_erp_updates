@@ -105,6 +105,73 @@ app.get('/qr', (req, res) => {
     res.json({ status: 'starting', qr: null });
 });
 
+app.get('/groups', async (req, res) => {
+    if (!isReady && !isAuthenticated) {
+        return res.status(400).json({ success: false, error: 'WhatsApp is not ready' });
+    }
+    try {
+        let groups = [];
+        try {
+            const chats = await client.getChats();
+            groups = chats
+                .filter(chat => chat.isGroup)
+                .map(chat => ({ id: chat.id._serialized, name: chat.name || chat.id._serialized }));
+        } catch (getChatsError) { }
+
+        try {
+            const contacts = await client.getContacts();
+            groups.push(...contacts
+                .filter(contact => contact.isGroup || contact.id?._serialized?.endsWith('@g.us'))
+                .map(contact => ({
+                    id: contact.id._serialized,
+                    name: contact.name || contact.pushname || contact.shortName || contact.id._serialized
+                })));
+        } catch (getContactsError) { }
+
+        // Some WhatsApp Web builds currently break whatsapp-web.js getChats(),
+        // and newly joined groups may exist in Contacts before Chat. Merge the
+        // minimal metadata from both stores without serializing full chat data.
+        const storeGroups = await client.pupPage.evaluate(() => {
+            const readCollection = collection => collection?.getModelsArray
+                ? collection.getModelsArray()
+                : (collection?.models || []);
+            const getId = model => {
+                const raw = model?.id;
+                if (!raw) return '';
+                if (typeof raw === 'string') return raw;
+                return raw._serialized || raw.toString?.() || '';
+            };
+            const isGroup = model => {
+                const id = getId(model);
+                const server = model?.id?.server || model?.id?._server || '';
+                return model?.isGroup === true || server === 'g.us' || id.endsWith('@g.us');
+            };
+            const toGroup = model => {
+                const id = getId(model);
+                return {
+                    id,
+                    name: model?.name || model?.formattedTitle || model?.formattedName ||
+                          model?.pushname || model?.contact?.name || id
+                };
+            };
+            const store = window.Store || {};
+            return [...readCollection(store.Chat), ...readCollection(store.Contact)]
+                .filter(isGroup)
+                .map(toGroup)
+                .filter(group => group.id);
+        });
+        groups.push(...storeGroups);
+
+        // Deduplicate groups that appeared in both stores.
+        groups = Array.from(new Map(groups.map(group => [group.id, group])).values());
+        groups.sort((a, b) => a.name.localeCompare(b.name, 'ar'));
+        res.json(groups);
+    } catch (error) {
+        logGatewayError('Error loading groups', error);
+        res.status(500).json({ success: false, error: error?.message || 'Unknown gateway error' });
+    }
+});
+
 app.post('/send-pdf', async (req, res) => {
     if (!isReady) {
         return res.status(400).json({ success: false, error: 'WhatsApp is not ready' });
@@ -119,8 +186,7 @@ app.post('/send-pdf', async (req, res) => {
 
         // Format phone number to WhatsApp format (number@c.us)
         // Assume phone already contains country code but we will strip '+' if present
-        let formattedPhone = phone.replace(/\D/g, '');
-        const chatId = `${formattedPhone}@c.us`;
+        const chatId = phone.endsWith('@g.us') ? phone : `${phone.replace(/\D/g, '')}@c.us`;
 
         const media = new MessageMedia('application/pdf', pdfBase64, filename || 'document.pdf');
         
@@ -137,7 +203,10 @@ app.post('/send-pdf', async (req, res) => {
 });
 
 app.post('/send-message', async (req, res) => {
-    if (!isReady) {
+    // Recent WhatsApp Web builds can remain authenticated and fully usable
+    // without emitting whatsapp-web.js's ready event. In that state group
+    // discovery and messaging still work, so authenticated is sufficient.
+    if (!isReady && !isAuthenticated) {
         return res.status(400).json({ success: false, error: 'WhatsApp is not ready' });
     }
 
@@ -148,12 +217,13 @@ app.post('/send-message', async (req, res) => {
             return res.status(400).json({ success: false, error: 'Missing phone or message' });
         }
 
-        let formattedPhone = phone.replace(/\D/g, '');
-        const chatId = `${formattedPhone}@c.us`;
+        const chatId = phone.endsWith('@g.us') ? phone : `${phone.replace(/\D/g, '')}@c.us`;
         
         const response = await client.sendMessage(chatId, message);
         
-        res.json({ success: true, messageId: response.id.id });
+        // Delivery can succeed while newer WhatsApp Web builds omit the
+        // optional message id from the wrapper response.
+        res.json({ success: true, messageId: response?.id?.id ?? null });
     } catch (error) {
         console.error('Error sending message:', error);
         res.status(500).json({ success: false, error: error.message });
