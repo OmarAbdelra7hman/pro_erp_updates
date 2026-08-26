@@ -1,6 +1,6 @@
 {
-  "version": "1.0.1",
-  "publishedAt": "2026-08-26T15:31:38.4809537Z",
+  "version": "1.0.2",
+  "publishedAt": "2026-08-26T15:34:47.5028345Z",
   "files": [
     {
       "path": "BCrypt.Net-Next.dll",
@@ -126,7 +126,7 @@
       "path": "Installer/ProERP.Desktop.zip",
       "hash": "2821f4e4907da6937aa749519119bb98590e7fc49d5e73bf9d2398e206460ddf",
       "size": 1025355,
-      "lastModified": "2026-08-26T15:31:38.4715516Z"
+      "lastModified": "2026-08-26T15:34:47.4939585Z"
     },
     {
       "path": "Installer/install.html",
@@ -136,9 +136,9 @@
     },
     {
       "path": "Installer/online-install.ps1",
-      "hash": "b8a491a353e95f3a192e4d3d5f284cdc8d212d045eefece3fd46a8e0225ba70e",
+      "hash": "41cb3dbcbad4b5f2d79ca57ce9e13f12ca75cc25b7729a0c668d0df08a16bbd8",
       "size": 28579,
-      "lastModified": "2026-08-19T10:16:01.6321886Z"
+      "lastModified": "2026-08-26T15:33:52.4104153Z"
     },
     {
       "path": "Microsoft.AspNetCore.Authentication.JwtBearer.dll",
@@ -394,33 +394,33 @@
     },
     {
       "path": "ProERP.Web.deps.json",
-      "hash": "24e66ef7ff3239b3b26215fda3a6da0b9da54243f486126392d54b958bdecb32",
+      "hash": "bf1bb54157dfb0ff865e0ca5300eba54eec123821442db31806f52ad5ab65388",
       "size": 79810,
-      "lastModified": "2026-08-26T15:31:31.3474855Z"
+      "lastModified": "2026-08-26T15:34:39.0195036Z"
     },
     {
       "path": "ProERP.Web.dll",
-      "hash": "d827ab4fe4804aef67650e9d8bcb2ba46e6db5caf149bc725852788a1487e039",
+      "hash": "e6954e513f447f924ffa9b9f05108f50c619fc31663a54515f98673509b7742d",
       "size": 4359168,
-      "lastModified": "2026-08-26T15:31:29.1869142Z"
+      "lastModified": "2026-08-26T15:34:36.4783452Z"
     },
     {
       "path": "ProERP.Web.exe",
-      "hash": "c1a13e7bd05a9e9b81b2470e69bedad0f8f5d49f67748a00f2283940886b78ed",
+      "hash": "ee323bb7776fa6de86bc155652a8bfff658e8983b7b1c6252d2cd573754114a4",
       "size": 156160,
-      "lastModified": "2026-08-26T15:31:29.6006063Z"
+      "lastModified": "2026-08-26T15:34:36.8082532Z"
     },
     {
       "path": "ProERP.Web.runtimeconfig.json",
       "hash": "970743035d76a7ef2c555cfc93260778b13d03ed88608f31e046be7710f6ed0f",
       "size": 557,
-      "lastModified": "2026-08-26T15:31:30.8879219Z"
+      "lastModified": "2026-08-26T15:34:38.4897661Z"
     },
     {
       "path": "ProERP.Web.staticwebassets.endpoints.json",
-      "hash": "53042101f4b49f5b3efcd833e2077b1958cef2a2f4a8b82ca3c711240dfefcab",
+      "hash": "f8983aecd424d72370dde3527b3a46a2eccb5cea007f3c7df6242d3f693b3eac",
       "size": 1519284,
-      "lastModified": "2026-08-26T15:31:34.1781396Z"
+      "lastModified": "2026-08-26T15:34:42.4387192Z"
     },
     {
       "path": "RBush.dll",
@@ -3696,19 +3696,19 @@
       "path": "wwwroot/sales/pos-offline/_framework/blazor.boot.json",
       "hash": "3a9d4fa398e2f7e608fb885589c7571520754f1b4a6e3379b1c141e91c0d8fed",
       "size": 14623,
-      "lastModified": "2026-08-26T15:31:32.6511356Z"
+      "lastModified": "2026-08-26T15:34:40.5929546Z"
     },
     {
       "path": "wwwroot/sales/pos-offline/_framework/blazor.boot.json.br",
       "hash": "76411b1f4034bc9f0e5d4c49ce6b784db0083667cdd4c3882c947ba25e67d78b",
       "size": 4397,
-      "lastModified": "2026-08-26T15:31:32.8984971Z"
+      "lastModified": "2026-08-26T15:34:41.1425213Z"
     },
     {
       "path": "wwwroot/sales/pos-offline/_framework/blazor.boot.json.gz",
       "hash": "32b0c75386784061db9965405b5f6b516970c70c559b241bc44a1b661f591d51",
       "size": 4816,
-      "lastModified": "2026-08-26T15:31:32.6953592Z"
+      "lastModified": "2026-08-26T15:34:40.6363051Z"
     },
     {
       "path": "wwwroot/sales/pos-offline/_framework/blazor.webassembly.js",
@@ -4083,5 +4083,5 @@
       "lastModified": "2026-04-19T15:33:45Z"
     }
   ],
-  "signature": "AyV90eXNUJwl+2+9BrDxLS+CEjUvzmx3mCB8l7K5q/tUYfvirkUGIz18kGTb67hZfwPQy3hUMzOrNRaDtgBJueWIFkA4NABbHIfcJipcOql80FS/P28p5dDZW8gWCYJ92XDFne+jqHK6aj3zUZmymlS8ycCW9RqFmHoUBYxXtfutfV4hL06Pcf1YSwFu9SHzWkohoDBDgq7YS6Oim1kBKKgRvTdIqE6Cn3qs/M/Wc/hIzBEmLyxbLfq0sblCy+Fh9hbDgPiWJAvMrln4ulbe1LSmoyyCY3utuo/ZM736aCVKcstzeMFhzIECpBF0I82PQWba2X/0zb2gDXa4mbzK3JMrxqpkAwLYp/hEPv1WVIz2XBjzmEyUTKszJuRfOPfdzEJ+wBAxP+1Tj7h/9Q6CEWY4u+6yFAsN7y+KWaDu74d6/Isdq7RsfLP66Y1EGcUYBRkmfi9ORuHQ7QwzgxRz646UKq3E+4+H9DwKwIkMEe2GicERv3b06TAUdGUV5OGT"
+  "signature": "WsPBDYd/BcqO/cx/t8JeHAnqM/XfjW3lZf1FCIfCS8r7Ud0gLt1k/H3yt4E7MokyL75pMQUAivyl6K67SqESLjWdgrQ6Zu8YrKsS3KP1hLmTkAFXaZ/wtiF00DC1lIxoq1Gdcl+g4zmw9VyNjWsXFqt01uaOGCUnJhDPIjWqr/xrT1ytB8PasVXauJIXlBPtRhkTEtWY2/AGgVpHn1On02SUdYLFcXm5DOp5RZoGNwmNcJqmzTE1HfuCsK+Vs1ojSRwlObBYial+VqSCheHopaPtCutqMN2AJCTazfcCCp1U2BDgIWaHpXKbIyWlRTHtjAfdJpTCsLC5xzetiXrsaFIOwrEW2o2j+ExC7D0PVXvM63c95D9o4E+DKzKy8lgvAnO1Qfw+qQP+irUKKuFSiS+g5L1mIJOKVXHnQFPHp4VgPBljmRSTXo12vIYqFSfFdV8Latr4jDipOQoPwsYni4t36DkCkueloVzdFHS4rxSqDleI1iedEfAY3utABZ2E"
 }

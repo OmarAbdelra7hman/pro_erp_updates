@@ -18,7 +18,7 @@ $ProgressPreference = 'SilentlyContinue'
 try { [Console]::OutputEncoding = [Text.UTF8Encoding]::new($false) } catch {}
 
 $selfUrl = '__SELF_URL__'
-$repository = 'https://raw.githubusercontent.com/OmarAbdelra7hman/pro_erp_updates/main/'
+$repository = 'https://github.com/OmarAbdelra7hman/pro_erp_updates/raw/refs/heads/main/'
 $desktopPackagePath = 'installer/ProERP.Desktop.zip'
 $serverTarget = 'C:\ProERP'
 $desktopTarget = Join-Path $env:ProgramFiles 'ProERP Desktop'
