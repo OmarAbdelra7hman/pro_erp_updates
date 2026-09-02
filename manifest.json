@@ -1,6 +1,6 @@
 {
   "version": "1.0.18",
-  "publishedAt": "2026-09-02T18:14:26.3392158Z",
+  "publishedAt": "2026-09-02T18:16:42.0594413Z",
   "files": [
     {
       "path": "BCrypt.Net-Next.dll",
@@ -126,7 +126,7 @@
       "path": "Installer/ProERP.Desktop.zip",
       "hash": "2821f4e4907da6937aa749519119bb98590e7fc49d5e73bf9d2398e206460ddf",
       "size": 1025355,
-      "lastModified": "2026-09-02T18:14:26.3302678Z"
+      "lastModified": "2026-09-02T18:16:42.0500809Z"
     },
     {
       "path": "Installer/install.html",
@@ -418,9 +418,9 @@
     },
     {
       "path": "ProERP.Web.staticwebassets.endpoints.json",
-      "hash": "35036e966b59b3a8274af3e6713fad8aaa2d17547b2bf69863d89d9005b72bb5",
+      "hash": "c035ee4ee2bdcc05435b3fce7c0a12a5847d6e08c73e2d017e9c879e37800aca",
       "size": 1521959,
-      "lastModified": "2026-09-02T18:14:22.9452322Z"
+      "lastModified": "2026-09-02T18:16:38.7079971Z"
     },
     {
       "path": "RBush.dll",
@@ -3696,19 +3696,19 @@
       "path": "wwwroot/sales/pos-offline/_framework/blazor.boot.json",
       "hash": "a0bfff566523d192c20acb564e4617989ef21d53a30d34814b835131c012420e",
       "size": 14623,
-      "lastModified": "2026-09-02T18:14:21.2524807Z"
+      "lastModified": "2026-09-02T18:16:36.9265672Z"
     },
     {
       "path": "wwwroot/sales/pos-offline/_framework/blazor.boot.json.br",
       "hash": "d96ff07a77a69af80469b475e3a4939a380751a43ed1bb9ca2f2789288fdbdfc",
       "size": 4403,
-      "lastModified": "2026-09-02T18:14:21.5950443Z"
+      "lastModified": "2026-09-02T18:16:37.1717099Z"
     },
     {
       "path": "wwwroot/sales/pos-offline/_framework/blazor.boot.json.gz",
       "hash": "2e801def894198ca71a2e909ae5b5a51639ce41f2b1bb06169c7a52fa7a91a9b",
       "size": 4817,
-      "lastModified": "2026-09-02T18:14:21.3041186Z"
+      "lastModified": "2026-09-02T18:16:36.994073Z"
     },
     {
       "path": "wwwroot/sales/pos-offline/_framework/blazor.webassembly.js",
@@ -4089,5 +4089,5 @@
       "lastModified": "2026-04-19T15:33:45Z"
     }
   ],
-  "signature": "PZKKSmbNCDWNE+6xXwdY8LnYHudvtHUGmEU7sIpS6Ar5i7nAAzs7r4BpRfjkh/dZc7lKFh9iMf57j4fiHTwbSQTpHUo2k9wjdBl/uJo2AqWT84EgsPUZ1+Q+opNrTODBz2pvIVEyHCZZzhDzsT+rG+PZjchkpjQBqSxuynUZjl9AB8YrJ0db1L3WQxjNJlu3K9QAtbryLne6+W8m8Q8a2ykGLSBrTeyEOUHtNmlnxV1PZtrEHDuzdTFbZYsCxfguN8c5fQMiQZG/8zVCmpOGr9O1doh8ce6YXNlbyNL9a3M0UFaVH6z0nguw7BOfiuXrDmLFDfOGdOL40C877vvCB8RvEwZ7d0pdJWMZF41uXvMVM5odaXOTdBWh1MrN5HxISq7rcG2Li04nfYqmVjyDWKIF/nU7IjcVi0AeGxhLpPb+Lu86bH6bHPmGFFJni5cHYPk7h/oQw3rzJbv1dKu0wtBQjiu4NKHz4yFgTNRj03Z4raTtYYVzHgfNqJ937dYh"
+  "signature": "DJbhT//pUWIogyfWdaEM38E/5Bn+A2/PGPrKZHPkKU4F1PQ/uBrn8SEMOn+mUFOE5Sf8NhX0xjQyFwDUPGrUua3I3Kbn6gUupLIfZnBzF0hgQSoQ+HsOxmjcA6uISY0D3k7zpCWg4E87KTdeNBgLvFV3HUhaPOC/maAawZIZ5iB0DdDN80gbodMJnffJGib+NvHF86gb462HHf4vhY+T4BaCCFqGVm54NhA/KTGHvzIUoLxAdKszvFtxZqxJkJwbaiO5c+16XNEaM4xO6EcYjkPcjxJbP3C/2E/aKxO05om69buk3FKFrWkdKF1EWMmN9mEMfzqVSCnFA5g2inEgZh0DJlYkzEBnNgK5EPpKo4+LC77BdARC8JBfkutHgXibbIeAfM9NK/w8nEETVZjFGbTP6glfdf6TBF8xgXsQxMBdYcFY03A6BTAVYlCafzgrwBWATM+mZyyHLjTGVWX6JTU4aQA9kSdjhQIc+j7DeD86FD0jsNFI7cbQ7DtIqBHn"
 }
