@@ -1,6 +1,6 @@
 {
-  "version": "1.0.16",
-  "publishedAt": "2026-09-02T14:51:07.4216833Z",
+  "version": "1.0.17",
+  "publishedAt": "2026-09-02T15:00:02.7222654Z",
   "files": [
     {
       "path": "BCrypt.Net-Next.dll",
@@ -126,7 +126,7 @@
       "path": "Installer/ProERP.Desktop.zip",
       "hash": "2821f4e4907da6937aa749519119bb98590e7fc49d5e73bf9d2398e206460ddf",
       "size": 1025355,
-      "lastModified": "2026-09-02T14:51:07.410186Z"
+      "lastModified": "2026-09-02T15:00:02.7133891Z"
     },
     {
       "path": "Installer/install.html",
@@ -382,9 +382,9 @@
     },
     {
       "path": "ProERP.Infrastructure.dll",
-      "hash": "1e346e69a9f1aea81982cdbc4d0ee8963a5bf61becdedf4d978f464ffccace8f",
-      "size": 5352448,
-      "lastModified": "2026-09-02T14:50:33.5715634Z"
+      "hash": "3979aaae0423f7adbaf77a99e5de03e4fab172b495bf98e3406163485e6f11d2",
+      "size": 5353984,
+      "lastModified": "2026-09-02T14:59:28.5738329Z"
     },
     {
       "path": "ProERP.Licensing.dll",
@@ -402,13 +402,13 @@
       "path": "ProERP.Web.dll",
       "hash": "9aa42bc15b50002ac4d62471b04ccf66e088b5a946a40569c18ed8327616389c",
       "size": 4456960,
-      "lastModified": "2026-09-02T14:50:58.9784463Z"
+      "lastModified": "2026-09-02T14:59:54.1513219Z"
     },
     {
       "path": "ProERP.Web.exe",
       "hash": "ee323bb7776fa6de86bc155652a8bfff658e8983b7b1c6252d2cd573754114a4",
       "size": 156160,
-      "lastModified": "2026-09-02T14:50:59.4493388Z"
+      "lastModified": "2026-09-02T14:59:54.5953492Z"
     },
     {
       "path": "ProERP.Web.runtimeconfig.json",
@@ -418,9 +418,9 @@
     },
     {
       "path": "ProERP.Web.staticwebassets.endpoints.json",
-      "hash": "394c5d8b73178d905f2492a7b89f5f546e77c543c29313eb01bef9db6384b399",
+      "hash": "ca9afa2fdc63e9c1b0623377b93ebeedd24fa75a1a046fd1ecf91b3a5bc28aa1",
       "size": 1521959,
-      "lastModified": "2026-09-02T14:51:03.6209481Z"
+      "lastModified": "2026-09-02T14:59:58.9948562Z"
     },
     {
       "path": "RBush.dll",
@@ -3696,19 +3696,19 @@
       "path": "wwwroot/sales/pos-offline/_framework/blazor.boot.json",
       "hash": "a0bfff566523d192c20acb564e4617989ef21d53a30d34814b835131c012420e",
       "size": 14623,
-      "lastModified": "2026-09-02T14:51:02.092362Z"
+      "lastModified": "2026-09-02T14:59:57.2692408Z"
     },
     {
       "path": "wwwroot/sales/pos-offline/_framework/blazor.boot.json.br",
       "hash": "d96ff07a77a69af80469b475e3a4939a380751a43ed1bb9ca2f2789288fdbdfc",
       "size": 4403,
-      "lastModified": "2026-09-02T14:51:02.3358341Z"
+      "lastModified": "2026-09-02T14:59:57.5334315Z"
     },
     {
       "path": "wwwroot/sales/pos-offline/_framework/blazor.boot.json.gz",
       "hash": "2e801def894198ca71a2e909ae5b5a51639ce41f2b1bb06169c7a52fa7a91a9b",
       "size": 4817,
-      "lastModified": "2026-09-02T14:51:02.1281872Z"
+      "lastModified": "2026-09-02T14:59:57.3048805Z"
     },
     {
       "path": "wwwroot/sales/pos-offline/_framework/blazor.webassembly.js",
@@ -4089,5 +4089,5 @@
       "lastModified": "2026-04-19T15:33:45Z"
     }
   ],
-  "signature": "lkAGIPLrFx8S2aMz8fFiDZMAN3/lJDXxFt8sxa8xGfCZlEasH85Fm7xNAv3jmdEBmyCvLUtuytPlNKJfL6TiP2ld6SXZ1MrTYg9InbRhhfaOBZTuN933QZssWXwDEoLpunLC5EpTVfJoAVedJeeXuu5FgsMwNptjaBDYjIwU4XjWiW6rZL0WEW2dp8CgVhpSlxHKn3dfpiaKJq7pOmpUI1pMLT+/0c3GbQiKlNyF0XwUGuWHXFVL/U6H6VGOwTn5M6ly5D8UJcl5aUPIRjymyyXtTSz8dFuEHPlRKZ9sQPRtTA1E4PxYQiTSP+WD8m9E0Lu5YQoII32ZQrM9SDpMvzb+ycJxDlMcdWg2d0S3m3INeBxODzz4VXEIewjoBpVQ7u7Uy48SjJZgCfwaiyais8CZZyyfpL7OMfrveSLWFik0aQIcj/xq47O4sw/Bl2Abf1xlEAknxrWLTGAjM7rzM2ep84ZuI8VmAkXQTB4mDQuuEpSPNa6Y4lCgLdWuWYJf"
+  "signature": "agchLXMz8zOcWAhsBLHtgQDUrnnZS1JP9rY0uhwspPsHbHnjuk95Wz4UoGUnIgQ6sdW5yIyCPHEcQH5+5C3T8Yjsby0zfYqh7BCM/zXlUSPsHby6OYCVHGBERuaXNFcHkPVhIE/WZTmGsvlvsc8IPmNzyb1ODAVijqo5F8QLoVsGS6kqJ8PEXfCSn6DGwpCt02JTDZcntXl+uFfFXdIypD98JsrxZkE5spjwABrrCwjTHK7pQMjZqT5mJKJUvAc6WsZ9vZ+e0Pl04k7lTbFHDJK+/sE2K/lokYz4u9qVgoSscKXsGRnjZnXoWibmhy+9VYjSD6CCWeIXZh4yOWT4CjMEUjUx7hLAkY6hSgqwBxn4xic5CouVsd2QZcsjf3jMVzHMZuP6EiUMRRI8JviVqMhpMnRE55ifU3nEdNaFx3Fptq16IEappyN8LsDmT8oDvCBnrEsxNhm2md0ywrh5/HeFZ74TTPm/l3QpEGwZxtb6wiN7xaR1z6klKFNxMxYi"
 }
