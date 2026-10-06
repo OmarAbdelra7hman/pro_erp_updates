@@ -29,6 +29,8 @@
     --clr-text: #e8eaf6;
     --clr-muted: rgba(180, 190, 240, 0.6);
     --clr-dim: rgba(120, 135, 200, 0.45);
+    --scrollbar-thumb: rgba(148, 163, 184, 0.28);
+    --scrollbar-thumb-hover: rgba(148, 163, 184, 0.46);
 
     /* Glow / Shadow */
     --glow-primary: 0 0 40px rgba(91, 108, 249, 0.3);
@@ -67,6 +69,8 @@
     --clr-muted: #475569;
     /* Solid subdued text, no opacity */
     --clr-dim: #94a3b8;
+    --scrollbar-thumb: rgba(100, 116, 139, 0.32);
+    --scrollbar-thumb-hover: rgba(100, 116, 139, 0.50);
     /* Solid dim text */
 
     --glow-primary: 0 0 30px rgba(91, 108, 249, 0.15);
@@ -603,7 +607,7 @@ a {
     transition: transform 0.28s cubic-bezier(0.4, 0, 0.2, 1), visibility 0.28s;
     box-shadow: -8px 0 40px rgba(0, 0, 0, 0.5);
     scrollbar-width: thin;
-    scrollbar-color: rgba(91, 108, 249, 0.2) transparent;
+    scrollbar-color: var(--scrollbar-thumb) transparent;
 }
 
 .mobile-drawer.open {
@@ -1599,6 +1603,11 @@ a {
 /* ════════════════════════════════════════════════
    SCROLLBAR
 ════════════════════════════════════════════════ */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: var(--scrollbar-thumb) transparent;
+}
+
 ::-webkit-scrollbar {
     width: 6px;
     height: 6px;
@@ -1609,12 +1618,12 @@ a {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: rgba(91, 108, 249, 0.35);
-    border-radius: 3px;
+    background: var(--scrollbar-thumb);
+    border-radius: 999px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: var(--clr-primary);
+    background: var(--scrollbar-thumb-hover);
 }
 
 /* ════════════════════════════════════════════════

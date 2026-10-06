@@ -212,10 +212,10 @@ window.qzInterop = {
             });
         });
     },
-    printPdf: async function (printerName, base64Pdf) {
+    printPdf: async function (printerName, base64Pdf, options) {
         const qz = await ensureQzLoaded();
         return new Promise((resolve, reject) => {
-             var config = qz.configs.create(printerName);
+             var config = qz.configs.create(printerName, options || {});
              var pdffile = [
                  { type: 'pixel', format: 'pdf', flavor: 'base64', data: base64Pdf }
              ];
@@ -311,17 +311,44 @@ window.proErpQzGetPrinters = function () {
     if (!window.qzInterop || typeof window.qzInterop.getPrinters !== 'function') return Promise.resolve([]);
     return window.qzInterop.getPrinters();
 };
-window.proErpQzPrintPdf = function (printerName, base64Pdf) {
+function proErpQzBinaryToBase64(payload) {
+    if (typeof payload === 'string') return payload;
+
+    const bytes = payload instanceof Uint8Array
+        ? payload
+        : new Uint8Array(payload || []);
+    const chunkSize = 0x8000;
+    const chunks = [];
+    for (let offset = 0; offset < bytes.length; offset += chunkSize) {
+        chunks.push(String.fromCharCode.apply(null, bytes.subarray(offset, offset + chunkSize)));
+    }
+    return btoa(chunks.join(''));
+}
+
+window.proErpQzPrintPdf = function (printerName, pdfPayload) {
     if (!window.qzInterop || typeof window.qzInterop.printPdf !== 'function') return Promise.resolve(false);
-    return window.qzInterop.printPdf(printerName, base64Pdf);
+    return window.qzInterop.printPdf(printerName, proErpQzBinaryToBase64(pdfPayload));
+};
+window.proErpQzPrintPdfLandscape = function (printerName, pdfPayload) {
+    if (!window.qzInterop || typeof window.qzInterop.printPdf !== 'function') return Promise.resolve(false);
+    return window.qzInterop.printPdf(printerName, proErpQzBinaryToBase64(pdfPayload), { orientation: 'landscape' });
+};
+window.proErpQzPrintPdfAtSize = function (printerName, pdfPayload, widthMm, heightMm) {
+    if (!window.qzInterop || typeof window.qzInterop.printPdf !== 'function') return Promise.resolve(false);
+    return window.qzInterop.printPdf(printerName, proErpQzBinaryToBase64(pdfPayload), {
+        size: { width: widthMm, height: heightMm },
+        units: 'mm',
+        scaleContent: false,
+        interpolation: 'nearest-neighbor'
+    });
 };
 window.proErpQzPrintRaw = function (printerName, content) {
     if (!window.qzInterop || typeof window.qzInterop.printRaw !== 'function') return Promise.resolve(false);
     return window.qzInterop.printRaw(printerName, content);
 };
-window.proErpQzPrintImage = function (printerName, base64Image) {
+window.proErpQzPrintImage = function (printerName, imagePayload) {
     if (!window.qzInterop || typeof window.qzInterop.printImage !== 'function') return Promise.resolve(false);
-    return window.qzInterop.printImage(printerName, base64Image);
+    return window.qzInterop.printImage(printerName, proErpQzBinaryToBase64(imagePayload));
 };
 window.proErpQzSaveSetting = function (key, value) {
     if (window.qzInterop && typeof window.qzInterop.saveSetting === 'function')
