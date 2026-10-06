@@ -35,4 +35,40 @@
     src: url('/fonts/tajawal-900.ttf') format('truetype');
 }
 
-/* Local Fonts – Material Symbols */
+/* Local Fonts – Material Symbols
+   Keep a local copy so Radzen icons continue to work without an external
+   font request and after offline/customer deployments. */
+@font-face {
+    font-family: 'Material Symbols';
+    font-style: normal;
+    font-weight: 100 700;
+    font-display: block;
+    src: url('/fonts/material-symbols-rounded.woff2') format('woff2');
+}
+
+/* Radzen uses --rz-icon-font-family for every .rzi glyph.  Declaring the
+   variable here also protects icons when a theme stylesheet is cached or
+   loaded in a different order. */
+:root {
+    --rz-icon-font-family: 'Material Symbols';
+}
+
+.rzi,
+.rz-icon,
+.material-symbols-rounded {
+    font-family: 'Material Symbols' !important;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    font-feature-settings: 'liga';
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
