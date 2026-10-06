@@ -43,7 +43,7 @@
     font-style: normal;
     font-weight: 100 700;
     font-display: block;
-    src: url('/fonts/material-symbols-rounded.woff2') format('woff2');
+    src: url('/_content/Radzen.Blazor/fonts/MaterialSymbolsOutlined.woff2') format('woff2');
 }
 
 /* Radzen uses --rz-icon-font-family for every .rzi glyph.  Declaring the

@@ -1,6 +1,6 @@
 {
-  "version": "1.0.21",
-  "publishedAt": "2026-10-06T12:57:14.4130926Z",
+  "version": "1.0.22",
+  "publishedAt": "2026-10-06T13:04:02.5454886Z",
   "files": [
     {
       "path": "BCrypt.Net-Next.dll",
@@ -126,7 +126,7 @@
       "path": "Installer/ProERP.Desktop.zip",
       "hash": "a3f91fb43140a95819b70ec469fc25e1dc9ad3f82e38c6fa327073969d6be06b",
       "size": 1032953,
-      "lastModified": "2026-10-06T12:57:14.4030324Z"
+      "lastModified": "2026-10-06T13:04:02.5343582Z"
     },
     {
       "path": "Installer/install.html",
@@ -400,15 +400,15 @@
     },
     {
       "path": "ProERP.Web.dll",
-      "hash": "cee07f14c34696d1fdc12bd39be5f9f8425f352bb2712d3a5ba77e3989eab5f9",
+      "hash": "a2f1789b29dbf18fbaa11f62441284e89cb2eee5013aafe03f6ffe79ed1787ae",
       "size": 4732928,
-      "lastModified": "2026-10-06T12:56:49.3610046Z"
+      "lastModified": "2026-10-06T13:03:53.5362934Z"
     },
     {
       "path": "ProERP.Web.exe",
       "hash": "ee323bb7776fa6de86bc155652a8bfff658e8983b7b1c6252d2cd573754114a4",
       "size": 156160,
-      "lastModified": "2026-10-06T12:56:49.7290438Z"
+      "lastModified": "2026-10-06T13:03:53.9265376Z"
     },
     {
       "path": "ProERP.Web.runtimeconfig.json",
@@ -418,9 +418,9 @@
     },
     {
       "path": "ProERP.Web.staticwebassets.endpoints.json",
-      "hash": "9b9515d42eb8f480b91ba508833b6953fff7610a9ae8f3987c9cc4cfb614d19b",
+      "hash": "ffa29338c164cf1c85f6131e452a0a8d5e15449c2ebcdbb1bb467af5c4868c99",
       "size": 1538613,
-      "lastModified": "2026-10-06T12:57:10.2821652Z"
+      "lastModified": "2026-10-06T13:03:58.9569982Z"
     },
     {
       "path": "RBush.dll",
@@ -1960,21 +1960,21 @@
     },
     {
       "path": "wwwroot/css/fonts.css",
-      "hash": "ee5014e1ed54c88ac4d8b40052c24ee36316b5c9c8447897450362cd6c0fd24f",
-      "size": 2033,
-      "lastModified": "2026-10-06T12:49:11.3191659Z"
+      "hash": "da06212d81b76d5f3f3d01c1f81182e31838aab7e8aed39755e4d90c1996f033",
+      "size": 2055,
+      "lastModified": "2026-10-06T13:03:10.345467Z"
     },
     {
       "path": "wwwroot/css/fonts.css.br",
-      "hash": "fc6f56012e9849c4ce00d917ac91cbaf5711d00cb400a33659c6912b8d2b6074",
-      "size": 543,
-      "lastModified": "2026-10-06T12:57:09.6739249Z"
+      "hash": "fef2fb3bf6ab65095c5ff0f72428e07c0a1fa07dd2b3ffa8fc3147de94d30edd",
+      "size": 536,
+      "lastModified": "2026-10-06T13:03:58.3735971Z"
     },
     {
       "path": "wwwroot/css/fonts.css.gz",
-      "hash": "0f6310d2fd2dbb14070e034fd10f6186fdce5165b9a35b76590bcb442bb27ef5",
-      "size": 650,
-      "lastModified": "2026-10-06T12:56:50.2002583Z"
+      "hash": "69b7368bf51e2a47c76ca0a11544e6d0b50cc2c262b15ce7d1ca6f7b4aec3eeb",
+      "size": 671,
+      "lastModified": "2026-10-06T13:03:54.5854325Z"
     },
     {
       "path": "wwwroot/firebase-messaging-sw.js",
@@ -3714,19 +3714,19 @@
       "path": "wwwroot/sales/pos-offline/_framework/blazor.boot.json",
       "hash": "848a69616e66e6484bf65a52c1bed9caa62e863bea78f48ef75c32700c5d01d0",
       "size": 14623,
-      "lastModified": "2026-10-06T12:57:05.681347Z"
+      "lastModified": "2026-10-06T13:03:57.1000625Z"
     },
     {
       "path": "wwwroot/sales/pos-offline/_framework/blazor.boot.json.br",
       "hash": "2372d23204b7f70b94bb7e21b3ccb32dc56b18e9c5cd9b0f55e3fe9479c7351a",
       "size": 4409,
-      "lastModified": "2026-10-06T12:57:06.0111589Z"
+      "lastModified": "2026-10-06T13:03:57.4255768Z"
     },
     {
       "path": "wwwroot/sales/pos-offline/_framework/blazor.boot.json.gz",
       "hash": "4e12706cbdc6fda84ddb720bc6dfc63a9b1716cb92dadef46e891b4d28cd307a",
       "size": 4817,
-      "lastModified": "2026-10-06T12:57:05.7208277Z"
+      "lastModified": "2026-10-06T13:03:57.1544653Z"
     },
     {
       "path": "wwwroot/sales/pos-offline/_framework/blazor.webassembly.js",
@@ -4149,5 +4149,5 @@
       "lastModified": "2026-09-26T22:44:55.379546Z"
     }
   ],
-  "signature": "RX0axb/qMoUTy0CLf5FMNKa85cpsp0MTZWu2bYA5GQ1dksJGZ26u7TP64fcsVAdYapSCEsaSuwkL4MzulKg2X99vRuBHIRw8cMiVUVCG+a9B+5xpywPAuRmP6ARP4bfT3loFcW/NbOoJoZy1hV9uZfM1iuEAUoUgVrFHNEEy352BsluysolXq+PP7+Alt3VZw/vyUUOh77bkGZNqhM4fJP2BqUa6vjcevjf5ohq9bdSupPb3q7EwmkpjhZq/MHFPUYsBplPz/bv5PVnINTe3dIU7cc7gi3mHi5oa2DZXF9oLdhZ+pjUhf7oEDund4CQgFOFS9H4uOWuifGwgts/OWfyDShNICowsC3nQ3SnbrTZq2Gqc33qqHrIIFOQw1NWwVmwHpsJlqkJQ75R3+bjw6ih2uLz4bOe1Gn0PMxMQ8aPXi11Ua1f3595KXvvc6iGKLnF77GBuIQ08/Ti6iZUKg87yZCUOpwydrrCGU5fKhcrdXDJCLk0Qoi1MtLp3mj+4"
+  "signature": "f7AnlK5Wwu2Iup4n28dtBMsZwLEnhpr/hE1hHb1LJ8vycNV3qLpOJSkbU8MMmVLfGiKUzY/13xXncWsAxd0FDTExh6s2c56anmLJQfa3ZsZbLsjls22qBrRqdi0VKixMfB6bQOOldQdGSX6UQbxb2ICnRKiuaR6+Kp22LJL/6uE5Fw4mf3rVuCYzaPZXRWbDq4TPMP54unbyQVPF4LCya70lj1JjWHiVaJn6QNP7NWqxqd3Hhhz2PZHpagVS0vPmknF/OGikt2Ws4uICg+DWdyGvRWG7OeoHDkMrxbHEEEuthYN1RkuzOQQF247bT5twxOAKNfgd6TKWF1m+xgmuPCD3YlcySpx8a4C7XyzHEUcZiAF5XeaIHtStCmb5wJdEClNGoJ4MmF7kK2hIPH6xC+Lpi8hGZiQ3h2i+97VnDMy/QckvZZE1BiRGW6jSoXce2wXKwMGmI3pzfa1E1K0zX95kS/QAYngSKyV8CezHc5edGR9Sa5EGisKbGPigELeT"
 }
