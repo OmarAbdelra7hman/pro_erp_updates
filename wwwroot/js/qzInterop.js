@@ -1,15 +1,18 @@
 let _qzLoadPromise = null;
+let _qzConnectPromise = null;
+let _lastThermalImage = null; // Diagnostic copy in memory only; never persisted.
 function ensureQzLoaded() {
     if (window.qz) return Promise.resolve(window.qz);
     if (_qzLoadPromise) return _qzLoadPromise;
 
     _qzLoadPromise = new Promise((resolve, reject) => {
         const script = document.createElement('script');
-        script.src = 'https://cdn.jsdelivr.net/npm/qz-tray@2.2.4/qz-tray.js?v=4';
-        script.onload = () => resolve(window.qz);
-        script.onerror = () => reject(new Error('QZ Tray library failed to load'));
+        script.src = '/js/qz-tray-2.2.4.js?v=2.2.4';
+        const timeout = setTimeout(() => { script.remove(); reject(new Error('QZ Tray library load timed out')); }, 15000);
+        script.onload = () => { clearTimeout(timeout); resolve(window.qz); };
+        script.onerror = () => { clearTimeout(timeout); script.remove(); reject(new Error('QZ Tray library failed to load')); };
         document.head.appendChild(script);
-    });
+    }).catch(error => { _qzLoadPromise = null; throw error; });
     return _qzLoadPromise;
 }
 
@@ -173,7 +176,7 @@ window.qzInterop = {
             const qz = await ensureQzLoaded();
             qz.security.setCertificatePromise((resolve, reject) => {
                 fetch('/api/qz/cert?v=1', {cache: 'no-store'})
-                    .then(r => r.text())
+                    .then(r => { if (!r.ok) throw new Error('QZ certificate request failed'); return r.text(); })
                     .then(resolve)
                     .catch(reject);
             });
@@ -181,8 +184,8 @@ window.qzInterop = {
             qz.security.setSignatureAlgorithm("SHA512");
             qz.security.setSignaturePromise(function(toSign) {
                 return function(resolve, reject) {
-                    fetch('/api/qz/sign?request=' + encodeURIComponent(toSign))
-                        .then(r => r.text())
+                    fetch('/api/qz/sign', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ request: toSign }) })
+                        .then(r => { if (!r.ok) throw new Error('QZ signature request failed'); return r.text(); })
                         .then(resolve)
                         .catch(reject);
                 };
@@ -191,10 +194,12 @@ window.qzInterop = {
             if (qz.websocket.isActive()) {
                 return true;
             } else {
-                return await qz.websocket.connect().then(() => true).catch((err) => {
+                if (_qzConnectPromise) return await _qzConnectPromise;
+                _qzConnectPromise = qz.websocket.connect({ retries: 0 }).then(() => true).catch((err) => {
                     console.error("QZ Connect Error:", err);
                     return false;
-                });
+                }).finally(() => { _qzConnectPromise = null; });
+                return await _qzConnectPromise;
             }
         } catch (err) {
             console.error("QZ Load Error:", err);
@@ -275,19 +280,24 @@ window.qzInterop = {
 
         const qz = await ensureQzLoaded();
         try {
+            const profile = readThermalProfile(printerName);
+            base64Image = await normalizeThermalImage(base64Image, profile);
+            _lastThermalImage = base64Image;
             const config = qz.configs.create(printerName, { jobName: 'ProERP FastReport Receipt' });
-            await qz.print(config, [{
+            const data = [{ type: 'raw', format: 'command', flavor: 'base64', data: 'G0A=' }, {
                 type: 'raw',
                 format: 'image',
                 flavor: 'base64',
                 data: base64Image,
-                options: { language: 'ESCPOS', dotDensity: 'double' }
-            }, {
+                options: { language: 'ESCPOS', dotDensity: profile.imageMode }
+            }];
+            if (profile.cut) data.push({
                 type: 'raw',
                 format: 'command',
                 flavor: 'base64',
                 data: 'HVZCAA=='
-            }]);
+            });
+            await qz.print(config, data);
             return true;
         } catch (err) {
             console.error('QZ FastReport raster print error:', err);
@@ -301,6 +311,49 @@ window.qzInterop = {
         return localStorage.getItem(key) || "";
     }
 };
+
+function readThermalProfile(printerName) {
+    let saved = {};
+    try { saved = JSON.parse(localStorage.getItem('proerp_pos_profile_' + printerName) || '{}'); } catch (_) { }
+    // Preserve an explicit selection. Auto selects the alternate image command
+    // for Xprinter queues; other makes retain the existing QZ mode.
+    const imageMode = ['double', 'double-legacy'].includes(saved.imageMode) ? saved.imageMode
+        : /xprinter|xp[-\s]?80c|pos[-\s]?80c/i.test(printerName || '') ? 'double-legacy' : 'double';
+    return { widthDots: [384, 576, 640, 864, 960].includes(saved.widthDots) ? saved.widthDots : 0, imageMode,
+        threshold: Math.max(80, Math.min(220, Number(saved.threshold) || 160)), cut: saved.cut !== false };
+}
+
+window.proErpDownloadLastThermalImage = function () {
+    if (!_lastThermalImage) return false;
+    const link = document.createElement('a');
+    link.href = 'data:image/png;base64,' + _lastThermalImage;
+    link.download = 'proerp-thermal-image.png';
+    link.click();
+    return true;
+};
+
+async function normalizeThermalImage(base64, profile) {
+    const img = new Image();
+    img.src = 'data:image/png;base64,' + base64;
+    await img.decode();
+    const canvas = document.createElement('canvas');
+    canvas.width = profile.widthDots || img.naturalWidth;
+    canvas.height = Math.max(1, Math.round(img.naturalHeight * canvas.width / img.naturalWidth));
+    // Reject extreme jobs before allocating an unbounded canvas.
+    if (canvas.width * canvas.height > 32000000) throw new Error('Receipt image too large');
+    const ctx = canvas.getContext('2d', { alpha: false });
+    ctx.fillStyle = '#fff'; ctx.fillRect(0, 0, canvas.width, canvas.height);
+    ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+    const pixels = ctx.getImageData(0, 0, canvas.width, canvas.height);
+    for (let i = 0; i < pixels.data.length; i += 4) {
+        const gray = pixels.data[i] * .299 + pixels.data[i + 1] * .587 + pixels.data[i + 2] * .114;
+        const value = gray < profile.threshold ? 0 : 255;
+        pixels.data[i] = pixels.data[i + 1] = pixels.data[i + 2] = value;
+        pixels.data[i + 3] = 255;
+    }
+    ctx.putImageData(pixels, 0, 0);
+    return canvas.toDataURL('image/png').split(',')[1];
+}
 
 // Flat names for Blazor JS interop (avoid "qzInterop.connect" resolution issues)
 window.proErpQzConnect = function () {

@@ -1,3 +1,31 @@
+/* _content/ProERP.Web/Components/Pages/HR/AttendanceHoursReport.razor.rz.scp.css */
+.hours-filters[b-tnzgpjbmew] { display:grid; grid-template-columns:minmax(350px,1fr) minmax(240px,.8fr) auto; gap:24px; align-items:end; padding:20px 24px; margin-bottom:20px; background:var(--bg-card); border:1px solid var(--clr-border); border-radius:16px; }
+.hours-filters label[b-tnzgpjbmew], .filter-label[b-tnzgpjbmew] { display:block; margin-bottom:10px; font-size:.8rem; font-weight:600; color:var(--text-secondary); }
+.hours-hint[b-tnzgpjbmew] { color:var(--text-secondary); font-size:.82rem; margin:8px 0 12px; }
+.hours-summary[b-tnzgpjbmew] { display:flex; flex-wrap:wrap; gap:24px; padding:16px; margin-bottom:12px; background:var(--bg-card); border:1px solid var(--clr-border); border-radius:12px; }
+.hours-summary strong[b-tnzgpjbmew], .hours-time[b-tnzgpjbmew] { color:var(--clr-primary); font-weight:700; }
+@media print { .hours-filters[b-tnzgpjbmew] { display:none; } }
+.payroll-cycle[b-tnzgpjbmew], .employee-filter[b-tnzgpjbmew] { min-width:0; }
+.cycle-navigation[b-tnzgpjbmew] { display:flex; align-items:center; justify-content:space-between; gap:12px; min-height:52px; }
+.cycle-caption[b-tnzgpjbmew] { display:flex; flex-direction:column; align-items:center; gap:5px; text-align:center; }
+.cycle-caption strong[b-tnzgpjbmew] { color:var(--text-primary); font-size:.95rem; font-weight:650; }
+.cycle-caption span[b-tnzgpjbmew] { font-size:.76rem; color:var(--text-secondary); direction:ltr; white-space:nowrap; }
+.cycle-button[b-tnzgpjbmew], .report-button[b-tnzgpjbmew] { display:inline-flex; align-items:center; justify-content:center; gap:7px; font:inherit; font-size:.82rem; font-weight:600; cursor:pointer; border-radius:10px; transition:background-color .15s,border-color .15s; }
+.cycle-button[b-tnzgpjbmew] { padding:10px 12px; border:1px solid var(--clr-border); background:transparent; color:var(--text-primary); }
+.cycle-button:hover:not(:disabled)[b-tnzgpjbmew] { border-color:var(--clr-primary); color:var(--clr-primary); background:color-mix(in srgb,var(--clr-primary) 6%,transparent); }
+.hours-filters svg[b-tnzgpjbmew] { width:18px; height:18px; flex-shrink:0; fill:none; stroke:currentColor; stroke-width:1.7; stroke-linecap:round; stroke-linejoin:round; }
+.cycle-button svg[b-tnzgpjbmew] { width:15px; height:15px; }
+.employee-select[b-tnzgpjbmew] { position:relative; }
+.employee-select > svg[b-tnzgpjbmew] { position:absolute; right:14px; top:50%; transform:translateY(-50%); color:var(--text-secondary); z-index:1; pointer-events:none; }
+.employee-select[b-tnzgpjbmew]  .rz-dropdown { min-height:52px; border-radius:10px; background:var(--bg-card); border:1px solid var(--clr-border); box-shadow:none; }
+.employee-select[b-tnzgpjbmew]  .rz-dropdown-label { padding-inline-start:42px; display:flex; align-items:center; font-size:.88rem; }
+.report-button[b-tnzgpjbmew] { min-height:52px; padding:0 22px; border:1px solid var(--clr-primary); background:var(--clr-primary); color:#fff; white-space:nowrap; }
+.report-button:hover:not(:disabled)[b-tnzgpjbmew] { background:color-mix(in srgb,var(--clr-primary) 88%,black); }
+.hours-filters button:disabled[b-tnzgpjbmew] { opacity:.5; cursor:default; }
+.hours-filters button:focus-visible[b-tnzgpjbmew] { outline:2px solid var(--clr-primary); outline-offset:3px; }
+@media(max-width:1100px) { .hours-filters[b-tnzgpjbmew] { grid-template-columns:minmax(320px,1fr) minmax(230px,1fr); gap:18px; } .filter-action[b-tnzgpjbmew] { grid-column:1 / -1; display:flex; justify-content:flex-end; } }
+@media(max-width:650px) { .hours-filters[b-tnzgpjbmew] { grid-template-columns:minmax(0,1fr); padding:16px; gap:18px; } .cycle-navigation[b-tnzgpjbmew] { gap:6px; } .cycle-button[b-tnzgpjbmew] { padding:10px 8px; font-size:.75rem; } .cycle-caption strong[b-tnzgpjbmew] { font-size:.85rem; } .cycle-caption span[b-tnzgpjbmew] { font-size:.68rem; } .report-button[b-tnzgpjbmew] { width:100%; } }
+.attendance-hours[b-tnzgpjbmew] { --bg-card:var(--clr-surface); --text-primary:var(--clr-text); --text-secondary:var(--clr-muted); }
 /* _content/ProERP.Web/Components/Pages/Sales/InstallmentPlanDialog.razor.rz.scp.css */
 .installment-dialog[b-7p4wttxwsz]{--id-ink:var(--text-primary,#24313b);--id-muted:var(--text-secondary,#697781);--id-line:var(--clr-border,#e2e8eb);--id-brand:var(--clr-primary,#176b5b);--id-soft:color-mix(in srgb,var(--id-brand) 7%,white);color:var(--id-ink);background:var(--clr-surface,#fff);max-height:min(78vh,820px);display:flex;flex-direction:column;min-height:420px}
 .installment-loading[b-7p4wttxwsz],.installment-empty[b-7p4wttxwsz]{min-height:360px;display:grid;place-items:center;color:var(--id-muted)}
