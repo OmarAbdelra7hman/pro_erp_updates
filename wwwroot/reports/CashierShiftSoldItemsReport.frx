@@ -34,21 +34,12 @@
       <TextObject Name="Branch" Left="0" Top="151" Width="279.68" Height="15" Text="الفرع: [BranchName]" HorzAlign="Right" Font="Arial, 8pt" RightToLeft="true"/>
       <TextObject Name="Period" Left="0" Top="167" Width="279.68" Height="15" Text="من [OpenedAt]  إلى [ClosedAt]" HorzAlign="Center" Font="Arial, 7pt" RightToLeft="true"/>
     </ReportTitleBand>
-    <DataBand Name="ItemsData" Top="221" Width="279.68" Height="22" DataSource="Items" CanGrow="true">
-      <DataHeaderBand Name="ItemsHeader" Top="192" Width="279.68" Height="25" RepeatOnEveryPage="true">
-        <TextObject Name="HCode" Left="237.68" Top="2" Width="42" Height="20" Text="الكود" HorzAlign="Center" VertAlign="Center" Border.Lines="All" Font="Arial, 7pt, style=Bold" RightToLeft="true"/>
-        <TextObject Name="HItem" Left="150.68" Top="2" Width="87" Height="20" Text="الصنف" HorzAlign="Center" VertAlign="Center" Border.Lines="All" Font="Arial, 8pt, style=Bold" RightToLeft="true"/>
-        <TextObject Name="HUnit" Left="115.68" Top="2" Width="35" Height="20" Text="الوحدة" HorzAlign="Center" VertAlign="Center" Border.Lines="All" Font="Arial, 7pt, style=Bold" RightToLeft="true"/>
-        <TextObject Name="HQty" Left="80.68" Top="2" Width="35" Height="20" Text="الكمية" HorzAlign="Center" VertAlign="Center" Border.Lines="All" Font="Arial, 7pt, style=Bold" RightToLeft="true"/>
-        <TextObject Name="HPrice" Left="40.68" Top="2" Width="40" Height="20" Text="السعر" HorzAlign="Center" VertAlign="Center" Border.Lines="All" Font="Arial, 7pt, style=Bold" RightToLeft="true"/>
-        <TextObject Name="HValue" Left="0" Top="2" Width="40.68" Height="20" Text="القيمة" HorzAlign="Center" VertAlign="Center" Border.Lines="All" Font="Arial, 7pt, style=Bold" RightToLeft="true"/>
-      </DataHeaderBand>
-      <TextObject Name="Code" Left="237.68" Width="42" Height="22" Text="[Items.ItemCode]" HorzAlign="Center" VertAlign="Center" Border.Lines="All" Font="Arial, 6pt"/>
-      <TextObject Name="Item" Left="150.68" Width="87" Height="22" Text="[Items.ItemName]" HorzAlign="Right" VertAlign="Center" Border.Lines="All" Font="Arial, 7pt" RightToLeft="true" CanGrow="true"/>
-      <TextObject Name="Unit" Left="115.68" Width="35" Height="22" Text="[Items.UnitName]" HorzAlign="Center" VertAlign="Center" Border.Lines="All" Font="Arial, 6pt" RightToLeft="true" CanGrow="true"/>
-      <TextObject Name="Qty" Left="80.68" Width="35" Height="22" Text="[Items.Quantity]" Format="Number" Format.UseLocale="true" Format.DecimalDigits="2" HorzAlign="Center" VertAlign="Center" Border.Lines="All" Font="Arial, 7pt, style=Bold"/>
-      <TextObject Name="Price" Left="40.68" Width="40" Height="22" Text="[Items.UnitPrice]" Format="Number" Format.UseLocale="true" Format.DecimalDigits="2" HorzAlign="Center" VertAlign="Center" Border.Lines="All" Font="Arial, 7pt"/>
-      <TextObject Name="Value" Left="0" Width="40.68" Height="22" Text="[Items.TotalValue]" Format="Number" Format.UseLocale="true" Format.DecimalDigits="2" HorzAlign="Center" VertAlign="Center" Border.Lines="All" Font="Arial, 7pt, style=Bold"/>
+    <DataBand Name="ItemsData" Top="192" Width="279.68" Height="76" DataSource="Items" CanGrow="true" KeepTogether="true">
+      <TextObject Name="Item" Left="0" Top="3" Width="279.68" Height="20" Text="[Items.ItemName]" HorzAlign="Right" Font="Arial, 10pt, style=Bold" RightToLeft="true" CanGrow="true"/>
+      <TextObject Name="CodeUnit" Left="0" Top="26" Width="279.68" Height="16" Text="[Items.ItemCode] | [Items.UnitName]" HorzAlign="Right" Font="Arial, 8pt" RightToLeft="true" ShiftMode="Always"/>
+      <TextObject Name="QtyPrice" Left="120" Top="46" Width="159.68" Height="20" Text="[FormatNumber([Items.Quantity], 2)] × [FormatNumber([Items.UnitPrice], 2)]" HorzAlign="Right" Font="Arial, 9pt" ShiftMode="Always"/>
+      <TextObject Name="Value" Left="0" Top="46" Width="120" Height="20" Text="[Items.TotalValue]" Format="Number" Format.UseLocale="true" Format.DecimalDigits="2" HorzAlign="Left" Font="Arial, 10pt, style=Bold" ShiftMode="Always"/>
+      <LineObject Name="ItemDivider" Left="0" Top="73" Width="279.68" Border.Style="Dot" ShiftMode="Always"/>
       <DataFooterBand Name="ItemsFooter" Top="247" Width="279.68" Height="66">
         <LineObject Name="Line2" Left="0" Top="4" Width="279.68"/>
         <TextObject Name="GrandTotalLabel" Left="120" Top="9" Width="159.68" Height="20" Text="إجمالي قيمة الأصناف" HorzAlign="Right" VertAlign="Center" Font="Arial, 10pt, style=Bold" RightToLeft="true"/>

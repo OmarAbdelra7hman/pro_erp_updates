@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "ProERP.Client",
   "resources": {
-    "hash": "sha256-6Xp1Sl233Rqp2xLnx7IHKGNM0SQkteInJYsjMkBzzEs=",
+    "hash": "sha256-YQzGT1PV7TyUkUaA1oTWLWDRO89728vF/BETZ7VJPLQ=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Components.Forms.o9iakyungi.wasm": "Microsoft.AspNetCore.Components.Forms.wasm",
       "Microsoft.AspNetCore.Components.3ba4jv8opc.wasm": "Microsoft.AspNetCore.Components.wasm",
@@ -20,8 +20,8 @@
       "Microsoft.Extensions.Primitives.4dxofymb0o.wasm": "Microsoft.Extensions.Primitives.wasm",
       "Microsoft.JSInterop.uu8izyvyxp.wasm": "Microsoft.JSInterop.wasm",
       "Microsoft.JSInterop.WebAssembly.heoad7mujs.wasm": "Microsoft.JSInterop.WebAssembly.wasm",
-      "ProERP.Application.258j8v9bjs.wasm": "ProERP.Application.wasm",
-      "ProERP.Client.ki0f6uhuh0.wasm": "ProERP.Client.wasm",
+      "ProERP.Application.s6s9uokboo.wasm": "ProERP.Application.wasm",
+      "ProERP.Client.2zbsov2c3t.wasm": "ProERP.Client.wasm",
       "ProERP.Domain.88us4tuquy.wasm": "ProERP.Domain.wasm",
       "Radzen.Blazor.b690vsoizk.wasm": "Radzen.Blazor.wasm",
       "System.Collections.Concurrent.kbxmm7wrtu.wasm": "System.Collections.Concurrent.wasm",
@@ -115,8 +115,8 @@
       "Microsoft.Extensions.Primitives.4dxofymb0o.wasm": "sha256-GOr7jc/eCieZrQYoXRn79eLSsesIfFB55wQZIVTSNIY=",
       "Microsoft.JSInterop.uu8izyvyxp.wasm": "sha256-qsd7mmvxSN+titwo7yemRryk0nqW7vfS1mopEm2vjoc=",
       "Microsoft.JSInterop.WebAssembly.heoad7mujs.wasm": "sha256-99wG3VH14sWkwPaF5rX6YAcJvtAhDuqonwihvj2m5HA=",
-      "ProERP.Application.258j8v9bjs.wasm": "sha256-9uOrn8r9NhkPu+0iXN6lhkapv6sxIU4JtUPFoGs7btw=",
-      "ProERP.Client.ki0f6uhuh0.wasm": "sha256-XD5w2ATw7AYbyFPzTPpM1dKZo4GthHH/Ib279IHYwD4=",
+      "ProERP.Application.s6s9uokboo.wasm": "sha256-9DQpYiqAxwcqToQdZhz9NEsiOhVqaANMljzfbqmLWIE=",
+      "ProERP.Client.2zbsov2c3t.wasm": "sha256-nj+1s89nJwEN248sbz1g70x/Sk53HkXpmSmgkXmC/t0=",
       "ProERP.Domain.88us4tuquy.wasm": "sha256-CAC8GCNQEeMURCZxWjgm/8i+n3RhmavUuzYySngYKk8=",
       "Radzen.Blazor.b690vsoizk.wasm": "sha256-c51Rm/epWpUkOdSo+vG0D21x/ELxcU0y/Rf91hcn6qE=",
       "System.Collections.Concurrent.kbxmm7wrtu.wasm": "sha256-0JspBuDowni7jfzeko6iQdeZD0VeUn5xrkaA5zhxBVc=",
