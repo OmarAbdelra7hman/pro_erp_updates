@@ -1,5 +1,5 @@
 self.assetsManifest = {
-  "version": "GlvwGNGe",
+  "version": "OInjzxLM",
   "assets": [
     {
       "hash": "sha256-iybf90y3kfW5bciTdjo7Kd4sQAffs/Ofr5q6N3ZEGmM=",
@@ -210,16 +210,16 @@ self.assetsManifest = {
       "url": "sales/pos-offline/_framework/Microsoft.JSInterop.uu8izyvyxp.wasm"
     },
     {
-      "hash": "sha256-DBTcjOd5iDWP0t1sphABRIVM3/DJejdq1X7h0L+HRQI=",
-      "url": "sales/pos-offline/_framework/ProERP.Application.wx7bz3wc2z.wasm"
+      "hash": "sha256-wnxkDz8Xh9URxSR+JoPQatftTFumNOy49aONeLx/NiI=",
+      "url": "sales/pos-offline/_framework/ProERP.Application.qq8u9zyv2y.wasm"
     },
     {
-      "hash": "sha256-ubWdPrrppJyRKgch5ouF0CDRNrt/IgcWhaxhIPZPTPM=",
-      "url": "sales/pos-offline/_framework/ProERP.Client.z5nsar9nv0.wasm"
+      "hash": "sha256-rxOmpi2QWvuGySKGiS7djg8dVDFDoIyBE+Z+UNbfvGg=",
+      "url": "sales/pos-offline/_framework/ProERP.Client.hkj52q530q.wasm"
     },
     {
-      "hash": "sha256-KxL7N0MTlGnjNh5vvrv2fYr0Y6sq3508luCGlapoU4U=",
-      "url": "sales/pos-offline/_framework/ProERP.Domain.pzxzfacr3i.wasm"
+      "hash": "sha256-Wo09fNG7zTgLqWvSfXgKOUo8dUf+3aLwRiK+bmYelBk=",
+      "url": "sales/pos-offline/_framework/ProERP.Domain.m9sx4b7ays.wasm"
     },
     {
       "hash": "sha256-c51Rm/epWpUkOdSo+vG0D21x/ELxcU0y/Rf91hcn6qE=",
@@ -414,7 +414,7 @@ self.assetsManifest = {
       "url": "sales/pos-offline/_framework/System.sal18ehrzx.wasm"
     },
     {
-      "hash": "sha256-QjnTn7b4l0VyYgxMKgerP+19iqk6ChDeeZlIfnu/vGs=",
+      "hash": "sha256-6XukTA/r0ZAoK8O6LglMENNjmEbMi6LpRyiUSOCf7Ko=",
       "url": "sales/pos-offline/_framework/blazor.boot.json"
     },
     {
