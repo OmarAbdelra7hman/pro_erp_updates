@@ -1,0 +1,243 @@
+/*
+ * Shared theme contract. Loaded after vendor, application and isolated styles.
+ * 1. Semantic tokens describe intent, not individual pages.
+ * 2. Radzen 5.9 consumes the adapter below (including body-mounted popups).
+ * 3. Component rules only cover behavior not exposed as vendor tokens.
+ * Never change --rz-white/black: they are literal colors used by status buttons.
+ */
+:root {
+    --ui-canvas: var(--clr-bg);
+    --ui-surface: var(--clr-surface);
+    --ui-surface-raised: var(--clr-surface2);
+    --ui-text: var(--clr-text);
+    --ui-text-secondary: var(--clr-muted);
+    --ui-border: var(--clr-border);
+    --ui-border-strong: #505050;
+    --ui-input-bg: var(--clr-surface2);
+    --ui-hover-bg: #303030;
+    --ui-selected-bg: #34344b;
+    --ui-selected-text: #ededff;
+    --ui-primary: #4e5de0;
+    --ui-on-primary: #ffffff;
+    --ui-link: #b8bfff;
+    --ui-link-hover: #d1d5ff;
+    --ui-focus: #a0a9ff;
+    --ui-disabled-bg: #292929;
+    --ui-disabled-text: #a0a0a0;
+    --ui-success-text: #63d5a3;
+    --ui-danger-text: #ff9292;
+    --ui-popup-shadow: 0 6px 18px rgba(0,0,0,.22);
+    --ui-control-radius: 8px;
+
+    /* Compatibility contract for existing custom controls. No local palettes. */
+    --edara-bg: var(--ui-canvas);
+    --edara-surface: var(--ui-surface);
+    --edara-border: var(--ui-border);
+    --edara-primary: var(--ui-primary);
+    --edara-primary-text: var(--ui-link);
+    --edara-primary-light: var(--ui-selected-bg);
+    --edara-text: var(--ui-text);
+    --edara-text-muted: var(--ui-text-secondary);
+    --edara-success: var(--ui-success-text);
+    --edara-danger: var(--ui-danger-text);
+
+    /* Vendor foundations: readable defaults for components without an adapter. */
+    --rz-base-background-color: var(--ui-surface);
+    --rz-body-background-color: var(--ui-canvas);
+    --rz-base-50: var(--ui-surface);
+    --rz-base-100: var(--ui-surface-raised);
+    --rz-base-200: var(--ui-surface-raised);
+    --rz-base-300: var(--clr-surface3);
+    --rz-base-400: var(--ui-border-strong);
+    --rz-base-500: var(--ui-disabled-text);
+    --rz-base-600: var(--ui-text-secondary);
+    --rz-base-700: var(--ui-text-secondary);
+    --rz-base-800: var(--ui-text);
+    --rz-base-900: var(--ui-text);
+    --rz-base: var(--ui-surface-raised);
+    --rz-base-light: var(--ui-surface-raised);
+    --rz-base-lighter: var(--ui-surface);
+    --rz-on-base: var(--ui-text);
+    --rz-on-base-light: var(--ui-text);
+    --rz-on-base-lighter: var(--ui-text);
+    --rz-text-font-family: 'Tajawal', sans-serif;
+    --rz-text-title-color: var(--ui-text);
+    --rz-text-color: var(--ui-text);
+    --rz-text-secondary-color: var(--ui-text-secondary);
+    --rz-text-tertiary-color: var(--ui-text-secondary);
+    --rz-text-disabled-color: var(--ui-disabled-text);
+    --rz-primary: var(--ui-primary);
+    --rz-primary-light: var(--ui-primary);
+    --rz-primary-dark: #414fcb;
+    --rz-primary-lighter: var(--ui-selected-bg);
+    --rz-on-primary: var(--ui-on-primary);
+    --rz-on-primary-light: var(--ui-on-primary);
+    --rz-on-primary-dark: var(--ui-on-primary);
+    --rz-on-primary-lighter: var(--ui-selected-text);
+    --rz-border-normal: 1px solid var(--ui-border);
+    --rz-border-hover: 1px solid var(--ui-border-strong);
+    --rz-border-focus: 1px solid var(--ui-focus);
+    --rz-border-disabled: 1px solid var(--ui-border);
+    --rz-border-radius: var(--ui-control-radius);
+    --rz-outline-color: var(--ui-focus);
+
+    /* Grid: cell contents, gridlines, frozen columns, selection and footer. */
+    --rz-grid-background-color: var(--ui-surface);
+    --rz-grid-cell-color: var(--ui-text);
+    --rz-grid-header-color: var(--ui-text);
+    --rz-grid-header-background-color: var(--ui-surface-raised);
+    --rz-grid-header-sorted-background-color: var(--ui-hover-bg);
+    --rz-grid-foot-background-color: var(--ui-surface-raised);
+    --rz-grid-foot-cell-color: var(--ui-text);
+    --rz-grid-border: 1px solid var(--ui-border);
+    --rz-grid-cell-border: 1px solid var(--ui-border);
+    --rz-grid-header-cell-border: 1px solid var(--ui-border);
+    --rz-grid-header-cell-border-bottom: 1px solid var(--ui-border);
+    --rz-grid-right-cell-border: 1px solid var(--ui-border);
+    --rz-grid-bottom-cell-border: 1px solid var(--ui-border);
+    --rz-grid-frozen-cell-border: 1px solid var(--ui-border);
+    --rz-grid-frozen-cell-background-color: var(--ui-surface);
+    --rz-grid-stripe-background-color: var(--ui-surface);
+    --rz-grid-stripe-odd-background-color: var(--ui-surface);
+    --rz-grid-toolbar-background-color: var(--ui-surface);
+    --rz-grid-selected-background-color: var(--ui-selected-bg);
+    --rz-grid-selected-color: var(--ui-selected-text);
+    --rz-grid-cell-focus-background-color: var(--ui-selected-bg);
+    --rz-grid-cell-focus-color: var(--ui-selected-text);
+    --rz-grid-hover-background-color: var(--ui-hover-bg);
+    --rz-grid-hover-color: var(--ui-text);
+    --rz-grid-filter-color: var(--ui-text-secondary);
+    --rz-grid-filter-background-color: var(--ui-surface);
+    --rz-grid-filter-buttons-background-color: var(--ui-surface-raised);
+    --rz-grid-sort-icon-color: var(--ui-text-secondary);
+    --rz-grid-header-filter-icon-active-color: var(--ui-link);
+    --rz-grid-detail-template-background-color: var(--ui-surface-raised);
+    --rz-grid-group-header-item-color: var(--ui-text);
+    --rz-grid-group-header-item-background-color: var(--ui-surface-raised);
+
+    /* Inputs and floating labels. */
+    --rz-input-background-color: var(--ui-input-bg);
+    --rz-input-value-color: var(--ui-text);
+    --rz-input-placeholder-color: var(--ui-text-secondary);
+    --rz-input-border: 1px solid var(--ui-border-strong);
+    --rz-input-hover-border: 1px solid var(--ui-text-secondary);
+    --rz-input-focus-border: 1px solid var(--ui-focus);
+    --rz-input-focus-outline: 2px solid var(--ui-focus);
+    --rz-input-focus-outline-offset: 2px;
+    --rz-input-shadow: none;
+    --rz-input-hover-shadow: none;
+    --rz-input-focus-shadow: none;
+    --rz-input-border-radius: var(--ui-control-radius);
+    --rz-input-disabled-background-color: var(--ui-disabled-bg);
+    --rz-input-disabled-color: var(--ui-disabled-text);
+    --rz-input-disabled-placeholder-color: var(--ui-disabled-text);
+    --rz-input-disabled-opacity: 1;
+    --rz-form-field-label-color: var(--ui-text-secondary);
+    --rz-form-field-label-focus-color: var(--ui-link);
+    --rz-form-field-label-floating-background-color: var(--ui-input-bg);
+    --rz-form-field-filled-background-color: var(--ui-input-bg);
+    --rz-form-field-filled-hover-background-color: var(--ui-hover-bg);
+
+    /* Popup adapters work at document scope, not just inside a screen/dialog. */
+    --rz-dropdown-open-background-color: var(--ui-surface-raised);
+    --rz-dropdown-panel-border: 1px solid var(--ui-border-strong);
+    --rz-dropdown-panel-shadow: var(--ui-popup-shadow);
+    --rz-dropdown-item-hover-background-color: var(--ui-hover-bg);
+    --rz-dropdown-item-hover-color: var(--ui-text);
+    --rz-dropdown-item-selected-background-color: var(--ui-selected-bg);
+    --rz-dropdown-item-selected-color: var(--ui-selected-text);
+    --rz-dropdown-item-selected-hover-background-color: var(--ui-selected-bg);
+    --rz-dropdown-item-selected-hover-color: var(--ui-selected-text);
+    --rz-dropdown-item-disabled-opacity: 1;
+    --rz-splitbutton-menu-shadow: var(--ui-popup-shadow);
+    --rz-menu-background-color: var(--ui-surface-raised);
+    --rz-menu-item-color: var(--ui-text);
+    --rz-menu-item-icon-color: var(--ui-text-secondary);
+    --rz-menu-item-hover-background-color: var(--ui-hover-bg);
+    --rz-menu-item-hover-color: var(--ui-text);
+    --rz-menu-item-icon-hover-color: var(--ui-text);
+    --rz-menu-item-selected-color: var(--ui-selected-text);
+    --rz-menu-item-disabled-opacity: 1;
+    --rz-menu-top-item-color: var(--ui-text);
+    --rz-menu-top-item-background-color: var(--ui-surface-raised);
+    --rz-menu-top-item-hover-color: var(--ui-link);
+    --rz-menu-top-item-icon-color: var(--ui-text-secondary);
+
+    /* Date pickers, pager, select bars, dialogs and links share the same states. */
+    --rz-datepicker-panel-background-color: var(--ui-surface-raised);
+    --rz-datepicker-panel-border: 1px solid var(--ui-border-strong);
+    --rz-datepicker-panel-shadow: var(--ui-popup-shadow);
+    --rz-datepicker-header-background-color: var(--ui-surface-raised);
+    --rz-datepicker-header-color: var(--ui-text);
+    --rz-datepicker-calendar-color: var(--ui-text);
+    --rz-datepicker-calendar-header-color: var(--ui-text-secondary);
+    --rz-datepicker-calendar-hover-background-color: var(--ui-hover-bg);
+    --rz-datepicker-calendar-hover-color: var(--ui-text);
+    --rz-datepicker-calendar-selected-background-color: var(--ui-primary);
+    --rz-datepicker-calendar-selected-color: var(--ui-on-primary);
+    --rz-datepicker-calendar-selected-hover-background-color: var(--ui-primary);
+    --rz-datepicker-calendar-selected-hover-color: var(--ui-on-primary);
+    --rz-pager-background-color: var(--ui-surface);
+    --rz-pager-summary-color: var(--ui-text-secondary);
+    --rz-pager-numeric-button-color: var(--ui-text);
+    --rz-pager-numeric-button-background-color: var(--ui-surface);
+    --rz-pager-numeric-button-selected-background-color: var(--ui-primary);
+    --rz-pager-numeric-button-selected-color: var(--ui-on-primary);
+    --rz-selectbar-background-color: var(--ui-input-bg);
+    --rz-selectbar-color: var(--ui-text);
+    --rz-selectbar-selected-background-color: var(--ui-primary);
+    --rz-selectbar-selected-color: var(--ui-on-primary);
+    --rz-dialog-background-color: var(--ui-surface);
+    --rz-dialog-title-color: var(--ui-text);
+    --rz-panel-background-color: var(--ui-surface);
+    --rz-link-color: var(--ui-link);
+    --rz-link-hover-color: var(--ui-link-hover);
+    --rz-button-disabled-opacity: 1;
+}
+
+[data-theme="light"] {
+    --ui-input-bg: #ffffff;
+    --ui-border-strong: #b8c2d0;
+    --ui-hover-bg: #f1f3f8;
+    --ui-selected-bg: #e9edff;
+    --ui-selected-text: #24358b;
+    --ui-link: #3949ab;
+    --ui-link-hover: #273687;
+    --ui-focus: #4f5ded;
+    --ui-disabled-bg: #f1f5f9;
+    --ui-disabled-text: #5b687b;
+    --ui-success-text: #08764e;
+    --ui-danger-text: #b42332;
+    --ui-popup-shadow: 0 6px 18px rgba(15,23,42,.12);
+}
+
+/* Adapters for vendor elements which do not expose a state-color token. */
+.rz-splitbutton-menu, .rz-dropdown-panel, .rz-multiselect-panel, .rz-autocomplete-panel { color: var(--ui-text); }
+.rz-button.rz-light:not(.rz-variant-text) {
+    background: var(--ui-surface-raised); border: 1px solid var(--ui-border-strong); color: var(--ui-text);
+}
+.rz-button.rz-light.rz-variant-text { color: var(--ui-text-secondary); }
+.rz-button.rz-light:not(:disabled):not(.rz-state-disabled):hover { background: var(--ui-hover-bg); color: var(--ui-text); }
+.rz-menuitem.rz-state-disabled .rz-menuitem-link,
+.rz-menuitem.rz-state-disabled .rz-menuitem-icon,
+.rz-dropdown-items li.rz-state-disabled,
+.rz-multiselect-items li.rz-state-disabled { color: var(--ui-disabled-text); background: var(--ui-disabled-bg); cursor: not-allowed; }
+.rz-button:disabled, .rz-button.rz-state-disabled,
+.rz-button.rz-light:disabled, .rz-button.rz-light.rz-state-disabled { background: var(--ui-disabled-bg); color: var(--ui-disabled-text); box-shadow: none; cursor: not-allowed; }
+.rz-grid-table a:not(.rz-button) { color: var(--ui-link); }
+.rz-grid-table a:not(.rz-button):hover { color: var(--ui-link-hover); }
+.rz-grid-table td .rz-link { color: var(--ui-link); }
+.rz-dialog { background:var(--ui-surface); color:var(--ui-text); border:1px solid var(--ui-border-strong); }
+.rz-dialog-titlebar { background:var(--ui-surface-raised); color:var(--ui-text); border-bottom:1px solid var(--ui-border); }
+.rz-dialog-content { background:var(--ui-surface); color:var(--ui-text); }
+.rz-dialog-titlebar .rz-dialog-title, .rz-dialog-titlebar .rz-dialog-close { color:var(--ui-text); }
+.rz-state-disabled input, input:disabled, textarea:disabled { color:var(--ui-disabled-text); -webkit-text-fill-color:var(--ui-disabled-text); opacity:1; }
+
+/* Existing reusable custom account selectors participate in the same contract. */
+.account-selector-wrapper[style*="pointer-events:none"] .custom-account-input { background:var(--ui-disabled-bg); border-color:var(--ui-border); }
+.account-selector-wrapper[style*="pointer-events:none"] :is(.selected-text,.search-input) { color:var(--ui-disabled-text); }
+.account-selector-wrapper[style*="pointer-events:none"] :is(.clear-btn,.dropdown-arrow) { display:none; }
+
+@media print {
+    :root { --ui-canvas:#fff; --ui-surface:#fff; --ui-surface-raised:#f4f4f4; --ui-text:#111; --ui-text-secondary:#333; --ui-border:#ccc; --ui-border-strong:#aaa; --ui-link:#111; }
+}

@@ -311,6 +311,19 @@ window.registerF5Intercept = function (dotNetRef) {
 
 // ── Sidebar Interactions (JS Driven) ──────────────────────────────────────────
 document.addEventListener('click', function(e) {
+    if (!e.target.closest('.topbar-account')) {
+        document.querySelectorAll('.topbar-account[open]').forEach(el => el.removeAttribute('open'));
+    }
+});
+document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {
+        if (e.target.closest('[data-desktop-nav]')) return;
+        const account = document.querySelector('.topbar-account[open]');
+        window.proErpCloseAllDropdowns?.();
+        account?.querySelector('summary')?.focus();
+    }
+});
+document.addEventListener('click', function(e) {
     let toggleBtn = e.target.closest('.js-dropdown-toggle');
     if (toggleBtn) {
         let container = toggleBtn.closest('.js-dropdown-container');
@@ -351,35 +364,42 @@ document.addEventListener('click', function(e) {
 });
 
 // ── Server Signal Ping ────────────────────────────────────────────────────────
-setInterval(async () => {
+let serverSignalCheckInProgress = false;
+async function checkServerSignal() {
     const signalIcon = document.getElementById('server-signal-icon');
-    if (!signalIcon) return;
-    
+    if (!signalIcon || document.hidden || serverSignalCheckInProgress) return;
+    serverSignalCheckInProgress = true;
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 5000);
+    const update = (state, text) => {
+        signalIcon.dataset.state = state;
+        signalIcon.parentElement.title = text;
+        const label = document.getElementById('server-signal-label');
+        if (label) label.textContent = text;
+    };
     try {
-        let start = performance.now();
-        let res = await fetch('/icon-192.png', { method: 'HEAD', cache: 'no-store' });
-        let latency = performance.now() - start;
-        
-        if (!res.ok) throw new Error('Offline');
-        
-        if (latency < 150) {
-            signalIcon.setAttribute('icon', 'material-symbols:signal-cellular-4-bar-rounded');
-            signalIcon.style.color = '#10b981'; // Green
-        } else if (latency < 350) {
-            signalIcon.setAttribute('icon', 'material-symbols:signal-cellular-3-bar-rounded');
-            signalIcon.style.color = '#f59e0b'; // Yellow/Orange
-        } else if (latency < 800) {
-            signalIcon.setAttribute('icon', 'material-symbols:signal-cellular-2-bar-rounded');
-            signalIcon.style.color = '#f97316'; // Orange
-        } else {
-            signalIcon.setAttribute('icon', 'material-symbols:signal-cellular-1-bar-rounded');
-            signalIcon.style.color = '#ef4444'; // Red
-        }
+        const start = performance.now();
+        const res = await fetch('/health', {
+            cache: 'no-store', redirect: 'error', signal: controller.signal,
+            headers: { Accept: 'application/json' }
+        });
+        if (!res.ok || (await res.json()).status !== 'healthy') throw new Error('Unhealthy');
+        const latency = performance.now() - start;
+        update(latency > 2000 ? 'slow' : 'connected',
+            latency > 2000 ? 'متصل بالخادم — الاستجابة بطيئة' : 'متصل بالخادم');
     } catch (e) {
-        signalIcon.setAttribute('icon', 'material-symbols:signal-cellular-connected-no-internet-0-bar-rounded');
-        signalIcon.style.color = '#ef4444';
+        update('disconnected', 'تعذر الاتصال بالخادم');
+    } finally {
+        clearTimeout(timeout);
+        serverSignalCheckInProgress = false;
     }
-}, 5000);
+}
+setInterval(checkServerSignal, 15000);
+document.addEventListener('visibilitychange', () => { if (!document.hidden) checkServerSignal(); });
+document.addEventListener('click', (event) => {
+    if (event.target.closest('.topbar-account summary')) checkServerSignal();
+});
+checkServerSignal();
 
 // ── Mobile Menu Toggle ──────────────────────────────────────────
 function setMobileMenuState(isOpen) {
@@ -433,6 +453,8 @@ window.proErpCloseMobileMenu = function() {
 };
 
 window.proErpCloseAllDropdowns = function() {
+    window.proErpCloseDesktopMenus?.();
+    document.querySelectorAll('.topbar-account[open]').forEach(function(el) { el.removeAttribute('open'); });
     document.querySelectorAll('.js-dropdown-container.open').forEach(function(el) { el.classList.remove('open'); });
     document.querySelectorAll('.js-dropdown-content.open').forEach(function(el) { el.classList.remove('open'); });
     document.querySelectorAll('.js-dropdown-arrow.open').forEach(function(el) { el.classList.remove('open'); });
@@ -441,17 +463,6 @@ window.proErpCloseAllDropdowns = function() {
 
 // ── Dynamic Sub-dropdown Max-Height ──────────────────────────────────────────
 // Adjusts the max-height of sub-dropdowns so they never overflow the bottom of the screen.
-document.addEventListener('mouseover', function (e) {
-    var item = e.target.closest('.premium-dropdown-item.has-sub');
-    if (item) {
-        var subDropdown = item.querySelector('.premium-sub-dropdown');
-        if (subDropdown) {
-            var rect = item.getBoundingClientRect();
-            var availableSpace = window.innerHeight - rect.top - 15; // 15px bottom padding
-            subDropdown.style.maxHeight = Math.max(availableSpace, 100) + 'px';
-        }
-    }
-});
 
 // ── Context Menu Safari Fix Removed ────────────────────────────────────────────────
 

@@ -1,6 +1,6 @@
 {
-  "version": "1.0.27",
-  "publishedAt": "2026-10-18T00:12:46.5994002Z",
+  "version": "1.0.28",
+  "publishedAt": "2026-10-22T14:24:08.6122431Z",
   "files": [
     {
       "path": "BCrypt.Net-Next.dll",
@@ -126,7 +126,7 @@
       "path": "Installer/ProERP.Desktop.zip",
       "hash": "5b7907c1f1c4db20c265d3375097f1802891c250c5ba0c8fea3198dcef81cfb9",
       "size": 1035496,
-      "lastModified": "2026-10-18T00:12:46.5896456Z"
+      "lastModified": "2026-10-22T14:24:08.60109Z"
     },
     {
       "path": "Installer/install.html",
@@ -372,7 +372,7 @@
       "path": "ProERP.Client.dll",
       "hash": "695ced8da48718d782beeffc2f9dc7f7f673f9723dbab93c651a7792a887c833",
       "size": 219136,
-      "lastModified": "2026-10-18T00:11:57.4273853Z"
+      "lastModified": "2026-10-22T14:23:20.7553416Z"
     },
     {
       "path": "ProERP.Domain.dll",
@@ -382,9 +382,9 @@
     },
     {
       "path": "ProERP.Infrastructure.dll",
-      "hash": "51b1233d1aa41b0dedd15e2ce2385c18707b0470859ff6ccf07a01451cb5a5a8",
-      "size": 6765568,
-      "lastModified": "2026-10-18T00:11:50.148085Z"
+      "hash": "9e9d3a8c84d198b247caef02cc0e1b847573b77a8533a84c81b226d8c179f151",
+      "size": 6769664,
+      "lastModified": "2026-10-22T14:23:13.3138729Z"
     },
     {
       "path": "ProERP.Licensing.dll",
@@ -396,31 +396,31 @@
       "path": "ProERP.Web.deps.json",
       "hash": "bf1bb54157dfb0ff865e0ca5300eba54eec123821442db31806f52ad5ab65388",
       "size": 79810,
-      "lastModified": "2026-10-18T00:12:23.9599118Z"
+      "lastModified": "2026-10-22T14:23:48.4335751Z"
     },
     {
       "path": "ProERP.Web.dll",
-      "hash": "a160be7171381c45a18e8d71ae3d8572c469c24e3b3f0e31dbd0ca1acceabbf2",
-      "size": 4857856,
-      "lastModified": "2026-10-18T00:12:22.2894427Z"
+      "hash": "663d93ee44a4bf69741291d509468875aad4502deff394a7906ab5bcf8b7fa83",
+      "size": 4964864,
+      "lastModified": "2026-10-22T14:23:46.4577062Z"
     },
     {
       "path": "ProERP.Web.exe",
       "hash": "134429738fe63e80a06d8d0c8694e79bc472bf116281078792116beec2ce0bb9",
       "size": 156160,
-      "lastModified": "2026-10-18T00:12:22.6845173Z"
+      "lastModified": "2026-10-22T14:23:46.8845286Z"
     },
     {
       "path": "ProERP.Web.runtimeconfig.json",
       "hash": "970743035d76a7ef2c555cfc93260778b13d03ed88608f31e046be7710f6ed0f",
       "size": 557,
-      "lastModified": "2026-10-18T00:12:23.5631722Z"
+      "lastModified": "2026-10-22T14:23:47.987337Z"
     },
     {
       "path": "ProERP.Web.staticwebassets.endpoints.json",
-      "hash": "10a1c4b9054632006782ccf2d43460d02886e748f428c3f6d1c559d81fb5e14e",
-      "size": 1545762,
-      "lastModified": "2026-10-18T00:12:42.930467Z"
+      "hash": "49e6a6f8091f1a5784865a513971f298feb6871a064013bd86df5864eeecc130",
+      "size": 1565193,
+      "lastModified": "2026-10-22T14:24:05.0422131Z"
     },
     {
       "path": "RBush.dll",
@@ -550,21 +550,21 @@
     },
     {
       "path": "wwwroot/ProERP.Web.styles.css",
-      "hash": "a304df45ebc7620df935460091ce6456e8b15af79a2b1ecfa0259f7610b66418",
-      "size": 17572,
-      "lastModified": "2026-10-13T16:19:10.5079378Z"
+      "hash": "4824eff629d121b7f2bb1e50d3255a82f11f51d5427d082ba3e41d5e3a278682",
+      "size": 27836,
+      "lastModified": "2026-10-22T14:23:47.3353348Z"
     },
     {
       "path": "wwwroot/ProERP.Web.styles.css.br",
-      "hash": "211154dca618b080e058f007b6be9aa48dd21da5dc751e30ad93f0be0d342d8c",
-      "size": 3153,
-      "lastModified": "2026-10-13T16:19:29.8586134Z"
+      "hash": "977707918d8a065a7d9bfcc7b54fddc09dda18a66cdf2b717353e9b9a011ca15",
+      "size": 4861,
+      "lastModified": "2026-10-22T14:24:04.4415092Z"
     },
     {
       "path": "wwwroot/ProERP.Web.styles.css.gz",
-      "hash": "0dd6fa2f01797600b430eb7dcb65e6f5856e1c9eb7c5a277d1eeb41ad548e472",
-      "size": 3707,
-      "lastModified": "2026-10-13T16:19:10.5430542Z"
+      "hash": "a2f1894d16baf275ac08994d3b4fdf9f69d1df0c590565578f09ce5737ad8cd5",
+      "size": 5652,
+      "lastModified": "2026-10-22T14:23:47.3962549Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/100.d7a0ac33f6d5ba1298e9.css",
@@ -1930,9 +1930,9 @@
     },
     {
       "path": "wwwroot/css/app.css",
-      "hash": "562e5f2f5c5474acc9a74e9afc4c1abd5453b87c4243435987e08c2956c1368a",
-      "size": 86160,
-      "lastModified": "2026-09-28T12:21:47.4214376Z"
+      "hash": "00bcfc3d38b01fb43516725bf4cce1f9a8aceb102301c59c47e88a1b354b306d",
+      "size": 80908,
+      "lastModified": "2026-10-22T13:42:42.2793939Z"
     },
     {
       "path": "wwwroot/css/app.css.bak",
@@ -1942,15 +1942,15 @@
     },
     {
       "path": "wwwroot/css/app.css.br",
-      "hash": "bf05cf26b2d8055c3dbd5d2f2aa56fb531228072124630881c0d8b5ef4b3d3d3",
-      "size": 11189,
-      "lastModified": "2026-10-06T12:08:45.8134447Z"
+      "hash": "ff51fb3510052109c1ef0cae9ca26bdd389cda0a417c33c7a39bb1e6091d147f",
+      "size": 11336,
+      "lastModified": "2026-10-22T14:24:04.5509578Z"
     },
     {
       "path": "wwwroot/css/app.css.gz",
-      "hash": "8b37393b01cbf289208e9e89bda2896d6a10f5fe2da3cc0c45dfbfd646b18437",
-      "size": 13318,
-      "lastModified": "2026-10-06T12:08:28.7620627Z"
+      "hash": "a8208308f9522113c115ec6dee8a648630fd24b9b290560a8c43d7f6a3c20f88",
+      "size": 13376,
+      "lastModified": "2026-10-22T14:23:47.398797Z"
     },
     {
       "path": "wwwroot/css/fonts.css",
@@ -1969,6 +1969,24 @@
       "hash": "69b7368bf51e2a47c76ca0a11544e6d0b50cc2c262b15ce7d1ca6f7b4aec3eeb",
       "size": 671,
       "lastModified": "2026-10-06T13:03:54.5854325Z"
+    },
+    {
+      "path": "wwwroot/css/theme.css",
+      "hash": "38b315311bcdef4597856bd36e510ba0abf1616049ebf198eef7fcab94475c83",
+      "size": 12724,
+      "lastModified": "2026-10-22T13:50:46.3903785Z"
+    },
+    {
+      "path": "wwwroot/css/theme.css.br",
+      "hash": "c842a3503317e5d09e2509f934a27289fdded59d7a9f71b7ca1dc2cb28035216",
+      "size": 2103,
+      "lastModified": "2026-10-22T14:24:04.4133157Z"
+    },
+    {
+      "path": "wwwroot/css/theme.css.gz",
+      "hash": "d27395ea6af53c0ecb04f0372845d441a36e6e3f928f417a116a79e65219cb54",
+      "size": 2525,
+      "lastModified": "2026-10-22T14:23:47.3952461Z"
     },
     {
       "path": "wwwroot/firebase-messaging-sw.js",
@@ -2038,21 +2056,39 @@
     },
     {
       "path": "wwwroot/js/dashboard.js",
-      "hash": "f8305359439380df062aa1c0ad024045d62cc589247549ebfb33248121b95ea6",
-      "size": 3255,
-      "lastModified": "2026-06-30T14:35:18Z"
+      "hash": "ecf510031ee76204aed1a0be4a5fc268b98732e2bb7fbc9cb878d999c789dec5",
+      "size": 4175,
+      "lastModified": "2026-10-22T13:18:44.6451545Z"
     },
     {
       "path": "wwwroot/js/dashboard.js.br",
-      "hash": "df31ee6ec3837a27e1998cc65ced6c5db75b4ef62c7b4d92bd5d7a89a716528f",
-      "size": 970,
-      "lastModified": "2026-08-10T16:12:15.6969011Z"
+      "hash": "23c5ee0ec2c37bcb6d3b1a888036e2403643917119a337a95af231dc3f4ad708",
+      "size": 1153,
+      "lastModified": "2026-10-22T14:24:04.399641Z"
     },
     {
       "path": "wwwroot/js/dashboard.js.gz",
-      "hash": "1b79fa3faae1f14d3bce1a796a3ab4a6e5917b1e9b2ebe7d336336259f542e5a",
-      "size": 1224,
-      "lastModified": "2026-08-10T16:12:01.465967Z"
+      "hash": "448b78e60ef64dfae1c5d8c117d48eba75c720623c5f4ac60745b67b75e12677",
+      "size": 1440,
+      "lastModified": "2026-10-22T14:23:47.3977851Z"
+    },
+    {
+      "path": "wwwroot/js/desktop-nav.js",
+      "hash": "1ec2297b1de3d803e0dde2c47b546f946e7c8dc0a34c9c31abb07a60cb5cf420",
+      "size": 7107,
+      "lastModified": "2026-10-22T13:12:17.8841396Z"
+    },
+    {
+      "path": "wwwroot/js/desktop-nav.js.br",
+      "hash": "ba88d4d53fd0bd9ec6345369a16422e6115b711414e28bace63ce3193889c1fd",
+      "size": 1599,
+      "lastModified": "2026-10-22T14:24:04.4056934Z"
+    },
+    {
+      "path": "wwwroot/js/desktop-nav.js.gz",
+      "hash": "87d9fbf2bc36164a9d26598d377a09c7ba2d81642d553db6bdc5605aeee14d3c",
+      "size": 1854,
+      "lastModified": "2026-10-22T14:23:47.3937053Z"
     },
     {
       "path": "wwwroot/js/firebase-push.js",
@@ -2218,39 +2254,39 @@
     },
     {
       "path": "wwwroot/js/theme.js",
-      "hash": "85bc7a98b0a961e5d6c31bf0129ea03a15e4b4cddfa92be48679540a9c790e41",
-      "size": 2072,
-      "lastModified": "2026-07-19T10:42:09.5060384Z"
+      "hash": "d72bcbc8c994423c6365510e7bb1b4d671c77b8b26e180bc46268665c9be7113",
+      "size": 2168,
+      "lastModified": "2026-10-22T13:17:37.5687153Z"
     },
     {
       "path": "wwwroot/js/theme.js.br",
-      "hash": "f83d1d4fd8ac1e5630437fab556ce57215676f4410797888f099c5333f1e971f",
-      "size": 523,
-      "lastModified": "2026-08-10T16:12:15.5762361Z"
+      "hash": "8b89312c02d972338f8cf90424383e6645b936f0cf9fd00011960863aaefecb2",
+      "size": 544,
+      "lastModified": "2026-10-22T14:24:04.3951053Z"
     },
     {
       "path": "wwwroot/js/theme.js.gz",
-      "hash": "f19dc575af31363ad18fa0ca7dbfe927a3b6e1ad3ef0b9ea92b26a5fa2af9a8b",
-      "size": 650,
-      "lastModified": "2026-08-10T16:12:01.4501351Z"
+      "hash": "71c6ce39d580d62890a6334b2dba29a8a7fed9efc9b5fafdd9faf29f93b6e190",
+      "size": 678,
+      "lastModified": "2026-10-22T14:23:47.3937053Z"
     },
     {
       "path": "wwwroot/js/utils.js",
-      "hash": "883a03a46f6b5bcfb40e8e519c25c86c25037609c5f0f774bb5028ed9dc6f6bd",
-      "size": 23146,
-      "lastModified": "2026-08-22T09:37:51.6141175Z"
+      "hash": "3801305effc5e3cb3cc58f399da4f06f194bad7b055a953bc9e71fdc90e7414b",
+      "size": 23704,
+      "lastModified": "2026-10-22T12:51:44.9286006Z"
     },
     {
       "path": "wwwroot/js/utils.js.br",
-      "hash": "6af6a46586e3689404f3942f513cede0e405bb5c507dfe1e2d4ac35f5cd029fd",
-      "size": 4951,
-      "lastModified": "2026-08-23T09:41:10.0325205Z"
+      "hash": "a99ba8ae549f27bb5776590c3751dd39cad7f3aeb1a85fb783d929225048b81e",
+      "size": 5141,
+      "lastModified": "2026-10-22T14:24:04.4288511Z"
     },
     {
       "path": "wwwroot/js/utils.js.gz",
-      "hash": "0d5e81a8faf8e5a600a85186d2c4f26bea74519dca5c0cefe37329ba6b43364a",
-      "size": 5881,
-      "lastModified": "2026-08-23T09:40:52.7674038Z"
+      "hash": "2026473411491acf2585186625a4714433547cbd7cd0985968f2a4c382e5a87f",
+      "size": 6125,
+      "lastModified": "2026-10-22T14:23:47.3967626Z"
     },
     {
       "path": "wwwroot/logo.png",
@@ -3720,19 +3756,19 @@
       "path": "wwwroot/sales/pos-offline/_framework/blazor.boot.json",
       "hash": "e97ba44c0febd190282bc3ba2e094c10d3639846cc8ba2e947289448e09fecaa",
       "size": 14623,
-      "lastModified": "2026-10-18T00:12:38.4227016Z"
+      "lastModified": "2026-10-22T14:24:03.1473113Z"
     },
     {
       "path": "wwwroot/sales/pos-offline/_framework/blazor.boot.json.br",
       "hash": "4f35acf60652659759737adf49e4e73a079b304ca8fa9f8107a0abef02115a1f",
       "size": 4402,
-      "lastModified": "2026-10-18T00:12:38.7453418Z"
+      "lastModified": "2026-10-22T14:24:03.4368669Z"
     },
     {
       "path": "wwwroot/sales/pos-offline/_framework/blazor.boot.json.gz",
       "hash": "5111b0dd9a879c9ddabef50a5a3d2720c917f6e2a3b015310993eb950aa20fe4",
       "size": 4818,
-      "lastModified": "2026-10-18T00:12:38.4600739Z"
+      "lastModified": "2026-10-22T14:24:03.1909977Z"
     },
     {
       "path": "wwwroot/sales/pos-offline/_framework/blazor.webassembly.js",
@@ -4011,5 +4047,5 @@
       "lastModified": "2026-04-04T18:10:55Z"
     }
   ],
-  "signature": "ifJWVBfcYsWa2QrD03bIkvTc8vHlDYQYMthWhKB+Z3GqwXsMdEx8Ey/fSpHglalzW3NYfwjZof7zMKb+xjV9j6vYhJwlf3CmA3DK5SFAWRSJhlp9KYxHs/9I+dSixnr3yYGtCqhHpOU+Kyjx7Wr7jmqizW8FFRjg6lU/L694XjZLUYChOS9D94NfvlrWOXV1w0giZc9/OaNlMUlRfBH04J0xEOkVOgnrctXsCUVEeuhYvYs23TE5jskdSmQEAunoFEPKeiKAZyX+ik9qKv6+wjjjs49/4iSXIkomWJHAa2z1/1FrmGpvxhdEUuxn9JW6tqu5qsKI1kNckzmrZLrpfeDr+I9w2acVkHOdXUEL7P1gijFBD2KI9qAriu3Ntfn94dfid0y8cfiaqTTD5fh+uID7+nN/X54ogkkUZ3jUCaY2W+s9QNkiTcXlOFpb4+EWzT8IFf7JnCL9SdaLypmm32iD/YHjqNSlaS+kC1WkmBMV4qHjlrUD2VUn8OFBrmZ2"
+  "signature": "Ux4kllALv0pTc70hDiztXscTRxEvWUSFRdEggSc/UKOMZpfvAp0XDdNnaVaNSXMkRjLv8BiBJu4Jt+r88Qg0ehJeYMinqLsnCV8/OP+XMf+kd+AI8jVDdkb+8wIUfO52aLQtFWnXiHXrCaqsC92wnO341xE/9xVvv0BwtdTgmfKfBSbQLDInzoIMaA52tHTiepNek6r6YfCrbPVdiWmeYB82Fh7m/3hUEapxdnNqlnjfZn8KxS6p6feaAun54opfGAuCZaBdGYe74pkSqG0m+l/J9oHa4nsPfUx6+9jt+M45OeZasEB7xAzU55oA8p9Uq6Y8es8mUEdB9Tb7tEK0cxlVXR6ViyHIGiYshyciR+REwo+eDCd/toGaaaYsJKyuw3NtTO1fDjNeKpKC0p+YtuMF9yMNSo0KnisJYxpvcx0RVnlEPsjyKhlxY9QBx/s6wCD+JEbPnA3rlYuosJw6646BViSSuHWO24mgKIBNc3RgWr11k9/2gsp0Soznur6i"
 }

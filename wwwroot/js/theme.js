@@ -10,8 +10,9 @@ window.themeHelper = {
 
     applyToDocument: function (theme) {
         document.documentElement.setAttribute('data-theme', theme);
+        if (typeof window.updateDashboardTheme === 'function') window.updateDashboardTheme();
         var meta = document.querySelector('meta[name="theme-color"]');
-        if (meta) meta.setAttribute('content', theme === 'light' ? '#f4f7fb' : '#03173d');
+        if (meta) meta.setAttribute('content', theme === 'light' ? '#f4f7fb' : '#141414');
     },
 
     // Called once after login to record the current user and apply their theme.
