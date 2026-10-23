@@ -26,6 +26,24 @@
 @media(max-width:1100px) { .hours-filters[b-tnzgpjbmew] { grid-template-columns:minmax(320px,1fr) minmax(230px,1fr); gap:18px; } .filter-action[b-tnzgpjbmew] { grid-column:1 / -1; display:flex; justify-content:flex-end; } }
 @media(max-width:650px) { .hours-filters[b-tnzgpjbmew] { grid-template-columns:minmax(0,1fr); padding:16px; gap:18px; } .cycle-navigation[b-tnzgpjbmew] { gap:6px; } .cycle-button[b-tnzgpjbmew] { padding:10px 8px; font-size:.75rem; } .cycle-caption strong[b-tnzgpjbmew] { font-size:.85rem; } .cycle-caption span[b-tnzgpjbmew] { font-size:.68rem; } .report-button[b-tnzgpjbmew] { width:100%; } }
 .attendance-hours[b-tnzgpjbmew] { --bg-card:var(--clr-surface); --text-primary:var(--clr-text); --text-secondary:var(--clr-muted); }
+/* _content/ProERP.Web/Components/Pages/Inventory/InventoryCount.razor.rz.scp.css */
+.count-page[b-4x067tir8u] { display:grid; gap:1rem; color:var(--ui-text); }
+.count-page p[b-4x067tir8u],.count-page small[b-4x067tir8u] { color:var(--ui-text-secondary); }
+.count-panel[b-4x067tir8u] { padding:1rem; background:var(--ui-surface); border:1px solid var(--ui-border); border-radius:12px; display:grid; gap:1rem; }
+.count-actions[b-4x067tir8u] { display:flex; align-items:center; gap:.6rem; flex-wrap:wrap; }
+.count-actions h2[b-4x067tir8u] { font-size:1.1rem; margin:0; margin-inline-end:auto; }
+.count-fields[b-4x067tir8u] { display:flex; gap:1rem; flex-wrap:wrap; }
+.count-fields label[b-4x067tir8u] { display:grid; gap:.4rem; flex:1 1 240px; min-width:0; font-size:.85rem; }
+.count-notice[b-4x067tir8u],.count-error[b-4x067tir8u] { padding:.8rem 1rem; border:1px solid var(--ui-border); border-radius:8px; background:var(--ui-surface-raised); line-height:1.8; }
+.count-error[b-4x067tir8u] { color:var(--ui-danger-text); }
+.count-table-wrap[b-4x067tir8u] { overflow-x:auto; }
+.count-table[b-4x067tir8u] { width:100%; border-collapse:collapse; font-size:.85rem; }
+.count-table td[b-4x067tir8u],.count-table th[b-4x067tir8u] { padding:.65rem; border-bottom:1px solid var(--ui-border); text-align:start; white-space:nowrap; }
+.count-table th[b-4x067tir8u] { color:var(--ui-text-secondary); }
+.count-table[b-4x067tir8u]  .rz-numeric { width:115px; }
+.count-fields[b-4x067tir8u]  .rz-dropdown,.count-fields[b-4x067tir8u]  .rz-textbox { width:100%; }
+.count-picker[b-4x067tir8u]  .rz-dropdown { min-width:280px; flex:1; }
+@media(max-width:640px){.count-panel[b-4x067tir8u]{padding:.75rem}.count-actions[b-4x067tir8u]  .rz-button{max-width:100%}.count-picker[b-4x067tir8u]  .rz-dropdown{min-width:0;width:100%;flex-basis:100%}}
 /* _content/ProERP.Web/Components/Pages/Sales/InstallmentPlanDialog.razor.rz.scp.css */
 .installment-dialog[b-7p4wttxwsz]{--id-ink:var(--text-primary,#24313b);--id-muted:var(--text-secondary,#697781);--id-line:var(--clr-border,#e2e8eb);--id-brand:var(--clr-primary,#176b5b);--id-soft:color-mix(in srgb,var(--id-brand) 7%,white);color:var(--id-ink);background:var(--clr-surface,#fff);max-height:min(78vh,820px);display:flex;flex-direction:column;min-height:420px}
 .installment-loading[b-7p4wttxwsz],.installment-empty[b-7p4wttxwsz]{min-height:360px;display:grid;place-items:center;color:var(--id-muted)}
@@ -88,6 +106,18 @@ label[b-wq4g5pxonn]{display:block;font-size:14px;margin-bottom:10px}.remote-inpu
 small[b-wq4g5pxonn]{font-size:12px;color:var(--rz-text-secondary-color)}.remote-consent[b-wq4g5pxonn]{display:flex;align-items:flex-start;gap:8px;margin:24px 0 18px;line-height:1.8}.remote-consent input[b-wq4g5pxonn]{margin-top:6px}.remote-actions[b-wq4g5pxonn]{display:flex;gap:10px;flex-wrap:wrap}.remote-message[b-wq4g5pxonn]{margin-top:20px;padding:12px;background:var(--rz-base-100);border-radius:10px;font-size:14px;line-height:1.8}.remote-error[b-wq4g5pxonn]{padding:14px;margin-top:16px;border-radius:10px;background:#fff0ef;color:#a32320}
 .remote-link[b-wq4g5pxonn]{display:flex;align-items:center;gap:14px;margin-top:16px}.remote-link input[b-wq4g5pxonn]{min-width:0;flex:1;border:1px solid var(--rz-base-300);border-radius:8px;background:transparent;color:inherit;padding:10px}.remote-link a[b-wq4g5pxonn]{color:var(--rz-primary);white-space:nowrap}aside[b-wq4g5pxonn]{display:flex;gap:10px;padding:18px 8px;font-size:13px}aside[b-wq4g5pxonn]  .rz-icon{color:var(--rz-primary);flex-shrink:0}
 @media(max-width:600px){.remote-page[b-wq4g5pxonn]{margin:16px auto;padding:0 12px}.remote-card[b-wq4g5pxonn]{padding:18px}h1[b-wq4g5pxonn]{font-size:20px}.remote-link[b-wq4g5pxonn]{flex-wrap:wrap}.remote-link input[b-wq4g5pxonn]{flex-basis:100%}}
+/* _content/ProERP.Web/Components/Shared/AverageCostRebuildDialog.razor.rz.scp.css */
+.cost-rebuild[b-qs49tfhn3y] { display:flex; flex-direction:column; gap:14px; color:var(--ui-text); }
+.cost-rebuild p[b-qs49tfhn3y] { margin:0; line-height:1.8; }
+.cost-notice[b-qs49tfhn3y] { padding:12px; border:1px solid var(--ui-border); border-radius:8px; background:var(--ui-surface-raised); color:var(--ui-text-secondary); line-height:1.8; font-size:.85rem; }
+.cost-progress[b-qs49tfhn3y], .cost-result[b-qs49tfhn3y] { display:flex; flex-wrap:wrap; gap:12px; justify-content:space-between; font-size:.85rem; }
+.cost-result[b-qs49tfhn3y] { padding:10px 0; border-bottom:1px solid var(--ui-border); }
+progress[b-qs49tfhn3y] { display:block; width:100%; height:12px; accent-color:var(--ui-primary); }
+.cost-error[b-qs49tfhn3y] { padding:12px; color:var(--ui-danger-text); border:1px solid currentColor; border-radius:8px; }
+.cost-confirm[b-qs49tfhn3y] { display:flex; align-items:flex-start; gap:8px; line-height:1.8; font-size:.85rem; }
+.cost-confirm input[b-qs49tfhn3y] { margin-top:6px; accent-color:var(--ui-primary); }
+small[b-qs49tfhn3y] { color:var(--ui-text-secondary); line-height:1.8; }
+.cost-actions[b-qs49tfhn3y] { display:flex; flex-wrap:wrap; gap:8px; justify-content:flex-end; border-top:1px solid var(--ui-border); padding-top:14px; }
 /* _content/ProERP.Web/Components/Shared/ListDateFilter.razor.rz.scp.css */
 .list-date-filter[b-rlq0xzy9to]{width:100%;min-width:0;margin-bottom:14px;color:var(--clr-text);font-size:13px}
 .list-date-presets[b-rlq0xzy9to]{display:flex;align-items:center;flex-wrap:wrap;gap:6px}
@@ -144,3 +174,6 @@ h1[b-z5i5asqeq4]{margin:0;font-size:21px;font-weight:600;line-height:1.5;color:v
 .report-header-actions[b-z5i5asqeq4]{display:flex;align-items:center;gap:8px;flex-shrink:0;flex-wrap:wrap}
 @media(max-width:700px){.report-page-header[b-z5i5asqeq4]{flex-wrap:wrap;gap:12px}h1[b-z5i5asqeq4]{font-size:19px}.report-header-actions[b-z5i5asqeq4]{width:100%;justify-content:flex-start}}
 @media print{.report-page-header[b-z5i5asqeq4]{justify-content:center;text-align:center;border:0;margin-bottom:12px;padding:0}.report-heading[b-z5i5asqeq4]{justify-content:center}.report-header-actions[b-z5i5asqeq4],.report-heading[b-z5i5asqeq4]  .report-heading-icon{display:none!important}h1[b-z5i5asqeq4]{color:#111}p[b-z5i5asqeq4]{color:#333}}
+/* _content/ProERP.Web/Components/Shared/UserAvatar.razor.rz.scp.css */
+.user-avatar[b-oshwn6eq34] { display:inline-flex; align-items:center; justify-content:center; flex:0 0 32px; width:32px; height:32px; overflow:hidden; border-radius:50%; border:1px solid var(--ui-border); background:var(--ui-surface-raised); color:var(--ui-text-secondary); font-size:.75rem; font-weight:600; line-height:1; }
+.user-avatar img[b-oshwn6eq34] { display:block; width:100%; height:100%; object-fit:cover; }

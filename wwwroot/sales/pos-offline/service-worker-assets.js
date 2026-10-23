@@ -1,5 +1,5 @@
 self.assetsManifest = {
-  "version": "OInjzxLM",
+  "version": "MgLZyhWI",
   "assets": [
     {
       "hash": "sha256-iybf90y3kfW5bciTdjo7Kd4sQAffs/Ofr5q6N3ZEGmM=",
@@ -210,16 +210,16 @@ self.assetsManifest = {
       "url": "sales/pos-offline/_framework/Microsoft.JSInterop.uu8izyvyxp.wasm"
     },
     {
-      "hash": "sha256-wnxkDz8Xh9URxSR+JoPQatftTFumNOy49aONeLx/NiI=",
-      "url": "sales/pos-offline/_framework/ProERP.Application.qq8u9zyv2y.wasm"
+      "hash": "sha256-Rco0knXlOSfTTb/mZe3Lf/s+Y2igZN+oXSHMoFsMk64=",
+      "url": "sales/pos-offline/_framework/ProERP.Application.j22pvcbm0g.wasm"
     },
     {
-      "hash": "sha256-rxOmpi2QWvuGySKGiS7djg8dVDFDoIyBE+Z+UNbfvGg=",
-      "url": "sales/pos-offline/_framework/ProERP.Client.hkj52q530q.wasm"
+      "hash": "sha256-ernHZ2NDHWwFvdM3XQ/gz+KqNGaYOPqWCcRGOBn8uQc=",
+      "url": "sales/pos-offline/_framework/ProERP.Client.2e4lkvko3q.wasm"
     },
     {
-      "hash": "sha256-Wo09fNG7zTgLqWvSfXgKOUo8dUf+3aLwRiK+bmYelBk=",
-      "url": "sales/pos-offline/_framework/ProERP.Domain.m9sx4b7ays.wasm"
+      "hash": "sha256-ufV4EESpppHndJyhsbDihAnHNLEIX7IHSUMvq/Rnn4U=",
+      "url": "sales/pos-offline/_framework/ProERP.Domain.3d3phfqt56.wasm"
     },
     {
       "hash": "sha256-c51Rm/epWpUkOdSo+vG0D21x/ELxcU0y/Rf91hcn6qE=",
@@ -330,8 +330,8 @@ self.assetsManifest = {
       "url": "sales/pos-offline/_framework/System.ObjectModel.tev8wya9sx.wasm"
     },
     {
-      "hash": "sha256-T+j+yjJTqmSCvy4Zi3lmnWtMTX0mDWxqI4mQCi1xDKw=",
-      "url": "sales/pos-offline/_framework/System.Private.CoreLib.92i90t03r4.wasm"
+      "hash": "sha256-hc6LkkAZ1489pkU+pYeagO7I/ywdf9f5dS2ZkwQ9qj4=",
+      "url": "sales/pos-offline/_framework/System.Private.CoreLib.dqp1eelyin.wasm"
     },
     {
       "hash": "sha256-BGkVZMrm36WoLeS1JkCRYrVqS1VPWAQOAhi21G+iS+Y=",
@@ -414,7 +414,7 @@ self.assetsManifest = {
       "url": "sales/pos-offline/_framework/System.sal18ehrzx.wasm"
     },
     {
-      "hash": "sha256-6XukTA/r0ZAoK8O6LglMENNjmEbMi6LpRyiUSOCf7Ko=",
+      "hash": "sha256-v1bBT2a+f60FHoroAoEFBMd0gU3ZiOERVOdvNkXETMo=",
       "url": "sales/pos-offline/_framework/blazor.boot.json"
     },
     {
