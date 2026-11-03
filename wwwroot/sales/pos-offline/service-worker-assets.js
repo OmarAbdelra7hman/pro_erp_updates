@@ -1,5 +1,5 @@
 self.assetsManifest = {
-  "version": "+Kq5UPpI",
+  "version": "jrR5gRYH",
   "assets": [
     {
       "hash": "sha256-iybf90y3kfW5bciTdjo7Kd4sQAffs/Ofr5q6N3ZEGmM=",
@@ -210,12 +210,12 @@ self.assetsManifest = {
       "url": "sales/pos-offline/_framework/Microsoft.JSInterop.uu8izyvyxp.wasm"
     },
     {
-      "hash": "sha256-AfMKCeMZla7EadQsBYeJeBFzmPHUZtx6HpSKRuoLAPE=",
-      "url": "sales/pos-offline/_framework/ProERP.Application.nm5a2orm3m.wasm"
+      "hash": "sha256-WsBo3vDiZoF92CtD9KuqDONuKkcJPq1Yt2dj1vPddYM=",
+      "url": "sales/pos-offline/_framework/ProERP.Application.2umjmgnx81.wasm"
     },
     {
-      "hash": "sha256-YC+CkflcK1AIrxIGTo586WDfr6dtkKEN3sABOLkhb18=",
-      "url": "sales/pos-offline/_framework/ProERP.Client.w4z6kxkl15.wasm"
+      "hash": "sha256-6hGwHaUE5Ixnx7mO18lGV8g1+wR0Wx25FmLjLKpRvlw=",
+      "url": "sales/pos-offline/_framework/ProERP.Client.ymvr16od0w.wasm"
     },
     {
       "hash": "sha256-ufV4EESpppHndJyhsbDihAnHNLEIX7IHSUMvq/Rnn4U=",
@@ -224,10 +224,6 @@ self.assetsManifest = {
     {
       "hash": "sha256-c51Rm/epWpUkOdSo+vG0D21x/ELxcU0y/Rf91hcn6qE=",
       "url": "sales/pos-offline/_framework/Radzen.Blazor.b690vsoizk.wasm"
-    },
-    {
-      "hash": "sha256-tHdhNYyeAfxaa39GSGzT3J2gs42X2LOCeYsHtm5GBvY=",
-      "url": "sales/pos-offline/_framework/System.Collections.4kmidau32r.wasm"
     },
     {
       "hash": "sha256-0JspBuDowni7jfzeko6iQdeZD0VeUn5xrkaA5zhxBVc=",
@@ -244,6 +240,10 @@ self.assetsManifest = {
     {
       "hash": "sha256-O5QV0dTLEzUwa+dB4KjlFDqlsTjSiYzBwJ2h7UQeTFE=",
       "url": "sales/pos-offline/_framework/System.Collections.Specialized.rcvy5fwo5s.wasm"
+    },
+    {
+      "hash": "sha256-8qWMqsc3I7k025eXc0BKjX2aAnqC/tEP7FgLvjjKmk0=",
+      "url": "sales/pos-offline/_framework/System.Collections.y4o704m522.wasm"
     },
     {
       "hash": "sha256-sGYieHdgw5IYQ7vqKHRDxXtdSfe+rWVo2Iqqa4NUFdg=",
@@ -362,16 +362,16 @@ self.assetsManifest = {
       "url": "sales/pos-offline/_framework/System.Reflection.Primitives.5ybbos7qyp.wasm"
     },
     {
-      "hash": "sha256-h7d6L+wgSvdw6mSYjbs2nFS0QgodXL6WxdbSFsvE+pk=",
-      "url": "sales/pos-offline/_framework/System.Runtime.351zfypw3d.wasm"
-    },
-    {
       "hash": "sha256-8B2R7FrmNIJy3i9dSdutuqyQYcH4RS4pd0ZYUpDCeDw=",
       "url": "sales/pos-offline/_framework/System.Runtime.InteropServices.JavaScript.oi1p6xyhwl.wasm"
     },
     {
       "hash": "sha256-54928VgXdJFwpC3yfzGunN7NtmaDSbcy3pMwRGqsLoA=",
       "url": "sales/pos-offline/_framework/System.Runtime.InteropServices.brd53azllb.wasm"
+    },
+    {
+      "hash": "sha256-iHZuEu3Z0mgDYzOKkoEDWuLJocAIASiKKwBMm7FjLPM=",
+      "url": "sales/pos-offline/_framework/System.Runtime.snrm1wica3.wasm"
     },
     {
       "hash": "sha256-/MQhwLm28dEIUtm1LivwxWYsawN0Tvt24BA87XW7FT8=",
@@ -414,7 +414,7 @@ self.assetsManifest = {
       "url": "sales/pos-offline/_framework/System.sal18ehrzx.wasm"
     },
     {
-      "hash": "sha256-nq2homQastjKeBiWcT4wPOw6YzqP2jZ21vlb97ozkm4=",
+      "hash": "sha256-R+vvxLi1Dqr0gs825AwtbaVha4JzebeMHhbzQA2WU6M=",
       "url": "sales/pos-offline/_framework/blazor.boot.json"
     },
     {

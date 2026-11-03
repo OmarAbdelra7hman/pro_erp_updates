@@ -1,6 +1,6 @@
 {
-  "version": "1.0.32",
-  "publishedAt": "2026-10-23T19:58:28.127463Z",
+  "version": "1.0.33",
+  "publishedAt": "2026-11-03T11:01:53.3159165Z",
   "files": [
     {
       "path": "BCrypt.Net-Next.dll",
@@ -126,7 +126,7 @@
       "path": "Installer/ProERP.Desktop.zip",
       "hash": "5b7907c1f1c4db20c265d3375097f1802891c250c5ba0c8fea3198dcef81cfb9",
       "size": 1035496,
-      "lastModified": "2026-10-23T19:58:28.1181503Z"
+      "lastModified": "2026-11-03T11:01:53.3067331Z"
     },
     {
       "path": "Installer/install.html",
@@ -364,15 +364,15 @@
     },
     {
       "path": "ProERP.Application.dll",
-      "hash": "4798331d6680b6697f10e9b5ebfe4511438f248732ed7ece9e7ade105ce876a8",
-      "size": 836096,
-      "lastModified": "2026-10-23T19:57:11.4880296Z"
+      "hash": "9f080db363571a088a9dc9233040ec78a7d424f01d6f76b94805e3ff100308b6",
+      "size": 887808,
+      "lastModified": "2026-11-03T11:00:13.6830101Z"
     },
     {
       "path": "ProERP.Client.dll",
-      "hash": "e14b427247991709c4955243b931bf4081410b9d9e22e17ce8bb12bcdcc858bc",
+      "hash": "f5878356aabc66ad34881ec9425b8dc01afe62518e1827c8a8f72bd05ac3d859",
       "size": 219136,
-      "lastModified": "2026-10-23T19:57:37.3205878Z"
+      "lastModified": "2026-11-03T11:00:44.8544316Z"
     },
     {
       "path": "ProERP.Domain.dll",
@@ -382,9 +382,9 @@
     },
     {
       "path": "ProERP.Infrastructure.dll",
-      "hash": "7f2cc01442c427ef5393c2deb89bd562b305c880ec20d7247846ffbec954fdc7",
-      "size": 7130624,
-      "lastModified": "2026-10-23T19:57:30.1040015Z"
+      "hash": "e85cbe983b1b7d77926d4e9e2a09b1cca77f51f0c3d7a00719b383283da68e84",
+      "size": 7159296,
+      "lastModified": "2026-11-03T11:00:35.8377078Z"
     },
     {
       "path": "ProERP.Licensing.dll",
@@ -396,31 +396,31 @@
       "path": "ProERP.Web.deps.json",
       "hash": "bf1bb54157dfb0ff865e0ca5300eba54eec123821442db31806f52ad5ab65388",
       "size": 79810,
-      "lastModified": "2026-10-23T13:41:09.0038114Z"
+      "lastModified": "2026-11-03T11:01:17.2933715Z"
     },
     {
       "path": "ProERP.Web.dll",
-      "hash": "1daa79bbf17a88a5adbf4e06aeefdb21cc26addd1b220663c37276896adeb3a6",
-      "size": 5035008,
-      "lastModified": "2026-10-23T19:58:04.1791732Z"
+      "hash": "92d11cc177b5dcc37cff7088816ebdedb24f3c7d12a248df8022d93d519a0492",
+      "size": 5069824,
+      "lastModified": "2026-11-03T11:01:14.9549857Z"
     },
     {
       "path": "ProERP.Web.exe",
       "hash": "134429738fe63e80a06d8d0c8694e79bc472bf116281078792116beec2ce0bb9",
       "size": 156160,
-      "lastModified": "2026-10-23T19:58:04.5555536Z"
+      "lastModified": "2026-11-03T11:01:15.3171527Z"
     },
     {
       "path": "ProERP.Web.runtimeconfig.json",
       "hash": "970743035d76a7ef2c555cfc93260778b13d03ed88608f31e046be7710f6ed0f",
       "size": 557,
-      "lastModified": "2026-10-23T13:41:08.5217731Z"
+      "lastModified": "2026-11-03T11:01:16.8025817Z"
     },
     {
       "path": "ProERP.Web.staticwebassets.endpoints.json",
-      "hash": "808e54e1b2fc6afc36ab4a33ea3421493f14b30f6632b33b425dde92bf9b7c26",
-      "size": 1573578,
-      "lastModified": "2026-10-23T19:58:24.9770371Z"
+      "hash": "3b673a0a0fd274f32ee13df1fe5e04eaf61f05913f7b2ef1d7b7f26a86c8cb40",
+      "size": 2463592,
+      "lastModified": "2026-11-03T11:01:49.5883676Z"
     },
     {
       "path": "RBush.dll",
@@ -544,21 +544,21 @@
     },
     {
       "path": "wwwroot/ProERP.Web.styles.css",
-      "hash": "4bdb4ecb289791847c7cbcfda0e3815277f7f0da452d89015df6b9737863f61d",
-      "size": 31519,
-      "lastModified": "2026-10-23T13:41:07.909217Z"
+      "hash": "6d68cc968489a63dac50f4050f830b904fe3c0ea21abb04f0328a8701064a283",
+      "size": 39639,
+      "lastModified": "2026-11-03T11:01:15.8052536Z"
     },
     {
       "path": "wwwroot/ProERP.Web.styles.css.br",
-      "hash": "b097632ab6b3e8996ec82a28fc067f0f07602184fc74edbc4ac5be07f1faafc6",
-      "size": 5451,
-      "lastModified": "2026-10-23T13:41:31.7499366Z"
+      "hash": "b4e5c07d358aa347dafd5e7df87077be78e5af684f7de0abac6febc5161b882e",
+      "size": 6597,
+      "lastModified": "2026-11-03T11:01:48.7435285Z"
     },
     {
       "path": "wwwroot/ProERP.Web.styles.css.gz",
-      "hash": "7a27d72b0a8ac3023ed1638043533439c9952cd54ab99c05d2277ef3af229ba4",
-      "size": 6291,
-      "lastModified": "2026-10-23T13:41:07.9562634Z"
+      "hash": "77af90028cb0b6fdbbe7cb1883114adb5e49bab5c60cd02938cb02004194a488",
+      "size": 7603,
+      "lastModified": "2026-11-03T11:01:15.881564Z"
     },
     {
       "path": "wwwroot/WebReportDesigner/100.d7a0ac33f6d5ba1298e9.css",
@@ -1924,9 +1924,9 @@
     },
     {
       "path": "wwwroot/css/app.css",
-      "hash": "00bcfc3d38b01fb43516725bf4cce1f9a8aceb102301c59c47e88a1b354b306d",
-      "size": 80908,
-      "lastModified": "2026-10-22T13:42:42.2793939Z"
+      "hash": "5908f07a682cc9663c3c5e4f8a960de759e0f2cfddd156d344d51e36cff6b215",
+      "size": 86780,
+      "lastModified": "2026-10-26T05:33:33.8956263Z"
     },
     {
       "path": "wwwroot/css/app.css.bak",
@@ -1936,15 +1936,15 @@
     },
     {
       "path": "wwwroot/css/app.css.br",
-      "hash": "ff51fb3510052109c1ef0cae9ca26bdd389cda0a417c33c7a39bb1e6091d147f",
-      "size": 11336,
-      "lastModified": "2026-10-22T14:24:04.5509578Z"
+      "hash": "4dec75879d5c64ebba372a957ceedce7865cbdd5e5e6ff80493cf145960458f8",
+      "size": 12406,
+      "lastModified": "2026-11-03T11:01:37.2076283Z"
     },
     {
       "path": "wwwroot/css/app.css.gz",
-      "hash": "a8208308f9522113c115ec6dee8a648630fd24b9b290560a8c43d7f6a3c20f88",
-      "size": 13376,
-      "lastModified": "2026-10-22T14:23:47.398797Z"
+      "hash": "7446649c49bc20558fa5c2dfb7a95e7fa7b064affaaaf3d9072ccbed291f8c6a",
+      "size": 14674,
+      "lastModified": "2026-11-03T11:01:15.8764082Z"
     },
     {
       "path": "wwwroot/css/fonts.css",
@@ -2068,21 +2068,21 @@
     },
     {
       "path": "wwwroot/js/dashboard.js",
-      "hash": "ecf510031ee76204aed1a0be4a5fc268b98732e2bb7fbc9cb878d999c789dec5",
-      "size": 4175,
-      "lastModified": "2026-10-22T13:18:44.6451545Z"
+      "hash": "658ae2edb0c2db573483dfd6f3b4cc36b4fb04d68abe0171b32d0a9a26a99e94",
+      "size": 5800,
+      "lastModified": "2026-10-27T00:03:50.2249781Z"
     },
     {
       "path": "wwwroot/js/dashboard.js.br",
-      "hash": "23c5ee0ec2c37bcb6d3b1a888036e2403643917119a337a95af231dc3f4ad708",
-      "size": 1153,
-      "lastModified": "2026-10-22T14:24:04.399641Z"
+      "hash": "fdec5330a442e5973481906219d8deb3dc9ee4fdeef26bcc570a4f1666fa06af",
+      "size": 1588,
+      "lastModified": "2026-11-03T11:01:37.0778011Z"
     },
     {
       "path": "wwwroot/js/dashboard.js.gz",
-      "hash": "448b78e60ef64dfae1c5d8c117d48eba75c720623c5f4ac60745b67b75e12677",
-      "size": 1440,
-      "lastModified": "2026-10-22T14:23:47.3977851Z"
+      "hash": "8d580313431c690bb2bc82c8a8db9367f49c7a103298ed9a5396ff49fbed50f2",
+      "size": 1969,
+      "lastModified": "2026-11-03T11:01:15.8835874Z"
     },
     {
       "path": "wwwroot/js/desktop-nav.js",
@@ -2140,39 +2140,39 @@
     },
     {
       "path": "wwwroot/js/iconBundle.js",
-      "hash": "99f8f791e52378a89c7570ea428ac19ce37e07ccb6039a51fda4c7debef37305",
-      "size": 81347,
-      "lastModified": "2026-05-12T11:51:16Z"
+      "hash": "be6e51b9366826cbbedcddf2d9d4a112aed6998541f63effc27f3a9ec5f02d7b",
+      "size": 120348,
+      "lastModified": "2026-10-26T10:53:57.2807911Z"
     },
     {
       "path": "wwwroot/js/iconBundle.js.br",
-      "hash": "be93a78ce71d86e60805e957f9ed2ae50fffca0458d8ed00acc61dfccfa28367",
-      "size": 20715,
-      "lastModified": "2026-08-10T16:12:15.8875602Z"
+      "hash": "2f6a6c2cc5ac66602ab027988edfa6a29f32e0b050fa26f136cdfb4403172735",
+      "size": 29742,
+      "lastModified": "2026-11-03T11:01:37.3970958Z"
     },
     {
       "path": "wwwroot/js/iconBundle.js.gz",
-      "hash": "fcf2839ef93ded69f827b676154d5b9b28efd4b666a97aa114996b618fb9e2e3",
-      "size": 24517,
-      "lastModified": "2026-08-10T16:12:01.4736919Z"
+      "hash": "1a27ba879d0376024c12a02378619e872fde3ad4dc67a71ae3f8a9615fe11823",
+      "size": 35689,
+      "lastModified": "2026-11-03T11:01:15.8779809Z"
     },
     {
       "path": "wwwroot/js/iconPrefetch.js",
-      "hash": "9ef379672df14b7f01d8504de36b270af3f1384e1347f387adcec35d12749a69",
-      "size": 4633,
-      "lastModified": "2026-05-12T10:51:07Z"
+      "hash": "45952230a191d970c3195846e584a1250142212eafbd2a28ef81048fae3fa79b",
+      "size": 135,
+      "lastModified": "2026-10-26T10:52:44.899726Z"
     },
     {
       "path": "wwwroot/js/iconPrefetch.js.br",
-      "hash": "cf4f9992c95c1ee623688456214b8c191222c87b2c5a9f787d1fe0e1f9262d3a",
-      "size": 1204,
-      "lastModified": "2026-08-10T16:12:15.6159843Z"
+      "hash": "be78ac18e21f4f5f0afcc90bf10dc8e5af631724ff1197376b5d769c86d04fbd",
+      "size": 89,
+      "lastModified": "2026-11-03T11:01:37.3996097Z"
     },
     {
       "path": "wwwroot/js/iconPrefetch.js.gz",
-      "hash": "80a1c75fa5bd93e4c7bc0d722aa37b8304734bcbd3f184c7a3b956bd74df2a6f",
-      "size": 1440,
-      "lastModified": "2026-08-10T16:12:01.4491313Z"
+      "hash": "236d9a72140542b02c161fd5fd251955bb431758091ac92645e606e224cbb8ef",
+      "size": 125,
+      "lastModified": "2026-11-03T11:01:15.8682575Z"
     },
     {
       "path": "wwwroot/js/iconify-icon.min.js",
@@ -2193,22 +2193,40 @@
       "lastModified": "2026-08-10T16:12:01.465967Z"
     },
     {
+      "path": "wwwroot/js/icons-offline.js",
+      "hash": "9641237c8c4c214b6529a7409c47f4d4eab1f8c4ad2f58a28a6565ada4639999",
+      "size": 1769,
+      "lastModified": "2026-10-26T10:58:08.7451237Z"
+    },
+    {
+      "path": "wwwroot/js/icons-offline.js.br",
+      "hash": "2dd64c72ef96daf39f14b0dbdb312018371dbe73408210504e992e27aefac38c",
+      "size": 696,
+      "lastModified": "2026-11-03T11:01:36.9672524Z"
+    },
+    {
+      "path": "wwwroot/js/icons-offline.js.gz",
+      "hash": "f45658bc7318e52aab314d2e6407f4c214d530121230409f8607d382ed6d440b",
+      "size": 843,
+      "lastModified": "2026-11-03T11:01:15.8743229Z"
+    },
+    {
       "path": "wwwroot/js/monaco-frx.js",
-      "hash": "d35d9f6b794c6592bec9d7f750825e628ff3434f657130301db7a41c2d70d661",
-      "size": 3881,
-      "lastModified": "2026-06-30T14:35:42Z"
+      "hash": "21737a845d9c5d96bbe54bd08887332133ecc0b3708bfe9dd62441670e7e7429",
+      "size": 3865,
+      "lastModified": "2026-10-26T10:52:44.8497169Z"
     },
     {
       "path": "wwwroot/js/monaco-frx.js.br",
-      "hash": "4fc711798eb776d61675005e1893495861f5b1c292a0f870d2bc5672c6c4ddd3",
-      "size": 1037,
-      "lastModified": "2026-08-10T16:12:15.6326812Z"
+      "hash": "80db1cb89bf5e5c772f316e86ce3e711d38f08985e224e16b593efacdeeb6e81",
+      "size": 1026,
+      "lastModified": "2026-11-03T11:01:36.983657Z"
     },
     {
       "path": "wwwroot/js/monaco-frx.js.gz",
-      "hash": "29ca00eb7a54b5e3cd6a1af760f28f3260fcc2e270e8a9a95c9ee5189b1a6f30",
-      "size": 1286,
-      "lastModified": "2026-08-10T16:12:01.4609322Z"
+      "hash": "7c13d9d987e3fb1b0be6a25ba108ca4884f0f3ec2cfd6243fef5ad234a8ba602",
+      "size": 1276,
+      "lastModified": "2026-11-03T11:01:15.881564Z"
     },
     {
       "path": "wwwroot/js/pwa.js",
@@ -2284,21 +2302,21 @@
     },
     {
       "path": "wwwroot/js/utils.js",
-      "hash": "3801305effc5e3cb3cc58f399da4f06f194bad7b055a953bc9e71fdc90e7414b",
-      "size": 23704,
-      "lastModified": "2026-10-22T12:51:44.9286006Z"
+      "hash": "60970057fcfe4fc2855e46ce5ec952498a577ced05fd4ef7fb99414a89c20e5c",
+      "size": 24026,
+      "lastModified": "2026-10-26T05:21:13.4716691Z"
     },
     {
       "path": "wwwroot/js/utils.js.br",
-      "hash": "a99ba8ae549f27bb5776590c3751dd39cad7f3aeb1a85fb783d929225048b81e",
-      "size": 5141,
-      "lastModified": "2026-10-22T14:24:04.4288511Z"
+      "hash": "1544e856ca842f8b3d9af9a9be6267ae5bbc28fd47167617699cc6a55cb17610",
+      "size": 5224,
+      "lastModified": "2026-11-03T11:01:37.0722888Z"
     },
     {
       "path": "wwwroot/js/utils.js.gz",
-      "hash": "2026473411491acf2585186625a4714433547cbd7cd0985968f2a4c382e5a87f",
-      "size": 6125,
-      "lastModified": "2026-10-22T14:23:47.3967626Z"
+      "hash": "5dc30ac5fd3268e1219122ab9966752c179a57a44577703969b7983315ba1f95",
+      "size": 6224,
+      "lastModified": "2026-11-03T11:01:15.8887076Z"
     },
     {
       "path": "wwwroot/logo.png",
@@ -2506,9 +2524,9 @@
     },
     {
       "path": "wwwroot/reports/SalesReport.frx",
-      "hash": "a04df97b4282c57e5b183b85bca13d29f88160d46bbe7a8ced81f4344b339ef8",
-      "size": 8315,
-      "lastModified": "2026-04-16T08:18:13Z"
+      "hash": "2e52dfe121a89ce328e88f6cbca11612e7b8e2be1ecf37db9f3f5daa46a264de",
+      "size": 11388,
+      "lastModified": "2026-10-27T00:17:23.4405188Z"
     },
     {
       "path": "wwwroot/reports/StatementReport.frx",
@@ -2847,40 +2865,40 @@
       "lastModified": "2026-08-08T20:41:32.3766616Z"
     },
     {
-      "path": "wwwroot/sales/pos-offline/_framework/ProERP.Application.nm5a2orm3m.wasm",
-      "hash": "01f30a09e31995aec469d42c05878978117398f1d466dc7a1e948a46ea0b00f1",
-      "size": 835861,
-      "lastModified": "2026-10-23T19:58:19.6639209Z"
+      "path": "wwwroot/sales/pos-offline/_framework/ProERP.Application.2umjmgnx81.wasm",
+      "hash": "5ac068def0e266817dd82b43f4abaa0ce36e2a47093ead58b76763d6f3dd7583",
+      "size": 887573,
+      "lastModified": "2026-11-03T11:01:31.5118235Z"
     },
     {
-      "path": "wwwroot/sales/pos-offline/_framework/ProERP.Application.nm5a2orm3m.wasm.br",
-      "hash": "bac7b663c796c03027033d38bb62bad502effd92e08f2cb1bac2913d5132a940",
-      "size": 176027,
-      "lastModified": "2026-10-23T19:58:23.7104506Z"
+      "path": "wwwroot/sales/pos-offline/_framework/ProERP.Application.2umjmgnx81.wasm.br",
+      "hash": "89d351abb799229580fde4e70e88db207baa5b4ea762484f8674cc8b516757ce",
+      "size": 181991,
+      "lastModified": "2026-11-03T11:01:36.1134831Z"
     },
     {
-      "path": "wwwroot/sales/pos-offline/_framework/ProERP.Application.nm5a2orm3m.wasm.gz",
-      "hash": "d2492ec57271c750564a5384b657f7295b7abe49c2f5fb30a9015bb5f2b1b3fe",
-      "size": 263579,
-      "lastModified": "2026-10-23T19:58:20.2117697Z"
+      "path": "wwwroot/sales/pos-offline/_framework/ProERP.Application.2umjmgnx81.wasm.gz",
+      "hash": "6a22797a354b4cf988cbbc7dca6a63b0fa7afe1d16c47095e2527c41a3c9b379",
+      "size": 274237,
+      "lastModified": "2026-11-03T11:01:32.1570687Z"
     },
     {
-      "path": "wwwroot/sales/pos-offline/_framework/ProERP.Client.w4z6kxkl15.wasm",
-      "hash": "602f8291f95c2b5008af12064e8e7ce960dfafa76d90a10ddec00138b9216f5f",
+      "path": "wwwroot/sales/pos-offline/_framework/ProERP.Client.ymvr16od0w.wasm",
+      "hash": "ea11b01da504e48c67c7b98ed7c94657c835fb04745b1db91662e32caa51be5c",
       "size": 218901,
-      "lastModified": "2026-10-23T19:58:19.6773888Z"
+      "lastModified": "2026-11-03T11:01:31.5244095Z"
     },
     {
-      "path": "wwwroot/sales/pos-offline/_framework/ProERP.Client.w4z6kxkl15.wasm.br",
-      "hash": "72f558ec7fd5fbdb34380502f0367b9dda118a951e7edc48f1faae33185822cb",
-      "size": 55188,
-      "lastModified": "2026-10-23T19:58:21.0142062Z"
+      "path": "wwwroot/sales/pos-offline/_framework/ProERP.Client.ymvr16od0w.wasm.br",
+      "hash": "82f7cc40b0d2a89dcd62052ffaf94da1cff54caf96a5e17acb51713a849bf8fb",
+      "size": 55220,
+      "lastModified": "2026-11-03T11:01:32.9881202Z"
     },
     {
-      "path": "wwwroot/sales/pos-offline/_framework/ProERP.Client.w4z6kxkl15.wasm.gz",
-      "hash": "3db43b7fd1a01b9fd3dcdd629bd4a21fcc9f6d4b395134381e254f72789f2217",
-      "size": 68550,
-      "lastModified": "2026-10-23T19:58:20.200271Z"
+      "path": "wwwroot/sales/pos-offline/_framework/ProERP.Client.ymvr16od0w.wasm.gz",
+      "hash": "7de63974f79fc543acbc18d439cbdd523155ba8b41ecf440d36709597e557033",
+      "size": 68547,
+      "lastModified": "2026-11-03T11:01:32.1379521Z"
     },
     {
       "path": "wwwroot/sales/pos-offline/_framework/ProERP.Domain.3d3phfqt56.wasm",
@@ -2917,24 +2935,6 @@
       "hash": "6b0aa375cebbb3b33f5debafdefde8ba92265589754bec06b4f67aac2de4e8e1",
       "size": 575372,
       "lastModified": "2026-08-08T20:41:32.4171914Z"
-    },
-    {
-      "path": "wwwroot/sales/pos-offline/_framework/System.Collections.4kmidau32r.wasm",
-      "hash": "b47761358c9e01fc5a6b7f46486cd3dc9da0b38d97d8b382798b07b66e4606f6",
-      "size": 33557,
-      "lastModified": "2026-08-08T20:37:04.1617194Z"
-    },
-    {
-      "path": "wwwroot/sales/pos-offline/_framework/System.Collections.4kmidau32r.wasm.br",
-      "hash": "c90264f67e7e448193cb902db812d10953c77d6f79c942ea8520c4bf5d13e51f",
-      "size": 12456,
-      "lastModified": "2026-08-08T20:41:32.7604197Z"
-    },
-    {
-      "path": "wwwroot/sales/pos-offline/_framework/System.Collections.4kmidau32r.wasm.gz",
-      "hash": "89c3705464423216d6a1bbb4ebf0e2147061d2c5aa9dfbb43557bc8a88ee70f5",
-      "size": 14481,
-      "lastModified": "2026-08-08T20:41:32.3837166Z"
     },
     {
       "path": "wwwroot/sales/pos-offline/_framework/System.Collections.Concurrent.kbxmm7wrtu.wasm",
@@ -3007,6 +3007,24 @@
       "hash": "ad7c509b4a0919592f06d8e3e5f30e26fcddb6ed3f9ed55290d14956a3693f28",
       "size": 6830,
       "lastModified": "2026-08-08T20:41:32.3672602Z"
+    },
+    {
+      "path": "wwwroot/sales/pos-offline/_framework/System.Collections.y4o704m522.wasm",
+      "hash": "f2a58caac73723b934db979773404a8d7d9a027a82fed10fec580bbe38ca9a4d",
+      "size": 33557,
+      "lastModified": "2026-11-03T11:01:31.5476134Z"
+    },
+    {
+      "path": "wwwroot/sales/pos-offline/_framework/System.Collections.y4o704m522.wasm.br",
+      "hash": "08c39322849e9cb4c6f88820084caaa4a7f1b5a89839b76b7996f7084b8fef03",
+      "size": 12419,
+      "lastModified": "2026-11-03T11:01:32.4874669Z"
+    },
+    {
+      "path": "wwwroot/sales/pos-offline/_framework/System.Collections.y4o704m522.wasm.gz",
+      "hash": "1b9c04716860bf9ca2b2544804db1f22dc462278d80f831940347e25fba2e994",
+      "size": 14502,
+      "lastModified": "2026-11-03T11:01:32.1344392Z"
     },
     {
       "path": "wwwroot/sales/pos-offline/_framework/System.ComponentModel.Annotations.4z4umvozbu.wasm",
@@ -3531,24 +3549,6 @@
       "lastModified": "2026-08-08T20:41:32.3766616Z"
     },
     {
-      "path": "wwwroot/sales/pos-offline/_framework/System.Runtime.351zfypw3d.wasm",
-      "hash": "87b77a2fec204af770ea64988dbb369c54b4420a1d5cbe96c5d6d216cbc4fa99",
-      "size": 11541,
-      "lastModified": "2026-08-31T11:10:29.5661485Z"
-    },
-    {
-      "path": "wwwroot/sales/pos-offline/_framework/System.Runtime.351zfypw3d.wasm.br",
-      "hash": "70d6d85b4fc29ccee173df5db475d555a238245f66f707dec02ec7416d487db8",
-      "size": 3478,
-      "lastModified": "2026-08-31T11:10:30.0412488Z"
-    },
-    {
-      "path": "wwwroot/sales/pos-offline/_framework/System.Runtime.351zfypw3d.wasm.gz",
-      "hash": "76becb3355df082654c8e0a22abf90876b597344ba52f81fbcda70192fbf4446",
-      "size": 4112,
-      "lastModified": "2026-08-31T11:10:29.7796981Z"
-    },
-    {
       "path": "wwwroot/sales/pos-offline/_framework/System.Runtime.InteropServices.JavaScript.oi1p6xyhwl.wasm",
       "hash": "f01d91ec5ae6348272de2f5d49dbadbaac9061c1f8452e297746585290c2783c",
       "size": 42773,
@@ -3583,6 +3583,24 @@
       "hash": "23cce7fc7243ff1fb7f57d0a4d83afa73368948a8d6caa013a9bb8569e61f85f",
       "size": 3491,
       "lastModified": "2026-08-08T20:41:32.3766616Z"
+    },
+    {
+      "path": "wwwroot/sales/pos-offline/_framework/System.Runtime.snrm1wica3.wasm",
+      "hash": "88766e12edd9d2680363338a9281035ae2c9a1c00801288a2b004c9bb1632cf3",
+      "size": 11541,
+      "lastModified": "2026-11-03T11:01:31.8856606Z"
+    },
+    {
+      "path": "wwwroot/sales/pos-offline/_framework/System.Runtime.snrm1wica3.wasm.br",
+      "hash": "7c4312688949465dba42f43746af95b979ad8ddc4c2b623dc0ba6c132efb74af",
+      "size": 3463,
+      "lastModified": "2026-11-03T11:01:32.4281128Z"
+    },
+    {
+      "path": "wwwroot/sales/pos-offline/_framework/System.Runtime.snrm1wica3.wasm.gz",
+      "hash": "0ecc41c4d12e96023a9e5b0d764839cbcd20161874e6bf9417890bd68c858cbb",
+      "size": 4138,
+      "lastModified": "2026-11-03T11:01:32.1334343Z"
     },
     {
       "path": "wwwroot/sales/pos-offline/_framework/System.Security.Claims.g7z3gsnqat.wasm",
@@ -3766,21 +3784,21 @@
     },
     {
       "path": "wwwroot/sales/pos-offline/_framework/blazor.boot.json",
-      "hash": "9eada1a2641ab2d8ca781896713e303cec3a633a8fda3676d6f95bf7ba33926e",
+      "hash": "47ebefc4b8b50eaaf482cf36e40c2d6da5616b827379b78c1e16f3400d9653a3",
       "size": 14623,
-      "lastModified": "2026-10-23T19:58:20.1529587Z"
+      "lastModified": "2026-11-03T11:01:32.0695588Z"
     },
     {
       "path": "wwwroot/sales/pos-offline/_framework/blazor.boot.json.br",
-      "hash": "9139e202ffc2e459a571673523013baa8091d2e75255160b630f75b707a439ff",
-      "size": 4408,
-      "lastModified": "2026-10-23T19:58:20.4908568Z"
+      "hash": "90355a6b6c3e6b138b784fe6493623601bc7af279dc133f86b8f6b9a14f46a63",
+      "size": 4403,
+      "lastModified": "2026-11-03T11:01:32.4293339Z"
     },
     {
       "path": "wwwroot/sales/pos-offline/_framework/blazor.boot.json.gz",
-      "hash": "beb07eba0cbded7e3d36c339d4193fa4cc0a4585e73cf4cd6295b81103ed8241",
-      "size": 4820,
-      "lastModified": "2026-10-23T19:58:20.1923816Z"
+      "hash": "9ab384ece9c8f89c87ee481d8298e59b148f332d762188334f905a7703d0036d",
+      "size": 4816,
+      "lastModified": "2026-11-03T11:01:32.1344392Z"
     },
     {
       "path": "wwwroot/sales/pos-offline/_framework/blazor.webassembly.js",
@@ -4000,39 +4018,39 @@
     },
     {
       "path": "wwwroot/sales/pos-offline/service-worker-assets.js",
-      "hash": "725dc193e1c31b1e2f95eeca5f89bcaf58637966433512e00708863cdbd895a9",
+      "hash": "256b8ea860f1db54cf4a07ae96ad1cd90c469d4e605720a4a9fe212353a10dff",
       "size": 19768,
-      "lastModified": "2026-10-23T19:58:20.1730447Z"
+      "lastModified": "2026-11-03T11:01:32.1062278Z"
     },
     {
       "path": "wwwroot/sales/pos-offline/service-worker-assets.js.br",
-      "hash": "a862e87541e01d3d456bbf1c9337e1794c6f7d190fe69024e9f123f797dada23",
-      "size": 5543,
-      "lastModified": "2026-10-23T19:58:20.4913683Z"
+      "hash": "cfbb394330fb7970f770ad8cce7db1424bcbe6cadeebb1fe9eb048bf450ee28a",
+      "size": 5546,
+      "lastModified": "2026-11-03T11:01:32.4372104Z"
     },
     {
       "path": "wwwroot/sales/pos-offline/service-worker-assets.js.gz",
-      "hash": "f99f1eb43f03f1204f74c471bc4182bbd2a35dc37c7f5c705e7b919dbeffb31f",
+      "hash": "7ab23eee013bd0fd0a5f26b246535d92d195f64acd25cfca5f2d85e1cc336019",
       "size": 5878,
-      "lastModified": "2026-10-23T19:58:20.1923816Z"
+      "lastModified": "2026-11-03T11:01:32.1369523Z"
     },
     {
       "path": "wwwroot/sales/pos-offline/service-worker.js",
-      "hash": "d0d46baacd86440ac2c0fd92eef105013294242af256da6247acb15ee5b84260",
+      "hash": "03e37f856439299c9adb6f59cc1da6d08783131a9412cb18b4be16f1d3bcd22c",
       "size": 3271,
-      "lastModified": "2026-10-23T19:58:20.1754999Z"
+      "lastModified": "2026-11-03T11:01:32.1097758Z"
     },
     {
       "path": "wwwroot/sales/pos-offline/service-worker.js.br",
       "hash": "621089b89ce162484d7619c009f6a419cc9901ddd1ec768ee68c370dfba7c6d0",
       "size": 1077,
-      "lastModified": "2026-10-23T19:58:20.4700477Z"
+      "lastModified": "2026-11-03T11:01:32.407638Z"
     },
     {
       "path": "wwwroot/sales/pos-offline/service-worker.js.gz",
       "hash": "9d74d4e47d1263d5f1aaa2433614d398895badf3e0a080e69370dc605e918d0d",
       "size": 1288,
-      "lastModified": "2026-10-23T19:58:20.190865Z"
+      "lastModified": "2026-11-03T11:01:32.1334343Z"
     },
     {
       "path": "wwwroot/service-worker.js",
@@ -4057,7 +4075,2035 @@
       "hash": "8aba878d3fc1678b6847d8f6029d9fe235596e764390e0b1a17a5b570c53e392",
       "size": 6656,
       "lastModified": "2026-04-04T18:10:55Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/LICENSE",
+      "hash": "33e4ff1a06ef62ba21788ea162564ee8165269a24a9ce6ef301837447eab0ac6",
+      "size": 1098,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/base/browser/ui/codicons/codicon/codicon.ttf",
+      "hash": "b3ffc1af5867d6c901ea05f38ee12f8f8369db4912a91d56156ee9c85bd47dc3",
+      "size": 77400,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/base/common/worker/simpleWorker.nls.de.js",
+      "hash": "1ea09d107089dc1e8bc0ba408fefcbdcbf366c697ba216f88da49330130e0514",
+      "size": 869,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/base/common/worker/simpleWorker.nls.de.js.br",
+      "hash": "35404e9d91d518d8f52be95f7878759d0ebe29a1b57e2576eb9a0fdbc8c8c4d8",
+      "size": 428,
+      "lastModified": "2026-11-03T11:01:37.0670203Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/base/common/worker/simpleWorker.nls.de.js.gz",
+      "hash": "1fb9aa1eefb4d6524b33ea76664121a85b06a828bd49682cc85ecfd9298865d9",
+      "size": 507,
+      "lastModified": "2026-11-03T11:01:15.8939729Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/base/common/worker/simpleWorker.nls.es.js",
+      "hash": "56341c7827241a6bf388660a020b45e3f5a191b7da46f7a9bc30fbcc61ff2ebb",
+      "size": 890,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/base/common/worker/simpleWorker.nls.es.js.br",
+      "hash": "23533debef8c067bc2ee45ceb7641719be0cab4b077fb2f6743221677d6d9607",
+      "size": 414,
+      "lastModified": "2026-11-03T11:01:36.9662525Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/base/common/worker/simpleWorker.nls.es.js.gz",
+      "hash": "10aa342f3fde50c32127f03b8202207d7339c60c44d0ad6103bd98051953eeba",
+      "size": 507,
+      "lastModified": "2026-11-03T11:01:15.8993452Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/base/common/worker/simpleWorker.nls.fr.js",
+      "hash": "4a3afc911e223f70f2ffe4febd392fffff6011607cc9752c4313e951121bc36a",
+      "size": 904,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/base/common/worker/simpleWorker.nls.fr.js.br",
+      "hash": "8ac084b738992ccd9eea833c3be543032bffec3d7d74be03962893c788281710",
+      "size": 416,
+      "lastModified": "2026-11-03T11:01:36.9735964Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/base/common/worker/simpleWorker.nls.fr.js.gz",
+      "hash": "210585690a1f9d25f264934cf79156610cbfe21257989b969c4f812fbfb7aaba",
+      "size": 509,
+      "lastModified": "2026-11-03T11:01:15.9035799Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/base/common/worker/simpleWorker.nls.it.js",
+      "hash": "74886ff47cb9ba5dcb72e223887ba3fc91b19f9818aeb9cbfc64a56203f22993",
+      "size": 879,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/base/common/worker/simpleWorker.nls.it.js.br",
+      "hash": "8731c591de5b44a39c6b2ae86e9b55d346eb3f37aea0bf4f3b48d0674f3b3584",
+      "size": 413,
+      "lastModified": "2026-11-03T11:01:36.9786358Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/base/common/worker/simpleWorker.nls.it.js.gz",
+      "hash": "3451a2e8128ae55bdc150a322fe7325971b64944d917075eeef353f964824090",
+      "size": 492,
+      "lastModified": "2026-11-03T11:01:15.9085927Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/base/common/worker/simpleWorker.nls.ja.js",
+      "hash": "04b190db7bc19af7dd6d28069b0a8fbb2baeedcdbead5356773444049eb2e524",
+      "size": 1267,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/base/common/worker/simpleWorker.nls.ja.js.br",
+      "hash": "addd34bb0833455d563f9986331391c65f4a081bfb221046241db4bc7a5ad49b",
+      "size": 513,
+      "lastModified": "2026-11-03T11:01:36.9891933Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/base/common/worker/simpleWorker.nls.ja.js.gz",
+      "hash": "ab367e7b2e5aa60668d09daf5c2b1eabd51215502ced9df42d1f5fb2c6b2a68a",
+      "size": 608,
+      "lastModified": "2026-11-03T11:01:15.869264Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/base/common/worker/simpleWorker.nls.js",
+      "hash": "a7b212e2cd848787a8af48fc99c5ce82dee49a8534de42ff4833024e93ca4d19",
+      "size": 832,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/base/common/worker/simpleWorker.nls.js.br",
+      "hash": "b9c500e1a1b08ada4733211164b78423b686d9a05fbb2aa7a854bade5d30161a",
+      "size": 361,
+      "lastModified": "2026-11-03T11:01:36.968756Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/base/common/worker/simpleWorker.nls.js.gz",
+      "hash": "3144a8855c33c09d1c72a6a95644d5ad5e141212e1343de79a137af703ff7bed",
+      "size": 463,
+      "lastModified": "2026-11-03T11:01:15.8753215Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/base/common/worker/simpleWorker.nls.ko.js",
+      "hash": "377f5295df6a60b920589743362fa6400e1ec8825bcd0a11d19fe873d6aaef98",
+      "size": 1083,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/base/common/worker/simpleWorker.nls.ko.js.br",
+      "hash": "365bd3f76fbd732dd8b9a9b454ecfd3849f1122eaab0cedf7739a57b4add5100",
+      "size": 465,
+      "lastModified": "2026-11-03T11:01:36.9856652Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/base/common/worker/simpleWorker.nls.ko.js.gz",
+      "hash": "a849d0c06b53b1f8904ee0d32203f78e36caa1e8bf712ca40816a8bef6515a28",
+      "size": 563,
+      "lastModified": "2026-11-03T11:01:15.8825718Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/base/common/worker/simpleWorker.nls.ru.js",
+      "hash": "715d1a916bb311ffb62b9114b186d86214c70ce8720589d894859102d002fb37",
+      "size": 1919,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/base/common/worker/simpleWorker.nls.ru.js.br",
+      "hash": "8c5a26dc9f6c2afab193d9d314627463e51d58365ff8b88a949a0554b075b296",
+      "size": 548,
+      "lastModified": "2026-11-03T11:01:36.9959654Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/base/common/worker/simpleWorker.nls.ru.js.gz",
+      "hash": "cae210bf0322418507db5c7a4faccc74f0f73e6f7e380228243f1c58a9897318",
+      "size": 628,
+      "lastModified": "2026-11-03T11:01:15.8887076Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/base/common/worker/simpleWorker.nls.zh-cn.js",
+      "hash": "cece19ca9db35eb58973a81ec27fc9866759920c2ba789ada2887a94400f4de5",
+      "size": 1003,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/base/common/worker/simpleWorker.nls.zh-cn.js.br",
+      "hash": "fc5006ea4611a068c8b036ead919cad5d2241ba3fba1f404edf21e6c5043c76a",
+      "size": 455,
+      "lastModified": "2026-11-03T11:01:36.9945623Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/base/common/worker/simpleWorker.nls.zh-cn.js.gz",
+      "hash": "7d7208d9d45a3b31f05084cd80514a8a22f5c0bbb565e5e64272ce5da5313c64",
+      "size": 553,
+      "lastModified": "2026-11-03T11:01:15.8939729Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/base/common/worker/simpleWorker.nls.zh-tw.js",
+      "hash": "6d06a8de18319120f905b26e564dda2e2b464359cf565b8bb13154edc9a30d7e",
+      "size": 1021,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/base/common/worker/simpleWorker.nls.zh-tw.js.br",
+      "hash": "e328a4839a7f39122628cdd465d90bb8d708c0001b6a22c4053c0bd9911c3c83",
+      "size": 462,
+      "lastModified": "2026-11-03T11:01:36.9672524Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/base/common/worker/simpleWorker.nls.zh-tw.js.gz",
+      "hash": "24ed01d95eced601ae7b3fdad437f9106e69346fad1fdce59fdecd1d1ca45c13",
+      "size": 569,
+      "lastModified": "2026-11-03T11:01:15.8983409Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/base/worker/workerMain.js",
+      "hash": "d3acd18994f2571c2511314d049689d1b2d649ba667ee1f7291eb0750c08494f",
+      "size": 339604,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/base/worker/workerMain.js.br",
+      "hash": "dfe2812bfea744ca5b248a25d9bf6671daa00e9b99807ad6255a5c611fda742d",
+      "size": 84737,
+      "lastModified": "2026-11-03T11:01:37.8871225Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/base/worker/workerMain.js.gz",
+      "hash": "ac31af8bc628c0fd0b0b57611977b1730a28157ac64bb5acfdcf139d2c948d09",
+      "size": 107471,
+      "lastModified": "2026-11-03T11:01:15.9126261Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/abap/abap.js",
+      "hash": "69a2e9c84833412f35627b2681259fafb5602632c86a002bd819592d5280ec3b",
+      "size": 14986,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/abap/abap.js.br",
+      "hash": "d4dcdd38fcc7295dd37c7d984c06db8fcd4be15e2f13a9f6654919940d3236b8",
+      "size": 5022,
+      "lastModified": "2026-11-03T11:01:37.9244211Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/abap/abap.js.gz",
+      "hash": "4ca615c3417659cdc6311067cea18b6ac4d3738b241586a05c940b60a93ce62c",
+      "size": 5924,
+      "lastModified": "2026-11-03T11:01:15.9138457Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/apex/apex.js",
+      "hash": "e24fd69a21c6193f82fa3194fd3e2902308b1624150124973ef38c98cf0e5397",
+      "size": 4775,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/apex/apex.js.br",
+      "hash": "40e9d2590d727737404d5b1e60cc63d7238b7ada0b0cb002503f522d698539e3",
+      "size": 1926,
+      "lastModified": "2026-11-03T11:01:37.0220716Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/apex/apex.js.gz",
+      "hash": "9b0a9b8c620846d4efbdef452a13455fee055b3e2661fce3a810f1be013c675e",
+      "size": 2236,
+      "lastModified": "2026-11-03T11:01:15.8707668Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/azcli/azcli.js",
+      "hash": "0bcdfd620dadca6ef6b9cd908228790e82b06fbbd6607513789cea42bbf1c67f",
+      "size": 1673,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/azcli/azcli.js.br",
+      "hash": "f863ad9285a116810fcff2bb3f6e541eeae538e9fa838c14fc6f5ab305c14572",
+      "size": 658,
+      "lastModified": "2026-11-03T11:01:36.969759Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/azcli/azcli.js.gz",
+      "hash": "7daffd5090053fb1d3e6dd91739720c8e74eabd1073fd6bd9b7a9dc3dd91acf5",
+      "size": 769,
+      "lastModified": "2026-11-03T11:01:15.8753215Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/bat/bat.js",
+      "hash": "64c1d55e14052eb1e56f09de7380274a6cde5f6579de317d6ca7e3d27cc11a18",
+      "size": 2666,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/bat/bat.js.br",
+      "hash": "5c3ca325033590dadcf59caf3187092f45962cc0ed8013a84388ad4b551785d4",
+      "size": 1159,
+      "lastModified": "2026-11-03T11:01:36.9826574Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/bat/bat.js.gz",
+      "hash": "6590dfad56b15a04250238767199981fcc52c1efcea720386c327a95ec637428",
+      "size": 1308,
+      "lastModified": "2026-11-03T11:01:15.8825718Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/bicep/bicep.js",
+      "hash": "138890bb900c772b9cd85a6a880a4c3834d4cf69fe60a7db4f0ed5ac6a6036ca",
+      "size": 3361,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/bicep/bicep.js.br",
+      "hash": "68e7ca68a42ea3f47463aa31a235ccf6d87233800e80e740a0a301de62e10682",
+      "size": 1229,
+      "lastModified": "2026-11-03T11:01:36.9969706Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/bicep/bicep.js.gz",
+      "hash": "8cb33dcba740e8906cb4d7ee268cad6a273b087d200ae02190addbe822db6d99",
+      "size": 1417,
+      "lastModified": "2026-11-03T11:01:15.8887076Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/cameligo/cameligo.js",
+      "hash": "9c69c0623eaa0c03d7268f7b640e7b1e4a7613168fb7453e1df44d918d20d37c",
+      "size": 3016,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/cameligo/cameligo.js.br",
+      "hash": "65fdf7c06eb62d137cec65d59862d886876b749909c6f1ccf86618604fa039ba",
+      "size": 1245,
+      "lastModified": "2026-11-03T11:01:37.0084965Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/cameligo/cameligo.js.gz",
+      "hash": "4fa05bee64625f667e52dbcec9684a37edb87cef7859b2eea11826f6ab2d1aa9",
+      "size": 1405,
+      "lastModified": "2026-11-03T11:01:15.8939729Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/clojure/clojure.js",
+      "hash": "f518edbd296f40149368695cfd50bad56c40d3e98648d4bcb24fb887df0763b6",
+      "size": 10472,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/clojure/clojure.js.br",
+      "hash": "2420d005a73694c7cc78a04d43b036a5bfad987a56eecb7fbdffde1fda155e07",
+      "size": 3647,
+      "lastModified": "2026-11-03T11:01:36.9945623Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/clojure/clojure.js.gz",
+      "hash": "051975c3843943c0db57e8749da5532cc258ef3108bc5d521acf2739bada9632",
+      "size": 4154,
+      "lastModified": "2026-11-03T11:01:15.8993452Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/coffee/coffee.js",
+      "hash": "b71fa40d1dfcf8a0a4a1d9741bdcb480ed427f6449d504039cf0d6da230cd5b9",
+      "size": 4417,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/coffee/coffee.js.br",
+      "hash": "4ecbdd4da870c89d488bbee416b5a03f0e20d707d0a2bd00a624bd0e542bcffb",
+      "size": 1553,
+      "lastModified": "2026-11-03T11:01:37.0185501Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/coffee/coffee.js.gz",
+      "hash": "2d63898d4fab68d1545d79582c56b72b9e34ea1868c7c39bc19902f4209d1773",
+      "size": 1756,
+      "lastModified": "2026-11-03T11:01:15.9045829Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/cpp/cpp.js",
+      "hash": "f6f92abe974f9338086148c8b0a60fb565ae6edd9246b676fa9d0035f4e8d9eb",
+      "size": 6299,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/cpp/cpp.js.br",
+      "hash": "fdffc8e910b1f331f7468f99f7cdee0120dfa367b38a950a0211a708e3a5afbd",
+      "size": 2300,
+      "lastModified": "2026-11-03T11:01:37.0617774Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/cpp/cpp.js.gz",
+      "hash": "233f59835be4a995c9f3ab401aa5b416da3bd0762c526d63e39531f176d5e578",
+      "size": 2613,
+      "lastModified": "2026-11-03T11:01:15.9090665Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/csharp/csharp.js",
+      "hash": "28a25e9b68e5f0c3af4bd163e1aac554bab89078770dfcaba0a63a4b5b8a2543",
+      "size": 5351,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/csharp/csharp.js.br",
+      "hash": "9860cd8bfdf286a027b0d8c466c97bc2ca1012ae50c61e5e8da38944458f1cc9",
+      "size": 1922,
+      "lastModified": "2026-11-03T11:01:37.0251666Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/csharp/csharp.js.gz",
+      "hash": "a227d3eaf43ac909dd422ce39f9dd3baf2e0fcf548833ce97d1ac3c0741ce553",
+      "size": 2183,
+      "lastModified": "2026-11-03T11:01:15.8702616Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/csp/csp.js",
+      "hash": "082eb55c25cc428c596b69d8024eb8ad5932fd556d47fdb4696124086af3cb28",
+      "size": 2240,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/csp/csp.js.br",
+      "hash": "af1f7c4dd9f40f49f97533c17a5286affcd59675313280b85212877bef7f7e1a",
+      "size": 824,
+      "lastModified": "2026-11-03T11:01:36.9751009Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/csp/csp.js.gz",
+      "hash": "2a464f5bc880aa59858b2e905fc816cc90b73a5793811b2d25372999b689c1f2",
+      "size": 968,
+      "lastModified": "2026-11-03T11:01:15.8753215Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/css/css.js",
+      "hash": "ed689dc48b3a5c75d3f4088b87501b28c69ea53d94bd4d195439b9d0b0125240",
+      "size": 5331,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/css/css.js.br",
+      "hash": "d993b25eca27f1a19641bf977c1f8b61f6fbe43aad6c5aacaa9c9e1ec2dfd015",
+      "size": 1634,
+      "lastModified": "2026-11-03T11:01:36.9979763Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/css/css.js.gz",
+      "hash": "61a05bd95c78222aedea6982373af9f3f6deddbd5365b8583f5ff4bd9543ce61",
+      "size": 1839,
+      "lastModified": "2026-11-03T11:01:15.8825718Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/cypher/cypher.js",
+      "hash": "9f9251788f10c3f0bb4eb811ce6a7f5ad8db7bbee057b76a77c77c2421fdaae1",
+      "size": 4212,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/cypher/cypher.js.br",
+      "hash": "c967834ff4f4e4f23e7b821c29eb4f55adfa554353648eb2cf3330221bb4ae76",
+      "size": 1648,
+      "lastModified": "2026-11-03T11:01:37.0150451Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/cypher/cypher.js.gz",
+      "hash": "70eae6331e7a4a3cd9fbf9e150a25623ab45ea35a3bca920aecabc9058843e92",
+      "size": 1897,
+      "lastModified": "2026-11-03T11:01:15.8887076Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/dart/dart.js",
+      "hash": "da7ef3dee2fa6414326ff00bfc0417d107d51baedfe57389e59058072a00020c",
+      "size": 5073,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/dart/dart.js.br",
+      "hash": "48debb794b6189cfa920db0636b0422d0765e70ca97648157bb2d7c35c3b2579",
+      "size": 1859,
+      "lastModified": "2026-11-03T11:01:37.0284637Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/dart/dart.js.gz",
+      "hash": "921f587309ec8b7d476a1b28e9dfeab0eb63601f832e70e66ddc36c159ef8435",
+      "size": 2110,
+      "lastModified": "2026-11-03T11:01:15.8939729Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/dockerfile/dockerfile.js",
+      "hash": "5bfe103714ff8153914daa7c1cc066d59dab07ca7388d15098d650149ee3be74",
+      "size": 2704,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/dockerfile/dockerfile.js.br",
+      "hash": "842b2e0ab2e7f65cfcdcaf6bc7680902530c28733e4bd3eaee911e1564e973f5",
+      "size": 961,
+      "lastModified": "2026-11-03T11:01:36.9786358Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/dockerfile/dockerfile.js.gz",
+      "hash": "4ee73057c3d2cd030d359406e91767971491de9f6709c7835a564de1b62817f5",
+      "size": 1123,
+      "lastModified": "2026-11-03T11:01:15.8993452Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/ecl/ecl.js",
+      "hash": "9ce97ccf4768af38976d051504b59dc37b65f56d8bcb638b97d6a82cda4e1b79",
+      "size": 6163,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/ecl/ecl.js.br",
+      "hash": "683074308313f2088c48f4af46f89bf4a49066073bdea7a2cad9aed5e1ec7c2d",
+      "size": 2388,
+      "lastModified": "2026-11-03T11:01:37.0054795Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/ecl/ecl.js.gz",
+      "hash": "88fd5d3ac05a7a67cea931ab5ad06fdbe576b8f52c973e20ae1aaa4ec9ae2ced",
+      "size": 2703,
+      "lastModified": "2026-11-03T11:01:15.9050867Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/elixir/elixir.js",
+      "hash": "0494ea6b17f3f6e2e088dbc9001aaf77d742d757867263d8b0e5fb432b31a2a5",
+      "size": 11084,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/elixir/elixir.js.br",
+      "hash": "c41b687add1bec635c9bed5ae9a8a210b06ddbcec47bdd819a87171323136c37",
+      "size": 2633,
+      "lastModified": "2026-11-03T11:01:37.0722888Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/elixir/elixir.js.gz",
+      "hash": "6c02a2d873aceb63fe1acbc1d63f1aa3f0368e3758c1d4ab0f42d71b880e833e",
+      "size": 2987,
+      "lastModified": "2026-11-03T11:01:15.9096135Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/flow9/flow9.js",
+      "hash": "8eb1690c57d0f458d66e89a57e2aba95e6375ee9fef3e7ab5eca9ffa0b3eab7d",
+      "size": 2635,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/flow9/flow9.js.br",
+      "hash": "75151b077d5faeb217daa9e01b42a5839d1c22c4c6b931b8b19a1e9eeed51abf",
+      "size": 1124,
+      "lastModified": "2026-11-03T11:01:37.0294666Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/flow9/flow9.js.gz",
+      "hash": "6fb55d5d911c5c225371bdba5d5c4593090ea67af6c9989c54899b00fe983423",
+      "size": 1295,
+      "lastModified": "2026-11-03T11:01:15.8712857Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/freemarker2/freemarker2.js",
+      "hash": "454ce0eb30379a348562cbd10b361ea37dcd787e144f9eabb05f977a01c1996f",
+      "size": 17189,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/freemarker2/freemarker2.js.br",
+      "hash": "8adb89e6c7c6cecc2069bbe3078213f478c1da55323f17753246fec323961c41",
+      "size": 3992,
+      "lastModified": "2026-11-03T11:01:37.0339898Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/freemarker2/freemarker2.js.gz",
+      "hash": "abedf5cd1a0d28ef4b997260c6926d2298b3615743464a98492c71ddb5ae0e4f",
+      "size": 4751,
+      "lastModified": "2026-11-03T11:01:15.8764082Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/fsharp/fsharp.js",
+      "hash": "2e6b617140b6d195f890488759776da4071506f27ac5719c1ee2f8ec5ffd0ee5",
+      "size": 3810,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/fsharp/fsharp.js.br",
+      "hash": "b2e2496e82da8d4f2beebe2bd33a1cd8d7ddaf60ce3564e5ee29209c383a2691",
+      "size": 1567,
+      "lastModified": "2026-11-03T11:01:37.0460854Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/fsharp/fsharp.js.gz",
+      "hash": "d889c864296153ea9b89e06ea1dfecbee99ac7efab77c0a725cb71b4fd872654",
+      "size": 1779,
+      "lastModified": "2026-11-03T11:01:15.8840359Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/go/go.js",
+      "hash": "ea2d2e46f02faf4d44b95e07713f5784588a4223c218f75c12820eda16eb1b27",
+      "size": 3476,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/go/go.js.br",
+      "hash": "953e4c5bf3b96de94fd4ba0ecc92a07f45ace747476f97c2a930157425d82169",
+      "size": 1408,
+      "lastModified": "2026-11-03T11:01:37.0607011Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/go/go.js.gz",
+      "hash": "798b6d043e308f83733c5ce0dc6b6a7f7b800ca86b509952376558e5783b18c0",
+      "size": 1600,
+      "lastModified": "2026-11-03T11:01:15.8899268Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/graphql/graphql.js",
+      "hash": "c937a21620654373da4d87b9e2f20cbca1c02906d05f53dde5e41fe737dee930",
+      "size": 3089,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/graphql/graphql.js.br",
+      "hash": "1ebc549d7def84b33080bb8a1ccea327583eb66692a78d9beeca41f05434dd01",
+      "size": 1289,
+      "lastModified": "2026-11-03T11:01:37.0757914Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/graphql/graphql.js.gz",
+      "hash": "684b9d4a3bea10dec464bb0ca7faaa68c8c35f3a599cf64b1fcdbfaeff8389be",
+      "size": 1482,
+      "lastModified": "2026-11-03T11:01:15.894973Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/handlebars/handlebars.js",
+      "hash": "e17ff28cfda2d8306c9e74394d67329a6fa98d696af08f66b9e7b42e87971cc0",
+      "size": 7867,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/handlebars/handlebars.js.br",
+      "hash": "8889accc586f05ffaef1329ff1423f6855bc2cf300a53ca617150aa4a5ffe4c0",
+      "size": 1852,
+      "lastModified": "2026-11-03T11:01:36.9999721Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/handlebars/handlebars.js.gz",
+      "hash": "7b7296fb051cb1cf8a9485b4f76f4bd4206c2f2df9242fc2d870990ed4f63d01",
+      "size": 2110,
+      "lastModified": "2026-11-03T11:01:15.8993452Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/hcl/hcl.js",
+      "hash": "20e7b4ae616a398d20bf97a25f773df9d4d56c5008717be2f29c21a37f4bdb2b",
+      "size": 4411,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/hcl/hcl.js.br",
+      "hash": "5068c843c66839880aabc7ef78170fd15e4ba5d2865d9aad6ff8e4fe7403532f",
+      "size": 1711,
+      "lastModified": "2026-11-03T11:01:37.0185501Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/hcl/hcl.js.gz",
+      "hash": "63014eae5fa94d2600bc5bd7ba39ad83efee4c9d851d6228873710f3af8e4c7a",
+      "size": 1933,
+      "lastModified": "2026-11-03T11:01:15.9050867Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/html/html.js",
+      "hash": "2213b2419fefec449189ccd7ada6e444fc0ae9325f53d77f27be916dd82ed522",
+      "size": 6095,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/html/html.js.br",
+      "hash": "08884e517bdb4ed96884af5429011f5ae312f89c29bc2fa186f04bb1cc0c6b54",
+      "size": 1664,
+      "lastModified": "2026-11-03T11:01:37.0460854Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/html/html.js.gz",
+      "hash": "34ae3f6695b810658e1848c9a35bad3ed8a44795b51d58e93e55f69c8bef4118",
+      "size": 1885,
+      "lastModified": "2026-11-03T11:01:15.9096135Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/ini/ini.js",
+      "hash": "3d888e02d0b0ced0ee1464e307d7689653ece70553c17bc4f0325c436f033e9b",
+      "size": 1922,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/ini/ini.js.br",
+      "hash": "5d4e38f9a3890e4c84d9bf650e3959852f1859058509b6163f15b0c86ec2286d",
+      "size": 842,
+      "lastModified": "2026-11-03T11:01:37.0359882Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/ini/ini.js.gz",
+      "hash": "501eed098ff0a685dbf54dd21462925e65f29b7aab9e45a2ae4b8623d6907e85",
+      "size": 982,
+      "lastModified": "2026-11-03T11:01:15.8712857Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/java/java.js",
+      "hash": "ee57d3885b119a5585180caa2c26498bf6e6640b10481dc9677b7610198c4e2e",
+      "size": 4044,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/java/java.js.br",
+      "hash": "4f2aeaa44b78629611db29ddf463c50bb1d94769116ba940525ca1a652ae901b",
+      "size": 1623,
+      "lastModified": "2026-11-03T11:01:37.0130464Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/java/java.js.gz",
+      "hash": "5f0350cf04164e475f47952cdedfc580e21fba3b3c3f065c400e43dc9d52845b",
+      "size": 1855,
+      "lastModified": "2026-11-03T11:01:15.8850394Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/javascript/javascript.js",
+      "hash": "e7276c9e1382aebb07c75f6f62d52f7df17ddb06eced55cbf2b6f0be6b22b113",
+      "size": 7177,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/javascript/javascript.js.br",
+      "hash": "21856aeb74bee40c7f740d664c1a9031358fcc6ade766afbe1795e9befb8a54d",
+      "size": 2490,
+      "lastModified": "2026-11-03T11:01:36.9866777Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/javascript/javascript.js.gz",
+      "hash": "28152f8fc48c719b4ef02d9bb7e412f8f4d5384ed577ad8b11b1ae329fdaa32c",
+      "size": 2797,
+      "lastModified": "2026-11-03T11:01:15.8779809Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/julia/julia.js",
+      "hash": "763d2d709cc767aebb86d7f47e094a2ff0ec6c2ff20db746087da25f5793cf1b",
+      "size": 8052,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/julia/julia.js.br",
+      "hash": "77ef601ba56d8aaebbc2e47941885a57453b8386617ab2fc13056cfd512ac928",
+      "size": 2732,
+      "lastModified": "2026-11-03T11:01:37.0445729Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/julia/julia.js.gz",
+      "hash": "17ca2935353d16c0d1583532bf1610855908d552690e4e8326b23b2cc807fa7f",
+      "size": 3112,
+      "lastModified": "2026-11-03T11:01:15.8919486Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/kotlin/kotlin.js",
+      "hash": "e4820fcf63e4c464499aab40ff948027987e1484a045a91741bba480fc71d687",
+      "size": 4266,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/kotlin/kotlin.js.br",
+      "hash": "f91666717fd4e4212cff5cdaa9711f8714d4776e1a62c11567d6722ad8e505cd",
+      "size": 1693,
+      "lastModified": "2026-11-03T11:01:37.0425146Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/kotlin/kotlin.js.gz",
+      "hash": "024a50b57d268d4cbbfd738b63ee6720816f07349be781ce38cb2f001b5c9f36",
+      "size": 1935,
+      "lastModified": "2026-11-03T11:01:15.8973346Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/less/less.js",
+      "hash": "291122062f89179db9a9495490fa112aeb003b04cd68e51f34722e79fec05188",
+      "size": 4721,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/less/less.js.br",
+      "hash": "159210f857df36c02a2572ba79d79920ca555ede345a52b94fe582b205276b04",
+      "size": 1658,
+      "lastModified": "2026-11-03T11:01:36.9771166Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/less/less.js.gz",
+      "hash": "9e0e3662e4dc0b408cf3127dbf3235fbe76dfd6283ce81d0628cf55a2edcb520",
+      "size": 1875,
+      "lastModified": "2026-11-03T11:01:15.9020758Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/lexon/lexon.js",
+      "hash": "d55482fd3ffccd1f243c9335dbc10504e0896ea0b27b9e5db8bd129c1aad8dd2",
+      "size": 3262,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/lexon/lexon.js.br",
+      "hash": "024bdd7ee1ffd5562324ad84dc1630d6e11b9dcd5620c2d3ca09921d4233dbcc",
+      "size": 1204,
+      "lastModified": "2026-11-03T11:01:36.9945623Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/lexon/lexon.js.gz",
+      "hash": "3e0bbc45cec96f1a084ac063d37c2a276442f6008820f31a24d0f7712581d4b0",
+      "size": 1372,
+      "lastModified": "2026-11-03T11:01:15.9070879Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/liquid/liquid.js",
+      "hash": "ca01c2b1a36ab94e30542f3b936798b3b8d51c2bfc88789e416c26529e91d785",
+      "size": 5045,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/liquid/liquid.js.br",
+      "hash": "10e826cb2f6d9d5ea000fc857d4a6597a26405999de23835846e6e7336de4a63",
+      "size": 1910,
+      "lastModified": "2026-11-03T11:01:37.0175507Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/liquid/liquid.js.gz",
+      "hash": "283bf7b57cf36d404e3783200cfb5485a1c20a7fd7981e9efe97f6aaa5586fcd",
+      "size": 2162,
+      "lastModified": "2026-11-03T11:01:15.9111157Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/lua/lua.js",
+      "hash": "4475c0f4d02c2c6145b097b80cc7e4c3af9246639d20869ff394fe70926cd942",
+      "size": 2944,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/lua/lua.js.br",
+      "hash": "67b5e1c37f6ffe6367bd14f44d24ed94b7381554494a59195f4241db2b3481a8",
+      "size": 1221,
+      "lastModified": "2026-11-03T11:01:37.0339898Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/lua/lua.js.gz",
+      "hash": "3a7ec9dbb8a671874e0670e0112ee5053a0654a6bbfb6b4c55a3a0297e9f6b4c",
+      "size": 1376,
+      "lastModified": "2026-11-03T11:01:15.8723047Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/m3/m3.js",
+      "hash": "bcddb65cfdc3c63e67ccf57993ecea2f279b61f92ad046e096d980a706d23017",
+      "size": 3636,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/m3/m3.js.br",
+      "hash": "0bc6db309044f1c0c0707b602fa3ace35c8da86c5b6881dadbb251e1c1685400",
+      "size": 1555,
+      "lastModified": "2026-11-03T11:01:36.9786358Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/m3/m3.js.gz",
+      "hash": "cfad895c8313314d413d1896a5bdbb050ca9007765800467331a98199dd35741",
+      "size": 1798,
+      "lastModified": "2026-11-03T11:01:15.8764082Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/markdown/markdown.js",
+      "hash": "66f8b288ede67f908cb776aeff8c9e24996182b878c5da7ffa4bd6f3cbc38a6b",
+      "size": 4619,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/markdown/markdown.js.br",
+      "hash": "3b2166c8a17d8e03dea9d0a2e464a4e19d27cbcc9b335d8e699c7dadb3289642",
+      "size": 1621,
+      "lastModified": "2026-11-03T11:01:36.9989728Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/markdown/markdown.js.gz",
+      "hash": "0e2f6a7597df0f6c23bc0241f708c48b7a6e6e148ba8f226ff3ec803db61f997",
+      "size": 1848,
+      "lastModified": "2026-11-03T11:01:15.8835874Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/mdx/mdx.js",
+      "hash": "12e41644e29f943e567e09043ac95f9afe3a12f78221662a7c35561424d30ab6",
+      "size": 5956,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/mdx/mdx.js.br",
+      "hash": "4cb4ad3ef55a11e92f1a1eb7844eaf52a390aedb1f7d4d76f52f7608c44d8b69",
+      "size": 1701,
+      "lastModified": "2026-11-03T11:01:37.0220716Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/mdx/mdx.js.gz",
+      "hash": "12b1f5c0d94f5294647ef64b312e5145ca22d2fe69bbf40983ef468d61c2171c",
+      "size": 1940,
+      "lastModified": "2026-11-03T11:01:15.8899268Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/mips/mips.js",
+      "hash": "5ee4997c552f1f6bc4deca08bbe628b9369af09e5a94770be18cd419963d834d",
+      "size": 3402,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/mips/mips.js.br",
+      "hash": "3523df30174679786bde702fcba65c10ab5e87669414e61ccf5db6410365224a",
+      "size": 1362,
+      "lastModified": "2026-11-03T11:01:37.042011Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/mips/mips.js.gz",
+      "hash": "6e84b47937563444c861b59b02638cd38778626f0cc54db787a675bfef93b40a",
+      "size": 1533,
+      "lastModified": "2026-11-03T11:01:15.894973Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/msdax/msdax.js",
+      "hash": "f53ec8830dba059c6f9ffe5d74ad6556372c927e4465ebeb6c27e1c7f915157d",
+      "size": 5737,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/msdax/msdax.js.br",
+      "hash": "d2158c443c24050ed6deabab5168fa219b0b8b469b1aa2ef790f4f2790144aaf",
+      "size": 2091,
+      "lastModified": "2026-11-03T11:01:36.981151Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/msdax/msdax.js.gz",
+      "hash": "dad000dd5b18f8d5e3edef8e93b45b883fb9438e10e5c780896a54c19a34f932",
+      "size": 2457,
+      "lastModified": "2026-11-03T11:01:15.9008497Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/mysql/mysql.js",
+      "hash": "ca45c24c9eccc351207c790fce382c66ee66e3b74562dec74f3ad306ccf1687a",
+      "size": 12099,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/mysql/mysql.js.br",
+      "hash": "65c8f280354cb2ea23f90e85b1eefb02180b60520f16966afbe183102de71392",
+      "size": 3923,
+      "lastModified": "2026-11-03T11:01:37.0235759Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/mysql/mysql.js.gz",
+      "hash": "97a9d3d32885f6d20c89b33b624fb1a7d2d548822bbaf51060d70d96fba18404",
+      "size": 4666,
+      "lastModified": "2026-11-03T11:01:15.9060886Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/objective-c/objective-c.js",
+      "hash": "15b5f02919df2434a0d0305c301cf6450c98e0076fbfee1baaef93d339b2102c",
+      "size": 3239,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/objective-c/objective-c.js.br",
+      "hash": "1e69412dca7d4a455665b437de10b921026987e9bd420ff4ce7aa563ef432da4",
+      "size": 1295,
+      "lastModified": "2026-11-03T11:01:37.0410085Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/objective-c/objective-c.js.gz",
+      "hash": "c2b2979c7ba50d9ebd2f325f7e4424ede266a4b53c34925a9412477ef31eff53",
+      "size": 1512,
+      "lastModified": "2026-11-03T11:01:15.9106129Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/pascal/pascal.js",
+      "hash": "ea9b0cd3df7ba28f7f9b4b484508d402096026c62399995278931cb91b45f3a1",
+      "size": 3822,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/pascal/pascal.js.br",
+      "hash": "38bf391ec625bbb4823c5bb4eee132524cb467aba04d9da8cfca677c3eaf68fb",
+      "size": 1584,
+      "lastModified": "2026-11-03T11:01:36.9816548Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/pascal/pascal.js.gz",
+      "hash": "230d31e0796fe4df2ab0adb27ad859f70ea469cbcbf3867326a06fc180204f1e",
+      "size": 1855,
+      "lastModified": "2026-11-03T11:01:15.8764082Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/pascaligo/pascaligo.js",
+      "hash": "11cf852948fc74873e7f58bd88c34e7aff02e3655faa2b75d741fab0e07a1922",
+      "size": 2833,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/pascaligo/pascaligo.js.br",
+      "hash": "0658fa2480f17a89251d676789f80e9144b05d08de7430e0486d9d3adb4835e0",
+      "size": 1192,
+      "lastModified": "2026-11-03T11:01:37.0440187Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/pascaligo/pascaligo.js.gz",
+      "hash": "fc8a59d5b5d96024708e3aa127ac00a4273794fc8e722ecc3e26d24ef09c642a",
+      "size": 1355,
+      "lastModified": "2026-11-03T11:01:15.8712857Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/perl/perl.js",
+      "hash": "1d5eee661da60fba32173970d751b604fbc0daa160bc4463128ee35ea5e306fe",
+      "size": 9078,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/perl/perl.js.br",
+      "hash": "0a7eb0f869bf6226e2c427777b337e595d40a45c53fad7f2852d5db409e8183c",
+      "size": 3126,
+      "lastModified": "2026-11-03T11:01:37.0140464Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/perl/perl.js.gz",
+      "hash": "292995b16120ffd1288343f12097529a9ecc04b6ff5d253ecae16e960c85c655",
+      "size": 3660,
+      "lastModified": "2026-11-03T11:01:15.8840359Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/pgsql/pgsql.js",
+      "hash": "354896ae790e785e67e7f0fe20836e49b8650413ebebc0a497e600cd9baebb2a",
+      "size": 14289,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/pgsql/pgsql.js.br",
+      "hash": "d48ff6858453779a81419637871c65dc6582a36e9396e3154c864c311901d7bf",
+      "size": 4257,
+      "lastModified": "2026-11-03T11:01:37.0591967Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/pgsql/pgsql.js.gz",
+      "hash": "ba4799d69171ab5607ead65e144dc46bb5737aa6980e394d4ceb91760c749ada",
+      "size": 5031,
+      "lastModified": "2026-11-03T11:01:15.8914389Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/php/php.js",
+      "hash": "621f1298e5ce5879f6ec3f8ee887b0039d288690f2529752c13c5ba7166caed7",
+      "size": 8848,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/php/php.js.br",
+      "hash": "229e8e46131abd570adda22bdcd0dc22db083168367e3aaf49fe204cfa283194",
+      "size": 2186,
+      "lastModified": "2026-11-03T11:01:37.0722888Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/php/php.js.gz",
+      "hash": "f95fb5b5d28cb1236ac0f0932f1b280caafd9bc829740d01705991fdafd175b1",
+      "size": 2532,
+      "lastModified": "2026-11-03T11:01:15.8973346Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/pla/pla.js",
+      "hash": "65d24fd68d69edbb30b01953c044e3502bac0205e7a9db0447e38562383bdddd",
+      "size": 2504,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/pla/pla.js.br",
+      "hash": "df3e0484f432a76fae2af29ab794a4f60906c9372146361a30cc217d0cd7eaf6",
+      "size": 944,
+      "lastModified": "2026-11-03T11:01:36.969759Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/pla/pla.js.gz",
+      "hash": "f571033af38cb8278f705d31c1c7ba6baab374a7cb8f1a44e3472d39cb0ad922",
+      "size": 1092,
+      "lastModified": "2026-11-03T11:01:15.9020758Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/postiats/postiats.js",
+      "hash": "71e5eb8caaf7112e99c4b7c6befafc1805b47f3460ab520b22a1df07b65f9fc3",
+      "size": 8687,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/postiats/postiats.js.br",
+      "hash": "3befa8a434cb52ca5579a8d215c63eb8da1d3ad344a58752216037df5d9bbb97",
+      "size": 2581,
+      "lastModified": "2026-11-03T11:01:37.0084965Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/postiats/postiats.js.gz",
+      "hash": "080ba0ebc35a04e9aaa64f6cf6d8191ba90bddeae8a38b0373549607bf70109a",
+      "size": 2911,
+      "lastModified": "2026-11-03T11:01:15.9070879Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/powerquery/powerquery.js",
+      "hash": "6a450d27ddde2ca99a5a38734f11578fe67cc5240ce251931f9454baca45516a",
+      "size": 17774,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/powerquery/powerquery.js.br",
+      "hash": "b914513711b2cd3b6f28a239da4ea231a34565cd42945a24a38bd6a5e5f5d410",
+      "size": 4594,
+      "lastModified": "2026-11-03T11:01:37.0742886Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/powerquery/powerquery.js.gz",
+      "hash": "0f51addf0c9e43cbc06d1fe855a651f407555da322e055edeac5510ca724802c",
+      "size": 5355,
+      "lastModified": "2026-11-03T11:01:15.9126261Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/powershell/powershell.js",
+      "hash": "4e376a8005c85fb5bdde94f900920a29faaa2735a9ed9ca2f9e28abef231fed0",
+      "size": 4104,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/powershell/powershell.js.br",
+      "hash": "78ef4dcb4c15060aef0f8166186e68b08f778dd4cd4e7da233af63e777e179a2",
+      "size": 1571,
+      "lastModified": "2026-11-03T11:01:37.0586902Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/powershell/powershell.js.gz",
+      "hash": "4bfd570a621ec07cf67ac6ed4b6e78324b8030b6cb5bfaf654f532f73354c786",
+      "size": 1838,
+      "lastModified": "2026-11-03T11:01:15.8723047Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/protobuf/protobuf.js",
+      "hash": "6e62b15b050502abef7d2f721a2c395a4774bbd43e1e0b0b02da2129ba8f663f",
+      "size": 9877,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/protobuf/protobuf.js.br",
+      "hash": "da450ebd260b7b7464db390d30667a79e1de83c3e63690a07475b7595ac36960",
+      "size": 2230,
+      "lastModified": "2026-11-03T11:01:36.9959654Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/protobuf/protobuf.js.gz",
+      "hash": "1a36d04167fae63780d8af1347ed01dc46b1ebd95c395ae3431f495142a54452",
+      "size": 2541,
+      "lastModified": "2026-11-03T11:01:15.8764082Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/pug/pug.js",
+      "hash": "7989c74ce5c72ed5559103a4289e3d8c67387d552a12e5495ca186d7d5985960",
+      "size": 5649,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/pug/pug.js.br",
+      "hash": "bb9baf7e5996234cf26b6af25ad3a9abc4048b75fbddb33eabf19eb23fb300b6",
+      "size": 1868,
+      "lastModified": "2026-11-03T11:01:37.0261696Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/pug/pug.js.gz",
+      "hash": "4d9ceec679111792b33e4a49f4b356901bde18b70333b8fb26427f02e3a5dbde",
+      "size": 2113,
+      "lastModified": "2026-11-03T11:01:15.8840359Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/python/python.js",
+      "hash": "34ed9698f52c310a991ed3a9a375d0ba8d86690bbbcb488cf7ed23606ac6ca84",
+      "size": 4702,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/python/python.js.br",
+      "hash": "2322847bed09a967b491cf54784541daa24116fd18ef7e41e79565c4c0ef2778",
+      "size": 1877,
+      "lastModified": "2026-11-03T11:01:37.0496036Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/python/python.js.gz",
+      "hash": "a32bdc35ba299e8578677aeb506735919fc18867b92afa5140a6f3b8b717011f",
+      "size": 2093,
+      "lastModified": "2026-11-03T11:01:15.8914389Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/qsharp/qsharp.js",
+      "hash": "85e681adf56a9813ab1a514dddea17b919ed48ae07c4a564703619f93dca0d78",
+      "size": 3762,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/qsharp/qsharp.js.br",
+      "hash": "6d6edab6c46a9f4d7a95525f677b32ae527e00c9dccc90cc89538e56f2805df0",
+      "size": 1598,
+      "lastModified": "2026-11-03T11:01:37.0566913Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/qsharp/qsharp.js.gz",
+      "hash": "357d2aa1efa37b23d71ed09acfa5da9505efa75abca2fd35baae267d55c06e6d",
+      "size": 1831,
+      "lastModified": "2026-11-03T11:01:15.8963279Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/r/r.js",
+      "hash": "0db30b3566ed90be1d37712cb86e40becb27edbf7ba1207a1487b981bc8e7f61",
+      "size": 3948,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/r/r.js.br",
+      "hash": "e0ef3fa3307a890a24f4d0676e0c7572c44bad5c21d7dd52d7848a367125621c",
+      "size": 1497,
+      "lastModified": "2026-11-03T11:01:37.0471007Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/r/r.js.gz",
+      "hash": "28e59d88fb08f20724d1cb6d2a34ed6365fcb4f62b470643b6e4693e6a89bb49",
+      "size": 1737,
+      "lastModified": "2026-11-03T11:01:15.8914389Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/razor/razor.js",
+      "hash": "b67392d4baefbc48e9f0e28e661add4be183bec81016753cac90d901a382b62f",
+      "size": 9861,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/razor/razor.js.br",
+      "hash": "8007d2302821d5d2e33b4d7ff6a163993514f55fd9e45965eb9080ca31b71758",
+      "size": 2485,
+      "lastModified": "2026-11-03T11:01:37.0024786Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/razor/razor.js.gz",
+      "hash": "3ce5118b9bf6e25be2d13188c94c833009a858f9a1099d71fbe6211f6adf5820",
+      "size": 2812,
+      "lastModified": "2026-11-03T11:01:15.9008497Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/redis/redis.js",
+      "hash": "805fa3f57140f854aae63c1312187db390206978c922e1527190206db207963a",
+      "size": 4381,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/redis/redis.js.br",
+      "hash": "f4a6728c6f6c3e5be10793109cf31ab15ce8bbc567565c599dd77d193913c0b2",
+      "size": 1702,
+      "lastModified": "2026-11-03T11:01:37.0445729Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/redis/redis.js.gz",
+      "hash": "9f049012f9906c4319c7bf831c70e5a5c25be77fab96714e85c011129bf9bc8a",
+      "size": 1969,
+      "lastModified": "2026-11-03T11:01:15.9070879Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/redshift/redshift.js",
+      "hash": "b1bd4c4d566b0d0688803f8b13ecc667c299100ab45c3f187b85906446f4eb65",
+      "size": 12631,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/redshift/redshift.js.br",
+      "hash": "e39526d995731c084c61b1a63bf0b7a3c40467d58088f60cd2bf07bb1fa4bb1b",
+      "size": 4104,
+      "lastModified": "2026-11-03T11:01:37.0901045Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/redshift/redshift.js.gz",
+      "hash": "0d368f70f2dba2a2f5fa48c917868e7a798f357f3ca1f87bf29f3e188ec2f57c",
+      "size": 4863,
+      "lastModified": "2026-11-03T11:01:15.9116182Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/restructuredtext/restructuredtext.js",
+      "hash": "1d05f1659f95d61251b4efb8f9cbbcb06652fa82f95080637fcdbdf20b5b9242",
+      "size": 4740,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/restructuredtext/restructuredtext.js.br",
+      "hash": "78a8995643dffc55ebedc82a3435f0d9534531e54c7071d1a37d6b833073aefa",
+      "size": 1619,
+      "lastModified": "2026-11-03T11:01:37.064019Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/restructuredtext/restructuredtext.js.gz",
+      "hash": "ba03990948b5f5ac35ba50e1ccfa711c45ef405bf8790489fd7087b6a59f1926",
+      "size": 1838,
+      "lastModified": "2026-11-03T11:01:15.8733148Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/ruby/ruby.js",
+      "hash": "7a8f786527b3546e88c350d9b11de0edc801276abc00741526407dc6859712d9",
+      "size": 9327,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/ruby/ruby.js.br",
+      "hash": "f6fe60f1a715462b0f5dc8445195dc99524d33893690714c2662f4fd7a3644d9",
+      "size": 2713,
+      "lastModified": "2026-11-03T11:01:36.9979763Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/ruby/ruby.js.gz",
+      "hash": "70e4ec526506dc440d3acec7bb6762497bd0ee55adee16a2041ec002997b8a2e",
+      "size": 3045,
+      "lastModified": "2026-11-03T11:01:15.8774641Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/rust/rust.js",
+      "hash": "206151559b889581b3b522026a57f228ceab4fb864747074bd80e7041cdb5beb",
+      "size": 4983,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/rust/rust.js.br",
+      "hash": "26827648a66b2c0104c921e245a006d017b6fe5c97c0f0dcc3bc7e06a378ea44",
+      "size": 2030,
+      "lastModified": "2026-11-03T11:01:37.0271812Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/rust/rust.js.gz",
+      "hash": "ec98b46ecaf0d839ec128019d22f79b6e899766f855b2103de766927c5481ee4",
+      "size": 2302,
+      "lastModified": "2026-11-03T11:01:15.8840359Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/sb/sb.js",
+      "hash": "58001ef158de456bb44ebe9e7616308be4f909c99c7483edd4dfb9d886922c41",
+      "size": 2648,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/sb/sb.js.br",
+      "hash": "ce05717f7c35023c139f91c3547b6da330e9b35573c0ab1688d35da6b1c81718",
+      "size": 1110,
+      "lastModified": "2026-11-03T11:01:37.0576908Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/sb/sb.js.gz",
+      "hash": "490d8be3b6031f4f6cf57d1def2b53e19166ab333dcb510e4b8b81133591a0a0",
+      "size": 1271,
+      "lastModified": "2026-11-03T11:01:15.8963279Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/scala/scala.js",
+      "hash": "fe4369dd35b2fe4879d63699af578f4fc42a40154416f1f4dda6de8fe927d66d",
+      "size": 8143,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/scala/scala.js.br",
+      "hash": "f172ec5d53b7d3e20ad57c1a0cb75ac1ef2ced1a6fe9bd48c55021dbe461df58",
+      "size": 2266,
+      "lastModified": "2026-11-03T11:01:36.9901928Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/scala/scala.js.gz",
+      "hash": "e1c66ed054bcaefe44005c272de184f06103ba6ab6dc782f6d69c4e66d29cb0f",
+      "size": 2557,
+      "lastModified": "2026-11-03T11:01:15.9008497Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/scheme/scheme.js",
+      "hash": "d42be5d22975e53e1fca77bc2250ecb59125a5c58047292bc20cbce06f5c30d7",
+      "size": 2594,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/scheme/scheme.js.br",
+      "hash": "cb534678f98989b4654ab990200d9bc1ff32c82769958c02a90aa51d0ca9962d",
+      "size": 1115,
+      "lastModified": "2026-11-03T11:01:37.0044801Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/scheme/scheme.js.gz",
+      "hash": "433c5a3d01075d7d35cf43cb9ed1a2ef9e7b655d1d4ed4dff313ac1e5017f702",
+      "size": 1265,
+      "lastModified": "2026-11-03T11:01:15.9060886Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/scss/scss.js",
+      "hash": "52ee58f53cd91a92ed0dba2da45fd2e692604fdb9ea4cb2f86718cc798d76399",
+      "size": 7232,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/scss/scss.js.br",
+      "hash": "ba6fbad2fb3fef17c3a92ba60e9f36d25b225689d9a57dc5a7963bc01848389b",
+      "size": 1938,
+      "lastModified": "2026-11-03T11:01:37.0294666Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/scss/scss.js.gz",
+      "hash": "b1f2474041ad8048327b9a89884391d9380e68ae18e98bc110ef3ef359eb57b4",
+      "size": 2211,
+      "lastModified": "2026-11-03T11:01:15.9111157Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/shell/shell.js",
+      "hash": "a0d9f1a5cf3a2c1c62563226574240a7064ca8c7eac39d061e87141a7cd8e4b5",
+      "size": 3898,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/shell/shell.js.br",
+      "hash": "a5d390fa8acd5b0fa353587f5064bd7b5a807cbf098b7ac19fe95ee8ea83fda5",
+      "size": 1462,
+      "lastModified": "2026-11-03T11:01:37.0521112Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/shell/shell.js.gz",
+      "hash": "a1f27e9e3b1b3e5f71e9c590dd0d0e228b808771ce27376e64f0a6a4c042aa28",
+      "size": 1668,
+      "lastModified": "2026-11-03T11:01:15.8723047Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/solidity/solidity.js",
+      "hash": "950af3dff2530d4fa5d9daf02a0433b61b0ca72a90abdad76a4774cb6563292c",
+      "size": 19428,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/solidity/solidity.js.br",
+      "hash": "4633ce2b3c9fccfe9e34c81e868346f24543c4d21da7b21ef59ab8d7aad5f993",
+      "size": 2866,
+      "lastModified": "2026-11-03T11:01:37.03299Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/solidity/solidity.js.gz",
+      "hash": "3bb13dc3ca39eb6fa6156324989479118dac4709c9aca6e0d0985fe0199a6b18",
+      "size": 5029,
+      "lastModified": "2026-11-03T11:01:15.8779809Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/sophia/sophia.js",
+      "hash": "3a090d3736d241bb706ec8011aa31d0cf3ef13715813eb8f1100b4738b63b025",
+      "size": 3591,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/sophia/sophia.js.br",
+      "hash": "e7595fc8decd9d67d7cdc94d44d12ef2b26c712d8d44a4ca0c646127e2593eb3",
+      "size": 1448,
+      "lastModified": "2026-11-03T11:01:37.055692Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/sophia/sophia.js.gz",
+      "hash": "eb6bb06b8c04434eda65fc264029ab946fbb1217681166ad4b342be43b0e47ee",
+      "size": 1660,
+      "lastModified": "2026-11-03T11:01:15.8860438Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/sparql/sparql.js",
+      "hash": "c22b0378faa2004ac710ce64149d231a9ed8c488b2bf84c222b19a4584c4e442",
+      "size": 3379,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/sparql/sparql.js.br",
+      "hash": "12c25599abdb1d018799cbcb773bf463c39c9fe4edb0d9d14d6342d18ab13bd4",
+      "size": 1403,
+      "lastModified": "2026-11-03T11:01:37.0757914Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/sparql/sparql.js.gz",
+      "hash": "5a19c049ffc063f0205f315e661bff45b3c2491fb96eb1882c9fdff8a470f780",
+      "size": 1622,
+      "lastModified": "2026-11-03T11:01:15.8929717Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/sql/sql.js",
+      "hash": "6ff415adfb27a1fbb87cfa40f0da164e9314dd1dfed87a3de39bf2c98e5ded1f",
+      "size": 11118,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/sql/sql.js.br",
+      "hash": "475f4c9ef14bae8015cd6ef58ec433d951c2a336a47f79fcea7613ea728aa995",
+      "size": 3737,
+      "lastModified": "2026-11-03T11:01:37.0864686Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/sql/sql.js.gz",
+      "hash": "44cf0345d30119d8279fbadaaf8728951d20e0f5e7afba0e0b096dceef90dd2a",
+      "size": 4427,
+      "lastModified": "2026-11-03T11:01:15.8983409Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/st/st.js",
+      "hash": "2a053bcba1a7d58d2806f9206d643b2cda43bec4f0e7d50ae940a6f4322ea162",
+      "size": 8222,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/st/st.js.br",
+      "hash": "7197c437e39adeb0c7aa7c7345e43957c58fad75f1667ec9a1bf173e1125e052",
+      "size": 2366,
+      "lastModified": "2026-11-03T11:01:36.9866777Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/st/st.js.gz",
+      "hash": "c9017353f795f7faf9fbbf997ac7c0ee3a4f2d949ef26178ace60eaea6412dd5",
+      "size": 2710,
+      "lastModified": "2026-11-03T11:01:15.9035799Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/swift/swift.js",
+      "hash": "402daa01303d2866384c42a497aa6a969a4858e4c023c6ced61c9b1e4768312d",
+      "size": 5997,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/swift/swift.js.br",
+      "hash": "9e36759daeb5c68d447ee28c17ca22500cf05f91b8eaca24717b87d4c56c593f",
+      "size": 2181,
+      "lastModified": "2026-11-03T11:01:37.0094994Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/swift/swift.js.gz",
+      "hash": "25b3223e40511fe91566f281645a757bcbc0490ee35faff6903edbf55ee5b03f",
+      "size": 2533,
+      "lastModified": "2026-11-03T11:01:15.9085927Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/systemverilog/systemverilog.js",
+      "hash": "bd18a096fecba5ad476e97e5065ec6efd013ef7fba7f9cc2e874a8b67ea0daf0",
+      "size": 8444,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/systemverilog/systemverilog.js.br",
+      "hash": "676f24f8f9534068d97c09092d1a35773f701ceba559ba4d03ff8d286c59025d",
+      "size": 2852,
+      "lastModified": "2026-11-03T11:01:37.0496036Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/systemverilog/systemverilog.js.gz",
+      "hash": "9290579e213f6368f30908b986768639c06ae08554186d58c8f9f31218cf3051",
+      "size": 3240,
+      "lastModified": "2026-11-03T11:01:15.9116182Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/tcl/tcl.js",
+      "hash": "cdf4f3fd5d755a43d3a7f76d22559140bf49751e063a2ce444b818fd60c869f7",
+      "size": 4392,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/tcl/tcl.js.br",
+      "hash": "d2db8446e51609f58ae3b4313b1874cd7fc452950b9ac21ab8f8e459403d30d1",
+      "size": 1603,
+      "lastModified": "2026-11-03T11:01:37.0697728Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/tcl/tcl.js.gz",
+      "hash": "7ae7ad0c980f88acdf99189bbf039193ed3ab060882fa90e192c9ca97a1f5b6c",
+      "size": 1837,
+      "lastModified": "2026-11-03T11:01:15.8733148Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/twig/twig.js",
+      "hash": "49989d7c64d2272ab54bd0d7c5008083cb0a4b1bc9285e672893293b2614b14e",
+      "size": 6796,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/twig/twig.js.br",
+      "hash": "8945db83b822d1a5e814fd11e5db9df733ed2aecddb8cea9f4c6d9f8f2cdaa1a",
+      "size": 1737,
+      "lastModified": "2026-11-03T11:01:36.9866777Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/twig/twig.js.gz",
+      "hash": "94129bcdaca8790bcb7862bca712785c24caa2d45a172b5b821fbce9a25107de",
+      "size": 1983,
+      "lastModified": "2026-11-03T11:01:15.8779809Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/typescript/typescript.js",
+      "hash": "3d69304a326c73ee980632aa45abd086ee1a6509bdf0f689a38b8f433adcef32",
+      "size": 6500,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/typescript/typescript.js.br",
+      "hash": "b446f5fa5a721d4454eb1cb5e1d4e077a2b7a276ee425a152989cc205b4c05de",
+      "size": 2386,
+      "lastModified": "2026-11-03T11:01:37.0140464Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/typescript/typescript.js.gz",
+      "hash": "06b8c0487e04c4723c371c67f3f52299d60d26c3ca13673b00ee15a7cc769016",
+      "size": 2674,
+      "lastModified": "2026-11-03T11:01:15.8850394Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/vb/vb.js",
+      "hash": "36bd2530715b7d696f719207915a70534051b82eff1f3888091759bf5e6d309d",
+      "size": 6610,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/vb/vb.js.br",
+      "hash": "9bd31395cbb9b694deced2ca8593f49b5a69368c73f5117e35b6a9d14d0a7f35",
+      "size": 2228,
+      "lastModified": "2026-11-03T11:01:37.039504Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/vb/vb.js.gz",
+      "hash": "562e2ec109e321a1b2ffd124b04b17aedff7098f4f6faef154a839db0a16bda9",
+      "size": 2535,
+      "lastModified": "2026-11-03T11:01:15.8924626Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/wgsl/wgsl.js",
+      "hash": "175fdfc24f48c096a03509f731ba387f30f9e40ef5b783f7383c88f6cfd961b1",
+      "size": 8146,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/wgsl/wgsl.js.br",
+      "hash": "b4427fd09abad1e1e2c434ef2a20731eb7291435ef9949532c11f0f6e5aa39e3",
+      "size": 2753,
+      "lastModified": "2026-11-03T11:01:37.0762948Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/wgsl/wgsl.js.gz",
+      "hash": "ce49c41922f268f2e85a470581b2f408dae66c3b59229d22d43c6343dfbd7d26",
+      "size": 3217,
+      "lastModified": "2026-11-03T11:01:15.8973346Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/xml/xml.js",
+      "hash": "05c1ca7a4076664a7b1247bbe10680821989d8646eed1912f9d3c5a8ce8bc817",
+      "size": 3492,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/xml/xml.js.br",
+      "hash": "4054881a67e122007f65919da633e52e979872f6c176d8352745b10b641da3ba",
+      "size": 1292,
+      "lastModified": "2026-11-03T11:01:36.9851616Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/xml/xml.js.gz",
+      "hash": "1676afe8ae46bb0b0e802d7ae7635116cfaacdf21c242f94e59dadf63e6f983f",
+      "size": 1455,
+      "lastModified": "2026-11-03T11:01:15.9020758Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/yaml/yaml.js",
+      "hash": "040ba1de2263eb7785c9c810d3c8dd0da6b119b02c104da055dc45ab7b20cf72",
+      "size": 5096,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/yaml/yaml.js.br",
+      "hash": "d6c93e78971959bdd5f9e4dad2ba764f5d926c040b2f876edf65bf95cb41a756",
+      "size": 1794,
+      "lastModified": "2026-11-03T11:01:37.0084965Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/basic-languages/yaml/yaml.js.gz",
+      "hash": "5a730258733b09bdfa99276d489944a91156170d54d3bb3c8937541ac1d21615",
+      "size": 2012,
+      "lastModified": "2026-11-03T11:01:15.9085927Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/editor/editor.main.css",
+      "hash": "764a3dde806a7414402e87ce4bf2da4f5bb6f36910d887d5c8ee985c1bdf92bd",
+      "size": 115427,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/editor/editor.main.css.br",
+      "hash": "c3c35954cdb7419b4989454701a20336276df63cfdf3fe49bd819c969688f03b",
+      "size": 16047,
+      "lastModified": "2026-11-03T11:01:37.2997119Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/editor/editor.main.css.gz",
+      "hash": "018cd996675d795d4e4024fffe012999f1507aaf0c1d1d242532c4a44eee480f",
+      "size": 18721,
+      "lastModified": "2026-11-03T11:01:15.9138457Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/editor/editor.main.js",
+      "hash": "a79692b8eabd24e0662310c8505d91ab8b85f17db997e4b8f8838980b25bf6df",
+      "size": 3469378,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/editor/editor.main.js.br",
+      "hash": "c66ed8f51cf945e0124f0cb77bd7d750cd6d176505077b798b721e95a62b5e1f",
+      "size": 679651,
+      "lastModified": "2026-11-03T11:01:46.4213605Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/editor/editor.main.js.gz",
+      "hash": "2034e5997fdc44f32f93e7d571488f14d97f13ae77892910546f3cdf3a14bd45",
+      "size": 886930,
+      "lastModified": "2026-11-03T11:01:15.9566314Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/editor/editor.main.nls.de.js",
+      "hash": "c17a7143bfec45615dfe279453207810386cf2ddb1765bb51d5ef7588e431c59",
+      "size": 120585,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/editor/editor.main.nls.de.js.br",
+      "hash": "fc07de3e8e22883d406214fdf0c30ad4e0b48c2f9a5cc7621f23f484c876e7b0",
+      "size": 23934,
+      "lastModified": "2026-11-03T11:01:37.2790267Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/editor/editor.main.nls.de.js.gz",
+      "hash": "6c0f6c2cd5b95d6955071e2459edf183609305372a2cdc88de140cf11c31fcda",
+      "size": 27505,
+      "lastModified": "2026-11-03T11:01:15.8810577Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/editor/editor.main.nls.es.js",
+      "hash": "7eecec9290d4ce0e6ed84629db0d4f1fa579bf747dafdeaba07b0fcccdbca260",
+      "size": 120935,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/editor/editor.main.nls.es.js.br",
+      "hash": "8cd391fb6a0a74a9a818318872e7caff25a8ebf6b158ba10782349d9045ca0dd",
+      "size": 21939,
+      "lastModified": "2026-11-03T11:01:37.3604666Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/editor/editor.main.nls.es.js.gz",
+      "hash": "a5176a21cdd05f1f10ab83f4fc172b40598a7de8cd490544aed87b186f392336",
+      "size": 25755,
+      "lastModified": "2026-11-03T11:01:15.8914389Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/editor/editor.main.nls.fr.js",
+      "hash": "40cc5f86d28dac219ad76b3b93217147524e9a586497425fb1c7e8946bdf8d39",
+      "size": 132590,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/editor/editor.main.nls.fr.js.br",
+      "hash": "15fd8062c6525529fa6fe37adaa625ceeb7a8f9730e4380f8f0039c305931b6b",
+      "size": 23298,
+      "lastModified": "2026-11-03T11:01:37.6651951Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/editor/editor.main.nls.fr.js.gz",
+      "hash": "e807d40361247a495336823062ef42567a6a1a9ff86ce95b55b44ecc679b4237",
+      "size": 27134,
+      "lastModified": "2026-11-03T11:01:15.8993452Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/editor/editor.main.nls.it.js",
+      "hash": "4415cba01ef4ecc312385a39f3d6f43ad6c3c8b33acb9cbf0c0b95a3a21b352a",
+      "size": 122777,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/editor/editor.main.nls.it.js.br",
+      "hash": "54ebe53222099efa976c1b82ba57d1786d1b7dd202723fa16aef4f3e0aadf1d5",
+      "size": 21715,
+      "lastModified": "2026-11-03T11:01:37.9329639Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/editor/editor.main.nls.it.js.gz",
+      "hash": "24a27b209c4815bd631e9e9e7e86eee5e28bded5746d81cfd8e969ba924aae9f",
+      "size": 25314,
+      "lastModified": "2026-11-03T11:01:15.9070879Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/editor/editor.main.nls.ja.js",
+      "hash": "7ffa7603cb71b964d6eed22f604c51bbefbe560fcdcd309e2668d74b6082eea3",
+      "size": 248590,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/editor/editor.main.nls.ja.js.br",
+      "hash": "d51e0bc19238f950ebb507b88c572d340a510bb4b030dbaa8b18c3e6b01c8855",
+      "size": 24114,
+      "lastModified": "2026-11-03T11:01:37.5977572Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/editor/editor.main.nls.ja.js.gz",
+      "hash": "e3c40a269936ac37aca48c6b21fb67f62f0969b1ce5f25048feba940752ab157",
+      "size": 31324,
+      "lastModified": "2026-11-03T11:01:15.9160812Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/editor/editor.main.nls.js",
+      "hash": "76882f9f1ca076a810cc44891fc00e6c3922d51d8c2d41c5093b016eeaa401cd",
+      "size": 96161,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/editor/editor.main.nls.js.br",
+      "hash": "27a84c635e20f79da474e8b49b573473db08cabccee219d66ab683af526d5493",
+      "size": 18255,
+      "lastModified": "2026-11-03T11:01:37.2969777Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/editor/editor.main.nls.js.gz",
+      "hash": "4e8ec9745ea3aa0362867f68ad88ad14079e533091d7d2f1f25988f71691665d",
+      "size": 21968,
+      "lastModified": "2026-11-03T11:01:15.9198787Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/editor/editor.main.nls.ko.js",
+      "hash": "67329ca30fe98668b295dcfd19fcfb8958815e56342e750655d9aeb876878847",
+      "size": 205419,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/editor/editor.main.nls.ko.js.br",
+      "hash": "678c8d93a2089f2f55d4e2730fd66f746628148a2300c1eb3cacbcb02e91dd80",
+      "size": 22807,
+      "lastModified": "2026-11-03T11:01:37.7703782Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/editor/editor.main.nls.ko.js.gz",
+      "hash": "b20cf34269f283a14f5860a5e9ef775709f9dc4f01c224bec3fe12c2d8cfed3b",
+      "size": 28775,
+      "lastModified": "2026-11-03T11:01:15.9254448Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/editor/editor.main.nls.ru.js",
+      "hash": "e217a9b5823906a09e8ca0204a614319aa03607b54836fd9c616fcbfec8861cd",
+      "size": 512190,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/editor/editor.main.nls.ru.js.br",
+      "hash": "c3532ffb07813fb2b1913f42bdd82817a14e2655c025f511e870ca4c2fd4620f",
+      "size": 29115,
+      "lastModified": "2026-11-03T11:01:38.7836795Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/editor/editor.main.nls.ru.js.gz",
+      "hash": "7849519216a860bdc72cd7d86f0c1c52d09376de073c4eb95f33920e6cf25a05",
+      "size": 41556,
+      "lastModified": "2026-11-03T11:01:15.8860438Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/editor/editor.main.nls.zh-cn.js",
+      "hash": "43f6b0598c4492d89246f357d3dca7cc8bfa6a5e100588c9566bc6f5c8e144df",
+      "size": 156056,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/editor/editor.main.nls.zh-cn.js.br",
+      "hash": "fc301be4769bead24a5a9a358861ed48618bd83efbffa7edf09a3e20b5779ca9",
+      "size": 21783,
+      "lastModified": "2026-11-03T11:01:37.3950718Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/editor/editor.main.nls.zh-cn.js.gz",
+      "hash": "0c282c3f6afc637d600ebed48ae02c4a8c18265721e7ef17a2d3f622006fa77a",
+      "size": 26836,
+      "lastModified": "2026-11-03T11:01:15.8840359Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/editor/editor.main.nls.zh-tw.js",
+      "hash": "e3c5fa966e4b589fefc683383bfeb92ecb5684ebb67b0f9ea3d2abe51fa5d083",
+      "size": 159246,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/editor/editor.main.nls.zh-tw.js.br",
+      "hash": "700e608231787b495a952e948288487fc59fb25e08efb8c95740e903dcc66e6d",
+      "size": 22026,
+      "lastModified": "2026-11-03T11:01:37.4888133Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/editor/editor.main.nls.zh-tw.js.gz",
+      "hash": "842110ba3403542761d238b38ccfa95892984c6313cecf0c381320a5421fd5f4",
+      "size": 27279,
+      "lastModified": "2026-11-03T11:01:15.8939729Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/language/css/cssMode.js",
+      "hash": "ccfe978a6ff7ae2044d817f846ff0e157b9c088bad6ed504e257975be5cdbc90",
+      "size": 34290,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/language/css/cssMode.js.br",
+      "hash": "5d5c97dd0fa9d412b9c2c683508b62eb1f2fbfb0e9bc62e421320a3956cd0a74",
+      "size": 8156,
+      "lastModified": "2026-11-03T11:01:37.5608232Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/language/css/cssMode.js.gz",
+      "hash": "39e4e0692ca935687bdcecddbc2480960ec41b32e6ebed3914c19715aa97ac0a",
+      "size": 9210,
+      "lastModified": "2026-11-03T11:01:15.8810577Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/language/css/cssWorker.js",
+      "hash": "f81e2adf4a550e3d89038a64ef1bd32c0acca59c7d7732a461e5736a02312859",
+      "size": 776551,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/language/css/cssWorker.js.br",
+      "hash": "03a19848df9770392da8b3077bdab84debda8942881415418fdbac3bdd7756df",
+      "size": 116401,
+      "lastModified": "2026-11-03T11:01:39.2234897Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/language/css/cssWorker.js.gz",
+      "hash": "e549d00723f2473489b40201db645fddb8f96a6a3f2c8cb2f996a2cfe8ca9f85",
+      "size": 157168,
+      "lastModified": "2026-11-03T11:01:15.9060886Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/language/html/htmlMode.js",
+      "hash": "c00b1f2f6065c5022d60d8c46828cb726834e9d3a455bdc89780d41748b3b26c",
+      "size": 34826,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/language/html/htmlMode.js.br",
+      "hash": "906057dc7b39a0bb6f5437c7c5c5fed15532cc7f9e05a83ee2a2d80607383283",
+      "size": 8255,
+      "lastModified": "2026-11-03T11:01:37.0953714Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/language/html/htmlMode.js.gz",
+      "hash": "14b70ad1ef0aaa63c0a69a4ffff9e2342f84121960a3a7d4ce04556832b0b960",
+      "size": 9350,
+      "lastModified": "2026-11-03T11:01:15.8810577Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/language/html/htmlWorker.js",
+      "hash": "8c8f5bdbdb7b31cd16cdbdffbf99aaedba8790b3016e7156f18d5baa8a33c37e",
+      "size": 445890,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/language/html/htmlWorker.js.br",
+      "hash": "e89ed3f9b625b8ca7f5bf2b9d2eebc16ac0f94875daf6579753a5b63a02e442d",
+      "size": 85568,
+      "lastModified": "2026-11-03T11:01:38.0882714Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/language/html/htmlWorker.js.gz",
+      "hash": "c4a2c7cf9da26f8df38756a8e3a712f691931d17af4adcbce69e92b195341f8a",
+      "size": 105814,
+      "lastModified": "2026-11-03T11:01:15.9045829Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/language/json/jsonMode.js",
+      "hash": "76ac56f40dc8ff457d7033ea2ea06bbb82ac89efa1b8e8a37609a40cc0e4950d",
+      "size": 40280,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/language/json/jsonMode.js.br",
+      "hash": "de965e7703a43f84ae6e5a5b3990de8c3a39c20d0d73eac22b3611bd1ae6378a",
+      "size": 10100,
+      "lastModified": "2026-11-03T11:01:38.1706965Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/language/json/jsonMode.js.gz",
+      "hash": "575ff4f914485f3248c89447ce05443dd7aa0c4a9f0759597477c6d760bcbeb6",
+      "size": 11423,
+      "lastModified": "2026-11-03T11:01:15.881564Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/language/json/jsonWorker.js",
+      "hash": "6f33c33a4efe691e75008435430c80bd76f8b88726f69e4c22582a16d6a4a135",
+      "size": 128871,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/language/json/jsonWorker.js.br",
+      "hash": "b74ae0d26b0ef4c4d27d9cf5d6092546d40f27b412c9e88a7da1f55308c178fa",
+      "size": 31936,
+      "lastModified": "2026-11-03T11:01:38.4323383Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/language/json/jsonWorker.js.gz",
+      "hash": "9ac1f9122b3cb1c5b1ab0bfeff2f86ec074989f07a026ea4871d43904e7a9a96",
+      "size": 37017,
+      "lastModified": "2026-11-03T11:01:15.8840359Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/language/typescript/tsMode.js",
+      "hash": "6404114a7ebdaf7f7f1aca882219fd6ce140b20675003c6bbce48154ba378053",
+      "size": 23674,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/language/typescript/tsMode.js.br",
+      "hash": "95785603f40b254a457c7c930473dd51ce06a8cc3e42bb030a2437cbaf0725fe",
+      "size": 6191,
+      "lastModified": "2026-11-03T11:01:37.1225786Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/language/typescript/tsMode.js.gz",
+      "hash": "3981dee34e613afc6ff9797fc3d27a5b31ec1f9f43662028441934501fa70546",
+      "size": 6953,
+      "lastModified": "2026-11-03T11:01:15.8914389Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/language/typescript/tsWorker.js",
+      "hash": "ca6e2bdb4f8dd9a39e2b9ea3336ab98b3b46df5803053ba658db3e862ceb18b0",
+      "size": 4602226,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/language/typescript/tsWorker.js.br",
+      "hash": "cde1cab4c502f83417527a7fb5981e1b000d99e21ce76419fad44c68eeb1bb53",
+      "size": 825534,
+      "lastModified": "2026-11-03T11:01:48.5755517Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/language/typescript/tsWorker.js.gz",
+      "hash": "c026a71531d1b0640081fd350b0c7bd958cf56bf270c4637dac5a9ac0d315bcb",
+      "size": 1115750,
+      "lastModified": "2026-11-03T11:01:15.9831892Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/loader.js",
+      "hash": "effab18afbb4297a23d9d98be95672e4088c735a0677993c329cf29b48914aed",
+      "size": 30051,
+      "lastModified": "1985-10-26T08:15:00Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/loader.js.br",
+      "hash": "72bdbfac294844829e9bec0a75ca70d085b09a6bd482490b2fd30014cff5eaf3",
+      "size": 8226,
+      "lastModified": "2026-11-03T11:01:48.65522Z"
+    },
+    {
+      "path": "wwwroot/vendor/monaco/vs/loader.js.gz",
+      "hash": "300c83c2a22724b4e01fa37e215c1a9be6e61fa915c09bbcebd09ebe09e93668",
+      "size": 9310,
+      "lastModified": "2026-11-03T11:01:15.9857024Z"
     }
   ],
-  "signature": "QdtV+Z9QgNeRcVHO5U2pmA3cL+eEsn09CCrzlPNUycTjdvX1a51VPTagcb4yf8lOXEtznMs6pzYunicrL9SFUz35ir60nyyxdpE6d8o0Jb9mxLsaDOOH3CStQYLK7JDrKn0p7MuW6cnR2us2xk+ko8GFxz6/KYFWAWUuCCAxNjHOIrZuIHoDNZjMZ2ihw31ZQMtmvQtQstLaEOACru/D4SiO5B+5x5SX37TdJ1SQOgitHlGKUi+njOc+xzAK7Wfy556K8rIqA4X7vvObYH/ax4urZByLRAdm/QWdr9vXdJzieospPcieJjvTSrATmjjERTLsQEGXhui19A9EXwoQwoubvlL59TYHqMaIRIlbuQTbtnfR1OzkKnnYCy7Zr3FbPa4Qr6gCcdF23tCzbFv45SRcHL8BxdhimkVaeikGxqKYjFz1L08nGdFELteZxxrSPJBcdz/umYfcsMo+Ty67LbaY7ef2CdHEfk2yh2lkoTg/INO4VZn1XyKgpFVcFojo"
+  "signature": "lDXEZQQpaHsMORSnFJ1YsPdqPS9ZJjpQEXXwahuXNLx3p9N6wGHgz8FvKptYdp6llP4PgtYwbO7qgsecEtT2ENEVqVBqP+Dd9KKQlan173frqIfJCTf1Wj3NvH96hQY5ROYNl1Gf539iWj4qnwqla6qxkNM3rw/U2PHQlFs6xFbm1HSnhDKTJE1tFC4PI3ortDihodvJswWrkCAQTd/dRp2gFxrsfG1IqLEASkyKwmlMZ3cwNWSON768bf7JkqPA2av4v+q8dZfSrX4ecvfjTqWl7m0w05Pup0poEkNu3ot4DxWuavDWO0NCKev/sUcqdCqgGp5lnRdrzK0VUf2drXaOo4TnDrzTH+OdWnUSTQe4NWbdXuRv/aSXW19hNYr4mNrQBd09hEmgDq1HNc0nzFP/LMBhodzrXXjNdMW80/pJk5AWAAgAUeqDKtJFD7+vOdvep/Y475m/V9ntyssTMvgNIqPhTMG4D8CaSF1fSJYTO9/KJujI4QImwzX0TXRi"
 }

@@ -1,0 +1,14 @@
+# Customer-specific configuration and secrets are not shared update assets.
+appsettings*.json
+firebase-admin.json
+jwt.key
+webpush-vapid.json
+qz-key.pem
+*-signing-private.pem
+INITIAL_ADMIN_PASSWORD.txt
+.runtime-secrets/
+.runtime/
+remote-access/
+wwwroot/uploads/
+wwwroot/employee-photos/
+*.log

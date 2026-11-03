@@ -7,7 +7,7 @@ function ensureMonacoLoader() {
     if (_monacoLoaderPromise) return _monacoLoaderPromise;
     _monacoLoaderPromise = new Promise((resolve, reject) => {
         const script = document.createElement('script');
-        script.src = 'https://cdn.jsdelivr.net/npm/monaco-editor@0.45.0/min/vs/loader.js';
+        script.src = new URL('vendor/monaco/vs/loader.js', document.baseURI).href;
         script.onload = resolve;
         script.onerror = () => reject(new Error('Monaco loader failed to load'));
         document.head.appendChild(script);
@@ -49,7 +49,7 @@ window.initMonacoEditor = async function (containerId, xmlContent) {
         container.innerHTML = '';
 
         require.config({
-            paths: { 'vs': 'https://cdn.jsdelivr.net/npm/monaco-editor@0.45.0/min/vs' }
+            paths: { 'vs': new URL('vendor/monaco/vs', document.baseURI).href }
         });
 
         require(['vs/editor/editor.main'], function () {

@@ -1,6 +1,14 @@
 // Load the chart engine only on the dashboard. It is the largest startup script
 // and is not needed by attendance, invoices, or most other screens.
 let _apexChartsLoadPromise = null;
+// Keep every day in the data, but only label a readable subset of the axis.
+function dashboardDateLabelFormatter(categories, maxLabels) {
+    const stride = Math.max(1, Math.ceil((categories.length - 1) / (maxLabels - 1)));
+    const visible = new Set(categories.filter((_, index) =>
+        index === categories.length - 1 || (index % stride === 0 &&
+            (index === 0 || categories.length - 1 - index >= stride / 2))));
+    return value => visible.has(String(value)) ? value : '';
+}
 window.updateDashboardTheme = function () {
     if (!window._dashChart || !document.getElementById('dash-chart')) return;
     const light = document.documentElement.getAttribute('data-theme') === 'light';
@@ -43,10 +51,12 @@ window.renderDynamicDashboardChart = async function (categories, salesData, purc
         const isLight = document.documentElement.getAttribute('data-theme') === 'light';
         const textColor = isLight ? '#526174' : '#b5b5b5';
         const borderColor = isLight ? '#dce2ea' : '#3a3a3a';
+        const dates = categories || [];
+        const formatAmount = value => Number(value).toLocaleString('en-US', { maximumFractionDigits: 2 });
         const options = {
             chart: {
-                type: 'line',
-                height: 220,
+                type: 'bar',
+                height: 250,
                 background: 'transparent',
                 foreColor: textColor,
                 fontFamily: 'Tajawal, sans-serif',
@@ -64,7 +74,10 @@ window.renderDynamicDashboardChart = async function (categories, salesData, purc
                 { name: 'المشتريات', data: purchasesData || [0,0,0,0,0,0] }
             ],
             colors: [isLight ? '#4555d4' : '#a6b2ff', isLight ? '#64748b' : '#aaaaaa'],
-            stroke: { curve: 'smooth', width: 2 },
+            plotOptions: {
+                bar: { horizontal: false, columnWidth: '65%', borderRadius: 2, hideZeroBarsWhenGrouped: true }
+            },
+            stroke: { show: false, width: 0 },
             fill: {
                 type: 'solid',
                 opacity: 1
@@ -74,14 +87,28 @@ window.renderDynamicDashboardChart = async function (categories, salesData, purc
                 strokeDashArray: 4
             },
             xaxis: {
-                categories: categories || ['1', '2', '3', '4', '5', '6'],
-                labels: { style: { fontFamily: 'Tajawal, sans-serif', colors: textColor } }
+                categories: dates,
+                axisTicks: { show: false },
+                axisBorder: { show: false },
+                tooltip: { enabled: false },
+                labels: {
+                    rotate: 0,
+                    rotateAlways: false,
+                    hideOverlappingLabels: true,
+                    trim: false,
+                    formatter: dashboardDateLabelFormatter(dates, 10),
+                    style: { fontFamily: 'Tajawal, sans-serif', colors: textColor, fontSize: '11px' }
+                }
             },
             yaxis: {
-                labels: { style: { fontFamily: 'Tajawal, sans-serif', colors: textColor } }
+                tickAmount: 4,
+                labels: { formatter: formatAmount, style: { fontFamily: 'Tajawal, sans-serif', colors: textColor } }
             },
             tooltip: {
+                shared: true,
+                intersect: false,
                 theme: isLight ? 'light' : 'dark',
+                y: { formatter: formatAmount },
                 style: { fontFamily: 'Tajawal, sans-serif' }
             },
             legend: {
@@ -90,7 +117,14 @@ window.renderDynamicDashboardChart = async function (categories, salesData, purc
                 labels: { colors: textColor }
             },
             dataLabels: { enabled: false },
-            markers: { size: 4, hover: { size: 6 } }
+            markers: { size: 0, hover: { size: 0 } },
+            responsive: [{
+                breakpoint: 640,
+                options: {
+                    xaxis: { labels: { formatter: dashboardDateLabelFormatter(dates, 6) } },
+                    legend: { fontSize: '12px', itemMargin: { horizontal: 10 } }
+                }
+            }]
         };
 
         window._dashChart = new ApexCharts(el, options);

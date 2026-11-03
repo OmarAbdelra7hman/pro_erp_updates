@@ -403,6 +403,7 @@ checkServerSignal();
 
 // ── Mobile Menu Toggle ──────────────────────────────────────────
 function setMobileMenuState(isOpen) {
+    isOpen = isOpen && window.matchMedia('(max-width: 767px)').matches;
     const overlay = document.querySelector('.js-mobile-overlay');
     const drawer = document.querySelector('.js-mobile-drawer');
     const toggle = document.querySelector('.js-mobile-menu-toggle');
@@ -444,8 +445,9 @@ document.addEventListener('keydown', function(e) {
     if (e.key === 'Escape') setMobileMenuState(false);
 });
 
-window.addEventListener('resize', function() {
-    if (window.innerWidth > 1200) setMobileMenuState(false);
+window.matchMedia('(max-width: 767px)').addEventListener('change', function(e) {
+    if (!e.matches) setMobileMenuState(false);
+    window.proErpCloseDesktopMenus?.();
 });
 
 window.proErpCloseMobileMenu = function() {
@@ -513,13 +515,15 @@ window.proErpInvoiceSliver = window.proErpInvoiceSliver || (function () {
                 if (current.observer) current.observer.disconnect();
             }
 
-            const scrollRoot = toolbar.closest('.erp-page-viewport') || document.scrollingElement || window;
+            let scrollRoot = toolbar.parentElement;
+            while (scrollRoot && !/(auto|scroll|overlay)/.test(getComputedStyle(scrollRoot).overflowY)) scrollRoot = scrollRoot.parentElement;
+            scrollRoot = scrollRoot || document.scrollingElement || window;
             let ticking = false;
             const update = function () {
                 const scrollTop = scrollRoot === window
                     ? (window.scrollY || document.documentElement.scrollTop || 0)
                     : scrollRoot.scrollTop;
-                toolbar.classList.toggle('is-collapsed', scrollTop > 110);
+                toolbar.classList.toggle('is-collapsed', scrollTop > 80);
                 ticking = false;
             };
             const onScroll = function () {
@@ -562,6 +566,5 @@ window.proErpUpdateInvoiceSlivers = function () {
     });
 };
 
-document.addEventListener('scroll', function () {
-    window.requestAnimationFrame(window.proErpUpdateInvoiceSlivers);
-}, true);
+// Invoice scrolling is observed once per mounted toolbar above. No global
+// capture listener or repeated computed-style walk on every scroll event.
