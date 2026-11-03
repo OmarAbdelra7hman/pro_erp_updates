@@ -7,7 +7,7 @@
   "targets": {
     ".NETCoreApp,Version=v9.0": {},
     ".NETCoreApp,Version=v9.0/win-x64": {
-      "ProERP.Web/1.0.2": {
+      "ProERP.Web/1.0.34": {
         "dependencies": {
           "FastReport.OpenSource.Web": "2026.1.8",
           "FirebaseAdmin": "3.5.0",
@@ -15,10 +15,10 @@
           "Microsoft.AspNetCore.Components.WebAssembly.Server": "9.0.0",
           "Microsoft.EntityFrameworkCore.Design": "9.0.1",
           "Microsoft.Extensions.Hosting.WindowsServices": "9.0.0",
-          "ProERP.Application": "1.0.0",
-          "ProERP.Client": "1.0.0",
-          "ProERP.Infrastructure": "1.0.0",
-          "ProERP.Licensing": "1.0.0",
+          "ProERP.Application": "1.0.34",
+          "ProERP.Client": "1.0.34",
+          "ProERP.Infrastructure": "1.0.34",
+          "ProERP.Licensing": "1.0.34",
           "Radzen.Blazor": "5.9.9",
           "WebPush": "1.0.13"
         },
@@ -1026,40 +1026,40 @@
           }
         }
       },
-      "ProERP.Application/1.0.0": {
+      "ProERP.Application/1.0.34": {
         "dependencies": {
           "Microsoft.Extensions.Caching.Memory": "9.0.1",
-          "ProERP.Domain": "1.0.0"
+          "ProERP.Domain": "1.0.34"
         },
         "runtime": {
           "ProERP.Application.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
+            "assemblyVersion": "1.0.34.0",
+            "fileVersion": "1.0.34.0"
           }
         }
       },
-      "ProERP.Client/1.0.0": {
+      "ProERP.Client/1.0.34": {
         "dependencies": {
           "Microsoft.AspNetCore.Components.WebAssembly": "9.0.0",
-          "ProERP.Application": "1.0.0",
+          "ProERP.Application": "1.0.34",
           "Radzen.Blazor": "5.9.9"
         },
         "runtime": {
           "ProERP.Client.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
+            "assemblyVersion": "1.0.34.0",
+            "fileVersion": "1.0.34.0"
           }
         }
       },
-      "ProERP.Domain/1.0.0": {
+      "ProERP.Domain/1.0.34": {
         "runtime": {
           "ProERP.Domain.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
+            "assemblyVersion": "1.0.34.0",
+            "fileVersion": "1.0.34.0"
           }
         }
       },
-      "ProERP.Infrastructure/1.0.0": {
+      "ProERP.Infrastructure/1.0.34": {
         "dependencies": {
           "BCrypt.Net-Next": "4.0.3",
           "ClosedXML": "0.105.0",
@@ -1070,30 +1070,30 @@
           "Microsoft.EntityFrameworkCore": "9.0.1",
           "Microsoft.Extensions.Caching.Memory": "9.0.1",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.3",
-          "ProERP.Application": "1.0.0",
-          "ProERP.Domain": "1.0.0",
+          "ProERP.Application": "1.0.34",
+          "ProERP.Domain": "1.0.34",
           "System.Drawing.Common": "6.0.0",
           "Telegram.Bot": "22.10.0.1"
         },
         "runtime": {
           "ProERP.Infrastructure.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
+            "assemblyVersion": "1.0.34.0",
+            "fileVersion": "1.0.34.0"
           }
         }
       },
-      "ProERP.Licensing/1.0.0": {
+      "ProERP.Licensing/1.0.34": {
         "runtime": {
           "ProERP.Licensing.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
+            "assemblyVersion": "1.0.34.0",
+            "fileVersion": "1.0.34.0"
           }
         }
       }
     }
   },
   "libraries": {
-    "ProERP.Web/1.0.2": {
+    "ProERP.Web/1.0.34": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -1903,27 +1903,27 @@
       "path": "webpush/1.0.13",
       "hashPath": "webpush.1.0.13.nupkg.sha512"
     },
-    "ProERP.Application/1.0.0": {
+    "ProERP.Application/1.0.34": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "ProERP.Client/1.0.0": {
+    "ProERP.Client/1.0.34": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "ProERP.Domain/1.0.0": {
+    "ProERP.Domain/1.0.34": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "ProERP.Infrastructure/1.0.0": {
+    "ProERP.Infrastructure/1.0.34": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "ProERP.Licensing/1.0.0": {
+    "ProERP.Licensing/1.0.34": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
