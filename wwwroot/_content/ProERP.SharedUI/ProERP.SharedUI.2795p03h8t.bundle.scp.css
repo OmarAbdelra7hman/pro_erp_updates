@@ -1,0 +1,7 @@
+/* _content/ProERP.SharedUI/Documents/DocumentItemsHeader.razor.rz.scp.css */
+.doc-items-header[b-lci3vnficy] { display:flex; justify-content:space-between; align-items:center; padding:var(--doc-items-header-padding,8px 12px); min-height:var(--doc-items-header-height,48px); box-sizing:border-box; gap:8px; background:var(--ui-surface); border-bottom:1px solid var(--clr-border); }
+.doc-items-title[b-lci3vnficy] { display:flex; align-items:center; margin:0; font-size:.8rem; font-weight:600; gap:6px; color:var(--clr-text); }
+.doc-items-title-icon[b-lci3vnficy] { display:flex; align-items:center; justify-content:center; width:20px; height:20px; background:transparent; border-radius:0; color:var(--clr-primary); }
+.doc-items-title-icon[b-lci3vnficy]  .rzi { font-size:17px; }
+.doc-items-count[b-lci3vnficy] { font-size:.65rem; font-weight:500; padding:2px 6px; margin:0; border-radius:20px; background:rgba(91,108,249,.1); color:var(--clr-primary2); }
+@media(max-width:640px) { .doc-items-header[b-lci3vnficy] { flex-wrap:wrap; } }

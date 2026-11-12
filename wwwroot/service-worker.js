@@ -1,8 +1,11 @@
 // One lightweight root worker owns the PWA shell and standards-based Web Push.
-const CACHE_NAME = 'proerp-pwa-v8';
-const OFFLINE_URL = '/offline.html';
+const CACHE_NAME = 'proerp-pwa-v10';
+const OFFLINE_URL = '/offline-workspace/index.html';
 const SHELL_ASSETS = [
     OFFLINE_URL,
+    '/offline-workspace/workspace.css',
+    '/offline-workspace/workspace.mjs',
+    '/offline-workspace/vault.mjs',
     '/manifest.webmanifest',
     '/icon-192.png',
     '/icon-512.png',
@@ -16,12 +19,19 @@ const SHELL_ASSETS = [
     '/js/pwa.js?v=1.0'
 ];
 
+async function localWorkspaceResponse(request = OFFLINE_URL) {
+    const cache = await caches.open(CACHE_NAME);
+    return (await cache.match(request)) || (await caches.match(request));
+}
+
 // Install event - cache essential resources
 self.addEventListener('install', (event) => {
     console.log('[SW] Installing service worker...');
     event.waitUntil(
         caches.open(CACHE_NAME).then(async (cache) => {
-            await Promise.allSettled(SHELL_ASSETS.map(asset => cache.add(asset)));
+            // Never activate half of the executable offline shell.
+            await Promise.all(SHELL_ASSETS.slice(0, 4).map(asset => cache.add(asset)));
+            await Promise.allSettled(SHELL_ASSETS.slice(4).map(asset => cache.add(asset)));
         })
     );
     self.skipWaiting();
@@ -66,15 +76,37 @@ self.addEventListener('fetch', (event) => {
     if (event.request.mode === 'navigate') {
         event.respondWith((async () => {
             try {
-                return (await event.preloadResponse) || await fetch(event.request);
+                const response = (await event.preloadResponse) || await fetch(event.request);
+                if ([502, 503, 504].includes(response.status)) {
+                    const shell = await localWorkspaceResponse();
+                    if (shell) return shell;
+                }
+                return response;
             } catch {
-                return await caches.match(OFFLINE_URL);
+                return (await localWorkspaceResponse()) || Response.error();
             }
         })());
         return;
     }
 
-    const isStaticAsset = /\.(?:css|js|png|jpg|jpeg|svg|woff2?|ico|webmanifest)$/i.test(url.pathname);
+    // The local workspace is a versioned application shell, not user data.
+    // Revalidate online so a previous worker/HTTP cache cannot keep old crypto
+    // or replay code after an update. Only use the cached shell when offline.
+    if (url.pathname.startsWith('/offline-workspace/')) {
+        event.respondWith((async () => {
+            try {
+                const response = await fetch(event.request);
+                if (!response.ok) throw new Error('workspace asset unavailable');
+                const cache = await caches.open(CACHE_NAME);
+                await cache.put(event.request, response.clone());
+                return response;
+            } catch {
+                return (await localWorkspaceResponse(event.request)) || Response.error();
+            }
+        })());
+        return;
+    }
+    const isStaticAsset = /\.(?:css|m?js|png|jpg|jpeg|svg|woff2?|ico|webmanifest)$/i.test(url.pathname);
     if (isStaticAsset) {
         event.respondWith(caches.match(event.request).then(cached => cached || fetch(event.request).then(response => {
             if (response.ok) caches.open(CACHE_NAME).then(cache => cache.put(event.request, response.clone()));

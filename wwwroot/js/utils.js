@@ -144,10 +144,48 @@ window.proErpFocusById = function (id) {
     if (focusable) focusable.focus();
 };
 
+// Fit invoice lists below their real layout position; no polling or server calls.
+window.proErpFitDocumentList = function (root) {
+    if (!root?.isConnected) return;
+    root.style.setProperty('--doc-list-top', Math.max(0, root.getBoundingClientRect().top) + 'px');
+};
+window.proErpFitInvoiceEditor = function (root) {
+    if (!root?.isConnected) return;
+    root.style.setProperty('--doc-editor-top', Math.max(0, root.getBoundingClientRect().top) + 'px');
+};
+window.addEventListener('resize', function () {
+    document.querySelectorAll('.doc-list-viewport').forEach(window.proErpFitDocumentList);
+    document.querySelectorAll('.doc-layout-wrapper').forEach(window.proErpFitInvoiceEditor);
+}, { passive: true });
+
 // ── Voucher: Enter key navigation ──────────────────────────────────────────
+// Invoice save must be deliberate: Enter commits a field/search/selection only.
+// Use the actual submit button so validation, permissions and busy guards remain.
+document.addEventListener('keydown', function (e) {
+    var form = e.target.closest?.('form.doc-invoice-form');
+    if (!form || e.isComposing) return;
+    if (e.key === 'Enter' && !e.target.matches?.('textarea, [contenteditable="true"]')) {
+        var button = e.target.closest?.('button');
+        if (!button || button.type === 'submit') e.preventDefault();
+        return;
+    }
+    if ((e.key === '+' || e.code === 'NumpadAdd') && !e.ctrlKey && !e.altKey && !e.metaKey
+        && !e.target.matches?.('textarea, [contenteditable="true"]')) {
+        e.preventDefault();
+        if (e.repeat) return;
+        // Let the focused editor publish its latest value before submitting.
+        var save = form.querySelector('button.doc-invoice-save');
+        if (!save || save.disabled) return;
+        e.target.blur?.();
+        save.click();
+    }
+}, true);
+
 // Uses capture=true so it fires BEFORE Radzen's internal keydown handlers
 document.addEventListener('keydown', function (e) {
     if (e.key !== 'Enter') return;
+    // A scanner/search Enter submits only the item query, never the invoice.
+    if (e.target.matches?.('.doc-unified-item-input')) { e.preventDefault(); return; }
 
     // Enter on the amount field → jump to from-account
     var amountEl = document.getElementById('voucherAmount');
@@ -568,3 +606,11 @@ window.proErpUpdateInvoiceSlivers = function () {
 
 // Invoice scrolling is observed once per mounted toolbar above. No global
 // capture listener or repeated computed-style walk on every scroll event.
+// A hidden invoice tab is made visible by Blazor before this focus handoff.
+window.proErpFocusInvoiceField = function (root, field) {
+    if (!root) return;
+    let target = root.querySelector('[id="' + CSS.escape(field) + '"]') ||
+        root.querySelector('[name="' + CSS.escape(field) + '"]');
+    if (target) target = target.closest('.rz-dropdown') || target;
+    if (target) { target.focus({ preventScroll: true }); target.scrollIntoView({ block: 'nearest' }); }
+};

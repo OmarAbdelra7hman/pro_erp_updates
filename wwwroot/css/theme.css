@@ -212,6 +212,49 @@
 }
 
 /* Adapters for vendor elements which do not expose a state-color token. */
+/* Select actions reserve separate slots. Material icons may use direction:ltr
+   internally, so anchor against the SELECT direction, not the icon direction. */
+:is(.rz-dropdown, .rz-multiselect) { --ui-select-action-size: 1.75rem; }
+:is(.rz-dropdown, .rz-multiselect) > :is(.rz-dropdown-trigger, .rz-multiselect-trigger) {
+    width: var(--ui-select-action-size);
+    justify-content: center;
+    left: auto;
+    right: 0;
+}
+:is(.rz-dropdown, .rz-multiselect):dir(rtl) > :is(.rz-dropdown-trigger, .rz-multiselect-trigger) {
+    right: auto;
+    left: 0;
+}
+:is(.rz-dropdown, .rz-multiselect) > .rz-dropdown-clear-icon {
+    inset: 0 auto 0 auto;
+    right: var(--ui-select-action-size);
+    width: var(--ui-select-action-size);
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font-size: 1rem;
+    color: var(--ui-text-secondary);
+    opacity: 1;
+    cursor: pointer;
+}
+:is(.rz-dropdown, .rz-multiselect):dir(rtl) > .rz-dropdown-clear-icon {
+    right: auto;
+    left: var(--ui-select-action-size);
+}
+:is(.rz-dropdown, .rz-multiselect).rz-clear > :is(.rz-dropdown-label, .rz-multiselect-label-container) {
+    box-sizing: border-box;
+    padding-right: calc(2 * var(--ui-select-action-size));
+    padding-left: .5rem;
+}
+:is(.rz-dropdown, .rz-multiselect).rz-clear:dir(rtl) > :is(.rz-dropdown-label, .rz-multiselect-label-container) {
+    padding-left: calc(2 * var(--ui-select-action-size));
+    padding-right: .5rem;
+}
+:is(.rz-dropdown, .rz-multiselect) > .rz-dropdown-clear-icon:hover { color: var(--ui-text); }
+:is(.rz-dropdown, .rz-multiselect).rz-state-disabled > .rz-dropdown-clear-icon { display: none; }
+
 .rz-splitbutton-menu, .rz-dropdown-panel, .rz-multiselect-panel, .rz-autocomplete-panel { color: var(--ui-text); }
 .rz-button.rz-light:not(.rz-variant-text) {
     background: var(--ui-surface-raised); border: 1px solid var(--ui-border-strong); color: var(--ui-text);

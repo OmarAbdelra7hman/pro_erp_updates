@@ -3019,6 +3019,8 @@ html.mobile-menu-open body {
 .topbar-connection #server-signal-icon[data-state="disconnected"] { background: #ef4444; }
 .topbar-account-panel button { display: flex; align-items: center; gap: 10px; width: 100%; min-height: 42px; padding: 9px 10px; border: 0; border-radius: 7px; background: transparent; color: var(--clr-text); font: inherit; font-size: 13px; text-align: start; cursor: pointer; }
 .topbar-account-panel button:hover { background: rgba(86,104,242,.07); }
+.topbar-account-panel .topbar-offline-link { display:flex; align-items:center; width:100%; min-height:42px; padding:9px 10px; border-radius:7px; color:var(--clr-text); font:inherit; font-size:13px; text-decoration:none; }
+.topbar-account-panel .topbar-offline-link:hover { background:var(--ui-hover-bg); }
 .topbar-account-panel .topbar-logout { color: #c93c44; }
 .topbar-account-divider { border-top: 1px solid var(--clr-border); margin: 5px 2px; }
 [data-theme="dark"] .erp-topnav .premium-nav-item.is-current > .premium-nav-btn,
@@ -3085,15 +3087,8 @@ html.mobile-menu-open body {
     .doc-layout-wrapper .doc-meta-field-wide > :not(label) { width:100%; }
     .doc-layout-wrapper .doc-meta-header { margin-bottom:12px; }
     .doc-layout-wrapper .doc-meta-body { padding:14px 16px; }
-    .doc-layout-wrapper .doc-bottom-section {
-        display:grid !important; grid-template-columns:repeat(2,minmax(0,1fr));
-        gap:12px !important; margin-top:12px !important; align-items:stretch !important;
-    }
-    .doc-layout-wrapper .doc-financial-cards { display:contents; }
-    .doc-layout-wrapper .doc-summary-card { grid-column:1; grid-row:1; min-width:0; }
-    .doc-layout-wrapper .doc-payment-card { grid-column:2; grid-row:1; min-width:0; max-width:none !important; }
-    .doc-layout-wrapper .doc-adjustments-card { grid-column:1 / -1; grid-row:2; min-width:0; }
-    .doc-layout-wrapper .doc-totals-body { padding:12px !important; }
+    /* Financial cards own their shared responsive layout in the editor's
+       isolated stylesheet; avoid viewport overrides fighting those rules. */
     .doc-layout-wrapper .doc-sliver-toolbar { gap:6px !important; padding:8px 10px !important; margin-bottom:12px !important; }
     .doc-layout-wrapper .doc-sliver-toolbar .doc-toolbar-secondary { display:none !important; }
     .doc-layout-wrapper .doc-tablet-menu-action { display:flex; min-height:40px; }
