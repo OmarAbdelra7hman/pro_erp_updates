@@ -1,5 +1,5 @@
 // One lightweight root worker owns the PWA shell and standards-based Web Push.
-const CACHE_NAME = 'proerp-pwa-v10';
+const CACHE_NAME = 'proerp-pwa-v11';
 const OFFLINE_URL = '/offline-workspace/index.html';
 const SHELL_ASSETS = [
     OFFLINE_URL,
@@ -7,8 +7,8 @@ const SHELL_ASSETS = [
     '/offline-workspace/workspace.mjs',
     '/offline-workspace/vault.mjs',
     '/manifest.webmanifest',
-    '/icon-192.png',
-    '/icon-512.png',
+    '/icon-192.png?v=brand1',
+    '/icon-512.png?v=brand1',
     '/logo.png',
     '/css/fonts.css?v=20260630.1',
     '/css/app.css?v=20260630.1',
