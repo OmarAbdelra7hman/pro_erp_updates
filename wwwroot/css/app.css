@@ -2236,9 +2236,12 @@ html.mobile-menu-open body {
 .doc-meta-card .rz-state-disabled, .doc-meta-card input:disabled { opacity: 1; color: var(--clr-text); }
 .doc-meta-card .rz-state-disabled .rz-dropdown-label { opacity: 1; color: var(--clr-text); }
 .doc-meta-card input:disabled { -webkit-text-fill-color: var(--clr-text); }
-.doc-nav-button { display:inline-flex; align-items:center; justify-content:center; width:36px; height:36px; flex:0 0 36px; padding:0; border:1px solid var(--clr-border); border-radius:8px; background:var(--clr-surface); color:var(--clr-text); cursor:pointer; }
-.doc-nav-button:disabled { opacity:.35; cursor:default; }
-.doc-nav-button:focus-visible { outline:2px solid var(--clr-primary); outline-offset:2px; }
+.doc-nav-button, .doc-cancel-button { display:inline-flex; align-items:center; justify-content:center; min-height:36px; border:1px solid var(--ui-border-strong); border-radius:8px; background:var(--ui-surface-raised); color:var(--ui-text); font:inherit; cursor:pointer; }
+.doc-nav-button { width:36px; flex:0 0 36px; padding:0; }
+.doc-nav-button:disabled { background:var(--ui-disabled-bg); color:var(--ui-disabled-text); opacity:1; cursor:not-allowed; }
+.doc-nav-button:not(:disabled):hover, .doc-cancel-button:hover { background:var(--ui-hover-bg); }
+.doc-cancel-button { padding-inline:16px; color:var(--ui-danger-text); font-weight:600; }
+.doc-nav-button:focus-visible, .doc-cancel-button:focus-visible { outline:2px solid var(--ui-focus); outline-offset:2px; }
 
 /* ── Balance Indicator ── */
 .doc-balance-strip {

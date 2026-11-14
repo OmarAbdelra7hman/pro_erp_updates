@@ -389,7 +389,8 @@ h1[b-z5i5asqeq4]{margin:0;font-size:21px;font-weight:600;line-height:1.5;color:v
 .doc-tab-navigation button[aria-selected="true"][b-d8f21zk8pe] { border-color:var(--ui-primary); background:var(--ui-selected-bg); color:var(--ui-selected-text); }
 .doc-tab-navigation button:not([aria-selected="true"]):hover[b-d8f21zk8pe] { background:var(--ui-hover-bg); }
 .doc-tab-navigation button:focus-visible[b-d8f21zk8pe] { outline:2px solid var(--ui-focus); outline-offset:2px; }
-.doc-persistent-totals[b-d8f21zk8pe] { display:flex; flex-wrap:wrap; align-items:center; gap:8px 16px; padding:6px 12px; border:1px solid var(--ui-border); border-radius:9px; background:var(--ui-surface); font-size:.78rem; color:var(--ui-text-secondary); }
+.doc-sticky-header[b-d8f21zk8pe] { position:sticky; inset-block-start:0; z-index:100; flex-shrink:0; padding-block-end:10px; }
+.doc-persistent-totals[b-d8f21zk8pe] { width:100%; max-width:1668px; margin-inline:auto; box-sizing:border-box; display:flex; flex-wrap:wrap; align-items:center; gap:8px 16px; padding:6px 12px; border:1px solid var(--ui-border); border-radius:9px; background:var(--ui-surface); font-size:.78rem; color:var(--ui-text-secondary); }
 .doc-summary-amounts[b-d8f21zk8pe] { display:flex; flex-wrap:wrap; align-items:center; gap:6px 20px; min-width:0; }
 .doc-persistent-totals strong[b-d8f21zk8pe] { margin-inline-start:8px; font-variant-numeric:tabular-nums; color:var(--ui-text); }
 .doc-persistent-totals small[b-d8f21zk8pe] { font-weight:400; font-size:.7rem; }
@@ -579,8 +580,6 @@ h1[b-z5i5asqeq4]{margin:0;font-size:21px;font-weight:600;line-height:1.5;color:v
         height:calc(100dvh - var(--doc-editor-top,120px) - 12px);
         padding-block-end:0;
     }
-    .doc-layout-wrapper:has(#doc-main-panel:not([hidden])) .doc-sliver-toolbar[b-d8f21zk8pe],
-    .doc-editor-compact .doc-persistent-totals[b-d8f21zk8pe],
     #doc-main-panel .doc-meta-card[b-d8f21zk8pe] { flex-shrink:0; }
     .doc-layout-wrapper:has(#doc-main-panel:not([hidden])) .doc-editor-compact[b-d8f21zk8pe],
     #doc-main-panel[b-d8f21zk8pe] { flex:1; min-height:0; }
