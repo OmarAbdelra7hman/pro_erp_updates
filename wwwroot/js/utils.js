@@ -1,4 +1,15 @@
 // ── Blazor interop: single global functions (avoid "a.b.c" identifiers — blazor.web.js findFunction can fail) ──
+window.proErpShowVariantDialog = function (dialog) {
+    if (dialog.open) return;
+    dialog.addEventListener('cancel', function (event) {
+        event.preventDefault();
+        dialog.querySelector('[data-modal-dismiss]')?.click();
+    });
+    dialog.showModal();
+};
+window.proErpCloseVariantDialog = function (dialog) {
+    if (dialog?.open) dialog.close();
+};
 window.proErpApplyTheme = function (username) {
     try {
         if (window.themeHelper && typeof window.themeHelper.applyTheme === 'function')

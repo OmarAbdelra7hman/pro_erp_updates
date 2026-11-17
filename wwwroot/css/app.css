@@ -2243,6 +2243,11 @@ html.mobile-menu-open body {
 .doc-cancel-button { padding-inline:16px; color:var(--ui-danger-text); font-weight:600; }
 .doc-nav-button:focus-visible, .doc-cancel-button:focus-visible { outline:2px solid var(--ui-focus); outline-offset:2px; }
 
+/* Account dropdown panels are positioned inside the editor; don't clip them
+   to the card. Round the accent itself instead of clipping the whole form. */
+.voucher-edit-card { background:var(--clr-surface); border-radius:16px; border:1px solid var(--clr-border); overflow:visible; box-shadow:var(--shadow-card); }
+.voucher-edit-accent { height:4px; border-start-start-radius:15px; border-start-end-radius:15px; }
+
 /* ── Balance Indicator ── */
 .doc-balance-strip {
     display: flex;
